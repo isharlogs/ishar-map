@@ -1,0 +1,119 @@
+{
+  "zone_name": "Within the Mists",
+  "entry_vnum": 61038,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 15,
+    "max_y": 15
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 61038,
+      "rooms": {
+        "61049": {
+          "vnum": 61049,
+          "name": "Hollowing Mists",
+          "description": "Rolling clouds of wispy vapour flow by, obscuring your view of the surroundings. You feel a floor beneath your feet but cannot touch it, sense walls about but cannot see them. Shadows cross your path at angles, the sources never viewed. Glimpses of other places can be had at the corners of your vision, yet focusing upon any you find only the hollowing mists.",
+          "grid_x": 3,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55043,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along a Huge Branch",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61094,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Bottom of a Mist-Filled Well",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61045,
+            61046,
+            61047,
+            61048
+          ],
+          "npcs": [
+            {
+              "name": "Translucent daemon",
+              "description": "It's... beautiful... and... HUNGRY.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61038": {
+          "vnum": 61038,
+          "name": "Small Misty Cave",
+          "description": "A collection of oddly mismatched objects and broken furnishings fill this small cave at the bottom of the misty well. An assortment of hand-made tools lay upon a crooked desk of aging wood. Upon the cold stone floor is a thin bedroll next to a low, flat stone covered in melted wax.",
+          "grid_x": 0,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61094,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Bottom of a Mist-Filled Well",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 15,
+        "max_y": 15,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": []
+}

@@ -1,0 +1,1858 @@
+{
+  "zone_name": "Seabreeze Village - City of Mareldja",
+  "entry_vnum": 24200,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 3,
+    "min_y": -5,
+    "max_y": 2
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 24229,
+      "rooms": {
+        "24229": {
+          "vnum": 24229,
+          "name": "The Vault",
+          "description": "A series of candle sconces line the walls, casting eerie shadows that dance and flicker, creating an atmosphere of mystery and reverence. The room exudes an aura of history, secrets, and the allure of the ocean's vast unknowns. At the center of the room stands a podium, made of aged driftwood and adorned with nautical carvings.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 24223,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabound Study",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24200,
+      "rooms": {
+        "24200": {
+          "vnum": 24200,
+          "name": "Narrow Path",
+          "description": "The narrow path hugs the edge of the towering cliff. Waves crash relentlessly against the cliff base, their echoed roars a constant companion as you navigate the trail. As you round a bend, the salt spray lessens, giving way to the welcome scent of sea-kelp and brine-soaked earth.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24201,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Village Outskirts",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 24001,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rocky Beach",
+              "direction": "se",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24201": {
+          "vnum": 24201,
+          "name": "Village Outskirts",
+          "description": "The occasional squawk of a seagull overhead is now joined by faint sounds of civilization: distant laughter, the rhythmic clatter of cartwheels on cobblestone, and the inviting scent of wood-smoke and roasting fish. The vibrant heart of this seaside settlement can be seen to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24202,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Square",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24200,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Narrow Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24202": {
+          "vnum": 24202,
+          "name": "Seabreeze Square",
+          "description": "Sun-bleached wooden buildings, adorned with hanging plants and colorful flags, line the cobblestone streets. Villagers meander the market square, haggling over fresh catch from the sea, while others relax under canopies in open-air cafes, their laughter carried away by the ocean breeze. Seagulls circle overhead, singing the salty song of the sea.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24205,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Mariner's Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24203,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24201,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Village Outskirts",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24204,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Cobblestone Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24203": {
+          "vnum": 24203,
+          "name": "Artisan's Alley",
+          "description": "The rich, pungent scent of fish and seaweed permeates the air. Stalls overflowing with fresh catch, colorful shells, and various maritime trinkets line the narrow streets, while locals and visitors haggle passionately over prices. The rhythmic calls of vendors and chatter of shoppers blend with the distant squawking of gulls to create a bustling seaside symphony.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24212,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Mariner's Memorial",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24213,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24202,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Square",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24211,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Tavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24204": {
+          "vnum": 24204,
+          "name": "Cobblestone Path",
+          "description": "To the west, the cobblestone path surrenders to a sandy trail, bordered on both sides by the waving fronds of beachgrass. Far in the west, the village's lighthouse stands tall and proud, serving as a lone sentinel that shepherds sailors safely back to the harbor.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24202,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Square",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24206,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Base of the Lighthouse",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24205": {
+          "vnum": 24205,
+          "name": "Mariner's Lane",
+          "description": "The narrow street is flanked by modest cottages, their facades adorned with the whimsical music of seashell wind chimes and front gardens kissed by the local sand. Ambient sounds of daily life weave together to create the village's tranquil symphony.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24210,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Cottage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 24209,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Cottage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 24202,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Square",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24206": {
+          "vnum": 24206,
+          "name": "Base of the Lighthouse",
+          "description": "The area is veiled in a mist of briny sea breeze, with patches adorned by barnacles. Its once-white stone facade shows signs of wear, testament to the many storms it has endured. A welcoming entrance beckons visitors to ascend and view the beacon. Flanking the passage, windows filter in a soft, natural glow.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24204,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Cobblestone Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24207,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Lighthouse Stairwell",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24209": {
+          "vnum": 24209,
+          "name": "Cottage",
+          "description": "This humble cottage exhibits a butter-yellow exterior and a roof of weathered shingles. The gentle hum of a spinning wheel and the soft clink of pottery reveal a space rich with craftsmanship. Woolen rugs, hand-dyed in shades of ocean blue and sunset pink, line the floors. The center of the cottage features a sturdy oak table surrounded by hand-carved chairs.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24205,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Mariner's Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24210": {
+          "vnum": 24210,
+          "name": "Cottage",
+          "description": "The scent of dried lavender fills the air, immediately offering a sense of homely warmth. A cozy fireplace, its mantel adorned with seashells and driftwood, crackles softly in the corner. Nearby, a wooden table, set with blue and white china, waits ready for a family meal. Delicate paintings of local landscapes grace the walls.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24205,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Mariner's Lane",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24211": {
+          "vnum": 24211,
+          "name": "Seabreeze Tavern",
+          "description": "Weathered wooden beams crisscross the ceiling, supporting the lanterns that bathe the room in a warm, amber hue. The air is a blend of salt from the nearby sea and the rich aroma of roasted seafood. Rustic tables, worn smooth by countless elbows and tankards, are scattered across the room. A large, polished bar dominates the far wall.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24203,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24212": {
+          "vnum": 24212,
+          "name": "Mariner's Memorial",
+          "description": "A large, intricately carved stone anchor stands at the memorial's center, with each fluke bearing inscriptions of names and dates, a testament to brave souls lost. Surrounding the anchor, there's a semi-circle of weathered stone benches where visitors can sit and reflect. Bronze plaques dot the area, each one telling tales of shipwrecks, heroic rescues, and legendary mariners.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24203,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24213": {
+          "vnum": 24213,
+          "name": "Artisan's Alley",
+          "description": "Tucked away from the main thoroughfare is a bustling hive of creativity and craftsmanship. Lined on both sides with a myriad of stalls and small shops, it offers a kaleidoscope of color and sensory delights. Delicate chimes, handcrafted from sea glass and driftwood, tinkle in the breeze, while artists showcase their paintings and sculptures, each piece reflecting the essence of coastal life.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24215,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Inn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24218,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Market",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24203,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24214,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Wharf",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24214": {
+          "vnum": 24214,
+          "name": "The Wharf",
+          "description": "Weathered planks stretch ahead, echoing the footsteps of merchants, sailors, and fishermen. Makeshift stalls line the edges, displaying a vibrant array of fresh catches, from iridescent scales of local fish to crates brimming with mussels and clams.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24213,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24217,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Harbor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25033,
+              "to_zone": "The Ocean",
+              "to_room_name": "Forbidding Coast",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24215": {
+          "vnum": 24215,
+          "name": "Seabreeze Inn",
+          "description": "The main hall of the inn is anchored by a massive stone fireplace, which crackles merrily and radiates heat, warding off the evening chill. Wooden beams hold up the ceiling, bearing witness to the age and history of the establishment. A variety of tables, from cozy corners for two to larger communal settings, dot the floor, all set with handcrafted pottery dishes.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24213,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24216,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Guest Quarters",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24217": {
+          "vnum": 24217,
+          "name": "Seabreeze Harbor",
+          "description": "A quaint harbor nestled at the edge of the village, offers sanctuary to small fishing boats and modest traders' vessels. Its calm waters are protected from the wilder sea currents by a curved jetty, creating a gentle lapping sound as waves kiss the wooden piers. Seagulls perch atop mooring posts, crying out in search of the day's catch.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24218,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Market",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24219,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Dockside Warehouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24214,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Wharf",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25036,
+              "to_zone": "The Ocean",
+              "to_room_name": "Muted Waters",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24218": {
+          "vnum": 24218,
+          "name": "Seabreeze Market",
+          "description": "This marketplace is a bustling hub of activity where villagers and visitors alike gather to procure the freshest catch and produce. The salty scent of the ocean mingles with the mouthwatering aroma of grilled fish and spices. This marketplace isn't just a place to buy food; it's where stories are exchanged, friendships are forged, and the heartbeat of the village can be felt.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24228,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Guardhouse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24220,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Paved Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24213,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Artisan's Alley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24217,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Harbor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24219": {
+          "vnum": 24219,
+          "name": "Dockside Warehouse",
+          "description": "Wooden beams stretch overhead, supporting a roof darkened by age and saltwater mist. Rows upon rows of stacked crates and barrels bear markings from distant lands, their contents secured and awaiting distribution. The slightly damp air is infused with a medley of aromas: spices, cured fish, aged wood, and the ever- present tang of the sea.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24217,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Harbor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24220": {
+          "vnum": 24220,
+          "name": "Paved Path",
+          "description": "Composed of smooth, pale cobblestones, it winds gently uphill, flanked on both sides by rows of blooming coastal flowers and hardy shrubs, their colors contrasting beautifully with the deep blues of the nearby sea. Lanterns on ornate wrought-iron posts illuminate the way, especially during evenings, casting soft, flickering light onto the cobbles.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24221,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Eldenview Manor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24218,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Market",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24221": {
+          "vnum": 24221,
+          "name": "Eldenview Manor",
+          "description": "Built primarily from white-washed stone, the manor has endured the salty sea air for generations. Terracotta roof tiles are speckled with moss, telling tales of the many rains it has weathered. Ivy climbs up its walls in places, framing arched windows that shimmer with stained glass depictions of maritime legends.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24222,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Grand Foyer",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24220,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Paved Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24222": {
+          "vnum": 24222,
+          "name": "The Grand Foyer",
+          "description": "High vaulted ceilings, supported by ornate marine-themed columns, showcase a breathtaking chandelier crafted from crystalline seashells that cast a soft, iridescent glow. Along the walls, grand tapestries depict historical maritime events of Mareldja, their vivid colors and intricate details speaking of great craftsmanship.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24225,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Lounge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24223,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabound Study",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24224,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Conservatory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24221,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Eldenview Manor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24223": {
+          "vnum": 24223,
+          "name": "Seabound Study",
+          "description": "Rich mahogany bookshelves, stretching from floor to ceiling, hold a vast collection of scrolls, tomes, and maps, many detailing Mareldja's nautical history and the mysteries of the surrounding waters. At the center stands a grand wooden desk, its surface scattered with parchments and quills, revealing a space not just for reading but also for contemplation and creation.",
+          "grid_x": 2,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24222,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Grand Foyer",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24229,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Vault",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24224": {
+          "vnum": 24224,
+          "name": "Conservatory",
+          "description": "Tall, arched glass windows envelop the space, allowing generous sunlight to filter in during the day. Verdant ferns and lush tropical plants crowd the space, each carefully placed to enjoy the sun's rays. The scent of blooming jasmine and gardenias fills the air, mingling with the more subtle aroma of moss and damp earth.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24222,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Grand Foyer",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24225": {
+          "vnum": 24225,
+          "name": "The Lounge",
+          "description": "This lounge area is spacious and bathed in a soft, warm light, it's anchored by a grand, stone-lined fireplace whose flames dance and flicker, casting a cozy ambiance throughout. The walls are adorned with framed paintings of seascapes and portraits of notable village ancestors. Rich, earth-toned rugs lay underfoot, their intricate patterns mirroring the waves outside and softening the sound of footsteps.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24226,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Dining Area",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24227,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Master Bedroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24222,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Grand Foyer",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24226": {
+          "vnum": 24226,
+          "name": "Dining Area",
+          "description": "Dominating the room is a handcrafted circular table made from rich mahogany, its surface gleaming from years of polish and care. The table, designed to seat no more than six, offers a sense of closeness, encouraging hushed conversations and shared laughter. Each chair, upholstered with tufted sea- blue fabric, features ornate carvings of local marine life, a nod to Mareldja's heritage.",
+          "grid_x": 3,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24225,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Lounge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24227": {
+          "vnum": 24227,
+          "name": "Master Bedroom",
+          "description": "A vast, four-poster bed, constructed from driftwood and intricately carved with maritime motifs, dominates the space. Its plush mattress is adorned with crisp white linens, gently kissed by tones of seafoam green and ocean blue. The walls are dressed in a soft, sandy hue, adorned intermittently with framed sketches of the local coastline. The wooden floor, lightly whitewashed, is softened by handwoven rugs depicting naval journeys and mythical sea creatures.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24225,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "The Lounge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24228": {
+          "vnum": 24228,
+          "name": "The Guardhouse",
+          "description": "The shack stands humble and worn, a testament to the many seasons it has endured. A series of tattered hammocks swing from wooden beams, each accompanied by a small, battered chest for personal belongings. A single lantern hangs in the center, casting a dim, flickering light. On one wall, a makeshift shelf holds a few dented flasks and bowls.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24218,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Market",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 3,
+        "min_y": -5,
+        "max_y": 2,
+        "room_count": 26
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 24207,
+      "rooms": {
+        "24207": {
+          "vnum": 24207,
+          "name": "Lighthouse Stairwell",
+          "description": "The echoing footfalls on the stone staircase resonate in this vertical passage of the lighthouse. Each step, hewn from solid rock, shows signs of wear from countless ascents and descents. Roughened walls rise on either side, cold to the touch, with moisture beads occasionally forming. Halfway up, a singular window breaks the monotonous climb, offering a fleeting glimpse of the restless sea below, its waves crashing in rhythmic patterns.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24206,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Base of the Lighthouse",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24208,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Lighthouse Summit",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24216": {
+          "vnum": 24216,
+          "name": "Guest Quarters",
+          "description": "The wooden floorboards, slightly worn from countless travelers' footsteps, are covered with woven rugs in maritime hues of blue and green. Overhead, exposed rafters lend a rustic charm. Three sturdy beds, each dressed in linens of deep sea blue, are arranged thoughtfully within the room. The walls are decorated with simple prints of coastal landscapes, showcasing the natural beauty of the surrounding area.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24215,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Seabreeze Inn",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": -2,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 24208,
+      "rooms": {
+        "24208": {
+          "vnum": 24208,
+          "name": "Lighthouse Summit",
+          "description": "At this lofty height, the world unfurls in panoramic splendor below. The sturdy platform here is surrounded by a waist-high parapet, affording both safety and an unobstructed view. The lighthouse's powerful beacon stands at the center, its light rotating steadily, casting a brilliant beam far into the horizon. It's a place of reflection and solitude, where one can feel simultaneously insignificant amidst the vastness of nature, yet deeply connected to everything.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24207,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Lighthouse Stairwell",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24200,
+      "to": 24201,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24201,
+      "to": 24202,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24202,
+      "to": 24205,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24202,
+      "to": 24203,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24202,
+      "to": 24204,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24203,
+      "to": 24212,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24203,
+      "to": 24213,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24203,
+      "to": 24211,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24204,
+      "to": 24206,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24205,
+      "to": 24210,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 24205,
+      "to": 24209,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 24213,
+      "to": 24215,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24213,
+      "to": 24218,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24213,
+      "to": 24214,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24214,
+      "to": 24217,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24217,
+      "to": 24218,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24217,
+      "to": 24219,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24218,
+      "to": 24228,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24218,
+      "to": 24220,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24220,
+      "to": 24221,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24221,
+      "to": 24222,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24222,
+      "to": 24225,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24222,
+      "to": 24223,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24222,
+      "to": 24224,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24225,
+      "to": 24226,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24225,
+      "to": 24227,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

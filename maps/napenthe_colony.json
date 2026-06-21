@@ -1,0 +1,5903 @@
+{
+  "zone_name": "Napenthe Colony",
+  "entry_vnum": 47046,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -9,
+    "max_x": 10,
+    "min_y": -3,
+    "max_y": 15
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 47044,
+      "rooms": {
+        "47044": {
+          "vnum": 47044,
+          "name": "Bottom of the Slope",
+          "description": "Stones worn smooth by running water have been transported here to form a winding path through the forest, near the bottom of an overgrown slope. Up above the outlines of several stone structures can be seen.",
+          "grid_x": 0,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47007,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Path-stones",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47046,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Top of the Slope",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47063": {
+          "vnum": 47063,
+          "name": "Inn Storeroom",
+          "description": "A clean, nondescript storeroom. Boxes of forgotten items are stacked only slightly haphazardly against an earthen eastern wall. A few random baubles and scraps of gear have been swept into the corners. The door to the Inn's vault looms to your north, and a small tunnel exits through the western wall.",
+          "grid_x": 3,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47058,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Inn Vault",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 47055,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Small Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 47007,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Path-stones",
+              "direction": "go into",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47062,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Basilisk Inn",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47068": {
+          "vnum": 47068,
+          "name": "Workshop Basement",
+          "description": "You stand within a small, square basement below the workshop of Astorath. Bits of gems and stone are strewn about, freely mixed with shards of oddly shaped steel and lumps of solid iron. A strange, shifting opening upon a nearby wall beckons you inward.",
+          "grid_x": 3,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go through": {
+              "to_vnum": 47190,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Shifting Stone Maze",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47064,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Entrance to Astorath's Workshop",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 15,
+        "max_y": 15,
+        "room_count": 3
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47028,
+      "rooms": {
+        "47104": {
+          "vnum": 47104,
+          "name": "Falzior Road",
+          "description": "Turning here underneath a natural canopy formed by the tangled branches of two elder trees, the Falzior road offers passage north, and both routes appear to pass entrances to the local tavern. Nestled within the trees to the west is a strange building of stone and steel. Something within an abandoned shop to the west catches your eye.",
+          "grid_x": -7,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47103,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47105,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47028,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Abandoned Shop",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47105": {
+          "vnum": 47105,
+          "name": "North Falzior Road",
+          "description": "North Falzior ambles away from the steeply dropping slope to the south, passing the west-end of the local tavern, heading toward a nondescript building surrounded by several skulking figures. A fork turning west lays just ahead to the north.",
+          "grid_x": -7,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47051,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Tavern Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47106,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47104,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47106": {
+          "vnum": 47106,
+          "name": "North Falzior Road",
+          "description": "Falzior ends here, before an unkempt little building surrounded by beggars and thieves. Something barely qualifying as a path ventures to to the west through the foliage upon the mount, and the road offers passage southward, past the tavern's side entrance.",
+          "grid_x": -7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47053,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Stone Shop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47105,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47107,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Masindaar Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47107": {
+          "vnum": 47107,
+          "name": "Masindaar Path",
+          "description": "A small, cloistered path breaks off from Falzior road to head westward through the burgeoning mountainside greenery. You can see the edge of a shrine just west, and the tavern across Falzior to the east.",
+          "grid_x": -8,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47106,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47108,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Masindaar Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47108": {
+          "vnum": 47108,
+          "name": "Masindaar Path",
+          "description": "The cluttered path known by the name Masindaar ends here, before a meager, downtrodden shrine surrounded by brush and trees. The path meanders eastwards, toward Falzior Road. To the north, the the edge of a small pit can be seen.",
+          "grid_x": -9,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47107,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Masindaar Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47389,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Murky Pit",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47047,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Indequat's Amiable Alignments",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47110": {
+          "vnum": 47110,
+          "name": "Alumbir Trail",
+          "description": "Alumbir trail curves eastward, just above an even smaller trail along the edge of the basin below. At this elevation the ancient basin trees yet obscure one's view, still looming far overhead.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47111,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47101,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47111": {
+          "vnum": 47111,
+          "name": "Alumbir Trail",
+          "description": "Here Alumbir splits, one fork climbing upward through the lush mountain vegetation, the other continuing eastward. A tiny creature made entirely of stone scampers by, peering up at you for a moment before diving into the greenery. Smoke drifts from the northeast.",
+          "grid_x": 0,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47120,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47112,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47110,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47112": {
+          "vnum": 47112,
+          "name": "North Alumbir Trail",
+          "description": "North Alumbir climbs the slowly rising terrain upon the mount, splitting here into two paths, one leading further upward toward a well-kept Inn, the other turning eastward along a narrow, overgrown path.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47114,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "East Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47113,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47111,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47113": {
+          "vnum": 47113,
+          "name": "North Alumbir Trail",
+          "description": "Here before the entrance to the Basilisk Inn halts North Alumbir, surrounded by a multitude of healthy, yet small trees which seem to grow right out of the rock. The Inn is not so much a building on the mount as it is a part of the terrain itself. Alumbir ventures downward, splitting into two paths. Through the brush here you can spot Lusian Trail below and to the west.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47062,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Basilisk Inn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47112,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47136,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47114": {
+          "vnum": 47114,
+          "name": "East Alumbir Trail",
+          "description": "An overgrown, footworn trail passes below the Basilisk Inn above, near North Alumbir. To the east the trail ends at the edge of a small stone and wood bridge.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47115,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "East Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47112,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47115": {
+          "vnum": 47115,
+          "name": "East Alumbir Trail",
+          "description": "East Alumbir turns northeast through the brush and halts before a thin wooden bridge crossing HalfMoon road below. Through the dense growth here you glimpse the Basilisk Inn above, and several small structures below, to the south and southeast.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47116,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47114,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "East Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47116": {
+          "vnum": 47116,
+          "name": "HalfMoon Bridge",
+          "description": "The old bridge is small, but sturdy, and passes over a wide road skirting the rising mountainside. Still rise the elder forest trees, preventing what otherwise might be a spectacular view of the basin as it stretches out toward the southern lands, and the coast far west. Among the interwoven branches of the trees to the southwest is nestled a small Inn.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47070,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "On the Mount",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47115,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "East Alumbir Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47117": {
+          "vnum": 47117,
+          "name": "Backroom",
+          "description": "You crowd into a tiny, cluttered back room within Basilisk Inn. Piles of broken and abandoned belongings collect dust along the walls, and the only fresh air present drifts in through a shattered window which overlooks the eastern section of Napenthe.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47118,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Basilisk Inn",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47118": {
+          "vnum": 47118,
+          "name": "Basilisk Inn",
+          "description": "Carved into the solid stone wall here is the image of a Basilisk, poised and ready to strike. Local legend has it that such a creature is actually present, guarding the storeroom of the Inn. Several worn chairs are stationed around the smallish room, surrounding a few bare stone tables. A rack of bandages and general supplies rests against one wall, and a large curtain of leathery skin hangs opposite. The Inn exit is to the west.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47117,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Backroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47062,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Basilisk Inn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47119": {
+          "vnum": 47119,
+          "name": "Small Copse",
+          "description": "",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47139,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "West Lusian Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47167,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Small Stone House",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47120": {
+          "vnum": 47120,
+          "name": "Alumbir Trail",
+          "description": "The trail narrows here as it passes a tall stone shop, well kept yet obviously aged. The ground is quite well worn here. Eastward Alumbir turns past a mammoth stump. Above the flank of a large Inn can be made out, through a snarl of dense brush.",
+          "grid_x": 1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47121,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47049,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Stone Shop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47111,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47121": {
+          "vnum": 47121,
+          "name": "Alumbir Trail",
+          "description": "Here Alumbir passes by a strange building of misshappen stone just to the south, before continuing west and east. Although of stone, the structure appears soft, and an odd violet glow rolls over the surfaces from time to time. You notice the local residents maintaining a wide berth, and in fact the trail itself seems to afford this shop some distance.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47122,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47061,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Guild of the Bard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 47120,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47122": {
+          "vnum": 47122,
+          "name": "Alumbir Trail",
+          "description": "Turning northeast, Alumbir passes by a huge, hollow treestump. Someone has left a small sign nearby. The terrain quickly drops to the south, and looking there you see the tangled mass of the basin woods. Alumbir ventures west toward a few small shops, eventually meeting Lusian Trail.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47170,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47123,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47121,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47123": {
+          "vnum": 47123,
+          "name": "Northeast Alumbir",
+          "description": "The curve of Alumbir passes by a thicket of tall weeds here, heading northward toward the rising mountain, and turning southwest by a hollow treestump. You can see an old wooden bridge in the distance northwest.",
+          "grid_x": 7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47124,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47122,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47124": {
+          "vnum": 47124,
+          "name": "Northeast Alumbir",
+          "description": "The northeast portion of Alumbir pushes through thickening mountain growth, splitting here to travel north and east along a narrow, dusty trail. A handful of strangely marked buildings line the way, here by sign declared as Dhrajet Road.",
+          "grid_x": 7,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47125,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Along Dhrajet",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47130,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47123,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47125": {
+          "vnum": 47125,
+          "name": "Along Dhrajet",
+          "description": "A thin, dry trail beneath the trees forms what passes for Dhrajet street, just east of Alumbir Trail. Standing to the north is a small, odd structure of solid onyx. Dhrajet continues eastward toward a formidable stone building bearing several strange markings.",
+          "grid_x": 8,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47126,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Dhrajet's End",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47124,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47126": {
+          "vnum": 47126,
+          "name": "Dhrajet's End",
+          "description": "The dusty street beneath the trees ends here before a modest structure of solid greystone. A small sign hangs above the rounded oak door, and the scent of Neroli drifts from within. Dhrajet ventures westward toward the more well- known areas of Napenthe.",
+          "grid_x": 9,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47064,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Entrance to Astorath's Workshop",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 47125,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Along Dhrajet",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47128": {
+          "vnum": 47128,
+          "name": "Pale Ale Tavern",
+          "description": "Several small, rounded tables are haphazardly arranged within the main room of the tavern, several feet away from the active bar. Bits of debris litter the floor, and various streaks and stains marr the paintings along the cracked stone walls.",
+          "grid_x": -6,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47052,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Pale Ale Tavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47129": {
+          "vnum": 47129,
+          "name": "Lowstone Hall",
+          "description": "You stand within a narrow hall, the ceiling close overhead. A pair of worn, overstuffed chairs rest against the western wall, below a wide, fading painting. Silvered sconces line the hall, providing illumination. A solid door of redwood stands to the north. The main entrance lay just east.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47130,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47169,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lowstone Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47168,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47130": {
+          "vnum": 47130,
+          "name": "Northeast Alumbir",
+          "description": "The northeastern Alumbir trail passes by a low, long building to the west here as it travels north and south through the richly overgrown mountainside. A carved wooden sign is hung upon the square stone door of the building.",
+          "grid_x": 7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47131,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47124,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47129,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lowstone Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47131": {
+          "vnum": 47131,
+          "name": "Northeast Alumbir",
+          "description": "Nearing the HalfMoon bridge, Alumbir turns, offering passage to the east and to the south, where rests a small, curious stone house. Several of the nearby trees bear carved markings. A hint of smoke drifts by from the southeast, where can be seen the top of a strange onyx structure.",
+          "grid_x": 7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47132,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47130,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47132": {
+          "vnum": 47132,
+          "name": "Northeast Alumbir",
+          "description": "Younger trees crowd the Alumbir trail here as it turns to travel to the west, and to the north toward HalfMoon road. A slight mist drifts from between the trees, which bear many carved markings.",
+          "grid_x": 8,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47133,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbirs End",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47131,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47133": {
+          "vnum": 47133,
+          "name": "Alumbirs End",
+          "description": "You come to Alumbir's End, where HalfMoon road passes by the simple shop of Magellan the Mystic. Alumbir ventures southward into Napenthe, and the road can be seen to travel west and east. Above a wooden bridge crosses, leading upward onto the higher mountainside.",
+          "grid_x": 8,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47134,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Magellan's Mystics",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47135,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47132,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Northeast Alumbir",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47134": {
+          "vnum": 47134,
+          "name": "Magellan's Mystics",
+          "description": "Through the open archway you enter a small, cluttered shop of magic. All about lay oddities from across the realms, some recognizable, others not. At one end of the shop rests a simple, wooden table covered in a velvet cloth, where Magellan works upon items brought to him.",
+          "grid_x": 9,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47133,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbirs End",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47135": {
+          "vnum": 47135,
+          "name": "HalfMoon Road",
+          "description": "A narrow trail meets HalfMoon road as it travels east and west along the mountainside, nearing an old wooden bridge connecting the settlement to the southwest to the slope above.",
+          "grid_x": 8,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47144,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47133,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbirs End",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47143,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Beneath HalfMoon Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47136": {
+          "vnum": 47136,
+          "name": "Lusian Trail",
+          "description": "You travel along a narrow, darkened section of Lusian Trail, midway along the semi-level shelf of land supporting the old settlement called Napenthe. To your east the terrain climbs, and a large Inn can be seen, while westward, the tops of several battered stone buildings are clearly visible as the shelf curves around the mountain. The trail here leads north and south.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47113,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47137,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47101,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47137": {
+          "vnum": 47137,
+          "name": "Lusian Trail",
+          "description": "The path of broken stones known as Lusian Trail dips sharply here, beneath several oddly shaped trees leaning out from the surrounding terrain to form a natural enclosure. The trail leads south, and north toward a wide, curving road.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47138,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian's End",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47136,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47138": {
+          "vnum": 47138,
+          "name": "Lusian's End",
+          "description": "Lusian ends here at the edge of HalfMoon road, which curves around the rising mountainside. A narrow trail veers westward, and Lusian ventures southward beneath a row of overhanging trees.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47140,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47137,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47139,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "West Lusian Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47139": {
+          "vnum": 47139,
+          "name": "West Lusian Trail",
+          "description": "A thin trail travels east and west near HalfMoon road, seperated by a thin row of well tended trees. The trail ends to the east within a circle of small trees, broken by a battered old stone building.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47138,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian's End",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47119,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Small Copse",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47140": {
+          "vnum": 47140,
+          "name": "HalfMoon Road",
+          "description": "The rutted, overgrown path referred to as HalfMoon road passes a meager trail leading southward into Napenthe before continuing east and west along the mountainside. Overhead a pale, violet glow illuminates the underside of the local vegetation and wood.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47141,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47138,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian's End",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47147,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47141": {
+          "vnum": 47141,
+          "name": "HalfMoon Road",
+          "description": "Tangled, dry branches swoop down from the surrounding terrain to darken the winding mountainside road as it makes its way behind Napenthe. To the west it meets a southern trail of cracked stonework before continuing, and eastward along the road gather fallen stones near a bridge crossing overhead.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47142,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47140,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47142": {
+          "vnum": 47142,
+          "name": "HalfMoon Road",
+          "description": "Turning northeast, the road here is dotted by fallen stones. A sturdy old bridge of wood and stone crosses overhead to the east, and HalfMoon road continues westward.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47143,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Beneath HalfMoon Bridge",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47141,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47143": {
+          "vnum": 47143,
+          "name": "Beneath HalfMoon Bridge",
+          "description": "You pass beneath an old, worn yet well-constructed bridge of wood, which is supported by four large cornerstones set into the earth. Above a snarled mass of webs, roots and fungus fervently breeds upon the bridgebottom. The HalfMoon road contines east and southwest.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47135,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47142,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47144": {
+          "vnum": 47144,
+          "name": "HalfMoon Road",
+          "description": "Thickly leaved mountain trees line the curving HalfMoon road as it ventures northeastward near Napenthe.",
+          "grid_x": 9,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47145,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47135,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47145": {
+          "vnum": 47145,
+          "name": "HalfMoon Road",
+          "description": "HalfMoon road turns slightly here, travelling southwest and north along the mountainside. Thickly leaved trees line the road, a variery of foliage interspersed between. A crisp breeze flows down from the north.",
+          "grid_x": 10,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47146,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47160,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Overgrown Path",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47144,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47146": {
+          "vnum": 47146,
+          "name": "HalfMoon Road",
+          "description": "HalfMoon road ends here, blocked off by a pile of fallen boulders and rocks. A chilly northern wind blows by. In this isolated, abandoned place you pause to wonder if these stones shall ever be lifted, and notice several cracked bones sticking out between the rocks.",
+          "grid_x": 10,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47145,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47150
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47147": {
+          "vnum": 47147,
+          "name": "HalfMoon Road",
+          "description": "Passing between the wooded mountainside north, and a copse of brightly- coloured trees to the south below, HalfMoon winds its way around the mountain, here turning northward.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47140,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47148,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47148": {
+          "vnum": 47148,
+          "name": "HalfMoon Road",
+          "description": "The road ambles along upon the overgrown mount, here underpassing a looming elder redwood before continuing northward. A look southward gains the view of steadily declining terrain, and a range of dark, forbidding hills far off in the distance.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47147,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47149,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go tree": {
+              "to_vnum": 47109,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Tree",
+              "direction": "go tree",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47149": {
+          "vnum": 47149,
+          "name": "HalfMoon Road",
+          "description": "The road becomes narrower here as it continues a slow curve around the nearby mountainside. It slowly descends, toward a wide tunnel opening ahead to the northwest, and ascends back up toward Napenthe.",
+          "grid_x": -4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47148,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47300,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47164": {
+          "vnum": 47164,
+          "name": "Before the Graveyard Gates",
+          "description": "A fertile mixture of spongy moss, twisted root and loose stone collects and ends here before two crumbling old pillars. A pair of ruined iron gates hang loosely between, albiet rusted quite tightly shut.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47165,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47163
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47165": {
+          "vnum": 47165,
+          "name": "SmallStone Path",
+          "description": "No more than a thin trickle of water flows down the rocky exposed surface of the mountainside as this path of small stones edges by, feeding the nearby pool. Directly to the west rest a pair of twisted iron gates, lazilly clutching onto the remains of two stone pillars, covered in a thousand year's mossy overgrowth.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47166,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47164,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Before the Graveyard Gates",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47166": {
+          "vnum": 47166,
+          "name": "SmallStone Path",
+          "description": "The smallstone path curves round a shallow pond, deeper into the overgrown mountainside of Napenthe. Twisted roots break through the loose stones collecting at water's edge in a soggy attempt to snag your steps. A sudden, forceful chill drifts from the northwest.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47168,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47165,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47168": {
+          "vnum": 47168,
+          "name": "SmallStone Path",
+          "description": "Just outside a lowstone building set into the heart of Napenthe, this cobbled path of stones twists narrowly 'neath the boughs of mountainside trees around a shallow pond. Towards the end of the path an edge of old wrought iron can be seen hanging loosely by a pair of decaying stone pillars.",
+          "grid_x": 6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47129,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lowstone Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47166,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "SmallStone Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47169": {
+          "vnum": 47169,
+          "name": "Lowstone Hall",
+          "description": "Past the heavy redwood door you enter a wide oval chamber, sparsely furnished and dimly lit. A few small chairs rest before a large stone table, where several odd objects lay. Behind the desk stands a cabinet fairly packed with old scrolls, books, and broken pieces of things you can't seem to identify.",
+          "grid_x": 6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47129,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lowstone Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47300": {
+          "vnum": 47300,
+          "name": "HalfMoon Road",
+          "description": "Halfmoon road continues in a steady descent to the north, and climbs slowly around the mountainside to the south. At thie vantage point a partial view of the lands laying westward can be seen, covered by rolling, darkened hills.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47301,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47149,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47301": {
+          "vnum": 47301,
+          "name": "HalfMoon Road",
+          "description": "Passing beneath a bough of thickly leaved trees leaning o'er from above, the roughly cut road approaches a wide tunnel entrance as it thins to no more than a footpath.",
+          "grid_x": -4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47300,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47302,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Before a Tunnel Entrance",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47361": {
+          "vnum": 47361,
+          "name": "Pit of Darkness",
+          "description": "You find yourself at the bottom of a shallow pit within a bare stone chamber. Dark maroon stains cover the floor, and a few rotting piles of bones lie strewn about the pit. This is not a pleasant place, but it's ideal for training in the dark arts.",
+          "grid_x": -8,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47028,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Abandoned Shop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47028": {
+          "vnum": 47028,
+          "name": "Abandoned Shop",
+          "description": "As you duck inside to escape yet another cutpurse, broken chairs, crusty cloth, and other trash crunch underfoot. Your eye first catches glints of green: vines poke through the detritus, their tendrils straining for the sparse light coming through a window of fractured glass. An especially nasty putrescence assaults your nostrils from a passageway crudely hacked into the southern wall. To the rear of the structure, steps tumble into darkness.",
+          "grid_x": -8,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47320,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Narrow Steps",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 47104,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 47361,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Pit of Darkness",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47039": {
+          "vnum": 47039,
+          "name": "Path-stones",
+          "description": "You step through a natural tunnel created by a mass of vines hanging down from the old growth here within the misty basin. Water is everywhere, drenching your clothing and your pack, and life is abundant despite the darkness surrounding you. Path-stones amble along the forest floor, heading north and west here.",
+          "grid_x": 13,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47280,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47005,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Path-stones",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47033,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Path-stones",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47040": {
+          "vnum": 47040,
+          "name": "In the Trees",
+          "description": "The tree branches surround you here, almost forming a natural tunnel. From above can be heard low voices and an occasional burst of laughter. Upon one particularly large, gnarled branch before you are some rough carvings.",
+          "grid_x": 13,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47043,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Trees",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47264,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "In the Trees",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47041,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Under the Canopy",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47041": {
+          "vnum": 47041,
+          "name": "Under the Canopy",
+          "description": "A dense collection of intertwining branches give this place the feeling of indoors, rather than out. To the east, a small rounded opening in the branches beckons.",
+          "grid_x": 13,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47042,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Thieves' Bivouac",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47040,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Trees",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47042": {
+          "vnum": 47042,
+          "name": "Thieves' Bivouac",
+          "description": "Nestled in the canopy here is a large, round area surrounded by mingled branches that form makeshift walls. A handful of shifty looking individuals lounge about, practicing their skills and partaking of a peculiar burning herb.",
+          "grid_x": 14,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47041,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Under the Canopy",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47043": {
+          "vnum": 47043,
+          "name": "In the Trees",
+          "description": "Thick, thorny vines dangle about as you maneuver through the branches of these elder trees. Up above can be seen the nests of the forest flocks. A variety of wildlife slithers and crawls about, some stopping to consider you and their hunger.",
+          "grid_x": 13,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47040,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Trees",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 47060,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Edge Trail",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47046": {
+          "vnum": 47046,
+          "name": "Top of the Slope",
+          "description": "The slope gradually levels here on a shelf of land midway up the mountain. A natural spring fills a shallow pool here among a gathering of fallen stones. Leaning at an angle is an old, weathered sign aside a wide trail leading north, toward several stone buildings. A smaller trail ventures east.",
+          "grid_x": -2,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47060,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Edge Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47100,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47044,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Bottom of the Slope",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47047": {
+          "vnum": 47047,
+          "name": "Indequat's Amiable Alignments",
+          "description": "You step into the ramshackle shrine, peering about warily at the odd assortment of strangely glowing items laying in corners upon the dirty stone floor, which is covered in crudely drawn holy symbols. A sign hangs upon one wall.",
+          "grid_x": -9,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47108,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Masindaar Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47048": {
+          "vnum": 47048,
+          "name": "Inside a Fallen Tree",
+          "description": "The inside of this tree is laced with the pungent odor of natural decay and the defecations of various creatures which have no doubt made use of this excellent hiding place, as the opening is too small for larger predators to enter. Insects have chewed away a substantial portion of the trunk, revealing a passage downward into the earth.",
+          "grid_x": 13,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47189,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47049": {
+          "vnum": 47049,
+          "name": "Stone Shop",
+          "description": "An impressive array of gear fills Grelore's implements of exploration. Hung from the ceiling are a set of seven stained-glass mobiles back-lit by a lively fireplace to the rear of the shop. Several large, daemon-hide chairs offer patrons a sturdy seat while they wait for their orders to be filled.",
+          "grid_x": 1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47120,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47050": {
+          "vnum": 47050,
+          "name": "Stone Shop",
+          "description": "Through a jet black archway you enter the waxworks of Djet-t'nlua. A multitude of oddly crafted candles are held aloft upon intricately carved ivory bases mounted on the marble walls, illuminating the shop and sending streams of wax dripping down onto the writhing ivy that slithers in through the cracked marble to scale the shop's interior.",
+          "grid_x": -6,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47103,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47051": {
+          "vnum": 47051,
+          "name": "Tavern Hallway",
+          "description": "A dim, shabby hallway leads you further into the tavern, and turns to the east. Innumerable brawls for forgotten reasons have passed through this hall by the looks of it. A side exit leads out onto Falzior Road.",
+          "grid_x": -5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47054,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Back Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47052,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Pale Ale Tavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47105,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47052": {
+          "vnum": 47052,
+          "name": "Pale Ale Tavern",
+          "description": "Setting foot into the tavern you are hit by the eyes of several patrons, as well as the dank reek of sweat, blood, bile and beer. Abstract paintings adorn the interior, depicting a battle-weary party on some form of journey toward immortality. A hallway north goes deeper into the tavern.",
+          "grid_x": -5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47051,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Tavern Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47102,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47128,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Pale Ale Tavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47053": {
+          "vnum": 47053,
+          "name": "Stone Shop",
+          "description": "You stand within a simple, small shop. Hung along the walls are a series of aging tapestries which were, most likely, once fine pieces of art, but are now no more than tattered covers for the cracks in the walls. A counter runs the length of one wall, and behind it sit several hefty iron chests. A scale rests upon the counter, next to a beaten old abacus.",
+          "grid_x": -7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47106,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Falzior Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47054": {
+          "vnum": 47054,
+          "name": "Back Room",
+          "description": "The reek here is unbelievable. Detrius imprisons the floor, and scrawled rambling has come to cover the walls. Warriors have stopped here to relieve themselves in a variety of manners for hundreds of years, no doubt. A small, dim tunnel opening is to the east.",
+          "grid_x": -4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47055,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Small Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47051,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Tavern Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47055": {
+          "vnum": 47055,
+          "name": "Small Tunnel",
+          "description": "A small, gloomy, wet, dark tunnel you'd rather not remain in for very much longer.",
+          "grid_x": -3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47063,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Inn Storeroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47054,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Back Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47056": {
+          "vnum": 47056,
+          "name": "Gallery",
+          "description": "Steps end where the expanse of a spacious gallery begins. Paintings adorn the walls in elegantly molded silver frames. A number of thin, low pillars are tastefully arranged about the gallery, supporting crystal vases filled by dried wildflowers.",
+          "grid_x": 13,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47037,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral West",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47057": {
+          "vnum": 47057,
+          "name": "Library",
+          "description": "You wander along a series of curving steps which seem to never end, passing row upon row of shattered and looted glass cabinets. Tremendous candles flank the steps, still burning, never melting. All save for a few of the cabinets seem to have been smashed and emptied.",
+          "grid_x": 13,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47036,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral East",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47058": {
+          "vnum": 47058,
+          "name": "Inn Vault",
+          "description": "Solid, bare stone walls surround you within the vault. A few loose coins and various discarded items lay about the otherwise empty room.",
+          "grid_x": 13,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47063,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Inn Storeroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47060": {
+          "vnum": 47060,
+          "name": "Edge Trail",
+          "description": "Walking along this trail you get a mid-level view of the basin forestry, and you can now see that the trees are indeed quite filled with life. A dexterous one might even be able to make it into the lower canopy, although the fall does not look appealing.",
+          "grid_x": -1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47046,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Top of the Slope",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 47043,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Trees",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47061": {
+          "vnum": 47061,
+          "name": "Guild of the Bard",
+          "description": "Instruments of song and war adorn the rough stone walls of an expansive guildhall, alongside worn tapestries depicting battles great and old. A large wooden door gives exit north to the streets of Napenthe. A kettle hangs within a fireplace, boiling stew and warming the guild. Bottles of ale litter the floor about a large round table toward the back of the hall.",
+          "grid_x": 2,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47121,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Arixle",
+              "description": "Arixle is the strongest, fastest, and deadliest bard in all the lands, and the look on his face shows that he knows it well.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47062": {
+          "vnum": 47062,
+          "name": "Basilisk Inn",
+          "description": "The interior of the Basilisk Inn resembles its exterior; small trees and shrubbery sprout up from the floors and walls. All of the furniture is, however, strangely made up of metal fused with stone. A collection of this miraculous craftwork is arranged into a spiraling staircase leading downward, each step floating in mid-air with no visible support. A small gathering room lies to the east.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47118,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Basilisk Inn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47113,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "North Alumbir Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47063,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Inn Storeroom",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47064": {
+          "vnum": 47064,
+          "name": "Entrance to Astorath's Workshop",
+          "description": "A well weaved and well traveled rug absorbs your steps as you enter the foyer of Astorath's workshop. Neroli burns upon a silver and black column placed in a corner, the drifting smoke made visible by a large, pale green light-globe stationed above toward the center of the room. Grey stone walls bear the embellishment of intertwined silver curves at their edges. Rounded arches lead north and south, while steps offer exits upward and downward.",
+          "grid_x": 10,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47065,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Workshop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47066,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Workshop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47126,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Dhrajet's End",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47068,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Workshop Basement",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47067,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Workshop",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47065": {
+          "vnum": 47065,
+          "name": "Workshop",
+          "description": "Immaculately crafted weaponry hangs upon the walls in this room. At a large black slab of stone a hooded mage chants and gesticulates, slowly bringing a loose pile of gems and stones into the shape of a mace. A figure steps out of the air before you, and asks if it may be of assistance. Upon the wall here is a sign.",
+          "grid_x": 10,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47064,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Entrance to Astorath's Workshop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47066": {
+          "vnum": 47066,
+          "name": "Workshop",
+          "description": "Suits of exotic armor rest upon rigid skeletons posed in various acts of battle here. You could spend hours marveling over the detailed armor they wear, if it were not for their unsettling habit of coming to life to change position every few moments. A sign rests upon the wall.",
+          "grid_x": 10,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47064,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Entrance to Astorath's Workshop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 47079,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Misty Cave",
+              "direction": "go portal",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47070": {
+          "vnum": 47070,
+          "name": "On the Mount",
+          "description": "Upon the fertile mountain slope, a narrow wooden bridge crosses a wooded road below. A grouping of path-stones venture westward through a series of amethyst arches overgrown with ivy, and a footpath runs eastward toward a circular stand of trees.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47083,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stand",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47116,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47072,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Amethyst Arches",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47071": {
+          "vnum": 47071,
+          "name": "Clerics Guild",
+          "description": "Stepping into the cleric's guild a tranquil vibration of sanctification seeps into your bones. Magnificently weaved tapestries bear the images of the temples throughout the land, adding a hint of wealth to the austere surroundings within this guild.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47073,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Guild Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47059,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "House of the Holy",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47072": {
+          "vnum": 47072,
+          "name": "Amethyst Arches",
+          "description": "Creeping ivy rises up from the damp forest floor aside the path-stones, slowly climbing the surface of the archways you pass underneath. Above the canopy of trees begin to thin, revealing portions of a mist filled sky. A second set of arches head north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47070,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "On the Mount",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47080,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Amethyst Arches",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47073": {
+          "vnum": 47073,
+          "name": "Guild Courtyard",
+          "description": "A single mammoth beige stone makes up the floor of this courtyard, broken only by the trunks of thickly-leaved wildflower trees growing straight through the rock. The entire area is bathed in a deep purple glow cast by a canopy of eldritch energy above. Convex walkways lead into three similar buildings set into the mountain to your north, northwest, and northeast.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47013,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Resurrection Chamber",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47071,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Clerics Guild",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47074,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Mages Guild",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 47075,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Warriors Guild",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47080,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Amethyst Arches",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47074": {
+          "vnum": 47074,
+          "name": "Mages Guild",
+          "description": "You step into a large, open room. A cabinet of ivory and glass is mounted here, supported by thin wooden branches erupting from the pale blue stone wall. Into the buffed opaline floor is embedded a small white stone bearing an inscription. A door to the east leads to the study of Palytdai.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47077,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "House of the Spirit",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47073,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Guild Courtyard",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47075": {
+          "vnum": 47075,
+          "name": "Warriors Guild",
+          "description": "A series of petrified wooden benches line the walls within the entrance to Vasdemeir's place of training. Hoisted upon the rear wall is a suit of thick silver armor, crossed by two huge ebony-bladed swords. The sounds of battle echo from the west.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 47073,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Guild Courtyard",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47076,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "House of the Sword",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47076": {
+          "vnum": 47076,
+          "name": "House of the Sword",
+          "description": "Rust-colored splatter-stains provide some decoration for the otherwise blank stone walls here. Several pairs of trainees clash in light combat, casting furtive glances at the master as he surveys the state of their skill.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47075,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Warriors Guild",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47077": {
+          "vnum": 47077,
+          "name": "House of the Spirit",
+          "description": "A dark, windowless room lit only by the glowing form of Palytdai meditating upon a small, daemon-skin pillow in the center, the sturdy walls and ceiling bearing the deposits from eons of burning incense. Several bundles of old, cracked and torn scrolls line a set of bronze and marble shelves toward the back. The shadowy forms of several students can be seen kneeling before the master mage, deep in concentration.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47074,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Mages Guild",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47080": {
+          "vnum": 47080,
+          "name": "Amethyst Arches",
+          "description": "Thorned bramble bushes merge with the covering ivy upon the widening arches here. Through the final amethyst arch ahead a quiet courtyard can be seen, surrounded by several dignified stone structures. The area here hums with a faint yet insistent arcane energy.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47073,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Guild Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47072,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Amethyst Arches",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "go portal",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47078
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47100": {
+          "vnum": 47100,
+          "name": "Lusian Trail",
+          "description": "A single, tremendous tree to the east overhangs the Lusian trail as it winds through this shelf of land upon the mountain. The head of a Falzior daemon is mounted upon a pole here, where a thin path descends westward toward a row of run-down stone buildings. Beneath your feet is a collection of interlocking stonework, cracked and well-traveled.",
+          "grid_x": -2,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47101,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47046,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Top of the Slope",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47102,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47101": {
+          "vnum": 47101,
+          "name": "Lusian Trail",
+          "description": "The stonework beneath your feet along Lusian trail breaks here, into a collection of fragments slowly being overgrown by moss and weeds. A cleanly cut path rises slightly to the east, a small sign marking it as Alumbir Trail.",
+          "grid_x": -2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47110,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47136,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47100,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47102": {
+          "vnum": 47102,
+          "name": "Falzior Road",
+          "description": "Falzior road ventures west and east, heading downward through the older sections of Napenthe, here passing by a loud, reeking tavern. Broken bottles and pools of congealed blood decorate what a sign declares to be the Pale Ale Tavern's main entrance.",
+          "grid_x": -5,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47100,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Lusian Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47052,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Pale Ale Tavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47103,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47103": {
+          "vnum": 47103,
+          "name": "Falzior Road",
+          "description": "The narrow, littered road called Falzior travels east and west through this section of Napenthe, passing a large tavern to the north and a small stone shop to the south. Eastward Falzior can be seen to turn northward toward the mountainside.",
+          "grid_x": -6,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47102,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47050,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Stone Shop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47104,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Falzior Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -9,
+        "max_x": 10,
+        "min_y": -3,
+        "max_y": 7,
+        "room_count": 90
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47109,
+      "rooms": {
+        "47109": {
+          "vnum": 47109,
+          "name": "In the Tree",
+          "description": "You are perched halfway up a great old tree looming over halfmoon road upon the mountain slope above Napenthe. Tangled branches and creeping ivy inhabiting the tree surround you.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47148,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47059": {
+          "vnum": 47059,
+          "name": "House of the Holy",
+          "description": "A low ceiling coupled with the thick output from several burning sticks of frangipani serve to smother you in this clerical study. Two diamonds of ornate stained glass glow with the light from the canopy outside, providing the room's only illumination.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47071,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Clerics Guild",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47067": {
+          "vnum": 47067,
+          "name": "Workshop",
+          "description": "Robes of sheer, transparent material are draped about on a multitude of smallish gargoyles around the room. Upon a hovering quartz shelf lies a collection of miscellaneous clothing, some of it glowing slightly. From above drops a wispy shade to ask if you'd care to try something on.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47064,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Entrance to Astorath's Workshop",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 3
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47028,
+      "to": 47104,
+      "direction": "e",
+      "from_grid": [
+        -8,
+        6
+      ],
+      "to_grid": [
+        -7,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 47028,
+      "to": 47361,
+      "direction": "s",
+      "from_grid": [
+        -8,
+        6
+      ],
+      "to_grid": [
+        -8,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47040,
+      "to": 47043,
+      "direction": "n",
+      "from_grid": [
+        13,
+        0
+      ],
+      "to_grid": [
+        13,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47041,
+      "to": 47042,
+      "direction": "e",
+      "from_grid": [
+        13,
+        2
+      ],
+      "to_grid": [
+        14,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47046,
+      "to": 47060,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        7
+      ],
+      "to_grid": [
+        -1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47046,
+      "to": 47100,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        7
+      ],
+      "to_grid": [
+        -2,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47047,
+      "to": 47108,
+      "direction": "n",
+      "from_grid": [
+        -9,
+        4
+      ],
+      "to_grid": [
+        -9,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47049,
+      "to": 47120,
+      "direction": "n",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47050,
+      "to": 47103,
+      "direction": "n",
+      "from_grid": [
+        -6,
+        7
+      ],
+      "to_grid": [
+        -6,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47051,
+      "to": 47054,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        3
+      ],
+      "to_grid": [
+        -4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47051,
+      "to": 47052,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        3
+      ],
+      "to_grid": [
+        -5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47051,
+      "to": 47105,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        3
+      ],
+      "to_grid": [
+        -7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47052,
+      "to": 47102,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        4
+      ],
+      "to_grid": [
+        -5,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47052,
+      "to": 47128,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        4
+      ],
+      "to_grid": [
+        -6,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47053,
+      "to": 47106,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        1
+      ],
+      "to_grid": [
+        -7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47054,
+      "to": 47055,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47061,
+      "to": 47121,
+      "direction": "n",
+      "from_grid": [
+        2,
+        6
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47062,
+      "to": 47118,
+      "direction": "e",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47062,
+      "to": 47113,
+      "direction": "w",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47064,
+      "to": 47065,
+      "direction": "n",
+      "from_grid": [
+        10,
+        3
+      ],
+      "to_grid": [
+        10,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47064,
+      "to": 47066,
+      "direction": "s",
+      "from_grid": [
+        10,
+        3
+      ],
+      "to_grid": [
+        10,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47064,
+      "to": 47126,
+      "direction": "w",
+      "from_grid": [
+        10,
+        3
+      ],
+      "to_grid": [
+        9,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47070,
+      "to": 47116,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47070,
+      "to": 47072,
+      "direction": "w",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47071,
+      "to": 47073,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47072,
+      "to": 47080,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47073,
+      "to": 47074,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47073,
+      "to": 47075,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47073,
+      "to": 47080,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47074,
+      "to": 47077,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47075,
+      "to": 47076,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 47100,
+      "to": 47101,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        6
+      ],
+      "to_grid": [
+        -2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47100,
+      "to": 47102,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        6
+      ],
+      "to_grid": [
+        -5,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47101,
+      "to": 47110,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47101,
+      "to": 47136,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47102,
+      "to": 47103,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        6
+      ],
+      "to_grid": [
+        -6,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47103,
+      "to": 47104,
+      "direction": "w",
+      "from_grid": [
+        -6,
+        6
+      ],
+      "to_grid": [
+        -7,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47104,
+      "to": 47105,
+      "direction": "n",
+      "from_grid": [
+        -7,
+        6
+      ],
+      "to_grid": [
+        -7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47105,
+      "to": 47106,
+      "direction": "n",
+      "from_grid": [
+        -7,
+        3
+      ],
+      "to_grid": [
+        -7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47106,
+      "to": 47107,
+      "direction": "w",
+      "from_grid": [
+        -7,
+        2
+      ],
+      "to_grid": [
+        -8,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47107,
+      "to": 47108,
+      "direction": "w",
+      "from_grid": [
+        -8,
+        2
+      ],
+      "to_grid": [
+        -9,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47110,
+      "to": 47111,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        0,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47111,
+      "to": 47120,
+      "direction": "e",
+      "from_grid": [
+        0,
+        5
+      ],
+      "to_grid": [
+        1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47111,
+      "to": 47112,
+      "direction": "n",
+      "from_grid": [
+        0,
+        5
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47112,
+      "to": 47114,
+      "direction": "e",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47112,
+      "to": 47113,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47113,
+      "to": 47136,
+      "direction": "w",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47114,
+      "to": 47115,
+      "direction": "e",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47115,
+      "to": 47116,
+      "direction": "n",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47117,
+      "to": 47118,
+      "direction": "s",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47119,
+      "to": 47139,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47120,
+      "to": 47121,
+      "direction": "e",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47121,
+      "to": 47122,
+      "direction": "e",
+      "from_grid": [
+        2,
+        5
+      ],
+      "to_grid": [
+        4,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47122,
+      "to": 47123,
+      "direction": "ne",
+      "from_grid": [
+        4,
+        5
+      ],
+      "to_grid": [
+        7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47123,
+      "to": 47124,
+      "direction": "n",
+      "from_grid": [
+        7,
+        4
+      ],
+      "to_grid": [
+        7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47124,
+      "to": 47125,
+      "direction": "e",
+      "from_grid": [
+        7,
+        3
+      ],
+      "to_grid": [
+        8,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47124,
+      "to": 47130,
+      "direction": "n",
+      "from_grid": [
+        7,
+        3
+      ],
+      "to_grid": [
+        7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47125,
+      "to": 47126,
+      "direction": "e",
+      "from_grid": [
+        8,
+        3
+      ],
+      "to_grid": [
+        9,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47129,
+      "to": 47130,
+      "direction": "e",
+      "from_grid": [
+        6,
+        2
+      ],
+      "to_grid": [
+        7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47129,
+      "to": 47169,
+      "direction": "n",
+      "from_grid": [
+        6,
+        2
+      ],
+      "to_grid": [
+        6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47129,
+      "to": 47168,
+      "direction": "s",
+      "from_grid": [
+        6,
+        2
+      ],
+      "to_grid": [
+        6,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47130,
+      "to": 47131,
+      "direction": "n",
+      "from_grid": [
+        7,
+        2
+      ],
+      "to_grid": [
+        7,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47131,
+      "to": 47132,
+      "direction": "e",
+      "from_grid": [
+        7,
+        1
+      ],
+      "to_grid": [
+        8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47132,
+      "to": 47133,
+      "direction": "n",
+      "from_grid": [
+        8,
+        1
+      ],
+      "to_grid": [
+        8,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47133,
+      "to": 47134,
+      "direction": "e",
+      "from_grid": [
+        8,
+        0
+      ],
+      "to_grid": [
+        9,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47133,
+      "to": 47135,
+      "direction": "n",
+      "from_grid": [
+        8,
+        0
+      ],
+      "to_grid": [
+        8,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47135,
+      "to": 47144,
+      "direction": "e",
+      "from_grid": [
+        8,
+        -1
+      ],
+      "to_grid": [
+        9,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47135,
+      "to": 47143,
+      "direction": "w",
+      "from_grid": [
+        8,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47136,
+      "to": 47137,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        3
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47137,
+      "to": 47138,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47138,
+      "to": 47140,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47138,
+      "to": 47139,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47140,
+      "to": 47141,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47140,
+      "to": 47147,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47141,
+      "to": 47142,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47142,
+      "to": 47143,
+      "direction": "ne",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47144,
+      "to": 47145,
+      "direction": "ne",
+      "from_grid": [
+        9,
+        -1
+      ],
+      "to_grid": [
+        10,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47145,
+      "to": 47146,
+      "direction": "n",
+      "from_grid": [
+        10,
+        -2
+      ],
+      "to_grid": [
+        10,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47147,
+      "to": 47148,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47148,
+      "to": 47149,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47149,
+      "to": 47300,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47164,
+      "to": 47165,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47165,
+      "to": 47166,
+      "direction": "s",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47166,
+      "to": 47168,
+      "direction": "e",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        6,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47300,
+      "to": 47301,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

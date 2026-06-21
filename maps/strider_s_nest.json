@@ -1,0 +1,1492 @@
+{
+  "zone_name": "Strider's Nest",
+  "entry_vnum": 80028,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 21
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 80034,
+      "rooms": {
+        "80034": {
+          "vnum": 80034,
+          "name": "Beneath the Surface of a Pool",
+          "description": "Below the surface of the pool, a tunnel opens in the rock wall of the cavern. The green light filters easily through the water, casting reddish shadows into the depths of the tunnel, which heads southeast.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 80035,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "A Twisting Underwater Tunnel",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 80019,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Below the surface of the pool",
+                "Beneath the Surface of a Pool",
+                "Cavern.  The green light filters easily through the water",
+                "Shadows into the depths of the tunnel",
+                "a tunnel opens in the rock wall of the",
+                "casting reddish",
+                "which heads southeast."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80035": {
+          "vnum": 80035,
+          "name": "A Twisting Underwater Tunnel",
+          "description": "The tunnel bends slowly from northwest to east, and the light shifts gradually from green to orange. An odd feeling of closeness overwhelms you briefly, and you imagine the cavern as a bag and the tunnel as a hand within the bag grasping for you. Perhaps you should make your way out soon.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80036,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath the Surface of a Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 80034,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath the Surface of a Pool",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80036": {
+          "vnum": 80036,
+          "name": "Beneath the Surface of a Pool",
+          "description": "You swim beneath the surface of an underground pool. Through some unknown ensorcelment, the entire surface above you appears to emanate orange light. A dark and narrow tunnel cuts into the rock wall to your west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 80035,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "A Twisting Underwater Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 80037,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Shallow Pool",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 3
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 80028,
+      "rooms": {
+        "80028": {
+          "vnum": 80028,
+          "name": "Entrance to a Rock-Strewn Cavern",
+          "description": "The path climbs steeply as it bends from northwest to east, opening into a brightly lit cavern. Rudimentary stairs have been cut into the stone to ease movement, but streams of water crossing the passageway make the smooth surfaces quite slippery.",
+          "grid_x": -2,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80029,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 80010,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Forked Passageway",
+              "direction": "nw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80029": {
+          "vnum": 80029,
+          "name": "Rock-Strewn Cavern",
+          "description": "You stand at the entrance to a rubble-strewn cavern illuminated by a blanket of brilliant yellow moss that hangs in long strands from the ceiling. A path leads down into darkness to the west, and you can pick your way around the large stones on the cavern floor to the east and south.",
+          "grid_x": -1,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80030,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80031,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80028,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Entrance to a Rock-Strewn Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80030": {
+          "vnum": 80030,
+          "name": "Rock-Strewn Cavern",
+          "description": "The large boulders scattered about the floor of this cavern dance menacingly at the corners of your vision. When you turn to face them, they cease, basking in the yellowish glow that suffuses the cavern from above. The faces of rock that block progress to the north and east are streaked with crevices. The cavern continues around the stones to the west and south.",
+          "grid_x": 0,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 80032,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80029,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80031": {
+          "vnum": 80031,
+          "name": "Rock-Strewn Cavern",
+          "description": "The yellow light from the ceiling of this cavern casts the stones that surround you into sharp contrast, with bright faces touching on black shadows. A few feet from the wall, nestled between two boulders, you find a hole leading down into the darkness. The cavern continues to the east and to the north.",
+          "grid_x": -1,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 80050,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Small, Square Room",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 80032,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80029,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80032": {
+          "vnum": 80032,
+          "name": "Rock-Strewn Cavern",
+          "description": "A faint yellow glow emanates from the roof of this cavern, illuminating the surrounding area. The brown stone floor is littered with boulders both large and small. The cavern continues to the north and west, while walls rise to block further progress to the east and south. Deep shadows from the massive stones obscure the eastern wall.",
+          "grid_x": 0,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80033,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Hidden Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80030,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80031,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80033": {
+          "vnum": 80033,
+          "name": "Hidden Chamber",
+          "description": "The glow of the previous cavern is noticeably lacking in this small cave, but the same debris of stones covers the floor. No exits are visible other than the passage to the west, through which you entered, but you discern a slow drip of water somewhere in the room.",
+          "grid_x": 1,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 80032,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80037": {
+          "vnum": 80037,
+          "name": "Shallow Pool",
+          "description": "You stand in a placid pool of cold water. A bright orange sky arcs above you, stretching across a long cavern extending far to the south. The floor of the cavern appears to be dirt, but is perhaps merely layer upon layer of guano deposited by the light brown, stork-like birds that stride about within the cavern. Looking down into the water, you spot an opening in the stone wall.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80040,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 80036,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath the Surface of a Pool",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80038": {
+          "vnum": 80038,
+          "name": "Beneath an Orange Sky",
+          "description": "From this northern end of the cavern you watch as young striders approach the pool to the southwest, occasionally pulling forth a thin black snake, occasionally being pulled under by a thicker one. The orange skyline extends far to the south, and a short distance to the east, while rough stone walls rise to the north and west.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80039,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80040,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80039": {
+          "vnum": 80039,
+          "name": "Beneath an Orange Sky",
+          "description": "The long cavern in which you stand stretches far to the south, then curves to the right. Overhead, the dome of the cavern glows orange from all directions, eliminating shadows and effecting a strange mixture of twilight and high noon. You can walk across the dirt to the south or to the west.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 80041,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80038,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80040": {
+          "vnum": 80040,
+          "name": "Beneath an Orange Sky",
+          "description": "The dirty soil of the cavern floor slopes upward here from west to east, from a still pool of water to a plateau of higher ground. The cavern continues to the north and south as well, where you see more striders walking about.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80041,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80038,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80042,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80037,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Shallow Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80041": {
+          "vnum": 80041,
+          "name": "Beneath an Orange Sky",
+          "description": "The floor of the cavern reaches its high point here, sloping down gently to the north, south, and west. The bright orange light from above sheds light on the antics of the young birds that frolic about the cavern, but its constant fierceness also plays on your anxieties.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80039,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80043,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80040,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80042": {
+          "vnum": 80042,
+          "name": "Beneath an Orange Sky",
+          "description": "Piles of guano rise high in this southwestern corner of the cavern. The dirt floor of the cavern continues to the north and east. The stone walls jut from the dirt to the west and south.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80043,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80040,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80043": {
+          "vnum": 80043,
+          "name": "Beneath an Orange Sky",
+          "description": "The brilliant orange sky bears down on your soul, transforming the merely unusual into the mundane. You trudge across the dirty floor of the cavern, dragging your feet and hunching your shoulders. The ground slopes down to the west, and you see a bright pool in the distance. The cavern also continues to the north and to the south, where a bend obscures your view.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80041,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80044,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80042,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80044": {
+          "vnum": 80044,
+          "name": "Beneath an Orange Sky",
+          "description": "You stand at the midpoint of the kidney-shaped cavern, at which it bends from north to southwest. As you observe the behavior of the striders that roam about the cavern, you notice marked differences between the two groups: the ones in the north appear to have little interest in your affairs, whereas those in the south focus quite intently on your movements. Odd-looking stones dot the southern half of the cavern, which lies through a narrow passage to the southwest.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80043,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 80045,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Narrow Passage between Caverns",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80045": {
+          "vnum": 80045,
+          "name": "Narrow Passage between Caverns",
+          "description": "This narrow passage leads from one large cavern into another, from northeast to southwest. Both caverns, as well as the passage itself, are marked by the magical orange light, and together they might be taken as a single cavern. From the passage, you can clearly see the odd stone shapes spread about the ground to your southwest.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 80044,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath an Orange Sky",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 80046,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80046": {
+          "vnum": 80046,
+          "name": "Cavern of Strange Stones",
+          "description": "A faint mist threads a path between the grotesque stone forms around you, cast into sparkling dust by the sharp orange light. The floor of the cavern is uneven, and you notice bits of dried grass and cloth poking out in places. The cavern continues to the west and south.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 80045,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Narrow Passage between Caverns",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80049,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80047,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80047": {
+          "vnum": 80047,
+          "name": "Cavern of Strange Stones",
+          "description": "Unlike those to the north, many of the striders in this section of the cavern of orange stand stoicly at their posts. Anxiously awaiting your approach, they sharpen their beaks on the stone forms as they watch you carefully from beady brown eyes. The cavern continues to the east and south.",
+          "grid_x": -2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80046,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80048,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80048": {
+          "vnum": 80048,
+          "name": "Cavern of Strange Stones",
+          "description": "You stand in the southwest corner of the cavern, gazing out across the misshapen stone figures and the striders guarding their nests to the narrow passage leading out of this section. The cavern opens out to the north and east, while to the south and west rise steep stone walls.",
+          "grid_x": -2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80049,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80047,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80049": {
+          "vnum": 80049,
+          "name": "Cavern of Strange Stones",
+          "description": "The uneven dirt beneath your feet, littered with sections of cloth and bits of grass, extends to the north and west beneath the vast orange dome of the cavern. The glare of the light at times makes it difficult to distinguish the motionless striders from the odd stone figures that never move.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80046,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80048,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Cavern of Strange Stones",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 21,
+        "room_count": 19
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 80028,
+      "to": 80029,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        20
+      ],
+      "to_grid": [
+        -1,
+        20
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80029,
+      "to": 80030,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        20
+      ],
+      "to_grid": [
+        0,
+        20
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80029,
+      "to": 80031,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        20
+      ],
+      "to_grid": [
+        -1,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80030,
+      "to": 80032,
+      "direction": "s",
+      "from_grid": [
+        0,
+        20
+      ],
+      "to_grid": [
+        0,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80031,
+      "to": 80032,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        21
+      ],
+      "to_grid": [
+        0,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80032,
+      "to": 80033,
+      "direction": "e",
+      "from_grid": [
+        0,
+        21
+      ],
+      "to_grid": [
+        1,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80034,
+      "to": 80035,
+      "direction": "se",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80035,
+      "to": 80036,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80037,
+      "to": 80040,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80038,
+      "to": 80039,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80038,
+      "to": 80040,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80039,
+      "to": 80041,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80040,
+      "to": 80041,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80040,
+      "to": 80042,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80041,
+      "to": 80043,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80042,
+      "to": 80043,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80043,
+      "to": 80044,
+      "direction": "s",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80044,
+      "to": 80045,
+      "direction": "sw",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80045,
+      "to": 80046,
+      "direction": "sw",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        -1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80046,
+      "to": 80049,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        4
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80046,
+      "to": 80047,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        4
+      ],
+      "to_grid": [
+        -2,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80047,
+      "to": 80048,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        4
+      ],
+      "to_grid": [
+        -2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80048,
+      "to": 80049,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,297 @@
+{
+  "zone_name": "Ancient Woods",
+  "entry_vnum": 24109,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24109,
+      "rooms": {
+        "24098": {
+          "vnum": 24098,
+          "name": "Bottom of the Valley",
+          "description": "You stand upon the floor of a strange, forested valley among the high northern mountains of Ishar. Everything here is oddly calm, and the surrounding trees appear older than the world itself. A gentle breeze blows fill the air. The only signs of life are a few small animals darting through the underbrush, and the sound of a nearby stream babbling along its rocky bed. Warm gold veins gleam faintly beneath the surface.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24112,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24019
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24109": {
+          "vnum": 24109,
+          "name": "A Dense Thicket",
+          "description": "You find yourself surrounded by a dense thicket of trees and underbrush, the foliage and branches thick around you. It's difficult to see more than a few feet in any direction. The sound of running water echoes through the wilderness, but its origin is difficult to determine.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69274,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Steep Hillside",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24110
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24110": {
+          "vnum": 24110,
+          "name": "Ancient Woods",
+          "description": "The forest around you is dense and dark, with tall and imposing trees looming overhead. The air is thick with the scent of pine needles and damp earth, while occasional shafts of light break through the thick canopy. The forest floor is covered in soft moss and ferns, with the sound of wildlife rustling through the trees. A Dense Thicket",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24109,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "A Dense Thicket",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24111
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24111": {
+          "vnum": 24111,
+          "name": "Ancient Woods",
+          "description": "",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24110,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24112
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VALERIAN",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24112": {
+          "vnum": 24112,
+          "name": "Ancient Woods",
+          "description": "You've reached the heart of the woods, a place of ancient magic and mystery. The trees around you are massive and gnarled, their trunks twisted and knotted in impossible ways. A low mist clings to the forest floor, obscuring your vision and dampening your clothes. You can feel the weight of centuries pressing down on you.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24098,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "Bottom of the Valley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 24111,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "Ancient Woods",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24098,
+      "to": 24112,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24110,
+      "to": 24109,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 24111,
+      "to": 24110,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 24112,
+      "to": 24111,
+      "direction": "sw",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    }
+  ]
+}

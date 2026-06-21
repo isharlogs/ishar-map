@@ -1,0 +1,1108 @@
+{
+  "zone_name": "Ancient Woods - East",
+  "entry_vnum": 63071,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 63040,
+      "rooms": {
+        "63040": {
+          "vnum": 63040,
+          "name": "Ancient Woods",
+          "description": "You venture beneath the interlocking branches in the ancient forest, on the remnants of an overgrown path. The chitter and buzz of insects has faded, and you can hear a faint rush of water in the distance to the south.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63041,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Ancient Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 45027,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "sw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "Hovering unsteadily here on rotting wings is a grinning spritewight.",
+                "Remnants of an overgrown path.  The chitter and buzz of insects has faded",
+                "You can hear a faint rush of water in the distance to the south.",
+                "You venture beneath the interlocking branches in the ancient forest",
+                "and",
+                "on the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63041": {
+          "vnum": 63041,
+          "name": "Ancient Woods",
+          "description": "Deep within the ancient forest of Jharet, this unattended trail is nearly bereft of natural light. Two squat stone pillars mark the beginning of a strange, curving path of cobbled stones to the south. Small bursts of reddish light erupt within the trees about, and quickly fade.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63040,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            63042
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "Bereft of natural light.  Two squat stone pillars mark the beginning of a",
+                "Deep within the ancient forest of Jharet",
+                "Light erupt within the trees about",
+                "Strange",
+                "and quickly fade.",
+                "curving path of cobbled stones to the south.  Small bursts of reddish",
+                "this unattended trail is nearly"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63060": {
+          "vnum": 63060,
+          "name": "Winding Trail",
+          "description": "Several of the Lowode have been felled here, exposing a winding trail through the hills, which appears to have been long abandoned. Small creatures stir in the surrounding wooded hillsides, appraising your intrusion. The trail winds its way eastward toward a rising ridge.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63061,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Winding Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40199,
+              "to_zone": "The Road of Tears",
+              "to_room_name": "Before a Clearing in the Lowode",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63061": {
+          "vnum": 63061,
+          "name": "Winding Trail",
+          "description": "The trail switches back upon itself as the climb steepens. It appears to have been a larger thoroughfare in the past, but has fallen into disrepair.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63060,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Winding Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63062,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Steep Ridge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63071": {
+          "vnum": 63071,
+          "name": "Base of a Brook",
+          "description": "The brook disappears within the roots of a great tree here, hiding itself from your view. The path to the south looks considerably better used than the current narrow track.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 45043,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "The Sloping Trail",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63070,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Following the Brook",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63072": {
+          "vnum": 63072,
+          "name": "Within the Brook",
+          "description": "The current is just enough to wash across you gently, refreshing you. The water sparkles with refracted sunlight, giving you an excellent view of your surroundings. The rocks beneath your feet have an amazing variety of color and shape.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "above the surface": {
+              "to_vnum": 63067,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Near a Small Brook",
+              "direction": "above the surface",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "63074": {
+          "vnum": 63074,
+          "name": "Covered Clearing",
+          "description": "You stand in a small grassy clearing, surrounded completely by dense forest, except for a path that wanders off to the east. To the west, a windowless brick building stands there, looking strangely well-kept and unweathered for being in the middle of the woods. A set of large, ironwood doors on the eastern side look to be the only entrance.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 45076,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "Forest Path",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63075,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Assassins Guild",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63075": {
+          "vnum": 63075,
+          "name": "Assassins Guild",
+          "description": "Dimly glowing orbs affixed to the walls illuminate what looks to be a meeting room of sorts. A long table of solid jharet oak predominates the room and is flanked by large chairs throughout its length. Adorning the room are various paintings of aging, grey haired men all wearing robes of black and a dire grimace. An archway to both the north and south lead off into well lit rooms, while a large set of double doors protect the the way to the east..",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63074,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Covered Clearing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63076,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Assassins Guild",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63077,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Assassins Guild",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63076": {
+          "vnum": 63076,
+          "name": "Assassins Guild",
+          "description": "Frayed straw matts cover the floors, and mock wooden weapons hang from racks along the walls in even rows. An assortment of weights piled into one corner obstruct access to a well-worn punching bag hanging directly above. A low table in another corner is littered with little glass vials containing sinister looking fluids.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63075,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Assassins Guild",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63077": {
+          "vnum": 63077,
+          "name": "Assassins Guild",
+          "description": "A warm light emanates from a roaring fire along the east wall, bathing the room in a deep red glow. A pair of chairs placed in front of the fire seem to invite respite and contemplation.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63075,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Assassins Guild",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63078": {
+          "vnum": 63078,
+          "name": "Edlegreen Fields",
+          "description": "You tread upon a well tended field of short, bristling grass. Several targets stand in a ragged line to the east, and a semi-worn path continues toward a small cabin nestled at the edge of the southern wood. The expanse of the ocean continues westward as far as the eye can see.",
+          "grid_x": 4,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24041,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63079,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Bedaelyn`s Cabin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63079": {
+          "vnum": 63079,
+          "name": "Bedaelyn`s Cabin",
+          "description": "You stand within a simple cabin of ancient wood. Several woodcarving tools are scattered about the small quarters. A large bay window provides a glorious view of the roiling seas to the west.",
+          "grid_x": 4,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63078,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Edlegreen Fields",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 12
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 63067,
+      "rooms": {
+        "63062": {
+          "vnum": 63062,
+          "name": "Steep Ridge",
+          "description": "The bushes around you thin as you ascend a rocky ridge. The footing becomes somewhat precarious as the dry rock crumbles under your steps. Looking ahead, you can see the crest of the ridge loom above you.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 63061,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Winding Trail",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63064,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Ridge Crest",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63067": {
+          "vnum": 63067,
+          "name": "Near a Small Brook",
+          "description": "A stream manifests from the rocks, giving greater life to the local chaparral. The bushes huddle around the trickling flow in a slow-paced battle for life.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63070,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Following the Brook",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go brook": {
+              "to_vnum": 63072,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Within the Brook",
+              "direction": "go brook",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63066,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Along the Ridge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "63070": {
+          "vnum": 63070,
+          "name": "Following the Brook",
+          "description": "There is a narrow path along the banks of the stream, wide enough for you to squeeze by. The foliage is thicker and greener here than above, as if taking strength from the nearness of the forest.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63067,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Near a Small Brook",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63071,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Base of a Brook",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 3
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 63064,
+      "rooms": {
+        "63063": {
+          "vnum": 63063,
+          "name": "RidgeCrest Bar",
+          "description": "Almost no light filters in through the windows, thanks to the rotting shutters. This structure seems as if it was once a popular retreat, but it seems to have been abandoned years ago. Shattered remains of tables and chairs clutter the floor. To the north, a stairway creaks and sways ominously.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63064,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Ridge Crest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63065,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Disheveled Room",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63064": {
+          "vnum": 63064,
+          "name": "Ridge Crest",
+          "description": "Having come this far, you turn to marvel at the view behind you. Mareldja is but a bright blur at this distance. South and east, the forest of Jharet is laid out before you. To the north, a faded, crumbling building is almost eclipsed by a small copse of trees. South you see the ridge plunge into the darkness of the forest.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63063,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "RidgeCrest Bar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63066,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Along the Ridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63062,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Steep Ridge",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63066": {
+          "vnum": 63066,
+          "name": "Along the Ridge",
+          "description": "The ridge descends toward the forest below, and rises toward a peak in the north. A few withered bushes struggle for life in the gravelly soil, but the area is predominately barren.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63073,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Verdant Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63064,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Ridge Crest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63067,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Near a Small Brook",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63073": {
+          "vnum": 63073,
+          "name": "Verdant Path",
+          "description": "Unlike most of the area, the vegetation here seems lush and healthy. The soil looks a barren and dry as ever, but something seems to have given greater persistency to the local flora.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63066,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Along the Ridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "3": {
+      "floor_id": 3,
+      "entry_vnum": 63065,
+      "rooms": {
+        "63065": {
+          "vnum": 63065,
+          "name": "Disheveled Room",
+          "description": "The dust is inches thick on every surface, making you choke and cough. There appears to be a desk of sorts, with the shattered ruin of a chair behind it. There are no windows at all, and the rafters are lost in shadow.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 63063,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "RidgeCrest Bar",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 63040,
+      "to": 63041,
+      "direction": "e",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63060,
+      "to": 63061,
+      "direction": "e",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63063,
+      "to": 63064,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63064,
+      "to": 63066,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63066,
+      "to": 63073,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63067,
+      "to": 63070,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63074,
+      "to": 63075,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 63075,
+      "to": 63076,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63075,
+      "to": 63077,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63078,
+      "to": 63079,
+      "direction": "s",
+      "from_grid": [
+        4,
+        7
+      ],
+      "to_grid": [
+        4,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

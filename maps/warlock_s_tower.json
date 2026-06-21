@@ -1,0 +1,65 @@
+{
+  "zone_name": "Warlock's Tower",
+  "entry_vnum": 92024,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 92024,
+      "rooms": {
+        "92024": {
+          "vnum": 92024,
+          "name": "Base of the Warlock's Tower",
+          "description": "The tall firs of the forest subside here around the base of a small tower. The hinges upon the gate of the tower are rusted, indicating that the occupant travels by means other than foot and doesn't welcome strangers. The forest beyond the tower is far too dense to allow passage.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92019,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Along the Wall",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            92026
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

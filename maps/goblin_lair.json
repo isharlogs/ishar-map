@@ -1,0 +1,2969 @@
+{
+  "zone_name": "Goblin Lair",
+  "entry_vnum": 21000,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -4,
+    "max_x": 5,
+    "min_y": -4,
+    "max_y": 4
+  },
+  "floors": {
+    "-3": {
+      "floor_id": -3,
+      "entry_vnum": 21042,
+      "rooms": {
+        "21042": {
+          "vnum": 21042,
+          "name": "Steep and Wet Stairwell",
+          "description": "The narrow stairwell continues downward into the heart of the mountain. The heat and moisture continue to build, and the stairs become more and more slippery--you almost fear to continue down, as a single slip could send you hurtling to the bottom far, far below.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 21045,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21041,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21043": {
+          "vnum": 21043,
+          "name": "The Dungeons of the Depths",
+          "description": "Arriving at the end of the granite corridor, you notice another cell to the south, from which you hear a faint sobbing. The air here is somewhat fresher, and you notice a ventilation shaft rising up out of the mountain near the ceiling. Holding your light through the cell bars, you can see the Princess Tabitha curled up in the corner, unaware of your presence. The granite corridor also runs east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21044,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21046,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Tabitha's Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21044": {
+          "vnum": 21044,
+          "name": "The Dungeons of the Depths",
+          "description": "The granite corridor continues east and west, and the air grows consistently more stale. You arrive at another cell opening to the south, from which the stench of soured liquor pours in almost unbearable strength. A wino inside seems oblivious to his peril.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21045,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21047,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dingy Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 21043,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21045": {
+          "vnum": 21045,
+          "name": "The Dungeons of the Depths",
+          "description": "Passing through the small stone door, you enter a long granite hallway running west. The air here seems rather thin, perhaps stale, as no breezes seem to flow. To the south an iron-barred cell holds the body of a dead elf. A few rather large and gruesome machines hide just past the edge of your light.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21042,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21048,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Torture Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 21044,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21046": {
+          "vnum": 21046,
+          "name": "Tabitha's Cell",
+          "description": "This bleak cell, bereft of all light, is little more then a roughly carved hole in the stone with an iron door to block access. Water drops at irregular intervals from the ceiling above and a dank smell pervades the area.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21043,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Princess Tabitha",
+              "description": "Captured in the brutal war between the dwarves and the goblins, Tabitha looks much the worse for wear. Her once fine gown is now tattered and stained and her face is bruised and beaten. However, as you enter, hope fills her eyes.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21047": {
+          "vnum": 21047,
+          "name": "The Dingy Cell",
+          "description": "For some obscure reason, the goblins have tossed a drunk into this cell by himself. He stands here, completely absorbed in his own singing, which could probably kill orcs at 30 yards. The room is otherwise barren, and only the cell door provides an exit.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21044,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Drunken warrior",
+              "description": "He smells strongly of spirits.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21048": {
+          "vnum": 21048,
+          "name": "Goblin Torture Chamber",
+          "description": "This odd little room is clearly used for nefarious purposes. Various devices of torture wait patiently for your capture as they chew slowly on the remains of their last victims. Just inside the door lies the dart-filled body of a young elf who was unfortunate enough to be found here. The basalt walls of the room are scarred with the marks of metal-tipped whips and stained a deeper shade of black with the blood of a hundred foolhardy adventurers.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21045,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Dungeons of the Depths",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 7
+      }
+    },
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 21041,
+      "rooms": {
+        "21041": {
+          "vnum": 21041,
+          "name": "Steep and Wet Stairwell",
+          "description": "The stairway winds round and round, further and further down you travel. The air becomes warmer and you begin to sweat quite profusely--or perhaps it is merely the humidity rising dramatically. The stairs here begin to become dangerously slick.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 21042,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21040,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 21019,
+      "rooms": {
+        "21019": {
+          "vnum": 21019,
+          "name": "Dining Hall",
+          "description": "This large dining hall centers around a huge oak table at which a large number of goblins are feasting. Their cacophonous squabbling is quickly silenced by your presence. Both parties stand motionless, waiting anxiously, until one of the goblins draws his sword and, with a flippant comment about the arrival of tomorrow's feast, strikes viciously at you.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21020,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Eastern Kitchen Area",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21023,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Lounge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21013,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21020": {
+          "vnum": 21020,
+          "name": "Eastern Kitchen Area",
+          "description": "The putrid smell of evil almost overcomes you as you enter the kitchen. One large cauldron, bubbling furiously, is being used to deep fry elves. A human hand attached only to a forearm clings desperately to the side of a mixing bowl. Several corpses hang on a wall rack, already gutted and ready to eat. To the west you hear the sound of a cleaver hitting bone and grimace as you watch the head chef, a tall ogre who has yet to notice you, dropping pieces of a dwarf into a stewpot. To the south is the dining hall, where you can avoid being served by leaving now.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21019,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Dining Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21021,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Western Kitchen Area",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21021": {
+          "vnum": 21021,
+          "name": "Western Kitchen Area",
+          "description": "Determined to end this damnable horror, you stride into the western end of the kitchen and confront the head chef. His bloody cleaver flashes in your light as he welcomes you as the next addition to his dwarf stew. To the south is the pantry, while the eastern half of the kitchen leads to freedom.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21020,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Eastern Kitchen Area",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21022,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Pantry",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21022": {
+          "vnum": 21022,
+          "name": "Pantry",
+          "description": "The pantry is largely unused by the current dwellers, but large crates of molding foodstuffs yet remain from the past occupants. Most have been broken and ravaged out of malice, but searching among the ruin, you manage to find a few good items, a little hard but edible.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21021,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Western Kitchen Area",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21023": {
+          "vnum": 21023,
+          "name": "Northern Lounge",
+          "description": "The scent of cedar panelling brings you quickly to bliss as you step into the northern half of the lounge. The marble floor, however, is covered with countless blood stains, and a pile of bodies is dimly visible to the south. You wonder what the vile acts the malicious inhabitants might perpetrate herein.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21019,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Dining Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21024,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Lounge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21024": {
+          "vnum": 21024,
+          "name": "Southern Lounge",
+          "description": "The fresh-scented cedar wall panels belie the nefarious usage of what was once the lounge of this complex. A pile of crumpled kobolds against the southern wall gives a better indication. Nudging one with your foot, you notice that no less than three quarters of its bones have been shattered as the corpse lolls lifelessly about. Numerous bruises are also visible, and probably correlate with the blood stains scattered about the marble floor.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21025,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21023,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Lounge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21025": {
+          "vnum": 21025,
+          "name": "Southern Passageway",
+          "description": "From the foot of the stairs leading east and up to the limit of your meager light, the floor is tiled in marble and veined in strange patterns. Closer examinations reveal traces of gold and silver inlays in the marble, which were probably picked out by the current inhabitants. To the west the way leads into a spacious wood-panelled room, while the way opens south to a corridor from which the stench of grim death grasps at you coldly.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21029,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21024,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Lounge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21026,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21029": {
+          "vnum": 21029,
+          "name": "Marble Corridor",
+          "description": "The wide marble corridor leads you south. The foul odors intensify and whip about you in small gusts of wind. To the west you see a large door, evidently quite thick and bound with iron. Only the sound of the wind as it rushes at you from afar can be heard as you stand motionless before the door. The hallway also continues south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21025,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21033,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21030,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Guard Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21030": {
+          "vnum": 21030,
+          "name": "Guard Quarters",
+          "description": "With a hefty shove, you fling open the door and enter a broad chamber housing several cots and a table, around which are seated ogre guards playing a game of dice. The dice are crafted of bone, perhaps a human femur, and rattle coldly as they strike the table. The wind follows you into the room, and the ogres look up and grin at the vile scent. Another door leads west, but the ogres have no interest in letting you pass through it.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21029,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21031,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Lair of the Ogre Chieftain",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21031": {
+          "vnum": 21031,
+          "name": "Lair of the Ogre Chieftain",
+          "description": "The door opens with a loud groan and passes you into a smaller room in which a single mattress supports a husky ogre. The scent here is almost as nauseating as in the hallway, and you cringe involuntarily as the ogre stops gnawing on someone's calf and tosses the piece aside. The thought that this creature could literally tear you to pieces eats at your confidence as you prepare to meet the ogre in battle.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21030,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Guard Quarters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21032,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Broom Closet",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21032": {
+          "vnum": 21032,
+          "name": "Broom Closet",
+          "description": "This small room contains almost nothing of value--all of the clothing is ancient and rotting, and what is not rotting has been broken, snapped in half or clawed to shreds.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21031,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Lair of the Ogre Chieftain",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21033": {
+          "vnum": 21033,
+          "name": "Marble Corridor",
+          "description": "Further south along the marble corridor, you notice a large door stained red leading eastward. Nothing can be heard from within, and the scent of death trampling your senses from the south prevents any opportunity for further inspection. The hallway opens to the south into a cavernous cathedral, and you glimpse the lower portion of a tall statue in your flickering light.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21040,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 21029,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21034,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Temple of the Dark Slayer",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21034": {
+          "vnum": 21034,
+          "name": "Temple of the Dark Slayer",
+          "description": "You enter the cathedral of the Dark Slayer, Destroyer of the Truth and Founder of the Church of Chaos. Carved in iron in the southern portion of the temple, one manifestation of the slayer rears its grotesque three-headed torso and flails wildly with its razor sharp talons. Fortunately, the iron is motionless. To either side of the statue, you notice deep pits from which the noxious gas rises steadily and drifts directly to your nostrils.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21033,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21036,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Beneath the Slayer's Statue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21035": {
+          "vnum": 21035,
+          "name": "Pit of Snakes",
+          "description": "You wince as you hit the hard stone floor of the pit, but quickly regain your feet as you realize the peril now before you. The edge of the wall is probably within reach, but you must act quickly before the cobras strike.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 21034,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Temple of the Dark Slayer",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21036": {
+          "vnum": 21036,
+          "name": "Beneath the Slayer's Statue",
+          "description": "Stepping carefully between the parted legs, you inch your way to the south end of the temple. From here you can look down into the pits of death--the west pit holds several deadly cobras, as well as a number of rotting corpses, while the eastern one holds venomous spiders. As you peer down into the pits, you hear a slight motion and feel the ground tremble, but when you glance fearfully upward, the rumbling stops instantly, and you imagine that perhaps your nerves are getting the better of you. To the south, a solidly bound doorway exits the temple.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21037,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Pit of Spiders",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21034,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Temple of the Dark Slayer",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21035,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Pit of Snakes",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            21038
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21037": {
+          "vnum": 21037,
+          "name": "Pit of Spiders",
+          "description": "You tumble to the floor of the pit and jump to your feet as the spiders close on you. Reaching for your weapon, you tremble slightly and consider trying to climb out of the pit--possible, but only with quick action.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21038,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The High Priest's Abode",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21034,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Temple of the Dark Slayer",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21038": {
+          "vnum": 21038,
+          "name": "The High Priest's Abode",
+          "description": "Thurvunaal, High Priest of the Dark Slayer, is not pleased with your presence. This is most obvious as he begins to wave his arms about and recites a fireball incantation to remove you. The spacious quarters, besides retaining the gold and silver inlays in the marble, have been decorated with furniture crafted of rare woods: a bed, a night stand, and a chest. Torches dotting the walls above remain unused, yet you sense that Thurvunaal has no problem detecting you. One notices the finest detail immediately before death, like the soft scraping sound as a secret door closes behind you. A tiny ant seems to have found a scrap of food on your pant leg...",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21039,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Secret Cache",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21037,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Pit of Spiders",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21039": {
+          "vnum": 21039,
+          "name": "Secret Cache",
+          "description": "Pushing your way past racks of clothes into the priest's closet, you find little more than lint and a faint musty odor. A moth pops out of one dark cowl and flaps into your helmet, bashing itself against you several times before fluttering out and away into your light.",
+          "grid_x": 2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 21038,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The High Priest's Abode",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21040": {
+          "vnum": 21040,
+          "name": "Steep and Wet Stairwell",
+          "description": "Passing through the oak door, you find a steep spiral staircase winding down into the silent stone below. You are struck by an extreme sense of absence-- there are no sounds, no smells, no feelings...as if some great and terrible demon has ripped the very soul from the mountain and devoured it.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 21033,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Marble Corridor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 21041,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Steep and Wet Stairwell",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -4,
+        "max_y": 4,
+        "room_count": 19
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 21000,
+      "rooms": {
+        "21000": {
+          "vnum": 21000,
+          "name": "A Narrow and Steep Path",
+          "description": "The path turns swiftly upward and you rise slowly up the mountainside on a series of switchbacks. The dark brush grows high alongside the path, and although you feel almost cramped on the narrow trail, the glint of sunlight through the branches keeps you aware that any attempt to breach the wall of brush would certainly result in a very painful death at the bottom of the mountain. The path continues west, climbing ever higher into the hillside.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20020,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "A Landing on the North Side of the River Telemacus",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21001,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "A Narrow and Steep Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21001": {
+          "vnum": 21001,
+          "name": "A Narrow and Steep Path",
+          "description": "After a long while, you break out of the shrubs onto the upper hillside. Looking back, your eyes command a sweeping view of the river and valley far below. The north of the valley ends abruptly in the sheer granite cliffs of the Dwarven demesne. Following the winding trail up over the slopes, you round a bend and face suddenly a vast sheet of water streaming downward before you. The roar is tremendous, and as droplets of fine mist cool your face, you begin to wonder how it is that you have not heard the falls earlier. The trail ends abruptly.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21000,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "A Narrow and Steep Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go falls": {
+              "to_vnum": 21002,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Just Past the Falls",
+              "direction": "go falls",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "21002": {
+          "vnum": 21002,
+          "name": "Just Past the Falls",
+          "description": "Edging your way past the rushing water, you squeeze into a narrow passageway behind the falls. The stone here is roughly hewn basalt, clearly not a natural formation. The passage leads into the mountainside, where your keen eyes detect rows of arrow-sized holes lining the walls. The passage is dimly illuminated by the flickering sunlight coming through the water, and faint scratchings and winds emanate from the heart of the mountain.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21001,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "A Narrow and Steep Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21003,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Passage to Doom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 21004,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Crawling Down the Passageway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21003": {
+          "vnum": 21003,
+          "name": "The Passage to Doom",
+          "description": "As you cautiously enter the mountain, you move slowly past the holes lining the walls in rows. Strangely, the evil cackling of some fiendish creature drifts to you from afar, and only too late do you realize the folly of your position. The shaft quickly fills with tens of thick black shafts, many of which burst through your armor and drive home to your vitals. OUCH!! That hurt! A white light surrounds you as you lose consciousness!",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [
+            21002,
+            21004,
+            21005
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": true,
+          "portal": false
+        },
+        "21004": {
+          "vnum": 21004,
+          "name": "Crawling Down the Passageway",
+          "description": "Crawling slowly along the hard rock floor, you snicker softly to yourself at the clamor now arising beyond the northern wall. The guards, foiled in their attempts to trap you, can be heard preparing for battle. Occasionally a black arrow whizzes across the passage above your head and clatters harmlessly to the ground. You wince as you notice the thick oily venom coating the tips. You certainly wouldn't want to get up just yet.",
+          "grid_x": 2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21002,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Just Past the Falls",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21005,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Branch in the Corridor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 21003,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Passage to Doom",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21005": {
+          "vnum": 21005,
+          "name": "The Branch in the Corridor",
+          "description": "The corridor splits here, branching north and west. To the east you see the walls filled with arrow slits, and you make a mental note to crawl back out. The basalt here is much more carefully cut, and the passageway broadens in both directions. The guards chamber lies north, and you can hear the defenders preparing for battle. Perhaps if you hurry you can catch them before they finish. What lies west is beyond your ken.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21002,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Just Past the Falls",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21006,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Entrance to the Guards' Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21027,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21006": {
+          "vnum": 21006,
+          "name": "The Entrance to the Guards' Room",
+          "description": "Hurriedly advancing on the guards' chamber, you come to another branching of the corridor. A narrower opening to the east opens into a large chamber. From within you hear the whisk of steel on leather and the soft clink of metal armor. The corridor also continues north and south.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21007,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Guard Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21008,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Bloody Corner",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21005,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Branch in the Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21007": {
+          "vnum": 21007,
+          "name": "The Guard Room",
+          "description": "Several rotting straw mats reeking of urine and dung lie scattered about the smooth stone floor of this chamber. The stench is almost overpowering, but you set your will and look around again. In the south wall numerous arrow slits open onto the entranceway, and a number of bows and quivers bristling with arrows have been discarded near the wall. A quick look determines that the bows would be useless at anything but point blank, such is their quality. The denizens of the room rise to greet you.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 21006,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Entrance to the Guards' Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21008": {
+          "vnum": 21008,
+          "name": "Bloody Corner",
+          "description": "Here meet two broad corridors of basalt, squarely cut and worn smooth by long usage. You wonder for a second if the vile and slothful denizens of this place could possibly have some mining ability, but the thought quickly escapes you as you notice the blood-black stains in the corner and the grisly half- mauled human head placed prominently in the center of what was once a pool of blood. Stepping carefully toward it for a closer inspection, you wince as your boot splashes down into the black stain and bright red boils out. The victim, you realize, is not even two days' dead. The corridors run west and south.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21006,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Entrance to the Guards' Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21009,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21009": {
+          "vnum": 21009,
+          "name": "Northern Passageway",
+          "description": "The broad basalt passageway leads east and west, and two shadowy doorways branch to the north and the south. A raucous group of atrocious beasts at the west end of the passageway grates against your hearing, yet you seem to hear soft mumblings and perhaps a whimper or two from the south. The north entrance reeks of urine, and it's probably best that you avoid it.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21008,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Bloody Corner",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21015,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21014,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Nursery",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21010,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21010": {
+          "vnum": 21010,
+          "name": "Northern Passageway",
+          "description": "The wide stone corridor continues east and west. On the northern wall some crude art depicting legions of tiny goblins destroying human settlements appears faintly in white chalk on the black basalt.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21009,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21011,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21011": {
+          "vnum": 21011,
+          "name": "Northern Passageway",
+          "description": "The noises from the west get louder as you approach. Here another set of entrance-ways lead north and south, while the corridor continues east and west. Despite the din, you hear voices speaking in soft tones from nearby. Unfortunately, it's impossible to tell from where the voices emanate.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21010,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 21017,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21016,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21012,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21012": {
+          "vnum": 21012,
+          "name": "Northern Passageway",
+          "description": "As you slide quietly down the hallway, the ruckus to the west simmers down. You freeze, hoping that the villainous creatures have not detected you, but rest easier as they begin once again. To the west you see another doorway leading south, its archway carved with a strange rune. Past the door, stairs lead downward toward the party. The corridor also returns eastward, for the faint of heart.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21011,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21013,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21013": {
+          "vnum": 21013,
+          "name": "Northern Passageway",
+          "description": "You arrive at the top of a broad stone stairway leading down into darkness. From below the din of the goblin feast roars up at you as if you peered into the maw of hell itself. Directly to the south, another doorway leads off from the east-west running corridor--from the top of the arched entrance, a carved rune peers menacingly down at you, sucking in your soul as it sucks in the light.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21012,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 21018,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Goblin Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 21019,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Dining Hall",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21014": {
+          "vnum": 21014,
+          "name": "Goblin Nursery",
+          "description": "Well, well, well...here's your chance to destroy this race right now by wiping out the next generation. Groups of baby goblins scamper about, playing various games or sitting quietly by themselves. They aren't actually all that much different from human children. One rather less than cute little one wobbles up to you and giggles profusely. Want to kill him?",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21009,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21015": {
+          "vnum": 21015,
+          "name": "Goblin Chamber",
+          "description": "You enter a spacious room scattered with straw and rotting clothing. Your senses reel as you breathe you first breath of the noxious air. You stoop to grab a rag through which to breathe, but drop it quickly when you realize that the rag is wet. Fortunately, the room is completely devoid of occupants at the moment, so you won't be forced to fight with more than the smell.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21009,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21016": {
+          "vnum": 21016,
+          "name": "Goblin Chamber",
+          "description": "The narrow entranceway opens into a broad chamber lined with rotting teak. Most of the floor is bare, but the tiling in some areas yet remains, a silent testimony to what must once have been great splendor. In this room also the straw and cloth bedding of the goblins is present, although the room seems to be inhabited by fewer, perhaps more important, goblins. A quick search reveals nothing of value.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21011,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21017": {
+          "vnum": 21017,
+          "name": "Goblin Chamber",
+          "description": "The room is similar to the others--perhaps this corridor was once used to house guests--crude matting and piles of worthless fabric clutter the floor. of goblins in the corner rise to welcome you.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 21011,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21018": {
+          "vnum": 21018,
+          "name": "Goblin Chamber",
+          "description": "Striding almost fearlessly beneath the rune of dark power, you enter the spacious abode of the goblin leader. All the comforts of civilized life are here present, including a large mattress stuffed with the downy hair of human scalps. Also here is the occupant, the tall and powerful Uruk-Hai, who hefts his black spear from the wall and bares his yellow fangs in a wicked grin as he prepares to devour your soul.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 21013,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Northern Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Uruk-hai",
+              "description": "The dreaded Uruk-Hai towers above your meager form, his dripping yellow fangs gleaming brightly in the darkness.  Emblazoned on his cuirass is a blood red hand surrounding the rune of dark power.  Your hand trembles as you reach for your weapon.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21026": {
+          "vnum": 21026,
+          "name": "Southern Passageway",
+          "description": "Ignoring the chance at easy profit, you advance further down the stone hallway to the top of a wide stairway. What lies below is obscured in the gloom of darkness and seems to radiate silence. If nothing else, it is certainly deadly. You may return east toward the outside world, or descend into the depths of the mountain.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21027,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 21025,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "21027": {
+          "vnum": 21027,
+          "name": "Southern Passageway",
+          "description": "Advancing cautiously down the dark corridor, you arrive at a branch leading south. The hallway continues east and west, but the high archway beckons invitingly to you. Thrusting your light into the opening, you are greeted with the glint of gold from a large pile of coins at the back of the chamber. You recall the tale of the avaricious Midas, whose greed lost him everything. But then, you have never been one to turn down a generous offer of gold, have you?",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 21005,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "The Branch in the Corridor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21026,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "Southern Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            21028
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -4,
+        "max_x": 5,
+        "min_y": -1,
+        "max_y": 4,
+        "room_count": 21
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 21000,
+      "to": 21001,
+      "direction": "w",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21002,
+      "to": 21001,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21002,
+      "to": 21003,
+      "direction": "w",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21004,
+      "to": 21002,
+      "direction": "e",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21004,
+      "to": 21005,
+      "direction": "w",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21005,
+      "to": 21002,
+      "direction": "e",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21005,
+      "to": 21006,
+      "direction": "n",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21005,
+      "to": 21027,
+      "direction": "w",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21006,
+      "to": 21007,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21006,
+      "to": 21008,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21008,
+      "to": 21009,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21009,
+      "to": 21015,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21009,
+      "to": 21014,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21009,
+      "to": 21010,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21010,
+      "to": 21011,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21011,
+      "to": 21017,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21011,
+      "to": 21016,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21011,
+      "to": 21012,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21012,
+      "to": 21013,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21013,
+      "to": 21018,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21019,
+      "to": 21020,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21019,
+      "to": 21023,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21020,
+      "to": 21021,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21021,
+      "to": 21022,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21023,
+      "to": 21024,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21024,
+      "to": 21025,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21025,
+      "to": 21029,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21026,
+      "to": 21027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        4
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21029,
+      "to": 21033,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21029,
+      "to": 21030,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21030,
+      "to": 21031,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21031,
+      "to": 21032,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21033,
+      "to": 21040,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21033,
+      "to": 21034,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21034,
+      "to": 21036,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21036,
+      "to": 21037,
+      "direction": "e",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21036,
+      "to": 21035,
+      "direction": "w",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 21037,
+      "to": 21038,
+      "direction": "s",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21038,
+      "to": 21039,
+      "direction": "e",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        2,
+        4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21042,
+      "to": 21045,
+      "direction": "w",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21043,
+      "to": 21044,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21043,
+      "to": 21046,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21044,
+      "to": 21045,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 21044,
+      "to": 21047,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 21045,
+      "to": 21048,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

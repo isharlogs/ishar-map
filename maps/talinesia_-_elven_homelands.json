@@ -1,0 +1,5697 @@
+{
+  "zone_name": "Talinesia - Elven Homelands",
+  "entry_vnum": 92025,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 5,
+    "min_y": -8,
+    "max_y": 4
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 92016,
+      "rooms": {
+        "92016": {
+          "vnum": 92016,
+          "name": "Among the Light Firs",
+          "description": "The chilling air rasps at your flesh among the light sprinkling of firs high up the cliff here. To the east, the vast wall of stone rises once more, and just to the west, the sheer cliff drops to the oaken valley floor below. A few of the oaks can be seen further down the hill to the south, beside a cave.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92009,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Forested Slope",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92020,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Beside a Small Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92020": {
+          "vnum": 92020,
+          "name": "Beside a Small Cave",
+          "description": "Large oaks spring up all about, alongside a massive wall of rock to the east, and at the base of a steep band of forest that ascends the cliff to the north. The mouth of a large cave gapes open at the foot of the cliff a few hundred feet to the east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92039,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Within a Small Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92016,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Among the Light Firs",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92044,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Oaken Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92036": {
+          "vnum": 92036,
+          "name": "Natural Tunnel",
+          "description": "Black, velvet darkness shrouds your eyes deep under the earth, and the stale air is chilling to the core. The rough stone walls of the natural tunnel bend ninety degrees here, leading southward into the darkness and widening eastward into an underground chamber.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92037,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Subterranean Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92039,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Within a Small Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92037": {
+          "vnum": 92037,
+          "name": "Subterranean Chamber",
+          "description": "Stoney blackness surrounds you deep within the earth in this natural chamber. The ceiling is high, barely perceivable, and the slabby walls halt all exit save for the tunnel to the west. A few items of furniture lie scattered about the chamber, providing a place of living for the subterranean dweller.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92038,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Secret Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92036,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Natural Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92038": {
+          "vnum": 92038,
+          "name": "Secret Passageway",
+          "description": "Dusty slabs tile the floor of this hidden walkway, long ago forgotten in the passing of time. Cobwebbed statues line the hall in ancient glory, testament to valiant elven warriors and rulers of old. The memorial corridor continues southward.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92040,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Secret Passageway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92037,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Subterranean Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92039": {
+          "vnum": 92039,
+          "name": "Within a Small Cave",
+          "description": "The musky odor of a bear's living place assaults your nostrils, immediately alerting you to danger. The cave is smaller than it first seemed and there is nothing remarkable, except to the north, where a natural tunnel runs deeper into the cliff. The light of the outdoors pours in through the mouth to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92036,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Natural Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92020,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Beside a Small Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92040": {
+          "vnum": 92040,
+          "name": "Secret Passageway",
+          "description": "Statues line this passageway, carved with hauntingly accurate detail. Cobwebs hang from the tiled ceiling in droves, indicating the secrecy of the halls in which you walk. No Talinesian has been here for years, perhaps centuries. A stone statue lands a glancing blow on you. (11) With a savage grunt, you press your attack home! (25) The ocean's energy begins to flow through you, granting you the speed of a gentle current.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92038,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Secret Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92041,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Under the Kitchen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92041": {
+          "vnum": 92041,
+          "name": "Under the Kitchen",
+          "description": "Rusted rungs lead upward to a trapdoor in the tiled ceiling of this passageway. The hall leading northward is lined with rotting statues of granite, testimonials to Talinesians long ago forgotten in the decadence of the current dynasty.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92040,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Secret Passageway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 92031,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Cluttered Kitchen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92044": {
+          "vnum": 92044,
+          "name": "Oaken Forest",
+          "description": "The dense forest of oak prohibits travel to the south, and makes it all but impossible to the west. A steep cliff rises above the forest to the east, further preventing passage. The dense undergrowth thins slightly to the north, alongside a cave in the cliff.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92020,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Beside a Small Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69076,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "In a Dense Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 3,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 9
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 92010,
+      "rooms": {
+        "92010": {
+          "vnum": 92010,
+          "name": "The Talinesian Forest",
+          "description": "Towering firs surround you with their dark glory, reaching high into the heavens above. Some distance to the west, the ground drops vertically several hundred feet to a wooded slope below. The cliff-top is met by a small stone wall to the southwest, which continues eastward through the forest, blocking travel to the dense forest to the south. The tightly-knit canopy subsides to the north above a thin trail seen between the firs.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92011,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92011": {
+          "vnum": 92011,
+          "name": "The Talinesian Forest",
+          "description": "The undergrowth and trees of the dark forest are dense, making travel difficult, but not impossible. A gatehouse can be seen to the south, guarding a lush garden and palace beyond. The gloom of the forest continues to the east and west, and rays of light pierce the canopy along a trail to the north.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92012,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92017,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Western Gatehouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 92010,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92012": {
+          "vnum": 92012,
+          "name": "The Talinesian Forest",
+          "description": "The gloom within the forest is oily black, almost tangible. A small stone wall runs through the forest to the south, guarding the vast palace that lies beyond. Gatehouses break the continuity of the wall to the southeast and southwest, and the forest spreads out in all other directions.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92013,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92011,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92013": {
+          "vnum": 92013,
+          "name": "The Talinesian Forest",
+          "description": "Small squirrels and other wildlife scamper through the forest beneath the gloom of the towering firs. The dense canopy of branches prevent light from reaching the forest floor, eliminating undergrowth, leaving the ground covered with naught but a layer of needles.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92014,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92018,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Eastern Gatehouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 92012,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92014": {
+          "vnum": 92014,
+          "name": "The Talinesian Forest",
+          "description": "The soil beneath the firs is trampled here, preventing the growth of bushes and saplings. This appears to be the meeting place of Talinesian invading forces, where the army assembles and formulates a plan. The trampled ground ends to the south, and the deep bushes prevent travel, but the forest is but fairly dense in all other directions.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92015,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92013,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92015": {
+          "vnum": 92015,
+          "name": "The Talinesian Forest",
+          "description": "The trees of the forest grow alongside a stone wall of epic proportions to the east. The wall is quite possibly the largest unnatural formation you have ever encountered in your life. Small vines attempt to climb the wall, but fail miserably after a mere fifty feet. The dense forest can be breached to the west or skirted to the north or south.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92008,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Before the Golden Archway",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92019,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Along the Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92014,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92017": {
+          "vnum": 92017,
+          "name": "Western Gatehouse",
+          "description": "Ample space within this gatehouse exists for combat, allowing the Talinesians to easily outnumber the more defensive Erinesian on their occasional raids. Beyond the sanctity of the gatehouse and its guards lies the sprawling gardens of a magnificent palace seen some distance to the south.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92011,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92021,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92018": {
+          "vnum": 92018,
+          "name": "Eastern Gatehouse",
+          "description": "Surprisingly bare, the gatehouse appears to be little more than a deterrent for enemy invaders. The Talinesians seem to have spent more of their resources in offensive campaigns, perhaps an overconfident move.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92013,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92023,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92019": {
+          "vnum": 92019,
+          "name": "Along the Wall",
+          "description": "A small path runs between the massive stone wall to the east and the dense Talinesian forest to the west, allowing you to walk along in peaceful solitude. Some distance to the south, a small tower can be seen, large enough to clear the treetops, but dwarfed by the wall.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92015,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92024,
+              "to_zone": "Warlock's Tower",
+              "to_room_name": "Base of the Warlock's Tower",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92021": {
+          "vnum": 92021,
+          "name": "Palace Gardens",
+          "description": "All manner of lush flowers and shubbery grow within this splendid garden, their aromas mingling with the scent of fir from the forest beyond the gatehouse to the north. The gardens continue to the east, and the gate to the palace lies just south of there. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92022,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92017,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Western Gatehouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92022": {
+          "vnum": 92022,
+          "name": "Palace Gardens",
+          "description": "Beautiful flowers spring up in carefully designed patterns all around. The masterful gardeners have become expert at the art of landscaping, likely having been passed down the knowledge from times less troubled. The gate to the Talinesian palace stands to the south, beyond the guard.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92023,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92025,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Entrance Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92021,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "General Brethus",
+              "description": "Well aimed!  Launching yourself like a coiled spring, you land a fatal blow on a muck beast! (77) A muck beast issues a bloodcurdling cry of pain! You get 126 obsidian coins from a corpse here. The smooth flow of the river rocks your boat gently, soothing your aching muscles as it turns southward.  Upstream, the river appears to come from the north, and just downstream the water slows and enters a pool.  The bank is low enough on the west to allow you to disembark. The river ceases its southern course alongside a tall wooden wall on its east, and bends to the west here.  The branches of the tall firs along the banks spread out over the river, blocking much of the light.  The water of the river chills you as it splashes you along. Fueled by the waterfall just upstream, the current here is swift and powerful, sweeping you to the south.  The banks are steep, and rise high above the height of the river.  A wooden wall is perched atop the eastern bank, and continues to the north and south. A loud roar assaults your ears as torrents of water cascade from hundreds of feet above and crash into the river.  The water surges southward, making its way through the forest.  The towering cliff of rock from which the water falls continues to the west, and is met by a large wooden wall to the east. A pale metallic shimmer catches the light. The power of the ocean gradually subsides. The trees and bushes have grown very close together here, preventing you from standing up straight, or even from relaxing properly.  The soft roar of a waterfall echoes between the trees from the east.  A branch pokes into your eye, and you decide that it really isn't very pleasant here. A soft, furry rabbit bounces about. The grand forest grows at the base of a towering cliff of rock and ice to the north, met by the wooden wall on the west.  A small pile of fir needles provide a bed for a resting bear and her cub, relaxing in the comfort of the forest. A large brown bear watches after her young. A young bear cub rolls about. Lush undergrowth carpets the forest floor, mingled with fallen fir needles and the occasional towering fir.  Dwarved by the trees, yet large nonetheless, a wooden wall blocks passage to the west, and continues through the forest to the north and south.  A small clearing beneath a guardhouse can be seen between the trees some distance to the east. A guardhouse high in the trees bristles with arrow slits, casting more than a little doubt upon your chances of surviving long here.  Bushes prevent escape in any direction except west, so perhaps you had better make your way through the trees quickly in that direction. You climb up. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. The racks upon the walls of this workshop are adorned with an assortment of oddities, ranging from vials full of unidentifiable liquids to wire mesh cages containing small rodents.  In the middle of the room sits a large golden box, and it seems to be the center of attention. The illustrious Syria practices her craft. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. The racks upon the walls of this workshop are adorned with an assortment of oddities, ranging from vials full of unidentifiable liquids to wire mesh cages containing small rodents.  In the middle of the room sits a large golden box, and it seems to be the center of attention. The illustrious Syria practices her craft. The Golden Box will not open for you. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Elves scurry to and fro along the wooden catwalks of the canopy, attending to errands.  Mesmerizing flickers of flame shine from the glassless windows of the treetop dwellings, displaying the warmth of the cozy elven hearths for all to see.  Guard houses at the four corners of the beautiful city protect the sanctity of the place, and guard it from the ravages of the eternal war. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia quickly grabs her belongings. You would have loved this city in your youth.  Catwalks run to and fro, connecting the various treetop dwellings, creating a wonderful maze of bridges for the children to play upon.  The elves seem in high spirits for a people at war. A citizen of Erinesia draws away from you. This sturdy guard house protects the beautiful treetops of Erinesia.  Beds hang from the ceiling, providing a resting place for the numerous guards and archers.  Doorways lead into the treetops to the east and north, and a hole in the floor allows for a long drop to the forest floor below. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Birds soar gracefully overhead, occasionally swooping beneath the canopy for a meal.  The lower catwalks run beneath the branches, into the gloom below. Elves wander about, attending to chores and socializing with one another, content that they are safe within the walls. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. The treetops sway slightly in the breeze, rocking the catwalks upon which you stand.  A few small dwellings sit in the nearby trees, casting flickers of light across the gloom of the forest canopy.  A solid guard house protects the city to the east, and a sizable tavern hangs beneath a large tree to the north. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. The sweet smell of freshly cut fir floats past your nose, the result of repairs in the wall of the guard house.  Various articles of furniture litter the room, providing a resting place for the weary guards and archers during breaks in the Talinesian invasion.  Doorways lead into the catwalks of the Erinesian treetops to the north and west. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Somber tranquility echoes beneath the boughs of the great firs, cloaking the catwalks in serene bliss.  Soft laughter from a nearby dwelling floats past, hanging in the still forest air.  Few places compare to the arboreal beauty of Erinesia. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia draws away from you. Elves engage in jovial swordplay in a large ring within this sword house. The northern wall is lined with fine blades of green Elven steel, and beneath them rests a well-stocked bar.  The sweet aroma of venison tickles your nose, calling to mind your last tasty meal. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. Damion the Blademaster challenges you to a friendly duel. A young elf swings his sword about in mock battle. A young elf dances about, engaged in a light skirmish. The barkeep grins and offers you a drink. . . . the barkeep glows with a strange light! The treetops sway slightly in the breeze, rocking the catwalks upon which you stand.  A few small dwellings sit in the nearby trees, casting flickers of light across the gloom of the forest canopy.  A solid guard house protects the city to the east, and a sizable tavern hangs beneath a large tree to the north. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia bustles west. Elves engage in jovial swordplay in a large ring within this sword house. The northern wall is lined with fine blades of green Elven steel, and beneath them rests a well-stocked bar.  The sweet aroma of venison tickles your nose, calling to mind your last tasty meal. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. Damion the Blademaster challenges you to a friendly duel. A young elf swings his sword about in mock battle. A young elf dances about, engaged in a light skirmish. The barkeep grins and offers you a drink. . . . the barkeep glows with a strange light! You feel the mechanism release. The lock yields to your skills. Ok. The walls of this prison cell are of Ingeen Oak - strong as steel.  The cell appears fairly comfortable, used more as a holding cell for prisoners of war than for criminals.  The only way out is through the heavy door. General Brethus of Talinesia glares at you, livid with rage. This muscular elf's face is twisted in uncontrolled anger, undoubtedly at his captivity.  Clenching his fists, he springs towards you!",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92023": {
+          "vnum": 92023,
+          "name": "Palace Gardens",
+          "description": "Lush grass grows underfoot, carefully tended with immaculate detail by gardeners of vast expertise. Shrubs and flowers spring from well mixed loam, providing perfect fertilization for the blooming buds that scatter their color across the beautiful gardens.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92018,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Eastern Gatehouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92022,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92025": {
+          "vnum": 92025,
+          "name": "Entrance Hall",
+          "description": "Extravagant curtains drape the entrance hall in crimson glory, mingling with the carpet to form a motif of royal red. The sounds of a massive feast assail your ears from the great hall to the south, and the gardens of the palace grow in all their splendor outside of the gate to the north. You are very hungry and should find something to eat. You are getting thirsty.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92022,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Palace Gardens",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 92028,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92027": {
+          "vnum": 92027,
+          "name": "The Great Hall",
+          "description": "Long tables stretch from wall to wall, completely covered in all manner of lavish food. The mouth-watering aromas of fresh venison, duck, quail, sugared yams, frosted cakes, exotic fruits, cheeses, fine wines, and all other imaginable delights reach your nose, much to the annoyance of your stomach. The feast continues throughout the great hall to the east and south.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92028,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92029,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92028": {
+          "vnum": 92028,
+          "name": "The Great Hall",
+          "description": "An epic feast occurs around you, creating a dull roar as the lords and ladies of Talinesia gorge themselves with fine foods and regurgitate the latest gossip at the top of their lungs. The tables of the great hall continue in all directions save for north, where the fine red curtains of the palace's entrance hall can be seen.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92090,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92025,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Entrance Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92030,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92027,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92029": {
+          "vnum": 92029,
+          "name": "The Great Hall",
+          "description": "The bright lights of the hall shower the feast in golden glory, highlighting the lords and ladies as they engage in social banter. The grand event continues within the great hall to the north and east, and the servant's hallway runs southward.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92030,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92027,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92032,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92030": {
+          "vnum": 92030,
+          "name": "The Great Hall",
+          "description": "How could such decadence by afforded amid a nation-wide war? Clearly, the lords and ladies of Talinesia are not the ones paying for its operation, and your mind wanders to the poor peasants forced into the armies simply to make a living and survive. More of the spectacle can be seen all around you within the great hall.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92091,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92028,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92029,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92031": {
+          "vnum": 92031,
+          "name": "Cluttered Kitchen",
+          "description": "Chaos reigns within this cluttered kitchen. Great clouds of steam and smoke billow upward from the fiery stoves and boiling water. Plates are dropped, food is spilled, but more than enough is prepared for the massive feast in the great hall. This kitchen gives meaning to the phrase, \"Too many cooks spoil the broth. \"",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92032,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 92041,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Under the Kitchen",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92032": {
+          "vnum": 92032,
+          "name": "Servant`s Hallway",
+          "description": "Nondescript and boring, this hall serves little purpose but to provide a way for the servants to more efficiently provide service to the noble class. The passageway opens up into the great hall to the north and leads to a set of stairs further to the south. A bustling kitchen can be seen to the west.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92029,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92034,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92031,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Cluttered Kitchen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92033": {
+          "vnum": 92033,
+          "name": "Servant`s Quarters",
+          "description": "Worn curtains cover the windows of this sleeping room, reducing light to a minimum. Simple beds of wood and cloth provide a place for the servants to get as much sleep as is allowed of them. The mundane room is otherwise bare.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92034,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92034": {
+          "vnum": 92034,
+          "name": "Servant`s Hallway",
+          "description": "Layers of dull cream wallpaper cover the walls and ceiling of this unremarkable hallway. The worn red carpet continues northward and southward along the passageway, and an opening to the west leads to a room filled with beds.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92032,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92035,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Base of the Staircase",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92033,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92035": {
+          "vnum": 92035,
+          "name": "Base of the Staircase",
+          "description": "Shining marble stairs descend from above and meet the hallway here. Conditions seem to improve above, and you suppose that guests are simply meant to ignore the filth of the servant's hall as they make their way to the cleanly floors above. The servant's hallway continues northward.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92034,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Servant`s Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 92050,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Second Floor Landing",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92090": {
+          "vnum": 92090,
+          "name": "The Great Hall",
+          "description": "Long tables run the length of the great hall, each occupied to the brim by feasting elves, socializing with unrestrained jovialism. It is clear that the lords and ladies of Talinesia have distanced themselves so far from the war that they have forgotten its existence.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92091,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92028,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92091": {
+          "vnum": 92091,
+          "name": "The Great Hall",
+          "description": "Piles of food cover the long tables, steaming delightfully under the lights of the great hall. Feasters dig heartily into their meals, intent on stuffing themselves and having a good time, as evidenced by continual jovial banter and the frequent roars of laughter.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92090,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92030,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Great Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 3,
+        "min_y": -4,
+        "max_y": 4,
+        "room_count": 24
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 92050,
+      "rooms": {
+        "92045": {
+          "vnum": 92045,
+          "name": "Harem",
+          "description": "Great throw pillows litter the floor, shaded by frondy foliage imported from afar. Spacious sofas have been arranged throughout the room for the comfort of the King's harem girls and guests of the palace. The less lewd royal lounge lies to the south.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92047,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Lounge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92046": {
+          "vnum": 92046,
+          "name": "Guard Captain`s Office",
+          "description": "A large drawerless desk sits in the middle of this office, piled high with those useless papers that so often seem to find their way to desks. Two bare wooden chairs sit against the eastern wall, probably for the purpose of interrogating wrong-doers. A wide hallway leads southwards through the palace.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92048,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92047": {
+          "vnum": 92047,
+          "name": "Royal Lounge",
+          "description": "Three wonderful sofas of white leather surround a coffee table within this comfortable lounge. Guests and inhabitants alike are welcome to enjoy the splendid relaxation that the lounge provides. What a wonderful place to sleep.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92048,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92045,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Harem",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92048": {
+          "vnum": 92048,
+          "name": "Wide Hallway",
+          "description": "Some ten feet wide, the hallway allows ample space for the guards of the palace to patrol without impeding travel for guests. Pleasant watercolor paintings line the walls, picturing nothing of much substance. A wolf here, some boars there, not very exciting. The hallway continues southwards and leads into an office to the north.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92046,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Guard Captain`s Office",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92050,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Second Floor Landing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92047,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Lounge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92049": {
+          "vnum": 92049,
+          "name": "The Hidden Stairs",
+          "description": "What's this? Massive cobwebs dangle in the gloom, sticking annoyingly to your face and clothing. No one's been here for years, at least not anyone that cared to clean. A set of stone stairs lead indeterminately up into the darkness.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92050,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Second Floor Landing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 92060,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Hidden Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92050": {
+          "vnum": 92050,
+          "name": "Second Floor Landing",
+          "description": "Sparkling clean marble stairs lead downward into the lower halls of the palace here. The carpet of this landing is of crimson and gold; very regal in appearance. Bare walls lead northward and southward into a wide hallway in both directions.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92048,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92052,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92049,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Hidden Stairs",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 92035,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Base of the Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92051": {
+          "vnum": 92051,
+          "name": "Soldier`s Barracks",
+          "description": "Hundreds of bunks line the wooden walls of these barracks. Belongings are all neatly organized, beds all made, and shoes all shined. The soldiers of the Talinesian army must be very strictly regulated and inspected for such cleanliness to be so apparent.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92053,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92052": {
+          "vnum": 92052,
+          "name": "Wide Hallway",
+          "description": "The hallway in which you stand is wide enough to allow eight guards to surround you and kill you. An opening in the eastern wall leads out into a pleasant courtyard, shaded by a sprawling oak tree. The mundanely decorated hall leads north and south.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92053,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92050,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Second Floor Landing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92055,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92053": {
+          "vnum": 92053,
+          "name": "Training Courtyard",
+          "description": "A large oak tree stands in the center of the courtyard, providing shade for the training soldiers. Oak is not native to such a high altitude; this was most likely imported from the Gnome forest some distance to the west. Dust hangs in the air, kicked up by the sparring soldiers and other activities. The pleasant courtyard continues to the east and south, and an entrance to the palace lies to the west.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92054,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92051,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Soldier`s Barracks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92056,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92052,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92054": {
+          "vnum": 92054,
+          "name": "Training Courtyard",
+          "description": "Many instruments of combat training litter the courtyard, from target dummies for javelin throwing to rotating contraptions for lancing. The majority of the soldiers seem to be gaining skill by sparring though. The courtyard is bounded by a wall to the north and east, but sprawls out in all other directions.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92057,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92053,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92055": {
+          "vnum": 92055,
+          "name": "Wide Hallway",
+          "description": "Tall, mahagony doors lie at the end of the wide hallway to the south, blocking passage to whatever may lie beyond. The wide hallway, unremarkable except for the beautiful carpet, runs northward.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92052,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92058,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Beast's Lair",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92056": {
+          "vnum": 92056,
+          "name": "Training Courtyard",
+          "description": "A towering tree of oak provides welcome shade in this dusty courtyard. Battered weapons and armor are piled against the south and west walls of the courtyard; useless trinkets. The sounds of training can be heard from the rest of the courtyard to the north and east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92057,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92053,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92057": {
+          "vnum": 92057,
+          "name": "Training Courtyard",
+          "description": "Two large stone walls to the east and south hem in the pleasant shaded courtyard. Implements of combat training line the walls, ready for use by the Talinesia soldiers. The army seems well trained, and it's a wonder they haven't run over their foes long ago.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92054,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92056,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92058": {
+          "vnum": 92058,
+          "name": "Beast's Lair",
+          "description": "Shadows move all about, keeping you on edge, for this is the lair of a great beast. The ravaged remnants of a pork shank lie bleeding upon the stone floor, the bone punctured and shattered by strong jaws. A small set of stone stairs lead upward, and a large pair of mahogany doors are set in the northern wall.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92055,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Wide Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 92071,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Throne Room",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -3,
+        "max_y": 2,
+        "room_count": 14
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 92068,
+      "rooms": {
+        "92059": {
+          "vnum": 92059,
+          "name": "Royal Chambers",
+          "description": "Beautiful crimson drapes surround the interior of these lavish chambers. A four-poster bed rests against the northern wall, resplendent with soft, snuggly sheets and comforters. Golden tassles hang from the ceiling, creating the illusion of a sparkling shower of gold. Truly, these are the chambers of a rich ruling class.",
+          "grid_x": 3,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92061,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92060": {
+          "vnum": 92060,
+          "name": "The Hidden Stairs",
+          "description": "Stone steps lead downward into the dank, gloomy blackness of the palace. Bare brick walls lead southward, layered with insects and cobwebs. A thin passageway leads into the darkness beyond.",
+          "grid_x": 2,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92065,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Hidden Passageway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 92049,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Hidden Stairs",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92061": {
+          "vnum": 92061,
+          "name": "Lavish Hallway",
+          "description": "Beautiful red carpet threaded with gold covers the floor of this hallway with its lovely softness. The hallway ends to the north at a door, but heads southward in all its crimson glory.",
+          "grid_x": 3,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92062,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Guest`s Chambers",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 92059,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Chambers",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 92066,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92062": {
+          "vnum": 92062,
+          "name": "Guest`s Chambers",
+          "description": "This sleeping chamber is equipped with all of the essentials for visitors of any race. A large, comfortable bed rests below a small window in the eastern wall. Alongside it stands a sizable wardrobe, open and full of basic clothing. A globe floats six inches below the ceiling, capable of producing light at the occupants whim. A doorway to the west leads out into the hall.",
+          "grid_x": 4,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 92061,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92063": {
+          "vnum": 92063,
+          "name": "Stone Cell",
+          "description": "A gruesome smell assaults your nostrils, bringing the contents of your stomach dangerously close to your mouth. Piles of rotted flesh lie in heaps against the bare stone walls of the cell, results of experiments gone awry. The cell is devoid of furniture; it's obvious that the Doctor cares little for the comfort of his creations.",
+          "grid_x": 0,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92064,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Secret Laboratory",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92064": {
+          "vnum": 92064,
+          "name": "The Secret Laboratory",
+          "description": "All manner of apparatuses tower over you within this grim laboratory. Lightning flashes from ball to ball overhead, part of some monstrous mechanical contraption. The acrid smell of sulfur pervades your nostrils, reminding you of that rotten egg you had for lunch three days ago. A stone passageway leads east, and a cell door lies in the western wall.",
+          "grid_x": 1,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92065,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Hidden Passageway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92063,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Stone Cell",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92065": {
+          "vnum": 92065,
+          "name": "Hidden Passageway",
+          "description": "Slime mold clings perilously to the bare stone walls of this passageway. Dust covers the floor, evidence of this walkway's infrequent use. The stone walls lead westward into a flashing laboratory, and lead eastward into a wall panel.",
+          "grid_x": 2,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92066,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 92060,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Hidden Stairs",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92064,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Secret Laboratory",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92066": {
+          "vnum": 92066,
+          "name": "Lavish Hallway",
+          "description": "The lush carpet of this extravagant hallway pads your footfalls as you walk, easing your aching bones. The outline of a panel can be seen behind some paintings on the west wall, and an ordinary door lies to the east. Beautiful carpet leads north and south.",
+          "grid_x": 3,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92067,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Princess` Chambers",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 92061,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92068,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92065,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Hidden Passageway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92067": {
+          "vnum": 92067,
+          "name": "Princess` Chambers",
+          "description": "Myriad watercolor paintings cover the crimson walls of the Princess' chambers, save for the eastern one, where a moderate window allows fresh air to cool the room. Personal belongings litter the floor, crunching underfoot as you walk. She really is quite untidy.",
+          "grid_x": 4,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 92066,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go window": {
+              "to_vnum": 92053,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Training Courtyard",
+              "direction": "go window",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "92068": {
+          "vnum": 92068,
+          "name": "Lavish Hallway",
+          "description": "Crystal chandeliers dangle precariously from the ceiling, lighting the beautiful hallway. A row of doors can be seen along the eastern wall, both here and further north. Some one hundred feet ahead, the hall ends at another door, slightly more embellished than the rest.",
+          "grid_x": 3,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92069,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 92066,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92071,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Throne Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92070": {
+          "vnum": 92070,
+          "name": "Short Hallway",
+          "description": "Wallpapered in washed red, this short hallway is pleasing to the eye. Crystal chandeliers hang from the white ceiling, scattering light across the crimson carpet. A glass door in the southern wall allows a glimpse of the shadowed woods beyond. drink flask You take 3 drinks of water from an enchanted, leather drinking flask.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92071,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Throne Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92074,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92071": {
+          "vnum": 92071,
+          "name": "Throne Room",
+          "description": "Dominating this room are two magnificent golden thrones, perched upon an elaborate dais of stone. The thrones face north, looking down a lavishly decorated hallway. At the right shoulder of the dais, an inconspicuous set of stone stairs lead down into the darkness. Short hallways adjoin the throne room to the east and west.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92072,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Short Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92068,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92070,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Short Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 92058,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Beast's Lair",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92072": {
+          "vnum": 92072,
+          "name": "Short Hallway",
+          "description": "Pleasant wallpaper of washed red coats the northern wall of this short hallway, and a large glass door is set in the southern wall, allowing a view of the royal copse beyond. The hallway continues west into the throne room and east into a church.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92073,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Church of Isvaelin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92076,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 92071,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Throne Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92073": {
+          "vnum": 92073,
+          "name": "Church of Isvaelin",
+          "description": "Rows of pews line the floor of this church, facing a podium from which the Arch Bishop gives his sermons. An extravagant altar rises high into the air behind the podium, dominating much of the church. The obvious lack of humility within this church sickens you.",
+          "grid_x": 5,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 92072,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Short Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92074": {
+          "vnum": 92074,
+          "name": "Royal Copse",
+          "description": "Rich vegetation sprouts from the fertile soil beneath the trees all around you. Birds flit through the branches overhead, chirping as they go. However, the occasional rustle in the underbrush keeps your nerves on edge. Royal Copse",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92070,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Short Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92077,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92075": {
+          "vnum": 92075,
+          "name": "Witch`s Hut",
+          "description": "A pall of yellow sulfuric smoke hangs in the air within this small hut. Racks of glass bottles and instruments line the walls, cluttering the hut and reducing space to a minimum. A small wire-mesh cage sits in the northeast corner, its door wide open. The only visible exit is out into the forest to the south. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92078,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92076": {
+          "vnum": 92076,
+          "name": "Royal Copse",
+          "description": "Tall firs tower overhead, casting shadows across your path. Deep undergrowth surrounds the base of the firs, competing for water and nutrients. A small path, barely discernible, runs southward, and the palace lies to the north.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92072,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Short Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92079,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92077": {
+          "vnum": 92077,
+          "name": "Royal Copse",
+          "description": "The vast trees of the copse grow all around you, blocking much of the light and heat. Two thin paths form a t-junction here, a path from the east intersecting a similar one running north and south.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92078,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92074,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92080,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deep Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92078": {
+          "vnum": 92078,
+          "name": "Royal Copse",
+          "description": "The towering firs of the Talinesian forest reach high into the sky, casting chilling shadows across the vegetation vying for life upon the forest floor. Small paths run east and west, and a wooden hut can be seen nestled beneath the trees to the north.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92079,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92075,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Witch`s Hut",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92077,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92079": {
+          "vnum": 92079,
+          "name": "Royal Copse",
+          "description": "Much of the sky is blocked by the canopy of trees overhead, but trickles of light pierce the branches and light your way. Dense undergrowth prohibits travel to the east and south, but gives way to the north and west, where small trails weave their way though the trees.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92076,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92078,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92080": {
+          "vnum": 92080,
+          "name": "Deep Forest",
+          "description": "Dense brush tugs at your ankles, causing each step to become a tiring trial. The dark forest of deep Talinesia threatens from the east, and the more hospitable royal copse lies to the north. Farther to the north, the glittering red tiles of the Talinesian palace shine brightly between the trees, promising respite. Royal Copse",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92077,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Royal Copse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92081": {
+          "vnum": 92081,
+          "name": "Deepest Talinesia",
+          "description": "Towering firs grow all about you in the endless forest, prohibiting view of any guiding land marks. It really is difficult to tell your way, and after some wandering, a few of the trees begin to look familiar.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92082,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92088,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92085,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92086,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92082": {
+          "vnum": 92082,
+          "name": "Deepest Talinesia",
+          "description": "The maze-like forest spreads out infinitely in all directions, covering the endless, flat expanse of land with firs. Some of the bushes are trampled, as if a beast of great size had trundled through.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92089,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92087,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92085,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92083": {
+          "vnum": 92083,
+          "name": "Deepest Talinesia",
+          "description": "Few distinctions exist from tree to tree, causing you to feel like you're lost in an endless expanse of forest. Small rustles in the undergrowth harass your already edgy nerves, much to your annoyance.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92087,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92089,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92086,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92084": {
+          "vnum": 92084,
+          "name": "Deepest Talinesia",
+          "description": "A man could go insane wandering these forests for years. There doesn't seem to be any obvious markings or visible geography by which to guide your way, much to your sorrow.",
+          "grid_x": 5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92080,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deep Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92088,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92082,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92085": {
+          "vnum": 92085,
+          "name": "Deepest Talinesia",
+          "description": "The forest is pleasant and comfortable, despite a nagging feeling that you are getting nowhere fast. Certainly, the way to go is north, seeing as you came from west. Or was it east? Definitely south.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92089,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92086,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92083,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92087,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92086": {
+          "vnum": 92086,
+          "name": "Deepest Talinesia",
+          "description": "Tree after tree, bush after bush, the forest drags on. No longer seeking to find anything but a way out, you begin to get angry, frustrated, edgy. If only you could find the way! Where is it?! Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92087,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92083,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92082,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92087": {
+          "vnum": 92087,
+          "name": "Deepest Talinesia",
+          "description": "Hmm, you know you came in around here somewhere. You recognize that big tree over there. Or was it that tree to the south? If only you could see the sun or the stars, you could navigate with some proficiency.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92083,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92088,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92089,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92088": {
+          "vnum": 92088,
+          "name": "Deepest Talinesia",
+          "description": "Bushes drag under foot, their branches tearing at your raw flesh, draining your already weak bones. The forest goes on forever in every direction in an infinite expanse of trees.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92083,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92086,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92085,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92087,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92089": {
+          "vnum": 92089,
+          "name": "Deepest Talinesia",
+          "description": "Padding warily through the forest, your mind begins to wander to obscure thoughts. Maybe you should have married young and avoided the adventuring life. Then you wouldn't be in this mess.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92088,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 92081,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92084,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92086,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Deepest Talinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 5,
+        "min_y": -8,
+        "max_y": 4,
+        "room_count": 30
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 92010,
+      "to": 92011,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92011,
+      "to": 92012,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92011,
+      "to": 92017,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92012,
+      "to": 92013,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92013,
+      "to": 92014,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92013,
+      "to": 92018,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92014,
+      "to": 92015,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92015,
+      "to": 92019,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92016,
+      "to": 92020,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92017,
+      "to": 92021,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92018,
+      "to": 92023,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92020,
+      "to": 92039,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92020,
+      "to": 92044,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92021,
+      "to": 92022,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92022,
+      "to": 92023,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92022,
+      "to": 92025,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92025,
+      "to": 92028,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92027,
+      "to": 92028,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92027,
+      "to": 92029,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92028,
+      "to": 92090,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92028,
+      "to": 92030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92029,
+      "to": 92030,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92029,
+      "to": 92032,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92030,
+      "to": 92091,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92031,
+      "to": 92032,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92032,
+      "to": 92034,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92033,
+      "to": 92034,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        3
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92034,
+      "to": 92035,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        -1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92036,
+      "to": 92037,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92036,
+      "to": 92039,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92037,
+      "to": 92038,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92038,
+      "to": 92040,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92040,
+      "to": 92041,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92045,
+      "to": 92047,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92046,
+      "to": 92048,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92047,
+      "to": 92048,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92048,
+      "to": 92050,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92049,
+      "to": 92050,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92050,
+      "to": 92052,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92051,
+      "to": 92053,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92052,
+      "to": 92053,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92052,
+      "to": 92055,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92053,
+      "to": 92054,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92053,
+      "to": 92056,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92054,
+      "to": 92057,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92055,
+      "to": 92058,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92056,
+      "to": 92057,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92059,
+      "to": 92061,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -8
+      ],
+      "to_grid": [
+        3,
+        -7
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92060,
+      "to": 92065,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -7
+      ],
+      "to_grid": [
+        2,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92061,
+      "to": 92062,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -7
+      ],
+      "to_grid": [
+        4,
+        -7
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92061,
+      "to": 92066,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -7
+      ],
+      "to_grid": [
+        3,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92063,
+      "to": 92064,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -6
+      ],
+      "to_grid": [
+        1,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92064,
+      "to": 92065,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -6
+      ],
+      "to_grid": [
+        2,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92065,
+      "to": 92066,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -6
+      ],
+      "to_grid": [
+        3,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92066,
+      "to": 92067,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -6
+      ],
+      "to_grid": [
+        4,
+        -6
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92066,
+      "to": 92068,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -6
+      ],
+      "to_grid": [
+        3,
+        -5
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92068,
+      "to": 92071,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -5
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92070,
+      "to": 92071,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92070,
+      "to": 92074,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92071,
+      "to": 92072,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92072,
+      "to": 92073,
+      "direction": "e",
+      "from_grid": [
+        4,
+        -4
+      ],
+      "to_grid": [
+        5,
+        -4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92072,
+      "to": 92076,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 92074,
+      "to": 92077,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92075,
+      "to": 92078,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92076,
+      "to": 92079,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92077,
+      "to": 92078,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92077,
+      "to": 92080,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92078,
+      "to": 92079,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92080,
+      "to": 92081,
+      "direction": "e",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92081,
+      "to": 92082,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92081,
+      "to": 92088,
+      "direction": "n",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92081,
+      "to": 92085,
+      "direction": "s",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92081,
+      "to": 92086,
+      "direction": "w",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92082,
+      "to": 92089,
+      "direction": "e",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92082,
+      "to": 92087,
+      "direction": "n",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92082,
+      "to": 92085,
+      "direction": "w",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92083,
+      "to": 92087,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92083,
+      "to": 92081,
+      "direction": "n",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92083,
+      "to": 92089,
+      "direction": "s",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92083,
+      "to": 92086,
+      "direction": "w",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92084,
+      "to": 92080,
+      "direction": "e",
+      "from_grid": [
+        5,
+        4
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92084,
+      "to": 92081,
+      "direction": "n",
+      "from_grid": [
+        5,
+        4
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92084,
+      "to": 92088,
+      "direction": "s",
+      "from_grid": [
+        5,
+        4
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92084,
+      "to": 92082,
+      "direction": "w",
+      "from_grid": [
+        5,
+        4
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92085,
+      "to": 92089,
+      "direction": "e",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92085,
+      "to": 92086,
+      "direction": "n",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92085,
+      "to": 92083,
+      "direction": "s",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92085,
+      "to": 92087,
+      "direction": "w",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92086,
+      "to": 92087,
+      "direction": "e",
+      "from_grid": [
+        4,
+        3
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92086,
+      "to": 92082,
+      "direction": "s",
+      "from_grid": [
+        4,
+        3
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92087,
+      "to": 92088,
+      "direction": "n",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92087,
+      "to": 92081,
+      "direction": "s",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92087,
+      "to": 92089,
+      "direction": "w",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92088,
+      "to": 92083,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92088,
+      "to": 92086,
+      "direction": "n",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92088,
+      "to": 92085,
+      "direction": "s",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92089,
+      "to": 92088,
+      "direction": "e",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92089,
+      "to": 92081,
+      "direction": "n",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92089,
+      "to": 92084,
+      "direction": "s",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92089,
+      "to": 92086,
+      "direction": "w",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 92090,
+      "to": 92091,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "zone_name": "River Xymar",
+  "entry_vnum": 32025,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 20
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 32002,
+      "rooms": {
+        "32002": {
+          "vnum": 32002,
+          "name": "River Xymar",
+          "description": "The current feels unusually sluggish here, coming almost to a standstill. You peer over the gunwales of your craft and are surprised to see a deep shaft in the river floor beneath you. Feel like getting wet?",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 98082,
+              "to_zone": "City of Cadain",
+              "to_room_name": "Submerged Grotto",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32017,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32003,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32003": {
+          "vnum": 32003,
+          "name": "River Xymar",
+          "description": "The cavern walls press together here, forming a tight choke-point in the river. A wave of uneasiness passes over you as you notice that this would be an excellent place for an ambush.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32002,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 32200,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32200": {
+          "vnum": 32200,
+          "name": "River Xymar",
+          "description": "Guttural voices form a constant, faint murmur, signaling to you theres likely a settlement to the south. Straining your eyes in the darkness for signs of the danger you feel in every fiber of your body, you anxiously paddle on.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 32003,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32201,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Xymar Riverbank",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32202": {
+          "vnum": 32202,
+          "name": "Footbridge",
+          "description": "A crude bridge fashioned from innumerable pieces of driftwood offers a questionably secure foothold for the dozens of Xymaran young that scurry across it. Some daringly leap off the bridge, hoping to learn to swim at an early age, although precious few manage to return to the surface after their first dive.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32203,
+              "to_zone": "River Xymar",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32207,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32205
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32203": {
+          "vnum": 32203,
+          "name": "Torchlit Caverns",
+          "description": "The cavern floor is caked with mud from the river, making walking a chore. The web-footed Xymara seem to have little difficulty traversing the muddy stretch; maybe you should lop off a couple at the ankles and make yourself a new set of shoes.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32201,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Xymar Riverbank",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32202,
+              "to_zone": "River Xymar",
+              "to_room_name": "Footbridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32204
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32017": {
+          "vnum": 32017,
+          "name": "River Xymar",
+          "description": "The lap of water against the cavern walls soothes your senses as you drift along the river in a timeless limbo. Or, to put it bluntly, you're bored out of your skull. Accursed river is interminable.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 32002,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32018,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32018": {
+          "vnum": 32018,
+          "name": "River Xymar",
+          "description": "Walls of rough stone slip past, the only indication of progress along the subterranean river. The water bends around a featureless expanse of stone to the north, which certainly looks preferable to heading into xymar territory.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32017,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32019,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32024
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32024": {
+          "vnum": 32024,
+          "name": "River Xymar",
+          "description": "Dry stone beckons to the east, a relief from the frigid waters that seep into your craft and chill your feet. Those with fortitude might continue along the river to either the north or southeast.",
+          "grid_x": 0,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32019,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32025,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32018
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32025": {
+          "vnum": 32025,
+          "name": "River Xymar",
+          "description": "A steeply angled plane of stone ascends from the river, rising westward. The east bank is little more than a flat expanse of rock, but is probably a lot more enjoyable than a journey along these icy waters.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32023,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32026,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32024,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32033,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Angled Shaft",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32026": {
+          "vnum": 32026,
+          "name": "River Xymar",
+          "description": "A group of exhausted dwarves stare at you from the east bank, relieved at seeing something besides xymara. One waves feebly, and then faints from the effort.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32028,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32027,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "River Xymar",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32025,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 20,
+        "room_count": 10
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 32002,
+      "to": 32017,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32002,
+      "to": 32003,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32003,
+      "to": 32200,
+      "direction": "se",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32017,
+      "to": 32018,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32024,
+      "to": 32025,
+      "direction": "n",
+      "from_grid": [
+        0,
+        20
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32025,
+      "to": 32026,
+      "direction": "n",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32202,
+      "to": 32203,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

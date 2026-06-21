@@ -1,0 +1,96 @@
+{
+  "zone_name": "Astorath's Maze",
+  "entry_vnum": 47190,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 15,
+    "max_y": 15
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47079,
+      "rooms": {
+        "47190": {
+          "vnum": 47190,
+          "name": "Shifting Stone Maze",
+          "description": "Strangeness! You venture through an ever-twisting passage of oddly molded stone, every turn and bend appearing like the last, but slightly different. The surfaces are perfectly smooth, yet not at all solid to the touch. There is nothing here, yet something lives within this place, somewhere.",
+          "grid_x": 3,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go through": {
+              "to_vnum": 47068,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Workshop Basement",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47191
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47079": {
+          "vnum": 47079,
+          "name": "Misty Cave",
+          "description": "Beads of water condense upon the smooth rock walls of this odd, elbow-shaped cave. Through the opening to the south a shifting white mist flows idly by, oddly failing to enter the cave. Upon the surface of the wall to the east a shimmering portal beckons.",
+          "grid_x": 0,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47080,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Amethyst Arches",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 15,
+        "max_y": 15,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": []
+}

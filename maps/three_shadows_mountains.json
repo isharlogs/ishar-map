@@ -1,0 +1,2130 @@
+{
+  "zone_name": "Three Shadows Mountains",
+  "entry_vnum": 63000,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 7,
+    "min_y": -3,
+    "max_y": 2
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 63010,
+      "rooms": {
+        "63010": {
+          "vnum": 63010,
+          "name": "The DeadPool",
+          "description": "You are surrounded by a mass of cold, murky blood!",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 63006,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63022": {
+          "vnum": 63022,
+          "name": "Within Taelabilreth",
+          "description": "Piles of loose stone block your way within Taelabilreth, although there were once obvious passages in many directions, evidenced by the arches near the ceiling. A set of slick steps lead upward, and no other exit is apparent.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 63021,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Steps Within Taelabilreth",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 63000,
+      "rooms": {
+        "63000": {
+          "vnum": 63000,
+          "name": "The Rocky Hills",
+          "description": "Vegetation thins here along a trail through the rocky hills. Northeast tower a pair of mountains, both of formidable proportions, yet the further of the two dwarves the nearer.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63001,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24023,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63001": {
+          "vnum": 63001,
+          "name": "The Rocky Hills",
+          "description": "You pause along a trail through the rocky eastern hills, near the base of twin- mountains north and northeast. Legends of treasure and the living jade are recalled as you recognize the pair as Taelabilreth the younger, and Shimaelbevat the elder. You can continue east or west through the rocky hills from this point, or descend a steep slope downward just to the south.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 91006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Forest Outskirts",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 63002,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63000,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63002": {
+          "vnum": 63002,
+          "name": "The Rocky Hills",
+          "description": "The meandering path through the rocky hills halts here at a darkened junction at the very base of Taelabilreth, where a steep trail leads north toward its southern face. Reflected in a pool to your east among a circle of boulders is the larger Shimaelbevat. Shadows from the mounts cross here both day and night, as the skys remain oddly clear, the air crisp and sharp.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63006,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63003,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Mount Taelabilreth",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63001,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63003": {
+          "vnum": 63003,
+          "name": "Mount Taelabilreth",
+          "description": "Here upon the base of Taelabilreth the rocks jut outward, most bearing multiple scars where thick chunks of jade have been pried away. This place is cold, empty, and devoid of the treasure it was long ago fabled for. A steep trail leads upward into the shadows of the surrounding peaks.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63002,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63004,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Mount Taelabilreth",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63006": {
+          "vnum": 63006,
+          "name": "The Rocky Hills",
+          "description": "At the foot of the formidable mount Taelabilreth, an unmoving, placid pool of icy water has collected among the rocks. Preternaturally still, a hissing black mist flows over its surface, dispersing among the nearby rocky hills. A thin footpath winds westward, and the hills continue to the east.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63011,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63002,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go pool": {
+              "to_vnum": 63010,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The DeadPool",
+              "direction": "go pool",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "63011": {
+          "vnum": 63011,
+          "name": "The Rocky Hills",
+          "description": "You pick your way through the rocky hills, at the edge of a daunting mountain range which rises northward. To the west, at the base of the nearest mount is a glassy, still pool of liquid. The hills continue to the east, slowly descending toward plains in the southeastern distance.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63012,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63006,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63012": {
+          "vnum": 63012,
+          "name": "The Rocky Hills",
+          "description": "An occasional lone, twisted tree rises up from between the stray boulders here among the rocky hills. A chilly breeze sweeps down from the mountains to the north, and great, barren plains stretch out far to the east, and to the southeast. Beyond the hills and plains due southward can be seen a spreading forest of oaks.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63013,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63011,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63013": {
+          "vnum": 63013,
+          "name": "The Rocky Hills",
+          "description": "A winding path ventures downward here between the rocky hills, travelling east, and west. High mountain peaks are clearly visibile to the north, their tips disappearing into the clouds.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63014,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63012,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63014": {
+          "vnum": 63014,
+          "name": "The Rocky Hills",
+          "description": "A twisting path here winds northward, up into the nearby mountains, which are shrouded in a billowing black mist. The rocky hills extend to the west, and to the southeast a towering structure of chisled stone can be seen.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63030,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Edge of the Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63015,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63013,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63015": {
+          "vnum": 63015,
+          "name": "Shrouded Mountain Path",
+          "description": "Billowing charcoal mist envelopes you along this twisted path winding its way into the mountains. The jagged face of Taelabilreth rises in the west, in contrast to the stark, empty gorge splayed open to your east. A brittle, crunch accompanies your footfalls along the path, which offers passage further up into these darkened mountains, and southward toward the rocky hills, where can be seen the outline of a towering stone gate.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63029,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "At the Bottom of a Chasm",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63014,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63016,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63021": {
+          "vnum": 63021,
+          "name": "Steps Within Taelabilreth",
+          "description": "Narrow wooden steps lead downward from the retreat, into mount Taelabilreth. Moisture collects upon the rocky surface of the surrounding walls, dripping down from above, slickening step and wall alike. A hint of fresh air drifts up from below, but no more.",
+          "grid_x": 10,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 63022,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Within Taelabilreth",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63020,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63023": {
+          "vnum": 63023,
+          "name": "Chasm Bottom",
+          "description": "The chasm proves to be as narrow here at its bottom as it would seem to be from atop, ending here before a solid wall of stone, to which many looss, jumbled piles of smaller stones huddle. The prevaling mist billows all about, still visited by an occasional crackle of stray electricity.",
+          "grid_x": 7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63025,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63024": {
+          "vnum": 63024,
+          "name": "Chasm Bottom",
+          "description": "A rockslide, or perhaps several, have deposited an insurmountable obstacle of cracked and broken stones here at the bottom of a mist-filled chasm, making the only available exit back from when you came, to the north. The pile stands several meters high, and are rife with brittle, jagged edges, making climbing an unlikely prospect.",
+          "grid_x": 6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63025,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63025": {
+          "vnum": 63025,
+          "name": "Chasm Bottom",
+          "description": "You stand in the centre of the chasm bottom, the rough walls of stone ascending all about. Cold and hot winds swirl violently here, gathering loose stones and depositing them in jumbled piles, the movements ignored by the small, chitenous creatures feasting upon various corpses left here to rot. Travel appears to be possible further to the south, and to the east.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63023,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63024,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63029,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "At the Bottom of a Chasm",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63026": {
+          "vnum": 63026,
+          "name": "Cluttered Cave",
+          "description": "You've come to the dead-end of this cramped, dingy cave. Oddly, it is warmer here, the walls seeming to radiate a slight heat. Gathered in loose piles upon the floor are the crumbling remains of a bedroll made from the skin of animals along with several utensils carved from bone. A perfect circle of stones surrounds a meager pit filled with ash. The cave curves and exits to the east.",
+          "grid_x": 10,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63027,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Cluttered Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63027": {
+          "vnum": 63027,
+          "name": "Cluttered Cave",
+          "description": "The walls of the cave quickly close in past its entrance, forming a short and narrow passage further west. The chill from the chasm bottom, strangely, fails to invade this small subterranean refuge. Warm gold veins gleam faintly beneath the surface.",
+          "grid_x": 11,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63026,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Cluttered Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 63028,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "63028": {
+          "vnum": 63028,
+          "name": "Chasm Bottom",
+          "description": "The mist swirls here among the stray rocks collecting at the bottom of the chasm, around a jagged opening in the chasm wall. Several of the larger stones here appear to have been purposefully arranged and piled atop one another to form a table, or perhaps an altar.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63029,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "At the Bottom of a Chasm",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 63027,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Cluttered Cave",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "63029": {
+          "vnum": 63029,
+          "name": "At the Bottom of a Chasm",
+          "description": "You stand at the bottom of a narrow chasm among the shrouded mountains, which rise high above, vanishing into an ethereal ebon mist. Untamed, thin bolts of energy streak by among the rocks strewn about the rough stone chasm floor. Mingled with the natural wreckage here are the remains of several zombies, decayed and in pieces.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63025,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63028,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Chasm Bottom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63030": {
+          "vnum": 63030,
+          "name": "Edge of the Rocky Hills",
+          "description": "The hills slowly taper off into flatlands here which extend far, far off into the distance south and southeast. A huge gate of standing stones rests at the edge of the plains, to the south.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63031,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Sevenrock Gate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63014,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63031": {
+          "vnum": 63031,
+          "name": "Sevenrock Gate",
+          "description": "You stand at the base of a mammoth gate formed by piled stones, here at the edge of the barren plains. The gate consists of two columns which are three stones high each, and the seventh lay across the top to join the two. The rocky hills extend to the west.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63030,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Edge of the Rocky Hills",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            63032
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63039": {
+          "vnum": 63039,
+          "name": "Among the Mountains",
+          "description": "A narrow path upon the nearest mountainside ceases its twisting here, where the base of two meet. A passage has been blasted by some great force at this point, creating a roughly arched entryway into the depths of the mountains themselves. Slightly ahead and to the east, a narrow rushing river churns between the rising mounds of earth and stone.",
+          "grid_x": 10,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 64050,
+              "to_zone": "Tomb of Antryg - Three Shadows Mountains",
+              "to_room_name": "Within a Cramped Mountain Cave",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63038,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 7,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 21
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 63019,
+      "rooms": {
+        "63004": {
+          "vnum": 63004,
+          "name": "Mount Taelabilreth",
+          "description": "Complete darkness dominates this portion of the southern face of mount Taelabilreth, where three distinct shadows cross and merge in both day and night. The feeling here is both natural and unnatural; you are surrounded by living monuments to the geometry of nature, yet they have been raped and left barren of the jade once held within. Where precisely the crossing shadows originate is difficult to determine despite multiple peaks rising all about. The trail ascending here continues northward, and another leads to the west along the edge of the mountain, toward a squarish granite building, its door the sole remaining jade among this ravaged terrain.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63037,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63005,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 63003,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Mount Taelabilreth",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63005": {
+          "vnum": 63005,
+          "name": "Threeshadows Retreat",
+          "description": "Within the confines of a large mountain retreat you find several large, padded chairs covered in the skins of long-bested beasts, strewn about in a rough semi- circle. A tremendous fireplace encompasses the northern wall, an eternal fire crackling as it radiates heat. A tapestry of finely spun silk covers most of the eastern wall of the modest retreat, and a pair of crossed swords rest opposite, above a narrow hall leading deeper into the mountainside retreat.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63004,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Mount Taelabilreth",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63007,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Tavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63008,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63007": {
+          "vnum": 63007,
+          "name": "Threeshadows Tavern",
+          "description": "A small tavern occupies the northern corner of Threeshadow's retreat, its walls ornately decorated with painted renderings from the surrounding lands to the east. Barren stretches of blood covered fields adorn one wall, and a curious image of twin suns casting beams through the nearby triple peaks adorns another.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63005,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63008": {
+          "vnum": 63008,
+          "name": "Threeshadows Retreat",
+          "description": "A narrow hall leads from the greater portion of the retreat westward, into the mountain itself. The walls are roughstone, somewhat polished by time, and burnished in places by the licking sconce fires set at elven eye level.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63005,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63009,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Storeroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63020,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63009": {
+          "vnum": 63009,
+          "name": "Storeroom",
+          "description": "A modest storeroom, neatly organized and kept well cleaned. Stacked crates of travelling supplies and equipment rest here, each within an oddly glowing ward, presumably to keep thieves -- or rodents -- from pilfering the goods. A narrow doorway leads out to a hallway, south. Along one wall hang rows of simple tools, old rusty keys, and pieces of animal hides, slowly drying.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63008,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63016": {
+          "vnum": 63016,
+          "name": "Shrouded Mountain Path",
+          "description": "You tread upon a winding path among the mountains, shrouded in an oddly shimmering black mist. The way twists upward, ascending to some unseen point, and downward, where below lay the rocky hills. Small, gnarled trees line both sides of this mountain trail, caught in the shadow of the solemn peaks surrounding.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63017,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63015,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": {
+            "chain_id": 0,
+            "step": 0,
+            "total": 4
+          },
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63017": {
+          "vnum": 63017,
+          "name": "Shrouded Mountain Path",
+          "description": "Sharp flashes of pale blue light erupt from a thickening mist as it drifts through the brittle branches of small, dead trees aside this twisting path of crushed bone among the mountains. Short, periodic burts of icy wind rush down from above, violently disturbing the veil of ebon mist.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 63018,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63016,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": {
+            "chain_id": 0,
+            "step": 1,
+            "total": 4
+          },
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63018": {
+          "vnum": 63018,
+          "name": "Shrouded Mountain Path",
+          "description": "The path begins to slope sharply upward here, ascending to a summit shrouded in fog. The moisture in the air clings to your skin and lies heavy in your lungs. The trees creak and sway in the wind, giving them the semblance of life.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63019,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Upon the Shrouded Mountain",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63017,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": {
+            "chain_id": 0,
+            "step": 2,
+            "total": 4
+          },
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63019": {
+          "vnum": 63019,
+          "name": "Upon the Shrouded Mountain",
+          "description": "The bone crunches sharply beneath your feet. A morbid thought enters your mind: How many bones did it take to pave the road, and who were the donors? The mist seems to coalesce about everthing that does not move. It mutes all sound except the snapping of the awful gravel. The way zigzags sharply to the east and west.",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 67001,
+              "to_zone": "Ruins of Torm Sarvek",
+              "to_room_name": "Rocky Trail",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63018,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Shrouded Mountain Path",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": {
+            "chain_id": 0,
+            "step": 3,
+            "total": 4
+          },
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63020": {
+          "vnum": 63020,
+          "name": "Threeshadows Retreat",
+          "description": "The hall terminates here within the mountainside, at a slight decline where a simple iron grate rests in the floor. The hall and place fires of the retreat glow to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63008,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Threeshadows Retreat",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63021,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Steps Within Taelabilreth",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63037": {
+          "vnum": 63037,
+          "name": "Among the Mountains",
+          "description": "A rocky path ventures through the mountains, just east of the predominant Taelabilreth. Shadows cross and overlap, darkening the areas, leaving it in an eternal chill. The remnants of mining encampments dot the landscape, abandoned long ago. The path offers transit to the north and to the south.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63038,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63004,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Mount Taelabilreth",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63038": {
+          "vnum": 63038,
+          "name": "Among the Mountains",
+          "description": "You trek along a well-worn and over-mined mountainside, swept by ceaseless winds and beholden to a biting chill. A twisted path among the rocks offers precarious passage downward, and to the south, where an embedded structure can be seen upon the surface of the largest of these mountains.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63037,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 63039,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 5,
+        "min_y": -3,
+        "max_y": 0,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 63000,
+      "to": 63001,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63001,
+      "to": 63002,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63002,
+      "to": 63006,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63002,
+      "to": 63003,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63004,
+      "to": 63037,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63004,
+      "to": 63005,
+      "direction": "w",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 63005,
+      "to": 63007,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63005,
+      "to": 63008,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63006,
+      "to": 63011,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63008,
+      "to": 63009,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63008,
+      "to": 63020,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63011,
+      "to": 63012,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63012,
+      "to": 63013,
+      "direction": "e",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63013,
+      "to": 63014,
+      "direction": "e",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63014,
+      "to": 63030,
+      "direction": "e",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63014,
+      "to": 63015,
+      "direction": "n",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63015,
+      "to": 63029,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63016,
+      "to": 63017,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": true,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63017,
+      "to": 63018,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": true,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63018,
+      "to": 63019,
+      "direction": "e",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": true,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63023,
+      "to": 63025,
+      "direction": "w",
+      "from_grid": [
+        7,
+        0
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63024,
+      "to": 63025,
+      "direction": "n",
+      "from_grid": [
+        6,
+        1
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63025,
+      "to": 63029,
+      "direction": "w",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63026,
+      "to": 63027,
+      "direction": "e",
+      "from_grid": [
+        10,
+        1
+      ],
+      "to_grid": [
+        11,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63028,
+      "to": 63029,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63030,
+      "to": 63031,
+      "direction": "s",
+      "from_grid": [
+        5,
+        1
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63037,
+      "to": 63038,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

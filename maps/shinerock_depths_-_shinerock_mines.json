@@ -1,0 +1,1106 @@
+{
+  "zone_name": "Shinerock Depths - Shinerock Mines",
+  "entry_vnum": 72066,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 2,
+    "min_y": -3,
+    "max_y": 3
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 72066,
+      "rooms": {
+        "72064": {
+          "vnum": 72064,
+          "name": "Forked Tunnel",
+          "description": "Passages lead off into the darkness in all directions save for east. The soft rumble of something very large echoes through the tunnel from the west, dull clicking buzzes from the north, and the chill of a cold wind touches you from the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72061,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "North Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72067,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Cross-Cut Intersection",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72063,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Raped Shinerock",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72065": {
+          "vnum": 72065,
+          "name": "West End",
+          "description": "An abrupt end to the tunnel halts your westward progress. Swirling eddies of cold wind kick up dust and streak through tiny cracks in the rock walls, chilling your exposed flesh and sapping your morale. The dark tunnel proceeds back to the east.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72066,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "West Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72066": {
+          "vnum": 72066,
+          "name": "West Tunnel",
+          "description": "Puddles of icy water splash beneath your feet as you solemnly pad along this lengthy tunnel. Water drips from tiny cracks in the roof above, and you imagine that millions of years from now beautiful stalactites will hang from the ceiling of the tunnel, meeting towering stalagmites. But for now you'll have to be content with puddles of water.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72067,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Cross-Cut Intersection",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72065,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "West End",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72067": {
+          "vnum": 72067,
+          "name": "Cross-Cut Intersection",
+          "description": "Endless tunnels of velvety black darkness plunge into the rock at each of the cardinal directions. The shinerock ore has all but vanished this far beneath the surface, robbing you of much needed light. A chilling current of air flows in from the south and proceeds upward through a steep tunnel above. A seam of copper ore glitters with embedded crystalline fragments.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72068,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "East Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72064,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Forked Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72070,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "South Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 72043,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Guard Room",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72066,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "West Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72068": {
+          "vnum": 72068,
+          "name": "East Tunnel",
+          "description": "Bare rock walls continue to the east and west, marked only by the striated texture caused by the mandibles of the beasts that burrowed it. The floor is uneven and makes an awkward place to fight, making you feel the need to move on through the tunnel. A cluster of mushrooms glows with an eerie red light, pulsing faintly. Cross-Cut Intersection",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72069,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "East End",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72067,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Cross-Cut Intersection",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GLOWING RED FUNGUS",
+              "rank": 8,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72069": {
+          "vnum": 72069,
+          "name": "East End",
+          "description": "The bare tunnel dead-ends at a concave wall, evidence of the inside-out burrowing style of the clickers. You ponder their ingenuity as you turn around and prepare to walk back in the direction from which you came.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 72068,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "East Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72070": {
+          "vnum": 72070,
+          "name": "South Tunnel",
+          "description": "Cold gusts of wind swirl through the tunnel from the south, heading northward. Something ghastly pulsates in the gloom to the south, perhaps several things. A foul stench assaults your nostrils, causing you to wheeze and wretch. Such a hideous thing could only be the hive of the clickers itself.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72067,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Cross-Cut Intersection",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72071,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72071": {
+          "vnum": 72071,
+          "name": "Spawning Hive",
+          "description": "Pasty eggs pulsate with gruesome rhythm, threatening to burst and spew their vile contents across the icy floor. Slime trickles down the sides of the eggs, fusing to the ground in the freezing air. The ghastly scene continues to the east and south.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72072,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72070,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "South Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72073,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72072": {
+          "vnum": 72072,
+          "name": "Spawning Hive",
+          "description": "Vile, oozing eggs pulsate in the darkness, spewing black slime that crystallizes in the freezing air of the hive. Some of the eggs have been suspended from the walls and ceiling of the small cavern, showering their chilling secretions onto your flesh. The concentration increases to the south, where the hive is illuminated by a dull glow.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72074,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Hive Core",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72071,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72073": {
+          "vnum": 72073,
+          "name": "Spawning Hive",
+          "description": "Freezing air invades your chest, burning your lungs with its frost. Here you must watch your every step, lest you tread upon one of the three- foot leathery eggs that pulsate and writhe as their unborn contents wiggle within their external wombs. A dull glow lights the way to the east, and darkness threatens to the north. Dark iron streaks shimmer with flecks of embedded crystal.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72074,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Hive Core",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72071,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72074": {
+          "vnum": 72074,
+          "name": "Hive Core",
+          "description": "A cluster of shinerock has been dragged from higher in the mine to light the freezing core of the hive. Eggs clutter every available space upon the floor, walls, and ceilings, severely limiting movement, yet your foes seem to maneuver quite nimbly toward you. Escape from the vile scene can be sought in the velvet blackness to the north or west. Dark iron streaks shimmer with flecks of embedded crystal.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72072,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72073,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Spawning Hive",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72059": {
+          "vnum": 72059,
+          "name": "North End",
+          "description": "The northern tunnel ceases its trek through the dull bedrock here. A few piles of rubble remain, yet to be devoured by the mineral-eating clickers. The only way out is through the tunnel from which you came.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72060,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "North Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SHINEROCK IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72060": {
+          "vnum": 72060,
+          "name": "North Tunnel",
+          "description": "Veins of white marble streak the dark walls of the tunnel here, lining the passage with alternating rings of white and black. The otherwise bleak and nondescript tunnel continues to the north and to the east.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72061,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "North Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72059,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "North End",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72061": {
+          "vnum": 72061,
+          "name": "North Tunnel",
+          "description": "The north tunnel jogs here, somewhat unnaturally. Markings along the walls and floor indicate that the tunnel has been burrowed by the clickers of the hive, and the bend in the tunnel probably reflects the search for more nutritious ore. It continues to the south and west.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72064,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Forked Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72060,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "North Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72062": {
+          "vnum": 72062,
+          "name": "Raped Shinerock",
+          "description": "Slimy goo coats the walls of this dead end in the tunnel, left by the passing of the burrowing, gargantuan worm. Veins of shinerock streak the walls, but have long since been bereft of all of their glow, worn down by time and the feeding of the insect colony.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72063,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Raped Shinerock",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72063": {
+          "vnum": 72063,
+          "name": "Raped Shinerock",
+          "description": "Dull veins of shinerock line the walls of this tunnel, oddly emitting no light. Closer inspection reveals a speckled texture to the dull rock, as if the glowing minerals had been sucked from the ore itself. The bleak tunnel continues into the darkness to the east and west. Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72064,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Forked Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72062,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Raped Shinerock",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 3,
+        "room_count": 16
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 72059,
+      "to": 72060,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72060,
+      "to": 72061,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72061,
+      "to": 72064,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72062,
+      "to": 72063,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72063,
+      "to": 72064,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72064,
+      "to": 72067,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72065,
+      "to": 72066,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72066,
+      "to": 72067,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72067,
+      "to": 72068,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72067,
+      "to": 72070,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72068,
+      "to": 72069,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72070,
+      "to": 72071,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72071,
+      "to": 72072,
+      "direction": "e",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72071,
+      "to": 72073,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72072,
+      "to": 72074,
+      "direction": "s",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72073,
+      "to": 72074,
+      "direction": "e",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

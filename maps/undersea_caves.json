@@ -1,0 +1,500 @@
+{
+  "zone_name": "Undersea Caves",
+  "entry_vnum": 25046,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -2,
+    "max_y": 4
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25046,
+      "rooms": {
+        "25046": {
+          "vnum": 25046,
+          "name": "Western Channel",
+          "description": "This wide channel allows ships to pass between the cliff to the south and the low-lying reef you can see to the north. In the distance to the east you can discern the mouth of a small bay. A dark opening gapes at you from the cliff face.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25000,
+              "to_zone": "The Ocean",
+              "to_room_name": "At the Cliff Face",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25047,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Reef",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25049,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25001,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25047": {
+          "vnum": 25047,
+          "name": "The Reef",
+          "description": "Some parts of the reef project above the surface of the water, but for the most part, the face of it lays just under the surface. It would definitely tear the bottom out of any ship unwary enough to run aground here. Fortunately, you don't sit too low in the water and can float right over.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25003,
+              "to_zone": "The Ocean",
+              "to_room_name": "Rocky Coast",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25048,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Reef",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25046,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Western Channel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25004,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25048": {
+          "vnum": 25048,
+          "name": "The Reef",
+          "description": "A brilliant menagerie of sea life makes its home here in the reef. Starfish cling to its surface like ornaments pasted there by a happy child. Most of the reef lays slightly beneath the surface and you pass over it without difficulty. A large, ocean-going vessel would certainly meet its doom here though; its underside smashed and torn by the sharp rock.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25006,
+              "to_zone": "The Ocean",
+              "to_room_name": "Gentle Swells",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25009,
+              "to_zone": "The Ocean",
+              "to_room_name": "Along the Cliff Face",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25047,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Reef",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25007,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25049": {
+          "vnum": 25049,
+          "name": "The Cavern",
+          "description": "Swells lap at the rocky ground as it slopes up out of the ocean and climbs to the south. The cavern seems alive with rustles and whispers as the ever- present sound of water in motion is echoed back from a thousand sources.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25046,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Western Channel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25050,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Wide Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25050": {
+          "vnum": 25050,
+          "name": "Wide Tunnel",
+          "description": "The clammy air seems heavy in your lungs as you move along this wide rock tunnel. Wafts of fresh sea air swirl in from the north where a large cavern beckons. The tunnel narrows as it climbs further to the south.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25049,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25051,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25051": {
+          "vnum": 25051,
+          "name": "The Passage",
+          "description": "The soft shuffling of your feet is the only sound in this silent, rocky passage. The passage extends out of sight to the north but seems to terminate nearby to the south. A dark opening to the east silently watches your progress and invites you to enter.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25050,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Wide Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25052,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Base of the Shaft",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            25053
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25052": {
+          "vnum": 25052,
+          "name": "Base of the Shaft",
+          "description": "You stand at the foot of a vertical shaft which climbs straight up into darkness. What are unmistakably hand and footholds have been carved into the side of the shaft as an aid to climbers.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25051,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            25060
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -2,
+        "max_y": 4,
+        "room_count": 7
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 25046,
+      "to": 25047,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25046,
+      "to": 25049,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25047,
+      "to": 25048,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25049,
+      "to": 25050,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25050,
+      "to": 25051,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25051,
+      "to": 25052,
+      "direction": "s",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,3904 @@
+{
+  "zone_name": "Lake Brecilande - Napenthe Basin Forest",
+  "entry_vnum": 47273,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -7,
+    "max_x": 8,
+    "min_y": -4,
+    "max_y": 20
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 47233,
+      "rooms": {
+        "47233": {
+          "vnum": 47233,
+          "name": "Underground Passage",
+          "description": "You've landed in a cramped subterranean passage. A thin pool of stagnant water collects upon the smooth stone floor. Ahead, torches line a narrow corridor leading deeper underground. You shiver involuntarily as you consider stepping forward.",
+          "grid_x": 6,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47234,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Underground Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47232,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Redroot Clearing",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47234": {
+          "vnum": 47234,
+          "name": "Underground Passage",
+          "description": "The underground corridor travels north to south, widening ahead where two gates of iron bars block further passage. Torches upon the walls of this close passage singe your hair as you pass.",
+          "grid_x": 6,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47235,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Before the Tomb of Magdelaine",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 47233,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Underground Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47235": {
+          "vnum": 47235,
+          "name": "Before the Tomb of Magdelaine",
+          "description": "The passage widens here where fragmented flat stones upon the ground collect to form a set of long, thin steps leading downward. Several large, leathery scales lay about the chamber among charred bits of bone and skin. Behind you stand two thick doors of iron bars.",
+          "grid_x": 6,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47234,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Underground Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47236
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GHOSTCAP MUSHROOM",
+              "rank": 60,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 6,
+        "max_x": 6,
+        "min_y": -4,
+        "max_y": -2,
+        "room_count": 3
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47227,
+      "rooms": {
+        "47232": {
+          "vnum": 47232,
+          "name": "Redroot Clearing",
+          "description": "A trickle of water thins and ends here, soaking the ground and nourishing the exposed roots of several elder redwoods aligned in a circle. Standing here in the center of the clearing is a tilted, decaying greystone cross supported by a particularly thick tangle of roots. The lake Breceliande lay to the southwest.",
+          "grid_x": 6,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 47259,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthEastern Shore",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47233,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Underground Passage",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47245": {
+          "vnum": 47245,
+          "name": "Upon a small Isle",
+          "description": "Huge, vine-laden trees rise up along the shores of the isle, providing cover and cutting off passage into the water. Not oft-trodden upon paths bisect at this point before twisting off to the east, and northwest. Hovering above the stillwater among the roots a multitude of brightly coloured dragonflies stir at your invasion.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47246,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 47252,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47246": {
+          "vnum": 47246,
+          "name": "Upon a small Isle",
+          "description": "Plants poke their tops above the water in the murky shallows where the isle ends and Breceliande begins. A rotting makeshift dock sinks slowly into the water, unkept and unused for ages. Paths lead off in several directions upon the isle, twisting and turning about the numerous willows and plants growing from the fertile island soil.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47271,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47260,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47245,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47248": {
+          "vnum": 47248,
+          "name": "Base of a Willow",
+          "description": "At the base of a tremendous willow, branches hang down to brush across your face. Barely detectable paths upon the soft island earth veer off to the south and east. A thin stream of water halts and forms a pool among several thick protruding roots. A graceful willow tree stands here, its trailing branches swaying gently.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47250,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47251,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47247,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Up in the Willow",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47249": {
+          "vnum": 47249,
+          "name": "Upon a small Isle",
+          "description": "You travel along a narrow collection of large pebblestones leading toward the ruins of a modest keep which appears to have been constructed of stones drawn up from the surrounding lake. A matched set of broad oak doors lay upon the ground, smashed, among a pile of loose masonry. A thick coat of creeping greenery covers the wreckage.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47251,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47250": {
+          "vnum": 47250,
+          "name": "Upon a small Isle",
+          "description": "Several meandering paths twist and intersect within the burgeoning growth upon the isle. One halts here where a tall, solid wall of stones rises up and disappears under a covering of creeping ivy. A spot of red peeks out from the growth, trailing downward where a bit of leather decays among some crushed bone fragments.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47246,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47251,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47248,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Base of a Willow",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47251": {
+          "vnum": 47251,
+          "name": "Upon a small Isle",
+          "description": "Here among the willows growing wildly upon the isle three paths merge, then split to travel east, southeast, and north. The willows sway in a strong breeze rolling off the surface of lake Breceliande. An odd sensation creeps under your flesh here, as if you were intruding upon sacred ground.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47249,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47248,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Base of a Willow",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 47260,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47252": {
+          "vnum": 47252,
+          "name": "Upon a small Isle",
+          "description": "The trees along the isle shore thin a bit, providing exits onto the lake at the north and west. A set of crisscrossing, fading footpaths twist about the isle traveling east and south among the willows.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47245,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47258,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47250,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47263,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47253": {
+          "vnum": 47253,
+          "name": "Northern Shallows",
+          "description": "Trudging through the northern shallows of Breceliande a crowd of tiny winged insects soar about, skimming the surface for bits of food as anglerfish aim to snap them up. The isle lay across the water to the south.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47259,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthEastern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47257,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47258,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47254,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthWestern Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47254": {
+          "vnum": 47254,
+          "name": "NorthWestern Shore",
+          "description": "Solidifying here, the shore rises to form a small cliff above the lake. A rutted path leads west and east among the multitude of plants which burst forth from the adjacent forest. South, upon an isle within Breceliande an ancient grey structure can be seen within the trees.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47257,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47255,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spensers Point",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47255": {
+          "vnum": 47255,
+          "name": "Spensers Point",
+          "description": "The shore rises steeply here, creating a minor cliff above the dark surface of Breceliande. Below a collection of charred and riven stone lay slowly sinking into the shallows. Further south a massive onyx tower can be seen within the forested basin.",
+          "grid_x": -5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47239,
+              "to_zone": "Sunken Ruins - Lake Brecilande",
+              "to_room_name": "Cliff",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47254,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthWestern Shore",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47262,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47256": {
+          "vnum": 47256,
+          "name": "On Lake Breceliande",
+          "description": "Your boat scrapes along an immense pile of blackened, broken stones which are no doubt very slowly being pulled down into the murky shallows by time and gravity. The lake extends to the south and to the east, while northward the water ends at a short, steep cliff.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47258,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47263,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47239,
+              "to_zone": "Sunken Ruins - Lake Brecilande",
+              "to_room_name": "Cliff",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47257": {
+          "vnum": 47257,
+          "name": "Northern Shore",
+          "description": "Myriad forms of creeping fauna slink out of the northern forest to wither and drown within the nearby shallows of Breceliande. The shore continues to the east, and a rutted path works its way up a slight incline to the west toward Spenser's Point.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47259,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthEastern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47253,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shallows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47254,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthWestern Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47258": {
+          "vnum": 47258,
+          "name": "On Lake Breceliande",
+          "description": "The flat, charcoal surface of the lake flanks you to the east and west as you drift. Perched atop a grey building upon an isle directly south are a group of doves, watching you closely. The shallows lay to the north.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47270,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47253,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shallows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47252,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47256,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47259": {
+          "vnum": 47259,
+          "name": "NorthEastern Shore",
+          "description": "A thin stream of water escapes the shallows here along the shore and travels northeast toward a circular stand of elder redwoods. By foot one can reach the eastern and northern shores from this point. A scaley, black fin breaks the surface of the lake before slipping again below.",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47232,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Redroot Clearing",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 47257,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shore",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47265,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47253,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Northern Shallows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47260": {
+          "vnum": 47260,
+          "name": "Upon a small Isle",
+          "description": "The shore of a small isle slowly climbs up from the icy waters of the lake Breceliande. Vines and a lush covering of ivy merge with the numerous willows jutting upward from the dense growth upon the isle. The hint of a path works its way northeast.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47271,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47246,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47268,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47263,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47262": {
+          "vnum": 47262,
+          "name": "Western Shore",
+          "description": "The rutted path along the shore continues here, skirting an immense pile of charred, broken stone slowly sinking into the shallows. Sparing a momentary look across the water from this point you glimpse a high, grey stone wall among the willows upon an isle on the lake.",
+          "grid_x": -7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47263,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47255,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spensers Point",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47273,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47263": {
+          "vnum": 47263,
+          "name": "On Lake Breceliande",
+          "description": "You float near the western shore surrounded by the brackish waters of the lake. Passage east is blocked by the edge of a wooded isle, overgrown and teeming with insects. Your boat tips slightly as something brushes against its underside.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47256,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 47258,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47267,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47262,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47264": {
+          "vnum": 47264,
+          "name": "In the Trees",
+          "description": "You are halfway up a tree, deep within the forested basin near the settlement of Napenthe. A collection of loose stones and piled boulders can be seen within the forest below, and it appears possible to continue climbing into the trees, as the branches form a tangled, interconnected snarl. A slightly pungent odor of burning herbs can be detected here.",
+          "grid_x": 11,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47288,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47040,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Trees",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47265": {
+          "vnum": 47265,
+          "name": "Eastern Shore",
+          "description": "Erupting from the tangled branches of the trees looming just to your east a huge bird quickly takes flight, disturbed by your passage. The soft, muddy eastern shore of Breceliande tracks further to the north and south.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47259,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthEastern Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47272,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47270,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47266": {
+          "vnum": 47266,
+          "name": "On Lake Breceliande",
+          "description": "An army of tiny, water-gliding insects cling to the sides of your boat as you pass through a collection of tall, spiked stalks growing up from the bottom of the lake, next to a rotting old footbridge which crosses a thin, shallow finger of water streaming off into the forest to the east. Northward the surface area thins between the shore and a small overgrown isle.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47277,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Beneath the Footbridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47271,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47276,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthEastern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47268,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47267": {
+          "vnum": 47267,
+          "name": "On Lake Breceliande",
+          "description": "",
+          "grid_x": -4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47268,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47263,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47275,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthWestern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47273,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47268": {
+          "vnum": 47268,
+          "name": "On Lake Breceliande",
+          "description": "Gliding along the surface of Breceliande all seems suspiciously still, save for the infrequent noxious bubbles of air which break the surface. Northward is perched a small isle one may be able to reach from this point, while the lake continues to the east and west.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47266,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47260,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Upon a small Isle",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47269,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Southern Shallows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47267,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47269": {
+          "vnum": 47269,
+          "name": "Southern Shallows",
+          "description": "Wading in the southern shallows of Breceliande, something brushes against your submerged legs as you survey the lake. The southern shores surdound murky shallows, and the lake widens to the north, where a small island rests in its centre.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47276,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthEastern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47268,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47282,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Southern Shore",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47275,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthWestern Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47270": {
+          "vnum": 47270,
+          "name": "On Lake Breceliande",
+          "description": "Your boat begins to slowly turn about at this spot upon the lake, though no whirlpool is present. The soggy shores beckon from the north and east, and the lake broadens to the south and to the west.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47265,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47259,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "NorthEastern Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47271,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47258,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "47271": {
+          "vnum": 47271,
+          "name": "On Lake Breceliande",
+          "description": "You float along a narrow passage upon the lake between the overgrown edge of an isle and the eastern shore. South the surface widens, while north a vague mist appears to eminate from the icy water.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47272,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47270,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47266,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47272": {
+          "vnum": 47272,
+          "name": "Eastern Shore",
+          "description": "Dozens of thin stalks pierce the shallow waters along the eastern shore here, strung together by a series of webs. Dead branches softened by the swamplike shore bend beneath your feet. Westward lay the lake Breceliande, and a narrow footbridge crosses a small stream south.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47606,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Protected Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47265,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47274,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Footbridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47271,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47273": {
+          "vnum": 47273,
+          "name": "Western Shore",
+          "description": "Odd, burrowing creatures make their homes upon the tender, swampy shores along the western side of Breceliande. A rutted path leads north and south several feet away from the water to your east. Gnarled, aged basin trees serve to prevent entry into the forest, moss and ivy creeping up the withering trunks. A scant path does appear passable to the west despite the growth.",
+          "grid_x": -7,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47267,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47262,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47275,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthWestern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47201,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47274": {
+          "vnum": 47274,
+          "name": "Footbridge",
+          "description": "The rotting planks wobble beneath your feet as you traverse this tiny footbridge. A narrow stream of water beneath leads off into the burgeoning forest to the east. The lake opens up to the west, its water lapping shorelines to the north and south.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47272,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47276,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "SouthEastern Shore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47275": {
+          "vnum": 47275,
+          "name": "SouthWestern Shore",
+          "description": "Strange, small shelled creatures cling to the branches of the plants growing along the banks of Breceliande. Vine-strangled trees in the forest to the west hang their branches overhead and dip into the surface of the water as if to feed upon it. The shore continues north, and southeast.",
+          "grid_x": -7,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47269,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Southern Shallows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47273,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Western Shore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 47282,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Southern Shore",
+              "direction": "se",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47276": {
+          "vnum": 47276,
+          "name": "SouthEastern Shore",
+          "description": "The mushy shores of the lake are alive with a vast array of minute insects and not-so-minute plantlife. The bank travels north and southwest along the edge of the water, the steady supply of which has caused the surrounding forestry to grow impassable. A narrow footbridge crosses a stream cutting through the shore to the north.",
+          "grid_x": 5,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47274,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Footbridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 47282,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Southern Shore",
+              "direction": "sw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47269,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Southern Shallows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47277": {
+          "vnum": 47277,
+          "name": "Beneath the Footbridge",
+          "description": "Water-weeds and bloated, decaying bodies of those lake-dwelling creatures unfortunate enough to become trapped here pollute the miasmic den below the footbridge.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47266,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47278": {
+          "vnum": 47278,
+          "name": "Beneath the Root",
+          "description": "A single, massive root arcs above your head, erupting from the earth to the northeast to create a natural arch. Meandering files of woodboring ants stripe the root, their work steadily adding to the pile of sawdust upon the forest floor. Through the arch the edge of a road can be seen further north, and a thin path treads westward.",
+          "grid_x": 11,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47287,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "ne",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47286,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47290,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47279": {
+          "vnum": 47279,
+          "name": "In the Forest",
+          "description": "Aggressive undergrowth threatens to make this area impassable to most, yet you find the greenery a bit thinner to the north and to the east. Stirring within the surroundings several creatures can be sensed, appraising your value as food...",
+          "grid_x": 11,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47285,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Clearing",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47283,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47600": {
+          "vnum": 47600,
+          "name": "A Spiral Descent",
+          "description": "The wear on the rock slope beneath you grows progressively worse as the spiral widens towards the bottom of the chasm. Some slow scraping force has worn the bottom almost smooth, leaving it slippery and treacherous. Your feet almost lose purchase over a thick pack of moist yellow slime that clings to the incline.",
+          "grid_x": 11,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47182,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Bottom of a Spiral Staircase",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47601,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "The Birthing Chamber",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47601": {
+          "vnum": 47601,
+          "name": "The Birthing Chamber",
+          "description": "Fresh, yellowed ooze coats the darkened rock walls of this amorphous chamber. Giant white cocoons are embedded in the mess in terrifying numbers, yet an unsettling calm permeates the atmosphere. Barely visible through the mire on either side of the chamber are two massive solid slabs of rock, barred and locked with great rusted beams of iron.",
+          "grid_x": 11,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47600,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "A Spiral Descent",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47602,
+            47603
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47605": {
+          "vnum": 47605,
+          "name": "Lush Foliage",
+          "description": "Dense, vibrant vegetation surrounds this part of the path, with towering trees, ferns, and vines creating a verdant canopy above. The air is heavy with humidity and the scent of damp earth, while the distant sounds of wildlife echo through the foliage. The lush growth creates an almost otherworldly atmosphere, enveloping travelers in a cocoon of greenery as they traverse the winding trail.",
+          "grid_x": 7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47604,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Grassy Clearing",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47607,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Sheltered Grove",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47610,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Twisted Vines",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47606,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Protected Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47606": {
+          "vnum": 47606,
+          "name": "Protected Shore",
+          "description": "The verdant foliage of the basin gives way to a serene oasis on the lakeshore. Crystal-clear water laps gently at the edge of the protected area, the vibrant greenery thriving under the watchful presence of shamanic totems. Just beyond the boundary of protection, the dark waters of the lake turn murky and sinister, causing the plant life to wither and decay upon contact. The atmosphere within the oasis is one of tranquility, a stark contrast to the foreboding waters beyond.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47605,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Lush Foliage",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47272,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Eastern Shore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47607": {
+          "vnum": 47607,
+          "name": "Sheltered Grove",
+          "description": "Tucked away amidst the dense vegetation, a hidden grove offers respite from the surrounding jungle. The vibrant greenery creates a canopy above, casting intricate patterns of light and shadow on the forest floor. The air is heavy with the scent of damp earth and the sweet fragrance of blooming flowers, while the gentle buzz of insects and the melodies of songbirds create a soothing ambiance.",
+          "grid_x": 7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47609,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Verdant Glade",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47605,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Lush Foliage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47608": {
+          "vnum": 47608,
+          "name": "Moss-Covered Boulders",
+          "description": "Towering boulders, blanketed in a thick layer of velvety moss, dominate this section of the basin. The damp, cool atmosphere is a stark contrast to the humid jungle that surrounds it. Small ferns and shade-loving plants thrive in the crevices between the boulders.",
+          "grid_x": 8,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47604,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Grassy Clearing",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47610,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Twisted Vines",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47609": {
+          "vnum": 47609,
+          "name": "Verdant Glade",
+          "description": "The vegetation gives way to an open glade, where an abundance of wildflowers paint the landscape in a vibrant palette of colors. Bees and butterflies flit between blossoms, contributing to the symphony of life that resonates throughout the basin. Soft grass underfoot provides a comfortable place to rest, while the sweet scent of nectar fills the air.",
+          "grid_x": 8,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47604,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Grassy Clearing",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47607,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Sheltered Grove",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47610": {
+          "vnum": 47610,
+          "name": "Twisted Vines",
+          "description": "Entwined vines coil around the trunks of ancient trees, creating a maze-like network that dominates this part of the basin. The dense foliage muffles sound, leaving a sense of quiet isolation. The air is humid and filled with your feet is uneven, blanketed in a thick layer of moss and fallen vegetation.",
+          "grid_x": 7,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47608,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Moss-Covered Boulders",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47605,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Lush Foliage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47227": {
+          "vnum": 47227,
+          "name": "Spunroot Tunnels",
+          "description": "Ducking beneath the mass of tangled roots which hang overhead you pass through a section of the tunnels moving east and west. In this straightened passage large stones have been set upright and carved upon, forming shapes resembling living creatures.",
+          "grid_x": -1,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47228,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47189,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "QUICKROOT",
+              "rank": 10,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47228": {
+          "vnum": 47228,
+          "name": "Spunroot Tunnels",
+          "description": "A trickle of brackish water erupts from a large skull mounted upon the wall here, flowing downward through an opening upon the floor of the spunroot tunnel. Pockets of fungus form within the roots, which are in places stretched and connected by myriad strands of glowing silk to form webs.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47229,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47227,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "QUICKROOT",
+              "rank": 10,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47229": {
+          "vnum": 47229,
+          "name": "Spunroot Tunnels",
+          "description": "The damp, root-filled tunnel is low but wide, and as it turns here, offering passage north and east, rows of large rocks line the way. Each appears to have been chisled upon by someone or something, forming crude statuesque shapes.",
+          "grid_x": 0,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47230,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47228,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "QUICKROOT",
+              "rank": 10,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47230": {
+          "vnum": 47230,
+          "name": "Spunroot Tunnels",
+          "description": "Bulbous tubers and the sinew of tendril roots surround you within a low tunnel venturing east and west beneath the earth. Nests of ground- dwelling insects abound, nestled within the layers of roots creeping out of the earthen walls, ceiling, and floor.",
+          "grid_x": 1,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47231,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Beneath a Treestump",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47229,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "QUICKROOT",
+              "rank": 10,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47231": {
+          "vnum": 47231,
+          "name": "Beneath a Treestump",
+          "description": "You've crawled beneath a large, uprooted treestump within a clearing in the misted basin. The smaller roots dangle freely, covered in webs and various fungi. The pit contains the pungent, heady aroma of decay along with a faint stench of brimstone. A narrow tunnel leads through the earth to the west.",
+          "grid_x": 2,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47285,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Clearing",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47230,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -7,
+        "max_x": 8,
+        "min_y": -4,
+        "max_y": 20,
+        "room_count": 47
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47247,
+      "rooms": {
+        "47247": {
+          "vnum": 47247,
+          "name": "Up in the Willow",
+          "description": "From here within the willow you can view the surrounding waters of the lake all about, through a natural veil of swaying branches. High above, several buildings dot the side of a rising mountain slope to the northeast. Southward a ridge borders the edge of the misted basin. A portal shimmers here before you.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47248,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Base of a Willow",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            38099
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47227,
+      "to": 47228,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        19
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47228,
+      "to": 47229,
+      "direction": "s",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        0,
+        20
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47229,
+      "to": 47230,
+      "direction": "e",
+      "from_grid": [
+        0,
+        20
+      ],
+      "to_grid": [
+        1,
+        20
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47230,
+      "to": 47231,
+      "direction": "e",
+      "from_grid": [
+        1,
+        20
+      ],
+      "to_grid": [
+        2,
+        20
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47232,
+      "to": 47259,
+      "direction": "sw",
+      "from_grid": [
+        6,
+        -4
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47233,
+      "to": 47234,
+      "direction": "n",
+      "from_grid": [
+        6,
+        -2
+      ],
+      "to_grid": [
+        6,
+        -3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47234,
+      "to": 47235,
+      "direction": "n",
+      "from_grid": [
+        6,
+        -3
+      ],
+      "to_grid": [
+        6,
+        -4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 47245,
+      "to": 47246,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47245,
+      "to": 47252,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47246,
+      "to": 47271,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47246,
+      "to": 47260,
+      "direction": "sw",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47248,
+      "to": 47250,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47248,
+      "to": 47251,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47249,
+      "to": 47251,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47250,
+      "to": 47246,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47250,
+      "to": 47251,
+      "direction": "sw",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47251,
+      "to": 47260,
+      "direction": "se",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47252,
+      "to": 47258,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47252,
+      "to": 47250,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47252,
+      "to": 47263,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47253,
+      "to": 47259,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47253,
+      "to": 47257,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47253,
+      "to": 47258,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47253,
+      "to": 47254,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47254,
+      "to": 47257,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47254,
+      "to": 47255,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47255,
+      "to": 47262,
+      "direction": "sw",
+      "from_grid": [
+        -5,
+        -3
+      ],
+      "to_grid": [
+        -7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47256,
+      "to": 47258,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47256,
+      "to": 47263,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47257,
+      "to": 47259,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47258,
+      "to": 47270,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47259,
+      "to": 47265,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -3
+      ],
+      "to_grid": [
+        5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47260,
+      "to": 47271,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47260,
+      "to": 47268,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47260,
+      "to": 47263,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47262,
+      "to": 47263,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        2
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47262,
+      "to": 47273,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        2
+      ],
+      "to_grid": [
+        -7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47263,
+      "to": 47258,
+      "direction": "ne",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47263,
+      "to": 47267,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        -4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47265,
+      "to": 47272,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47265,
+      "to": 47270,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47266,
+      "to": 47277,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47266,
+      "to": 47271,
+      "direction": "n",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47266,
+      "to": 47276,
+      "direction": "s",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        5,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47266,
+      "to": 47268,
+      "direction": "w",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47267,
+      "to": 47268,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47267,
+      "to": 47275,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -7,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47267,
+      "to": 47273,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47268,
+      "to": 47269,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47269,
+      "to": 47276,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        5,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47269,
+      "to": 47275,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        -7,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47270,
+      "to": 47259,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47270,
+      "to": 47271,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47271,
+      "to": 47272,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47272,
+      "to": 47606,
+      "direction": "e",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47272,
+      "to": 47274,
+      "direction": "s",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47273,
+      "to": 47275,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        3
+      ],
+      "to_grid": [
+        -7,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47274,
+      "to": 47276,
+      "direction": "s",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        5,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47605,
+      "to": 47607,
+      "direction": "n",
+      "from_grid": [
+        7,
+        2
+      ],
+      "to_grid": [
+        7,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47605,
+      "to": 47610,
+      "direction": "s",
+      "from_grid": [
+        7,
+        2
+      ],
+      "to_grid": [
+        7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47605,
+      "to": 47606,
+      "direction": "w",
+      "from_grid": [
+        7,
+        2
+      ],
+      "to_grid": [
+        6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47607,
+      "to": 47609,
+      "direction": "e",
+      "from_grid": [
+        7,
+        1
+      ],
+      "to_grid": [
+        8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47608,
+      "to": 47610,
+      "direction": "w",
+      "from_grid": [
+        8,
+        3
+      ],
+      "to_grid": [
+        7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

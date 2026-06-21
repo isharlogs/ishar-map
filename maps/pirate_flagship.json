@@ -1,0 +1,402 @@
+{
+  "zone_name": "Pirate Flagship",
+  "entry_vnum": 81727,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 1
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": null,
+      "rooms": {
+        "81724": {
+          "vnum": 81724,
+          "name": "Before the Pirate Ship",
+          "description": "You made it to the edge of the pirate ship alive. Looking back you can see the bare outline of a coast. Turning your attention back to the ship, you notice a rope ladder lowered down the barnacle encrusted side.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 81725,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81626,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Aft Starboard Side",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 81727,
+      "rooms": {
+        "81728": {
+          "vnum": 81728,
+          "name": "The Open Sea",
+          "description": "The distant ship does not appear to be coming any closer. Waves crash around you and the ocean surrounds you on all sides.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 81727,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 81726,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            25026,
+            25032
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81725": {
+          "vnum": 81725,
+          "name": "The Open Sea",
+          "description": "You are now close enough to the distant ship to be able to make out more detail. Your eyes are instantly drawn to the raised flag above the mast - the Jolly Roger. It's not too late to turn back now.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 81726,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 81724,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Before the Pirate Ship",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81726": {
+          "vnum": 81726,
+          "name": "The Open Sea",
+          "description": "The distant ship is still little more than a brown blob on the horizon, but it is a welcome change in the scenery. Waves crash around you and the ocean surrounds you on every other side.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 81728,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 81725,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25029,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81727": {
+          "vnum": 81727,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. As you scan the surrounding waters, you see a small shape in the distant west.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25028,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25032,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25026,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 81728,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 81626,
+      "rooms": {
+        "81626": {
+          "vnum": 81626,
+          "name": "Aft Starboard Side",
+          "description": "The hull curves port side as it approaches the stern. Looking over the railing, there is ocean for as far as the eye can see.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go over": {
+              "to_vnum": 81724,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Before the Pirate Ship",
+              "direction": "go over",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            81625,
+            81627
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 81725,
+      "to": 81726,
+      "direction": "se",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81726,
+      "to": 81728,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81727,
+      "to": 81728,
+      "direction": "w",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,1678 @@
+{
+  "zone_name": "Gnoll Encampment",
+  "entry_vnum": 25200,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25200,
+      "rooms": {
+        "25216": {
+          "vnum": 25216,
+          "name": "Inside the Makeshift Tent",
+          "description": "The air is heavy, thick with the pungent aroma of burnt offerings and smoldering incense. A makeshift altar dominates the space, draped with tattered cloth and adorned with crude carvings and bloodstained relics. Faint embers flicker in a low firepit, casting eerie, dancing light over the walls scrawled with chaotic symbols. A chilling stillness pervades, as though the space itself holds its breath in reverence... or fear.",
+          "grid_x": 5,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 25215,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside the Makeshift Tent",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 25208,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northeastern Courtyard",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Gnoll shaman",
+              "description": "Adorned with rattling bone charms and smeared in ritualistic paint, the pack shaman cuts a striking figure. Their piercing eyes gleam with a mix of intelligence and madness, and their raspy chants echo throughout the camp. The air around them feels charged with a strange, unsettling energy.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25217": {
+          "vnum": 25217,
+          "name": "Inside a Dark Tent",
+          "description": "Crude weapon racks and splintered crates clutter the space, holding an assortment of jagged blades, chipped axes and battered shields. The sharp tang of rusted metal hangs in the air, mingling with the mustiness of damp wood. Stray scraps of leather and discarded tools litter the floor, evidence of hasty repairs or careless crafstmanship.",
+          "grid_x": 4,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25218,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Stinky Tent",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25218": {
+          "vnum": 25218,
+          "name": "Inside a Stinky Tent",
+          "description": "The stench of decay and filth is overpowering here, turning the air thick and foul. The ground is uneven and damp, with dark stains marking areas of heavy use. Bones and rotting scraps of meat are pile haphazardly in one corner attracting flies and maggots. The atmosphere is nauseating, oppressive with the weight of neglect and the pungent odor of biological waste.",
+          "grid_x": 5,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 25217,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Dark Tent",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 25210,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southeastern Courtyard",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25219": {
+          "vnum": 25219,
+          "name": "Hyena Pen",
+          "description": "A rancid stench looms in the air of torn limbs chewed to the bone. The cage door is bound just by some frayed rope and iron spikes. The ground is trampled down to bare dirt and mud, slick with filth and splintered bones. This is a crude cage, even for animals.",
+          "grid_x": 4,
+          "grid_y": 11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 25210,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southeastern Courtyard",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25200": {
+          "vnum": 25200,
+          "name": "Wooden Gateway",
+          "description": "A makeshift wall extends from north to south consisting of sharpened logs planted in the ground here. Grassy foothills surround the structure as a large wooden gateway dominates your view to the east. To the west lies a beaten path extending north and south overlooking the ocean.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25201,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Within the Fortress",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25097,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Fertile Plains",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25201": {
+          "vnum": 25201,
+          "name": "Within the Fortress",
+          "description": "Stepping into the fortress offers a clear view of the barricade. A large fire to the east gives illumination to the entire encampment. Directly north and south lies makeshift watchtowers that peer over the grasslands.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 25202,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Northern Watchtower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25203,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Southern Watchtower",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25200,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Wooden Gateway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25202": {
+          "vnum": 25202,
+          "name": "Before the Northern Watchtower",
+          "description": "A poorly constructed tower assembled from mismatched and misshapen wooden logs stands tall before you. It's a miracle it hasn't collapsed from the strong ocean breeze. The walls of the encampment extend and loosely contour to the southeast. A roaring fire crackles in the distance, impressively emanating enough heat to reach you here. More makeshift buildings somehow remain standing to the east.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 25201,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Within the Fortress",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25211,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Makeshift Guard Tower",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25203": {
+          "vnum": 25203,
+          "name": "Before the Southern Watchtower",
+          "description": "A rickety tower of mismatched planks leans precariously against the southern wall, its structure creaking softly in the ocean breeze. Weathered claw marks and splintered boards mar it surface, hinting at frequent use or careless construction. The air carries the briny tang of the sea, mingled with the faint musk of Gnolls and the lingering scent of smoldering wood from the campfire to the east.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 25201,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Within the Fortress",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25212,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Makeshift Guard Tower",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25204": {
+          "vnum": 25204,
+          "name": "Western Courtyard",
+          "description": "This open stretch of the fortress feels exposed, the ocean breeze slipping through the gaps in the wooden walls and carrying the salty tang of the sea. Faint traces of smoke linger in the air, tinged with the earthly scent of trampled grass adn damp wood. The looming silhouettes of the watchtowers to the north and south frame the western gate in the distance.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25202,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Northern Watchtower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25203,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Southern Watchtower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25201,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Within the Fortress",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25205": {
+          "vnum": 25205,
+          "name": "Northern Courtyard",
+          "description": "The uneven ground here is littered with splinters and scraps, remnants of hastily assembled structures. Plumes of smoke from the campfire drift overhead, mingling with the sharp tang of animal musk and the faint scent of burning wood. To the east, the shaman's tent looms with eerie decorations, while to the west, a crude watchtower creaks in the wind. The area feels exposed, the chill of the ocean breeze cutting through the air.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25208,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northeastern Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25209,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Eastern Courtyard",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25202,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Northern Watchtower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25215,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside the Makeshift Tent",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25206": {
+          "vnum": 25206,
+          "name": "Before an Enormous Campfire",
+          "description": "A massive fire pit blazes at the heart of the fortress, its flames casting jagged shadows on the surrounding walls. The air is thick with the pungent aroma of charred meat and damp wood, accompanied by the gutteral snarls and raucous cackles of feasting Gnolls. Heat radiates fiercely from the flames, a stark contrast to the sharp wind that bites at your back from the west. Plumes of dark smoke from the campfire stretch to the east, sending scents of fresh meat and burning wood into the sky.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25209,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Eastern Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 25208,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northeastern Courtyard",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 25202,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Northern Watchtower",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25210,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southeastern Courtyard",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 25203,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Southern Watchtower",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25207": {
+          "vnum": 25207,
+          "name": "Southern Courtyard",
+          "description": "The courtyard is strewn with splintered wood and broken weapons, remnants of recent skirmishes or failed repairs. The acrid tang of smoke lingers in the air, battling the faint, sour odor drifting from nearby. The ground feels gritty underfoot, while the occasional breeze carries with it the sharp snap of wood shifting in the campfire to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25210,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southeastern Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 25209,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Eastern Courtyard",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 25204,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Western Courtyard",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25203,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Southern Watchtower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25217,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Dark Tent",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25208": {
+          "vnum": 25208,
+          "name": "Northeastern Courtyard",
+          "description": "The air is heavy with the acrid scent of burnt herbs drifting from the nearby shaman's tent, mingling with plumes of campfire smoke swirling overhead. Bone charms dangle from the perimeter wall, clattering faintly in the ocean breeze. The ground here feels uneven and worn, littered with gnawed bones and scattered debris that crunch underfoot.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25209,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Eastern Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25216,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside the Makeshift Tent",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25209": {
+          "vnum": 25209,
+          "name": "Eastern Courtyard",
+          "description": "The open space is dominated by crude drying racks strung with tattered hides and strips of meat, swaying lightly in the ocean breeze. Nearby, battered training dummies lean awkwardly, scarred by countless claw marks and crude weapon strikes. The pungent odor of sweat and damp leather mingles with the faint smoke drifting from the central campfire. Dusty ground, trodden smooth by Gnoll feet, carries the faint echos of gutteral growls and grunts.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25208,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northeastern Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25210,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southeastern Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25210": {
+          "vnum": 25210,
+          "name": "Southeastern Courtyard",
+          "description": "The ground here is uneven, scattered with discarded scraps of wood and nails. The faint stench of waste drifts in the south, cutting through the smoky air lingering from the campfire. The ocean breeze carries a damp chill, rusting a few battered crates stacked haphazardly against the walls and offering a break of fresh brine air. Despite the disarray, the area is lively with activity, the ground worn smooth by countless passing feet.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25209,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Eastern Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 25206,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before an Enormous Campfire",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25207,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Southern Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go cage": {
+              "to_vnum": 25219,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Hyena Pen",
+              "direction": "go cage",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 25218,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Stinky Tent",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25211": {
+          "vnum": 25211,
+          "name": "Inside a Makeshift Guard Tower",
+          "description": "Rough planks creak underfoot at the base of this tower, the entire structure swaying faintly with each ocean gust. Mismatched beams create a narrow stair spiraling upward, patched together with loose rope and rusty nails. The air reeks of wet wood and rusty metal, only stifled briefly by a breeze that sweeps in through the cracks.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 25202,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Northern Watchtower",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 25213,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Upper Floor of the Makeshift Guard Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25212": {
+          "vnum": 25212,
+          "name": "Inside a Makeshift Guard Tower",
+          "description": "The interior reeks of damp fur and smoke, the cramped space littered with cracked bones and discarded rations. The wet, rotting planks groan beneath your feet, and a crooked ladder leans into a hatch above. Ocean drafts push through cracks in the walls, carrying the sound of crashing waves in the distance. The entire tower feels ready to break apart from the next strong wind.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 25203,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Before the Southern Watchtower",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 25214,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Upper Floor of the Makeshift Guard Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25213": {
+          "vnum": 25213,
+          "name": "Upper Floor of the Makeshift Guard Tower",
+          "description": "The wind howls through the cracks within the loose walls. From this vantage point, the fortress sprawls out below in a jagged ring of splintered beams, sharpened at the tips. The boards beneath your feet flex with every step, and the scent of salt, rot and dried blood clings to the air around you.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 25211,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Makeshift Guard Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25214": {
+          "vnum": 25214,
+          "name": "Upper Floor of the Makeshift Guard Tower",
+          "description": "The tower sways with each gust of wind, boards warped and wet from being beaten by the salty breeze. A splintered crate has been overturned for use as a stool, overlooking an opening in the wall where the sea glimmers far to the southwest. Fur clings between the craks of the wood, and the walls are littered with claw marks and dried blood. The scent is sharper, part brine and part sweat. Every creak feels like the platform could give at any moment.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 25212,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside a Makeshift Guard Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25215": {
+          "vnum": 25215,
+          "name": "Inside the Makeshift Tent",
+          "description": "The dimly lit chamber is cluttered with crude wooden shelves and hanging bundles of dried herbs with their sharp, earthly scent filling the air. Bones strung on twine sway gently from the tent's canvas walls, clattering faintly with each gust of wind. A faint, acrid smoke curls from a smoldering brazier in the corner, casting flickering shadows across the ground. The atmosphere is oppressive, the air thick with an unsettling, primal energy.",
+          "grid_x": 4,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25216,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside the Makeshift Tent",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 25205,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Northern Courtyard",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Gnoll pyromancer",
+              "description": "Covered in soot and scars, the gnoll pyromancer is surrounded by the smell of singed fur and burning wood. Their eyes glare with a manic intensity, and their hands are perpetually stained with ash. Carrying around crude flasks and volitile liquids, their presence alone is enough to inspire caution among their packmates.",
+              "unique": false,
+              "npc_type": "loads_item"
+            },
+            {
+              "name": "Gnoll runt",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 20
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 25200,
+      "to": 25201,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25201,
+      "to": 25204,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25201,
+      "to": 25202,
+      "direction": "ne",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25201,
+      "to": 25203,
+      "direction": "se",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25202,
+      "to": 25205,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25202,
+      "to": 25204,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25202,
+      "to": 25206,
+      "direction": "se",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25203,
+      "to": 25207,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25203,
+      "to": 25204,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25203,
+      "to": 25206,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25204,
+      "to": 25206,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25204,
+      "to": 25205,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25204,
+      "to": 25207,
+      "direction": "se",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25205,
+      "to": 25208,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25205,
+      "to": 25206,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25205,
+      "to": 25209,
+      "direction": "se",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25206,
+      "to": 25209,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25206,
+      "to": 25208,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25206,
+      "to": 25207,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25206,
+      "to": 25210,
+      "direction": "se",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25207,
+      "to": 25210,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25207,
+      "to": 25209,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25208,
+      "to": 25209,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25209,
+      "to": 25210,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25215,
+      "to": 25216,
+      "direction": "e",
+      "from_grid": [
+        4,
+        7
+      ],
+      "to_grid": [
+        5,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25217,
+      "to": 25218,
+      "direction": "e",
+      "from_grid": [
+        4,
+        9
+      ],
+      "to_grid": [
+        5,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

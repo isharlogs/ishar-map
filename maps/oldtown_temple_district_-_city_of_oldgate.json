@@ -1,0 +1,434 @@
+{
+  "zone_name": "Oldtown Temple District - City of Oldgate",
+  "entry_vnum": 23027,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 2,
+    "min_y": 0,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 23027,
+      "rooms": {
+        "23027": {
+          "vnum": 23027,
+          "name": "The Quartz Stairs",
+          "description": "The stairs are beautiful, but they fall short of majestic, which was the architect's original intent. They lead into a small temple to the east, and down to Temple Street to the west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23028,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "Chapel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22068,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23028": {
+          "vnum": 23028,
+          "name": "Chapel",
+          "description": "The ceiling is vaulted and supported by marble columns rubbed smooth by thousands of hands. Niches filled with statues of the idols surround this circular room. A cloistered area is reached by a small door to the east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23029,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "Receiving Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 23031,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Secret Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 23027,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Quartz Stairs",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23029": {
+          "vnum": 23029,
+          "name": "Receiving Chamber",
+          "description": "This small chamber has cushions on either side so that visitors can be comfortable during their wait for the prior.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23030,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Sanctum",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 23028,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "Chapel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23030": {
+          "vnum": 23030,
+          "name": "The Sanctum",
+          "description": "This large and comfortable chamber is used by the clergy to discuss matters of import to their vocation. There is a small trapdoor set in the floor tiles.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 23029,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "Receiving Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23031": {
+          "vnum": 23031,
+          "name": "The Secret Passage",
+          "description": "The hair stiffens on the back of your neck. You realized that you have stumbled into a very dangerous place. You have heard the rumors of the horrors that guard the treasures of this temple. Precautions must be taken at every step or your doom will be assured.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23032,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Room of The Guards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 23028,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "Chapel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [
+            23033
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23032": {
+          "vnum": 23032,
+          "name": "The Room of The Guards",
+          "description": "This room is the second line of defense of the temple treasury. It is the place of honor for those who have sworn their lives to the church.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 23034,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Hall of the Eternal",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 23031,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Secret Passage",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23034": {
+          "vnum": 23034,
+          "name": "The Hall of the Eternal",
+          "description": "This room stinks of the undead. Your stomach clutches itself and your skin turns suddenly cold.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 23032,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Room of The Guards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            23035
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 2,
+        "room_count": 7
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 23027,
+      "to": 23028,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23028,
+      "to": 23029,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23028,
+      "to": 23031,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23029,
+      "to": 23030,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23031,
+      "to": 23032,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 23032,
+      "to": 23034,
+      "direction": "s",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

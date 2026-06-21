@@ -1,0 +1,1199 @@
+{
+  "zone_name": "The Village of Ingeen",
+  "entry_vnum": 69080,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 3,
+    "min_y": -1,
+    "max_y": 3
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 69087,
+      "rooms": {
+        "69087": {
+          "vnum": 69087,
+          "name": "Djeen`s Laboratory",
+          "description": "A myriad of magical artifacts, potions, and scrolls catch your eye as you enter Djeen`s laboratory. In stark contrast to the house above, the laboratory is cluttered with furniture: tables, chairs, bookshelves and a bed. The room is lit, but you cannot seem to locate the source. An ascent of the spiral stairs would lead up into the house.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69086,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The House of Djeen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 69080,
+      "rooms": {
+        "69080": {
+          "vnum": 69080,
+          "name": "Beside a Fallen Oak",
+          "description": "A scene of serenity envelops you deep within this forest; birds chirp musically, squirrels scurry along the ground, and vibrant purple lilacs create a pleasing scent. The passage to the south is blocked by a large fallen oak tree covered with grey moss. Perhaps if you could shift one of the large branches, you could make your way over the tree.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69081,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Within Ingeen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61014,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69081": {
+          "vnum": 69081,
+          "name": "Within Ingeen",
+          "description": "A few small houses have been squeezed between the oaks in a small clearing here. A short wooden sign quietly declares that you have come upon the village of Ingeen. Hobbits wander about tending to their day- to-day chores, and darker hobbits clad in robes can be seen performing complex chants. Passage to the north is blocked by a fallen oak, but can be surpassed by shifting a large branch. Huts lie to the east and west, and the village opens out to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69082,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen Guard House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69080,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beside a Fallen Oak",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69083,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Village Center",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69099,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Weapon Smithy",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69082": {
+          "vnum": 69082,
+          "name": "Ingeen Guard House",
+          "description": "As you enter the small hut and take in your surroundings, you realize it reminds you of a guard house back home. A bay window in the eastern wall allows a glimpse of the deep oak forest beyond the hut, and allows the guards to feel closer to their native element. The hut expands to the south, and to the west lies an opening leading back out into the village.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69093,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen Guard House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69081,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Within Ingeen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69083": {
+          "vnum": 69083,
+          "name": "Village Center",
+          "description": "Ambling through the village, you walk out into a grassy clearing that serves as a community center for the hobbits of Ingeen. Four paths converge in the clearing, one leading from a group of huts to the north, another from a magnificent building to the southeast, a third from a two- story hut to the south, and the fourth from beneath a gargantuan oak tree to the west.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69081,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Within Ingeen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69096,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen School of Magic",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69084,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The Golden Flame",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69085,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beneath the Ingeen Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69084": {
+          "vnum": 69084,
+          "name": "The Golden Flame",
+          "description": "Ducking your head, you step beneath a large sign and cross the threshold. A faint continuous noise emanates from within, and upon further inspection, you discover that the source of the light rustle is the vast collection of magical tomes that fill the bookshelves along the walls. The highly enchanted pages flutter as if a brisk wind filled the room. A doorway to the northwest leads back out into the village.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69083,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Village Center",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69085": {
+          "vnum": 69085,
+          "name": "Beneath the Ingeen Tree",
+          "description": "Cool shade lends comfort as you wander beneath the massive oak known as the Ingeen Tree. Considered sacred, the Ingeen Tree is the destination of pilgrimage for hobbits from all of Ishar. A seemingly endless flight of wooden steps spirals up the trunk into a homey chapel set in the tree`s branches. To the south lies a modest house with a blackened lead front door. A pleasant clearing in the center of the village lies to the east.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69083,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Village Center",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69086,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The House of Djeen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 69100,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The Shady Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69088,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The Church of Ingeen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69086": {
+          "vnum": 69086,
+          "name": "The House of Djeen",
+          "description": "A fierce wind howls inexplicably through the house, leaving nothing untouched. The carpet has been torn asunder, and articles of furniture have long since been swept away. A massive cage has been bolted into the floor to your west, and a threatening growl can be heard from within. Dull light pulses from the bottom of a twisting flight of steps, perhaps from some sort of basement, and a door to the north leads out of the house.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69085,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beneath the Ingeen Tree",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69092,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ayine`s Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 69091,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Tiger Cage",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69087,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Djeen`s Laboratory",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69089": {
+          "vnum": 69089,
+          "name": "Deep Within the Ingeen Tree",
+          "description": "Your senses reel as your soul is immersed in the utter evil of this dank chamber. From here, the spirit of the tree manipulates the unsuspecting hobbits of Ingeen, using them for its own gains. The chamber is unbearably hot, and you feel a pulsing pain course rhythmically through your body like a diabolical heart beat. A wooden ladder fastened to the wall leads upward out of the darkness.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69088,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The Church of Ingeen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69090": {
+          "vnum": 69090,
+          "name": "The Secret Laboratory",
+          "description": "Deviously hidden, the secret laboratory allows Djeen to work without interruption. Viles of oddly smoking solutions and cages containing chittering creatures fill the room, but are dwarfed by the size of Djeen`s book collection. Magical tomes and volumes fill the bookshelves, some Djeen`s own, some borrowed from other mages of power. A spiral flight of stairs leads back up into the cage of Djeen`s familiar above.",
+          "grid_x": 6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69091,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Tiger Cage",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69091": {
+          "vnum": 69091,
+          "name": "Tiger Cage",
+          "description": "The bars of this twenty-by-twenty foot cage are of solid iron, and could most likely sustain a blow of some force. A flattened mound of dry grass has been heaped in the southwest corner, and the smell of freshly killed meat hangs in the air, both testament to the inhabitant of the cage.",
+          "grid_x": 6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 69086,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The House of Djeen",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69090,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The Secret Laboratory",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69092": {
+          "vnum": 69092,
+          "name": "Ayine`s Room",
+          "description": "Stepping through the doorway and escaping the howling gale, you enter this comparably normal room. As you fix your hair and adjust your clothing, you realize that there is however something odd about this room. It won`t sit still. Perhaps because a pair of daemonlings scurry about constantly rearranging things. A doorway to the north leads away from the crazy little things.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69086,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "The House of Djeen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69093": {
+          "vnum": 69093,
+          "name": "Ingeen Guard House",
+          "description": "Your footsteps ring oddly as you tread across the earthen floor of the guard house. Attributing it to magic, you give it no more thought and peer around. A single chair sits in the middle of the room, providing comfort for the jailer. Solid cell doors lock prisoners in to the east and south, and the guard house continues to the north.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69094,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Barren Jail Cell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 69082,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen Guard House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69095,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Barren Jail Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69094": {
+          "vnum": 69094,
+          "name": "Barren Jail Cell",
+          "description": "The cell is empty save for a decrepit pile of rags rotting in a corner. Not a hint of a window can be found, and you are reminded of stories of men driven mad by the darkness...",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69093,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen Guard House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69095": {
+          "vnum": 69095,
+          "name": "Barren Jail Cell",
+          "description": "The interior of the cell is barren and depressing. The prisoners seem to have entertained themselves by attempting to tunnel their way out, for a tiny pile of rubble sits next to a 2-inch deep hole. Perhaps in centuries to come the tunnel will be completed. Freedom lies to the north.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69093,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen Guard House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69096": {
+          "vnum": 69096,
+          "name": "Ingeen School of Magic",
+          "description": "The interior of this small school calls to mind your early school days, only it is somehow strangely different. The desks float gently a few inches above the ground, the chalkboard glows with a soft blue light, and a faint hum can be heard in the air. A thin flight of stairs at the back of the room lead upward, the fresh air of the village center lies to the north, and a door engraved with three adjacent stars allows passage to the south.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69083,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Village Center",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69098,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Hobbit Council of Magic",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 69097,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Bell Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69098": {
+          "vnum": 69098,
+          "name": "Hobbit Council of Magic",
+          "description": "This room reeks of bureaucracy. Little stacks of paper have been piled on surfaces all over the room, save a large conference table in the middle. The table is surrounded by chairs where members of the Hobbit Council of Magic can come and argue about the same things every week and get nothing done. A door to the north allows escape.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69096,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen School of Magic",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69099": {
+          "vnum": 69099,
+          "name": "Weapon Smithy",
+          "description": "A bright red glow burns in the fiery hearth of this hut. Great clouds of mist billow upward, accompanied by resounding fizzles as the weapon smith dips molten hot metal into cool tubs of water. Weapons of splendor adorn the walls, sure to be magically bound to ward off unwanted thieves. The doorway to the east leads out of the oppressive heat and humidity.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69081,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Within Ingeen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69100": {
+          "vnum": 69100,
+          "name": "The Shady Tree",
+          "description": "Nestled in the shade of the Tree, this homey multi-story hut serves as a resting place for the pilgrims who frequent the village. A large fire crackles merrily on the far side, well-contained in an earthen fireplace and the smell of roasting meat hangs in the air.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69085,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beneath the Ingeen Tree",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 3,
+        "min_y": -1,
+        "max_y": 3,
+        "room_count": 18
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 69088,
+      "rooms": {
+        "69088": {
+          "vnum": 69088,
+          "name": "The Church of Ingeen",
+          "description": "The temperature within this holy place is comfortably warm, and heated by a fireplace set in the northern wall. Rows of pews line the small chapel, facing a modest altar and podium from which the High Priest gives his sermons. Occasionally, hobbits stop in to meditate and listen to the sacred instructions the tree gives them. A flight of stairs winds downward to the ground.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 69085,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beneath the Ingeen Tree",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 69089,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Deep Within the Ingeen Tree",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69097": {
+          "vnum": 69097,
+          "name": "Bell Tower",
+          "description": "Here is the bell you`ve heard chiming pleasantly since you arrived in the village. The bell is beautifully engraved and suspended from a long horizontal axle. A small window in the northern wall lets in some welcome fresh air and provides a view of the village center below, and occasional chanting can be heard from the school room at the bottom of the stairs.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go window": {
+              "to_vnum": 69083,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Village Center",
+              "direction": "go window",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69096,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Ingeen School of Magic",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 69080,
+      "to": 69081,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69081,
+      "to": 69082,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69081,
+      "to": 69083,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69081,
+      "to": 69099,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69082,
+      "to": 69093,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69083,
+      "to": 69096,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69083,
+      "to": 69084,
+      "direction": "se",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69083,
+      "to": 69085,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69085,
+      "to": 69086,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69085,
+      "to": 69100,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69086,
+      "to": 69092,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69093,
+      "to": 69094,
+      "direction": "e",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69093,
+      "to": 69095,
+      "direction": "s",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69096,
+      "to": 69098,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

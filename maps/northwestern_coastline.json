@@ -1,0 +1,346 @@
+{
+  "zone_name": "Northwestern Coastline",
+  "entry_vnum": 25095,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25095,
+      "rooms": {
+        "25095": {
+          "vnum": 25095,
+          "name": "The Rolling Hills",
+          "description": "A perpetual haze makes this place seem as though it had a roof. The mist comes from the sea to the south and west. To the north the hills submerge into a sea of grass which stretches far out ahead of you.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25096,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Seas of Grass",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24006,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Seawood Trail",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25096": {
+          "vnum": 25096,
+          "name": "The Seas of Grass",
+          "description": "The softly waving tall grasses make you feel as if you stand in the middle of a great sea. Birds of prey hover high in the azure heavens. There are highlands far to the north and the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25097,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Fertile Plains",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25095,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Rolling Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25097": {
+          "vnum": 25097,
+          "name": "The Fertile Plains",
+          "description": "The vegetation becomes more green, more firm, and more abundant here. A small spring bubbles into a glittering pool, but the ground quickly swallows its moisture. The road extends into the north and south. A leafy plant with thick stems grows here, its roots bulging from the soil.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25200,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Wooden Gateway",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25098,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Inclined Plains",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25096,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Seas of Grass",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27000": {
+          "vnum": 27000,
+          "name": "The Coast",
+          "description": "A beautiful beach extends along the coastline. However, the sparkling sands end at the base of a towering cliff. This cliff looks forbidding and looks like it will impede travel northwards, at least by land, although there seems to be a small crack in the foot of the cliff directly northeast. Looking out over the glittering blue ocean to the west, you can just make out what looks like a tremendous galleon.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 25100,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Deep, Azure Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 27098,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Long Slope",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            86015
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Beautiful beach extends along the coastline.  However",
+                "Coast",
+                "End at the base of a towering cliff.  This cliff looks forbidding and looks",
+                "Hairy creature crouches lithely",
+                "Like a tremendous galleon.",
+                "Like it will impede travel northwards",
+                "Over the glittering blue ocean to the west",
+                "To be a small crack in the foot of the cliff directly northeast.  Looking out",
+                "although there seems",
+                "appraising you from a distance.",
+                "at least by land",
+                "the sparkling sands",
+                "you can just make out what looks"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27098": {
+          "vnum": 27098,
+          "name": "The Long Slope",
+          "description": "You stand upon a steep slope which descends to a white sand beach. The slope is comfortable as it heads down but narrows considerably as it climbs into the mountains to the east.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 27000,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Coast",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27099
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27099": {
+          "vnum": 27099,
+          "name": "Narrow Canyon",
+          "description": "The canyon narrows at the top such that a narrow strip of sky is all that is visible as you look up. To the south, a broad plain stretches into the distance. An eyebrow of a trail can be seen descending to the west.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24008,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Plains",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27098
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 6
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 25095,
+      "to": 25096,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25096,
+      "to": 25097,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

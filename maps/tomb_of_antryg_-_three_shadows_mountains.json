@@ -1,0 +1,190 @@
+{
+  "zone_name": "Tomb of Antryg - Three Shadows Mountains",
+  "entry_vnum": 64050,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 0
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 64051,
+      "rooms": {
+        "64051": {
+          "vnum": 64051,
+          "name": "Narrow Passage",
+          "description": "Steps end at the beginning of a narrow passage through within the mountain here, offering exit to the north. An unearthly chill permeates the passage, and slight wisps of ivory mist whirl about your feet.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 64052,
+              "to_zone": "Tomb of Antryg - Three Shadows Mountains",
+              "to_room_name": "Narrow Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 64050,
+              "to_zone": "Tomb of Antryg - Three Shadows Mountains",
+              "to_room_name": "Within a Cramped Mountain Cave",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "64052": {
+          "vnum": 64052,
+          "name": "Narrow Passage",
+          "description": "A narrow passage through the mountain ends here before a gate of petrified bone and barbed wire. A thin white mist clings to the gate as if by force, condensing upon the surface to inexplicably form beads of blood-red liquid which slowly travel down to the floor and form a pool.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 64051,
+              "to_zone": "Tomb of Antryg - Three Shadows Mountains",
+              "to_room_name": "Narrow Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [
+            64053
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 64050,
+      "rooms": {
+        "64050": {
+          "vnum": 64050,
+          "name": "Within a Cramped Mountain Cave",
+          "description": "You stand beneath a crescent archway carved into the face of mount Taelabilreth's foot. Steps lead down at a precarious angle, descending further into the darkness.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63039,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "Among the Mountains",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 64051,
+              "to_zone": "Tomb of Antryg - Three Shadows Mountains",
+              "to_room_name": "Narrow Passage",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 64051,
+      "to": 64052,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    }
+  ]
+}

@@ -1,0 +1,341 @@
+{
+  "zone_name": "Flowering Meadows",
+  "entry_vnum": 24028,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24028,
+      "rooms": {
+        "24032": {
+          "vnum": 24032,
+          "name": "Grassy Outskirts",
+          "description": "You stand on the grassy outskirts of a forest which lay further to your east, past the end of a worn trail heading north. Looking southwest you see a flash of light on water; it looks to be a river in the distance. There is easy travel to the south and east.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24031,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "End of a Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24095,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Muddy Path",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24028": {
+          "vnum": 24028,
+          "name": "The Flowering Hillsides",
+          "description": "You have entered a region of rolling hills covered by knee high grass and wildflowers. The vista is pleasant as you scan the horizon. The easiest directions to travel seem to be north into a passable forest of young pines, and south along a well-worn trail.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24027,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24029,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "The Tall Grasses",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24029": {
+          "vnum": 24029,
+          "name": "The Tall Grasses",
+          "description": "The grass here is wet as if there had been a rain recently. Rolling hills can be clearly seen to the north, while to the south, you see a well traveled trail leading off into the distance.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24028,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "The Flowering Hillsides",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24030,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "Northern Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24030": {
+          "vnum": 24030,
+          "name": "Northern Trail",
+          "description": "This well traveled trail winds its way to the north where it is lost to view in a region of low, rolling hills. The trail continues to the south allowing easy travel. Off to the west, flocks of small black birds traverse the open space above a huge canyon, pausing to rest upon an old swinging bridge.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24029,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "The Tall Grasses",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24031,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "End of a Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24090,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Edge of the Canyon",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24031": {
+          "vnum": 24031,
+          "name": "End of a Trail",
+          "description": "You stand at the southern terminus of an obviously well used northbound trail. A thin forest spreads out to the southeast, gradually thickening at the edge of visual range.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61000,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24030,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "Northern Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24032,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "Grassy Outskirts",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24028,
+      "to": 24029,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24029,
+      "to": 24030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24030,
+      "to": 24031,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24031,
+      "to": 24032,
+      "direction": "w",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

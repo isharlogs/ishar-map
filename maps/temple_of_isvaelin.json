@@ -1,0 +1,2677 @@
+{
+  "zone_name": "Temple of Isvaelin",
+  "entry_vnum": 75000,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -6,
+    "max_x": 5,
+    "min_y": -2,
+    "max_y": 5
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 75033,
+      "rooms": {
+        "75020": {
+          "vnum": 75020,
+          "name": "Dark Aisle",
+          "description": "This small little aisleway leading off from junction is unnaturally quiet. Your mind recoils from the oppressive silence, and you long for the drip of water that once annoyed you.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75021,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Square Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75038,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Subterranean Junction",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75021": {
+          "vnum": 75021,
+          "name": "Square Room",
+          "description": "This room is bereft of ornamentation, save for a single iron brazier burning smokily in one corner. A thin layer of dust coats the floor, muffling the sound of your footfalls slightly. By cocking your head to one side and listening carefully, you can just barely make out the sound of steel ringing on steel.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75022,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Sitting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75020,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Aisle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75022": {
+          "vnum": 75022,
+          "name": "Sitting Room",
+          "description": "The silence is tangible as you step into this small sitting room; it's almost as if you've entered a sanctuary where all sound has been expunged. A series of plain wooden benches with thick iron bands have been bolted to the north wall, where a few men in deeply cowled robes sit quietly.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75023,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Hall of Truth",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75021,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Square Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75023": {
+          "vnum": 75023,
+          "name": "Hall of Truth",
+          "description": "You stand on an iron catwalk high above the floor below, where scores of robed men can be seen training in perfect unison under the watchful eyes of their masters. Striding forward purposefully, you reach the end of the walkway and step onto a wooden platform that extends from the wall.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75022,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Sitting Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75024,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Stone Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75024": {
+          "vnum": 75024,
+          "name": "Stone Cell",
+          "description": "The archway from which you entered disappears with a flash of incandescent light as you step into the tiny stone room, which is completely unadorned except for an obscure symbol carved into the southern wall. The symbol appears to be a stylized representation of a human hand. No exits are apparent.",
+          "grid_x": 5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75033": {
+          "vnum": 75033,
+          "name": "Dark Corridor",
+          "description": "Occasional drips of water from above slide lazily down the overhanging stones to the ground in a quiet patter, distracting you as you ponder the wiseness of wandering around in the bowels of the temple. A rough stairway climbs up to the ground level, and the narrow passageway continues to the north.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75034,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 75032,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Crude Stairway",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75034": {
+          "vnum": 75034,
+          "name": "Dark Corridor",
+          "description": "Squatting on your knees in the low passageway, you carefully move along its edges. Rocky protrusions in the walls catch at your clothing and scrape at your skin, and the water drips steadily from above. Withered doors of wood flank the passage on either side, and an occasional scream of terror can be heard in the darkness.",
+          "grid_x": 2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75036,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dungeon Cell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 75037,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75033,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75035,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dungeon Cell",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75035": {
+          "vnum": 75035,
+          "name": "Dungeon Cell",
+          "description": "This little cell features all of the usual conveniences: rats, spiders, a grimy straw pallet, and a steady drip of water from above. An extended stay here would be uncomfortable to say the least.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75034,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75036": {
+          "vnum": 75036,
+          "name": "Dungeon Cell",
+          "description": "A lumpy pallet of straw is crumpled in one corner of this tiny cell, where a few emaciated rats chew halfheartedly at the material. The ever-present stream of water pours down from above, soaking the ground and chilling the air. A decidedly unpleasant place.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 75034,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75037": {
+          "vnum": 75037,
+          "name": "Dark Corridor",
+          "description": "This part of the corridor is slighty more pleasant; the incessant dripping of water has somehow been halted here. A heavy chair of iron is bolted to the rock face, perhaps for a jailer or guard. The corridor continues to the north and south.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75038,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Subterranean Junction",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75034,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75038": {
+          "vnum": 75038,
+          "name": "Subterranean Junction",
+          "description": "Three passageways meet in a triple junction here, leading off to the west, east, and south. All directions are shrouded in darkness, and the quiet drip of water echoes from somewhere to the south.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75020,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Aisle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75037,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75039,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Smoky Passage",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75039": {
+          "vnum": 75039,
+          "name": "Smoky Passage",
+          "description": "This branch of the cavern has enough furnishing to at least come close to resembling some form of civility, especially when compared with the rather spartan comfort of the dungeons. A grimy expanse of greenish carpeting wanders over the gritty floor, and a few brands which have been dipped in pitch give off a smoky glow from iron rungs set into the walls.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75038,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Subterranean Junction",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 75077,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Smoky Passage",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75077": {
+          "vnum": 75077,
+          "name": "Smoky Passage",
+          "description": "A pall of choking smoke hangs thick in the air here, making breathing a chore. A welcome breeze of fresh air drifts in from the north, futilely attempting to dissipate the greasy smoke. Rubbing at red-rimmed eyes and dashing away the tears that have begun to form, you ponder your options.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75078,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plush Sitting Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 75039,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Smoky Passage",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75078": {
+          "vnum": 75078,
+          "name": "Plush Sitting Room",
+          "description": "Ermine-trimmed cushions and upholstered divans lay scattered about this cozy little sitting room, atop which several of the temple's most favored clergy members eye you suspiciously. The room falls silent as you stride toward its centre, finally stopping to survey those around you. The priests seem to be wondering whether or not you shall decide to summarily pass judgement on them and begin the executions.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75081,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plebian Passage",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 75079,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Darial's Quarters",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 75077,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Smoky Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75080,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Rolim's Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75079": {
+          "vnum": 75079,
+          "name": "Darial's Quarters",
+          "description": "Peerless craftsmanship surrounds you; every table, chair, and desk is covered with unparalleled woodcuts and precise etching. A beautiful vase positioned immediately next to the door must have cost millions of obsidian alone, not to mention the fabulous tapestries that carpet the walls. How did a simple priest manage to afford such lavish furnishings?",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75078,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plush Sitting Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75080": {
+          "vnum": 75080,
+          "name": "Rolim's Quarters",
+          "description": "Bulky, squarish furniture cut from heavy marble and dark wood dominates this room, accented by an occasional stretch of gold leaf. While the motif must have cost a fortune, it certainly doesn't seem to be aesthetically pleasing. A solitary door allows exit.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75078,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plush Sitting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75081": {
+          "vnum": 75081,
+          "name": "Plebian Passage",
+          "description": "There's really not much to this place. A pair of lamps hanging from iron chains provide enough illumination to see a few feet in front of you, and a series of iron-banded doors flank the passage.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75082,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Chilling Cell",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 75083,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Chilling Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 75078,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plush Sitting Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75082": {
+          "vnum": 75082,
+          "name": "Chilling Cell",
+          "description": "The cold, uncomfortable stone which forms this cell absorbs little of the warmth of the outside hall, keeping its occupant constantly shivering. A roughly cut tunnel no more than a few inches wide leads back up to the surface, providing barely enough ventilation to allow normal breathing.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75081,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plebian Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75083": {
+          "vnum": 75083,
+          "name": "Chilling Cell",
+          "description": "The cold, uncomfortable stone which forms this cell absorbs little of the warmth of the outside hall, keeping its occupant constantly shivering. A roughly cut tunnel no more than a few inches wide leads back up to the surface, providing barely enough ventilation to allow normal breathing.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75081,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Plebian Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 5,
+        "min_y": -1,
+        "max_y": 5,
+        "room_count": 19
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 75032,
+      "rooms": {
+        "75032": {
+          "vnum": 75032,
+          "name": "Crude Stairway",
+          "description": "A series of roughly chiseled, stone steps lead down into darkness. Whoever built this stairway must have needed it in a hurry, as there is little beauty in its design. On the other hand, the average temple-goer was probably not supposed to be here. Now that you think about it, what are YOU doing here?",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 75033,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Dark Corridor",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 75031,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "At the Altar",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 75000,
+      "rooms": {
+        "75008": {
+          "vnum": 75008,
+          "name": "Stone Room",
+          "description": "A plain wooden bedframe, topped by a lumpy rice mattress, takes up most of the room. A small chair and writing table stand in one corner, where a single candle burns fitfully, providing a small pool of light barely sufficient for reading.",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75003,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75009": {
+          "vnum": 75009,
+          "name": "Stone Room",
+          "description": "A crude straw pallet has been rolled up and shoved into the corner of the room to free up some space, although it's readily apparent that little room remains for even the small table, chair, and plain wooden chest, in which the room's occupant keeps his few belongings.",
+          "grid_x": -6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75004,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75014": {
+          "vnum": 75014,
+          "name": "Stone Room",
+          "description": "A threadbare rug covers most of the floor here, providing a bit of relief from the cold, bleak stone which surrounds you. A cleverly crafted folding table has been stowed beneath the iron bed affixed to the wall, and a coal- filled brazier gives off a smoky glow in the corner.",
+          "grid_x": -6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75005,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75015": {
+          "vnum": 75015,
+          "name": "Ceremonial Grandroom",
+          "description": "The size of this room is positively astounding. As you tilt your head back to admire the fine woodwork on the ceiling, you stop to marvel at what a feat of engineering this entire building is. The roof has somehow been persuaded to remain in place without benefit of buttresses.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75030,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75029,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Centre of the Grandroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75016": {
+          "vnum": 75016,
+          "name": "Broad Aisleway",
+          "description": "A vast expanse of thick, blue carpeting spreads out between hundreds of ironwood pews arranged in neat rows to either side, where the devout raise their voices in a hymn giving thanks to Isvaelin. A gleaming white pedestal ascends from the ground directly to the north, and the common prayer area lies back to the south.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75017,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "The Pulpit",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75001,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Common Prayer Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75017": {
+          "vnum": 75017,
+          "name": "The Pulpit",
+          "description": "You stand bewildered for a moment as you approach the pulpit, amazed as you attempt to calculate the unfathomable amount it must have cost to construct this towering rise of pristine, white marble. A preacher stands at the top, extolling the virtues of a pious life in a ringing voice which carries to the far corners of the nave. Directly before you lies a squarely cut block of a black material, draped with a cloth of deepest crimson.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75018,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ebony Bier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75016,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Broad Aisleway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 75019,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Upon the Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75018": {
+          "vnum": 75018,
+          "name": "Ebony Bier",
+          "description": "Before you rests a simple bier of what appears to be solid ebony, upon which a former priest is stretched out in death. As you approach the bier, the inert figure laying silently atop the covering gradually becomes more detailed, revealing a slowly decaying corpse still cloaked in its formal robes of office. You move closer to examine the body and notice a heavy silver medallion strung from a chain around the deceased's neck.",
+          "grid_x": -3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75017,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "The Pulpit",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75025": {
+          "vnum": 75025,
+          "name": "East Branch",
+          "description": "You stand on a slim, thickly woven carpet that leads away from the prayer area. Unadorned walls of grey stone flank the carpeting on either side, and iron braziers high above you provide smoky illumination. Travel is possible only to the east and west.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75026,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75001,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Common Prayer Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75026": {
+          "vnum": 75026,
+          "name": "Ceremonial Grandroom",
+          "description": "The temple narrows here, where a hallway to the west links the two main sections of the building. The grandroom spreads out to the east and north.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75027,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 75028,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75025,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "East Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75027": {
+          "vnum": 75027,
+          "name": "Ceremonial Grandroom",
+          "description": "The grandroom's centre is just northward of here, where a fine chandelier hangs from a slender chain. To the west, the room begins to taper slightly, narrowing into a hallway that leads back to the common areas. The simple enormity of the place is beginning to press down on you; you are feeling more insignificant each minute.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75030,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 75029,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Centre of the Grandroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75026,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75028": {
+          "vnum": 75028,
+          "name": "Ceremonial Grandroom",
+          "description": "Priceless crimson carpeting covers the floor of this magnificent room, which you can only assume to be the largest in the realm. A narrow hallway to the south leads away from the grandroom, and a fabulous chandelier hangs to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75029,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Centre of the Grandroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75026,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75029": {
+          "vnum": 75029,
+          "name": "Centre of the Grandroom",
+          "description": "An enormous, golden chandelier hangs overhead, swinging precariously on a single gilded chain. A crystal dome high above catches the light and refracts it brilliantly at a thousand different angles, sending shards of radiant light skittering across the carpeted floor. A profound sense of holiness washes over you as you bask in the comforting glow, and for a moment your soul is at peace.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75015,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 75031,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "At the Altar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75027,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75028,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75030": {
+          "vnum": 75030,
+          "name": "Ceremonial Grandroom",
+          "description": "You stand in the southeast corner of the grandroom, impressed by the simple enormity of its construction. The most outstanding feature, however, is easily the crystal dome set into the ceiling to the northwest.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75015,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75027,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Ceremonial Grandroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75031": {
+          "vnum": 75031,
+          "name": "At the Altar",
+          "description": "You stand before a vast, ivory altar. Fine scrollwork and etchings cover the block, along with flowing script written in a spidery hand. A large curtain of deep blue velvet hangs directly behind the altar, blocking your view of what lies beyond.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75029,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Centre of the Grandroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 75032,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Crude Stairway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75000": {
+          "vnum": 75000,
+          "name": "The Hall of Isvaelin",
+          "description": "A hulking stone monument to Isvaelin dominates the temple's entrance, clearly created to drive a sense of awe into the common worshiper and to intimidate the less devout. Rubies the size of small oxen glitter from within sunken eye sockets, cascades of ivory scales flow to the floor to form a priceless suit of mail, and great bands of beaten gold encircle the god's wrists and ankles. Unable to pull your eyes from the towering statue, you grudgingly credit the builders for crafting such an imposing spectacle; the desire to flee its oppressive presence and the overwhelming need to fall to your knees in worship are equally overpowering.",
+          "grid_x": -3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75001,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Common Prayer Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20018,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Temple of Isvaelin",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75001": {
+          "vnum": 75001,
+          "name": "Common Prayer Hall",
+          "description": "You stand in the common area of the temple, where numerous languid priests listen to the pleas of elves from all parts of the world who have journeyed to the temple in hopes of having their prayers answered by the almighty Isvaelin. The temple spreads out in all directions.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75025,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "East Branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 75016,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Broad Aisleway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75000,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "The Hall of Isvaelin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75002,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Western Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75002": {
+          "vnum": 75002,
+          "name": "Western Hallway",
+          "description": "Richly woven tapestries carpet the walls of this broad hallway, apparently depicting the glories of Isvaelin and His faithful priests in battles long past. From the way the common elven soldier is ignored in the great scenes it is easy to deduce that the clergy here hold elevated opinions of themselves and their roles in inconsequential wars. Apparently the vow of humility has fallen into disuse.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75001,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Common Prayer Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75003,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75003": {
+          "vnum": 75003,
+          "name": "Priests' Hall",
+          "description": "This narrow but thickly carpeted hall runs north and south, with doors to the priests' individual quarters dotting the walls at regular intervals. All of doors are of uniform size and ornamentation, with the exception of one set into the wall where the hallway terminates several yards to the north.",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 75002,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Western Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 75006,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75004,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75008,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Stone Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75004": {
+          "vnum": 75004,
+          "name": "Priests' Hall",
+          "description": "The hallway reeks of stark regularity, relieved only by the occasional painting or tapestry. Simple priest's quarters line the west wall.",
+          "grid_x": -5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75003,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 75005,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75009,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Stone Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75005": {
+          "vnum": 75005,
+          "name": "Priests' Hall",
+          "description": "You have reached the end of the hall, although you'd never know it from the unbroken regularity of plain wooden doors along the west wall. The only exit lies to the north, along the hall.",
+          "grid_x": -5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75004,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 75014,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Stone Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75006": {
+          "vnum": 75006,
+          "name": "Priests' Hall",
+          "description": "An impressive door of lovingly crafted oak is set into the wall in front of you, signifying that its owner is a bit more important than the average priest. This thought being foremost in your mind, it is with some trepidation that you approach the end of the hall.",
+          "grid_x": -5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 75007,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "High Priest's Chambers",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 75003,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "75007": {
+          "vnum": 75007,
+          "name": "High Priest's Chambers",
+          "description": "Opulent furniture and priceless carpets have been positioned about the room, not at all in the plain, severe style expected of the clergy. Surely a simple churchman's salary could not pay for the luxurious furnishings which surround you as you walk down the marble steps and into the good priest's chamber.",
+          "grid_x": -5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 75006,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "Priests' Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -6,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 3,
+        "room_count": 22
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 75019,
+      "rooms": {
+        "75019": {
+          "vnum": 75019,
+          "name": "Upon the Stairs",
+          "description": "You begin the climb up the winding marble steps, only to be halted by a strange wall of force after ascending no more than a few feet. A stream of pain pours into your mind as you approach the barrier; when you work up the resolve to march within arm's reach of the invisible obstruction the agony becomes so great that you clap your hands to your temples and scream in pain and terror, finally stumbling back down the steps to lay babbling for a few moments.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 75017,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "The Pulpit",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 75000,
+      "to": 75001,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75001,
+      "to": 75025,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75001,
+      "to": 75016,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75001,
+      "to": 75002,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75002,
+      "to": 75003,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75003,
+      "to": 75006,
+      "direction": "n",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75003,
+      "to": 75004,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75003,
+      "to": 75008,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75004,
+      "to": 75005,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        2
+      ],
+      "to_grid": [
+        -5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75004,
+      "to": 75009,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        2
+      ],
+      "to_grid": [
+        -6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75005,
+      "to": 75014,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        3
+      ],
+      "to_grid": [
+        -6,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75006,
+      "to": 75007,
+      "direction": "n",
+      "from_grid": [
+        -5,
+        0
+      ],
+      "to_grid": [
+        -5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75015,
+      "to": 75030,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75015,
+      "to": 75029,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75016,
+      "to": 75017,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75017,
+      "to": 75018,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75020,
+      "to": 75021,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75020,
+      "to": 75038,
+      "direction": "w",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75021,
+      "to": 75022,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75022,
+      "to": 75023,
+      "direction": "s",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75023,
+      "to": 75024,
+      "direction": "s",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 75025,
+      "to": 75026,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75026,
+      "to": 75027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75026,
+      "to": 75028,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75027,
+      "to": 75030,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75027,
+      "to": 75029,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75028,
+      "to": 75029,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75029,
+      "to": 75031,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75033,
+      "to": 75034,
+      "direction": "n",
+      "from_grid": [
+        2,
+        5
+      ],
+      "to_grid": [
+        2,
+        4
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75034,
+      "to": 75036,
+      "direction": "e",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75034,
+      "to": 75037,
+      "direction": "n",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75034,
+      "to": 75035,
+      "direction": "w",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75037,
+      "to": 75038,
+      "direction": "n",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75038,
+      "to": 75039,
+      "direction": "w",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75039,
+      "to": 75077,
+      "direction": "nw",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75077,
+      "to": 75078,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 75078,
+      "to": 75081,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75078,
+      "to": 75079,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75078,
+      "to": 75080,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75081,
+      "to": 75082,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 75081,
+      "to": 75083,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

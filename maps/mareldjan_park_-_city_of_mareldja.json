@@ -1,0 +1,1553 @@
+{
+  "zone_name": "Mareldjan Park - City of Mareldja",
+  "entry_vnum": 55060,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 4,
+    "min_y": -3,
+    "max_y": 4
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 55060,
+      "rooms": {
+        "55060": {
+          "vnum": 55060,
+          "name": "Park Path",
+          "description": "A large crystal fountain burbles in the park center. Children play in the water, and adults stroll around on a flagstone path in order to look and be seen. Beds of flowers along the perimeter grow in a profusion of colors and scents. The path swings by a gazebo to the west and exits the park to the north.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40043,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Concourse of Earth",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55061,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55063,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "By the Gazebo",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55064,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Fountain",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55061": {
+          "vnum": 55061,
+          "name": "Park Path",
+          "description": "A large crystal fountain gushes merrily in the park center. People sit around the base, dipping their toes and watching the passersby. The water pours out of the fountain basin and fills an artificial pond to the east. A flagstone path curves around the fountain to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55066,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55060,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55062,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55064,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Fountain",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55062": {
+          "vnum": 55062,
+          "name": "Park Path",
+          "description": "The path passes through beds of brilliant flowers planted in neat rows. Vibrant hues of red and blue, yellow and purple allow you to see how the people of this city have come to prefer a similar brightness in their garments. The path curves to the north and continues to the west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55061,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55063,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "By the Gazebo",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55077,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55078,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "A songbird flies in from the west.",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55064,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Fountain",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55063": {
+          "vnum": 55063,
+          "name": "By the Gazebo",
+          "description": "A gazebo stands in the northern part of the park, covered with red roses. Benches and tables sit alongside a flagstone path which encircles most of the park, filled with friends, lovers, and business partners out for a drink. A fountain in the center of the park provides constant background music. From here, the path goes east and curves around to the south.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55060,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55065,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Gazebo",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55062,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55064,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Fountain",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55064": {
+          "vnum": 55064,
+          "name": "Fountain",
+          "description": "Water from several spouts arcs up into the air and down into a wide and shallow basin. Looking down, you can see several bits of copper upon the bottom. The water exits the basin and flows into an artificial lake surrounded by red and yellow flowers.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55060,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55061,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55063,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "By the Gazebo",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55065": {
+          "vnum": 55065,
+          "name": "Gazebo",
+          "description": "Roses climb the whitewashed wood as if it were a giant trellis. Large bumblebees buzz ponderously from flower to flower, and the gush of the fountain water fills the background with continuous laughter. The inhabitants of the city pass you on the path, smiling and nodding, dressed in their finery.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55001,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Base of the Tree",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55063,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "By the Gazebo",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55066": {
+          "vnum": 55066,
+          "name": "Skirting the Pond",
+          "description": "A rivulet of water streams from the fountain to the northwest, spilling into a small pond with a quiet gurgle. A scattering of geese swim lazily across its placid surface, and a few colorful fish can be seen frolicking below.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55067,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55069,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55061,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55067": {
+          "vnum": 55067,
+          "name": "Skirting the Pond",
+          "description": "A waterlogged tree perches precariously on the bank, looking ready to sink into the pond at any moment. Hanging boughs droop low over the pond, occasionally bending to touch the water when a breeze whistles past. A worn path meanders along the shore to the west, and the park spreads out south of here.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55068,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55066,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55068": {
+          "vnum": 55068,
+          "name": "Skirting the Pond",
+          "description": "A broad expanse of grass roams unchecked at your feet, halted only by the occasional tree or bench. A quiet pond laps at the shore to the northwest, and a flagstone path winds southward. The young woman wanders in from the west. Skirting the Pond",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55067,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55070,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55069,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55069": {
+          "vnum": 55069,
+          "name": "Skirting the Pond",
+          "description": "A few ducks quack irritably at your approach and waddle off to wet their feathers in the pond, disturbing the sleeping geese and creating momentary pandemonium. The squabble is soon settled as an enormous goose honks threateningly, and the scene returns to its former, languid state.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55068,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55066,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55070": {
+          "vnum": 55070,
+          "name": "Flagstone Path",
+          "description": "The wandering path of haphazardly laid flagstone creates a natural, uncultivated feeling that seems out of place in the middle of a bustling city. Peaceful music drifts through the air from an unseen source, and a fountain can be heard gurgling some distance to the northwest. The park continues in all directions.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55071,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Beneath a Tall Elm",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55068,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Skirting the Pond",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55072,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55076,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55071": {
+          "vnum": 55071,
+          "name": "Beneath a Tall Elm",
+          "description": "A broad tree stretches far above your head to brush at the cloudless sky, providing welcome shade. A sturdy wooden bench has been set up at the tree's base, and a few squirrels chew half-heartedly on some old nuts from their positions atop the low branches.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55070,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55072": {
+          "vnum": 55072,
+          "name": "Sprawling Gardens",
+          "description": "Lush plant life carpets the landscape here, perfuming the air with the sweet fragrance of flowers. Bumblebees drift from bush to bush, and an occasional squirrel can be seen scurrying through the shrubs. To the north, a flagstone path can be seen roaming across the park. Flagstone Path",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55073,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55070,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55074,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55073": {
+          "vnum": 55073,
+          "name": "Sprawling Gardens",
+          "description": "Surrounded by thick vegetation, a feeling of agreeable seclusion comes over you, and you think that it might not be unpleasant to lie down and relax for awhile. A smooth, weathered rock covered with moss provides a comfortable seat, and you close your eyes and let the sounds of life wash over you.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55072,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55074": {
+          "vnum": 55074,
+          "name": "Sprawling Gardens",
+          "description": "A swath of brilliantly green grass gathers about a series of small trees, where a few creeping vines can be seen scrambling up the branches. A squirrel pauses in its search for food long enough to cock its head at you querulously before scampering up the trunk of a nearby tree, and a few birds chirp happily from their perches high above.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55075,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55072,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55075": {
+          "vnum": 55075,
+          "name": "Sprawling Gardens",
+          "description": "A myriad of tiny flowers dot the terrain here, transforming the landscape into a riot of vibrant color. Colorful birds dart about, trilling their carefree songs and swooping from tree to tree. The press of vegetation is too thick to allow progress in any direction but west. Sprawling Gardens",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55074,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Sprawling Gardens",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55076": {
+          "vnum": 55076,
+          "name": "Flagstone Path",
+          "description": "A wide variety of shrubbery lines the path, threatening to overtake it within the month. Grasses and weeds poke from within the cracks in the surface, and an enterprising mole has managed to singlehandedly undermine a fair sized portion of the stones. This somewhat disheveled path continues to the east and west.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55070,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55077,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55080,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "End of the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55077": {
+          "vnum": 55077,
+          "name": "Park Path",
+          "description": "A series of tiny ants marches past your feet, manfully struggling along under the weight of the carcass of a small spider. A furry gopher pokes its head up out of the earth for a moment to peer at you, and then quickly dives back down into the network of tunnels below. The sounds of gurgling water can be heard to the north, and the joyous chirping of birds drifts in from the south.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55062,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55076,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55079,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55078": {
+          "vnum": 55078,
+          "name": "A songbird flies in from the west.",
+          "description": "A few flowering bushes perfume the air here, surrounded by clouds of industrious bees buzzing about the fragrant blossoms. A towering tree rises high into the air to the north, and the path continues to the east and south. Park Path",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55062,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55079,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55079": {
+          "vnum": 55079,
+          "name": "Park Path",
+          "description": "Unbroken grass reigns in this portion of the park, rippling softly in the light wind. Small creatures hurry about in their search for sustenance, pausing only to sniff to the air for danger. Park Path",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55077,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Park Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55078,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "A songbird flies in from the west.",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55080": {
+          "vnum": 55080,
+          "name": "End of the Path",
+          "description": "The flagstones finally give way to the natural plant life here, overcome by the winding creepers and scrubs scrambling for space in this crowded environment. A few animals chitter at you from within the branches of nearby trees, and a radiant butterfly flutters just past your nose as you peer about for the source of the noise.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55076,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Flagstone Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "227": {
+          "vnum": 227,
+          "name": "Outer Currents",
+          "description": "An odd current beneath the ocean's surface prevents you from traveling further west. Very little seems to be available out there though, just the usual scatterings of foam and seaweed. The tang of salt keeps you from getting too seasick, but you might want to find a port to land in soon.",
+          "grid_x": 7,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 4,
+        "min_y": -3,
+        "max_y": 4,
+        "room_count": 22
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 55060,
+      "to": 55061,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55060,
+      "to": 55063,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55061,
+      "to": 55066,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55061,
+      "to": 55062,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55062,
+      "to": 55063,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55062,
+      "to": 55077,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55062,
+      "to": 55078,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55063,
+      "to": 55065,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55064,
+      "to": 55060,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 55064,
+      "to": 55061,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 55064,
+      "to": 55063,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 55066,
+      "to": 55067,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55066,
+      "to": 55069,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55067,
+      "to": 55068,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55068,
+      "to": 55070,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55068,
+      "to": 55069,
+      "direction": "w",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55070,
+      "to": 55071,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55070,
+      "to": 55072,
+      "direction": "s",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55070,
+      "to": 55076,
+      "direction": "w",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55072,
+      "to": 55073,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55072,
+      "to": 55074,
+      "direction": "s",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55074,
+      "to": 55075,
+      "direction": "e",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55076,
+      "to": 55077,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55076,
+      "to": 55080,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55077,
+      "to": 55079,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55078,
+      "to": 55079,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

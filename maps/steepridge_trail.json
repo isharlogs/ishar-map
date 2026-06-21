@@ -1,0 +1,661 @@
+{
+  "zone_name": "Steepridge Trail",
+  "entry_vnum": 47302,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 1,
+    "min_y": -2,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47220,
+      "rooms": {
+        "47302": {
+          "vnum": 47302,
+          "name": "Before a Tunnel Entrance",
+          "description": "Foliage drapes down over a rough opening in the surface of the mountain here.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47301,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47303,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47303": {
+          "vnum": 47303,
+          "name": "Tunnel Entrance",
+          "description": "Just inside of a wide tunnel entrance, several large, square stones are piled, forming a gate set into the surface of the mountainside. The passage through it forms a route northward, and the end of a rutted road can be seen outside to the south. A narrow seam of copper glints from the rock face.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47304,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47302,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Before a Tunnel Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47304": {
+          "vnum": 47304,
+          "name": "Darkened Tunnel",
+          "description": "You pass beneath a hanging maze of brittle stalagmite within a cold and darkened tunnel in the mountains. The sharp points loom just above head, like the multiple rows of dragon's teeth. The tunnel continues both to the north and south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47305,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47303,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "TIN",
+              "rank": 6,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47305": {
+          "vnum": 47305,
+          "name": "Darkened Tunnel",
+          "description": "Narrowing, the cold stone surfaces surrounding you form passages leading upward, and southward through a maze of stalagmite hanging from the ceiling of the tunnel.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47304,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47306,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "TIN",
+              "rank": 6,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47218": {
+          "vnum": 47218,
+          "name": "Steepwood Ridge",
+          "description": "Redwoods tower above along the steepwood ridge, mixed with a smattering of young pines which scent the crisp, mountain air. The trail along the ridge here ventures west and east. Through a break in the trees a massive canyon can be seen far to the south.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47219,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Steepwood Ridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47217
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47219": {
+          "vnum": 47219,
+          "name": "Steepwood Ridge",
+          "description": "A narrow trail follows the edge of a thickly wooded ridge. Mountains rise in the distance east and northeast, and a flourishing basin lay below to the west. The trail offers passage further along the ridge as it heads toward the peaks, and down into the basin as well.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47218,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Steepwood Ridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47220,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Ridgebottom Trail",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47220": {
+          "vnum": 47220,
+          "name": "Ridgebottom Trail",
+          "description": "A rough-worn trail along the bottom of the ridge winds its way eastward among the hearty old-growth with determination, here turning sharply upward where it continues along a ridge to the east and south.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47287,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "In the Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47219,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Steepwood Ridge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 7
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47309,
+      "rooms": {
+        "47306": {
+          "vnum": 47306,
+          "name": "Darkened Tunnel",
+          "description": "Frost collects upon the interior of the tunnel here, where it exits onto a winding mountain path to the west. Spires of brittle stone erupt from the surface of the tunnel, which continues downward into the earth.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47307,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Mountain Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47305,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "TIN",
+              "rank": 6,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47307": {
+          "vnum": 47307,
+          "name": "Mountain Trail",
+          "description": "Thinly leaved trees struggle for life here within the chilly mountains, aside a narrow rutted trail venturing west, and east into a darkened tunnel into the mountains.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47306,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Darkened Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47308,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Mountain Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47308": {
+          "vnum": 47308,
+          "name": "Mountain Trail",
+          "description": "The trail curves, skirting the edge of a narrow valley below to the west, surrounded by these rising mountains. The markings of wolves annoint the sparsely scattered trees here below the peaks.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47309,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Switchback Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47307,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Mountain Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47309": {
+          "vnum": 47309,
+          "name": "Switchback Trail",
+          "description": "A narrow trail winds here through the mountains, passing cleft and gorge to venture north and south among the rising, snow-capped peaks. A broad collection of darkened hills are visible in the southwestern distance.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24009,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Switchback Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47308,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Mountain Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 0,
+        "room_count": 4
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47218,
+      "to": 47219,
+      "direction": "w",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47302,
+      "to": 47303,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47303,
+      "to": 47304,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47304,
+      "to": 47305,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47306,
+      "to": 47307,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47307,
+      "to": 47308,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47308,
+      "to": 47309,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "zone_name": "Mareldja Harbor - City of Mareldja",
+  "entry_vnum": 25102,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25102,
+      "rooms": {
+        "25220": {
+          "vnum": 25220,
+          "name": "The Southeastern Extent of Mareldja Harbor",
+          "description": "Barely a dock yet, this surveyed portion of the dock is anticipated for a new expansion to the harbor of Mareldja. Large wooden logs poke out from the sandy seabed in numerous locations, each tied with string spanning to another log nearby tracing out plans for the dock layout. A staging area for wooden material can be seen along the shoreline here.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 25105,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "The Southern Extent of Mareldja Harbor",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27114": {
+          "vnum": 27114,
+          "name": "Loading Dock",
+          "description": "The hold is loaded to capacity with sacks bulging at the seams and boxes filled with tons and tons of commonplace trade goods. The whole shipment is probably worth a king's ransom, but individual items would be of little value, so don't waste your time. You've already filched the most valuable thing you're getting off this ship anyway, the free ride. go out",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 93097,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Along the Quay",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25103,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "The Northern Extent of Mareldja Harbor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 27113,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Loading Dock",
+              "direction": "go into",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "25102": {
+          "vnum": 25102,
+          "name": "Inside Mareldja Harbor",
+          "description": "A small, moderately protected inlet bristles with activity, announcing Mareldja's trade hub status. Ships are brought to dock just to the east, and further on to the harbor's northern extent.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 93097,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Along the Quay",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25103,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "The Northern Extent of Mareldja Harbor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25012,
+              "to_zone": "The Ocean",
+              "to_room_name": "Outside Mareldja Harbor",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25103": {
+          "vnum": 25103,
+          "name": "The Northern Extent of Mareldja Harbor",
+          "description": "Rougher craft sail into the shallower end of the harbor here, a serviceable cargo dock to the east receving them eagerly.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 27114,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "Loading Dock",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25102,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "Inside Mareldja Harbor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25105": {
+          "vnum": 25105,
+          "name": "The Southern Extent of Mareldja Harbor",
+          "description": "The southern expansion of the harbor here was constructed to receive larger crafts and vessels for trade and passenger travels. North leads to the entrance of the harbor while the endless ocean extends to the horizon to the west. A sign reads: S.S. Opulence expected at 12am.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 93097,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Along the Quay",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 25220,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "The Southeastern Extent of Mareldja Harbor",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            36457
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 25102,
+      "to": 25103,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25103,
+      "to": 27114,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25105,
+      "to": 25220,
+      "direction": "se",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

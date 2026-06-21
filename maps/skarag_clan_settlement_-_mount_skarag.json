@@ -1,0 +1,1543 @@
+{
+  "zone_name": "Skarag Clan Settlement - Mount Skarag",
+  "entry_vnum": 69287,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 5,
+    "min_y": -2,
+    "max_y": 3
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 69287,
+      "rooms": {
+        "69891": {
+          "vnum": 69891,
+          "name": "Plateau Plaza",
+          "description": "The open plaza is nestled at the base of a massive cliff face, rising up into the snowy mountain peaks above. The structures surrounding the plaza are made of rough-hewn granite and fragrant fir and spruce logs, their steeply- pitched roofs designed to shed the heavy snowfall. The plaza itself is of flat, smooth stone, with occasional grooves worn into the surface from the passage of sleds and carts. The sounds of the mountain winds can be heard faintly in the distance, and the smell of pine and woodsmoke permeates the area.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69308,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Alpine Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69893,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Staircase up the Mountain",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69289,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Road to the Square",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69305,
+            69336
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69893": {
+          "vnum": 69893,
+          "name": "Staircase up the Mountain",
+          "description": "The carved staircase inclines steeply, twisting and turning as it climbs the cliff face. Cold mountain air whips past you, carrying the sharp scent of pine and snow. Jagged rocks jut out from the cliff's surface, making each step treacherous.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 69891,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Plateau Plaza",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69894,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Outside a Wooden Outpost",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69287": {
+          "vnum": 69287,
+          "name": "Inside the Gates",
+          "description": "The tall alpine gates that protect the interior of the plateau rise up on either side of you.. The air here is crisp and cold, the scent of pine and snow permeating everything. Ahead of you, the towering cliff face dominates the skyline, and you can feel the weight of the mountains bearing down on you. The settlement beyond is modest, built primarily from hand-cut alpine wood and sturdy granite from the mountain's heart. The pathways winding between the low houses seem well-worn and well-traveled.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69289,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Road to the Square",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69286,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Before the Alpine Gates",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69288,
+            69303,
+            69317
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69289": {
+          "vnum": 69289,
+          "name": "Road to the Square",
+          "description": "The broad, well-trodden road that winds its way through the heart of the settlement. Sturdy wooden buildings are built low, the cold wind sweeping over them. Large banks of snow have been cleared, leaving the path open.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69891,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Plateau Plaza",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69287,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Inside the Gates",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69890
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69294": {
+          "vnum": 69294,
+          "name": "Among the Oaks",
+          "description": "The sounds of wildlife surround you, coming out of the thick foliage around you. Ancient oaks march along in every direction. A dense patch of brush makes a small lump to the west, perhaps the home of some badgers.",
+          "grid_x": 8,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 61013,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "sw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69295
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69308": {
+          "vnum": 69308,
+          "name": "Alpine Way",
+          "description": "A stone-paved road leads east from the Plateau Plaza, winding through the low houses of the settlement. The pathway is flanked on both sides by sparse alpine trees, their branches weighted down with snow. The dark mountain continues a steep rise to the north, and the plateau continues to the east and and south. The road itself is packed with compacted snow and ice, but you can see occasional signs of the rugged stone underneath.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69309,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Eastern Thoroughfare",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69891,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Plateau Plaza",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69320
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69309": {
+          "vnum": 69309,
+          "name": "Eastern Thoroughfare",
+          "description": "The low houses of the settlement gradually give way to a sheer cliff face rising to the north. The road here is wide and well-trodden, with a few scattered tracks leading off to the side. The cliff itself is unremarkable, save for a dark opening that seems to lead into the very heart of the mountain. The sound of rushing water echoes from within, and a faint glow emanates from deep inside.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69310,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "End of the Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69308,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Alpine Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69319
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69310": {
+          "vnum": 69310,
+          "name": "End of the Road",
+          "description": "You find yourself at a simple wooden gate that opens into a wide enclosure on the eastern side of the plateau. To the west, the road stretches through edge of the plateau, occasionally disappearing into drifts of snow. The gate itself is flanked by tall posts of spruce, and beyond it, you can hear the sounds of animals grazing and stirring.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69311,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Animal Pen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69309,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Eastern Thoroughfare",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69315
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69311": {
+          "vnum": 69311,
+          "name": "The Animal Pen",
+          "description": "The space is wide and open, with a rocky cliff face rising to the north and the edge of the plateau stretching away to the east and south. The air is filled with the smell of damp fur, hay and manure, and the ground is rocky with hardy shrubs and sparse alpine trees.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69312,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Animal Pen: East",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69310,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "End of the Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [
+            69313
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69312": {
+          "vnum": 69312,
+          "name": "Animal Pen: East",
+          "description": "The ground here is covered in a layer of straw and hay, and the smell of animals is strong. A low granite wall marks the edge of the plateau as it ends to the east and south. In the northern cliff face is a small cave providing shelter from the weather.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69311,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Animal Pen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go gate": {
+              "to_vnum": 69335,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Treacherous Goat Path",
+              "direction": "go gate",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69314
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 5,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 10
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 69894,
+      "rooms": {
+        "69894": {
+          "vnum": 69894,
+          "name": "Outside a Wooden Outpost",
+          "description": "Suddenly, the stairs give way to a small rocky ledge, which juts out from the face of the mountain. Here, perched precariously on the edge, stands a wooden outpost. The structure is made of sturdy timber logs, lashed together with thick rope, and reinforced with boulders from the mountain itself. From this vantage point, you can see the trail of the staircase as it continues to ascend towards the next level of the settlement, while down below you can spot an open plaza.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69895,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "A Mountain Staircase",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69893,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Staircase up the Mountain",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69290
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69895": {
+          "vnum": 69895,
+          "name": "A Mountain Staircase",
+          "description": "The staircase is carved haphazardly into the cliff face, rising abruptly and disappearing into the jagged peaks above. Each step is a reminder of the unforgiving landscape that surrounds you, and the steep incline is unrelenting no matter which way you move. At this height, you are afforded a glimpse of the sheer scale and power of the mountains that loom over you, a breathtaking view that could make you feel both insignificant and empowered at the same time.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 69894,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Outside a Wooden Outpost",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69896,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "High on the Mountainside",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STONECROP",
+              "rank": 52,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 69897,
+      "rooms": {
+        "69896": {
+          "vnum": 69896,
+          "name": "High on the Mountainside",
+          "description": "A gust of cold wind blasts you as you step onto the rocky ledge, overlooking the valley below. High above, the rocky outcroppings and jutting spires that compose the cliff face seem to come to an end, with a sheer drop that plunges far into the valley below. Yet from the edge of this precipice, you can see the eyries of the great eagles of the north, their wings dark against the cold mountain sky. The wind carries the faint scent of pine and snow, and you can see the snow-capped peaks of the northern mountains in the distance.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69897,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Top of a Stone Staircase",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69895,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "A Mountain Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69897": {
+          "vnum": 69897,
+          "name": "The Top of a Stone Staircase",
+          "description": "A stone staircase ends at this snowy mountain summit. The crisp mountain air fills your lungs, and the sound of the wind whistling through the peaks surrounds you. Snow-capped mountains stretch as far as the eye can see in all directions, and the landscape is dotted with evergreens and the occasional boulder. The only path from here leads north, winding its way towards low, longhouses.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69898,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "A Stone Paved Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69334,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Perched Eagle's Ledge",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69896,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "High on the Mountainside",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69333,
+            69336
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69898": {
+          "vnum": 69898,
+          "name": "A Stone Paved Road",
+          "description": "A stone-paved road stretches out before you, winding its way between the sheer cliff face to the south and the looming temple courtyard to the north. The frigid air is crisp and biting, with the soft crunch of snow underfoot filling the silence. The jagged edges of the mountain peaks loom ominously overhead, casting deep shadows along the path. Despite the danger of the terrain, there is a serene beauty to the desolate landscape that surrounds you,",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69899,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Temple Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69897,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Top of a Stone Staircase",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69899": {
+          "vnum": 69899,
+          "name": "Temple Courtyard",
+          "description": "The temple courtyard is open to the sky on all four sides, ringed by mountain peaks that rise so high you have to lean back to see their tops. Snow falls slowly into the courtyard regardless of the weather elsewhere on the mountain. Stone slabs along the perimeter walls have been carved with totems and symbols and colored with the soot of generations of fires.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69291,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Shaman's Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69900,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Entrance Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69898,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "A Stone Paved Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69326,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Outside a Large Structure",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69900": {
+          "vnum": 69900,
+          "name": "Entrance Chamber",
+          "description": "The cavern walls here are marble, polished smooth by long use, veined with deep blues and greens that change as you walk. Clusters of pale fungi grow in the corners and along the floor, giving off enough light to see by but not enough to read by. The air smells faintly of stone and water.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69905,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Marble Alcove",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69902,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Converging Energies",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69899,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Temple Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69901,
+            69903,
+            69904
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69902": {
+          "vnum": 69902,
+          "name": "Converging Energies",
+          "description": "Standing in this part of the cavern raises the hair on your arms. The marble walls show patterns that seem to belong to several different stones at once, the seams between them not visible. The air does not move.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69900,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Entrance Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69905,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Marble Alcove",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69901,
+            69903,
+            69904,
+            69906
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STORMWORT",
+              "rank": 68,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69905": {
+          "vnum": 69905,
+          "name": "The Marble Alcove",
+          "description": "The walls of this alcove are layered marble, the veins running horizontal like sedimentary strata seen at full size. The air smells faintly of damp earth, the kind of smell found at the bottom of an old well.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69902,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Converging Energies",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69900,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Entrance Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69904
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69291": {
+          "vnum": 69291,
+          "name": "Shaman's Path",
+          "description": "The stone road is lined with tall, slender evergreens that sway in the mountain breeze, their snow-dusted branches casting dappled shadows on the ground. Carved totems flank the path, each one a depiction of the Skyrazor or another revered spirit. The scent of incense and burning herbs hangs heavy in the air.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69292,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Shaman's Dwelling",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 69899,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Temple Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69293
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69292": {
+          "vnum": 69292,
+          "name": "Shaman's Dwelling",
+          "description": "The shaman's home is dim and warm. Candles burn at intervals along the walls, the light catching on shelves cluttered with bound herbs, carved bones, and stoppered jars whose contents you do not want to identify. A central hearth crackles low, and the air smells of sage and woodsmoke. The earthen floor is covered in furs and woven rugs that absorb the cold from below.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69291,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Shaman's Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69326": {
+          "vnum": 69326,
+          "name": "Outside a Large Structure",
+          "description": "A long, low house looms to the west, its wooden beams dark with age and its granite walls weathered. Carvings of warriors and beasts run the length of the front, hand-cut and well-maintained. Snow-dusted evergreens frame the entrance. The path underfoot connects this hall to the temple courtyard.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69899,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Temple Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69327,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Main Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69327": {
+          "vnum": 69327,
+          "name": "The Main Hall",
+          "description": "The Council Hall is a single low-ceilinged room. A sturdy wooden table dominates the floor, surrounded by mismatched chairs and benches, its surface etched with shamanic runes worn shallow by elbows. A central hearth burns at one end, throwing the smell of pine smoke and the heat of coals against the walls.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69326,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Outside a Large Structure",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69328,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Chief's Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [
+            69329
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69328": {
+          "vnum": 69328,
+          "name": "Chief's Quarters",
+          "description": "Candlelight throws soft shadows across polished marble and alpine wood. A fur-covered bed sits in one corner, the layers piled deep enough that you cannot see the frame. A heavy wooden desk along the opposite wall is laden with scrolls and maps, its surface etched with runes. Totems and weathered relics hang on the walls between.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69327,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Main Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 3,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 69287,
+      "to": 69289,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69289,
+      "to": 69891,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69291,
+      "to": 69292,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69291,
+      "to": 69899,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69308,
+      "to": 69309,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69308,
+      "to": 69891,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69309,
+      "to": 69310,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69310,
+      "to": 69311,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69311,
+      "to": 69312,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69326,
+      "to": 69899,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69326,
+      "to": 69327,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69327,
+      "to": 69328,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69891,
+      "to": 69893,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69894,
+      "to": 69895,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69896,
+      "to": 69897,
+      "direction": "nw",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69897,
+      "to": 69898,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69898,
+      "to": 69899,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69899,
+      "to": 69900,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69900,
+      "to": 69905,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69900,
+      "to": 69902,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69902,
+      "to": 69905,
+      "direction": "se",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

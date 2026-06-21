@@ -1,0 +1,3571 @@
+{
+  "zone_name": "The Twin Trees - City of Mareldja",
+  "entry_vnum": 55001,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -5,
+    "max_x": 4,
+    "min_y": -4,
+    "max_y": 37
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 55001,
+      "rooms": {
+        "55050": {
+          "vnum": 55050,
+          "name": "Termite Hollow",
+          "description": "The branch has been hollowed out here by the mouths of a thousand little termites. It looks more like living sponge than it does a tree. The whole area is extremely hot and dry, and your mouth becomes parched and thirsty. There is a large fungus here, but other than that, it is barren. The floor is covered with an odd peppery looking powder. To the north and west, you can hear loud chittering.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55055,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55051,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Paste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go fungus": {
+              "to_vnum": 55049,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "go fungus",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Termite worker",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55051": {
+          "vnum": 55051,
+          "name": "Termite Paste",
+          "description": "The whole area is covered in a thick shiny paste. It smells like mildew in here, but it is still very dry and warm. The walls seem to vibrate with the movement of termites at their core. To the east, you can see a large fungus. To the north, a loud chittering ensues.",
+          "grid_x": -1,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55050,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Hollow",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55052,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Pulsing Walls",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Termite grub",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55052": {
+          "vnum": 55052,
+          "name": "Pulsing Walls",
+          "description": "The walls are visibly moving here. Pulsing with a timeless rhythmic motion from the thousands of brooding termites. The walls look to be made from a rubbery paste which is not only resilient, but also very tough. There is a loud chittering here and it comes from inside the walls. There is an opening to the west, though it is covered in vines.",
+          "grid_x": -1,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55051,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Paste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55053,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Landing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55053": {
+          "vnum": 55053,
+          "name": "Termite Landing",
+          "description": "Ahh.... the cool air rushes around you as you step out onto this tall ledge. Peering over it, you can see the city far below you through the clouds. You can also see the other twin tree, to the west, reaching its branches out to you. To the southwest, you can see large beehives which throng with activity. Large slow moving forms catch your eyes to the west, but you cant quite make them out. This platform is covered in Bungchu vines that reach clear across the chasm between the trees.",
+          "grid_x": -2,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55052,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Pulsing Walls",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55055": {
+          "vnum": 55055,
+          "name": "Termite Tunnels",
+          "description": "The tunnels continue in a north-south fashion. The floor is covered with an odd peppery powder and the walls look to be made up of some kind of paper-pulp material. The chittering seems a bit louder to the north, and the smell of mildew reaches your nostrils.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55056,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55050,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Hollow",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55056": {
+          "vnum": 55056,
+          "name": "Termite Tunnels",
+          "description": "This north-south tunnel has become a little hotter and a little more fragrant. Not a pleasant smell at all. It smells rather acrid and musty. Much like the smell of rotting wood and arm-pits. The powder on the floor is much thicker here and the walls seem to be a bit more fresh. You feel a faint breeze comming from the north.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55057,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Commune",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55055,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55057": {
+          "vnum": 55057,
+          "name": "Termite Commune",
+          "description": "The corridor ends here in a large room. There are hundreds of termite tunnels ending at the northern most wall and the other walls pulse and sway with the movement of thousands of termites at their core. A light warm breeze blows a stench your way through the small holes.",
+          "grid_x": 0,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55056,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55058,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Round Chamber",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55058": {
+          "vnum": 55058,
+          "name": "Round Chamber",
+          "description": "This is a huge room filled with termites. They cover the ceiling and the walls, yet seem to be very docile. The stench from this place is killing you, and the heat is tremendous. Most of the walls are made up of some sort of odd paste. There are several termite holes in the southern wall. A heavy breeze smelling of rot wafts from the a large passage to the west.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55059,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Brood Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55057,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Commune",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55059": {
+          "vnum": 55059,
+          "name": "Brood Chamber",
+          "description": "The floor of this large chamber seems to be moving. Perhaps the reason for that is because as you step down into it, you notice that the floor is lined with hundreds of tiny eggs, pupae and larvae. The chamber is extremely hot, yet there seems to be a gentle breeze comming from above you.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55058,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Round Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Termite Queen",
+              "description": "",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55089": {
+          "vnum": 55089,
+          "name": "Arboreals General Store",
+          "description": "Well, this is a nice and comfy place. A fire glows in the stone hearth and the store has a rather nutty smell to it as if someone was brewing coffees with exotic nuts and berries. The store seems to be made out of the huge branch itself, with shelves and cabinets carved directly from the living tree. Odd, you swear you can hear the splashing of water and the giggling of children here.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 55043,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along a Huge Branch",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 38092,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "At the Bottom of the Cleft",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Arboreal",
+              "description": "Arboreal is a small lithe man with a happy disposition.  His main goal in life is to make all of heavens creatures feel content and relaxed. There's something not quite right about him, you decide.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55001": {
+          "vnum": 55001,
+          "name": "Base of the Tree",
+          "description": "A rather large tree stands here, dwarfing the gazebo, and making you look like an ant in comparison. The branches reach far out over the city, and as you look up into them, you can see a myriad of activity. The trunk seems to have cracks in the bark just large enough to get your feet into.",
+          "grid_x": 5,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55065,
+              "to_zone": "Mareldjan Park - City of Mareldja",
+              "to_room_name": "Gazebo",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55035,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Base of the Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 55002,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Up the Tree",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55020": {
+          "vnum": 55020,
+          "name": "Ant Branch",
+          "description": "This T-intersection leads to the north, east, and west. The west area looks to be a bit overgrown, but you notice several small holes in the massive branch.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55030,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Mossy Branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55022,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Tracks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55023,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Hollow",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55021": {
+          "vnum": 55021,
+          "name": "Ant Landing",
+          "description": "This branch looks like it has been chewed apart by millions of little mouths. It ends abruptly as it begins a gentle twist to the east. You see several spider threads hanging here.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55022,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Tracks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go thread": {
+              "to_vnum": 55019,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Swing",
+              "direction": "go thread",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55022": {
+          "vnum": 55022,
+          "name": "Ant Tracks",
+          "description": "This north-south branch is covered with hundreds of ant trails. The trails seem to lead somewhere important, although you couldn't begin to guess where. To the south is an intersection.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55021,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Landing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55020,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Branch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55023": {
+          "vnum": 55023,
+          "name": "Ant Hollow",
+          "description": "This small opening is rather cramped and you find yourself squeezing past the rough walls with a tinge of claustrophobia. There are several small holes to the east here, while to the west, a larger opening beckons you.",
+          "grid_x": 1,
+          "grid_y": 34,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55024,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Colony Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55020,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Branch",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55024": {
+          "vnum": 55024,
+          "name": "Ant Colony Way",
+          "description": "The passage is a bit larger here and the walls seem to have a slight velvety feeling to them. Small ants track to and fro and their movements make small shuffling noises. The passage continues to the south and a smaller passage leads off to the east.",
+          "grid_x": 0,
+          "grid_y": 34,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55023,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Hollow",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55025,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Colony Commons",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55025": {
+          "vnum": 55025,
+          "name": "Ant Colony Commons",
+          "description": "The passage continues in a north-south direction, and a short passage leads into a smaller room to the west. The air here is rather warm, and the ants about you are a little more hurried in their activities.",
+          "grid_x": 0,
+          "grid_y": 35,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55024,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Colony Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55027,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Commune",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55026,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Storage Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55026": {
+          "vnum": 55026,
+          "name": "Ant Storage Room",
+          "description": "This room has a very low ceiling and you must crawl on your hands and knees to enter it. There is a small pile of bones along the west wall, while on the north, there is a large pile of ant body parts.",
+          "grid_x": -1,
+          "grid_y": 35,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55025,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Colony Commons",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55027": {
+          "vnum": 55027,
+          "name": "Ant Commune",
+          "description": "This appears to be the major housing area for the ant colony. Here and there are smaller tunnels which lead off into the tree, most of which are much to small for you to enter. There is a major tunnel to the south and north, however.",
+          "grid_x": 0,
+          "grid_y": 36,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55025,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Colony Commons",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55028,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Barracks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55028": {
+          "vnum": 55028,
+          "name": "Ant Barracks",
+          "description": "This barren room houses the ant guards of the colony. Again, there are many smaller tunnels running into the tree from here, but only two are large enough to admit your entrance. The room seems rather stuffy, and the heat seems to be rising. You hear a soft chittering coming from the east.",
+          "grid_x": 0,
+          "grid_y": 37,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55029,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Hatchery",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55027,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Commune",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55029": {
+          "vnum": 55029,
+          "name": "Hatchery",
+          "description": "The room seems to vibrate with a rhythmic pulse as you enter. The soft humming of ant legs is all about you, as millions of tiny ants mill about your feet. The room is perfectly smooth and a light golden brown. A soft breeze of hot air wafts about you from the hundreds of small queen ant hatchers whose sole purpose in life is to bring new hatchlings into the world. It would be a bad idea to have a picnic in here, by the way.",
+          "grid_x": 1,
+          "grid_y": 37,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55028,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Barracks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Queen Ant",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55030": {
+          "vnum": 55030,
+          "name": "Mossy Branch",
+          "description": "The branch you find yourself on is slick and mossy. One wrong step, and you'll find yourself speeding headlong into the hard streets of our fair city. The branch continues to the south.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55031,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Tree Frog Slick",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55020,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55031": {
+          "vnum": 55031,
+          "name": "Tree Frog Slick",
+          "description": "This north south branch is covered in moss, ferns, and other tropical plants. There is a slight mist in the air, and the humidity is really getting to you. Here and there you find wide eyed tree frogs clinging to the edge of a leaf or branch, waiting for that tender fly morsel. You hear the sounds of large frogs to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55030,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Mossy Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55032,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Sticky Pad Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55032": {
+          "vnum": 55032,
+          "name": "Sticky Pad Way",
+          "description": "The branch here does exactly what it was designed to do; branch out. This T intersection continues to the south and to the east, while to the north it thins out a bit and becomes less misty. Now that you think of it, you are totally drenched with unevaporated perspiration. There are small and large frogs everywhere, and occasionally, you see one the size of a large dog....",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55034,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Slug Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55031,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Tree Frog Slick",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55033,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Wink Branch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55033": {
+          "vnum": 55033,
+          "name": "Wink Branch",
+          "description": "This small branch is covered with hundreds of tiny Venus Fly Traps and other carnivorous plants...",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55032,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Sticky Pad Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55034": {
+          "vnum": 55034,
+          "name": "Slug Trail",
+          "description": "The trunk of the tree rises from below you here. Upon it is a large slug trail comming up from the ground and disappearing into the clouds far above you. Perhaps this is the best way down...",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55032,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Sticky Pad Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 55035,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Base of the Tree",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55035": {
+          "vnum": 55035,
+          "name": "Base of the Tree",
+          "description": "Above you towers a giant tree. The tree rises majesticly into the heavens, becoming lost among the clouds. You see some small activity about 200' above you, however you cant quite make out what it is that is moving. The trunk of the tree does seem to be covered in a very slimy, well...slug trail. A word of caution: it's a VERY large slug trail.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55001,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Base of the Tree",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 37,
+        "room_count": 27
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 55002,
+      "rooms": {
+        "55002": {
+          "vnum": 55002,
+          "name": "Up the Tree",
+          "description": "As you climb up the tree, you notice that its awfully hard to get back down. Being smart, or a fraction thereof, you decide that up is the only way to go without falling.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 55001,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Base of the Tree",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 55003,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Large branch",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 55003,
+      "rooms": {
+        "55003": {
+          "vnum": 55003,
+          "name": "Large branch",
+          "description": "Pulling yourself up on top of the huge branch, you notice that it looks like a virtual road. Huge seems to be the operative word in these parts. The branch disappears into the thick foliage toward the east.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55004,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along the branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 55002,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Up the Tree",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 55036,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Large Branch",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55004": {
+          "vnum": 55004,
+          "name": "Along the branch",
+          "description": "This branch reaches from the west and makes a gradual bend toward the north. Oddly enough, you hear the noises of monkeys coming from the north. As you listen carefully, it almost sounds as if they are making fun of you! Then again, who wouldn't?",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55005,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkey Bend",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55003,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Large branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55005": {
+          "vnum": 55005,
+          "name": "Monkey Bend",
+          "description": "There is a large bend in the branch here as well as several smaller ones. The smaller avenues look a little unsafe, considering that as you look over the edge of this huge arboreal highway, you find yourself about 200 feet off the ground. Falling could hurt.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55006,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkeyshine Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55004,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along the branch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55006": {
+          "vnum": 55006,
+          "name": "Monkeyshine Way",
+          "description": "Being careful you don't step in any monkey droppings, you make your way along the branch. The branch seems to be a little worn from all of the traffic. You smell bananas here.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55008,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkeyshine Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55007,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Banana Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55005,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkey Bend",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55007": {
+          "vnum": 55007,
+          "name": "Banana Branch",
+          "description": "The smell of bananas are overwhelming here! They seem to be everywhere, as if this was a large fruiting banana tree. You were certain it was an oak when last you looked...",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55006,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkeyshine Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55008": {
+          "vnum": 55008,
+          "name": "Monkeyshine Way",
+          "description": "The branch seems to flatten out here, and the bark is completely worn away. The branch continues either east or west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55009,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkey Switch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55006,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkeyshine Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55009": {
+          "vnum": 55009,
+          "name": "Monkey Switch",
+          "description": "This is a large T intersection with directions continuing to the north, south, and west. Along the northern branch, the foliage seems to thin out a bit. To the south, you hear the odd sounds of howling, or is that hooting? The smell of bananas wafts to you from the west.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55016,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55010,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along the Gibbon Branch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55008,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkeyshine Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55010": {
+          "vnum": 55010,
+          "name": "Along the Gibbon Branch",
+          "description": "The howlings are getting louder as you continue on this branch. You notice the east is rather quiet and a small breeze blows at you from that direction.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55011,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Swing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55009,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkey Switch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55012,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon End",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55011": {
+          "vnum": 55011,
+          "name": "Gibbon Swing",
+          "description": "The branch ends abruptly here and looks like it has been broken off. Looking over the edge, you see the roof tops of the city. Before you dangles a small vine.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55010,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along the Gibbon Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55012": {
+          "vnum": 55012,
+          "name": "Gibbon End",
+          "description": "The large branch begins to twist and turn, as if a titan had used it to pick it's teeth and had deformed it in the process.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55010,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along the Gibbon Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55013,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Community Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55013": {
+          "vnum": 55013,
+          "name": "Gibbon Community Entrance",
+          "description": "This appears to be the Gibbon community entrance. The noise here is horrific! All around you Gibbons play and work while howling at the tops of their lungs. There are several Gibbon nests here.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55014,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Commons",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55012,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon End",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55014": {
+          "vnum": 55014,
+          "name": "Gibbon Commons",
+          "description": "The large branch continues in an east-west direction. The howling of these arboreal monkeys is unrelenting and is beginning to get on your nerves. Several nests sit here and there, but to the east you can see a huge platform.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55015,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Community Center",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55013,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Community Entrance",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55015": {
+          "vnum": 55015,
+          "name": "Gibbon Community Center",
+          "description": "This area is one huge platform made of of millions of interwoven branches. It seems to be very old, as many of the branches have grown together to form a virtual web of living floor. What is most impressive is a huge statue of a Gibbon made directly from the interwoven branches.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55014,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Gibbon Commons",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55016": {
+          "vnum": 55016,
+          "name": "Spider Monkey Way",
+          "description": "The foliage begins to lighten here, however it seems to be a bit dark and gloomy in this area of the tree. As you make your way about the branch, you find yourself running into spider webs and threads. Constantly brushing at your face and body, you attempt not to leap out of your skin every time you run into a thread as thick as a piece of string.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55017,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Bend",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55009,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Monkey Switch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55017": {
+          "vnum": 55017,
+          "name": "Spider Monkey Bend",
+          "description": "The darkening and gloomy branch bends to the east and south here. The branch looks unhealthy and if gnarls could look evil, you imagine that they would look just like the ones you are currently walking on. There is a chittering sound about you.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55018,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Commons",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55016,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55018": {
+          "vnum": 55018,
+          "name": "Spider Monkey Commons",
+          "description": "Giant webs fill this dark area, obscuring all light and casting you into gloom. This appears to be the main living area for these oddball creatures. There are literally thousands of webs here.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55019,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Swing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55017,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Bend",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55019": {
+          "vnum": 55019,
+          "name": "Spider Monkey Swing",
+          "description": "This is a rather odd place to end the branch, isn't it? The twisted and gnarled branch seems to have lost the rest of itself to some unknown force. It looks as if it was bitten clean off right at your feet. There are many spider monkey threads hanging down from above, however the webs seem to thin out a bit here.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55018,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spider Monkey Commons",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go thread": {
+              "to_vnum": 55021,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Ant Landing",
+              "direction": "go thread",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 4,
+        "min_y": -3,
+        "max_y": 3,
+        "room_count": 17
+      }
+    },
+    "3": {
+      "floor_id": 3,
+      "entry_vnum": 55043,
+      "rooms": {
+        "55040": {
+          "vnum": 55040,
+          "name": "Toucan Tip",
+          "description": "The branch ends here in an abrupt manner, as if it has been dissolved or slowly rubbed away. Perhaps a big slug had a tasty meal here about twenty years ago. At any rate, the branch ends here and the scenic view is magnificent. To the northwest, the ocean lies out before you with azure blues and is dotted with islands of sierra yellows and forest greens. The eastern community of Hedros, with its black smoke and dark buildings, sits like a cancer on the mountain side. Oldgate can be seen to the southeast, and its decrepit form calls out for civic planning. The grasslands of the north roll with perfect rhythm and are bordered by the majestic snowcapped mountains. Looking down, however, the city of Mareldja looks oddly small. You must be at least a thousand feet up. No wonder there's nothing left of the lovers when they leap!",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 55038,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Nests",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55041": {
+          "vnum": 55041,
+          "name": "Python Branch",
+          "description": "The vines open up a bit here to several large inter-twisting branches. Pythons, high above you in the tree, look down upon you trying to size up how long it would take to digest you and all of that junk you stow. The smell here is a bit musty and the branch a tad slippery.",
+          "grid_x": -4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55039,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Python Bend",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55042,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Python Tip",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55042": {
+          "vnum": 55042,
+          "name": "Python Tip",
+          "description": "This is the Python Tip. The pythons here are numerous and cranky. Probably because you are standing on several of them now. The area is filled with them, their excrement, and old dead skins. There are several large piles of snakeskins about this branch.",
+          "grid_x": -5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55041,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Python Branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55043": {
+          "vnum": 55043,
+          "name": "Along a Huge Branch",
+          "description": "This huge branch pulls out from the thick tropical areas of the tree from the south and heads north into a more arid climate. The branch, to the north, looks a bit crumbly and rotten, while to the south it is obscured by foliage. This particular section of the tree has a peaceful feeling to it and there are several branches which even look like comfortable benches. In fact, the whole place looks like the front of some arboreal general store.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55044,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Bend in the Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55037,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Switch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 55089,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Arboreals General Store",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55044": {
+          "vnum": 55044,
+          "name": "Bend in the Branch",
+          "description": "The branch bends to the east here and rises slowly into the sky. There is an odd rotting smell here and the footing looks to be bit softer than normal. To the south, you see an peaceful looking opening in the foliage.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55045,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55043,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along a Huge Branch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55045": {
+          "vnum": 55045,
+          "name": "Rotting Branch",
+          "description": "The branch runs in an east-west direction. The foliage is all but stripped here, as the rot seems to have eaten most everything away. The smell is very bad here, and to the east a cloudy mist prevails.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55046,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55044,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Bend in the Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go fungus": {
+              "to_vnum": 55050,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Hollow",
+              "direction": "go fungus",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go hole": {
+              "to_vnum": 55049,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "go hole",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55046": {
+          "vnum": 55046,
+          "name": "Rotting Branch",
+          "description": "The mist is very thick here on this east-west branch. In fact, the mist seems to be more like dust... It is hard to breathe and you find it to be extremely hot. The smell is nauseating and the footing is crumbly as the branch has rotted clear to its heart. There are millions of fungi and mushrooms that you are currently trotting on.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55047,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Fungus Groves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55045,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55047": {
+          "vnum": 55047,
+          "name": "Fungus Groves",
+          "description": "The dust is so thick here, that it is horribly hot and hard to breathe! The thick air has you realing in confusion! Looking about you, you see the millions of mushrooms and fungi you have disturbed! This isn't dust; it is a huge cloud of spores! I think it might be best to leave!",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55049,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55048,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Spore Roost",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55046,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Rotting Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "55048": {
+          "vnum": 55048,
+          "name": "Spore Roost",
+          "description": "The branch ends here, canopied by hundreds of large mushrooms. These do not seem to produce the clouds of spores their cousins to the north make. The branch seems to be a little less rotten here and it looks like a good place to catch your breath before heading off into the other areas.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55047,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Fungus Groves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55049": {
+          "vnum": 55049,
+          "name": "Rotting Branch",
+          "description": "The area is a bit cooler and the foliage looks to be a bit healthier. There is a large fungus here, but none of the smaller spore-releasing mushrooms. Oddly enough, you hear faint chitterings and clicks. This looks like a good place to rest, but not for too long...",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 55047,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Fungus Groves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go fungus": {
+              "to_vnum": 55050,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Termite Hollow",
+              "direction": "go fungus",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 24079,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Base of the Falls",
+              "direction": "go out",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 47079,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Misty Cave",
+              "direction": "go portal",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "55036": {
+          "vnum": 55036,
+          "name": "Large Branch",
+          "description": "The large branch you find yourself standing on is partially hidden by an odd mist. The branch continues to the east where you can hear the faint calls of rare tropical birds. Oddly enough, every few minutes you make out the sound of falling water and quiet giggles. Above you, the trunk disappears into the thin white clouds about 200' skyward.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55037,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Switch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 55003,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Large branch",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55037": {
+          "vnum": 55037,
+          "name": "Toucan Switch",
+          "description": "This intersection has branches continuing to the north, east, and south. There are all sorts of rare tropical birds flitting about, here and there, half hidden by the mist and foliage. Large toucans nod and screech at your trespass, however it's the large vines that seem to give you an odd feeling. Do they move?",
+          "grid_x": -3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55043,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Along a Huge Branch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55038,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Nests",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55036,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Large Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55038": {
+          "vnum": 55038,
+          "name": "Toucan Nests",
+          "description": "The thick mist clouds your vision, but you can just make out perfectly tailored toucan nests. Just out of harms way, you can see that they are made each one of the fifty or so here. The Bungchu and Jujin vines, with their musky odor, try to grasp a strangle hold on the tree. The strange sounds of this odd jungle are all about you.",
+          "grid_x": -3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 55040,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Tip",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 55037,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Switch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 55039,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Python Bend",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "55039": {
+          "vnum": 55039,
+          "name": "Python Bend",
+          "description": "The interplay of the vines makes it difficult to move about on this branch. The odd vines twist and turn in the soft breeze and the smell of fresh bananas wafts up from below.",
+          "grid_x": -3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 55038,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Toucan Nests",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 55041,
+              "to_zone": "The Twin Trees - City of Mareldja",
+              "to_room_name": "Python Branch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -5,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 4,
+        "room_count": 14
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 55001,
+      "to": 55035,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55003,
+      "to": 55004,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55004,
+      "to": 55005,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55005,
+      "to": 55006,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55006,
+      "to": 55008,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55006,
+      "to": 55007,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55008,
+      "to": 55009,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55009,
+      "to": 55016,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55009,
+      "to": 55010,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55010,
+      "to": 55011,
+      "direction": "e",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55010,
+      "to": 55012,
+      "direction": "s",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55012,
+      "to": 55013,
+      "direction": "s",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55013,
+      "to": 55014,
+      "direction": "e",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55014,
+      "to": 55015,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55016,
+      "to": 55017,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55017,
+      "to": 55018,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55018,
+      "to": 55019,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55020,
+      "to": 55030,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55020,
+      "to": 55022,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55021,
+      "to": 55022,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55023,
+      "to": 55024,
+      "direction": "w",
+      "from_grid": [
+        1,
+        34
+      ],
+      "to_grid": [
+        0,
+        34
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55024,
+      "to": 55025,
+      "direction": "s",
+      "from_grid": [
+        0,
+        34
+      ],
+      "to_grid": [
+        0,
+        35
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55025,
+      "to": 55027,
+      "direction": "s",
+      "from_grid": [
+        0,
+        35
+      ],
+      "to_grid": [
+        0,
+        36
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55025,
+      "to": 55026,
+      "direction": "w",
+      "from_grid": [
+        0,
+        35
+      ],
+      "to_grid": [
+        -1,
+        35
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55027,
+      "to": 55028,
+      "direction": "s",
+      "from_grid": [
+        0,
+        36
+      ],
+      "to_grid": [
+        0,
+        37
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55028,
+      "to": 55029,
+      "direction": "e",
+      "from_grid": [
+        0,
+        37
+      ],
+      "to_grid": [
+        1,
+        37
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55030,
+      "to": 55031,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55031,
+      "to": 55032,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55032,
+      "to": 55034,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55032,
+      "to": 55033,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55036,
+      "to": 55037,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        -3,
+        2
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55037,
+      "to": 55043,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55037,
+      "to": 55038,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -3,
+        3
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55038,
+      "to": 55040,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55038,
+      "to": 55039,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -3,
+        4
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55039,
+      "to": 55041,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        4
+      ],
+      "to_grid": [
+        -4,
+        4
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55041,
+      "to": 55042,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        4
+      ],
+      "to_grid": [
+        -5,
+        4
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55043,
+      "to": 55044,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55044,
+      "to": 55045,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55045,
+      "to": 55046,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55046,
+      "to": 55047,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55047,
+      "to": 55049,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55047,
+      "to": 55048,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55050,
+      "to": 55055,
+      "direction": "n",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55050,
+      "to": 55051,
+      "direction": "w",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        -1,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55051,
+      "to": 55052,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        19
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55052,
+      "to": 55053,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        18
+      ],
+      "to_grid": [
+        -2,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55055,
+      "to": 55056,
+      "direction": "n",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55056,
+      "to": 55057,
+      "direction": "n",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 55058,
+      "to": 55059,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

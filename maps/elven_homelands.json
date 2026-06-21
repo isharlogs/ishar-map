@@ -1,0 +1,1737 @@
+{
+  "zone_name": "Elven Homelands",
+  "entry_vnum": 91000,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 7,
+    "min_y": -7,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 91000,
+      "rooms": {
+        "91008": {
+          "vnum": 91008,
+          "name": "Shadowed Trail",
+          "description": "The trail continues to wind through the silent forest; the dense forest represses all noise save for that of your soft footfalls. Treading beneath the formidable firs, you notice that some of them bear faintly discernible markings upon their bark, a remnance of travelers of old. A towering wooden wall blocks travel through the forest to the east, but you could likely squeeze between the trees to the west.",
+          "grid_x": 0,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91009,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91009": {
+          "vnum": 91009,
+          "name": "Shadowed Trail",
+          "description": "Padding quietly through the thin forest trail, you cannot suppress the feeling that eyes follow your every movement. You glance nervously over your shoulder... but nothing stirs. Perhaps it`s just your imagination playing tricks on you, yet you cannot rid yourself of the sliver of doubt that nags at you from your subconsciousness.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91008,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91010,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Flat-Stone Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91002,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91010": {
+          "vnum": 91010,
+          "name": "Flat-Stone Bridge",
+          "description": "Long granite slabs have been laid across a river here to form a crude but effective bridge. To the west, the river forms a flat, flowing pool, as if before a waterfall. The current comes from the east from beneath a wooden wall, preventing access to the forest beyond by means of boat. The dark trail leading to the bridge delves back into the forest to the north and south, forming your only direction of travel other than leaping off the bridge into the chilling water below.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91009,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91011,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "off the bridge": {
+              "to_vnum": 91083,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "off the bridge",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91011": {
+          "vnum": 91011,
+          "name": "Shadowed Trail",
+          "description": "The wooden wall running through the forest just east of here is badly blackened, as if a fire of great ferocity was hurled against it. The wall seems to have withstood the attack, and still serves to prevent passage into the forest beyond. The trail of soft earth upon which you stand leads north and south through the forest, and with some effort, you could break through the bushes of the forest to the west.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91010,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Flat-Stone Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91012,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91012": {
+          "vnum": 91012,
+          "name": "Shadowed Trail",
+          "description": "The haunting silence of the forest preys on your mind, blacking out your very thoughts. Wary to keep your wits about you, you peer around. The dark trail continues its trek through the forest to the north and south, and the forest to the west lies open to exploration. The wooden wall of the eastern forest blocks entry, but appears to cease its southward course further down the trail.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91011,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Bend in the Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92000": {
+          "vnum": 92000,
+          "name": "Cliff-Top Forest",
+          "description": "The ground drops sharply at a cliff to the west and south, letting light flow beneath the dark canopy of firs, pushing back the gloom. More trees grow atop the cliff to the north and border a trail to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Bend in the Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92001": {
+          "vnum": 92001,
+          "name": "A Bend in the Trail",
+          "description": "The dark, shadowed trail bends to follow a wooden wall to the northeast, continuing its course through the forest to the north and east. A cliff to the west is diagonally raked by a sloping band of forest, descending southwards, and a few trees grow atop the cliff just to the west.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92002,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91012,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92009,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Forested Slope",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92000,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92002": {
+          "vnum": 92002,
+          "name": "Shadowed Trail",
+          "description": "The trail winds peacefully through the silent forest, devoid of noise save for that of nearby birds. Atop the cliff to the southeast, a vast forest of firs stretches indefinitely eastward and southward, and joins the forest in which you stand further along the trail to the east.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Bend in the Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92003": {
+          "vnum": 92003,
+          "name": "Shadowed Trail",
+          "description": "A break in the wooden wall to the north allows travel into the lush Erinesian forest beyond. The dense, gloomy forest of Talinesia lies somewhat less invitingly to the south. The trail that forms the border between the two continues its course to the east and west. An Outpost Within the Forest",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91026,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Outpost Within the Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92010,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92002,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92004": {
+          "vnum": 92004,
+          "name": "Shadowed Trail",
+          "description": "Deep ruts cut the trail here, indicating that recent wagons have left the trail from the west and turned southward, entering the bleak forest. Most likely a formidable task, as the trail is barely wide enough for a cart, let alone the dense trees to the south. Lush, healthy trees grow beyond a wooden wall to the north.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92011,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92005": {
+          "vnum": 92005,
+          "name": "Shadowed Trail",
+          "description": "The spikes of the wooden wall to the north guard the trees beyond, turning aside all thoughts of clambering over to the forest beyond. The gloomy, dense forest to the south appears less inviting, but enterable all the same. The trail winds eastward and westward.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92012,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92006": {
+          "vnum": 92006,
+          "name": "Shadowed Trail",
+          "description": "A gap in the northern wooden wall lies to the north, allowing travel to the lush forest beyond. Numerous footprints cover the ground beneath the firs, as if entire armies swept northward between the trees. The thin, shadowed trail continues it trek through the gloomy trees to the east and west.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91047,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At an Outpost in the Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92013,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92007": {
+          "vnum": 92007,
+          "name": "Shadowed Trail",
+          "description": "Silent, still air hangs above the trail in blissful tranquility. Towering firs cast their cool shadows across the path from the south, as well as from beyond a wooden wall to the north. The thin trail continues its course through the trees to the east and west.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92008,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Before the Golden Archway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92014,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92008": {
+          "vnum": 92008,
+          "name": "Before the Golden Archway",
+          "description": "You stand in the shadow of a wall of epic size, blotting out the sky to the east. The golden archway is ancient, as are the stone blocks of the wall, and you feel as if this monstrosity has stood for eons; an archaic, impenetrable barrier. The golden archway is tightly sealed, as it has been for generations untold, and as it may well be for all time.",
+          "grid_x": 7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 92015,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "The Talinesian Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 92007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92009": {
+          "vnum": 92009,
+          "name": "A Forested Slope",
+          "description": "Sloping sharply, the dense forest thins out as the elevation declines to the south, and becomes thicker upon the high ground to the north. The thin band of forest rakes a large cliff from top to bottom as it travels from north to south, and the trees in which you stand are about half way up. Thus, the cliff rises to the east, and drops off to the west.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 92001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "A Bend in the Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92016,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Among the Light Firs",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91000": {
+          "vnum": 91000,
+          "name": "Shadowed Trail",
+          "description": "Plumes of mist escape your lungs as you tread softly across the thin carpet of fir needles scattered atop the trail here. Rubbing your hands for warmth, you draw a chilling breath and look at the scenery around you. To the west, the trail runs over a hill of sparse vegetation, and to the east the trail is consumed by a sprawling forest of fir. A cliff runs southward, topped with more massive fir trees that block the sun from warming the trail with its blessed rays.",
+          "grid_x": -1,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24025,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Among the Thin Trees",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91001": {
+          "vnum": 91001,
+          "name": "Cliff-Top Forest",
+          "description": "Although the air here is brisk, the dense forest traps heat and provides some semblance of warmth. The forest sprawls out in all directions from where you stand, except west, where the trees end at the top of a shear granite cliff. Far below, a vast green valley can be seen in all of its splendor.",
+          "grid_x": -1,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91008,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91000,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91002,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91002": {
+          "vnum": 91002,
+          "name": "Cliff-Top Forest",
+          "description": "The ominous gloom of the forest is penetrated here by slivers of light from the west, where the land drops precipitously to a valley far below. The shear, featureless cliff could not be descended without a rope of considerable length; you think no more of it. Instead, you observe the silent forest about you, which extends in all directions save for west.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91009,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91001,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Atop a Waterfall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91003": {
+          "vnum": 91003,
+          "name": "Atop a Waterfall",
+          "description": "DANGER! The current here is very strong, and the river flows over a waterfall a short distance to the west. You'd best dock on the shore and enter the forest to the north or south, lest you are swept over the falls by the surging current.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91082,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Tugging Current",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            91002,
+            91081
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91004": {
+          "vnum": 91004,
+          "name": "Cliff-Top Forest",
+          "description": "A dark pall hangs in the air, as if this forest is not always at peace. The gloom of the trees ends to the west, where the land drops sharply thousands of feet to a valley below. The soft roar of plummeting water can be heard to the north, and nothing but dreary silence emanates from the deep forest to the east and south.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91011,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Atop a Waterfall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91005,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91005": {
+          "vnum": 91005,
+          "name": "Cliff-Top Forest",
+          "description": "The sweet smell of the firs contrasts noticeably with the acrid smell of death in this part of the forest. Remnants of a recent battle are strewn across the forest floor, ruining the otherwise natural scenery. The forest spreads out in all directions but west, where a sheer cliff drops sharply and perilously to the valley floor thousands of feet below.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91012,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91004,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92000,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Cliff-Top Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91006": {
+          "vnum": 91006,
+          "name": "Forest Outskirts",
+          "description": "A thin sprinkling of trees meets the base of a steep rocky mountain slope here. An arduous journey could be made up the slope to reach the snow-covered peaks seen far above in the clouds. A wooden wall to the east runs through the sparse trees and meets the sheer face of the mountain, blocking entrance to the lush forest beyond. However, the forest spreads to the south and can be entered there.",
+          "grid_x": 0,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91007,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63001,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91007": {
+          "vnum": 91007,
+          "name": "Shadowed Trail",
+          "description": "Tightly-knit fir trees cast their shadows across the thin trail from all sides, blocking all but meager trickles of light. Passage to the east is prevented by a well crafted wooden wall running north and south. The wall continues through the forest as far as you can see in both directions, and the trail from the west turns southward to avoid this obstacle.",
+          "grid_x": 0,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Forest Outskirts",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91008,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91000,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 7,
+        "min_y": -7,
+        "max_y": 1,
+        "room_count": 23
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 91000,
+      "to": 91007,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -6
+      ],
+      "to_grid": [
+        0,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91000,
+      "to": 91001,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -6
+      ],
+      "to_grid": [
+        -1,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91001,
+      "to": 91008,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -5
+      ],
+      "to_grid": [
+        0,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91001,
+      "to": 91002,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -5
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91002,
+      "to": 91009,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91002,
+      "to": 91003,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 91003,
+      "to": 91004,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91004,
+      "to": 91011,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91004,
+      "to": 91005,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91005,
+      "to": 91012,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91005,
+      "to": 92000,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91006,
+      "to": 91007,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -7
+      ],
+      "to_grid": [
+        0,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91007,
+      "to": 91008,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -6
+      ],
+      "to_grid": [
+        0,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91008,
+      "to": 91009,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -5
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91009,
+      "to": 91010,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91010,
+      "to": 91011,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91011,
+      "to": 91012,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91012,
+      "to": 92001,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92000,
+      "to": 92001,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92001,
+      "to": 92002,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92001,
+      "to": 92009,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92002,
+      "to": 92003,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92003,
+      "to": 92004,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92004,
+      "to": 92005,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92005,
+      "to": 92006,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92006,
+      "to": 92007,
+      "direction": "e",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92007,
+      "to": 92008,
+      "direction": "e",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        7,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,939 @@
+{
+  "zone_name": "The Dark Forest - Brown River Valley",
+  "entry_vnum": 57020,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 2,
+    "min_y": -3,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 57020,
+      "rooms": {
+        "57024": {
+          "vnum": 57024,
+          "name": "Dead End at the Bank",
+          "description": "The air hangs heavy with moisture here, and the rank smell of rotting vegetation drifts from the west. The brush beneath the high canopy still troubles your path, but to the north and east hang curtains of vines that halt",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 57035,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Rotting Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57035": {
+          "vnum": 57035,
+          "name": "Rotting Woods",
+          "description": "The forest floor is littered here with the rotting corpses of fallen trees and dying brush. New growth sprouts from the old, thriving in the noxious, humid air. From the west, the silence of the dark forest is broken by the howling of a wolf, perhaps as it prepares to feast on the flesh of some less fortunate denizen of the forest, or, more likely, some less fortunate visitor. The forest is open in all directions, and the river lies to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57024,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Dead End at the Bank",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57018,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57043,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Misty Clearing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57013
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57037": {
+          "vnum": 57037,
+          "name": "Shadowed Woods",
+          "description": "The dark woods seem to grow darker as you approach the heart of the forest. The trees branch high above, but vines hang down from them to just above your head, and the brush reaches up to your waist from below. You can forge your toward the center to the east, head to the river to the south, or along the hill to the west. A shadow flickers off to your right.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57038,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57043,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Misty Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57022,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57038": {
+          "vnum": 57038,
+          "name": "Shadowed Woods",
+          "description": "You stand in the heart of the forest of night. Though no light penetrates the solid canopy overhead, you continuously glimpse shadows flitting about on the edges of your vision. When you turn, they are gone, but they return once you look away. You can travel east, west, or south.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57039,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57018,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57037,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57039": {
+          "vnum": 57039,
+          "name": "The Dark Forest",
+          "description": "Around you the forest screams silently. Beneath you it coils patiently, winding slowly up and around until it strangles the very air. Thick trunks crowd close together and block you at every step. To the south, a wall of thorny vines offers to bring you to a bloody end. You can flee north or east.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57040,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Edge of Night",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57021,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57024,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Dead End at the Bank",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57040": {
+          "vnum": 57040,
+          "name": "The Edge of Night",
+          "description": "Huge trunks soar gracefully upward, then spread their branches and close out the sky. You stand in utter blackness amidst the pale but flourishing undergrowth. Insects abound, thickening the air in cloud-like swarms. Above all, there is silence. Not a sound reaches your ears through the moist air, that you at times forget you are moving. North and south, the forest thins. West of here lies the heart of the dark woods.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57033,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Shaded Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57034,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Trail to the River",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57039,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57041": {
+          "vnum": 57041,
+          "name": "A Small Clearing in the Forest",
+          "description": "Here among the ash trees you find a small circle of bare earth, in the center of which stands a small hut. As you enter the clearing, you feel a wave of calm wash over you, as if the area were blessed against evil. The tracks of a bear in the soil remind you, though, that not all things harmful are evil. A path leads north out of the clearing.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57042,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Edge of the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57042": {
+          "vnum": 57042,
+          "name": "Edge of the Forest",
+          "description": "The forest seems to be expanding slowly over the grasslands, sending out saplings like those which now surround you to scout the borders. The wide spacing makes for easy travel between the trees, and the undergrowth consists primarily of the grasses that cover the slopes to the east. A stand of ash is visible to the south, and a path leads into the denser trees to the west. To the east, the trees end.",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57028,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57041,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "A Small Clearing in the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57033,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Shaded Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57043": {
+          "vnum": 57043,
+          "name": "Misty Clearing",
+          "description": "The warm mist hangs so heavily in the air of this small clearing that you can barely make out the trees that block your escape in all directions but east. The ground here is strangely bare of undergrowth, as if something had cleared it away quite recently.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57035,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Rotting Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57100
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57018": {
+          "vnum": 57018,
+          "name": "Shadowed Woods",
+          "description": "All around you in the blackness, shadows dance in macabre silence, stubbornly avoiding your direct gaze. The trees defend them, shifting slightly from side to side as you spin about. You must move to the east or north before the shadows strike.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57038,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57019
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57020": {
+          "vnum": 57020,
+          "name": "The Dark Forest",
+          "description": "You begin to feel cramped as the trees press in on you from above and the undergrowth gnaws at you from below. To the north and east, the woods are too thick to make any progress. You are forced to choose between heading west and south.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 57036,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57019
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57021": {
+          "vnum": 57021,
+          "name": "The Dark Forest",
+          "description": "The tall trees close together overhead and prevent any light from reaching the forest floor. Strange forms of brush cover the ground, spreading their long white tendrils out to block your path. To the west, the trees crowd together and provide only a narrow route between them, while to the east leads a slightly wider trail. The forest to the north and south is relatively open.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57033,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Shaded Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57039,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57020,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57022": {
+          "vnum": 57022,
+          "name": "The Dark Forest",
+          "description": "The squat trees grow in nearly geometric patterns here, bringing to mind the dark intelligence of the gods. Oddly colored brush scratches you and the low branches catch at you as you wander through the dark, silent woods. The trees continue to the east and south, and to the north a hill rises to a grassy slope.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57037,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Shadowed Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57032,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57023,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57023": {
+          "vnum": 57023,
+          "name": "The Dark Forest",
+          "description": "You stand inside the western edge of the dark forest. The trees here are wider and more squat than those to the east, but just as effectively block all traces of light from the sky overhead. You can head north through the forest, enter the river to the south, or return to the grassy slopes just to the west.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57022,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57017,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57014
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 0,
+        "room_count": 14
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 57018,
+      "to": 57038,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57021,
+      "to": 57039,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57021,
+      "to": 57020,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 57022,
+      "to": 57037,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57022,
+      "to": 57023,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57024,
+      "to": 57035,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57035,
+      "to": 57018,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 57035,
+      "to": 57043,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57037,
+      "to": 57038,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57037,
+      "to": 57043,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 57038,
+      "to": 57039,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 57039,
+      "to": 57040,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57039,
+      "to": 57024,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 57041,
+      "to": 57042,
+      "direction": "n",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        5,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

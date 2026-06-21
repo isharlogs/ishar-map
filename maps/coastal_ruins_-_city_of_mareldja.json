@@ -1,0 +1,759 @@
+{
+  "zone_name": "Coastal Ruins - City of Mareldja",
+  "entry_vnum": 80001,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -4,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 80001,
+      "rooms": {
+        "80001": {
+          "vnum": 80001,
+          "name": "A Cavern by the Sea",
+          "description": "You stand in a small cavern opening onto a low cliff along the coast near Mareldja. The walls and floor are cut cleanly from the reddish brown stone, and several highly polished patches suggest that the room once served a more prominent role in the city. Long exposure to brine and wind has worn away most of the shine, however, leaving the surfaces in a more natural state. Three archways allow egress: one onto a natural rock shelf to the west, and two others to the east and south.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80002,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Painted Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80003,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24042,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Sea`s Edge",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80002": {
+          "vnum": 80002,
+          "name": "Painted Chamber",
+          "description": "Perhaps this spacious chamber once served as a reception room for visitors: each wall is decorated with a colorful sequence of panels portraying a piece of local history. Small lizards scurry about the floor, and the only egress lies through an archway to the west, through which you see the sea.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 80001,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Cavern by the Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            80000
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80099": {
+          "vnum": 80099,
+          "name": "Rubble",
+          "description": "The corridor has collapsed here and is blocked by an immovable pile of rubble. The only egress lies to the north.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80006,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80098": {
+          "vnum": 80098,
+          "name": "Rubble",
+          "description": "The corridor has collapsed here and is blocked by an immovable pile of rubble. The only egress lies to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80008,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Cramped Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80005": {
+          "vnum": 80005,
+          "name": "Rusting Armory",
+          "description": "Shrouded in secrecy, this rectangular chamber once housed a wide array of armor and armaments. Wood and leather have long ago decayed in the humid atmosphere, but several rusty relics lie scattered about the floor, and a bronze chest remains in one corner. A soft trickling sound comes from behind an ash door to the east. No other exits are visible.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80009,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "River Crossing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 80004,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80003": {
+          "vnum": 80003,
+          "name": "Stone Corridor",
+          "description": "A corridor carved from the brown stone of the sea cliffs travels from a small room to the north further into the cliffside to the south. The walls and ceiling are unadorned, although periodic holes mark the past locations of wall sconces.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80001,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Cavern by the Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80004,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80007": {
+          "vnum": 80007,
+          "name": "Cramped Passage",
+          "description": "Crouched low, you crawl through a narrow tunnel of stone, which curves here from west to southeast. The sides of the tunnel are quite rough, forcing you to move slowly to avoid injury. A light breeze from the west refreshes you.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 80008,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Cramped Passage",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80006,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80008": {
+          "vnum": 80008,
+          "name": "Cramped Passage",
+          "description": "You stand beside an oak door in a a cramped tunnel hewn roughly from the stone. A breeze from the northwest brings the salty tang of the sea.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80050,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Small, Square Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "nw": {
+              "to_vnum": 80007,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Cramped Passage",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80098,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Rubble",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80009": {
+          "vnum": 80009,
+          "name": "River Crossing",
+          "description": "A deep river cuts through the sandy passage in which you stand, blocking progress to the southeast. The river banks are steep and slick with algae, and neither the walls nor the ceiling of the passage offer any handholds to help you across. The river flows rapidly, but makes little noise.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 80010,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Forked Passageway",
+              "direction": "se",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80005,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Rusting Armory",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80004": {
+          "vnum": 80004,
+          "name": "Stone Corridor",
+          "description": "Smooth stone of a brownish hue leads both north and south in this forgotten corridor. The dull roar of the sea and a light breeze wash over you from the north, while the south offers only silence.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80005,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Rusting Armory",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80003,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80006,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80006": {
+          "vnum": 80006,
+          "name": "Stone Corridor",
+          "description": "You stand in a long corridor of smooth stone leading from the seaside cliffs west of Mareldja into the earth below. The corridor continues north and south, and another passage opens to the east. Unlike the one in which you stand, the eastern passage is narrow and rough, and the marks of mining tools still mar the opening. The cries of seabirds and the scent of brine sweep into your consciousness on a breeze from the north.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80007,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Cramped Passage",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80004,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Stone Corridor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80099,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Rubble",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80050": {
+          "vnum": 80050,
+          "name": "A Small, Square Room",
+          "description": "You stand in a small, square room. The floor boasts a decorous checkerboard pattern of grey and brown blocks, but is now strewn with swirled patterns of dust and bits of gravel. A large, rusty crank sits in the center of the north wall. An oak door offers egress to the west, and you notice a hole in the northeast corner of the ceiling.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 80031,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Rock-Strewn Cavern",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80008,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "Cramped Passage",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 1,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 80001,
+      "to": 80002,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80001,
+      "to": 80003,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80003,
+      "to": 80004,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80004,
+      "to": 80005,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80004,
+      "to": 80006,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80005,
+      "to": 80009,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 80006,
+      "to": 80007,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80006,
+      "to": 80099,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80007,
+      "to": 80008,
+      "direction": "se",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80008,
+      "to": 80050,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 80008,
+      "to": 80098,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "zone_name": "Cantarel",
+  "entry_vnum": 44098,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 44098,
+      "rooms": {
+        "44098": {
+          "vnum": 44098,
+          "name": "Within a Crevasse",
+          "description": "Seawater surges to and fro here within a narrow underground crevasse, chilling you to the bone. Up above a worn old wooden plank can be seen spanning the crevasse. An eerie blue glow emanates from below.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 44085,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Crevasse Ledge",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

@@ -1,0 +1,2138 @@
+{
+  "zone_name": "Baranath Bay",
+  "entry_vnum": 79098,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 10,
+    "min_y": -4,
+    "max_y": 18
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 79098,
+      "rooms": {
+        "79106": {
+          "vnum": 79106,
+          "name": "Dry Riverbed",
+          "description": "The slim lining of brush and trees around the riverbed is not particularly thick or extensive, yet it feels as though it acutely isolates and engulfs the area, breaking it free from time and space. Drifting faintly on the breeze, you think you hear faint bursts of abrasive noise in the distance - the baying of hounds, perhaps? It must just be your imagination.",
+          "grid_x": 9,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "n": {
+              "to_vnum": 79108,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79107,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Sub-Mareldjan Meadowland",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79105
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79107": {
+          "vnum": 79107,
+          "name": "Sub-Mareldjan Meadowland",
+          "description": "Probably once a device helping to feed the mouths of Mareldja's public, this broad, featureless plain is not currently in use. Thick blades of grass sway in the gentle breezes with the natural dignity derived from the prolonged absence of mankind. The air is salty and has a certain marine chill to it, though the latter is not particularly acute.",
+          "grid_x": 9,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "n": {
+              "to_vnum": 79106,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79091,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "North of the Estuary",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79104
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79108": {
+          "vnum": 79108,
+          "name": "Dry Riverbed",
+          "description": "A long time ago, the waters of the River Dreck would have carried this debris into the Chardaleth Sea, but they no longer do. For countless generations the river has maintained utter inaction in natural eulogy to Thurvun's most notorious servant.",
+          "grid_x": 9,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79109,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79106,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79109": {
+          "vnum": 79109,
+          "name": "Dry Riverbed",
+          "description": "The arid channel marking the former passage of the Dreck winds through the countryside south of Mareldja here. A few trees, small yet clearly gnarled with age line the riverbank, growing denser and somewhat larger to the west.",
+          "grid_x": 10,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 84001,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Dry Riverbed",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79108,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79110": {
+          "vnum": 79110,
+          "name": "Meadow by the Sea",
+          "description": "A broad area of unmaintained turf slopes rapidly towards the sands to the south, the grasses fresh and obviously unaccustomed to pedestrian movement, evidenced by their pristine condition. The ground is strikingly green as a result, almost unnaturally so.",
+          "grid_x": 6,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79103,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79094,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Shallow Coastal Water",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79152,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79111
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79111": {
+          "vnum": 79111,
+          "name": "Steep Meadow",
+          "description": "The land here inclines acutely southward, straight towards the Chardaleth Sea. Deciduous trees, mostly oaks, are scattered here and there, increasing both in quantity and maturity the further north they are. It would seem that over the centuries, acorns jettisoned from their boughs have rolled down the steep hill, resulting in the younger generations growing closer to the bottom, their ancestors aging at the summit.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 79112,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79102,
+            79110,
+            79151
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79112": {
+          "vnum": 79112,
+          "name": "The Woods",
+          "description": "Deciduous branches, gnarly with age, bend under their own weight towards the path. Moss adorns the more senior trees, peaceful symbiosis taking place over the eons. These trees live their lives in slow motion, but careful reflection on their current configuration can reveal the goings on of their existence, the most trivial of which have taken place over at least the space of a human lifetime.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 79113,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79111,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Steep Meadow",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79113": {
+          "vnum": 79113,
+          "name": "The Woods",
+          "description": "Through the trunks of the oaks which now surround you, you catch a glimpse of the Chardaleth to the west, and you can feel the cool ocean breeze rustle into the earth leads through this small copse.",
+          "grid_x": 0,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79114,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79112,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79114": {
+          "vnum": 79114,
+          "name": "The Woods",
+          "description": "Weary boughs push themselves upward, reaching for the sky and the nourishing sunlight it brings. The trees here seem almost to have a hunger, not menacing in the slightest, but with a certain sense of urgency. Their roots are plunged into the soft earth like the digits of emaciated men delving into a pie or cake, as if the fertility of the ground here is almost temporary and the trees are aware, to the maximum extent that trees can be aware, of this fact.",
+          "grid_x": 1,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24043,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79113,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79131": {
+          "vnum": 79131,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 79134,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79097,
+            79130,
+            79132
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79132": {
+          "vnum": 79132,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 4,
+          "exits": {
+            "e": {
+              "to_vnum": 79098,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79135,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79096,
+            79131
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79095
+            ],
+            "active": false,
+            "stack_default_vnum": 79095
+          },
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79133": {
+          "vnum": 79133,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "e": {
+              "to_vnum": 79136,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79130,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79134,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79157,
+              "to_zone": "Chardaleth Sea - South",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79096,
+              79097
+            ],
+            "active": false,
+            "stack_default_vnum": 79096
+          },
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79134": {
+          "vnum": 79134,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "e": {
+              "to_vnum": 79135,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79133,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79131,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79137,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79135": {
+          "vnum": 79135,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 4,
+          "exits": {
+            "e": {
+              "to_vnum": 79142,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79132,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79138,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79134,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79136": {
+          "vnum": 79136,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "s": {
+              "to_vnum": 79137,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79133,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79158
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79137": {
+          "vnum": 79137,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "e": {
+              "to_vnum": 79134,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79136,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79138,
+            79157
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79138": {
+          "vnum": 79138,
+          "name": "The Open Sea",
+          "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. If fortune smiles on you, it may be that your wandering will bring you closer to the coast.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 4,
+          "exits": {
+            "n": {
+              "to_vnum": 79135,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79128,
+            79134,
+            79137
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79091": {
+          "vnum": 79091,
+          "name": "North of the Estuary",
+          "description": "The ground here is marshy, saturated with the water of the Brown River, whose mouth lies to your south, the fresh and salt waters mingling and floating out to sea. The Brown River is fresh water only in the sense that it is free from salt - the sludge and Oldgate sewage from which it derives its moniker are still clearly visible, even this far downstream. Your way to the east is blocked by the thick undergrowth from which the river ejects, but open countryside dotted with occasional groves of trees rolls northward, and in the distance you see the faint outlines of a large settlement - most likely Marledja.",
+          "grid_x": 9,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "n": {
+              "to_vnum": 79107,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Sub-Mareldjan Meadowland",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79092,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Small Beach",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24052
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79092": {
+          "vnum": 79092,
+          "name": "Small Beach",
+          "description": "The solid turf here is very close to the water, leaving scope for only a small stretch of sand. The sea before you has a definite westward motion - some river to the east pours its contents into the ocean, and the tide is not strong enough to act against this constant expulsion.",
+          "grid_x": 8,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79091,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "North of the Estuary",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79093,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Mouth of the River Dreck",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79104,
+            79115
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79093": {
+          "vnum": 79093,
+          "name": "Mouth of the River Dreck",
+          "description": "The beach here is covered in dried streaks of mud, leading towards the water from a dry riverbed cutting through the ground to the north. Clearly, a small river once met the ocean here, but for some reason it has since ceased to carry water. Such is the curvature of the beach that travel any further west will land you in the water, but you could easily follow the riverbed as it winds northward into the fields.",
+          "grid_x": 7,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79092,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Small Beach",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79103,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79094,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Shallow Coastal Water",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79125
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79094": {
+          "vnum": 79094,
+          "name": "Shallow Coastal Water",
+          "description": "The waters of the Chardaleth Sea, incalculably immense, spread before your eyes to the south and to the west. The total absence of land for miles increases the dominance of the sky in your field of vision, rendering epic cloud structures completely visible, shifting and rolling in mighty, endless dance above the shimmering depths.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79093,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Mouth of the River Dreck",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79110,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Meadow by the Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79095,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Deep Coastal Water",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79144
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79095": {
+          "vnum": 79095,
+          "name": "Deep Coastal Water",
+          "description": "From this angle, the true magnitude of the Chardaleth Sea is brought into sharp perspective. The main bulk of the coastline is barely visible, and unbroken ocean fills your vision in most directions. The one identifiable landmark, a long peninsula isolated from the rest of the continent stands above the depths, its rocky body preventing northward travel. Pristine meadowland stretches atop it, but it is out of reach from here.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "e": {
+              "to_vnum": 79094,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Shallow Coastal Water",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79132,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79096,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Deep Coastal Water",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79132
+            ],
+            "active": true,
+            "stack_default_vnum": 79095
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79096": {
+          "vnum": 79096,
+          "name": "Deep Coastal Water",
+          "description": "The spit of land to your north stretches immense into the sky above you as you edge along its rocky base. Rough waves periodically career from the west with extreme force as they wash in from the open waters of the Chardaleth, meeting the cliffs with dangerous velocity.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79095,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Deep Coastal Water",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79131,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79097,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79133,
+              79097
+            ],
+            "active": true,
+            "stack_default_vnum": 79096
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79097": {
+          "vnum": 79097,
+          "name": "The Open Sea",
+          "description": "The mainland is almost invisible to you, sinking below the eastern horizon many miles away. You are able to keep your bearings only in relation to the great headland immediately to your north.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 1,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 79096,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Deep Coastal Water",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79131,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79098,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79133,
+              79096
+            ],
+            "active": false,
+            "stack_default_vnum": 79096
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79098": {
+          "vnum": 79098,
+          "name": "The Open Sea",
+          "description": "The only land you can see is the peninsula to your northeast, and even that is receding into the distance. It would be wise to approach it to the north or to the east rather than to risk getting lost at sea.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 5,
+          "exits": {
+            "e": {
+              "to_vnum": 79097,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79099,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "West of the Peninsula",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 36436,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79132,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79099
+            ],
+            "active": true,
+            "stack_default_vnum": 79098
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79099": {
+          "vnum": 79099,
+          "name": "West of the Peninsula",
+          "description": "A spit of land rises out of the water to the east, red earth topped high above with lush grasses. It is impassible for its height, leaving only watery routes in all other directions. To the west, the measureless sea roars forebodingly and without mercy.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 6,
+          "exits": {
+            "n": {
+              "to_vnum": 79100,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "West of the Peninsula",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79098,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79132,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              79098
+            ],
+            "active": false,
+            "stack_default_vnum": 79098
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79100": {
+          "vnum": 79100,
+          "name": "West of the Peninsula",
+          "description": "The water here is shallow as part of the peninsula to your east slowly descends into the ocean, yet no actual landing is possible due to the steep gradient to the top. In all other directions, water laps in dull repetition.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 6,
+          "exits": {
+            "n": {
+              "to_vnum": 79101,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Open Sea",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79099,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "West of the Peninsula",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25002,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79101": {
+          "vnum": 79101,
+          "name": "The Open Sea",
+          "description": "Out of sight of the mainland, your only marker is the rocky headland to your southeast. No landing seems possible from this angle, though presumably the long peninsula meets the mainland at some point.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 6,
+          "exits": {
+            "e": {
+              "to_vnum": 25001,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79100,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "West of the Peninsula",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25002,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79103": {
+          "vnum": 79103,
+          "name": "Dry Riverbed",
+          "description": "Pebbles and other debris carried from further inland are mummified here in the dried mud. No trace of the water which once ran through here can today be found, and it is clear that the stream has been out of action for quite some time, leaving this channel of caked earth and stones its only epitaph.",
+          "grid_x": 7,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "s": {
+              "to_vnum": 79093,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Mouth of the River Dreck",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79110,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Meadow by the Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79102,
+            79104
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {
+        "2": "#e05555",
+        "1": "#50c878",
+        "4": "#e05555",
+        "5": "#e05555"
+      },
+      "metadata": {
+        "min_x": -2,
+        "max_x": 10,
+        "min_y": -4,
+        "max_y": 18,
+        "room_count": 29
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 79091,
+      "to": 79107,
+      "direction": "n",
+      "from_grid": [
+        9,
+        -1
+      ],
+      "to_grid": [
+        9,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79091,
+      "to": 79092,
+      "direction": "w",
+      "from_grid": [
+        9,
+        -1
+      ],
+      "to_grid": [
+        8,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79092,
+      "to": 79093,
+      "direction": "w",
+      "from_grid": [
+        8,
+        -1
+      ],
+      "to_grid": [
+        7,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79093,
+      "to": 79103,
+      "direction": "n",
+      "from_grid": [
+        7,
+        -1
+      ],
+      "to_grid": [
+        7,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79093,
+      "to": 79094,
+      "direction": "w",
+      "from_grid": [
+        7,
+        -1
+      ],
+      "to_grid": [
+        6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79094,
+      "to": 79110,
+      "direction": "n",
+      "from_grid": [
+        6,
+        -1
+      ],
+      "to_grid": [
+        6,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79094,
+      "to": 79095,
+      "direction": "w",
+      "from_grid": [
+        6,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79095,
+      "to": 79132,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 79095,
+      "to": 79096,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79096,
+      "to": 79131,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 79096,
+      "to": 79097,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79097,
+      "to": 79131,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 79097,
+      "to": 79098,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79098,
+      "to": 79099,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79098,
+      "to": 79132,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79099,
+      "to": 79100,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79099,
+      "to": 79132,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 79100,
+      "to": 79101,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79103,
+      "to": 79110,
+      "direction": "w",
+      "from_grid": [
+        7,
+        -2
+      ],
+      "to_grid": [
+        6,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79106,
+      "to": 79108,
+      "direction": "n",
+      "from_grid": [
+        9,
+        -3
+      ],
+      "to_grid": [
+        9,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79106,
+      "to": 79107,
+      "direction": "s",
+      "from_grid": [
+        9,
+        -3
+      ],
+      "to_grid": [
+        9,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79108,
+      "to": 79109,
+      "direction": "e",
+      "from_grid": [
+        9,
+        -4
+      ],
+      "to_grid": [
+        10,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79111,
+      "to": 79112,
+      "direction": "n",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79112,
+      "to": 79113,
+      "direction": "n",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79113,
+      "to": 79114,
+      "direction": "e",
+      "from_grid": [
+        0,
+        16
+      ],
+      "to_grid": [
+        1,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79131,
+      "to": 79134,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79132,
+      "to": 79135,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79133,
+      "to": 79136,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79133,
+      "to": 79134,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79134,
+      "to": 79135,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79134,
+      "to": 79137,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79135,
+      "to": 79138,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79136,
+      "to": 79137,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

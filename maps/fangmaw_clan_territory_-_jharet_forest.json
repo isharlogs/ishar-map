@@ -1,0 +1,371 @@
+{
+  "zone_name": "Fangmaw Clan Territory - Jharet Forest",
+  "entry_vnum": 45202,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 3
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 45202,
+      "rooms": {
+        "45200": {
+          "vnum": 45200,
+          "name": "Shaded Forest Path",
+          "description": "The thick canopy above lends itself to the heavy feel in the air, creating a rather gloomy atmosphere. The wildlife is slightly less pronounced there and there a slight stench air, wafting in on the southern breeze.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 45202,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "Path Through the Pines",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 45203,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "An Ominous Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Rather gloomy atmosphere.  The wildlife is slightly less pronounced there and",
+                "Shaded Forest Path",
+                "There a slight stench air",
+                "Thick canopy above lends itself to the heavy feel in the air",
+                "creating a",
+                "wafting in on the southern breeze."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "45202": {
+          "vnum": 45202,
+          "name": "Path Through the Pines",
+          "description": "The trail continues through the thick pines, leading to the south and the north. It appears frequently traveled and there are obvious signs of wild life in the surrounding woods.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69248,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Fork in the Path",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 45200,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "Shaded Forest Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "In the surrounding woods.",
+                "North.  It appears frequently traveled and there are obvious signs of wild life",
+                "Path Through the Pines",
+                "Trail continues through the thick pines",
+                "leading to the south and the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "45203": {
+          "vnum": 45203,
+          "name": "An Ominous Clearing",
+          "description": "A clearing in the trees here does not seem natural. The trees along the edges are raggedly cut and you can't help but feel extremely exposed. Dark stains on the ground seem to draw your eye...blood?",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 45200,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "Shaded Forest Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 45204,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "An Ominous Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Clearing in the trees here does not seem natural.  The trees along the",
+                "Edges are raggedly cut and you can't help but feel extremely exposed.  Dark",
+                "Ominous Clearing",
+                "Stains on the ground seem to draw your eye"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "45204": {
+          "vnum": 45204,
+          "name": "An Ominous Clearing",
+          "description": "Ragged stumps break up the ground of this odd clearing in the otherwise thick forest to the east and west and make traveling treacherous. Oddly enough, some of the stumps appear to have nicks and rents in them that are too small for an axe.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 45203,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "An Ominous Clearing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 45205,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "Between the Two Towers",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            45206,
+            45207
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Enough",
+                "Ominous Clearing",
+                "Ragged stumps break up the ground of this odd clearing in the otherwise",
+                "Small for an axe.",
+                "Thick forest to the east and west and make traveling treacherous.  Oddly",
+                "some of the stumps appear to have nicks and rents in them that are too"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "45205": {
+          "vnum": 45205,
+          "name": "Between the Two Towers",
+          "description": "You stand where the path passes between two large, wooden towers that are standing guard against intruders such as yourself. It continues to wind towards the south and north.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 45204,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "An Ominous Clearing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            45206,
+            45207,
+            45208
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Between the Two Towers",
+                "Standing guard against intruders such as yourself.  It continues to wind",
+                "Towards the south and north.",
+                "You stand where the path passes between two large",
+                "wooden towers that are"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 3,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 45200,
+      "to": 45202,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 45200,
+      "to": 45203,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 45203,
+      "to": 45204,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 45204,
+      "to": 45205,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

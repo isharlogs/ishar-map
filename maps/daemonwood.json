@@ -1,0 +1,839 @@
+{
+  "zone_name": "Daemonwood",
+  "entry_vnum": 61050,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 3,
+    "min_y": -3,
+    "max_y": 2
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 61062,
+      "rooms": {
+        "61062": {
+          "vnum": 61062,
+          "name": "Narrow Steps into the Earth",
+          "description": "Steps end here several lengths down into a tunnel within the forest. Ahead, the tunnel ends at a set of reddish iron gates. The walls here are plain and stone, yet the ceiling is of crumbling earth.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61063,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Before the Temple of Esralen",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61061,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Off the Path",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 61050,
+      "rooms": {
+        "61056": {
+          "vnum": 61056,
+          "name": "Path through the Forest",
+          "description": "Crouching beneath the interwoven canopy of branch and leaf, you walk along a thinning path through the forest. Here it splits thrice where a clear opening travels northeast.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 61055,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61057,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61058,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61057": {
+          "vnum": 61057,
+          "name": "Path through the Forest",
+          "description": "You step through a light mist along a curving path through the quiet forest, around the base of a long-dead tree. Branches hang low from the living trees about you, forming a natural canopy above the path to the north. To the east the path forks, and turns south.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61051,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61056,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61058": {
+          "vnum": 61058,
+          "name": "Path through the Forest",
+          "description": "The looming snarl of green and brown forestry overhead drops low, sparing only a small space allowing further passage into the forest. Slightly east the growth retreats at a small pathfork. Through a break in the tangle to the north is a solemn clearing.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61056,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61059,
+              "to_zone": "Daemonwood",
+              "to_room_name": "A Clearing within the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61059": {
+          "vnum": 61059,
+          "name": "A Clearing within the Forest",
+          "description": "An unnatural silence inhabits this oval-shaped clearing within the depths of the forest. A tangle of branch and vine seals the edges, save for a small opening slightly south. The land here has been laid bare with the exception of several large treestumps.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61058,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61060": {
+          "vnum": 61060,
+          "name": "End of the Path",
+          "description": "The forest path ends here among a thicket of ivy and bush between the trees. Moss covers an array of branches hung over a pool of stagnant water to one side, armies of small insects skating across. The terrain rises slightly to the east, and through the greenery a pair of stoic elder trees stand out among the brush. The path here offers passage southward.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61054,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go bushes": {
+              "to_vnum": 61061,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Off the Path",
+              "direction": "go bushes",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61061": {
+          "vnum": 61061,
+          "name": "Off the Path",
+          "description": "Here between a pair of solemn elder trees are a flight of narrow stone steps leading into the earth. Branches droop downward to mix with the healthy undergrowth within the forest, all but obscuring the opening. Through the greenery one may pass out and onto a forest path to the southwest.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 61060,
+              "to_zone": "Daemonwood",
+              "to_room_name": "End of the Path",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61062,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Narrow Steps into the Earth",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61050": {
+          "vnum": 61050,
+          "name": "Path through the Forest",
+          "description": "The tangled, outstretched limbs of ancient trees hang overhead, covered in moss. A thin billowing mist rolls along the ground out of the trees ahead, coating the undergrowth with moisture. The narrow footpath you travel upon meets an old road through the forest to the south, and splits at the base of a massive lifeless trunk to the north.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61051,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24046,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61051": {
+          "vnum": 61051,
+          "name": "Pathfork in the Forest",
+          "description": "The path through the forest splits here at the base of a towering lifeless trunk. Its brittle, spindly branches intertwine with those of its living cousins along the edge of the path, which travels west and east. Upon the surface of the deceased wood is a deep carving.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61052,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61050,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61057,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61052": {
+          "vnum": 61052,
+          "name": "Path through the Forest",
+          "description": "Leaves and mist stir at your feet along this quietly curving path through the ancient forest. The path here is well worn, and turns to travel north and west to a fork at the base of a withered, dead trunk.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61053,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61051,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61053": {
+          "vnum": 61053,
+          "name": "Path through the Forest",
+          "description": "Droplets of water fall from the mossy, vine laden tangle of branches about you, here along a silent path through the forest. The path extends northward where it meets another, and southward to curve behind a gnarled old trunk, then out of sight.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61054,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61052,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61054": {
+          "vnum": 61054,
+          "name": "Pathfork in the Forest",
+          "description": "Two worn footpaths meet here between a trio of elder trees. A faint mist drifts along the forest carpet, embracing the trunks and stirring at your footfalls. Where the paths meet an oblong flat stone has been laid upon the ground. They venture westward, where the trees part, southward through the mist and north, toward a dead end.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61060,
+              "to_zone": "Daemonwood",
+              "to_room_name": "End of the Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61053,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61055,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61055": {
+          "vnum": 61055,
+          "name": "Path through the Forest",
+          "description": "Briefly here the trees stand further apart, breaking to allow an occasional breeze to sweep downward and through the forest. The narrow footpath you travel upon leads into a thick tangle to the southwest, and to a meeting of paths to the east.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61054,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Pathfork in the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 61056,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 3,
+        "min_y": -3,
+        "max_y": 2,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 61050,
+      "to": 61051,
+      "direction": "n",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61051,
+      "to": 61052,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61051,
+      "to": 61057,
+      "direction": "w",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61052,
+      "to": 61053,
+      "direction": "n",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61053,
+      "to": 61054,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61054,
+      "to": 61060,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61054,
+      "to": 61055,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61055,
+      "to": 61056,
+      "direction": "sw",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61056,
+      "to": 61057,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61056,
+      "to": 61058,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61058,
+      "to": 61059,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61061,
+      "to": 61060,
+      "direction": "sw",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    }
+  ]
+}

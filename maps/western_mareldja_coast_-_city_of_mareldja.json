@@ -1,0 +1,397 @@
+{
+  "zone_name": "Western Mareldja Coast - City of Mareldja",
+  "entry_vnum": 40029,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40029,
+      "rooms": {
+        "40032": {
+          "vnum": 40032,
+          "name": "Smugglers` Den",
+          "description": "The room formed between the boxes and the cave wall is small and cramped. Two bed rolls lie along the wall next to a damp pair of boots and a rumpled shirt. The air smells of stale sweat and unwashed bodies.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40031,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "Cave Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40035": {
+          "vnum": 40035,
+          "name": "By the Cliff",
+          "description": "The sand on the beach is white and fine. A stairway leads its zig- zagged way up the cliff from the beach to the western gate above. The cliff tapers off as it heads away from the city, ending eventually in a series of dunes. Out on the water you can see several sails. Someone has scrawled something in the sand here.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40030,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Cliff",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40037,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Cliff Steps",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25018,
+              "to_zone": "The Ocean",
+              "to_room_name": "Off the Coast",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "By the Cliff",
+                "Off as it heads away from the city",
+                "Out on the water you can see several sails.  Someone has scrawled something in",
+                "Sand here.",
+                "Sand on the beach is white and fine.  A stairway leads its zig- zagged",
+                "Seagull squawks overhead looking for food.",
+                "Tiny purple shelled crab scurries across the sand.",
+                "Way up the cliff from the beach to the western gate above.  The cliff tapers",
+                "ending eventually in a series of dunes."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40029": {
+          "vnum": 40029,
+          "name": "By the Seaside",
+          "description": "The surf attacks and retreats from the shore, leaving trails of white foam in its wake. Overhead, seabirds cry their melancholy song. Sea spray cools your face and dampens your clothes, and the sand is hard and packed beneath you. The beach continues to the north and narrows as it nears the cliff to the south. Sets of perfectly formed waves break and peel just offshore.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40028,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Shipwreck",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40030,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Cliff",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25024,
+              "to_zone": "The Ocean",
+              "to_room_name": "Off the Coast",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40030": {
+          "vnum": 40030,
+          "name": "By the Cliff",
+          "description": "The sea glitters turquoise to the west, and the cliff rises high above you to the east. The sand is damp and fine and cool. Here and there you spot bits of colored shell and pieces of driftwood. At the cliff base, you notice a rather wide crack, ineptly hidden by a small boulder and some reeds. The beach widens to the south and follows the cliff to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40031,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "Cave Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40029,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Seaside",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40035,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Cliff",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25021,
+              "to_zone": "The Ocean",
+              "to_room_name": "Off the Coast",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "By the Cliff",
+                "Of colored shell and pieces of driftwood.  At the cliff base",
+                "Rather wide crack",
+                "Red crab forages for food.",
+                "Sea glitters turquoise to the west",
+                "Tiny purple shelled crab scurries across the sand.",
+                "To the east.  The sand is damp and fine and cool.  Here and there you spot bits",
+                "Widens to the south and follows the cliff to the north.",
+                "and the cliff rises high above you",
+                "ineptly hidden by a small boulder and some reeds.  The beach",
+                "you notice a"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40031": {
+          "vnum": 40031,
+          "name": "Cave Entrance",
+          "description": "The remains of a fire lie in the cave center, still warm. You see an opening in a wall of ill-stacked boxes to the south. The cave entrance lies to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40032,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "Smugglers` Den",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40030,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Cliff",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Cave Entrance",
+                "Opening in a wall of ill-stacked boxes to the south.  The cave entrance lies to",
+                "Partas sits here",
+                "Remains of a fire lie in the cave center",
+                "West.",
+                "playing solitaire.",
+                "still warm.  You see an"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 40029,
+      "to": 40030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40030,
+      "to": 40031,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40030,
+      "to": 40035,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40031,
+      "to": 40032,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,727 @@
+{
+  "zone_name": "Xymaran Encampment",
+  "entry_vnum": 32201,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 1,
+    "min_y": -2,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 32201,
+      "rooms": {
+        "32201": {
+          "vnum": 32201,
+          "name": "Xymar Riverbank",
+          "description": "The muddy riverbank seems to be the least of your worries, as you start to remember how you ended up here, the familiar murmur seems to get louder here. The path to the north has been blocked by debris from the explosion, so it seems your only option is to venture along the muddy riverbank toward the murmurs. As you proceed south, you realize you've made a novice mistake and sprung a trap! You are whisked south by a mudslide; backtracking is out of the question.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 32203,
+              "to_zone": "River Xymar",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32204": {
+          "vnum": 32204,
+          "name": "Torchlit Caverns",
+          "description": "Young reptilian Xymara seem to be scarce now that you're deeper within the cavern. Makes one wonder what else could lurk this deep within a torchlit cavern. The muddy riverbank extends north toward the source of the stream that flows to the south.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 32208,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Guardhouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32205,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Xymar River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32203
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32205": {
+          "vnum": 32205,
+          "name": "Xymar River",
+          "description": "The Xymar river seems to be shallow here but muddy nonetheless. Your attention is diverted to a discarded piece of driftwood that pricked you near your ankles. These muddy waters are populated with what you assume to be the remnants of the construction of the two footbridges.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32204,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32206,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32202,
+            32209
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32206": {
+          "vnum": 32206,
+          "name": "Torchlit Caverns",
+          "description": "Torches are firmly affixed to the walls, far from reach. Splinters of discarded driftwood cover these muddy riverbanks. You notice long, discarded scales and deduce the cavern inhabits more than hatchlings. The mounted torches extend in both directions alongside the river.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32205,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Xymar River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32207,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32210
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32207": {
+          "vnum": 32207,
+          "name": "Torchlit Caverns",
+          "description": "The path alongside the river is blocked by surgically placed driftwood. This muddy riverbank is home to numerous newly born Xymaras. A brave hatchling sinks its needle-sharp teeth into your ankle, producing a yowl of pain and a reflexive kick at its head from you. You look down at the welter of smashed bones with satisfaction.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32202,
+              "to_zone": "River Xymar",
+              "to_room_name": "Footbridge",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32206,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32208": {
+          "vnum": 32208,
+          "name": "Guardhouse",
+          "description": "A tall structure made of precisely cut driftwood stands here. Large torches are held by wooden clamps on every side. The structure elevates high into the cavern providing any inhabitants with a view of most of the cavern.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32204,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32209,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Footbridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32209": {
+          "vnum": 32209,
+          "name": "Footbridge",
+          "description": "The craftsmanship of this footbridge raises the question of who or what was involved in its construction. The pieces of driftwood are perfectly shaped to form an actual arch over the riverbed. This footbridge seems to be able to support a great deal of weight.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32208,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Guardhouse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32211,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Xymar River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32210,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32205
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32210": {
+          "vnum": 32210,
+          "name": "Torchlit Caverns",
+          "description": "Stacks of driftwood obstruct the riverbank to the south. Two structures can be seen from this vantage point, a little shack to the west and a tall structure to the east. The cavern walls narrow to the west as the torches light the path inviting you along.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32209,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Footbridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32212,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            32206
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32211": {
+          "vnum": 32211,
+          "name": "Xymar River",
+          "description": "Using every muscle in your body, you paddle against the powerful stream just to stay in place. Hesitating would probably cause you to be sucked straight out of this forsaken land, which might not be such a bad idea now that you think about it.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32209,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Footbridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go stream": {
+              "to_vnum": 98043,
+              "to_zone": "City of Cadain",
+              "to_room_name": "Adrift on Lake Cadain",
+              "direction": "go stream",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "32212": {
+          "vnum": 32212,
+          "name": "Torchlit Caverns",
+          "description": "The entrance to a pathetic little shack lies to the west. It looks as though it hasn't seen a bit of maintenance since it was built, and could collapse at any minute. The sound of constant murmurs catches your attention, and you decide that stealth may be the best option here. After all, discretion is sometimes the better part of valor.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32210,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32213,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Battle Chief's Shack",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32213": {
+          "vnum": 32213,
+          "name": "Battle Chief's Shack",
+          "description": "A heavy throne cut from a single block of granite takes up most of the space, making you feel suddenly claustrophobic. A pair of torches flank the monstrous seat, casting long shadows over the room. The wooden roof comes dangerously close to the pair of flames that rise from torches.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32212,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Torchlit Caverns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32214,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Cramped Den",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32214": {
+          "vnum": 32214,
+          "name": "Cramped Den",
+          "description": "There appears to be a small granite cube in the corner of this gloomy room. It reeks with the stench that is shared amongst the Xymaras.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 32213,
+              "to_zone": "Xymaran Encampment",
+              "to_room_name": "Battle Chief's Shack",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 1,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 32204,
+      "to": 32208,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32204,
+      "to": 32205,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32205,
+      "to": 32206,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32206,
+      "to": 32207,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32208,
+      "to": 32209,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32209,
+      "to": 32211,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32209,
+      "to": 32210,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32210,
+      "to": 32212,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32212,
+      "to": 32213,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32213,
+      "to": 32214,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

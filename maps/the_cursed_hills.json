@@ -1,0 +1,491 @@
+{
+  "zone_name": "The Cursed Hills",
+  "entry_vnum": 20024,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 2,
+    "min_y": -1,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 20024,
+      "rooms": {
+        "20024": {
+          "vnum": 20024,
+          "name": "The Cursed Hills",
+          "description": "The very air here is thick with the disease of the earth. Even the black grasses that survive on the hills to the south are absent here. A large number of wide holes in the soil hint that something may live here, but what it is best remains unasked.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20026,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20025,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20021,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The River Telemacus",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20025": {
+          "vnum": 20025,
+          "name": "The Cursed Hills",
+          "description": "As you begin to wonder whether the wastelands stretch on forever, you are greeted by a sheer face of stone. Looking skyward, you wonder why you hadn't noticed it earlier, as the rock rises quite high.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20027,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20024,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20026": {
+          "vnum": 20026,
+          "name": "The Cursed Hills",
+          "description": "Although the hills here are less steep, they are no less depressing. All that was beautiful has been here destroyed, and vast numbers of noxious little rodents have come scrambling to devour the rest.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20027,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 20028,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20022,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Mouth of the River Telemacus",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 20023,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Northern Shore of Lake Arlyn",
+              "direction": "se",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20024,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20027": {
+          "vnum": 20027,
+          "name": "The Cursed Hills",
+          "description": "You have traversed the black hills and been stopped dead by a huge wall of granite. The mountains start here in one gigantic leap upward. Any ideas of wreaking vengeance upon the dwarves are quickly forgotten as you try your best to see the top...and fail.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20028,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20026,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20025,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20028": {
+          "vnum": 20028,
+          "name": "The Cursed Hills",
+          "description": "The hills here have flattened into a bleak plain. You stand just south of a sheer granite cliff that rises up into the clouds. Looking east, you see a small green dot on the horizon!",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20029,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Sylph's Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20031,
+              "to_zone": "Dwarven Demesne",
+              "to_room_name": "A Hole in the Wall",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 20026,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20027,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20029": {
+          "vnum": 20029,
+          "name": "The Sylph's Garden",
+          "description": "This small valley is apparently the only part of this vast wilderness to have survived the curse of the mountain dwarves. Fruit trees abound, as do bright and fragrant flowers. The contrast is stunning. Perhaps you could rest in the shade for a bit. To the north is a small clearing.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20030,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Tomb of Narcin",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20028,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 6
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 20024,
+      "to": 20026,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20024,
+      "to": 20025,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20025,
+      "to": 20027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20026,
+      "to": 20027,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20026,
+      "to": 20028,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20027,
+      "to": 20028,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20028,
+      "to": 20029,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

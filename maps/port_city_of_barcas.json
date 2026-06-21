@@ -1,0 +1,1017 @@
+{
+  "zone_name": "Port City of Barcas",
+  "entry_vnum": 27009,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -5,
+    "max_y": 3
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 27009,
+      "rooms": {
+        "27009": {
+          "vnum": 27009,
+          "name": "Receiving",
+          "description": "A large platform has been set up in the middle of the harbor, around which circle different vessels, all being directed to various parts of the shipyard by members of the port authority. Even the largest ships seem to be moving about impossibly smoothly, almost as though propelled by some unseen force beneath the waves.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27010,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Wide Berth",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27008,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Port of Barcas",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27011": {
+          "vnum": 27011,
+          "name": "Junction",
+          "description": "This lane of the harbor is kept open, and generally free of traffic. Small ferries carry those with business within the city walls to the gates northward, but for the most part it is reserved for quick and smooth passage of vessels in and out of the shipyards and naval base to the east.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27012,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Majestic Landing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27010,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Wide Berth",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27013
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27012": {
+          "vnum": 27012,
+          "name": "Majestic Landing",
+          "description": "Clearly the elaborate wood and marble quay, with all its finely polished walkways and amazingly engineered supports was designed to awe and impress those arriving at the city, no less exquisite than the legendary golden gates of Cadain. Multiple covered walkways and pavilions grace the extensive structure, all decorated with bright tapestries flapping in the breeze.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27032,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Gateway to Barcas",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27011,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Junction",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27113
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27010": {
+          "vnum": 27010,
+          "name": "Wide Berth",
+          "description": "The floating piers and walkways have been removed from this part of the enormous harbor, to make room for several ships which appear to be waiting for repair. One lists badly, while another appears to be sinking at a near-visible rate.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27011,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Junction",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27009,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Receiving",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27057": {
+          "vnum": 27057,
+          "name": "Foot of the Barcane",
+          "description": "Monumentous stairs have been carved into the side of the great hill. They are capped with thick marble, the colors alternating from black to white on each step, veins of gold running through them all. High above your head the rich and noble folk make their homes and livings away from the hustle and bustle of the city below.",
+          "grid_x": 0,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 27033,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Inside the Gates",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 27058,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Terrace on the Great Stair",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27096
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27032": {
+          "vnum": 27032,
+          "name": "Gateway to Barcas",
+          "description": "In a wide courtyard before the open gates grows an immense and old arbutus tree, its rusty red bark constantly peeling away to reveal the fresh smooth growth beneath. The tree has been the symbol of Barcas since the city was founded, and is one of the few places in the known world where the rare species still flourishes.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27033,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Inside the Gates",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27012,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Majestic Landing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27033": {
+          "vnum": 27033,
+          "name": "Inside the Gates",
+          "description": "Inside the gates of Barcas, the city spreads out before you in precise order. The main avenue runs a circuit around the city, parallel with the walls, streets leading off of it in a grid pattern into the bustling centre of the populace. At its heart is the imposing hill of the Barcane, home of the nobles and ruling class.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27057,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Foot of the Barcane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27032,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Gateway to Barcas",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27034,
+            27056
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -5,
+        "max_y": 1,
+        "room_count": 7
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 27058,
+      "rooms": {
+        "27058": {
+          "vnum": 27058,
+          "name": "Terrace on the Great Stair",
+          "description": "If you counted the stairs, you would find that you are exactly halfway up the hill. This step has been widened into a large terrace replete with benches and exotic looking plants, to provide a place of repose for those making the climb up to the shops and homes above.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 27057,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Foot of the Barcane",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 27060,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Top of the Great Stair",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 27113,
+      "rooms": {
+        "27074": {
+          "vnum": 27074,
+          "name": "The Pimrii Bazaar",
+          "description": "Two wide rugs are laid out before a low stone house on the eastern side of the bazaar. Racks filled with all manner of wands and staves, lined up in neat rows, are perused by Barcian nobles; many of which have to be politely warned not to touch the merchandise. Misfires in such crowded areas cause so many unneeded problems.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 27066,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Home of Gondlir",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27075,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27073
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27075": {
+          "vnum": 27075,
+          "name": "The Pimrii Bazaar",
+          "description": "Several stalls in the area are selling rich looking clothes, most of which appear none too practical, or even all that comfortable. A group of ladies discuss the latest in fashions, debating whether those coming in from Mareldja or J'rel are truly in the height of style.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 27067,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "A Helping Hand",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 27074,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 27070,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27113": {
+          "vnum": 27113,
+          "name": "Loading Dock",
+          "description": "Longshoremen work diligently loading and unloading cargo in an endless stream from the merchant vessels anchored in the Mareldja harbor. Opportunistic seabirds circle above you, near a group of fishing boats, swooping in from time to time to scoop up the cast off heads and entrails.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 27114,
+              "to_zone": "Mareldja Harbor - City of Mareldja",
+              "to_room_name": "Loading Dock",
+              "direction": "go out",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "27060": {
+          "vnum": 27060,
+          "name": "Top of the Great Stair",
+          "description": "Hundreds of wide marble-capped steps are carved into the side of the hill, descending quite steeply to follow the natural curvature of the rock. Nobles and regular citizens alike pass you by, coming and going from the temple complex and the Pimrii bazaar some distance to the north.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27061,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Canopied Causeway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 27058,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Terrace on the Great Stair",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27061": {
+          "vnum": 27061,
+          "name": "Canopied Causeway",
+          "description": "The short causeway between the great stair and the bazaar is shaded by the boughs of several elder arbutus trees, their scaly bark littering the ground and crunching underfoot with each step. Richly dressed nobles breeze past you, laughing haughtily.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27069,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Paved Crossroad",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27060,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Top of the Great Stair",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27066": {
+          "vnum": 27066,
+          "name": "Home of Gondlir",
+          "description": "The first thing of notice within the spacious home is the large kitchen. Several stoves, each of which are covered in various pots and pans, throw off near uncomfortable heat. All of the counter space is filled with mortars, pestles, and countless packets of exotic ingredients; the tools of an alchemist.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 27074,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27067": {
+          "vnum": 27067,
+          "name": "A Helping Hand",
+          "description": "This small shop is devoted to the sale of quality gloves, gauntlets, and other handwear. Though the clientele consists mostly of the wives of councilors and other such wealthy women, a healthy selection of more combat ready goods are available for the discerning buyer.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 27075,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27069": {
+          "vnum": 27069,
+          "name": "Paved Crossroad",
+          "description": "A smaller road intersects the Barcane's main street here, leading between her famous zoo to the east and the temple complex to the west. Where the two meet, both are expanded into a wide circle ringed with benches. At its centre a modest fountain burbles out a rainbow of dyed water.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27070,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27061,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Canopied Causeway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27062,
+            27068
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "27070": {
+          "vnum": 27070,
+          "name": "The Pimrii Bazaar",
+          "description": "Various kiosks and stalls line either side of the well tended plaza. The litter seen in city below is curiously absent, as are the pickpockets and miscreants who generally ply their trade such bustling centers of commerce. As you catch the stern eye of one of the cities many military police, you are reminded why.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 27075,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "The Pimrii Bazaar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 27069,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Paved Crossroad",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27071,
+            27073
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 3,
+        "room_count": 9
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 27009,
+      "to": 27010,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27010,
+      "to": 27011,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27011,
+      "to": 27012,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27012,
+      "to": 27032,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27032,
+      "to": 27033,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27033,
+      "to": 27057,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -5
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27060,
+      "to": 27061,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27061,
+      "to": 27069,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27066,
+      "to": 27074,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27067,
+      "to": 27075,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27069,
+      "to": 27070,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27070,
+      "to": 27075,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 27074,
+      "to": 27075,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

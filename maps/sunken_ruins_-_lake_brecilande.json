@@ -1,0 +1,76 @@
+{
+  "zone_name": "Sunken Ruins - Lake Brecilande",
+  "entry_vnum": 47239,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47239,
+      "rooms": {
+        "47239": {
+          "vnum": 47239,
+          "name": "Cliff",
+          "description": "You cling to the side of a short cliff above the lake. From this point it appears it may be possible to climb west onto a large pile of broken stones resting in the shallows. Dark iron streaks run thick through the rock.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47256,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "On Lake Breceliande",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47255,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spensers Point",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47238
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

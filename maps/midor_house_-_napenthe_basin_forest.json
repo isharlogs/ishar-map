@@ -1,0 +1,437 @@
+{
+  "zone_name": "Midor House - Napenthe Basin Forest",
+  "entry_vnum": 47023,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47023,
+      "rooms": {
+        "47016": {
+          "vnum": 47016,
+          "name": "Midor House",
+          "description": "Candles upon a low, rectangular table provide dim illumination to the small foyer of the Midor house. Ahead the banisters of a staircase leading upward bear carved emerald headstocks, resembling golems. A T-shaped carpet upon the wooden floor begins at the oak door, splitting off to lead east and west.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47018,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47025,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Before a Stone House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47017,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47019,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47017": {
+          "vnum": 47017,
+          "name": "Midor House",
+          "description": "A large, iron kettle is suspended above an open, ash filled circle of stones in a far corner of the room. Shelves line one wall, containing a variety of books and trinkets. A small mouse hole breaks the floorboards in a corner below a low, wide glass tabletop supported by a set of four tiger skulls.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47016,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47018": {
+          "vnum": 47018,
+          "name": "Midor House",
+          "description": "The air here shimmers and crackles with energy. Two globes rotate around each other above in an ever changing pattern, causing shadows to play wildly about the bare stone walls. A tilted drawing table is pushed against a far wall, with a shelf below containing various instruments and papers. Some loose stones collect dust in the corners, and a rolled mat rests aside a small altar.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47016,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47023": {
+          "vnum": 47023,
+          "name": "Under the Arch",
+          "description": "You stand underneath the small arch, before a gate of tarnished silver. A modest plaque adorns the gate at its center. Beyond the gate awaits a squat, ornately designed structure made up of flat pastel stonework. Trees rise hundreds of feet into the air, creating a thick canopy above.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47025,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Before a Stone House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 47004,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Thin Path",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47025": {
+          "vnum": 47025,
+          "name": "Before a Stone House",
+          "description": "Amidst the trees here is a tiny clearing in which resides this house. Layers of thin, flat stones in a variety of geometric shapes and sizes are affixed to the basic structure, and a solid oak door stands to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47016,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 47023,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Under the Arch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47026": {
+          "vnum": 47026,
+          "name": "Chantry",
+          "description": "The scent of rosemary hangs languidly in the air here within a small chantry. A large, carved wooden idol rests upon the far wall, slowly gathering dust.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47036,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral East",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47027": {
+          "vnum": 47027,
+          "name": "Under the Steps",
+          "description": "The word \"pigsty\" comes to mind as you survey this dingy, repulsive little hidey-hole beneath the steps. A pantheon of detritus parades within the confined space, a tribute to the artistry of neglected housekeeping... and yes, it does appear to be something's home.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47020,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Cracked Steps",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Vicious goblin",
+              "description": "Head to toe, this is one ugly mother.  Warts, boils, sores, and a variety of parasites call it their travelling home.  Everybody gotta have somebody,",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 2,
+        "room_count": 7
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47019,
+      "rooms": {
+        "47019": {
+          "vnum": 47019,
+          "name": "Midor House",
+          "description": "Stepping off of the staircase you find earth beneath your feet in this large loft above the Midor house. Two beds stationed against the far wall are flanked by sets of low, ivory pillars. Weeds and wildflowers spring up from the floor to fill the room and scale the cracked, stone walls. There is a single window here, to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47016,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Midor House",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47016,
+      "to": 47018,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47016,
+      "to": 47025,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47016,
+      "to": 47017,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47023,
+      "to": 47025,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

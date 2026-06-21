@@ -1,0 +1,962 @@
+{
+  "zone_name": "Fallen Tower",
+  "entry_vnum": 69013,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -4,
+    "max_y": 1
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 69005,
+      "rooms": {
+        "69005": {
+          "vnum": 69005,
+          "name": "Shirams Private Study",
+          "description": "An eerie feeling overwhelms your senses as you enter this room. Shivering torches form dancing shadows on the wall all around you. The ground looks like stone, but seems to cushion your feet as you walk on it. Everywhere you look, you see piles of books stacked on each other. Near the back of the room, is a wooden desk with a chair sitting behind it. A set of stairs lead back up to the tower.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69004,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Laboratory",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Shiram",
+              "description": "You dispatch Garok into the shadows of oblivion. (64) Garok issues a bloodcurdling cry of pain! You get 376 ivory coins from a corpse here. A glowing green key vanishes. You hear a click. Ok. An eerie feeling overwhelms your senses as you enter this room. Shivering torches form dancing shadows on the wall all around you.  The ground looks like stone, but seems to cushion your feet as you walk on it.  Everywhere you look, you see piles of books stacked on each other.  Near the back of the room, is a wooden desk with a chair sitting behind it.  A set of stairs lead back up to the tower. Shiram quietly reads over his spell books. Kick is no longer on cooldown! Just by looking at this wizard you get a feel of the magnitude of power he posesses. He reads over his spell books one by one as if nothing in the world could bother him.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69011": {
+          "vnum": 69011,
+          "name": "Guard Station",
+          "description": "What a mess. This strikes you as more of a dump than a station. To get from one side to the other, you have to step over a variety of garbage including rotting food, grease, and various battle equipment. The walls are no better and the entire area smells of dead bodies. The orcs have certainly made themselves comfortable here. A cell door leads to the east and a set of stairs lead up to the kitchen.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69012,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Foul Cell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 69010,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Kitchen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69012": {
+          "vnum": 69012,
+          "name": "Foul Cell",
+          "description": "You've walked into a disgustingly filthy cell under the tower. Cobwebs line the walls rats scurry around on the ground. Sets of chains are bolted to all three walls except the western one which the cell door. You can't help but feel sorry for those who were condemned to spend time in this awful place.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69011,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Guard Station",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 3
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 69013,
+      "rooms": {
+        "69000": {
+          "vnum": 69000,
+          "name": "Stone Bridge",
+          "description": "The trees have parted slightly here, allowing room for a miniature stream. You can see it flowing westward, while your view to the east is partially obstructed by trees. A solid stone bridge stretches from one edge of the creek to the other. To the north, the trees thicken and lead you back into the forest. A huge iron gate can be seen to the south.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69013,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Forest Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69001,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "The Gateway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Sivera",
+              "description": "Before you stands a beautiful elven enchantress. Her light hair flows over her shoulders like silk. However, the confused look on her face along with a subtle frown suggests she is slightly lost.",
+              "unique": true,
+              "npc_type": "unique"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69001": {
+          "vnum": 69001,
+          "name": "The Gateway",
+          "description": "Before you, stands an enormous iron gate. Piercing spikes point at the sky every few inches atop it. Thick brush creeps up on the stone wall, which extends to the east and west on each side of the gate. A set of gigantic, grey hinges, which look as if they would be impossible to force open, grip the gates tightly. To the south, a tower rises up behind the gate, and a small river lies to the north.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69000,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Stone Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69002,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69002": {
+          "vnum": 69002,
+          "name": "Courtyard",
+          "description": "You stand in the center of a wide courtyard which sits just in front of a mighty tower. A carpet of grass covers the ground, and pleasing foliage lines the edge of the grounds. To the north, the iron gate leads back into the forest, and a stone tower stands to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69001,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "The Gateway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69003,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Stone Entrance Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69003": {
+          "vnum": 69003,
+          "name": "Stone Entrance Chamber",
+          "description": "This room seems to be the main entryway to the tower. The entire chamber appears to be made of stone. An archway leads out to the north, and the sunlight creeping through it paints half of the room light grey. The western end of the chamber is lit by torches, which are scattered along the wall. A second exit to the west leads to a larger chamber, and you may travel south, through the archway.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69002,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69010,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Kitchen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69006,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Base of the Spiral Staircase",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69004": {
+          "vnum": 69004,
+          "name": "Laboratory",
+          "description": "This room seems like a typical laboratory. Stone shelves protrude from the walls and support an assortment of mystical contents. Potions and wands, separated by color, sit on a lower group of shelves. The potions themselves seem to radiate a light which illuminates the room. Among all of the equipment is a seemingly bare table. An eagle-emblazoned totem pulses with a serene, mystical energy.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69006,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Base of the Spiral Staircase",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69005,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Shirams Private Study",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Shiram",
+              "description": "You dispatch Garok into the shadows of oblivion. (64) Garok issues a bloodcurdling cry of pain! You get 376 ivory coins from a corpse here. A glowing green key vanishes. You hear a click. Ok. An eerie feeling overwhelms your senses as you enter this room. Shivering torches form dancing shadows on the wall all around you.  The ground looks like stone, but seems to cushion your feet as you walk on it.  Everywhere you look, you see piles of books stacked on each other.  Near the back of the room, is a wooden desk with a chair sitting behind it.  A set of stairs lead back up to the tower. Shiram quietly reads over his spell books. Kick is no longer on cooldown! Just by looking at this wizard you get a feel of the magnitude of power he posesses. He reads over his spell books one by one as if nothing in the world could bother him.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69006": {
+          "vnum": 69006,
+          "name": "Base of the Spiral Staircase",
+          "description": "You've come to what looks like the center of the tower. The room doesn't have any torches, but is lit by light emanating from the east and south. In the center of the room, an enormous spiral staircase ascends through the ceiling. Every now and then, a bright flash from the south catches your eye.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69003,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Stone Entrance Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69004,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Laboratory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69007,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Supply Room",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69010": {
+          "vnum": 69010,
+          "name": "Kitchen",
+          "description": "You are standing in what looks like some sort of kitchen. An assortment of pots and pans are spilled out of an old cabinet on the wall. What looks like a stove sits in the corner and emits a smell that makes you want to gag. The entire room is a home for rodents, spiders and a collection of various parasites. An archway leads north to the entrance chamber and a set of dark stairs trail down below the tower.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69003,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Stone Entrance Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69011,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Guard Station",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69013": {
+          "vnum": 69013,
+          "name": "Forest Trail",
+          "description": "The trail curves here, extending to the east and south. The smell of pine trees overwhelms you as you pass through this section of the woods. You can hear the faint sound of rushing water to the south, but it is drowned out by the rustling of the trees. The trail continues to the east and south.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69014,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Forest Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69000,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Stone Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69200,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forest Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Forest Trail",
+                "Hear the faint sound of rushing water to the south",
+                "Muscular orc wanders about",
+                "Rustling of the trees.  The trail continues to the east and south.",
+                "Trail curves here",
+                "Trees overwhelms you as you pass through this section of the woods.  You can",
+                "but it is drowned out by",
+                "extending to the east and south.  The smell of pine",
+                "searching for a new clan."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69014": {
+          "vnum": 69014,
+          "name": "Forest Trail",
+          "description": "You've come to a small trail which branches off of the forest to the east. Pine needles crunch beneath your feet as you tread on, following the path. Off to both sides of the trail, squirrels dash around and birds chirp together. There is a gentle breeze in the air, cooling your face and causing the massive trees above you to sway slightly. The trail continues to the east and west.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24027,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69013,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Forest Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Forest Trail",
+                "Pine needles crunch beneath your feet as you tread on",
+                "Silvery-green herb grows in a dense patch",
+                "There is a gentle breeze in the air",
+                "To both sides of the trail",
+                "Trees above you to sway slightly.  The trail continues to the east and west.",
+                "You've come to a small trail which branches off of the forest to the east.",
+                "cooling your face and causing the massive",
+                "following the path.  Off",
+                "its leaves fragrant and bitter.",
+                "squirrels dash around and birds chirp together."
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 1,
+        "room_count": 9
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 69007,
+      "rooms": {
+        "69007": {
+          "vnum": 69007,
+          "name": "Supply Room",
+          "description": "The spiral staircase comes to a stop on a platform here. It looks like it used to be used for some sort of a supply room. A set of dusty, empty racks stick to the wall, and a number of storage crates are set in a corner. One staircase leads back down to the ground level, while a second staircase climbs to the top of the tower. Through an archway to the east, you can see a large chamber.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69008,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Olaks Quarters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69006,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Base of the Spiral Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69009,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Watch Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69008": {
+          "vnum": 69008,
+          "name": "Olaks Quarters",
+          "description": "You are standing in the center of a huge chamber which serves as the home of Olak. Pictures on the wall have been torn down to allow room for an assortment of swords and shields. A collection of heads rests above the doorway, covering up what looks like ancient elven writing. Through the passage to the west, you can see a spiral staircase which leads up and down.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69007,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Supply Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 69009,
+      "rooms": {
+        "69009": {
+          "vnum": 69009,
+          "name": "Watch Tower",
+          "description": "You are standing at the very top of this mighty tower. The first thing you notice about it is that it has no walls. The floor comes to an abrupt halt at the edge of the tower. You also find it odd that unlike most other towers, this one was built in the shape of an octagon. the spiral staircase reaches up from below, and comes to an end in the middle of the platform. You can see the land for miles in all directions from this point. Since there isn't any wall surrounding the tower, you could jump off, if you really had to.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 69007,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Supply Room",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go over": {
+              "to_vnum": 69002,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Courtyard",
+              "direction": "go over",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 69000,
+      "to": 69013,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69000,
+      "to": 69001,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69001,
+      "to": 69002,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69002,
+      "to": 69003,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69003,
+      "to": 69010,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69003,
+      "to": 69006,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69004,
+      "to": 69006,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69007,
+      "to": 69008,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69011,
+      "to": 69012,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 69013,
+      "to": 69014,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

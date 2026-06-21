@@ -1,0 +1,851 @@
+{
+  "zone_name": "Brown River Valley",
+  "entry_vnum": 57016,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 17
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24033,
+      "rooms": {
+        "24033": {
+          "vnum": 24033,
+          "name": "Stout Cabin",
+          "description": "",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24034,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Boat Yard",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57026": {
+          "vnum": 57026,
+          "name": "Trail to the River",
+          "description": "You walk a trail leading down into the river valley. Around you stand numerous birch, their light bark catching the sunlight as it drops through spaces in the canopy overhead. The trail leads from east to west, dropping downward as it goes.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57027,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57034,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Trail to the River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57027": {
+          "vnum": 57027,
+          "name": "Northern Slopes of the River Valley",
+          "description": "Here the River of Bruenor's Woe turns west and begins its drop into the forested valley where it metamorphoses into the Brown River. From the southwest, you hear the roar of falling water and spot small clouds of mist as they dissolve in the air above point where the river vanishes. The banks are too steep to the south for you to enter, but you could enter just east of here. Trees rise to your west, offering another possible path to the river.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57008,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The River of Bruenor's Woe",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57028,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57026,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Trail to the River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57028": {
+          "vnum": 57028,
+          "name": "Northern Slopes of the River Valley",
+          "description": "Here the low grasses follow the river as it winds down into the valley to the southwest. A thin forest borders this strip of grassy slope on the west, also paralleling the river's course. Above the soft gurgling of the water, all is silent, broken only occasionally by the distant cry of a bird. You can walk north or south along the river, move into the forest to the west, or enter the river to the east.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57007,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The River of Bruenor's Woe",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57005,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Riverbank",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57027,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57042,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Edge of the Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57033": {
+          "vnum": 57033,
+          "name": "Shaded Trail",
+          "description": "The woods here stand in perpetual twilight, and to the west the twilight gives way to night. The trees bordering the trail to the north are too closely spaced and the undergrowth too thick for you to pass, but you can walk down west.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57042,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "Edge of the Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57040,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Edge of Night",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57021,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57034": {
+          "vnum": 57034,
+          "name": "Trail to the River",
+          "description": "The trail runs downhill from the east to the south, bending toward the river and avoiding the silent and dark forest to the north and west. A songbird sings from the heights of a nearby tree, lifting your spirits. You listen for a while, but the bird soon falls silent, leaving you only the memory of its happiness. The dense forest blocks the way west, but you can enter it to the north or follow the trail east or south.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57026,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Trail to the River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57040,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Edge of Night",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57025
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57036": {
+          "vnum": 57036,
+          "name": "The Dark Forest",
+          "description": "Silence and blackness meet you here beneath the towering trees, while brush scratches cruelly at your legs. Tiny bits of light sparkle like diamonds between the trees to the west and uphill to the north, but to the east, the night yet reigns.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57020,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57031,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57032,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57007": {
+          "vnum": 57007,
+          "name": "The River of Bruenor's Woe",
+          "description": "The river flows fairly swiftly from north to south as it winds its way toward the river valley. You notice a number of goats grazing on the grassy slopes far to the west, and think you might have seen a bear wandering through the trees.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57006,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Bruenor's Crossing",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57008,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The River of Bruenor's Woe",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57028,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57008": {
+          "vnum": 57008,
+          "name": "The River of Bruenor's Woe",
+          "description": "As you follow the river from the north toward the valley to the south, you begin to hear a faint roaring sound, and you note that the river has narrowed and the current become swifter. The grassy slopes to the west lead along the hillside toward the forest.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57007,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The River of Bruenor's Woe",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57027,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57009
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72018": {
+          "vnum": 72018,
+          "name": "Rivertop Trail",
+          "description": "The edge of a wet forest creeps into a grassy field along the edges of a path here, winding its way along the top of a northern riverbank. The glistening water of the Brown River flows past just to the south, but the bank is too steep to descend, leaving east and west as the only possibly directions of travel.",
+          "grid_x": -1,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57016,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72017,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Mine Entrance",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57015": {
+          "vnum": 57015,
+          "name": "East of Oldgate",
+          "description": "You float on the brown, muddy waters of the river as it flows from east to west toward the city of Oldgate. Grassy slopes lead uphill to the north and south. Just upstream to the east, a thick tangle of trees and vines springs up from the banks.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57017,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 23021,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            57014,
+            57044
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57016": {
+          "vnum": 57016,
+          "name": "Northern Slopes of the River Valley",
+          "description": "Surrounded by knee-high grasses, you stand on a mild slope rolling gently down into the Brown River valley to the south. A ways east, a dense forest springs up out of the ground and obscures the course of the river. A second hill rises beyond the river to the south. You can travel uphill to the north, downhill to the south, or through the grasses to the edge of the forest just east of here. A trail also runs west.",
+          "grid_x": 0,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57032,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57000,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57017,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72018,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Rivertop Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57017": {
+          "vnum": 57017,
+          "name": "Northern Slopes of the River Valley",
+          "description": "The land here slants lazily down toward the Brown River to the south. To the north and beyond the river to the south, it climbs up the twin hills that cradle the river. Directly to the east, a dense, dark forest rises from the hillside and hides the river upstream. You can move north along the slope, enter the forest to the east, or plunge into the river to the south.",
+          "grid_x": 0,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57023,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57016,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57015,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "East of Oldgate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 17,
+        "room_count": 13
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 57007,
+      "to": 57008,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57007,
+      "to": 57028,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57008,
+      "to": 57027,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57015,
+      "to": 57017,
+      "direction": "n",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57016,
+      "to": 57017,
+      "direction": "s",
+      "from_grid": [
+        0,
+        15
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57016,
+      "to": 72018,
+      "direction": "w",
+      "from_grid": [
+        0,
+        15
+      ],
+      "to_grid": [
+        -1,
+        15
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57026,
+      "to": 57027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57026,
+      "to": 57034,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57027,
+      "to": 57028,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

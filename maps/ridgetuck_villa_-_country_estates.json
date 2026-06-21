@@ -1,0 +1,6467 @@
+{
+  "zone_name": "Ridgetuck Villa - Country Estates",
+  "entry_vnum": 31000,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -5,
+    "max_x": 4,
+    "min_y": -4,
+    "max_y": 21
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 31063,
+      "rooms": {
+        "31010": {
+          "vnum": 31010,
+          "name": "On the Stairs",
+          "description": "You are standing on a set of wide stone stairs. Top of the Stairs",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 31011,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Bottom of the Stairs",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31009,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of the Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31011": {
+          "vnum": 31011,
+          "name": "Bottom of the Stairs",
+          "description": "You have come to the bottom landing of a set of wide stone stairs. On the Stairs",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31013,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The East End of the Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31010,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "On the Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31012": {
+          "vnum": 31012,
+          "name": "Dark Cell",
+          "description": "This cell is barren.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31013,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The East End of the Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31013": {
+          "vnum": 31013,
+          "name": "The East End of the Hall",
+          "description": "You find yourself, yet again, in a hallway. But this time there is a door to the east and a cell door to the south. Ok. Bottom of the Stairs",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31011,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Bottom of the Stairs",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31012,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dark Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31015,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Middle of the Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31014": {
+          "vnum": 31014,
+          "name": "Comfy Cell",
+          "description": "Droplets of candle wax coat the stone floor.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31015,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Middle of the Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31015": {
+          "vnum": 31015,
+          "name": "The Middle of the Hall",
+          "description": "You see a door made of iron bars to the south. The hallway continues.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31013,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The East End of the Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31014,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Comfy Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31017,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of the Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31016": {
+          "vnum": 31016,
+          "name": "Dark Cell",
+          "description": "This cell has a straw tick artfully strewn in the corner. West End of the Hall",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31017,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of the Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31017": {
+          "vnum": 31017,
+          "name": "West End of the Hall",
+          "description": "This hallway looks like the other part of the hallway that you were in except that there is a steel door to the north and an iron-barred door to the south. pick cell You feel the mechanism release. The lock yields to your skills. Ok. Dark Cell",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31015,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Middle of the Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31018,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31016,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dark Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31018": {
+          "vnum": 31018,
+          "name": "Hallway",
+          "description": "Heavy, dank stones make up the walls of this rectangular subterranean passage. Your heart is filled with a curious dread as you wonder what is behind the heavy steel door and beyond the northern portal. pick steel.door You feel the mechanism release. The lock yields to your skills. Ok. West End of the Hall",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31020,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Naughty Dungeon",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31017,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of the Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31019": {
+          "vnum": 31019,
+          "name": "Implement Storage Room",
+          "description": "This small storage area is neatly filled with sterilized and well-maintained whips, chains, various leather restraints, small clamps (you're not sure that you want to know what these are used for), leather-covered ping-pong paddles, crops, and dull rasps.",
+          "grid_x": -3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31020,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Naughty Dungeon",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31020": {
+          "vnum": 31020,
+          "name": "Naughty Dungeon",
+          "description": "This spacious and well-lit room is filled with a rack, an adjustable table with stirrups, and several well placed and highly polished mirrors. The ceiling and walls are hung with strategically located shackles and manacles. The devices, however, are covered in velvet, and all of the spikes and sharp edges have been dulled. Also, although you see stains, you see no sign of blood stains.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31021,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Peephole Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31018,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31019,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Implement Storage Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31021": {
+          "vnum": 31021,
+          "name": "Peephole Room",
+          "description": "This room has peepholes set at various heights so that a person can comfortably peer into the next room without being observed. It is tastefully decorated with small, cushioned benches and expensive tapestries. Naughty Dungeon",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31022,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Narrow Staircase",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31020,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Naughty Dungeon",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31022": {
+          "vnum": 31022,
+          "name": "Narrow Staircase",
+          "description": "A narrow wooden staircase leads upward. Top of Private Staircase",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31021,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Peephole Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31023,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of Private Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31054": {
+          "vnum": 31054,
+          "name": "Wine Cellar",
+          "description": "As you check the dates on the bottles you think to yourself that all this stuff should have been thrown out fifty years ago. It's a crime that someone would keep alcoholic beverages around this long without drinking them. And these bottles line all the walls except for a short break in the north wall and a space in the south wall where a door is at the end of two steep steps. l n You see nothing remarkable. l break There isn't much to see. The break is open. It is too dark to make out anything. go break",
+          "grid_x": -2,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go break": {
+              "to_vnum": 31056,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Small Subterranean Chamber",
+              "direction": "go break",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31052,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Bedroom",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "31055": {
+          "vnum": 31055,
+          "name": "Treasure Room",
+          "description": "This isn't really a treasure room. It's a room where you get squished by this slowly descending, counter-weighted slab of granite. It makes a low rumbling sound as it mashes all of your bodily juices into some small, ornately carved drains. Bummer. OUCH!! That hurt! You have DIED! Tough break... Shuffled off the Mortal Coil You are dead. Far beneath you, you perceive the great body of Ishar and the powerful sun, Rymaras, slowly circling it. Ishar's tiny moons dance lightly around awaiting their next brief encounter with Saorin. You reflect on your affair with life and vow to pay more attention to your fragile existence. Wishing to return, you reach a hand out to enter Ishar.",
+          "grid_x": -3,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [
+            31056
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": true,
+          "portal": false
+        },
+        "31056": {
+          "vnum": 31056,
+          "name": "Small Subterranean Chamber",
+          "description": "As you check the dates on the bottles you think to yourself that all this stuff should have been thrown out fifty years ago. It's a crime that someone would keep alcoholic beverages around this long without drinking them. And these bottles line all the walls except for a short break in the north wall and a space in the south wall where a door is at the end of two steep steps. go break",
+          "grid_x": -2,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31057,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Treasure Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 31058,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Secret Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31054,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Wine Cellar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31055,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Treasure Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31057": {
+          "vnum": 31057,
+          "name": "Treasure Room",
+          "description": "This room has a nice ambiance. The ambiance of greed. It has a low coin- counting table, a low chair, and a low ceiling. You like this room very much.",
+          "grid_x": -1,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31056,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Small Subterranean Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31058": {
+          "vnum": 31058,
+          "name": "Secret Tunnel",
+          "description": "A heavy steel door dominates the southern end of the passage, while the northern end disappears into the darkness. Small Subterranean Chamber",
+          "grid_x": -2,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31059,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Bend in the Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31056,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Small Subterranean Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31059": {
+          "vnum": 31059,
+          "name": "Bend in the Tunnel",
+          "description": "The dank walls turn sharply here. You can go west or south. Slippery Tunnel",
+          "grid_x": -2,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31058,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Secret Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31060,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Slippery Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31060": {
+          "vnum": 31060,
+          "name": "Slippery Tunnel",
+          "description": "The floor of this tunnel is slick with slime. You can go either to the east or to the west. Bend in the Tunnel",
+          "grid_x": -3,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31059,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Bend in the Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31061,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "A Bend in the Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31061": {
+          "vnum": 31061,
+          "name": "A Bend in the Tunnel",
+          "description": "The dripping walls turn sharply here.",
+          "grid_x": -4,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31060,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Slippery Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31062,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "A Jog in the Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31062": {
+          "vnum": 31062,
+          "name": "A Jog in the Tunnel",
+          "description": "The tunnel switches back on itself.",
+          "grid_x": -4,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31063,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31061,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "A Bend in the Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31063": {
+          "vnum": 31063,
+          "name": "Tunnel Entrance",
+          "description": "A narrow arch frames the dark entrance to this tunnel.",
+          "grid_x": -4,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40272,
+              "to_zone": "The Sewers - City of Mareldja",
+              "to_room_name": "Rough Tunnel",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31062,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "A Jog in the Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -4,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 21,
+        "room_count": 23
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 31000,
+      "rooms": {
+        "31000": {
+          "vnum": 31000,
+          "name": "The Grand Gateway",
+          "description": "You stand before an enormous iron gate with gilded spikes running along its high, arched top. The gate is flanked by two granite monoliths whose presence speaks of great wealth, but also of great power. The monoliths rest against a high, smooth stone wall that extends around the building.",
+          "grid_x": -1,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31095,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East Corner of House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31003,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Porch",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 24037,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31094,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West Corner of House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31001,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Gatehouse",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31002": {
+          "vnum": 31002,
+          "name": "West End of Porch",
+          "description": "This part of the porch is shaded not only by the roof, but by the west side of the wall.",
+          "grid_x": -4,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31003,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Porch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31003": {
+          "vnum": 31003,
+          "name": "Center of Porch",
+          "description": "Huge grooved columns, topped with ornate caps, rise to at least three times your height on this platform. The porch extends to the east and west, the front door is to the north, and the main gate is to the south.",
+          "grid_x": -1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31004,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East End of Porch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31008,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Entrance Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31000,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Grand Gateway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31002,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of Porch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31004": {
+          "vnum": 31004,
+          "name": "East End of Porch",
+          "description": "This place is big enough that Zeno could have taught here. And it looks like a good place to drop names, too. A small stair leads to the ground eastward.",
+          "grid_x": 2,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31005,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Corner of the Villa",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31003,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Porch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31005": {
+          "vnum": 31005,
+          "name": "Eastern Corner of the Villa",
+          "description": "This is the space that separates the rich from the poor. A small wooden gate leads north to the servants' work area, and a stair leads up to the porch.",
+          "grid_x": 3,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31006,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Work Area",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31004,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East End of Porch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31006": {
+          "vnum": 31006,
+          "name": "Work Area",
+          "description": "This place is full of cleaning and repairing equipment. You see a large basin for washing clothes underneath a set of clothes lines. A tiny forge is set into the wall that defines the perimeter of the grounds, and a small anvil rests on a stone slab in front of it. You see mops and brooms, rakes and hoes, small hammers, pincers, shears, and all of the implements necessary to keep a household in good order.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31007,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "At the Servants Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31005,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Corner of the Villa",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31007": {
+          "vnum": 31007,
+          "name": "At the Servants Entrance",
+          "description": "The earth here is pounded hard by busy feet carrying heavy things. The door leading into the house is to the west, a low, wide, iron gate leads to the east, and there is a well-used work area to the south. Ok. The Kitchen",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31097,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Animal Pens",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31006,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Work Area",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31046,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Kitchen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31008": {
+          "vnum": 31008,
+          "name": "Entrance Room",
+          "description": "Gleaming onyx trim accents the lustrous marble that covers every surface in this large room. To the west are coat racks with enough space to hold all the coats of the concubines of the legendary King Hogan. Large double doors lead into the house to the north, and doors lead south to the porch.",
+          "grid_x": -1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31026,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Ballroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31003,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Porch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31009": {
+          "vnum": 31009,
+          "name": "Top of the Stairs",
+          "description": "You stand on a wide stone landing. Stairs continue straight down into darkness.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31034,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 31010,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "On the Stairs",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31023": {
+          "vnum": 31023,
+          "name": "Top of Private Staircase",
+          "description": "Handrails provide some safety on this steep, narrow staircase. l e There isn't much to see. The east door is open. Antechamber",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31047,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Antechamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 31022,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Narrow Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31024": {
+          "vnum": 31024,
+          "name": "The Fireplace",
+          "description": "You are standing in a raging fire, stupid.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31052,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Bedroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31025": {
+          "vnum": 31025,
+          "name": "West End of Ballroom",
+          "description": "Gild and filigree assault your senses. Fine marble coats the walls and floor and makes up the slender columns that support the high, arching roof of this long room which continues to the east. A wide and ornately carved door also leads to the north.",
+          "grid_x": -3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31026,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Ballroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31028,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Auditorium",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31026": {
+          "vnum": 31026,
+          "name": "Center of Ballroom",
+          "description": "Lavish, garish, and gorgeous are all words that spring to mind when you see the highly polished, inlaid marble of the floor. Two columns support the vaulted ceiling in this part of the room. Stuffed divans and highly polished sideboards adorn this cavern of opulence. The room itself extends to the east and west, while huge double doors lead north. The front doors are to the south, and a spiral staircase winds gracefully upward.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31027,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East End of Ballroom",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31030,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Main Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31008,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Entrance Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31025,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of Ballroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31066,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of the Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31027": {
+          "vnum": 31027,
+          "name": "East End of Ballroom",
+          "description": "The fine marble that this room displays shows not only the owner's wealth, but also his good taste. The delicate veins that run through it can only be compared to the translucent skin on the nape of a beautiful woman. You drag your eyes away from the spectacle long enough to realize that the pillared height of the ceiling extends to the west, and a door of glossy mahogany leads to the north.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31035,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dining Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31026,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Ballroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31028": {
+          "vnum": 31028,
+          "name": "Auditorium",
+          "description": "Low couches and overstuffed chairs are arranged in a semicircle around a low stage in the northern corner of the room. The stage has room for several musicians and their instruments. You see a door to the east and a much more elaborately carved door leading south.",
+          "grid_x": -3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31032,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31025,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West End of Ballroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31029": {
+          "vnum": 31029,
+          "name": "Southwest Corner of Hallway",
+          "description": "The carpet here is actually weaved in an L-shape so that it rounds the corner. The hallway goes north and east.",
+          "grid_x": -2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31030,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Main Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31032,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31030": {
+          "vnum": 31030,
+          "name": "Main Hallway",
+          "description": "An exquisitely woven carpet is tacked down in the center of this spacious hall. It leads to the east and west, while a door leads north and a set of double doors leads south.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31031,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31033,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Flowering Garden",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31026,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Ballroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31029,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31031": {
+          "vnum": 31031,
+          "name": "Southeast Corner of Hallway",
+          "description": "The carpet makes the turn in the hallway with military precision and with heavenly grace. The hall continues to the north and west.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31034,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31030,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Main Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31032": {
+          "vnum": 31032,
+          "name": "Western Hallway",
+          "description": "The carpet muffles your steps as you are forced to choose where to put them next. You can go north or south, or you can try the door to the west.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31038,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31029,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31028,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Auditorium",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31033": {
+          "vnum": 31033,
+          "name": "The Flowering Garden",
+          "description": "Graceful statues shyly hide among the exotic and strange plants that form miniature mazes around the central well. This place brings a temporary peace to your embattled soul. Rose bushes climb a sloping protuberance in the southeast corner of the wall, and doors lead in all four directions.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31039,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31043,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31030,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Main Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31038,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31034": {
+          "vnum": 31034,
+          "name": "Eastern Hallway",
+          "description": "The carpet quiets your feet. You may go north or south, or you can try the heavy wooden door to the west. Eastern Hallway",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31039,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31031,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31009,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of the Stairs",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31035": {
+          "vnum": 31035,
+          "name": "Dining Room",
+          "description": "One of the biggest tables that you have ever seen is flanked by twenty chairs. Fine crystal is displayed in a large cupboard on the east wall. Exits lead to the north, west and south.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31046,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Kitchen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31027,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East End of Ballroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31039,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31036": {
+          "vnum": 31036,
+          "name": "Purple Guest Bedroom",
+          "description": "A large, well-made bed dominates this room. Dark panelling contrasts pleasantly with the deep purple comforter and bed-curtains. You sense a theme. A tall wardrobe stands at attention against the west wall. You see only one exit in this room.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31037,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Purple Sitting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31037": {
+          "vnum": 31037,
+          "name": "Purple Sitting Room",
+          "description": "A small vanity attends the vain. This might be a good time to check your coiffure. Aside from the vanity there are several chairs, a small couch, and an ottoman. They are all upholstered in crushed purple velvet. A small, dainty writing table primps against the west wall. There is a door to the east and a room to the west.",
+          "grid_x": -3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31038,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31036,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Purple Guest Bedroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31038": {
+          "vnum": 31038,
+          "name": "Western Hallway",
+          "description": "This could turn out to be the longest carpet that you have ever seen. The hall continues north and south, a door leads west and a portal leads east to a courtyard garden.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31033,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Flowering Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31042,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31032,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31037,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Purple Sitting Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31039": {
+          "vnum": 31039,
+          "name": "Eastern Hallway",
+          "description": "That's it! This hallway is really working your nerves. So far you haven't found a seam in the carpet, which is pretty weird because if it's one piece the guy either had it made in the hall, or he built the house around it, because it wraps all the way around the courtyard hallway. The courtyard is to the west, the dining room is to the east, and the stupid hall continues to the south and to the north. Dining Room",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31035,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dining Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31045,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeastern Corner of Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31034,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31033,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Flowering Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31040": {
+          "vnum": 31040,
+          "name": "Green Guest Bedroom",
+          "description": "You're reminded of a deep forest meadow by the color of the trappings in this bedroom. An enormous bed fills the room. The mattress is so thick that you would have to pull yourself up onto it if you wanted to lie down. A wardrobe stands rigidly along the west wall. The only obvious exit from this wardrobe stands rigidly along the west wall. The only obvious exit from this room is the doorway to the east.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31041,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Green Sitting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31041": {
+          "vnum": 31041,
+          "name": "Green Sitting Room",
+          "description": "The color of the furniture in this room is the color of the sea on a calm, misty morning. If you weren't such a busy person you might find this the perfect place to settle in with some good food and some good friends for a few good hours. But, alas, an adventurer's lot is not a sedentary one. A door leads to the east and to the west is a bedroom. Northwest Corner of Hallway",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31042,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31040,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Green Guest Bedroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31042": {
+          "vnum": 31042,
+          "name": "Northwest Corner of Hallway",
+          "description": "The carpet makes a sharp, ninety degree turn and continues. The hallway carries it away to the south and east, and there are doors to the west and to the north. It's already open. Ok. Green Sitting Room",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31043,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31047,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Antechamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31038,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31041,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Green Sitting Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31043": {
+          "vnum": 31043,
+          "name": "Northern Hallway",
+          "description": "The intrepid carpet marches to and fro, to the east and to the west. In addition, a door leads north and the courtyard is south.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31044,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31048,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Sitting Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31033,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Flowering Garden",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31042,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31044": {
+          "vnum": 31044,
+          "name": "Northern Hallway",
+          "description": "The most interesting feature of this section of the hall, aside from the ubiquitous carpet, is the door to the north. It has a small window inset in that is steamed over. The hallway runs due east and due west. Northern Hallway",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31045,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeastern Corner of Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31049,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Pleasant Bath",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31043,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31045": {
+          "vnum": 31045,
+          "name": "Northeastern Corner of Hallway",
+          "description": "Another day, another elbow. In this case, an elbow of carpet. The tiny flower pattern in the runner makes your head swim. You wonder how they keep it so clean as you notice a doorway to the east. The hallway, no matter how much you don't want it to, continues to the south and to the west. Northern Hallway",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31046,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Kitchen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31039,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31044,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31046": {
+          "vnum": 31046,
+          "name": "The Kitchen",
+          "description": "You haven't seen a kitchen this big since you deserted the army. This one, however, does not smell of beans and potatoes. It smells of lightly battered chicken and sauteed mushrooms. Your mouth starts to water as you search the spotless counters. There are three doorways to this room, leading north, south, and west, and a narrow staircase leads upward. Northeastern Corner of Hallway",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31007,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "At the Servants Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 31051,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Pantry",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31035,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dining Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31045,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeastern Corner of Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31087,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Service Hall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31047": {
+          "vnum": 31047,
+          "name": "Antechamber",
+          "description": "This small room ordinarily contains no furniture because there are three doors opening into it. The doors to the north and south gently ruffle the silk arras on the west wall but the door to the east slides into the wall without disturbing the air.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31048,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Sitting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 31052,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Bedroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31042,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go arras": {
+              "to_vnum": 31023,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of Private Staircase",
+              "direction": "go arras",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "31048": {
+          "vnum": 31048,
+          "name": "Master Sitting Room",
+          "description": "This looks like a good place to master the art of sitting. All of the couches and chairs in this room are covered in a rich paisley brocade, and the motif is carried over into the borders of the tapestries that dampen and soften any noise. Doors lead northwest, south, and west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 31052,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Bedroom",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31043,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31047,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Antechamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31049": {
+          "vnum": 31049,
+          "name": "The Pleasant Bath",
+          "description": "The huge stone basin sunk into this floor could hold thirty bathers. A light mist caresses your skin as it rises from the heated pool. Wicker furniture is dotted about the wide tile apron that encircles the square bath. You see a small wooden door to the east and a large door with a small window to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31050,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Sauna",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31044,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31050": {
+          "vnum": 31050,
+          "name": "The Sauna",
+          "description": "A bowl of rocks is suspended by a chain over a large brazier full of glowing coals. A small basin filled with water grips the wall. A grandstand with three tiers made of thin wood slats makes for a comfortable place to rest while the thick steam in the room leaches the poisons from your skin.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31049,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Pleasant Bath",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31051": {
+          "vnum": 31051,
+          "name": "Pantry",
+          "description": "This is the place where all the dry goods get placed before they are eaten. The walls are lined with shelves so close together that you can barely turn around.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31046,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Kitchen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31052": {
+          "vnum": 31052,
+          "name": "Master Bedroom",
+          "description": "You have lived in rooms that were smaller than the bed here. A paisley the size of a small dragon adorns the down-filled comforter that lies across the top of the mattress. A fireplace that you could walk into dominates the west wall and is faced by a large overstuffed chair. A built-in bar holds racks of colored liquids against the north wall. Doors lead southwest, southeast, and east.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31053,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Study",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31047,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Antechamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 31048,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Sitting Room",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31024,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Fireplace",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go bar": {
+              "to_vnum": 31054,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Wine Cellar",
+              "direction": "go bar",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "31053": {
+          "vnum": 31053,
+          "name": "Study",
+          "description": "Glazed bookcases keep moisture and dust away from strange tomes and scrolls. A wide and well-used desk faces the door. A small bar is nestled in the southwest corner of the room. The only door that you see leads back out to the master bedroom. It strikes you that this room is oddly out of contrast with the rest of the house because it is so simply decorated. This must be the inner sanctum of the master of the house.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31052,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Master Bedroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31094": {
+          "vnum": 31094,
+          "name": "West Corner of House",
+          "description": "The high, smooth wall gracefully curves from east to north. You see a stable attached to the wall north of here and you see that the huge front gate lies to the east. The Grand Gateway",
+          "grid_x": -5,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31000,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Grand Gateway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31096,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Villa Stables",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31095": {
+          "vnum": 31095,
+          "name": "East Corner of House",
+          "description": "A beautiful gate stands gracefully to the west, while a tall hedge hides most of the view of the animal pens which are to the north. The Grand Gateway",
+          "grid_x": 4,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31097,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Animal Pens",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31000,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Grand Gateway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31096": {
+          "vnum": 31096,
+          "name": "Villa Stables",
+          "description": "The horses here are well-kept, but they are also well-used. You see the tack neatly arranged in a corner walled by an enormous stack of hay bales. A water- trough is an undulating home to several water spiders and dead flies. You smell all the rich, moist, alfalfa odor of the equine species. The northern wall is supplied by a sheer cliff face rising a hundred feet above the roof of the shed.",
+          "grid_x": -5,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31094,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "West Corner of House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31097": {
+          "vnum": 31097,
+          "name": "Animal Pens",
+          "description": "For the inhabitants of this place, this is the last stop before the table. The refuse of this smelly place is neatly raked into noisome piles. A gate allows access through the wall to the west, and a towering cliff blocks your path to the north. A passage through the hedge leads to the south.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31095,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "East Corner of House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31007,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "At the Servants Entrance",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -5,
+        "max_x": 4,
+        "min_y": -1,
+        "max_y": 9,
+        "room_count": 44
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 31066,
+      "rooms": {
+        "31001": {
+          "vnum": 31001,
+          "name": "Gatehouse",
+          "description": "This room is built to protect the guards from the elements. It does so with a smooth alabaster facade, and a wide marble mantle. The Grand Gateway",
+          "grid_x": 7,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 31000,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Grand Gateway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31064": {
+          "vnum": 31064,
+          "name": "Game Room",
+          "description": "Several small tables with inset chessboards are placed around this room. They are accented with low, comfortable chairs. You can also see cups of dice, a horsehair dartboard, and several solid wooden puzzles.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31065,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Billiard Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31065": {
+          "vnum": 31065,
+          "name": "Billiard Room",
+          "description": "A felt-covered table with leather pockets stands in the center of this room. Its legs end in clawed feet. There is a doorway leading west, and the door to the north leads back to the hall.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31069,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31064,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Game Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31066": {
+          "vnum": 31066,
+          "name": "Top of the Stairs",
+          "description": "You are on the top of the wide circular staircase that leads down to largest room of the house. To the north, a hallway allows access to the upper rooms.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31070,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southern Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 31026,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Center of Ballroom",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31067": {
+          "vnum": 31067,
+          "name": "Small Armory",
+          "description": "A halberd rack allows the weapons to be neatly stowed in this room. There is also a large, rough table, and several chairs. A narrow stairway hugs the east wall and passes through a trap-door in the ceiling.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31071,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 31093,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Observatory Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31068": {
+          "vnum": 31068,
+          "name": "Dahngholds Apartment",
+          "description": "The bed is tightly tucked, the objects on the night table are arranged at right angles, and the uniform on the valet is crisply pressed. Without a doubt, this is the room of a military man.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31069,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31069": {
+          "vnum": 31069,
+          "name": "Southwest Corner of Upstairs Hallway",
+          "description": "It's a hallway. What do you want? There are doors to the south and west, and the passage continues to the north and east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31070,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southern Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31074,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31065,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Billiard Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31068,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Dahngholds Apartment",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31070": {
+          "vnum": 31070,
+          "name": "Southern Upstairs Hallway",
+          "description": "The oak floor of this hall extends to the east and west. The spiral staircase is to the south.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31071,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31075,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Balcony",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31066,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Top of the Stairs",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31069,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31071": {
+          "vnum": 31071,
+          "name": "Southeast Corner of Upstairs Hallway",
+          "description": "Doorways lead south and east, while the passage continues to the north and west.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31072,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Guards Quarters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31076,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31067,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Small Armory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31070,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southern Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31072": {
+          "vnum": 31072,
+          "name": "Guards Quarters",
+          "description": "Two sets of bunk beds fill this room. There is space for a footlocker at either end of both the beds.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31071,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Green footlocker",
+              "contents": [
+                "Seamans bag"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31073": {
+          "vnum": 31073,
+          "name": "The Apartment of Cyclax",
+          "description": "Heavy incense assaults your nostrils as you enter this room. Small wind chimes and bells made of various metals fill the air with faint tinkling sounds. The bed clothes are the color of bright, fresh blood. There are strange markings on the floor.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31074,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31074": {
+          "vnum": 31074,
+          "name": "Western Upstairs Hallway",
+          "description": "Waxed oak floors provide solid footing on your journey through the upstairs part of the house. There is a doorway to the east and a door to the west.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31075,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Balcony",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31079,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31069,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southwest Corner of Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31073,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Apartment of Cyclax",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31075": {
+          "vnum": 31075,
+          "name": "Balcony",
+          "description": "You have stepped out onto a balcony that circles the perimeter of the courtyard below. Exits lead in all four directions.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31076,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31084,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31070,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southern Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31074,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31076": {
+          "vnum": 31076,
+          "name": "Eastern Upstairs Hallway",
+          "description": "A clear coat of wax covers the amber stain on the oak floor of this hallway. A door leads east and to the west is a portal leading outside. The hallway continues to the north and south.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31077,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Butlers Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 31080,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31071,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Southeast Corner of Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31075,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Balcony",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31077": {
+          "vnum": 31077,
+          "name": "Butlers Room",
+          "description": "This is the room of a man who takes his job seriously. Charts on the wall give schedules for all of the household chores. The bed is made, a few books are tucked on a high shelf, polishing rags are neatly folded and stacked in a corner. Nothing is out of place.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 31076,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31078": {
+          "vnum": 31078,
+          "name": "Drawing Room",
+          "description": "This is a small lounge where guests can visit each other. Two brown couches face each other next to a small fireplace while an overstuffed chair has been pushed back into one corner next to a small end table.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31079,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31079": {
+          "vnum": 31079,
+          "name": "Western Upstairs Hallway",
+          "description": "It leads north and south. A door leads west.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31083,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31074,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31078,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Drawing Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31080": {
+          "vnum": 31080,
+          "name": "Eastern Upstairs Hallway",
+          "description": "It leads north and south.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31086,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeast Corner of Upstairs Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31076,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31081": {
+          "vnum": 31081,
+          "name": "Cooks Room",
+          "description": "Flour dust has worked its way into everything in this room. The bed is made, but it wouldn't win any awards. There are several cookbooks laying around the room in various states of disrepair.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31087,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Service Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31083": {
+          "vnum": 31083,
+          "name": "Northwest Corner of Upstairs Hallway",
+          "description": "Doors lead north and west, and the hallway continues to the south and east.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31084,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31088,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Apartment of Mercruses",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 31079,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Western Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31084": {
+          "vnum": 31084,
+          "name": "Northern Upstairs Hallway",
+          "description": "The hallway continues east and west. A doorway leads to the north and a doorway leads to the south.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31085,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31089,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Doormaids Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31075,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Balcony",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31083,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31085": {
+          "vnum": 31085,
+          "name": "Northern Upstairs Hallway",
+          "description": "The hallway continues east and west. A doorway leads to the north.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31086,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeast Corner of Upstairs Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31090,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Attendants Quarters",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31084,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31086": {
+          "vnum": 31086,
+          "name": "Northeast Corner of Upstairs Hallway",
+          "description": "To the east is a narrow, short hallway. To the north is a doorway. To the south and west the passage continues.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 31087,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Service Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31091,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Maids Quarters",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31080,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Eastern Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 31085,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31087": {
+          "vnum": 31087,
+          "name": "Service Hall",
+          "description": "This is a narrow hallway for servants' access. Exits are to the north and south, the passage lets out onto the main hallway to the west, and a narrow stairway leads down.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 31092,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Utility Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 31081,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Cooks Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 31086,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeast Corner of Upstairs Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 31046,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Kitchen",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31088": {
+          "vnum": 31088,
+          "name": "The Apartment of Mercruses",
+          "description": "Everything in this apartment is definitely wrong. The floor refuses to appear level, especially where unfocused sigils dance in geometric irregularity. The room also smells variously of tomcats, jellybeans, and chalk dust. You think that there is a bed in here somewhere.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31083,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northwest Corner of Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31089": {
+          "vnum": 31089,
+          "name": "Doormaids Room",
+          "description": "This room is provided with a small bed and a tiny vanity.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31084,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31090": {
+          "vnum": 31090,
+          "name": "Attendants Quarters",
+          "description": "Three small beds sit in this room, but only one of them looks as though it has been recently used.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31085,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northern Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31091": {
+          "vnum": 31091,
+          "name": "Maids Quarters",
+          "description": "Two single beds wait patiently for their owners to return to them. This room is clean and tidy, although it is none too cheery.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31086,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Northeast Corner of Upstairs Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "31092": {
+          "vnum": 31092,
+          "name": "Utility Room",
+          "description": "This room has a square work table and two chairs. Scraps of material and bits of leather are arranged in piles along one wall.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 31087,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Service Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 4,
+        "min_y": -4,
+        "max_y": 1,
+        "room_count": 29
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 31093,
+      "rooms": {
+        "31093": {
+          "vnum": 31093,
+          "name": "Observatory Tower",
+          "description": "This small tower allows guards to see the surrounding area for a very long distance. It is furnished with a chair, a table, and a small brazier.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 31067,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "Small Armory",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 31000,
+      "to": 31095,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        9
+      ],
+      "to_grid": [
+        4,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31000,
+      "to": 31003,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        9
+      ],
+      "to_grid": [
+        -1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31000,
+      "to": 31094,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        9
+      ],
+      "to_grid": [
+        -5,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31002,
+      "to": 31003,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        7
+      ],
+      "to_grid": [
+        -1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31003,
+      "to": 31004,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        7
+      ],
+      "to_grid": [
+        2,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31003,
+      "to": 31008,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        7
+      ],
+      "to_grid": [
+        -1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31004,
+      "to": 31005,
+      "direction": "e",
+      "from_grid": [
+        2,
+        7
+      ],
+      "to_grid": [
+        3,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31005,
+      "to": 31006,
+      "direction": "n",
+      "from_grid": [
+        3,
+        7
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31006,
+      "to": 31007,
+      "direction": "n",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31007,
+      "to": 31097,
+      "direction": "e",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31007,
+      "to": 31046,
+      "direction": "w",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31008,
+      "to": 31026,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        6
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31009,
+      "to": 31034,
+      "direction": "e",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31011,
+      "to": 31013,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31012,
+      "to": 31013,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31013,
+      "to": 31015,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31014,
+      "to": 31015,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31015,
+      "to": 31017,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31016,
+      "to": 31017,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31017,
+      "to": 31018,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31018,
+      "to": 31020,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31019,
+      "to": 31020,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31020,
+      "to": 31021,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31021,
+      "to": 31022,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31023,
+      "to": 31047,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 31024,
+      "to": 31052,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31025,
+      "to": 31026,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        5
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31025,
+      "to": 31028,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        5
+      ],
+      "to_grid": [
+        -3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31026,
+      "to": 31027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31026,
+      "to": 31030,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        -1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31027,
+      "to": 31035,
+      "direction": "n",
+      "from_grid": [
+        2,
+        5
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31028,
+      "to": 31032,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31029,
+      "to": 31030,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        4
+      ],
+      "to_grid": [
+        -1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31029,
+      "to": 31032,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        4
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31030,
+      "to": 31031,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31030,
+      "to": 31033,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        4
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31031,
+      "to": 31034,
+      "direction": "n",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31032,
+      "to": 31038,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        3
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31033,
+      "to": 31039,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31033,
+      "to": 31043,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31033,
+      "to": 31038,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31034,
+      "to": 31039,
+      "direction": "n",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31035,
+      "to": 31046,
+      "direction": "n",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31035,
+      "to": 31039,
+      "direction": "w",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31036,
+      "to": 31037,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        -3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31037,
+      "to": 31038,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31038,
+      "to": 31042,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31039,
+      "to": 31045,
+      "direction": "n",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31040,
+      "to": 31041,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31041,
+      "to": 31042,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31042,
+      "to": 31043,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31042,
+      "to": 31047,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31043,
+      "to": 31044,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31043,
+      "to": 31048,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31044,
+      "to": 31045,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31044,
+      "to": 31049,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31045,
+      "to": 31046,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31046,
+      "to": 31051,
+      "direction": "n",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31047,
+      "to": 31048,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31047,
+      "to": 31052,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31048,
+      "to": 31052,
+      "direction": "nw",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31049,
+      "to": 31050,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31052,
+      "to": 31053,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31056,
+      "to": 31057,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        20
+      ],
+      "to_grid": [
+        -1,
+        20
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31056,
+      "to": 31058,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        20
+      ],
+      "to_grid": [
+        -2,
+        19
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31056,
+      "to": 31054,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        20
+      ],
+      "to_grid": [
+        -2,
+        21
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": true
+    },
+    {
+      "from": 31056,
+      "to": 31055,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        20
+      ],
+      "to_grid": [
+        -3,
+        20
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": true
+    },
+    {
+      "from": 31058,
+      "to": 31059,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        19
+      ],
+      "to_grid": [
+        -2,
+        18
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31059,
+      "to": 31060,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        18
+      ],
+      "to_grid": [
+        -3,
+        18
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31060,
+      "to": 31061,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        18
+      ],
+      "to_grid": [
+        -4,
+        18
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31061,
+      "to": 31062,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        18
+      ],
+      "to_grid": [
+        -4,
+        17
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31062,
+      "to": 31063,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        17
+      ],
+      "to_grid": [
+        -4,
+        16
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31064,
+      "to": 31065,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31065,
+      "to": 31069,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31066,
+      "to": 31070,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31067,
+      "to": 31071,
+      "direction": "n",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31068,
+      "to": 31069,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31069,
+      "to": 31070,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31069,
+      "to": 31074,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31070,
+      "to": 31071,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31070,
+      "to": 31075,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31071,
+      "to": 31072,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31071,
+      "to": 31076,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31073,
+      "to": 31074,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31074,
+      "to": 31075,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31074,
+      "to": 31079,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31075,
+      "to": 31076,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31075,
+      "to": 31084,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31076,
+      "to": 31077,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31076,
+      "to": 31080,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31078,
+      "to": 31079,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31079,
+      "to": 31083,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31080,
+      "to": 31086,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31081,
+      "to": 31087,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31083,
+      "to": 31084,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31083,
+      "to": 31088,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 31084,
+      "to": 31085,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31084,
+      "to": 31089,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31085,
+      "to": 31086,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31085,
+      "to": 31090,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31086,
+      "to": 31087,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31086,
+      "to": 31091,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31087,
+      "to": 31092,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31094,
+      "to": 31096,
+      "direction": "n",
+      "from_grid": [
+        -5,
+        9
+      ],
+      "to_grid": [
+        -5,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 31095,
+      "to": 31097,
+      "direction": "n",
+      "from_grid": [
+        4,
+        9
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

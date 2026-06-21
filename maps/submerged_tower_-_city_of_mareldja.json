@@ -1,0 +1,1311 @@
+{
+  "zone_name": "Submerged Tower - City of Mareldja",
+  "entry_vnum": 37816,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 2,
+    "min_y": -2,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 37800,
+      "rooms": {
+        "37800": {
+          "vnum": 37800,
+          "name": "An Old Banquet Hall",
+          "description": "Most of the furniture here is rotten and falling apart, but it seems that this was once a hall used to entertain guests. Some tattered trappings hang on the wall, depicting battles so old you can't recall ever hearing of them. A large window looks like it'll take you back outside the tower.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 37801,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 25018,
+              "to_zone": "The Ocean",
+              "to_room_name": "Off the Coast",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Black fiddler crab",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Blobby mess schlumps about the area.",
+                "Go out",
+                "Go thorugh",
+                "Go through",
+                "Immense",
+                "Large black fiddler crab menacingly waves its one massive claw.",
+                "Large window looks like it'll take you back outside the tower.",
+                "Most of the furniture here is rotten and falling apart",
+                "Old Banquet Hall",
+                "This was once a hall used to entertain guests.  Some tattered trappings hang on",
+                "Wall",
+                "You see no such egress.",
+                "but it seems that",
+                "depicting battles so old you can't recall ever hearing of them.  A",
+                "wooden banquet table lies in ruins."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "37801": {
+          "vnum": 37801,
+          "name": "Inside the Greying Tower",
+          "description": "You stand in salty water about a foot and a half deep. Trudging through it is a little tough and tiresome, but what's worse is your boots and pants are getting soaked. A spiral stone staircase against the wall leads up, but some ancient cave-in has caused the way down to become buried in rubble. A high stone archway opens to the east.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37800,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "An Old Banquet Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 37802,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37802": {
+          "vnum": 37802,
+          "name": "Inside the Greying Tower",
+          "description": "The stone floor here is dry, mostly. Dried salt crunches beneath your feet, as it someone -or something- was tracking water up here from the floor below. There are few windows here, just enough to let in some light, and are too high to reach.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 37803,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 37801,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37803": {
+          "vnum": 37803,
+          "name": "Inside the Greying Tower",
+          "description": "It looks like one of the new residents has made this a den of sorts. Fish bones and crustacean shells litter the ground here, cracking under your feet. Against the wall a spiral staircase winds into the darkness above.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37802,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 37804,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Stone Stairwell",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Man o' war",
+              "description": "Hrmm, you can't guarantee a stab at its back would hit anything vital. Most of the furniture here is rotten and falling apart, but it seems that this was once a hall used to entertain guests.  Some tattered trappings hang on the wall, depicting battles so old you can't recall ever hearing of them.  A large window looks like it'll take you back outside the tower. An immense, wooden banquet table lies in ruins. A blobby mess schlumps about the area. A large black fiddler crab menacingly waves its one massive claw. A blobby mess schlumps about the area. A strange looking frog hops about. Years of neglect ha weathered this once magnificeintly ornate banquet table.  Such a pity as you can almost hear the ghost of long-past revelers table. A broken banquet table is a select item, too heavy to lift and much larger than you are.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37804": {
+          "vnum": 37804,
+          "name": "Stone Stairwell",
+          "description": "Here, the stairwell is purposefully isolated from the rest of the third floor, all encased in thick stone. A large opening on the eastern side allows passage to the other areas of this floor. There are no windows here, and the torches that once illuminated the stairwell have long since burned out. Glancing about, you notice a solitary sconce in the middle of the wall-mounted torch hangers.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 37805,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 37806,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 37803,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "up the stone stairs": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "up the stone stairs",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "37805": {
+          "vnum": 37805,
+          "name": "Inside the Greying Tower",
+          "description": "Large iron cannons rest on the floor here, aimed out small rectangular windows in the tower wall. Peering out one, you can barely make out the sea below as you struggle to get a look around the massive cannons that are much too heavy to budge. Clearly they used to take entire teams of cannoneers to aim and fire.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 37806,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 37804,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Stone Stairwell",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 37808,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "An Old Armory",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37806": {
+          "vnum": 37806,
+          "name": "Inside the Greying Tower",
+          "description": "A few piles of old iron cannonballs serve as ammunition for the behemoth cannons lining the walls here. Peering out one of the cannon ports, you can just make out the coast to the east, though your view is hampered by the bulk of the large gun and the prohibitively small window. A few old empty barrels lie near the cannons, likely once holding gunpowder.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 37805,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 37804,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Stone Stairwell",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 37807,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Weapons Cache",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37807": {
+          "vnum": 37807,
+          "name": "A Weapons Cache",
+          "description": "Ancient swords and spears and pikes line the walls that block the staircase as well as any wallspace left between the cannons. You would take some, but they would likely all shatter as soon as they made impact with anything, and don't seem to be worth much.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37806,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 37808,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "An Old Armory",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Squawking gull",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37808": {
+          "vnum": 37808,
+          "name": "An Old Armory",
+          "description": "Pieces of steel plate and chainmail are lined up against the walls and set upon armor dummies throughout the room. They all look about ready to crumble at the slightest hint of battle. Mostly you find breastplates and helmets, with a few gauntlets and legguards, suitable to defend against return fire from ships and to defend the tower from any invaders who may have made it up this far. A few spots along the outer wall are allotted for massive cannons, much like the rest of this level of the tower.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37805,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 37807,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Weapons Cache",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37809": {
+          "vnum": 37809,
+          "name": "Top of the Staircase",
+          "description": "The stairwell -and the tower- comes to an end here. The floor is cluttered with a bunch of, well, old junk. A few broken music boxes, some rotten old game tables, delapidated chairs and tables and the like. The top floor seems to be one big room, and you can see it all from here. Off to the west some old armor lies neglected, to the south appears a store of weapons, and to the north and east there seems to be more clutter.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37811,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 37810,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 37812,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Weapons Cache",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 37813,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 37804,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Stone Stairwell",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37810": {
+          "vnum": 37810,
+          "name": "Atop the Greying Tower",
+          "description": "You find yourself atop the greying tower alone on the sea. Gazing out the windows affords you a marvelous view of the waters below, glittering like millions of jewels being tossed by the waves. Inside the tower however, the musty old stone and abundance of neglected keepsakes allow a much less inspiring view.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 37811,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 37813,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37811": {
+          "vnum": 37811,
+          "name": "Atop the Greying Tower",
+          "description": "The clutter of old junk makes it difficult to navigate your way around without stepping on something. Just about every antique you can imagine lies long forgotten on the ground here. Windows along the wall allow tower archers to rain death upon anyone attempting to infiltrate the tower or get closer to the coast to the east.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 37810,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 37812,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Weapons Cache",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37812": {
+          "vnum": 37812,
+          "name": "A Weapons Cache",
+          "description": "Some very old longbows -their strings long since decayed- and shortswords lie in vast quantities here. Not a single one looks servicable, sadly. The wall offers several wedge shaped windows designed especially for archers.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 37811,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 37813,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Inside the Greying Tower",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37813": {
+          "vnum": 37813,
+          "name": "Inside the Greying Tower",
+          "description": "Some light armor collects dust here. There are a few metal pieces, but it is mostly leather. Archery ports dot the wall, flooding the area with light during the day. Interestingly, a single sconce hangs on the wall, looking about ready to fall off. The most well lit area in the tower so far, why would there be an artifical light source here? There appears to be a small opening near the ceiling against the wall.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37809,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Top of the Staircase",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 37810,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "Atop the Greying Tower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 37812,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Weapons Cache",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 37814,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Submerged Level of the Tower",
+              "direction": "go through",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Coiled sea serpent",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "37814": {
+          "vnum": 37814,
+          "name": "A Submerged Level of the Tower",
+          "description": "After a long fall, you land luckily in a deep pool of water. This section of the tower seems to be completely submerged. All the furniture and wall trappings are terribly waterlogged, but you have bigger things to think of. The windows are all barred up, preventing you from getting out. After nearly falling to your death, you sure don't want to drown here.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 37815,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Submerged Level of the Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "After a long fall",
+                "Falling to your death",
+                "L furniture",
+                "L trappings",
+                "Of the tower seems to be completely submerged.  All the furniture and wall",
+                "Submerged Level of the Tower",
+                "There isn't much to see.",
+                "Trappings are terribly waterlogged",
+                "Windows are all barred up",
+                "but you have bigger things to think of.",
+                "preventing you from getting out.  After nearly",
+                "you land luckily in a deep pool of water.  This section",
+                "you sure don't want to drown here."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "37815": {
+          "vnum": 37815,
+          "name": "A Submerged Level of the Tower",
+          "description": "A bunch of old furniture rests on the ground here in their watery grave. Broken tables and ancient couches and chairs are everywhere. Looking about quickly, you notice an old wooden and iron chest without a top. But that is of little consequence as your life is quickly escaping you. Scanning the room, you notice the bars on one of the windows seem a bit mangled.",
+          "grid_x": 5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 37814,
+              "to_zone": "Submerged Tower - City of Mareldja",
+              "to_room_name": "A Submerged Level of the Tower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go window": {
+              "to_vnum": 25018,
+              "to_zone": "The Ocean",
+              "to_room_name": "Off the Coast",
+              "direction": "go window",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "*a component pouch*",
+                "- Bonus Experience (+60%)",
+                "- End of the World Sale! (50% Shop Discount)",
+                "- Heal Speed (+100%)",
+                "1 months and 20 days old.",
+                "And images of an unknown civilization feature prominently on the 8 different",
+                "Animated pot of gold",
+                "Broken tables and ancient couches and chairs are everywhere.  Looking about",
+                "Broken window leads out to the open sea.",
+                "Bunch of old furniture rests on the ground here in their watery grave.",
+                "Enchanted",
+                "Exits",
+                "Get all chest",
+                "Get chest",
+                "Global events currently active:",
+                "Go window",
+                "Health: 100%  Movement: 135%",
+                "I",
+                "Iron and wooden chest is a select item",
+                "It is worth a maximum of 10 obsidian.",
+                "It seems empty.",
+                "L",
+                "L bars",
+                "L chest",
+                "L window",
+                "Lid succumbed long ago",
+                "Little consequence as your life is quickly escaping you.  Scanning the room",
+                "Purse: 6460    In containers: 0    Treasure: 11168    Total: 17628",
+                "Quickly",
+                "Saorin's Reckoning - 4 days and 10 hours",
+                "Sc",
+                "Shield of black dragonscales",
+                "Splinter of wood",
+                "Submerged Level of the Tower",
+                "There isn't much to see.",
+                "Thin iron key",
+                "Types of coin.",
+                "Untrap chest",
+                "White helmet",
+                "Wimpy auto-flee set to 25% health.",
+                "Wintry blue wand",
+                "Yarbelek's fiery smith hammer",
+                "You are 37 years",
+                "You are Poundsy.",
+                "You are a classic character.",
+                "You are carrying:",
+                "You are standing.",
+                "You can't seem to budge it.",
+                "You can't seem to budge the iron and wooden chest.",
+                "You carry a moderate load.",
+                "You find no trap there.",
+                "You have played for 13 days and 14 hours.",
+                "You have sacrificed 0% of what you need to gain divine favor.",
+                "You have the following money:",
+                "You logged in 53 seconds ago.",
+                "You notice the bars on one of the windows seem a bit mangled.",
+                "Your armor is damaged! Type \"score armor\" to view.",
+                "Your karma is good (3047) and Safety keeps you from attacking other players.",
+                "but the rest of the sturdy chest remains.",
+                "extremely heavy and much larger than you are.",
+                "leather drinking flask",
+                "you notice an old wooden and iron chest without a top.  But that is of"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "37816": {
+          "vnum": 37816,
+          "name": "Within the Mausoleum",
+          "description": "You find yourself standing within a large central chamber with a high, domed ceiling. Stained glass windows high above cast a warm, colorful light throughout the room. Intricate carvings and paintings decorate the stately marble, depicting legendary figures and moments from the world's history. Five small rooms break off from the main chamber through an elegant stone archway, decorated with a sigil.",
+          "grid_x": 4,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40434,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Before the Mausoleum",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            37817,
+            37818,
+            37819,
+            37820,
+            37821
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": -2,
+        "max_y": 1,
+        "room_count": 17
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 37800,
+      "to": 37801,
+      "direction": "w",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37802,
+      "to": 37803,
+      "direction": "w",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37804,
+      "to": 37805,
+      "direction": "ne",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37804,
+      "to": 37806,
+      "direction": "se",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37805,
+      "to": 37806,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37805,
+      "to": 37808,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37806,
+      "to": 37807,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37807,
+      "to": 37808,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37809,
+      "to": 37811,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37809,
+      "to": 37810,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37809,
+      "to": 37812,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37809,
+      "to": 37813,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37810,
+      "to": 37811,
+      "direction": "se",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37810,
+      "to": 37813,
+      "direction": "sw",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37811,
+      "to": 37812,
+      "direction": "sw",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37812,
+      "to": 37813,
+      "direction": "nw",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 37814,
+      "to": 37815,
+      "direction": "e",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

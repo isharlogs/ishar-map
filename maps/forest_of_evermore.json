@@ -1,0 +1,1284 @@
+{
+  "zone_name": "Forest of Evermore",
+  "entry_vnum": 20050,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 1,
+    "min_y": -4,
+    "max_y": 20
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 20050,
+      "rooms": {
+        "20050": {
+          "vnum": 20050,
+          "name": "The Forest of Evermore",
+          "description": "The trees part at a small clearing as you arrive at the junction of several trails. Small blue stones line the serviceable trails that lead in northerly directions.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20051,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20052,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 20053,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20017,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20051": {
+          "vnum": 20051,
+          "name": "The Forest of Evermore",
+          "description": "A thin trail weaves among the pines and shrubbery leading you further into the forest. Blessed by Isvaelin, the forest flourishes and teems with life. Squirrels chatter playfully and the towering pines are healthy and robust. A small plume of smoke rises from the southeast.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20053,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20054,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 20055,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Before a Stone Cottage",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20050,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20052": {
+          "vnum": 20052,
+          "name": "The Forest of Evermore",
+          "description": "The pines continue on and the surrounding foliage flourishes. Animal calls are heard from every quarter of the wood within earshot. The forest teems with life all around you, a sanctuary obviously protected by the gods.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20058,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 20059,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20050,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20053": {
+          "vnum": 20053,
+          "name": "The Forest of Evermore",
+          "description": "You come to another intersection of trails between the massive pines. Leading off in several different directions, the paths are swept clear of any large debris. Each path is clearly well defined by small blue stones that mark the edges along each path.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20056,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20057,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20051,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 20050,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20054": {
+          "vnum": 20054,
+          "name": "The Forest of Evermore",
+          "description": "The path dead-ends here. Pines are crowded close together, enclosing the area in all directions except for the one in which you came. While you are no expert, the scuff marks on the ground suggest that these are the romping grounds of wolves.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20051,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20055": {
+          "vnum": 20055,
+          "name": "Before a Stone Cottage",
+          "description": "In the center of a large clearing stands a well-built stone cottage. A small plume of smoke rises up from its chimney, while a delicious aroma drifts on the wind emanating from the cottage. Beneath your feet small smooth stones fit perfectly into a small walkway that leads up to the cottage.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20056,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 20051,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20069,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Cozy Stone Cottage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20056": {
+          "vnum": 20056,
+          "name": "The Forest of Evermore",
+          "description": "Pine needles rain down upon the trail as the wind rustles through tree the branches. Mosses grow on some of the trees while insects burrow into the pines, making their homes. The trail continues to the west, as well as south towards a small stone cottage.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20055,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Before a Stone Cottage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20053,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20057": {
+          "vnum": 20057,
+          "name": "The Forest of Evermore",
+          "description": "As you proceed through the forest you stumble upon a small stream. Flowing quietly through the wood, the stream is frequented by all of the local forest life. The rustle of pines and the trickle of the stream are quite soothing.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20053,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20058,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20058": {
+          "vnum": 20058,
+          "name": "The Forest of Evermore",
+          "description": "The colossal pines reach far up into the heavens as if they seek to touch the sky and become immortal themselves. In the trees above, you observe the antics of squirrels and the busy chattering of many small animals, hardly distinguishable from this distance. The trail continues on to the south and to the east.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20057,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20052,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20059": {
+          "vnum": 20059,
+          "name": "The Forest of Evermore",
+          "description": "A worn path meanders through the pines here, making its way through the forest. The path is kept remarkably clear of any debris, small blue stones them.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 20060,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 20052,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20060": {
+          "vnum": 20060,
+          "name": "The Forest of Evermore",
+          "description": "You are standing in a meager clearing with a small path that runs through the middle of the clearing, traveling deeper into the woods. The enchanted forest is quiet around you and you deem it a good idea to move on.",
+          "grid_x": -3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 20061,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 20059,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20061": {
+          "vnum": 20061,
+          "name": "The Forest of Evermore",
+          "description": "Breaking the prolonged silence, a small furry creature slips from its precarious perch atop a tree and falls to the ground with a crash. Getting up hastily the creature dives from view into the bushes. A small path ends here leaving the only available exit to the southwest.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 20060,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go bushes": {
+              "to_vnum": 20062,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Shrouded Dell",
+              "direction": "go bushes",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "20062": {
+          "vnum": 20062,
+          "name": "A Shrouded Dell",
+          "description": "The terrain declines sharply here exposing a foliage-shrouded dell. Large pines dominate the dell, giving off a sweet aroma. Proceeding through the bushes would bring you back to a small path, while venturing northeast brings you deeper into the mysterious dell.",
+          "grid_x": -1,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 20063,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Shrouded Dell",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go bushes": {
+              "to_vnum": 20061,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "go bushes",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "20063": {
+          "vnum": 20063,
+          "name": "A Shrouded Dell",
+          "description": "Pine needles adorn the ground in profusion creating mysterious patterns that addle the mind. Even more strangely the pine needles have all fallen to the side of a worn trail leading further into the dell.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20064,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Path Through a Shrouded Dell",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 20062,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Shrouded Dell",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20064": {
+          "vnum": 20064,
+          "name": "Path Through a Shrouded Dell",
+          "description": "The pines start to thin as you near the center of the dell. Long shadows are cast by the towering pines enveloping you in a shroud of black. Birds in the distance call out to one another in strange melodies.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20065,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Morelt Pool",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20063,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Shrouded Dell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20065": {
+          "vnum": 20065,
+          "name": "Morelt Pool",
+          "description": "Abruptly devoid of any trees, the area here opens up into a large clearing. The small path ends at the edge of an opaque pool of water that stretches across the entire clearing, ending in more pines. In the center of the pool a figure walks upon the water coming closer then fading into nothingness.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20064,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Path Through a Shrouded Dell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go pool": {
+              "to_vnum": 20066,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "An Opaque Pool",
+              "direction": "go pool",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "20066": {
+          "vnum": 20066,
+          "name": "An Opaque Pool",
+          "description": "Within the pool it is extremely cold, sending shivers down your spine. The water is almost crystal clear here, despite the pool's opaque exterior. Fish shy cautiously away as you enter into their domain. Barely perceptible at the bottom of the pool lies the opening of a small tunnel.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 20065,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Morelt Pool",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 20067,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Submerged Tunnel",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "20067": {
+          "vnum": 20067,
+          "name": "A Submerged Tunnel",
+          "description": "As you paddle in the dark tunnel you feel the pull of the current urging you northward. You are careful not to veer too close to any of the walls as jagged rocks protrude throughout the tunnel. A strange, cold, pulsing chills you to the bone.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20068,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "An Enormous Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 20066,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "An Opaque Pool",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20068": {
+          "vnum": 20068,
+          "name": "An Enormous Cavern",
+          "description": "As you regain your bearings you see that you are in an enormous cavern. A tall wall of water bars the entrance creating a dry and hospitable atmosphere. The walls are decorated with strange symbols and writing that mystifies you.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20067,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "A Submerged Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Kial",
+              "description": "Having seen the world in ages long past, Kial is an ancient shadow that practices arts unseen by man for eons. Looking into your eyes his gaze pierces into you, passing judgment upon your soul.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20069": {
+          "vnum": 20069,
+          "name": "A Cozy Stone Cottage",
+          "description": "The room here opens up with enough space to house fifty inhabitants. In the center of the room is a large table set with platefuls of delicious looking cakes and two steaming soup bowls. Along the walls, shelves house many meticulously arranged jars and specimens. Axes and other foresting tools rest neatly upon a rack in the corner of the room.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20055,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "Before a Stone Cottage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 20,
+        "room_count": 20
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 20050,
+      "to": 20051,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20050,
+      "to": 20052,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20050,
+      "to": 20053,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20051,
+      "to": 20053,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20051,
+      "to": 20054,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20051,
+      "to": 20055,
+      "direction": "se",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20052,
+      "to": 20058,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20052,
+      "to": 20059,
+      "direction": "nw",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20053,
+      "to": 20056,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20053,
+      "to": 20057,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20055,
+      "to": 20056,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20055,
+      "to": 20069,
+      "direction": "s",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20057,
+      "to": 20058,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20059,
+      "to": 20060,
+      "direction": "nw",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20060,
+      "to": 20061,
+      "direction": "ne",
+      "from_grid": [
+        -3,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20062,
+      "to": 20063,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        20
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20063,
+      "to": 20064,
+      "direction": "n",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20064,
+      "to": 20065,
+      "direction": "n",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20067,
+      "to": 20068,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "zone_name": "Grasslands",
+  "entry_vnum": 71050,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 71050,
+      "rooms": {
+        "71050": {
+          "vnum": 71050,
+          "name": "Grasslands",
+          "description": "The ancient wall of Oldgate rises to your north. Time has pried away several huge blocks of grey stone and driven them deep into the surrounding soil. Knee- high grasses cover the ground, encircling these broken remnants of civilization like vultures waiting patiently for the final throes of death. You can travel west along the wall or east or south into the open prairie.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22073,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside of Surtower",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71019,
+            76076
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

@@ -1,0 +1,2519 @@
+{
+  "zone_name": "Eastern Forest Warzone - Jharet Forest",
+  "entry_vnum": 69200,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -13,
+    "max_x": 8,
+    "min_y": -2,
+    "max_y": 5
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 69200,
+      "rooms": {
+        "69248": {
+          "vnum": 69248,
+          "name": "Fork in the Path",
+          "description": "The path forks here in three different directions, leading deep into the surrounding forest each way. The trees to the west loom before you like ancient sentinels, waiting to see which path you choose. Something catches your eye to the south.",
+          "grid_x": -7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69244,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Old Forested Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 45202,
+              "to_zone": "Fangmaw Clan Territory - Jharet Forest",
+              "to_room_name": "Path Through the Pines",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69249,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Old Forested Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient sentinels",
+                "Fork in the Path",
+                "Path forks here in three different directions",
+                "Surrounding forest each way.  The trees to the west loom before you like",
+                "Your eye to the south.",
+                "leading deep into the",
+                "waiting to see which path you choose.  Something catches"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69249": {
+          "vnum": 69249,
+          "name": "Old Forested Path",
+          "description": "Ancient gnarled pines press in on all sides, casting a deep shade across the needle covered path. Occasional birdcalls and the rustling of wild life add life to the old forest.",
+          "grid_x": -8,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69248,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Fork in the Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69250,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Path",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient gnarled pines press in on all sides",
+                "Life to the old forest.",
+                "Needle covered path.  Occasional birdcalls and the rustling of wild life add",
+                "Old Forested Path",
+                "casting a deep shade across the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69250": {
+          "vnum": 69250,
+          "name": "Ancient Path",
+          "description": "The surrounding woods has an almost oppressing air, the only reprieve being the break offered by the path, allowing a sliver of sky the pierce the other wise impenetrable ceiling of needles. The trail here is barely visible, as time has allowed the forest to begin to reclaim it.",
+          "grid_x": -9,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69249,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Old Forested Path",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69251,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Path's End",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Path",
+                "Break offered by the path",
+                "Surrounding woods has an almost oppressing air",
+                "Time has allowed the forest to begin to reclaim it.",
+                "Wise impenetrable ceiling of needles.  The trail here is barely visible",
+                "allowing a sliver of sky the pierce the other",
+                "as",
+                "the only reprieve being"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69251": {
+          "vnum": 69251,
+          "name": "Ancient Path's End",
+          "description": "The path comes to a broken end as the surrounding forest reclaims its territory. The branches above interlock in a solid curtain, casting the area in shade. The soft rustling of the forest inhabitants does what it can to add life to the otherwise total silence.",
+          "grid_x": -10,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69250,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69252,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Path's End",
+                "In shade.  The soft rustling of the forest inhabitants does what it can to add",
+                "Life to the otherwise total silence.",
+                "Path comes to a broken end as the surrounding forest reclaims its",
+                "Territory.  The branches above interlock in a solid curtain",
+                "casting the area"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69252": {
+          "vnum": 69252,
+          "name": "Ancient Woods",
+          "description": "Great pines stand all around you and you can't help but admire these ancient trees that have weathered countless years. The matted pines crack softly beneath your feet as you walk.",
+          "grid_x": -11,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69251,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Path's End",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69253,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "Beneath your feet as you walk.",
+                "Great pines stand all around you and you can't help but admire these ancient",
+                "Trees that have weathered countless years.  The matted pines crack softly"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69253": {
+          "vnum": 69253,
+          "name": "Ancient Woods",
+          "description": "As you continue your trek through the ancient woods, you hope you do not get lost, as there are no discernible landmarks and no perceived end to the march of pines. A tall stand of valerian sways gently, its pink flowers releasing a pungent odor.",
+          "grid_x": -12,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69252,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69254,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "As you continue your trek through the ancient woods",
+                "L val",
+                "Lost",
+                "Odor.",
+                "Of pines.",
+                "Requires rank 40 in Alchemy to harvest a a valerian stand.",
+                "Stand of valerian sways here",
+                "Tall stand of valerian sways gently",
+                "as there are no discernible landmarks and no perceived end to the march",
+                "its pink flower clusters releasing a pungent",
+                "its pink flowers releasing a pungent odor.",
+                "you hope you do not get"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VALERIAN",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69254": {
+          "vnum": 69254,
+          "name": "Ancient Woods",
+          "description": "Every so often a small critter darts across your path; a squirrel dashing up a tree or a fox pursuing a rabbit to its hole, but besides that, the wood is totally still. Old branches and the occasional moss covered stone are the only break in the surrounding landscape.",
+          "grid_x": -12,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69253,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69255,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "Break in the surrounding landscape.",
+                "Every so often a small critter darts across your path; a squirrel dashing up",
+                "Totally still.  Old branches and the occasional moss covered stone are the only",
+                "Tree or a fox pursuing a rabbit to its hole",
+                "but besides that",
+                "the wood is"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69255": {
+          "vnum": 69255,
+          "name": "Ancient Woods",
+          "description": "Thick, ancient pines are the only landscape for as far as you can see on all sides. The air is heavy and dense and you wonder where, if ever, these woods end.",
+          "grid_x": -13,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69254,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 45030,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ancient Woods",
+                "End.",
+                "Sides.  The air is heavy and dense and you wonder where",
+                "Thick",
+                "ancient pines are the only landscape for as far as you can see on all",
+                "if ever",
+                "these woods"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69257": {
+          "vnum": 69257,
+          "name": "Off the Path",
+          "description": "Just off the beaten path to the north, you find yourself deep within the pine forest. Dappled light makes its way through the canopy above and various birds sing and flit in the trees. Pine needles litter the floor, disrupted only by the occasional small critter searching for food.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69262,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Off the Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69258,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Forest Creek Bank",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69243,
+            69261
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Birds sing and flit in the trees.  Pine needles litter the floor",
+                "Just off the beaten path to the north",
+                "Off the Path",
+                "Only by the occasional small critter searching for food.",
+                "Pine forest.  Dappled light makes its way through the canopy above and various",
+                "disrupted",
+                "you find yourself deep within the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69258": {
+          "vnum": 69258,
+          "name": "A Forest Creek Bank",
+          "description": "A fast flowing creek cuts its way through the trees to the west. It would be foolhardy to attempt to cross here; perhaps you should look for a safer place to ford.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69257,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Off the Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69245,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Creek Through the Trees",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69259,
+            69260
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Be foolhardy to attempt to cross here; perhaps you should look for a safer",
+                "Beaver chomps away on the cattails here.",
+                "Fast flowing creek cuts its way through the trees to the west.  It would",
+                "Forest Creek Bank",
+                "Place to ford."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69262": {
+          "vnum": 69262,
+          "name": "Off the Path",
+          "description": "A small break in the trees indicates a forested path to the north and the east, and the south and west the forest stretches on endlessly. Thick trunked pine trees tower above you and cones and needles litter the ground all around you.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69240,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69257,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Off the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69242,
+            69263
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "East",
+                "Off the Path",
+                "Pine trees tower above you and cones and needles litter the ground all around",
+                "Small break in the trees indicates a forested path to the north and the",
+                "You.",
+                "and the south and west the forest stretches on endlessly.  Thick trunked"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69264": {
+          "vnum": 69264,
+          "name": "Forest of Pines and Firs",
+          "description": "The forest here is a unique mix of younger, smaller trees and older, sturdy trees, split to the east and the west. The younger trees to the east allow you to see the curve of a trail and a large hill beyond it. The older forest stretches on in every other direction.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69206,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Before the Slopes of a Hill",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69263,
+            69265
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69270": {
+          "vnum": 69270,
+          "name": "The Forest Path",
+          "description": "A dirt path through the forest gives a clear route through the trees. A large hill rises to the south east and the mountains rear up to the north.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69271,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Streamside Trail",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69238,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Crossroads",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69200": {
+          "vnum": 69200,
+          "name": "Forest Trail",
+          "description": "The trail is straight here, leading deeper into the forest west and back out east.",
+          "grid_x": 8,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69013,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Forest Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69201,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Following the Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "East.  As indicated by broken twigs and crushed leaves",
+                "Forest Trail",
+                "Grey wolf raises its hackles and snarls.",
+                "Orc warrior patrol the trail.",
+                "Trail is frequented fairly often.",
+                "Trail is straight here",
+                "You sense someone hidden in the room.",
+                "it appears that this",
+                "leading deeper into the forest west and back out"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69201": {
+          "vnum": 69201,
+          "name": "Following the Trail",
+          "description": "A well-worn trail meanders through the thick pines here, leading to the east and to the west. To the west, the trees are more sparse and young as you approach a large hill, and to the east, the forest continues.",
+          "grid_x": 7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69200,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forest Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69202,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "And to the west.  To the west",
+                "Approach a large hill",
+                "Following the Trail",
+                "Well-worn trail meanders through the thick pines here",
+                "and to the east",
+                "leading to the east",
+                "the forest continues.",
+                "the trees are more sparse and young as you"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69202": {
+          "vnum": 69202,
+          "name": "Skirting the Hill",
+          "description": "A large hill rises to the west, most likely a foothill for the mountain range rising to the north. The path bends to the south here to avoid the rougher terrain. The forest around you appears much younger, as though the trees here began their life much later than their sires to the east.",
+          "grid_x": 6,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69201,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Following the Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69203,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Large hill rises to the west",
+                "Range rising to the north.  The path bends to the south here to avoid the",
+                "Rougher terrain.  The forest around you appears much younger",
+                "Skirting the Hill",
+                "Trees here began their life much later than their sires to the east.",
+                "as though the",
+                "most likely a foothill for the mountain"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69203": {
+          "vnum": 69203,
+          "name": "Skirting the Hill",
+          "description": "The path continues on its way around the large hill to the northwest. The rocky terrain is broken and uneven and would be a much more difficult hike than that on the trail.",
+          "grid_x": 5,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69202,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69204,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "South of the Hill",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69207
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Path continues on its way around the large hill to the northwest.  The",
+                "Rocky terrain is broken and uneven and would be a much more difficult hike than",
+                "Skirting the Hill",
+                "That on the trail."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69204": {
+          "vnum": 69204,
+          "name": "South of the Hill",
+          "description": "Just to the north rises a large rocky hill, possibly a foothill for the larger mountains to the north. The trail continues to the east and to the west.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69203,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69205,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69207
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Grey wolf raises its hackles and snarls.",
+                "Just to the north rises a large rocky hill",
+                "Larger mountains to the north.  The trail continues to the east and to the",
+                "Orc warrior patrol the trail.",
+                "South of the Hill",
+                "West.",
+                "possibly a foothill for the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69205": {
+          "vnum": 69205,
+          "name": "Skirting the Hill",
+          "description": "A large hill rises to the northeast. The trees around you still appear to be much younger than you would expect, considering that the trees to the west and further to the south are much larger and older.",
+          "grid_x": 3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69204,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "South of the Hill",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69206,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Before the Slopes of a Hill",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "And further to the south are much larger and older.",
+                "Be much younger than you would expect",
+                "Grey wolf raises its hackles and snarls.",
+                "Large hill rises to the northeast.  The trees around you still appear to",
+                "Orc warrior patrol the trail.",
+                "Skirting the Hill",
+                "considering that the trees to the west"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69206": {
+          "vnum": 69206,
+          "name": "Before the Slopes of a Hill",
+          "description": "A large foothill rises to the east, indicating the start of the mountains to the north. The rocky, steep terrain makes it impossible to proceed east, but the main trail continues to the southeast and the west.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69239,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69205,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69264,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forest of Pines and Firs",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Before the Slopes of a Hill",
+                "Elf moves quietly through the trees.",
+                "Grey wolf raises its hackles and snarls.",
+                "Large foothill rises to the east",
+                "Main trail continues to the southeast and the west.",
+                "North.  The rocky",
+                "Orc warrior patrol the trail.",
+                "but",
+                "indicating the start of the mountains to",
+                "steep terrain makes it impossible to proceed east"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69232": {
+          "vnum": 69232,
+          "name": "Hilltop Forest",
+          "description": "As you continue to walk along the tree covered hilltop, you notice that some trees appear much younger than others. Looking to the north, you see towering pines and firs and yet, to the south, the trees obviously grew much later.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69233,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Hill",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69231,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69233": {
+          "vnum": 69233,
+          "name": "Forested Hill",
+          "description": "Standing on the side of the hill, near the top, you find yourself on a slight incline as the slope ends its climb to the south and rolls down towards more hills and the mountains to the south. The forest around you is thick with old pine and fir.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69234,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69232,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Hilltop Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69234": {
+          "vnum": 69234,
+          "name": "Forested Trail",
+          "description": "A faint trail meanders over the forested hillside, beginning to be reclaimed by nature. The trail continues both to the southeast, where it climbs the side of the hill, and to the northwest, leading towards the hill bottom. The trees all around you are thick, but appear younger up the hillside to the south.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69235,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69233,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Hill",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69241,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Trail's End",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69235": {
+          "vnum": 69235,
+          "name": "Forested Trail",
+          "description": "The trail continues its journey through the forest here, climbing up the hill to the southeast and to the bottom, towards more hills to the north.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69236,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Northern Side of the Hill",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69234,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69236": {
+          "vnum": 69236,
+          "name": "Northern Side of the Hill",
+          "description": "The trail here comes up to the base of a large hill towering to the south. To the west, you are not able to make out much more than the towering pines and firs that surround you on all sides.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69235,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69237,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Trail Through the Pines",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69237": {
+          "vnum": 69237,
+          "name": "Trail Through the Pines",
+          "description": "Continuing along the trail, you can't help but feel small and insignificant next to the immense, old trees all around you. The trail leads east and west, both directions leading deeper into the trees.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69236,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Northern Side of the Hill",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69238,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Crossroads",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69238": {
+          "vnum": 69238,
+          "name": "A Crossroads",
+          "description": "You have come upon a crossroads, where the trail splits in four different directions. To the south and east, the trail wraps around a large hill towering to the southwest. To the north, the trails leads closer to the mountains, and to the west, the trail appears to lead deeper into the forest.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69237,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Trail Through the Pines",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69270,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "The Forest Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69240,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69242,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Trail Through the Trees",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69239": {
+          "vnum": 69239,
+          "name": "Forested Trail",
+          "description": "The trail here leads both north and south into the forest. To the east, you see a large hill and to the west, nothing but deep forest as far as you can see.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69240,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69206,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Before the Slopes of a Hill",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69263
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Forested Trail",
+                "See a large hill and to the west",
+                "See.",
+                "Trail here leads both north and south into the forest.  To the east",
+                "nothing but deep forest as far as you can",
+                "you"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69240": {
+          "vnum": 69240,
+          "name": "Forested Trail",
+          "description": "Continuing its journey through the forest, the trail passes through the young trees on all sides. Looking further west, you can make out larger trees growing over the smaller, younger trees. To the east you see a large hill rising.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69238,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Crossroads",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69239,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69262
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Continuing its journey through the forest",
+                "Forested Trail",
+                "Grey wolf raises its hackles and snarls.",
+                "Growing over the smaller",
+                "Orc warrior patrol the trail.",
+                "Rising.",
+                "You sense someone hidden in the room.",
+                "Young trees on all sides.  Looking further west",
+                "the trail passes through the",
+                "you can make out larger trees",
+                "younger trees.  To the east you see a large hill"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69241": {
+          "vnum": 69241,
+          "name": "Trail's End",
+          "description": "",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69234,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Forested Trail",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69242": {
+          "vnum": 69242,
+          "name": "Trail Through the Trees",
+          "description": "",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69238,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Crossroads",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69243,
+            69262
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69244": {
+          "vnum": 69244,
+          "name": "Old Forested Path",
+          "description": "Worn by years of weather and travel, a path leads through the pines and firs. The occasional broken branch lines the path; it appears as though they were snapped off intentionally when passed.",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69247,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "West Bank of the Creek",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69248,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Fork in the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Firs.  The occasional broken branch lines the path; it appears as though they",
+                "Old Forested Path",
+                "Were snapped off intentionally when passed.",
+                "Worn by years of weather and travel",
+                "a path leads through the pines and"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69245": {
+          "vnum": 69245,
+          "name": "Creek Through the Trees",
+          "description": "A crudely made, wooden bridge spans a wide creek that comes cascading in from the north, disappearing into the pines to the south. Large, moss covered rocks dot the creek bed, breaking up the waters flow and creating white foamed rapids. It would be trecherous to try to cross without the bridge.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69258,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "A Forest Creek Bank",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69246,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Crossing the Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69243
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Creek Through the Trees",
+                "Crudely made",
+                "From the north",
+                "Rapids.  It would be trecherous to try to cross without the bridge.",
+                "Rocks dot the creek bed",
+                "breaking up the waters flow and creating white foamed",
+                "disappearing into the pines to the south.  Large",
+                "moss covered",
+                "wooden bridge spans a wide creek that comes cascading in"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69246": {
+          "vnum": 69246,
+          "name": "Crossing the Bridge",
+          "description": "A wide bridge of stout pine and oaken planks spans a wide creek that bubbles and froths below your feet. Thick, crudely carved railings span the length of the bridge and provide a semblance of safety as you quickly cross to the opposite bank. As you pass the center, you note some faint markings in the sturdy wood.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69245,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Creek Through the Trees",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69247,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "West Bank of the Creek",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "And froths below your feet.  Thick",
+                "Bridge and provide a semblance of safety as you quickly cross to the",
+                "Crossing the Bridge",
+                "Opposite bank.  As you pass the center",
+                "Sturdy wood.",
+                "Wide bridge of stout pine and oaken planks spans a wide creek that bubbles",
+                "You are very thirsty and should find something to drink.",
+                "crudely carved railings span the length of",
+                "you note some faint markings in the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69247": {
+          "vnum": 69247,
+          "name": "West Bank of the Creek",
+          "description": "A broad creek carves its way through the forest, leading from the mountains to the north and disappearing to the south. A wooden bridge offers a safe place to ford.",
+          "grid_x": -5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69246,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Crossing the Bridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69244,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Old Forested Path",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Broad creek carves its way through the forest",
+                "Place to ford.",
+                "To the north and disappearing to the south.  A wooden bridge offers a safe",
+                "West Bank of the Creek",
+                "leading from the mountains"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -13,
+        "max_x": 8,
+        "min_y": -2,
+        "max_y": 5,
+        "room_count": 35
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 69200,
+      "to": 69201,
+      "direction": "w",
+      "from_grid": [
+        8,
+        4
+      ],
+      "to_grid": [
+        7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69201,
+      "to": 69202,
+      "direction": "w",
+      "from_grid": [
+        7,
+        4
+      ],
+      "to_grid": [
+        6,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69202,
+      "to": 69203,
+      "direction": "sw",
+      "from_grid": [
+        6,
+        4
+      ],
+      "to_grid": [
+        5,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69203,
+      "to": 69204,
+      "direction": "w",
+      "from_grid": [
+        5,
+        5
+      ],
+      "to_grid": [
+        4,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69204,
+      "to": 69205,
+      "direction": "w",
+      "from_grid": [
+        4,
+        5
+      ],
+      "to_grid": [
+        3,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69205,
+      "to": 69206,
+      "direction": "nw",
+      "from_grid": [
+        3,
+        5
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69206,
+      "to": 69239,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69206,
+      "to": 69264,
+      "direction": "w",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        -1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69232,
+      "to": 69233,
+      "direction": "n",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69233,
+      "to": 69234,
+      "direction": "n",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69234,
+      "to": 69235,
+      "direction": "nw",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69234,
+      "to": 69241,
+      "direction": "se",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69235,
+      "to": 69236,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69236,
+      "to": 69237,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69237,
+      "to": 69238,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69238,
+      "to": 69270,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69238,
+      "to": 69240,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69238,
+      "to": 69242,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69239,
+      "to": 69240,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69244,
+      "to": 69247,
+      "direction": "ne",
+      "from_grid": [
+        -6,
+        1
+      ],
+      "to_grid": [
+        -5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69244,
+      "to": 69248,
+      "direction": "w",
+      "from_grid": [
+        -6,
+        1
+      ],
+      "to_grid": [
+        -7,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69245,
+      "to": 69258,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69245,
+      "to": 69246,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69246,
+      "to": 69247,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69248,
+      "to": 69249,
+      "direction": "w",
+      "from_grid": [
+        -7,
+        1
+      ],
+      "to_grid": [
+        -8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69249,
+      "to": 69250,
+      "direction": "sw",
+      "from_grid": [
+        -8,
+        1
+      ],
+      "to_grid": [
+        -9,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69250,
+      "to": 69251,
+      "direction": "w",
+      "from_grid": [
+        -9,
+        2
+      ],
+      "to_grid": [
+        -10,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69251,
+      "to": 69252,
+      "direction": "w",
+      "from_grid": [
+        -10,
+        2
+      ],
+      "to_grid": [
+        -11,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69252,
+      "to": 69253,
+      "direction": "w",
+      "from_grid": [
+        -11,
+        2
+      ],
+      "to_grid": [
+        -12,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69253,
+      "to": 69254,
+      "direction": "s",
+      "from_grid": [
+        -12,
+        2
+      ],
+      "to_grid": [
+        -12,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69254,
+      "to": 69255,
+      "direction": "w",
+      "from_grid": [
+        -12,
+        3
+      ],
+      "to_grid": [
+        -13,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69257,
+      "to": 69262,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69257,
+      "to": 69258,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69262,
+      "to": 69240,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    }
+  ]
+}

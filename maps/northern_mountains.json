@@ -1,0 +1,1988 @@
+{
+  "zone_name": "Northern Mountains",
+  "entry_vnum": 24008,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 6,
+    "min_y": -1,
+    "max_y": 19
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 32033,
+      "rooms": {
+        "32033": {
+          "vnum": 32033,
+          "name": "Angled Shaft",
+          "description": "The floor beneath you is covered with a fine layer of sand and gravel. This, combined with the steep angle of the shaft, makes for hazardous travel. Well, if you fall, you'll just slide down into the river to the east and drown. No big deal.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32025,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32034,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Angled Shaft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32034": {
+          "vnum": 32034,
+          "name": "Angled Shaft",
+          "description": "Crude stone steps have been chiseled into the rock here, allowing a difficult ascension to the surface. The sound of rushing water whispers to the east, an invitation to the underground world.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32033,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Angled Shaft",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24013,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Low Mountain Pass",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24008,
+      "rooms": {
+        "25098": {
+          "vnum": 25098,
+          "name": "The Inclined Plains",
+          "description": "If these plains were completely frictionless then an object would accelerate down them at a rate proportional only to their inclination and independent of the object's mass.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25099,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Hogback",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25097,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Fertile Plains",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25099": {
+          "vnum": 25099,
+          "name": "The Hogback",
+          "description": "The plains rise suddenly and sharply where they are topped by a barren ridge of slowly crumbling granite. The road takes advantage of one narrow fissure that bisects this ridge, another merging into a narrow hole in the mountainside.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24007,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Western Plains",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25098,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Inclined Plains",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24113": {
+          "vnum": 24113,
+          "name": "A Cave in the Cleft",
+          "description": "A tiny nook inside of the mountain cleft offers a quick escape from the sun and the elements. A whistle of wind originates from the cramped opening and swirls around inside the cave.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 24021,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24007": {
+          "vnum": 24007,
+          "name": "Western Plains",
+          "description": "Coarse, brown grass is the only vegetation you can see on this rather barren plain. A sharp, bony ridge is notched by the road to the south, and the plains rise in steppes to the east.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24008,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Plains",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25099,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Hogback",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24008": {
+          "vnum": 24008,
+          "name": "High Plains",
+          "description": "A vast range of mountains stretches across the horizon from east to west. A narrow canyon cuts into them directly to the north. The wide plains continue to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24011,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Plains",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 27099,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "Narrow Canyon",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24007,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Western Plains",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24011": {
+          "vnum": 24011,
+          "name": "High Plains",
+          "description": "You stand in the midst of a vast open plain, bordered on the north by a chain of mountains. The plain marches, unbroken, toward the west and you can see some small hills to the east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24012,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Foothills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24008,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Plains",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24012": {
+          "vnum": 24012,
+          "name": "Foothills",
+          "description": "Travel is fairly easy in these rolling hills. They are fairly barren, with some clumps of bunch-grass being the only vegetation. To the east is a mountain pass; vast plains spread out to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24013,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Low Mountain Pass",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24011,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Plains",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24013": {
+          "vnum": 24013,
+          "name": "Low Mountain Pass",
+          "description": "You stand in an east to west mountain pass. The mountains to your north are scarred giants, but the smaller mountains to your south get even smaller as you look to the west. A path winding upward ascends eastward, toward a broken archway high above. To the north a cart-marked trail leads into the mountains, and just below you a narrow shaft plunges underground.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24012,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Foothills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 32034,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Angled Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24009,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Switchback Trail",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24024": {
+          "vnum": 24024,
+          "name": "Treeline",
+          "description": "You have reached the altitude where just a few misshapen trees manage to cling to life. A steep trail climbs up into some hills to the north. The land descends to the south and you see a greater abundance of trees in that direction. A thin trail leads along a wooded ridge to the west.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24025,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Among the Thin Trees",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24023,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47216
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Cling to life.  A steep trail climbs up into some hills to the north.  The land",
+                "Descends to the south and you see a greater abundance of trees in that",
+                "Direction.  A thin trail leads along a wooded ridge to the west.",
+                "Silvery-green herb grows in a dense patch",
+                "Treeline",
+                "Vruhl shambles past",
+                "You have reached the altitude where just a few misshapen trees manage to",
+                "bristling with spines.",
+                "its leaves fragrant and bitter."
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24025": {
+          "vnum": 24025,
+          "name": "Among the Thin Trees",
+          "description": "The altitude is pretty high here so the trees around you are all conifers, and spindly ones at that. As you look into the far distance of the north, you see that the trees evidently disappear as the landscape rises. A wide, comfortable trail leads north and south, and a shadowed trail leads to the east.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91000,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24024,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Treeline",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24026,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Altitude is pretty high here so the trees around you are all conifers",
+                "Among the Thin Trees",
+                "And spindly ones at that.  As you look into the far distance of the north",
+                "Comfortable trail leads north and south",
+                "East.",
+                "See that the trees evidently disappear as the landscape rises.  A wide",
+                "and a shadowed trail leads to the",
+                "you"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24026": {
+          "vnum": 24026,
+          "name": "Pine Forest",
+          "description": "A thick carpet of pine needles carpet the trail you tread upon. There is no wind here and the air is thick with the sharp, spicy scent of pine. The trees are closely clustered, yet you appear to be able to pass north, west. A long, slender path southward leads into a mixture of pine and oak.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24025,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Among the Thin Trees",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61019,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24027,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Are closely clustered",
+                "Pine Forest",
+                "Slender path southward leads into a mixture of pine and oak.",
+                "Thick carpet of pine needles carpet the trail you tread upon.  There is no",
+                "Wind here and the air is thick with the sharp",
+                "spicy scent of pine.  The trees",
+                "west.  A long",
+                "yet you appear to be able to pass north"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24027": {
+          "vnum": 24027,
+          "name": "Pine Forest",
+          "description": "You have come to the periphery of the pine forest. Looking south, you can see rolling hills, rich with grass and wild flowers. Narrow paths lead both east and west.",
+          "grid_x": -1,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24026,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24028,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "The Flowering Hillsides",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69014,
+              "to_zone": "Fallen Tower",
+              "to_room_name": "Forest Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "East and west.",
+                "Pine Forest",
+                "See rolling hills",
+                "You have come to the periphery of the pine forest.  Looking south",
+                "rich with grass and wild flowers.  Narrow paths lead both",
+                "you can"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 19,
+        "room_count": 12
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 24009,
+      "rooms": {
+        "32039": {
+          "vnum": 32039,
+          "name": "Brink",
+          "description": "A deep excavation stretches out beneath you, its floor lost in a pall of swirling dust. A wooden ladder pokes above the lip, inviting entry, and a barren expanse of rock-strewn hills marches eastward.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 32038,
+              "to_zone": "City of Cadain",
+              "to_room_name": "Dwarven Excavation",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 24023,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Barren expanse of rock-strewn hills marches eastward.",
+                "Brink",
+                "Deep excavation stretches out beneath you",
+                "Drake the old pirate reaches for the guest book.",
+                "Eagle flies east.",
+                "Eastern wall",
+                "Filter up from below.",
+                "Huge eagle dives and swoops here.",
+                "Melody of the Song of the Wanderer begins to play in your mind",
+                "Opposite wall affords a view of a wrecked ship lying on a beach",
+                "Polished brass lanterns give this room a cheery glow.  A desk rests against",
+                "Reception",
+                "Remember song",
+                "Smashed in.  An open window behind the desk allows the sounds of the street to",
+                "Swirling dust.  A wooden ladder pokes above the lip",
+                "Use song",
+                "You are very thirsty and should find something to drink.",
+                "You feel the last echos of the Song fade",
+                "You remember the Song of the Wanderer",
+                "a warm feeling suffuses you as it manifests before you.",
+                "and a",
+                "and a large picture on the",
+                "as the familiar warmth of your chosen haven surrounds you.",
+                "covered with books and accounts",
+                "guiding your soul home",
+                "inviting entry",
+                "its floor lost in a pall of",
+                "its hull"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24009": {
+          "vnum": 24009,
+          "name": "Switchback Trail",
+          "description": "Snow lies in patches of shadow and lees of rocky outcroppings. A brisk wind blows along this east-west cleft with gusting, hoarse regularity. You see the spoor of elk and its constant and unwanted companion, wolf.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47309,
+              "to_zone": "Steepridge Trail",
+              "to_room_name": "Switchback Trail",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24013,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Low Mountain Pass",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24010,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Tumbled Archway",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24022": {
+          "vnum": 24022,
+          "name": "Steep Slope",
+          "description": "This slope continues south and down to some rough, low lying hills. It also climbs steeply up into mountains to the north.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24023,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24020,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Trail",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "TIN",
+              "rank": 6,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24023": {
+          "vnum": 24023,
+          "name": "The Rocky Hills",
+          "description": "The rough terrain here makes travel difficult. The predominant vegetation consists of coarse, brown weeds and low, ragged bushes. A traveled path leads north and climbs toward some mountains in the distance. A steep trail leads down and toward the south, while a narrow path ventures eastward through the rocky hills, and a beaten path heads toward what appears to be a chasm to the west. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63000,
+              "to_zone": "Three Shadows Mountains",
+              "to_room_name": "The Rocky Hills",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24022,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Steep Slope",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32039,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Brink",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24024,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Treeline",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Bull elk is here.",
+                "Consists of coarse",
+                "Delicate golden flower opens toward the sky",
+                "Down and toward the south",
+                "North and climbs toward some mountains in the distance.  A steep trail leads",
+                "Rocky Hills",
+                "Rocky hills",
+                "Rough terrain here makes travel difficult.  The predominant vegetation",
+                "Swirling vortex of compressed wind hovers here",
+                "West.",
+                "and a beaten path heads toward what appears to be a chasm to the",
+                "brown weeds and low",
+                "crackling with static.",
+                "its petals catching the light.",
+                "ragged bushes.  A traveled path leads",
+                "while a narrow path ventures eastward through the"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 4
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 24014,
+      "rooms": {
+        "24100": {
+          "vnum": 24100,
+          "name": "Narrow Cleft",
+          "description": "Here the rocks close, blocking further passage into the cleft. Small, furry creatures have built several nests in the sheltered niches of the cleft, and scurry at your intrusion. The winds whistle to the west, pulling with them an odd, foul scent which drifts up through a large crack in the rocks nearby.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24021,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 38092,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "At the Bottom of the Cleft",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            38091
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24010": {
+          "vnum": 24010,
+          "name": "The Tumbled Archway",
+          "description": "Wind slices through the crumbling remains of an ancient stone wall that, to this day, bears parts of the arched roof that covered and protected this part of the trail from the scathing elements. Capitaled, ribbed granite columns lie in sections to the north and south of the trail.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24014,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Mountain Pass",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24009,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Switchback Trail",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "TIN",
+              "rank": 6,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24014": {
+          "vnum": 24014,
+          "name": "High Mountain Pass",
+          "description": "The mountains bordering this pass are all crowned with white. Ice crystals sting your face as they are flung at you by the wind. To the east, the pass empties into a basin. To the west, the pass descends to meet another pass further down. A precipitous path leads up the rocky face.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24015,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Tundra Basin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 42087,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Climbing the Cliff",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24010,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Tumbled Archway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24015": {
+          "vnum": 24015,
+          "name": "Tundra Basin",
+          "description": "You have entered a semi-circular basin, filled with rough bushes and clumps of grass. A mountain pass is to the west and a narrow trail leads out of the basin to the east. The basin continues to the north.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24016,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34000,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Tundra",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24014,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Mountain Pass",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24016": {
+          "vnum": 24016,
+          "name": "Narrow Trail",
+          "description": "This ghost of a trail doesn't seem to be heavily traveled. The detritus of many rock slides litters the ground. The trail enters a basin to the west and continues to the east. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24017,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24015,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Tundra Basin",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24017": {
+          "vnum": 24017,
+          "name": "Mountain Path",
+          "description": "This mountain path skirts the north side of a rock outcropping which appears to bear some man-made symbols. The trail continues to the south and to the west. A narrow seam of copper glints from the rock face.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24018,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24016,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24018": {
+          "vnum": 24018,
+          "name": "Mountain Path",
+          "description": "The wind blows fiercely cold here, as if it were being channeled along this mountain trail. Looking south, you can see that the path rises slightly to the tip of a promontory. The trail also continues north.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24017,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24019,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Overlook",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24019": {
+          "vnum": 24019,
+          "name": "The Overlook",
+          "description": "You have stepped out onto a precipice which overlooks the plains and valleys below. The view is breath-taking, but it looks like an awful long fall. Trails lead north and east.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24020,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24018,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24112,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "Ancient Woods",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            24098
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24020": {
+          "vnum": 24020,
+          "name": "Mountain Trail",
+          "description": "You have reached an intersection of trails. A well traveled path leads down toward the south and a narrow path, through a cleft in the mountains, leads east. A wider trail leads west. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24021,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24019,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "The Overlook",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24022,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Steep Slope",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24021": {
+          "vnum": 24021,
+          "name": "Narrow Cleft",
+          "description": "Rock faces press in tightly, as if they were intent on crushing you. The cleft continues to the east, but looking west, you see that the trail widens out.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24100,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24020,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Mountain Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 24113,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "A Cave in the Cleft",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 6,
+        "min_y": 0,
+        "max_y": 2,
+        "room_count": 10
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24007,
+      "to": 24008,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24007,
+      "to": 25099,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24008,
+      "to": 24011,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24010,
+      "to": 24014,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24011,
+      "to": 24012,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24012,
+      "to": 24013,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24014,
+      "to": 24015,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24015,
+      "to": 24016,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24016,
+      "to": 24017,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24017,
+      "to": 24018,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24018,
+      "to": 24019,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24019,
+      "to": 24020,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24020,
+      "to": 24021,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24021,
+      "to": 24100,
+      "direction": "e",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        6,
+        2
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24022,
+      "to": 24023,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24023,
+      "to": 32039,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24024,
+      "to": 24025,
+      "direction": "s",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24025,
+      "to": 24026,
+      "direction": "s",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24026,
+      "to": 24027,
+      "direction": "w",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        -1,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25098,
+      "to": 25099,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32033,
+      "to": 32034,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

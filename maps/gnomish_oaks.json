@@ -1,0 +1,3143 @@
+{
+  "zone_name": "Gnomish Oaks",
+  "entry_vnum": 61000,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -4,
+    "max_x": 7,
+    "min_y": -4,
+    "max_y": 3
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 61025,
+      "rooms": {
+        "61025": {
+          "vnum": 61025,
+          "name": "Under the Black Water",
+          "description": "It is nearly impossible to see here beneath the stained waters. Something slithers alongside you as you feel your way about. Groping in the darkness several shapes are felt, they could be large roots; or they could be arms and legs.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 61024,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 61022,
+      "rooms": {
+        "69075": {
+          "vnum": 69075,
+          "name": "The Goblin Den",
+          "description": "The walls of the pit have been carved out to provide enough room for its inhabitants to live in a state of dubious comfort. Piles of sickly dry grass have been scattered across the floor to soften the hard packed earth for sleeping, and horribly dirty pots and pans have been piled in the corners where they have mostly likely been thrown. By the reek of this foul place, you imagine such delights as gnome brains and hobbit livers have been served and messily devoured.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69076,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "In a Dense Forest",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61022": {
+          "vnum": 61022,
+          "name": "Below the Inn",
+          "description": "Crumbling bits of wood hang from earthen walls here below the Inn of Maldercauuln. What once was a storeroom is slowly being reclaimed by the earth. Broken wooden crates and strips of rotted leather litter the area. A low tunnel leads east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61023,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61021,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Maldercauuln Inn",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61023": {
+          "vnum": 61023,
+          "name": "Rootfilled Tunnel",
+          "description": "The tunnel splits here, root-filled holes leads down to the south and to the north. Water beads on the exposed roots, feeding a variety of insects which make their home here.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61024,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61026,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61022,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Below the Inn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61024": {
+          "vnum": 61024,
+          "name": "Rootfilled Tunnel",
+          "description": "The tunnel terminates here, at a pool of steaming black water. Bubbles rise from the surface at evenly-paced intervals, filling the air with a noxious, elemental scent.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61023,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61025,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Under the Black Water",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61026": {
+          "vnum": 61026,
+          "name": "Rootfilled Tunnel",
+          "description": "Roots thicken along the crumbling walls within passage, tangling with one another into knotted ends which insects hungrily cling to, feeding upon the acidic moisture. The passage travels north, and east, from which a noxious odor drifts.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61027,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61023,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61027": {
+          "vnum": 61027,
+          "name": "Rootfilled Tunnel",
+          "description": "The snarled roots are very thick here, brushing against you as you pass, soaking your clothing. Odd little insects grasp hold of your flesh, hungrily biting into your warmth. A light trail of blood marks the passage leading northward, and the tunnel begins to clear somewhat to the west.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61028,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61026,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61028": {
+          "vnum": 61028,
+          "name": "Rootfilled Tunnel",
+          "description": "Here the roots squirm about as you work your way by, pushing at you, as if to halt your progress northward. Strewn about the soft earthen floor here are several small sets of bones alongside a heavy trail of blood which halts at a thick layer of roots directly northward. A passage leads south, away from the charnel site.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61029,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Lair of the Woedregal",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 61027,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61029": {
+          "vnum": 61029,
+          "name": "Lair of the Woedregal",
+          "description": "An appalling pile of gnomish remains lay scattered about this cramped chamber within the earth. Bits of clothing and tools have been cast aside, some still having portions of the owners attached. The roots which once covered the walls have been gnawed down to nubbs, and so the native insects have taken up residence within the carnage piled about. Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61028,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Rootfilled Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 8
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 61000,
+      "rooms": {
+        "61011": {
+          "vnum": 61011,
+          "name": "Twin Oaks Path",
+          "description": "As you travel along the twin oaks path, tribal markings begin to appear upon the surface of the increasingly larger trees. The all-too familiar sensation of being watched seeps into you as the path twists among the elder woods.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61013,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61008,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69076": {
+          "vnum": 69076,
+          "name": "In a Dense Forest",
+          "description": "Squeezed between the dense bushes and branches, you are less than comfortable. A gaping pit at your feet emits a noxious odor, and some foul creatures have covered the entire area with their feces. Perhaps you should move on.",
+          "grid_x": 7,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 92044,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Oaken Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69078,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Beneath a Dead Oak",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69075,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "The Goblin Den",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61000": {
+          "vnum": 61000,
+          "name": "Thin Forest",
+          "description": "Widely spaced patterns of oak occupy a rough field filled by high grasses and low brush. Slight trails lead further off to the south and to the east where the woods slowly thicken.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61002,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61001,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24031,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "End of a Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61001": {
+          "vnum": 61001,
+          "name": "Thin Forest",
+          "description": "Saplings bend in a warm westerly breeze which sweeps out from a steadily thickening forest to your east. Southward the terrain declines, and softens underfoot as the thin forest gives way to the beginnings of a fertile, damp tallgrass marsh.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61006,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61000,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61030,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Edge of the Marsh",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61002": {
+          "vnum": 61002,
+          "name": "Thin Forest",
+          "description": "The long-abandoned remains of a soldier's encampment slowly decays, patched leather and cleaned carcass tossed aside to be reclaimed by the forest. Old oak branches hang down in a tangle above a fair path which travels north and south among the trees.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61016,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61003,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61000,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61003": {
+          "vnum": 61003,
+          "name": "Thin Forest",
+          "description": "Dense groups of weed-riddled vegetables struggle for life among the young oaks here. This land was obviously once well-tended, and has slipped into chaos over the passage of time. Small creatures dash off into the forest as you pass, noticeably avoiding a path to the west.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61005,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61002,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61004,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61004": {
+          "vnum": 61004,
+          "name": "Thin Forest",
+          "description": "All is still here among the oaks. An odd, relaxing sensation creeps through your bones, distracting you. You travel for some time before realizing you've long since ceased to pay attention to where your wandering feet have led, and find the terrain about and behind suddenly unfamiliar. You feel somewhat dizzy and confused.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [
+            61002,
+            61007,
+            61009
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "61005": {
+          "vnum": 61005,
+          "name": "Among the Oaks",
+          "description": "Tacked to a statuesque oak here is a beaten, painted sign of that same wood. The trees here are slightly older, and more closely spaced. Thin, twisting paths lead in the four cardinal directions through the hanging branches, which sway in the arid western breeze.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61009,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61008,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61006,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61003,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61006": {
+          "vnum": 61006,
+          "name": "Thin Forest",
+          "description": "The solid oaks begin to crowd together as you travel further into the oak woods. At the end of a lazily declining slope to your south lay the edge of a pungent, buzzing marsh. A pile of small stones are collected at the base of one particularly large oak to your north.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61005,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61031,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Edge of the Marsh",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61001,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61007": {
+          "vnum": 61007,
+          "name": "Rotwode Clearing",
+          "description": "Here many of the oaks have fallen, a black rot clearly responsible and present at the base of the toppled trunks. A vile reek wafts up from the snarled gathering of deadwood, gagging you. A few moments further inspection reveals that in fact, more than half of the stinking pile about the clearing are bones, long ago petrified.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61005,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61008": {
+          "vnum": 61008,
+          "name": "Among the Oaks",
+          "description": "A leaf-littered trail winds through the oakwood north and south. To your east, a pair of identical oaks stand several feet apart, as if planted there with some purpose. A worn path leads between them.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61011,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Twin Oaks Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61010,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61005,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61009": {
+          "vnum": 61009,
+          "name": "Among the Oaks",
+          "description": "Stoic, elder oaks crowd together here, shading the meager, twisting trails which lead through them to the west and to the east. Down a short slope to the south, the forest surroundings appear blurred around the remains of an old rotting wooden structure.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61014,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61015,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61005,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61010": {
+          "vnum": 61010,
+          "name": "Among the Oaks",
+          "description": "Small, shining red dots wink at you from behind the trees as you pass through the oaken forest. The trees are spaced widely, and travel is easy although the sensation is not. Thin, marked paths lead east to a pool of clear water, and south through the woods.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61012,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61008,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61012": {
+          "vnum": 61012,
+          "name": "Among the Oaks",
+          "description": "Here within the forest is a circular pool of clear water, strangely free of detritus. Conflicting winds from the north and south force the branches of the surrounding trees to and fro violently, yet the surface of the water remains only slightly disturbed. You feel somewhat dizzy and confused.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61018,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61013,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61010,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "61013": {
+          "vnum": 61013,
+          "name": "Among the Oaks",
+          "description": "Deep within the old oakwoods, faces and images begin to appear upon the bark around you. Upon closer inspection the images fade, and the trees appear quite normal. Bouts of chittering and rabbling erupt from the bush and plants which fill the spaces between the trees.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63080,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 69294,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Among the Oaks",
+              "direction": "ne",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61014,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61011,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Twin Oaks Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61014": {
+          "vnum": 61014,
+          "name": "Among the Oaks",
+          "description": "A flurry of movement disturbs the undergrowth beneath the stately oaks as you press further into the wood. The twisting path you travel heads north and west here. Appearing infrequently upon the surface of the trees are a series of incomprehensible, jumbled markings. A narrow path leads between two trees to the east.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69080,
+              "to_zone": "The Village of Ingeen",
+              "to_room_name": "Beside a Fallen Oak",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61013,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61009,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61015": {
+          "vnum": 61015,
+          "name": "Among the Oaks",
+          "description": "Nestled here within the tangled wood of several fallen oaks are the remains of a fairly large, decaying building. A hand-carved sign lays upon the ground, face up among some thorny, white-berried branches. Passage further into the trees is blocked by snarls of rotting wood and thick foliage.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61021,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Maldercauuln Inn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 61009,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61016": {
+          "vnum": 61016,
+          "name": "Among the Oaks",
+          "description": "A thin path leads through the trees, away from the thin, widely spaced forest and into an area of elder oaks. Small creatures chitter from behind the healthy undergrowth, and you pass several tribal markings as you travel.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61017,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61002,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61017": {
+          "vnum": 61017,
+          "name": "Among the Oaks",
+          "description": "A hint of pine is carried along by a swift breeze from the north, swirling here with the warmer currents flowing out of the forested areas to the south and east.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61018,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61019,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61016,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go roots": {
+              "to_vnum": 61020,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Base of an Elder Oak",
+              "direction": "go roots",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61018": {
+          "vnum": 61018,
+          "name": "Among the Oaks",
+          "description": "Elder oaks loom high overhead here, darkening the forest floor. Closely spaced, the trees and brush deter further passage east. Warm and cool winds flow through the trees, swirling as they meet, rippling the surface of a small pool to your south.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61012,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61017,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61019": {
+          "vnum": 61019,
+          "name": "Among the Oaks",
+          "description": "Interspersed with the solemn oaks here are a number of tender pines, struggling to mature. Ahead the large-leafed trees give way to the needled, where the terrain begins to rise along a well-worn footpath northward.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24026,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Pine Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61017,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61020": {
+          "vnum": 61020,
+          "name": "Base of an Elder Oak",
+          "description": "You stand at the base of one of the area's eldest oaks. A peaceful aura surrounds the ancient living wood here, where roots have risen from the fertile soil to create a natural fence around the tree.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61017,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69078": {
+          "vnum": 69078,
+          "name": "Beneath a Dead Oak",
+          "description": "Here, a small clearing surrounds an ancient oak that long ago lost its grip on life. A circle of bare earth rings its base, as if the other vegetation in the area has become frightened of the hauntingly bleak tree. Further from the oak, dense forest appears to prevent travel in any direction but south.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69076,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "In a Dense Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63086,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "By a Thin Cabin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 69077,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "In the Branches",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "up the oak": {
+              "to_vnum": 69077,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "In the Branches",
+              "direction": "up the oak",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61021": {
+          "vnum": 61021,
+          "name": "Maldercauuln Inn",
+          "description": "Once a warm and comfortable Inn, this place has become little more than a haven for insects and animals. The wood is wormholed, rotting, appearing ready to crumble at a touch. Bits of dried foliage are collected in corners among the debris resembling nests. A gaping hole in the floorboards leads down into darkness.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 61015,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61022,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Below the Inn",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61030": {
+          "vnum": 61030,
+          "name": "Edge of the Marsh",
+          "description": "The thinning forest gives way here to high grasses and soft, marshy land underfoot. The constant buzz of insect swarms drift through a rolling fog which rises above the swamp. A path along the edge continues to the east, while another leads back into the forest north.",
+          "grid_x": -4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61031,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Edge of the Marsh",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61001,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24095,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Muddy Path",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61031": {
+          "vnum": 61031,
+          "name": "Edge of the Marsh",
+          "description": "Small puddles of stagnant water collect amongst the thinning trees here at the edge of a misty, buzzing marsh. A pungent, fertile odor is carried out as the western winds sweep past. The terrain rises northward into the forest of oaks, and the edge continues west.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61006,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Thin Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61030,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Edge of the Marsh",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63080": {
+          "vnum": 63080,
+          "name": "Path Through the Oaks",
+          "description": "A thin, worn path begins here, leading deeper into the old oak forest. The terrain rises and dips as you travel, and a warm, dry breeze flows by from the east. The scent of cooked meat drifts by, and you hear music rolling through the trees.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 63081,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61013,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63081": {
+          "vnum": 63081,
+          "name": "Path Through the Oaks",
+          "description": "The path twists oddly, doubling back upon itself before heading further eastward. Rows of carefully tended flowers and herbs are found alongside the path, growing healthily among the thick roots of the oaks which dominate this elder forest.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63085,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 63082,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63082": {
+          "vnum": 63082,
+          "name": "Among the Oaks",
+          "description": "The light dims here, off a well worn path which meanders about to the south and to the west. Futher passage through the towering oaks may be had to the north, beneath a thick tangle of thickly leaved branches.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63083,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63081,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63080,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63083": {
+          "vnum": 63083,
+          "name": "Among the Oaks",
+          "description": "Thick, oddly coloured vines hang from a canopy of gnarled oak branches here within the forest. The vines sway as an arid breeze from the east rustles the loose tangle of branches which suspend them. From the tips a thick, acrid sap drips, collecting in a small pool upon the ground. The way east and south has been cleared for passage.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63084,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63082,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63084": {
+          "vnum": 63084,
+          "name": "Among the Oaks",
+          "description": "Emerging from a canopy of loosely tangled oak branches westward, the sky is again visible above. Despite the burgeoning growth here, the ground is dry, the atmosphere arid. Southward a thin, worn path can be seen.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 63085,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63083,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Among the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63085": {
+          "vnum": 63085,
+          "name": "Path Through the Oaks",
+          "description": "The path widens somewhat, and straightens as it approaches a tall, thin structure of cobbled stones to the east. A jumbled collection of oddly coloured plants grow in rows along the path. Here the bark upon the old oaks bear a series of strange symbols; the bark itself has been molded.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 63086,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "By a Thin Cabin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63081,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63086": {
+          "vnum": 63086,
+          "name": "By a Thin Cabin",
+          "description": "A web of tangled braches from the surrounding oaks envelopes a thin cabin of cobbled stones just to the south of the path, which here turns from west to north. A single open doorway beckons you to enter the cabin. The trees stand close, closing off further passge into the dry oak forest.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69078,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Beneath a Dead Oak",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63087,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Within a Cobblestone Cabin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 63085,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Path Through the Oaks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63087": {
+          "vnum": 63087,
+          "name": "Within a Cobblestone Cabin",
+          "description": "Through the open doorway the cabin of cobbled stones expands, appearing strangely several times larger within than from without. An odd opaque sphere hovers overhead, emitting a soft white light. Thick animal furs cover the few pieces of furniture arranged about the room. Large, unfamiliar symbols have been painted upon the bare stone walls.",
+          "grid_x": 6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63086,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "By a Thin Cabin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63088,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Within a Cobblestone Cabin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63088": {
+          "vnum": 63088,
+          "name": "Within a Cobblestone Cabin",
+          "description": "An open pit in the far corner of the room contains a low, crackling fire overwhich an iron rack glows softly. A low table rests in the centre of the room. Several familiar utensils sit stacked upon a wall shelf, and a thin wooden ladder leads upward through a rough opening in the stone ceiling. A large, well appointed room lies to the north.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 63087,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Within a Cobblestone Cabin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 63089,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Within a Cobblestone Cabin",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -4,
+        "max_x": 7,
+        "min_y": -4,
+        "max_y": 3,
+        "room_count": 35
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 69077,
+      "rooms": {
+        "69077": {
+          "vnum": 69077,
+          "name": "In the Branches",
+          "description": "The barren oak is devoid of life, save a small raven's nest nestled in a crux between two branches. Peering outward, you take in the serenity of the forest. Massive oaks dominate most of the forest in the near vicinity, but tall pines can be seen far to the west. A cobblestone cabin can be seen some distance to the south, and far to the north lies a majestic range of mountains.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 69078,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Beneath a Dead Oak",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "63089": {
+          "vnum": 63089,
+          "name": "Within a Cobblestone Cabin",
+          "description": "Rows of oils, ointments, and strange herbs lay piled along curving stone shelves here within a small, circular room within the tall cobblestone cabin. A faded, threadbare rug lay upon the otherwise empty floor. Hung from the ceiling, a variety of odd mobiles remain motionless, as if held in place by some unknown force.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 63088,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Within a Cobblestone Cabin",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 61000,
+      "to": 61002,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61000,
+      "to": 61001,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61001,
+      "to": 61006,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61001,
+      "to": 61030,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        2
+      ],
+      "to_grid": [
+        -4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61002,
+      "to": 61016,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61002,
+      "to": 61003,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61003,
+      "to": 61005,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61003,
+      "to": 61004,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61005,
+      "to": 61009,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61005,
+      "to": 61008,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61005,
+      "to": 61006,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61006,
+      "to": 61031,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61007,
+      "to": 61005,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61008,
+      "to": 61011,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61008,
+      "to": 61010,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61009,
+      "to": 61014,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61009,
+      "to": 61015,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61010,
+      "to": 61012,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61011,
+      "to": 61013,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61012,
+      "to": 61018,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61012,
+      "to": 61013,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61013,
+      "to": 63080,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61013,
+      "to": 61014,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61015,
+      "to": 61021,
+      "direction": "e",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61016,
+      "to": 61017,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61017,
+      "to": 61018,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61017,
+      "to": 61019,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61020,
+      "to": 61017,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61022,
+      "to": 61023,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61023,
+      "to": 61024,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61023,
+      "to": 61026,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61026,
+      "to": 61027,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61027,
+      "to": 61028,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61028,
+      "to": 61029,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61030,
+      "to": 61031,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63080,
+      "to": 63081,
+      "direction": "se",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63081,
+      "to": 63085,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63081,
+      "to": 63082,
+      "direction": "n",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63082,
+      "to": 63083,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63082,
+      "to": 63080,
+      "direction": "w",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63083,
+      "to": 63084,
+      "direction": "e",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63084,
+      "to": 63085,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 63085,
+      "to": 63086,
+      "direction": "e",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63086,
+      "to": 69078,
+      "direction": "n",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63086,
+      "to": 63087,
+      "direction": "s",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 63087,
+      "to": 63088,
+      "direction": "s",
+      "from_grid": [
+        6,
+        1
+      ],
+      "to_grid": [
+        6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69076,
+      "to": 69078,
+      "direction": "w",
+      "from_grid": [
+        7,
+        -1
+      ],
+      "to_grid": [
+        6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

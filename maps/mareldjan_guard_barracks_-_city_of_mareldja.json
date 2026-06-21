@@ -1,0 +1,664 @@
+{
+  "zone_name": "Mareldjan Guard Barracks - City of Mareldja",
+  "entry_vnum": 40402,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 40412,
+      "rooms": {
+        "40416": {
+          "vnum": 40416,
+          "name": "A Prison Cell",
+          "description": "Maybe big enough for two human men laying horizontal, these cells were not designed with comfort in mind. A wooden pallet rests in one corner and a wooden bucket rests in the other. Every cell in this prison was most likely designed to be uniform.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40412,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "City Prison",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40412": {
+          "vnum": 40412,
+          "name": "City Prison",
+          "description": "Large stone bricks make up the entirety of this room in the bowels of the barracks. Wrought iron sconces are bracketed to the walls, providing a home for the torches which provide the primary illumination. Separate from the palace cells, these also hold all variety of criminals when needed.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40414,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "A Prison Cell",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 40413,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "A Prison Cell",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 40415,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "A Prison Cell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 40416,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "A Prison Cell",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 40403,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Inside the Barracks",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40413": {
+          "vnum": 40413,
+          "name": "A Prison Cell",
+          "description": "Maybe big enough for two human men laying horizontal, these cells were not designed with comfort in mind. A wooden pallet rests in one corner and a wooden bucket rests in the other. Every cell in this prison was most likely designed to be uniform.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40412,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "City Prison",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40414": {
+          "vnum": 40414,
+          "name": "A Prison Cell",
+          "description": "Maybe big enough for two human men laying horizontal, these cells were not designed with comfort in mind. A wooden pallet rests in one corner and a wooden bucket rests in the other. Every cell in this prison was most likely designed to be uniform.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 40412,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "City Prison",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40415": {
+          "vnum": 40415,
+          "name": "A Prison Cell",
+          "description": "Maybe big enough for two human men laying horizontal, these cells were not designed with comfort in mind. A wooden pallet rests in one corner and a wooden bucket rests in the other. Every cell in this prison was most likely designed to be uniform.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40412,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "City Prison",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 5
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40402,
+      "rooms": {
+        "40402": {
+          "vnum": 40402,
+          "name": "Before the Barracks",
+          "description": "A stone road makes it way from the palace entrance to the east up to a squat barracks, winding its way through a yard of tightly packed earth. To each side you see men wearing the symbols of the city guard officers drilling new recruits in various weaponry.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40065,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Palace Gates",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40403,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Inside the Barracks",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40403": {
+          "vnum": 40403,
+          "name": "Inside the Barracks",
+          "description": "You stand inside the two-story stone building which houses the city guard. Men and women in uniform trickle in and out, often checking the bulletin board for special assignments. An arched doorway opens to the south and a stone staircase leads to the second floor.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40402,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Before the Barracks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40404,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "The Armory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40412,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "City Prison",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40405,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Barracks - Second Floor",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40404": {
+          "vnum": 40404,
+          "name": "The Armory",
+          "description": "Steel and leather armaments line the walls both hung from pegs and set up on stands. The southern wall is dedicated to a row of lockers to store personal effects. An arched doorway leads out to the main chamber.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40403,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Inside the Barracks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 3
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 40405,
+      "rooms": {
+        "40405": {
+          "vnum": 40405,
+          "name": "Barracks - Second Floor",
+          "description": "The sounds of numerous guardsmen and women trickle up from the staircase leading below, standing in contrast to the relative quiet of the second floor where the officers have their offices. Two stout doors announce the entrances to two such rooms, leading south and east respectively.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40406,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Guard Commanders Office",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 40407,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Clerk's Office",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 40403,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Inside the Barracks",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40406": {
+          "vnum": 40406,
+          "name": "Guard Commanders Office",
+          "description": "The office of the commander of the city guard is surprisingly simple and utilitarian. A plain rug covers the stone floor and is topped by a sturdy wooden desk with a large, high backed chair behind it and two wooden chairs sitting before it. A map of Mareldja plasters one wall, complete with markings to indicate different patrols. A plated door leads to the west, and a large window overlooks the practice field to the east.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 40405,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Barracks - Second Floor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40407": {
+          "vnum": 40407,
+          "name": "Clerk's Office",
+          "description": "This neat office is the bureaucratic heart of the city guards, handling every affair from finance to scheduling. A steel filing cabinet dominates the eastern wall and a large wooden desk rests under a small window to the west.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40405,
+              "to_zone": "Mareldjan Guard Barracks - City of Mareldja",
+              "to_room_name": "Barracks - Second Floor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 3
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 40402,
+      "to": 40403,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40403,
+      "to": 40404,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40405,
+      "to": 40406,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40405,
+      "to": 40407,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40412,
+      "to": 40414,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40412,
+      "to": 40413,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40412,
+      "to": 40415,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40412,
+      "to": 40416,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

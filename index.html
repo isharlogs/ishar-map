@@ -1,0 +1,3767 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUD Zone Explorer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Crimson+Pro:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <style>
+        /* ── CSS Variables ─────────────────────────────────────────────── */
+        :root {
+            --bg-deep:      #080b10;
+            --bg-panel:     #0e1318;
+            --bg-card:      #141b22;
+            --bg-hover:     #1a2530;
+            --border:       #1e2d3d;
+            --border-light: #253545;
+            --text-primary: #d4c9b8;
+            --text-muted:   #6b7a8a;
+            --text-dim:     #3d4f5e;
+            --accent:       #4a90c4;
+            --accent-glow:  rgba(74,144,196,0.18);
+            --accent-dim:   #1e3a52;
+            --gold:         #c9a84c;
+            --gold-dim:     #3d2e10;
+            --green:        #4caf82;
+            --green-dim:    #0f2e1e;
+            --red:          #c44a4a;
+            --red-dim:      #2e1010;
+            --node-base:    #1a2535;
+            --node-stroke:  #2d4460;
+            --node-sel:     #0f3355;
+            --node-sel-stroke: #4a90c4;
+            --node-entry:   #1e3020;
+            --node-entry-stroke: #4caf82;
+            --edge-ns:      rgba(196,84,84,0.7);
+            --edge-ew:      rgba(74,120,196,0.7);
+            --edge-ud:      rgba(76,175,130,0.7);
+            --edge-diag:    rgba(196,168,76,0.7);
+            --edge-stair:   rgba(192,137,42,0.85);
+            --font-display: 'Cinzel', serif;
+            --font-body:    'Crimson Pro', serif;
+            --sidebar-w:    300px;
+            --header-h:     44px;
+            --controls-h:   52px;
+            --radius:       6px;
+            --radius-lg:    10px;
+            --npc-unique:     #cc44e0;
+            --npc-loads-item: #d4922a;
+            --npc-common:     #e05555;
+            --npc-chest:     #4a8fc0;
+            --node-ore:      #c0892a;
+            --node-herb:     #3da86a;
+            --node-hide:     #8b6914;
+        }
+
+        /* ── Reset ─────────────────────────────────────────────────────── */
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        /* ── Base ──────────────────────────────────────────────────────── */
+        body {
+            font-family: var(--font-body);
+            font-size: 15px;
+            background: var(--bg-deep);
+            color: var(--text-primary);
+            display: flex;
+            height: 100dvh;
+            overflow: hidden;
+        }
+
+        /* ── Focus ring — visible for keyboard nav ─────────────────────── */
+        :focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 2px;
+        }
+
+        /* ── Layout ─────────────────────────────────────────────────────── */
+        .app {
+            display: flex;
+            width: 100%;
+            height: 100%;
+        }
+
+        /* ── Sidebar ────────────────────────────────────────────────────── */
+        #sidebar {
+            width: var(--sidebar-w);
+            min-width: var(--sidebar-w);
+            background: var(--bg-panel);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .sidebar-header {
+            padding: 14px 16px 12px;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .app-title {
+            font-family: var(--font-display);
+            font-size: 13px;
+            letter-spacing: 2px;
+            color: var(--gold);
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+
+        /* Zone select */
+        .zone-selector select {
+            width: 100%;
+            padding: 9px 10px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-size: 14px;
+            cursor: pointer;
+            appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%236b7a8a' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            padding-right: 30px;
+        }
+        .zone-selector select:hover { border-color: var(--accent); }
+        .zone-selector select:focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+
+        /* Floor tabs */
+        .floor-tabs {
+            display: flex;
+            gap: 4px;
+            padding: 10px 16px;
+            border-bottom: 1px solid var(--border);
+            flex-wrap: wrap;
+            flex-shrink: 0;
+        }
+
+        .floor-tab {
+            padding: 5px 11px;
+            background: transparent;
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            font-size: 12px;
+            font-family: var(--font-display);
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .floor-tab:hover { border-color: var(--accent); color: var(--text-primary); }
+        .floor-tab.active {
+            background: var(--accent-dim);
+            border-color: var(--accent);
+            color: var(--accent);
+        }
+
+        /* Scrollable content area */
+        .sidebar-scroll {
+            flex: 1;
+            overflow-y: auto;
+            padding: 14px 16px;
+            display: flex;
+            flex-direction: column;
+            gap: 14px;
+        }
+
+        /* Room card */
+        .room-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            overflow: hidden;
+        }
+
+        .room-card-header {
+            padding: 10px 12px 8px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .room-vnum {
+            font-size: 10px;
+            font-family: var(--font-display);
+            letter-spacing: 1px;
+            color: var(--text-dim);
+            margin-bottom: 3px;
+        }
+
+        .room-name {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--text-primary);
+            line-height: 1.3;
+        }
+
+        .room-desc-wrap {
+            padding: 10px 12px;
+        }
+
+        .room-desc {
+            font-size: 13px;
+            font-style: italic;
+            color: var(--text-primary);
+            opacity: 0.8;
+            line-height: 1.55;
+        }
+
+        /* Section label */
+        .section-label {
+            font-family: var(--font-display);
+            font-size: 10px;
+            letter-spacing: 1.5px;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            padding-bottom: 6px;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 6px;
+        }
+
+        /* Exits */
+        .exits-list { display: flex; flex-direction: column; gap: 4px; }
+
+        .exit-btn {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            width: 100%;
+            padding: 9px 11px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            color: var(--text-primary);
+            font-family: var(--font-body);
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.15s;
+            text-align: left;
+        }
+        .exit-btn:hover {
+            background: var(--bg-hover);
+            border-color: var(--border-light);
+        }
+
+        .exit-dir {
+            font-family: var(--font-display);
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--accent);
+            background: var(--accent-dim);
+            border-radius: 3px;
+            padding: 2px 5px;
+            min-width: 26px;
+            text-align: center;
+            flex-shrink: 0;
+        }
+
+        .exit-btn.portal { border-color: var(--green-dim); }
+        .exit-btn.portal:hover { border-color: var(--green); }
+        .exit-btn.portal .exit-dir { color: var(--green); background: var(--green-dim); }
+
+        .exit-btn.cross-zone { border-color: var(--gold-dim); }
+        .exit-btn.cross-zone:hover { border-color: var(--gold); }
+        .exit-btn.cross-zone .exit-dir { color: var(--gold); background: var(--gold-dim); }
+
+        .exit-dest { color: var(--text-primary); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+        .exit-badge { font-size: 12px; flex-shrink: 0; }
+
+        /* Exit compass rose — fixed cell per heading so a direction stays put */
+        .compass {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 4px;
+            margin-top: 4px;
+        }
+        .exit-cell {
+            aspect-ratio: 1 / 1;
+            border-radius: var(--radius);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 2px;
+            text-align: center;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
+        .exit-cell.available {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: border-color 0.12s, background 0.12s;
+        }
+        .exit-cell.available:hover { background: var(--bg-hover); border-color: var(--border-light); }
+        .exit-cell.available.portal { border-color: var(--green-dim); }
+        .exit-cell.available.portal:hover { border-color: var(--green); }
+        .exit-cell.available.portal .cell-dir { color: var(--green); }
+        .exit-cell.available.cross { border-color: var(--gold-dim); }
+        .exit-cell.available.cross:hover { border-color: var(--gold); }
+        .exit-cell.available.cross .cell-dir { color: var(--gold); }
+        .exit-cell.blacked {
+            background: #05070b;
+            border: 1px solid #11151c;
+            color: #232a35;
+            cursor: default;
+        }
+        .exit-cell.filler { background: transparent; border: none; }
+        .exit-cell .cell-dir {
+            font-family: var(--font-display);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+        }
+        .exit-cell.available .cell-dir { color: var(--accent); }
+        .exit-cell .cell-dest {
+            font-size: 9px;
+            line-height: 1.15;
+            color: var(--text-dim);
+            margin-top: 3px;
+            max-width: 100%;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+        /* centre cell holds Up / Down stacked */
+        .exit-cell.center-cell {
+            background: transparent;
+            border: none;
+            flex-direction: column;
+            gap: 4px;
+            padding: 0;
+        }
+        .ud-btn {
+            flex: 1;
+            width: 100%;
+            border-radius: var(--radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-display);
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            box-sizing: border-box;
+        }
+        .ud-btn.available {
+            background: var(--bg-card);
+            border: 1px solid var(--edge-ud);
+            color: var(--edge-ud);
+            cursor: pointer;
+            transition: border-color 0.12s, background 0.12s;
+        }
+        .ud-btn.available:hover { background: var(--bg-hover); }
+        .ud-btn.blacked {
+            background: #05070b;
+            border: 1px solid #11151c;
+            color: #232a35;
+        }
+
+        /* Legend */
+        .legend { display: flex; flex-direction: column; gap: 5px; }
+        .legend-row { display: flex; align-items: center; gap: 8px; font-size: 12px; color: var(--text-muted); }
+        .legend-line { width: 22px; height: 3px; border-radius: 2px; flex-shrink: 0; }
+        .legend-swatch { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; border: 1px solid rgba(255,255,255,0.1); }
+
+        /* ── Canvas area ────────────────────────────────────────────────── */
+        .canvas-area {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            background: var(--bg-deep);
+            overflow: hidden;
+            min-width: 0;
+        }
+
+        /* Header bar */
+        .map-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 16px;
+            height: var(--header-h);
+            background: var(--bg-panel);
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .map-title {
+            font-family: var(--font-display);
+            font-size: 13px;
+            letter-spacing: 1px;
+            color: var(--text-primary);
+        }
+
+        .room-count {
+            font-size: 12px;
+            color: var(--text-dim);
+            font-family: var(--font-display);
+            letter-spacing: 0.5px;
+        }
+
+        /* Map viewport */
+        #mapContainer {
+            flex: 1;
+            position: relative;
+            overflow: hidden;
+            cursor: grab;
+            /* Subtle dot grid background */
+            background-color: var(--bg-deep);
+            background-image: radial-gradient(circle, #1e2d3d 1px, transparent 1px);
+            background-size: 28px 28px;
+        }
+
+        #mapContainer.dragging { cursor: grabbing; }
+
+        #mapSvg {
+            position: absolute;
+            top: 0; left: 0;
+        }
+
+        /* SVG room nodes */
+        .room-box {
+            fill: var(--node-base);
+            stroke: var(--node-stroke);
+            stroke-width: 1.5;
+            cursor: pointer;
+            transition: fill 0.15s, stroke 0.15s;
+            rx: 6;
+        }
+        .room-box:hover { fill: var(--bg-hover); stroke: var(--border-light); stroke-width: 2; }
+        .room-box.selected { fill: var(--node-sel); stroke: var(--node-sel-stroke); stroke-width: 2; }
+        .room-box.entry-room { fill: var(--node-entry); stroke: var(--node-entry-stroke); stroke-width: 1.5; }
+        .room-box.entry-room.selected { stroke: var(--node-sel-stroke); stroke-width: 2; }
+        .room-box.detached { stroke-dasharray: 5 3; stroke: var(--text-dim); opacity: 0.72; }
+
+        .room-text {
+            font-size: 10.5px;
+            fill: var(--text-primary);
+            pointer-events: none;
+            text-anchor: middle;
+            dominant-baseline: middle;
+            font-family: 'Crimson Pro', serif;
+            font-weight: 400;
+            letter-spacing: 0.2px;
+        }
+
+        .room-text.selected-text { fill: #e8f4ff; }
+        .room-text.entry-text { fill: #a8dfc0; }
+
+        /* ── Controls bar ──────────────────────────────────────────────── */
+        .controls {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 0 14px;
+            height: var(--controls-h);
+            background: var(--bg-panel);
+            border-top: 1px solid var(--border);
+            flex-shrink: 0;
+        }
+
+        .ctrl-btn {
+            height: 32px;
+            padding: 0 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            font-family: var(--font-body);
+            font-size: 13px;
+            color: var(--text-primary);
+            cursor: pointer;
+            transition: all 0.15s;
+            white-space: nowrap;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .ctrl-btn:hover { background: var(--bg-hover); border-color: var(--accent); }
+        .ctrl-btn:active { transform: scale(0.97); }
+
+        .ctrl-btn.danger {
+            background: var(--red-dim);
+            border-color: var(--red);
+            color: #f0a0a0;
+        }
+        .ctrl-btn.danger:hover { background: #3d1010; }
+
+        .zoom-level {
+            font-family: var(--font-display);
+            font-size: 11px;
+            color: var(--text-muted);
+            min-width: 38px;
+            text-align: center;
+            letter-spacing: 0.5px;
+        }
+
+        .ctrl-divider {
+            width: 1px;
+            height: 24px;
+            background: var(--border);
+            margin: 0 2px;
+        }
+
+        .ctrl-spacer { flex: 1; }
+
+        .room-search-wrap {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        .room-search-input {
+            height: 32px;
+            width: 76px;
+            padding: 0 8px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius);
+            font-family: var(--font-body);
+            font-size: 13px;
+            color: var(--text-primary);
+            transition: border-color 0.15s, box-shadow 0.15s;
+        }
+        .room-search-input::placeholder { color: var(--text-dim); }
+        .room-search-input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent-glow); }
+        .room-search-input.not-found { border-color: var(--red) !important; }
+
+        .breadcrumb {
+            font-size: 11px;
+            font-family: var(--font-display);
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 220px;
+        }
+
+        .keyboard-hint {
+            font-size: 11px;
+            color: var(--text-dim);
+            white-space: nowrap;
+        }
+        .kbd {
+            display: inline-block;
+            padding: 1px 4px;
+            background: var(--bg-card);
+            border: 1px solid var(--border-light);
+            border-radius: 3px;
+            font-family: monospace;
+            font-size: 10px;
+        }
+
+        /* ── No rooms message ──────────────────────────────────────────── */
+        .no-rooms {
+            position: absolute;
+            top: 50%; left: 50%;
+            transform: translate(-50%, -50%);
+            color: var(--text-dim);
+            font-size: 14px;
+            text-align: center;
+            pointer-events: none;
+            font-family: var(--font-display);
+            letter-spacing: 1px;
+        }
+
+        /* ── Scrollbar ─────────────────────────────────────────────────── */
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: transparent; }
+        ::-webkit-scrollbar-thumb { background: var(--border-light); border-radius: 3px; }
+        ::-webkit-scrollbar-thumb:hover { background: var(--text-dim); }
+
+        /* ── Right NPC Sidebar ─────────────────────────────────────────── */
+        #npcSidebar {
+            width: 260px;
+            min-width: 260px;
+            background: var(--bg-panel);
+            border-left: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .npc-sidebar-header {
+            padding: 12px 14px 10px;
+            border-bottom: 1px solid var(--border);
+            flex-shrink: 0;
+            font-family: var(--font-display);
+            font-size: 11px;
+            letter-spacing: 2px;
+            color: var(--npc-unique);
+            text-transform: uppercase;
+        }
+        #npcsSection { margin-bottom: 4px; }
+
+        /* ── NPC Styles ─────────────────────────────────────────────────── */
+
+        .npc-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 9px 11px;
+            margin-bottom: 6px;
+            cursor: pointer;
+            transition: border-color 0.15s, background 0.15s;
+        }
+        .npc-card:hover { border-color: var(--border-light); background: var(--bg-hover); }
+        .npc-card.expanded { border-color: var(--gold); }
+        .npc-card-header { display: flex; align-items: center; gap: 8px; }
+        .npc-dot {
+            width: 20px; height: 20px; border-radius: 50%; flex-shrink: 0;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 10px; font-weight: bold; color: #fff; font-family: monospace;
+        }
+        .npc-name { font-size: 13px; color: var(--text-primary); font-weight: 500; line-height: 1.3; }
+        .npc-room-tag { font-size: 11px; color: var(--text-dim); margin-top: 2px; padding-left: 18px; }
+        .npc-desc {
+            font-size: 12px; color: var(--text-muted); margin-top: 5px;
+            padding-left: 18px; font-style: italic; line-height: 1.5; display: none;
+        }
+        .npc-card.expanded .npc-desc { display: block; }
+        .npc-empty { color: var(--text-dim); font-size: 13px; padding: 4px 0 8px; font-style: italic; }
+
+        .npc-badge-text {
+            font-size: 10px; font-family: monospace; font-weight: bold;
+            fill: #fff; text-anchor: middle; dominant-baseline: central;
+            pointer-events: none;
+        }
+
+        /* ── NPC Modal ─────────────────────────────────────────────────── */
+        #npcModal {
+            position: fixed; inset: 0;
+            background: rgba(0,0,0,0.65);
+            z-index: 1000;
+            display: flex; align-items: center; justify-content: center;
+        }
+        #npcModalCard {
+            background: var(--bg-panel);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 22px 26px;
+            max-width: 480px; width: 90%;
+            max-height: 80vh; overflow-y: auto;
+            position: relative;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.5);
+        }
+        #npcModalClose {
+            position: absolute; top: 12px; right: 14px;
+            background: none; border: none;
+            font-size: 22px; color: var(--text-muted); cursor: pointer; line-height: 1;
+        }
+        #npcModalClose:hover { color: var(--text-primary); }
+        .npc-modal-name { font-family: var(--font-display); font-size: 17px; color: var(--text-primary); margin-bottom: 6px; }
+        .npc-modal-meta { font-size: 13px; color: var(--text-muted); margin-bottom: 14px; }
+        .npc-modal-stats { display: flex; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+        .npc-stat { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--radius); padding: 8px 14px; text-align: center; min-width: 70px; }
+        .npc-stat-label { font-size: 9px; font-family: var(--font-display); letter-spacing: 1.5px; text-transform: uppercase; color: var(--text-dim); margin-bottom: 4px; }
+        .npc-stat-value { font-size: 18px; color: var(--text-primary); font-weight: 600; }
+        .npc-modal-desc { font-size: 13px; color: var(--text-muted); font-style: italic; line-height: 1.65; margin-bottom: 14px; }
+        .npc-modal-section { margin-top: 12px; }
+        .npc-modal-loads { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 6px; }
+        .load-chip {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 3px 9px;
+            font-size: 12px; color: var(--gold); cursor: default;
+            transition: border-color 0.12s;
+        }
+        .load-chip:hover { border-color: var(--gold); }
+        .npc-modal-jump {
+            margin-top: 16px; width: 100%;
+            padding: 8px; background: var(--accent-dim);
+            border: 1px solid var(--accent); border-radius: var(--radius);
+            color: var(--accent); font-family: var(--font-body); font-size: 13px;
+            cursor: pointer; transition: background 0.15s;
+        }
+        .npc-modal-jump:hover { background: #1a3a5c; }
+
+        /* ── Hover Card ────────────────────────────────────────────────── */
+        #hoverCard {
+            position: fixed; z-index: 2000;
+            background: var(--bg-panel);
+            border: 1px solid var(--border-light);
+            border-radius: var(--radius-lg);
+            padding: 11px 14px;
+            min-width: 180px; max-width: 260px;
+            pointer-events: auto;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.45);
+            font-size: 12px;
+        }
+        .hc-name { font-family: var(--font-display); font-size: 12px; color: var(--text-primary); margin-bottom: 5px; line-height: 1.3; }
+        .hc-meta { color: var(--text-muted); margin-bottom: 6px; }
+        .hc-stats { display: flex; gap: 12px; color: var(--text-muted); }
+        .hc-stat span { color: var(--text-primary); font-weight: 500; }
+        .hc-type { font-size: 9px; font-family: var(--font-display); letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 4px; }
+        .hc-row { color: var(--text-muted); margin-top: 3px; }
+        .hc-row span { color: var(--accent); }
+        .hc-row.gold span { color: var(--gold); }
+        .hc-loads { margin-top: 7px; display: flex; flex-wrap: wrap; gap: 3px; }
+        .hc-load-chip {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: var(--radius); padding: 2px 6px;
+            font-size: 11px; color: var(--gold); cursor: default;
+        }
+        .hc-load-chip:hover { border-color: var(--gold); }
+
+        /* ── Joystick traversal compass (floating, bottom-right over map) ── */
+        .map-compass {
+            position: fixed;
+            right: 14px;
+            bottom: calc(var(--controls-h) + 14px);
+            z-index: 350;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            width: 168px;
+            -webkit-user-select: none;
+            user-select: none;
+            touch-action: manipulation;
+        }
+        /* Hidden until a room with exits is selected. */
+        .map-compass:not(.active) { display: none; }
+        .map-compass-head {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(10,14,20,0.42);
+            border: 1px solid var(--border);
+            border-radius: 9px;
+            padding: 5px 6px 5px 10px;
+            backdrop-filter: blur(1px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+        }
+        .mc-title {
+            flex: 1; min-width: 0;
+            font-family: var(--font-display);
+            font-size: 11px; letter-spacing: 0.03em;
+            color: var(--text-primary);
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        .mc-toggle {
+            flex-shrink: 0;
+            width: 24px; height: 24px;
+            border-radius: 6px;
+            border: 1px solid var(--border);
+            background: var(--bg-card);
+            color: var(--text-dim);
+            font-size: 13px; line-height: 1;
+            cursor: pointer;
+            display: flex; align-items: center; justify-content: center;
+        }
+        .mc-toggle:active { transform: scale(0.92); }
+        .mc-body { display: flex; flex-direction: column; gap: 6px; }
+        .map-compass .compass {
+            margin-top: 0;
+            gap: 4px;
+            background: rgba(10,14,20,0.42);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 7px;
+            backdrop-filter: blur(1px);
+            box-shadow: 0 4px 18px rgba(0,0,0,0.55);
+        }
+        .map-compass .exit-cell { padding: 0; }
+        .map-compass .exit-cell .cell-dir { font-size: 14px; }
+        .map-compass .exit-cell .cell-dest { display: none; }   /* too small here */
+        .map-compass .ud-btn { font-size: 12px; }
+        .map-compass .exits-list {
+            display: flex; flex-direction: column; gap: 4px;
+            background: rgba(10,14,20,0.42);
+            border: 1px solid var(--border);
+            border-radius: 9px;
+            padding: 6px;
+            backdrop-filter: blur(1px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+            max-height: 124px; overflow-y: auto;
+        }
+        .map-compass .exit-btn { padding: 5px 7px; font-size: 12px; }
+        .map-compass .exit-btn .exit-dest {
+            max-width: 92px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+        }
+        /* Collapsed → just a round joystick button. */
+        .map-compass.collapsed { width: auto; }
+        .map-compass.collapsed .mc-body { display: none; }
+        .map-compass.collapsed .mc-title { display: none; }
+        .map-compass.collapsed .map-compass-head {
+            background: transparent; border: none; box-shadow: none; padding: 0;
+        }
+        .map-compass.collapsed .mc-toggle {
+            width: 50px; height: 50px; border-radius: 50%;
+            font-size: 22px; background: var(--accent); color: #fff; border: none;
+            box-shadow: 0 3px 14px rgba(0,0,0,0.5);
+        }
+        /* Translucent cells so crafting-node icons stay visible behind the rose. */
+        .map-compass .exit-cell.available { background: rgba(20,27,34,0.5); }
+        .map-compass .exit-cell.blacked   { background: rgba(5,7,11,0.3); border-color: rgba(17,21,28,0.5); }
+        .map-compass .ud-btn.available     { background: rgba(20,27,34,0.5); }
+        /* Solidify while hovering / interacting so it stays readable in use. */
+        .map-compass:hover   .map-compass-head,
+        .map-compass:hover   .compass,
+        .map-compass:hover   .exits-list,
+        .map-compass:focus-within .map-compass-head,
+        .map-compass:focus-within .compass,
+        .map-compass:focus-within .exits-list { background: rgba(10,14,20,0.92); }
+        .map-compass:hover .exit-cell.available,
+        .map-compass:focus-within .exit-cell.available,
+        .map-compass:hover .ud-btn.available,
+        .map-compass:focus-within .ud-btn.available { background: var(--bg-card); }
+
+        /* ── Mobile ────────────────────────────────────────────────────── */
+        @media (max-width: 768px) {
+            :root { --sidebar-w: 100%; }
+
+            #npcSidebar {
+                position: fixed;
+                top: 0; right: 0;
+                bottom: 0;
+                z-index: 200;
+                width: 85vw;
+                max-width: 320px;
+                transform: translateX(100%);
+                transition: transform 0.25s ease;
+                display: flex;
+            }
+            #npcSidebar.open {
+                transform: translateX(0);
+                box-shadow: -4px 0 24px rgba(0,0,0,0.5);
+            }
+
+            #npcSidebarToggle {
+                position: fixed;
+                bottom: 126px;
+                right: 16px;
+                width: 48px; height: 48px;
+                border-radius: 50%;
+                background: var(--npc-unique);
+                border: none;
+                color: #fff;
+                font-size: 18px;
+                cursor: pointer;
+                z-index: 300;
+                box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+                display: flex; align-items: center; justify-content: center;
+                transition: transform 0.15s;
+            }
+            #npcSidebarToggle:active { transform: scale(0.93); }
+
+            .app { flex-direction: column; }
+
+            #sidebar {
+                position: fixed;
+                top: 0; left: 0; right: 0;
+                bottom: 0;
+                z-index: 200;
+                transform: translateX(-100%);
+                transition: transform 0.25s ease;
+                width: 85vw;
+                max-width: 340px;
+            }
+
+            #sidebar.open { transform: translateX(0); box-shadow: 4px 0 24px rgba(0,0,0,0.5); }
+
+            .sidebar-overlay {
+                display: none;
+                position: fixed;
+                inset: 0;
+                background: rgba(0,0,0,0.5);
+                z-index: 199;
+            }
+            .sidebar-overlay.open { display: block; }
+
+            .canvas-area { width: 100%; height: 100dvh; }
+
+            /* FAB to open sidebar — bottom-LEFT, lifted above the zoom controls
+               bar so it doesn't overlap the − zoom button. */
+            #sidebarToggle {
+                position: fixed;
+                bottom: calc(var(--controls-h) + 14px);
+                left: 16px;
+                right: auto;
+                width: 48px;
+                height: 48px;
+                border-radius: 50%;
+                background: var(--accent);
+                border: none;
+                color: #fff;
+                font-size: 20px;
+                cursor: pointer;
+                z-index: 300;
+                box-shadow: 0 3px 12px rgba(0,0,0,0.4);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transition: transform 0.15s;
+            }
+            #sidebarToggle:active { transform: scale(0.93); }
+
+            .keyboard-hint { display: none; }
+
+            .ctrl-btn { height: 40px; padding: 0 14px; font-size: 14px; }
+
+            .controls { gap: 8px; padding: 0 10px; }
+
+            /* The floating joystick handles traversal on mobile, so drop the
+               sidebar's redundant compass rose and let the room description
+               take that space instead. */
+            #exitsSection { display: none; }
+            .room-desc { font-size: 14px; opacity: 0.92; }
+        }
+
+        @media (min-width: 769px) {
+            #sidebarToggle { display: none !important; }
+            #npcSidebarToggle { display: none !important; }
+            .sidebar-overlay { display: none !important; }
+        }
+    </style>
+</head>
+<body>
+<div class="app">
+
+    <!-- ── Sidebar overlay (mobile) ──────────────────────── -->
+    <div class="sidebar-overlay" id="sidebarOverlay" aria-hidden="true"></div>
+
+    <!-- ── LEFT SIDEBAR ──────────────────────────────────── -->
+    <nav id="sidebar" role="navigation" aria-label="Zone navigation">
+
+        <div class="sidebar-header">
+            <div class="app-title" aria-label="MUD Zone Explorer">⚔ Zone Explorer</div>
+            <div class="zone-selector">
+                <label for="zoneDropdown" style="display:block; font-size:11px; font-family:'Cinzel',serif; letter-spacing:1px; color:var(--text-dim); text-transform:uppercase; margin-bottom:6px;">Zone</label>
+                <select id="zoneDropdown" aria-label="Select zone">
+                    <option value="">Loading zones...</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Floor tabs -->
+        <div class="floor-tabs" id="floorTabs" role="tablist" aria-label="Zone floors"></div>
+
+        <!-- Scrollable body -->
+        <div class="sidebar-scroll" role="main">
+
+            <!-- Triage panel (visible only when triageMode is ON) -->
+            <div id="triagePanel" style="display:none;padding:12px 14px;border-bottom:1px solid var(--border);background:#0a0e14;"></div>
+
+            <!-- Room card -->
+            <div class="room-card" id="roomCard" aria-live="polite" aria-label="Selected room info">
+                <div class="room-card-header">
+                    <div class="room-vnum" id="roomVnum">—</div>
+                    <div class="room-name" id="roomName">Select a room</div>
+                </div>
+                <div class="room-desc-wrap">
+                    <div class="room-desc" id="roomDesc"></div>
+                </div>
+            </div>
+
+            <!-- Exits (compass rose — each heading holds a fixed cell) -->
+            <div id="exitsSection">
+                <div class="section-label">Exits</div>
+                <div class="compass" id="exitsCompass" aria-label="Room exits"></div>
+                <div class="exits-list" id="exitsExtra" role="list" aria-label="Other exits" style="margin-top:8px;display:none;"></div>
+            </div>
+
+            <!-- Room crafting nodes (moved here from the old NPC sidebar) -->
+            <div id="roomNodesSection">
+                <div class="section-label" style="color:var(--node-ore);">Room Nodes</div>
+                <div id="roomNodeList"></div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ── RIGHT CANVAS ───────────────────────────────────── -->
+    <div class="canvas-area">
+
+        <!-- Header -->
+        <header class="map-header" role="banner">
+            <button id="navBackBtn" onclick="NAV_back()" disabled title="Back to previous zone" style="font-size:13px;padding:2px 9px;background:var(--bg-card);border:1px solid var(--border);color:var(--text-dim);border-radius:4px;cursor:default;margin-right:8px;flex-shrink:0;" aria-label="Back to previous zone">◀</button>
+            <span class="map-title" id="mapTitle">Loading…</span>
+            <span class="room-count" id="roomCount"></span>
+        </header>
+
+        <!-- Map -->
+        <div id="mapContainer" role="img" aria-label="Zone map" tabindex="0">
+            <svg id="mapSvg" aria-hidden="true"></svg>
+            <div class="no-rooms" id="noRooms" style="display:none;" aria-live="polite">No rooms on this floor</div>
+        </div>
+
+        <!-- Controls -->
+        <div class="controls" role="toolbar" aria-label="Map controls">
+            <button class="ctrl-btn" id="zoomOutBtn" aria-label="Zoom out (minus key)">−</button>
+            <span class="zoom-level" id="zoomLevel" aria-live="polite" aria-label="Zoom level">100%</span>
+            <button class="ctrl-btn" id="zoomInBtn" aria-label="Zoom in (plus key)">+</button>
+            <div class="ctrl-divider"></div>
+            <button class="ctrl-btn" id="resetBtn" aria-label="Reset view (R key)">Reset</button>
+            <div class="ctrl-divider"></div>
+            <div class="room-search-wrap">
+                <input type="text" id="roomSearchInput" class="room-search-input" placeholder="Room #" aria-label="Jump to room by vnum" maxlength="7" inputmode="numeric">
+                <button class="ctrl-btn" id="roomSearchBtn" aria-label="Jump to room">Go</button>
+            </div>
+            <div class="ctrl-spacer"></div>
+            <span class="breadcrumb" id="breadcrumb" aria-live="polite"></span>
+            <span class="keyboard-hint" aria-hidden="true">
+                <kbd class="kbd">scroll</kbd> zoom &nbsp;
+                <kbd class="kbd">drag</kbd> pan &nbsp;
+                <kbd class="kbd">+/−</kbd> zoom
+            </span>
+        </div>
+    </div>
+
+</div>
+
+<!-- Mobile FABs -->
+<button id="sidebarToggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="sidebar">☰</button>
+
+<!-- Floating joystick traversal compass (over the map, bottom-right) -->
+<div class="map-compass" id="mapCompass" aria-label="Traversal compass">
+    <div class="map-compass-head">
+        <span class="mc-title" id="mcTitle">—</span>
+        <button class="mc-toggle" id="mcToggle" aria-label="Collapse compass" title="Collapse compass">–</button>
+    </div>
+    <div class="mc-body">
+        <div class="exits-list" id="mcExtra" role="list" aria-label="Special exits" style="display:none;"></div>
+        <div class="compass" id="mcGrid" aria-label="Room exits"></div>
+    </div>
+</div>
+
+<!-- NPC Detail Modal -->
+<div id="npcModal" style="display:none" role="dialog" aria-modal="true" aria-labelledby="npcModalName">
+    <div id="npcModalCard">
+        <button id="npcModalClose" aria-label="Close">×</button>
+        <div id="npcModalContent"></div>
+    </div>
+</div>
+
+<!-- Hover Card -->
+<div id="hoverCard" style="display:none" aria-hidden="true"></div>
+
+<script>
+        // DEV: position editor origin (remove before live)
+        let DEV_originX = 0, DEV_originY = 0;
+
+        // Configuration
+        const ROOM_WIDTH = 36;
+        const ROOM_HEIGHT = 36;
+        const GRID_STEP_X = 120;
+        const GRID_STEP_Y = 120;
+        const SUB_PX = 38; // pixel offset per sub_x / sub_y unit
+        const PADDING = 50;
+        const MIN_ZOOM = 0.1;
+        const MAX_ZOOM = 1.8;
+        const ZOOM_STEP = 0.1;
+
+        // State
+        let state = {
+            allZones: {},
+            zoneNames: [],
+            currentZone: null,
+            currentFloor: 0,
+            selectedRoom: null,
+            zoom: 1,
+            panX: 0,
+            panY: 0,
+            isDragging: false,
+            dragStart: null,
+            portalHistory: [],  // Track portal navigation: [{zone, room, exitDir}, ...]
+            isInPortal: false,  // Whether currently viewing a portal map
+            // go-portal view: null when not active, else { sourceVnum, portalVnum, direction }
+            goPortalView: null,
+            // warp pocket view: null when not active, else { pocketId, sourceVnum, sourceFloor }
+            warpPocketView: null,
+            showNpcs:         false,
+            showDoors:        false,
+            showDetached:     false,
+            hiddenSectionMap: {},  // 'zone|floor|sid' -> true (shown) / false (hidden)
+            npcData:          {},
+            itemData:         {},
+            _activeHoverNpc:  null,
+            stackActiveMap:   {},  // 'zone|gx,gy,floor' -> active vnum
+            // DEV: position editor (remove before live)
+            posEditMode:  false,
+            posOverrides: {},  // vnum -> {gx, gy}
+            _roomDrag:    null,
+            // DEV: trace tool (remove before live)
+            traceMode:    false,
+            traceChain:   [],  // ordered list of clicked vnums
+            // Triage mode
+            triageMode:   false,
+            // Navigation history (zone changes only) — [{zone, floor, vnum}]
+            navHistory:   [],
+        };
+
+        // ============================================================================
+        // Data Loading
+        // ============================================================================
+
+        async function loadZoneData(zoneName) {
+            if (state.allZones[zoneName]) {
+                return state.allZones[zoneName];
+            }
+            // Release gate: never load a zone that isn't in the published set.
+            // Blocks cross-zone exits / portals that point into unreleased zones.
+            if (state.zoneNames.length && !state.zoneNames.includes(zoneName)) {
+                return null;
+            }
+            try {
+                // Match the filename the exporter produces:
+                //   zone_name.lower().replace(' ','_').keep(alnum|_|-)
+                const filename = zoneName.toLowerCase()
+                    .replace(/\s+/g, '_')
+                    .replace(/[^\w\-]/g, '_')
+                    .replace(/_+/g, '_')
+                    .replace(/^_|_$/g, '')
+                    + '.json';
+
+                // Cache-bust: always pull fresh JSON so a regenerated map shows
+                // immediately on reload (no stale browser cache).
+                const response = await fetch('maps/' + filename + '?t=' + Date.now(), { cache: 'no-store' });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                const data = await response.json();
+                state.allZones[zoneName] = data;
+                return data;
+            } catch (error) {
+                console.error(`Failed to load zone "${zoneName}":`, error);
+                return null;
+            }
+        }
+
+        // ============================================================================
+        // UI Updates
+        // ============================================================================
+
+        function updateSidebar() {
+            if (!state.currentZone) return;
+
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return;
+
+            // Go-portal view: sidebar shows portal room info
+            if (state.goPortalView) {
+                const { sourceVnum, portalVnum, direction } = state.goPortalView;
+                let floor = null;
+                for (const f of Object.values(zone.floors)) {
+                    if (f.rooms[String(sourceVnum)]) { floor = f; break; }
+                }
+                if (!floor) return;
+                const portalRoom = floor.rooms[String(portalVnum)];
+                if (!portalRoom) return;
+
+                document.getElementById('floorTabs').innerHTML = '';
+                document.getElementById('roomVnum').textContent = `#${portalVnum}`;
+                document.getElementById('roomName').textContent = portalRoom.name;
+                document.getElementById('roomDesc').textContent = portalRoom.description || '';
+
+                renderExits(portalRoom.exits, portalVnum, {
+                    skipTo: sourceVnum,
+                    before: () => { state.goPortalView = null; }
+                });
+                return;
+            }
+
+            const floor = zone.floors[String(state.currentFloor)];
+            if (!floor) return;
+
+            // Floor tabs - iterate over actual floor IDs (which can be negative)
+            const tabsContainer = document.getElementById('floorTabs');
+            tabsContainer.innerHTML = '';
+            const floorIds = Object.keys(zone.floors)
+                .map(k => parseInt(k))
+                .sort((a, b) => b - a);  // highest floor first (0, -1, -2...)
+            
+            for (const f of floorIds) {
+                const tab = document.createElement('button');
+                tab.className = `floor-tab ${f === state.currentFloor ? 'active' : ''}`;
+                tab.textContent = `Floor ${f}`;
+                tab.setAttribute('role', 'tab');
+                tab.setAttribute('aria-selected', f === state.currentFloor ? 'true' : 'false');
+                tab.setAttribute('aria-label', `Switch to floor ${f}`);
+                tab.onclick = () => switchFloor(f);
+                tabsContainer.appendChild(tab);
+            }
+
+            updateRoomInfo(floor);
+            updateZoneNpcList(zone);
+            updateWanderingNpcList(zone);
+            updateTrashNpcList(zone);
+            updateZoneLoadsList(zone);
+
+            if (state.triageMode) {
+                TRIAGE_buildSidebar(TRIAGE_computeIssues(floor), state.currentZone, state.currentFloor);
+            } else {
+                document.getElementById('triagePanel').style.display = 'none';
+            }
+        }
+
+        function makeExitBtn(dir, destName, exitData) {
+            const btn = document.createElement('button');
+            const classes = ['exit-btn'];
+            if (exitData.is_cross_zone) classes.push('cross-zone');
+            else if (exitData.is_portal) classes.push('portal');
+            btn.className = classes.join(' ');
+            btn.setAttribute('role', 'listitem');
+            btn.setAttribute('data-is-portal', exitData.is_portal ? 'true' : 'false');
+            btn.setAttribute('data-is-cross', exitData.is_cross_zone ? 'true' : 'false');
+            btn.setAttribute('aria-label', `Go ${dir} to ${destName}`);
+
+            const dirSpan = document.createElement('span');
+            dirSpan.className = 'exit-dir';
+            dirSpan.textContent = dir.toUpperCase();
+
+            const destSpan = document.createElement('span');
+            destSpan.className = 'exit-dest';
+            destSpan.textContent = destName;
+
+            btn.appendChild(dirSpan);
+            btn.appendChild(destSpan);
+
+            const _dl = dir.toLowerCase();
+            const _isVertical = (_dl === 'u' || _dl === 'd' || _dl === 'up' || _dl === 'down');
+            if (_isVertical) {
+                // Up/down exits get an up/down icon, never a door. (In practice
+                // u/d render in the compass centre cell, not here, but guard anyway.)
+                const badge = document.createElement('span');
+                badge.className = 'exit-badge';
+                badge.textContent = (_dl === 'u' || _dl === 'up') ? '⬆️' : '⬇️';
+                badge.setAttribute('aria-label', (_dl === 'u' || _dl === 'up') ? 'up' : 'down');
+                btn.appendChild(badge);
+            } else if (exitData.is_portal) {
+                // Door reserved for go/enter portal exits (e.g. "go bushes").
+                const badge = document.createElement('span');
+                badge.className = 'exit-badge';
+                badge.textContent = '🚪';
+                badge.setAttribute('aria-label', 'portal');
+                btn.appendChild(badge);
+            }
+            if (exitData.is_cross_zone) {
+                const badge = document.createElement('span');
+                badge.className = 'exit-badge';
+                badge.textContent = '🌍';
+                badge.setAttribute('aria-label', 'cross-zone');
+                btn.appendChild(badge);
+            }
+            return btn;
+        }
+
+        // ── Compass-rose exit renderer ────────────────────────────────────
+        // Every heading occupies a FIXED cell, so the direction you keep
+        // clicking stays under the cursor through a chain; headings the room
+        // lacks render blacked-out. Ships swap to a nautical face.
+        const COMPASS_CARDINAL = [
+            ['nw','NW'], ['n','N'],  ['ne','NE'],
+            ['w','W'],   ['center',''], ['e','E'],
+            ['sw','SW'], ['s','S'],  ['se','SE']
+        ];
+        const COMPASS_NAUTICAL = [
+            ['','' ], ['fo','FORE'], ['',''],
+            ['po','PORT'], ['center',''], ['sb','STBD'],
+            ['',''], ['af','AFT'], ['','']
+        ];
+        const NAUTICAL_DIRS = ['fo','af','po','sb'];
+        const COMPASS_DIRS  = ['n','ne','nw','e','w','se','sw','s','u','d','fo','af','po','sb'];
+
+        function exitDestLabel(exitData) {
+            if (exitData.is_cross_zone) return exitData.to_zone;
+            const toZone = state.allZones[exitData.to_zone];
+            const destRoom = toZone ? getRoom(toZone, exitData.to_vnum) : null;
+            let name = destRoom ? destRoom.name : 'Unknown';
+            if (destRoom && destRoom.pocket_id !== undefined) name = '≈ ' + name;
+            return name;
+        }
+
+        function navigateExit(exitData, direction, fromVnum) {
+            const dirLower = direction.toLowerCase();
+            const isUD = dirLower === 'u' || dirLower === 'd' || dirLower === 'up' || dirLower === 'down';
+            if (exitData.is_cross_zone) {
+                navigateCrossZone(exitData.to_vnum, exitData.to_zone);
+            } else if (isUD) {
+                navigateToRoom(exitData.to_vnum, exitData.to_zone);
+            } else if (exitData.is_portal || dirLower.startsWith('go')) {
+                let destFloor = null;
+                const zfloors = (state.allZones[state.currentZone] || {}).floors || {};
+                for (const f of Object.keys(zfloors)) {
+                    if (zfloors[f].rooms[String(exitData.to_vnum)]) { destFloor = parseInt(f); break; }
+                }
+                if (destFloor !== null) navigateToRoom(exitData.to_vnum, exitData.to_zone);
+                else navigateToPortal(fromVnum, exitData.to_vnum, direction);
+            } else {
+                navigateToRoom(exitData.to_vnum, exitData.to_zone);
+            }
+        }
+
+        function makeCompassCell(label, entry, fromVnum, before) {
+            const cell = document.createElement(entry ? 'button' : 'div');
+            cell.className = 'exit-cell ' + (entry ? 'available' : 'blacked');
+            const dirEl = document.createElement('span');
+            dirEl.className = 'cell-dir';
+            dirEl.textContent = label;
+            cell.appendChild(dirEl);
+            if (entry) {
+                const [dir, ex] = entry;
+                const dest = exitDestLabel(ex);
+                if (ex.is_cross_zone) cell.classList.add('cross');
+                else if (ex.is_portal) cell.classList.add('portal');
+                cell.title = `${label} → ${dest}`;
+                cell.setAttribute('aria-label', `Go ${dir} to ${dest}`);
+                const destEl = document.createElement('span');
+                destEl.className = 'cell-dest';
+                destEl.textContent = dest;
+                cell.appendChild(destEl);
+                cell.onclick = () => { if (before) before(); navigateExit(ex, dir, fromVnum); };
+            } else {
+                cell.setAttribute('aria-hidden', 'true');
+            }
+            return cell;
+        }
+
+        function makeUdBtn(label, entry, fromVnum, before) {
+            const b = document.createElement(entry ? 'button' : 'div');
+            b.className = 'ud-btn ' + (entry ? 'available' : 'blacked');
+            b.textContent = label;
+            if (entry) {
+                const [dir, ex] = entry;
+                const dest = exitDestLabel(ex);
+                b.title = `${label} → ${dest}`;
+                b.setAttribute('aria-label', `Go ${dir} to ${dest}`);
+                b.onclick = () => { if (before) before(); navigateExit(ex, dir, fromVnum); };
+            }
+            return b;
+        }
+
+        function makeCenterCell(uEntry, dEntry, fromVnum, before) {
+            const wrap = document.createElement('div');
+            wrap.className = 'exit-cell center-cell';
+            wrap.appendChild(makeUdBtn('U', uEntry, fromVnum, before));
+            wrap.appendChild(makeUdBtn('D', dEntry, fromVnum, before));
+            return wrap;
+        }
+
+        // Fill ONE compass grid (+ its extras list) from the resolved exits.
+        // Shared by the sidebar compass and the floating joystick so both stay
+        // in lock-step with the selected room.
+        function _populateCompass(compass, extra, byDir, extras, face, fromVnum, before) {
+            compass.innerHTML = '';
+            if (extra) extra.innerHTML = '';
+            for (const [slot, label] of face) {
+                if (slot === 'center') {
+                    compass.appendChild(makeCenterCell(byDir['u'], byDir['d'], fromVnum, before));
+                } else if (slot === '') {
+                    const filler = document.createElement('div');
+                    filler.className = 'exit-cell filler';
+                    filler.setAttribute('aria-hidden', 'true');
+                    compass.appendChild(filler);
+                } else {
+                    compass.appendChild(makeCompassCell(label, byDir[slot], fromVnum, before));
+                }
+            }
+            // Special / named / cross-zone exits that aren't compass headings.
+            if (extra) {
+                if (extras.length) {
+                    extra.style.display = '';
+                    extras.sort((a, b) => a[0].localeCompare(b[0]));
+                    for (const [dir, ex] of extras) {
+                        const btn = makeExitBtn(dir, exitDestLabel(ex), ex);
+                        btn.onclick = () => { if (before) before(); navigateExit(ex, dir, fromVnum); };
+                        extra.appendChild(btn);
+                    }
+                } else {
+                    extra.style.display = 'none';
+                }
+            }
+        }
+
+        // Mirror the exits into the floating joystick over the map. Hidden when
+        // the selected room has no exits.
+        function renderMapCompass(byDir, extras, face, fromVnum, before, hasAny) {
+            const wrap = document.getElementById('mapCompass');
+            const grid = document.getElementById('mcGrid');
+            if (!wrap || !grid) return;
+            if (!hasAny) { wrap.classList.remove('active'); return; }
+            wrap.classList.add('active');
+            const title = document.getElementById('mcTitle');
+            if (title) {
+                const nm = document.getElementById('roomName');
+                title.textContent = nm && nm.textContent ? nm.textContent : 'Exits';
+            }
+            _populateCompass(grid, document.getElementById('mcExtra'),
+                             byDir, extras, face, fromVnum, before);
+        }
+
+        function renderExits(exitsObj, fromVnum, opts) {
+            opts = opts || {};
+            const compass = document.getElementById('exitsCompass');
+            const extra   = document.getElementById('exitsExtra');
+
+            const byDir = {};
+            const extras = [];
+            let nautical = false;
+            for (const [dir, ex] of Object.entries(exitsObj || {})) {
+                if (opts.skipTo !== undefined && ex.to_vnum === opts.skipTo) continue;
+                const dl = dir.toLowerCase();
+                if (NAUTICAL_DIRS.includes(dl)) nautical = true;
+                if (COMPASS_DIRS.includes(dl)) byDir[dl] = [dir, ex];
+                else extras.push([dir, ex]);
+            }
+            const face = nautical ? COMPASS_NAUTICAL : COMPASS_CARDINAL;
+
+            if (compass) _populateCompass(compass, extra, byDir, extras, face, fromVnum, opts.before);
+
+            const hasAny = Object.keys(byDir).length > 0 || extras.length > 0;
+            renderMapCompass(byDir, extras, face, fromVnum, opts.before, hasAny);
+        }
+
+        function updateRoomInfo(floor) {
+            const rooms = floor.rooms;
+            let selectedRoom = null;
+
+            if (state.selectedRoom && rooms[String(state.selectedRoom)]) {
+                selectedRoom = rooms[String(state.selectedRoom)];
+            } else if (Object.keys(rooms).length > 0) {
+                selectedRoom = rooms[Object.keys(rooms)[0]];
+                state.selectedRoom = selectedRoom.vnum;
+            }
+
+            if (selectedRoom) {
+                document.getElementById('roomVnum').textContent = `Room #${selectedRoom.vnum}`;
+                document.getElementById('roomName').textContent = selectedRoom.name;
+                document.getElementById('roomDesc').textContent = selectedRoom.description || '';
+
+                // Pocket room indicator
+                const existingTag = document.getElementById('pocketTag');
+                if (existingTag) existingTag.remove();
+                if (selectedRoom.pocket_id !== undefined) {
+                    const tag = document.createElement('div');
+                    tag.id = 'pocketTag';
+                    tag.style.cssText = 'font-size:11px;color:var(--gold,#c8a84b);padding:2px 0 4px 0;font-style:italic;';
+                    tag.textContent = '≈ Warped Space';
+                    document.getElementById('roomCard').appendChild(tag);
+                }
+
+                renderExits(selectedRoom.exits, selectedRoom.vnum);
+            } else {
+                document.getElementById('roomVnum').textContent = '—';
+                document.getElementById('roomName').textContent = 'Select a room';
+                document.getElementById('roomDesc').textContent = '';
+                renderExits({}, null);
+                const _pt = document.getElementById('pocketTag');
+                if (_pt) _pt.remove();
+            }
+
+            updateNpcRoomPanel(selectedRoom);
+            updateRoomChestList(selectedRoom);
+            updateRoomNodeList(selectedRoom);
+        }
+
+        // ============================================================================
+        // Hover Card & NPC Modal
+        // ============================================================================
+
+        function positionHoverCard(event) {
+            const card = document.getElementById('hoverCard');
+            const margin = 16;
+            let x = event.clientX + margin;
+            let y = event.clientY + margin;
+            if (x + 265 > window.innerWidth)  x = event.clientX - 265 - margin;
+            if (y + 160 > window.innerHeight) y = event.clientY - 160 - margin;
+            card.style.left = x + 'px';
+            card.style.top  = y + 'px';
+        }
+
+        let _hideHoverTimeout = null;
+        let _suppressHide = false;
+        function hideHoverCard() {
+            document.getElementById('hoverCard').style.display = 'none';
+            state._activeHoverNpc = null;
+        }
+        function scheduleHideHoverCard() {
+            if (_suppressHide) return;
+            _hideHoverTimeout = setTimeout(hideHoverCard, 700);
+        }
+        function cancelHideHoverCard() {
+            if (_hideHoverTimeout) { clearTimeout(_hideHoverTimeout); _hideHoverTimeout = null; }
+        }
+
+        function showMultiNpcHoverCard(uniqueNpcs, nums, event) {
+            cancelHideHoverCard();
+            const card = document.getElementById('hoverCard');
+            _suppressHide = true;
+            card.innerHTML = `<div class="hc-meta" style="margin-bottom:4px;">Unique NPCs</div>` +
+                uniqueNpcs.map((npc, i) =>
+                    `<div class="hc-row" style="cursor:pointer;padding:3px 2px;" data-npc="${escapeHtml(npc.name)}">` +
+                    `<span style="color:var(--npc-unique);font-weight:bold">${nums[i] || i + 1}</span>` +
+                    ` ${escapeHtml(npc.name)}</div>`
+                ).join('');
+            _suppressHide = false;
+            card.querySelectorAll('.hc-row[data-npc]').forEach(row => {
+                row.addEventListener('mouseenter', e => {
+                    cancelHideHoverCard();
+                    showNpcHoverCard(row.dataset.npc, e, true);
+                });
+            });
+            positionHoverCard(event);
+            card.style.display = 'block';
+        }
+
+        function showNpcHoverCard(npcName, event, skipReposition = false) {
+            const data = state.npcData[npcName];
+            if (!data) return;
+            state._activeHoverNpc = npcName;
+            cancelHideHoverCard();
+            const meta = [data.level && `Lvl ${data.level}`, data['class'], data.race].filter(Boolean).join(' · ');
+            const loadsHtml = (data.loads || []).length > 0
+                ? `<div class="hc-loads">${data.loads.map(i =>
+                      `<span class="hc-load-chip" data-item="${escapeHtml(i)}">${escapeHtml(i)}</span>`
+                  ).join('')}</div>`
+                : '';
+            const card = document.getElementById('hoverCard');
+            _suppressHide = true;
+            card.innerHTML = `
+                <div class="hc-name">${escapeHtml(npcName)}</div>
+                ${meta ? `<div class="hc-meta">${escapeHtml(meta)}</div>` : ''}
+                <div class="hc-stats">
+                    ${data.hp != null ? `<div class="hc-stat">HP <span>${data.hp}</span></div>` : ''}
+                    ${data.xp != null ? `<div class="hc-stat">XP <span>${data.xp}</span></div>` : ''}
+                </div>
+                ${loadsHtml}
+            `;
+            _suppressHide = false;
+            card.querySelectorAll('.hc-load-chip').forEach(el => {
+                el.addEventListener('mouseenter', () => { cancelHideHoverCard(); showItemHoverCard(el.dataset.item); });
+                el.addEventListener('mouseleave', cancelHideHoverCard);
+            });
+            if (!skipReposition) positionHoverCard(event);
+            card.style.display = 'block';
+        }
+
+        function showItemHoverCard(itemName) {
+            const data = state.itemData[itemName];
+            if (!data) return;
+            cancelHideHoverCard();
+            const typeColor = data.type === 'armor' ? 'var(--accent)' : data.type === 'weapon' ? 'var(--red)' : 'var(--green)';
+            let rows = '';
+            if (data.type === 'armor') {
+                if (data.slot)       rows += `<div class="hc-row">Slot <span>${escapeHtml(data.slot)}</span></div>`;
+                if (data.ac)         rows += `<div class="hc-row">AC <span>${data.ac}</span></div>`;
+                if (data.stat1)      rows += `<div class="hc-row"><span>${escapeHtml(data.stat1)}</span></div>`;
+                if (data.stat2)      rows += `<div class="hc-row"><span>${escapeHtml(data.stat2)}</span></div>`;
+                if (data.special)    rows += `<div class="hc-row">Special <span>${escapeHtml(data.special)}</span></div>`;
+                if (data.disenchant) rows += `<div class="hc-row gold">Disenchant <span>${data.disenchant}</span></div>`;
+            } else if (data.type === 'weapon') {
+                if (data.damage)     rows += `<div class="hc-row">Damage <span>${escapeHtml(data.damage)}</span>${data.avg ? ` · avg <span>${data.avg}</span>` : ''}</div>`;
+                if (data.wield)      rows += `<div class="hc-row">Wield <span>${escapeHtml(data.wield)}</span></div>`;
+                if (data.stat1)      rows += `<div class="hc-row"><span>${escapeHtml(data.stat1)}</span></div>`;
+                if (data.stat2)      rows += `<div class="hc-row"><span>${escapeHtml(data.stat2)}</span></div>`;
+                if (data.stat3)      rows += `<div class="hc-row"><span>${escapeHtml(data.stat3)}</span></div>`;
+                if (data.disenchant) rows += `<div class="hc-row gold">Disenchant <span>${data.disenchant}</span></div>`;
+            } else {
+                if (data.effect)  rows += `<div class="hc-row">Effect <span>${escapeHtml(data.effect)}</span></div>`;
+                if (data.charges) rows += `<div class="hc-row">Charges <span>${data.charges}</span></div>`;
+                if (data.bound)   rows += `<div class="hc-row">Bound <span>${escapeHtml(data.bound)}</span></div>`;
+            }
+            const card = document.getElementById('hoverCard');
+            _suppressHide = true;
+            card.innerHTML = `
+                <div class="hc-type" style="color:${typeColor}">${data.type}</div>
+                <div class="hc-name">${escapeHtml(itemName)}</div>
+                ${rows}
+            `;
+            _suppressHide = false;
+            card.style.display = 'block';
+        }
+
+        function showNpcModal(npcName, roomVnum, floorId) {
+            const data = state.npcData[npcName] || {};
+            const meta = [data.level && `Level ${data.level}`, data['class'], data.race].filter(Boolean).join(' · ');
+            const stats = [
+                data.hp != null ? `<div class="npc-stat"><div class="npc-stat-label">HP</div><div class="npc-stat-value">${data.hp}</div></div>` : '',
+                data.xp != null ? `<div class="npc-stat"><div class="npc-stat-label">XP</div><div class="npc-stat-value">${data.xp}</div></div>` : '',
+            ].join('');
+            const loadsHtml = (data.loads || []).length > 0
+                ? `<div class="npc-modal-section">
+                       <div class="section-label" style="margin-bottom:8px;">Loads</div>
+                       <div class="npc-modal-loads">${(data.loads || []).map(i =>
+                           `<span class="load-chip" data-item="${escapeHtml(i)}">${escapeHtml(i)}</span>`
+                       ).join('')}</div>
+                   </div>`
+                : '';
+            const jumpHtml = roomVnum != null
+                ? `<button class="npc-modal-jump" id="npcModalJump">⟶ Jump to room</button>`
+                : '';
+
+            const content = document.getElementById('npcModalContent');
+            content.innerHTML = `
+                <div class="npc-modal-name">${escapeHtml(npcName)}</div>
+                ${meta ? `<div class="npc-modal-meta">${escapeHtml(meta)}</div>` : ''}
+                ${stats ? `<div class="npc-modal-stats">${stats}</div>` : ''}
+                ${data.description ? `<div class="npc-modal-desc">${escapeHtml(data.description)}</div>` : ''}
+                ${loadsHtml}
+                ${jumpHtml}
+            `;
+
+            content.querySelectorAll('.load-chip').forEach(el => {
+                el.addEventListener('mouseenter', () => { cancelHideHoverCard(); showItemHoverCard(el.dataset.item); });
+                el.addEventListener('mouseleave', scheduleHideHoverCard);
+                el.addEventListener('mousemove',  e => positionHoverCard(e));
+            });
+
+            if (roomVnum != null) {
+                document.getElementById('npcModalJump').onclick = () => {
+                    hideNpcModal();
+                    state.selectedRoom = roomVnum;
+                    if (state.currentFloor !== floorId) {
+                        state.currentFloor = floorId;
+                        state.goPortalView = null;
+                        resetView(false);
+                    }
+                    centerOnRoom(roomVnum);
+                    render();
+                };
+            }
+            document.getElementById('npcModal').style.display = 'flex';
+        }
+
+        function hideNpcModal() {
+            document.getElementById('npcModal').style.display = 'none';
+            hideHoverCard();
+        }
+
+        // ============================================================================
+        // NPC
+        // ============================================================================
+
+        function buildNpcIndexByType(zone, type) {
+            if (!zone) return [];
+            const result = [];
+            const seen = type !== 'unique' ? new Set() : null;
+            const fids = Object.keys(zone.floors).map(k => parseInt(k)).sort((a, b) => a - b);
+            for (const fid of fids) {
+                const floor = zone.floors[String(fid)];
+                const vnums = Object.keys(floor.rooms).map(k => parseInt(k)).sort((a, b) => a - b);
+                for (const vnum of vnums) {
+                    const room = floor.rooms[String(vnum)];
+                    for (const npc of (room.npcs || [])) {
+                        const t = npc.npc_type || (npc.unique ? 'unique' : 'trash');
+                        if (t !== type) continue;
+                        if (seen) {
+                            if (seen.has(npc.name)) continue;
+                            seen.add(npc.name);
+                        }
+                        const entry = { ...npc, roomName: room.name, roomVnum: vnum, floorId: fid };
+                        if (type === 'unique') entry.idx = result.length + 1;
+                        result.push(entry);
+                    }
+                }
+            }
+            return result;
+        }
+
+        function buildUniqueNpcIndex(zone) { return buildNpcIndexByType(zone, 'unique'); }
+
+        function npcColor(npc) {
+            if (npc.npc_type === 'unique'     || npc.unique)    return 'var(--npc-unique)';
+            if (npc.npc_type === 'loads_item' || npc.wandering) return 'var(--npc-loads-item)';
+            return 'var(--npc-common)';
+        }
+
+        function makeNpcCard(npc, roomName) {
+            const card = document.createElement('div');
+            card.className = 'npc-card';
+            const color = npcColor(npc);
+            const dotLabel = npc.idx != null ? String(npc.idx) : '';
+            card.innerHTML = `
+                <div class="npc-card-header">
+                    <div class="npc-dot" style="background:${color}">${escapeHtml(dotLabel)}</div>
+                    <div class="npc-name">${escapeHtml(npc.name)}</div>
+                </div>
+                ${roomName ? `<div class="npc-room-tag">${escapeHtml(roomName)}</div>` : ''}
+                ${npc.description ? `<div class="npc-desc">${escapeHtml(npc.description)}</div>` : ''}
+            `;
+            card.addEventListener('mouseenter', e => showNpcHoverCard(npc.name, e));
+            card.addEventListener('mouseleave', scheduleHideHoverCard);
+            card.addEventListener('mousemove',  e => positionHoverCard(e));
+            card.onclick = () => showNpcModal(npc.name, npc.roomVnum, npc.floorId);
+            return card;
+        }
+
+        function updateNpcRoomPanel(room) {
+            const list = document.getElementById('npcRoomList');
+            if (!list) return;
+            const uniqueNpcs = ((room && room.npcs) || []).filter(n => n.unique);
+            if (uniqueNpcs.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No unique NPCs in this room</div>';
+                return;
+            }
+            list.innerHTML = '';
+            const zone = state.allZones[state.currentZone];
+            const zoneIndex = buildUniqueNpcIndex(zone);
+            uniqueNpcs.forEach(npc => {
+                const indexed = zoneIndex.find(n => n.name === npc.name && n.roomVnum === (room && room.vnum));
+                list.appendChild(makeNpcCard(indexed || npc, ''));
+            });
+        }
+
+        function updateZoneNpcList(zone) {
+            const list = document.getElementById('npcZoneList');
+            const countEl = document.getElementById('npcZoneCount');
+            if (!list || !zone) return;
+
+            const all = buildUniqueNpcIndex(zone);
+
+            countEl.textContent = all.length ? String(all.length) : '';
+            list.innerHTML = '';
+
+            if (all.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No unique NPCs in this zone</div>';
+                return;
+            }
+            all.forEach(npc => {
+                list.appendChild(makeNpcCard(npc, npc.roomName));
+            });
+        }
+
+        function updateWanderingNpcList(zone) {
+            const list = document.getElementById('npcWanderingList');
+            const countEl = document.getElementById('npcWanderingCount');
+            if (!list) return;
+            const all = buildNpcIndexByType(zone, 'loads_item');
+            countEl.textContent = all.length ? String(all.length) : '';
+            list.innerHTML = '';
+            if (all.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No item-loading mobs in this zone</div>';
+                return;
+            }
+            all.forEach(npc => list.appendChild(makeNpcCard(npc, npc.roomName)));
+        }
+
+        function updateTrashNpcList(zone) {
+            const list = document.getElementById('npcTrashList');
+            const countEl = document.getElementById('npcTrashCount');
+            if (!list) return;
+            const all = buildNpcIndexByType(zone, 'trash');
+            countEl.textContent = all.length ? String(all.length) : '';
+            list.innerHTML = '';
+            if (all.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No trash mobs in this zone</div>';
+                return;
+            }
+            all.forEach(npc => list.appendChild(makeNpcCard(npc, npc.roomName)));
+        }
+
+        function updateRoomChestList(room) {
+            const list = document.getElementById('roomChestList');
+            if (!list) return;
+            const chests = (room && room.chests) || [];
+            if (chests.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No chests in this room</div>';
+                return;
+            }
+            list.innerHTML = '';
+            chests.forEach(chest => {
+                const card = document.createElement('div');
+                card.className = 'npc-card';
+                card.style.borderColor = 'var(--npc-chest)';
+                const contents = (chest.contents || []).join(', ') || 'Unknown contents';
+                card.innerHTML = `
+                    <div class="npc-card-header">
+                        <div class="npc-dot" style="background:var(--npc-chest)">🗄</div>
+                        <div class="npc-name">${escapeHtml(chest.name)}</div>
+                    </div>
+                    <div class="npc-desc" style="display:block;margin-top:4px;">${escapeHtml(contents)}</div>
+                `;
+                list.appendChild(card);
+            });
+        }
+
+        function nodeColor(category) {
+            if (category === 'ores')  return 'var(--node-ore)';
+            if (category === 'herbs') return 'var(--node-herb)';
+            if (category === 'hides') return 'var(--node-hide)';
+            return 'var(--text-muted)';
+        }
+
+        function nodeIcon(category) {
+            if (category === 'ores')  return '⛏';
+            if (category === 'herbs') return '🌿';
+            if (category === 'hides') return '🐾';
+            return '◆';
+        }
+
+        function updateRoomNodeList(room) {
+            const list = document.getElementById('roomNodeList');
+            if (!list) return;
+            const nodes = (room && room.nodes) || [];
+            if (nodes.length === 0) {
+                list.innerHTML = '<div class="npc-empty">No crafting nodes in this room</div>';
+                return;
+            }
+            list.innerHTML = '';
+            // Group by category
+            const byCategory = {};
+            for (const n of nodes) {
+                const cat = n.category || 'unknown';
+                (byCategory[cat] = byCategory[cat] || []).push(n);
+            }
+            for (const [cat, entries] of Object.entries(byCategory)) {
+                const header = document.createElement('div');
+                header.style.cssText = `color:${nodeColor(cat)};font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;margin:6px 0 3px;`;
+                header.textContent = `${nodeIcon(cat)} ${cat}`;
+                list.appendChild(header);
+                for (const n of entries) {
+                    const card = document.createElement('div');
+                    card.className = 'npc-card';
+                    card.style.borderColor = nodeColor(cat);
+                    const countTxt = n.count > 1 ? ` ×${n.count}` : '';
+                    card.innerHTML = `
+                        <div class="npc-card-header">
+                            <div class="npc-dot" style="background:${nodeColor(cat)}">${nodeIcon(cat)}</div>
+                            <div class="npc-name">${escapeHtml(n.name)}</div>
+                        </div>
+                        <div class="npc-desc" style="display:block;margin-top:4px;">Rank ${n.rank}${countTxt}</div>
+                    `;
+                    list.appendChild(card);
+                }
+            }
+        }
+
+        function updateZoneLoadsList(zone) {
+            const container = document.getElementById('zoneLoadsList');
+            if (!container || !zone) return;
+            const itemsSeen = new Set();
+            for (const floor of Object.values(zone.floors)) {
+                for (const room of Object.values(floor.rooms)) {
+                    for (const npc of (room.npcs || [])) {
+                        const data = state.npcData[npc.name];
+                        if (data && data.loads) {
+                            for (const item of data.loads) {
+                                itemsSeen.add(item);
+                            }
+                        }
+                    }
+                }
+            }
+            container.innerHTML = '';
+            const sorted = [...itemsSeen].sort();
+            if (sorted.length === 0) {
+                container.innerHTML = '<div class="npc-empty">No item loads recorded</div>';
+                return;
+            }
+            sorted.forEach(item => {
+                const chip = document.createElement('span');
+                chip.className = 'load-chip';
+                chip.dataset.item = item;
+                chip.textContent = item;
+                chip.style.cursor = 'pointer';
+                chip.addEventListener('mouseenter', e => showItemHoverCard(item));
+                chip.addEventListener('mouseleave', () => scheduleHideHoverCard());
+                container.appendChild(chip);
+            });
+        }
+
+        function getRoom(zone, vnum) {
+            for (let floor of Object.values(zone.floors)) {
+                if (floor.rooms[String(vnum)]) {
+                    return floor.rooms[String(vnum)];
+                }
+            }
+            return null;
+        }
+
+        // When navigating to a room that's part of a stack, make it the
+        // active member so it renders fully instead of as a ghost.
+        function activateStackRoom(vnum, zoneName, floor) {
+            const zone = state.allZones[zoneName];
+            if (!zone) return;
+            const floorData = zone.floors[String(floor)];
+            if (!floorData) return;
+            const room = floorData.rooms[String(vnum)];
+            if (!room || !room.stack) return;
+            const cellKey = `${zoneName}|${room.grid_x},${room.grid_y},${floor}`;
+            state.stackActiveMap[cellKey] = vnum;
+        }
+
+        async function navigateToRoom(toVnum, toZone) {
+            NAV_pushHistory();
+            if (state.currentZone !== toZone) {
+                const data = await loadZoneData(toZone);
+                if (!data) return;
+
+                state.currentZone = toZone;
+                
+                // Find the floor with this room - iterate actual floor IDs
+                const floorIds = Object.keys(data.floors).map(k => parseInt(k));
+                for (const f of floorIds) {
+                    if (data.floors[String(f)].rooms[String(toVnum)]) {
+                        state.currentFloor = f;
+                        break;
+                    }
+                }
+            } else {
+                // Same zone, find floor with this room
+                const zone = state.allZones[state.currentZone];
+                const floorIds = Object.keys(zone.floors).map(k => parseInt(k));
+                for (const f of floorIds) {
+                    if (zone.floors[String(f)].rooms[String(toVnum)]) {
+                        state.currentFloor = f;
+                        break;
+                    }
+                }
+            }
+
+            state.selectedRoom = toVnum;
+            activateStackRoom(toVnum, state.currentZone, state.currentFloor);
+            state.isInPortal = false;
+            state.portalHistory = [];
+            centerOnRoom(toVnum);
+            render();
+        }
+
+        async function navigateCrossZone(toVnum, toZone) {
+            NAV_pushHistory();
+            // Load the destination zone if not already loaded
+            document.getElementById('mapTitle').textContent = `Loading ${toZone}…`;
+            const data = await loadZoneData(toZone);
+            if (!data) {
+                document.getElementById('mapTitle').textContent = `Failed to load ${toZone}`;
+                return;
+            }
+
+            // Find which floor contains the destination room - iterate actual floor IDs
+            let destFloor = 0;
+            const floorIds = Object.keys(data.floors).map(k => parseInt(k));
+            for (const f of floorIds) {
+                if (data.floors[String(f)].rooms[String(toVnum)]) {
+                    destFloor = f;
+                    break;
+                }
+            }
+
+            // Update zone dropdown to reflect new zone
+            const dropdown = document.getElementById('zoneDropdown');
+            if (dropdown) dropdown.value = toZone;
+
+            state.currentZone  = toZone;
+            state.currentFloor = destFloor;
+            state.selectedRoom = toVnum;
+            state.isInPortal   = false;
+            state.portalHistory = [];
+            // Reset zoom/pan but center on the actual destination vnum,
+            // not the floor entry_vnum (which resetView(true) would use).
+            state.zoom = 1.0;
+            state.panX = 0;
+            state.panY = 0;
+            updateZoomLevel();
+            centerOnRoom(toVnum);
+            render();
+        }
+
+        async function navigateToPortal(fromVnum, toVnum, exitDir) {
+            const isGoPortal = exitDir.toLowerCase().startsWith('go');
+
+            if (isGoPortal) {
+                // Pre-load the destination zones for all of the portal room's onward exits
+                // so the dummy node name is available immediately on the first visit.
+                const zone = state.allZones[state.currentZone];
+                if (zone) {
+                    let portalRoom = null;
+                    for (const f of Object.values(zone.floors)) {
+                        if (f.rooms[String(toVnum)]) { portalRoom = f.rooms[String(toVnum)]; break; }
+                    }
+                    if (portalRoom) {
+                        const loads = Object.values(portalRoom.exits || {})
+                            .filter(ex => ex.to_vnum !== fromVnum && !state.allZones[ex.to_zone])
+                            .map(ex => loadZoneData(ex.to_zone));
+                        if (loads.length) await Promise.all(loads);
+                    }
+                }
+
+                // "go X" portals: show an isolated mini-view, don't touch the main map.
+                state.goPortalView = { sourceVnum: fromVnum, portalVnum: toVnum, direction: exitDir };
+                render();
+                return;
+            }
+
+            // u/d portals: switch floors within the same zone (existing behaviour).
+            const zone = state.allZones[state.currentZone];
+            
+            // Find which floor the destination room is on - iterate actual floor IDs
+            let destFloor = 0;
+            const floorIds = Object.keys(zone.floors).map(k => parseInt(k));
+            for (const f of floorIds) {
+                if (zone.floors[String(f)].rooms[String(toVnum)]) {
+                    destFloor = f;
+                    break;
+                }
+            }
+
+            // Save to history: where we came from
+            state.portalHistory.push({
+                zone: state.currentZone,
+                room: fromVnum,
+                floor: state.currentFloor,
+                exitDir: exitDir
+            });
+
+            // Navigate to portal room
+            state.selectedRoom = toVnum;
+            state.currentFloor = destFloor;
+            state.isInPortal = true;
+            centerOnRoom(toVnum);
+            render();
+        }
+
+        function exitGoPortalView() {
+            // Return from go-portal mini-view back to the main map.
+            state.goPortalView = null;
+            render();
+        }
+
+        function enterWarpPocket(pocketId, sourceVnum) {
+            state.warpPocketView = { pocketId, sourceVnum, sourceFloor: state.currentFloor };
+            state.selectedRoom   = null;
+            state.panX = 0; state.panY = 0; state.zoom = 1.0;
+            updateZoomLevel();
+            render();
+        }
+
+        function exitWarpPocket() {
+            const { sourceVnum, sourceFloor } = state.warpPocketView;
+            state.warpPocketView = null;
+            state.currentFloor   = sourceFloor;
+            state.selectedRoom   = sourceVnum;
+            state.panX = 0; state.panY = 0; state.zoom = 1.0;
+            updateZoomLevel();
+            centerOnRoom(sourceVnum);
+            render();
+        }
+
+        function returnFromPortal() {
+            // Return to previous room via Return button
+            if (state.portalHistory.length === 0) return;
+            
+            const prev = state.portalHistory.pop();
+            state.currentZone = prev.zone;
+            state.currentFloor = prev.floor;
+            state.selectedRoom = prev.room;
+            state.isInPortal = state.portalHistory.length > 0;
+            centerOnRoom(prev.room);
+            render();
+        }
+        function switchFloor(floor) {
+            state.currentFloor = floor;
+            state.selectedRoom = null;
+            state.goPortalView = null;
+            resetView(true);
+            render();
+        }
+
+        // ============================================================================
+        // Rendering
+        // ============================================================================
+
+        function render() {
+            updateSidebar();
+            updateBreadcrumb();
+            renderMap();
+        }
+
+        function edgeColor(dir) {
+            if (dir === 'n' || dir === 's') return '#e05555';
+            if (dir === 'e' || dir === 'w') return '#5588e0';
+            if (dir === 'u' || dir === 'd') return '#44cc88';
+            return '#e0cc44'; // diagonal / named exit
+        }
+
+        // Draw a small filled arrowhead at (x,y) pointing along `angle` (radians).
+        // Used to mark the direction of travel on one-way exit lines.
+        function drawArrowHead(parent, x, y, angle, color) {
+            const size = 8, spread = 0.45;
+            const pts = [
+                [x, y],
+                [x - size * Math.cos(angle - spread), y - size * Math.sin(angle - spread)],
+                [x - size * Math.cos(angle + spread), y - size * Math.sin(angle + spread)],
+            ].map(p => p.join(',')).join(' ');
+            const tri = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+            tri.setAttribute('points', pts);
+            tri.setAttribute('fill', color);
+            tri.setAttribute('opacity', '0.95');
+            parent.appendChild(tri);
+        }
+
+        // Returns the set of vnums that are ONLY reachable via go-portal exits on this floor.
+        // These rooms are hidden on the main map and shown only in the mini portal-view.
+        function getGoPortalTargetVnums(floor) {
+            const rooms = floor.rooms;
+            // Build set of vnums reachable via non-portal exits on this floor
+            const reachableByCardinal = new Set();
+            Object.values(rooms).forEach(room => {
+                Object.values(room.exits || {}).forEach(ex => {
+                    if (!ex.is_portal && !ex.is_cross_zone) {
+                        reachableByCardinal.add(ex.to_vnum);
+                    }
+                });
+            });
+            // A go-portal target is: present on this floor, NOT reachable by any cardinal exit
+            // AND some room on this floor has a go-portal exit pointing to it
+            const goPortalTargets = new Set();
+            Object.values(rooms).forEach(room => {
+                Object.values(room.exits || {}).forEach(ex => {
+                    if (ex.is_portal && ex.direction && ex.direction.toLowerCase().startsWith('go')) {
+                        if (rooms[String(ex.to_vnum)] && !reachableByCardinal.has(ex.to_vnum)) {
+                            goPortalTargets.add(ex.to_vnum);
+                        }
+                    }
+                });
+            });
+            return goPortalTargets;
+        }
+
+        // Renders the isolated portal mini-view.
+        // Layout: Fountain (active, right) with its first onward exit as a dimmed
+        // dummy node above it — matching the fountain.png reference.
+        // The sourceVnum is never drawn; it's only used to filter the back-exit in the sidebar.
+        function renderGoPortalView() {
+            const { sourceVnum, portalVnum } = state.goPortalView;
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return;
+
+            // Find the floor containing the portal room
+            let floor = null;
+            for (const f of Object.values(zone.floors)) {
+                if (f.rooms[String(portalVnum)]) { floor = f; break; }
+            }
+            if (!floor) return;
+
+            const portalRoom = floor.rooms[String(portalVnum)];
+            if (!portalRoom) return;
+
+            // Pick the first onward exit from the portal room (excluding back to sourceVnum)
+            const EXIT_ORDER = ['u','d','n','ne','nw','e','w','se','sw','s'];
+            const onwardExits = Object.entries(portalRoom.exits || {})
+                .filter(([, ex]) => ex.to_vnum !== sourceVnum)
+                .sort(([a], [b]) => {
+                    const ai = EXIT_ORDER.indexOf(a.toLowerCase());
+                    const bi = EXIT_ORDER.indexOf(b.toLowerCase());
+                    if (ai === -1 && bi === -1) return a.localeCompare(b);
+                    if (ai === -1) return 1; if (bi === -1) return -1;
+                    return ai - bi;
+                });
+
+            // The dummy node: first onward exit destination (may be null if portal is a dead-end)
+            const firstExit = onwardExits.length > 0 ? onwardExits[0] : null;
+            let dummyRoom = null;
+            let dummyDir  = null;
+            if (firstExit) {
+                const [dir, ex] = firstExit;
+                dummyDir = dir;
+                // Try to find the room object for the name label
+                const destZone = state.allZones[ex.to_zone];
+                dummyRoom = destZone ? getRoom(destZone, ex.to_vnum) : null;
+                // Fallback name if zone not loaded yet
+                if (!dummyRoom) dummyRoom = { name: ex.is_cross_zone ? ex.to_zone : `#${ex.to_vnum}` };
+            }
+
+            const svg = document.getElementById('mapSvg');
+            const container = svg.parentElement;
+            const W = container.clientWidth  || 800;
+            const H = container.clientHeight || 600;
+
+            svg.setAttribute('width',  W);
+            svg.setAttribute('height', H);
+            svg.innerHTML = '';
+
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+            // Portal room centered in the canvas
+            const porX = (W - ROOM_WIDTH) / 2;
+            const porY = (H - ROOM_HEIGHT) / 2;
+
+            // Dummy node: above the portal room, separated by GRID_STEP_Y
+            const gap = GRID_STEP_Y;
+            const dumX = porX;
+            const dumY = porY - gap;
+
+            // Helper: draw a room box
+            function drawMiniRoom(x, y, room, dimmed) {
+                const grp = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', x); rect.setAttribute('y', y);
+                rect.setAttribute('width', ROOM_WIDTH); rect.setAttribute('height', ROOM_HEIGHT);
+                rect.setAttribute('rx', '4');
+                rect.setAttribute('fill',         dimmed ? '#1e2535' : '#1a6b9a');
+                rect.setAttribute('stroke',       dimmed ? '#555'    : '#00ccff');
+                rect.setAttribute('stroke-width', dimmed ? '1'       : '2');
+                grp.appendChild(rect);
+
+                const cx = x + ROOM_WIDTH / 2;
+                const words = room.name.split(' ');
+                let ln1 = '', ln2 = '';
+                for (const w of words) {
+                    if ((ln1 + ' ' + w).trim().length <= 14) ln1 = (ln1 + ' ' + w).trim();
+                    else if (!ln2) ln2 = w;
+                    else if ((ln2 + ' ' + w).length <= 14) ln2 = (ln2 + ' ' + w).trim();
+                }
+                if (ln2) {
+                    [[ln1, -8],[ln2, 8]].forEach(([txt, dy]) => {
+                        const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                        t.setAttribute('x', cx); t.setAttribute('y', y + ROOM_HEIGHT/2 + dy);
+                        t.setAttribute('class', 'room-text'); t.setAttribute('pointer-events','none');
+                        t.setAttribute('fill', dimmed ? '#888' : '#fff');
+                        t.textContent = txt; grp.appendChild(t);
+                    });
+                } else {
+                    const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    t.setAttribute('x', cx); t.setAttribute('y', y + ROOM_HEIGHT/2 + 4);
+                    t.setAttribute('class', 'room-text'); t.setAttribute('pointer-events','none');
+                    t.setAttribute('fill', dimmed ? '#888' : '#fff');
+                    t.textContent = room.name.length <= 16 ? room.name : room.name.substring(0,15) + '…';
+                    grp.appendChild(t);
+                }
+                return grp;
+            }
+
+            // Draw dummy node and edge only if there's an onward exit
+            if (dummyRoom) {
+                // Dashed edge from portal room up to dummy node
+                const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                ln.setAttribute('x1', porX + ROOM_WIDTH / 2); ln.setAttribute('y1', porY);
+                ln.setAttribute('x2', dumX + ROOM_WIDTH / 2); ln.setAttribute('y2', dumY + ROOM_HEIGHT);
+                ln.setAttribute('stroke', '#e0cc44'); ln.setAttribute('stroke-width', '2');
+                ln.setAttribute('stroke-opacity', '0.7'); ln.setAttribute('stroke-dasharray', '6 3');
+                g.appendChild(ln);
+
+                // Direction label on the edge
+                const lbX = porX + ROOM_WIDTH / 2 + 8;
+                const lbY = porY - gap / 2;
+                const lbl = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                lbl.setAttribute('x', lbX); lbl.setAttribute('y', lbY);
+                lbl.setAttribute('font-size', '11'); lbl.setAttribute('fill', '#e0cc44');
+                lbl.setAttribute('pointer-events', 'none');
+                lbl.textContent = dummyDir;
+                g.appendChild(lbl);
+
+                g.appendChild(drawMiniRoom(dumX, dumY, dummyRoom, true));
+            }
+
+            // Portal room (active)
+            g.appendChild(drawMiniRoom(porX, porY, portalRoom, false));
+
+            svg.appendChild(g);
+        }
+
+        function renderWarpPocketView() {
+            const { pocketId, sourceVnum, sourceFloor } = state.warpPocketView;
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return;
+            const floor = zone.floors[String(sourceFloor)];
+            if (!floor) return;
+            const pocket = (floor.warped_pockets || []).find(wp => wp.id === pocketId);
+            if (!pocket) return;
+
+            const pocketSet = new Set(pocket.rooms);
+            const pocketPos = pocket.pocket_positions;
+            const pb = pocket.bounds;
+
+            const svg = document.getElementById('mapSvg');
+            const container = svg.parentElement;
+            const W = container.clientWidth  || 800;
+            const H = container.clientHeight || 600;
+            svg.setAttribute('width', W);
+            svg.setAttribute('height', H);
+            svg.innerHTML = '';
+
+            const defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+            const marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+            marker.setAttribute('id','arrow-oneway'); marker.setAttribute('viewBox','0 0 8 8');
+            marker.setAttribute('refX','6'); marker.setAttribute('refY','4');
+            marker.setAttribute('markerWidth','5'); marker.setAttribute('markerHeight','5');
+            marker.setAttribute('orient','auto');
+            const ap = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+            ap.setAttribute('d','M0,0 L8,4 L0,8 Z');
+            ap.setAttribute('fill','var(--gold,#c8a84b)'); ap.setAttribute('opacity','0.85');
+            marker.appendChild(ap); defs.appendChild(marker); svg.appendChild(defs);
+
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('id','zoomPanGroup');
+            g.setAttribute('transform', `translate(${state.panX},${state.panY}) scale(${state.zoom})`);
+
+            const originX = PADDING - pb.min_x * GRID_STEP_X;
+            const originY = PADDING - pb.min_y * GRID_STEP_Y;
+
+            // Track drawn edges to avoid duplicates
+            const _drawnEdges = new Set();
+
+            // ── Draw internal edges ───────────────────────────────────────
+            pocket.rooms.forEach(vnum => {
+                const room = floor.rooms[String(vnum)];
+                if (!room) return;
+                const pos = pocketPos[String(vnum)];
+                if (!pos) return;
+                Object.entries(room.exits || {}).forEach(([dir, ex]) => {
+                    if (!pocketSet.has(ex.to_vnum)) return;
+                    const edgeKey = [Math.min(vnum, ex.to_vnum), Math.max(vnum, ex.to_vnum)].join('-');
+                    if (_drawnEdges.has(edgeKey)) return;
+                    _drawnEdges.add(edgeKey);
+                    const destPos = pocketPos[String(ex.to_vnum)];
+                    if (!destPos) return;
+                    const x1 = originX + pos[0]     * GRID_STEP_X + ROOM_WIDTH  / 2;
+                    const y1 = originY + pos[1]     * GRID_STEP_Y + ROOM_HEIGHT / 2;
+                    const x2 = originX + destPos[0] * GRID_STEP_X + ROOM_WIDTH  / 2;
+                    const y2 = originY + destPos[1] * GRID_STEP_Y + ROOM_HEIGHT / 2;
+                    const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    ln.setAttribute('x1',x1); ln.setAttribute('y1',y1);
+                    ln.setAttribute('x2',x2); ln.setAttribute('y2',y2);
+                    ln.setAttribute('stroke', edgeColor(dir));
+                    ln.setAttribute('stroke-width','2');
+                    ln.setAttribute('stroke-opacity','0.7');
+                    g.appendChild(ln);
+                });
+            });
+
+            // ── Draw pocket rooms ─────────────────────────────────────────
+            pocket.rooms.forEach(vnum => {
+                const room = floor.rooms[String(vnum)];
+                if (!room) return;
+                const pos = pocketPos[String(vnum)];
+                if (!pos) return;
+                const px = originX + pos[0] * GRID_STEP_X;
+                const py = originY + pos[1] * GRID_STEP_Y;
+                const cx = px + ROOM_WIDTH / 2;
+                const cy = py + ROOM_HEIGHT / 2;
+
+                const isSelected  = state.selectedRoom === vnum;
+                const isPortalOut = pocket.portals_out.some(p => p.pocket_vnum === vnum);
+
+                const grp = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                grp.style.cursor = 'pointer';
+                grp.onclick = () => {
+                    state.selectedRoom = vnum;
+                    if (isPortalOut) { exitWarpPocket(); return; }
+                    render();
+                };
+
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', px); rect.setAttribute('y', py);
+                rect.setAttribute('width', ROOM_WIDTH); rect.setAttribute('height', ROOM_HEIGHT);
+                rect.setAttribute('rx', '6');
+                rect.setAttribute('class', `room-box${isSelected ? ' selected' : ''}`);
+                if (isPortalOut) {
+                    rect.setAttribute('stroke', '#e0cc44');
+                    rect.setAttribute('stroke-width', '2.5');
+                }
+                grp.appendChild(rect);
+
+                // Room name
+                const words = room.name.split(' ');
+                let ln1 = '', ln2 = '';
+                for (const w of words) {
+                    if ((ln1+' '+w).trim().length <= 14) ln1 = (ln1+' '+w).trim();
+                    else if (!ln2) ln2 = w;
+                    else if ((ln2+' '+w).length <= 14) ln2 = (ln2+' '+w).trim();
+                }
+                const textClass = `room-text${isSelected ? ' selected-text' : ''}`;
+                if (ln2) {
+                    [[ln1,-8],[ln2,8]].forEach(([txt,dy]) => {
+                        const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+                        t.setAttribute('x',cx); t.setAttribute('y',cy+dy);
+                        t.setAttribute('class',textClass); t.setAttribute('pointer-events','none');
+                        t.textContent = txt; grp.appendChild(t);
+                    });
+                } else {
+                    const t = document.createElementNS('http://www.w3.org/2000/svg','text');
+                    t.setAttribute('x',cx); t.setAttribute('y',cy+4);
+                    t.setAttribute('class',textClass); t.setAttribute('pointer-events','none');
+                    t.textContent = ln1; grp.appendChild(t);
+                }
+
+                // ≋ badge on portal_out rooms (stub toward exit direction)
+                if (isPortalOut) {
+                    const pout = pocket.portals_out.find(p => p.pocket_vnum === vnum);
+                    if (pout) {
+                        const FACE = {n:[0,-ROOM_HEIGHT/2],s:[0,ROOM_HEIGHT/2],e:[ROOM_WIDTH/2,0],w:[-ROOM_WIDTH/2,0],
+                            ne:[ROOM_WIDTH/2,-ROOM_HEIGHT/2],nw:[-ROOM_WIDTH/2,-ROOM_HEIGHT/2],se:[ROOM_WIDTH/2,ROOM_HEIGHT/2],sw:[-ROOM_WIDTH/2,ROOM_HEIGHT/2]};
+                        const ff = FACE[pout.direction] || [0,0];
+                        const bx = cx + ff[0] + (ff[0] < 0 ? -20 : ff[0] > 0 ? 20 : 0);
+                        const by = cy + ff[1] + (ff[1] < 0 ? -20 : ff[1] > 0 ? 20 : 0);
+                        const wbg = document.createElementNS('http://www.w3.org/2000/svg','circle');
+                        wbg.setAttribute('cx',bx); wbg.setAttribute('cy',by); wbg.setAttribute('r','10');
+                        wbg.setAttribute('fill','#1a2535'); wbg.setAttribute('stroke','#e0cc44'); wbg.setAttribute('stroke-width','1.5');
+                        const wtxt = document.createElementNS('http://www.w3.org/2000/svg','text');
+                        wtxt.setAttribute('x',bx); wtxt.setAttribute('y',by+4);
+                        wtxt.setAttribute('text-anchor','middle'); wtxt.setAttribute('font-size','11');
+                        wtxt.setAttribute('fill','#e0cc44'); wtxt.setAttribute('pointer-events','none');
+                        wtxt.textContent = '≋';
+                        const wtip = document.createElementNS('http://www.w3.org/2000/svg','title');
+                        wtip.textContent = `Return to main map [${pout.direction.toUpperCase()}]`;
+                        grp.appendChild(wbg); grp.appendChild(wtxt); grp.appendChild(wtip);
+                    }
+                }
+
+                g.appendChild(grp);
+            });
+
+            svg.appendChild(g);
+            document.getElementById('mapTitle').textContent = `≋ Warped Space — ${state.currentZone}`;
+            document.getElementById('roomCount').textContent = `${pocket.rooms.length} rooms`;
+            document.getElementById('noRooms').style.display = 'none';
+        }
+
+        function toggleDetached() {
+            state.showDetached = !state.showDetached;
+            const btn = document.getElementById('detachedBtn');
+            if (btn) {
+                btn.style.background = state.showDetached ? 'var(--accent)' : 'var(--bg-card)';
+                btn.style.color      = state.showDetached ? '#000' : 'var(--text-muted)';
+                btn.style.borderColor = state.showDetached ? 'var(--accent)' : 'var(--border)';
+            }
+            render();
+        }
+
+        function renderMap() {
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return;
+
+            const floor = zone.floors[String(state.currentFloor)];
+            if (!floor) return;
+
+            const svg = document.getElementById('mapSvg');
+            // Detached rooms (not cardinally connected to this floor's main
+            // cluster) are hidden unless the "Detached rooms" toggle is on —
+            // EXCEPT the detached component containing the selected room:
+            // traversing into a detached group auto-reveals the whole group
+            // (with its internal edges), and traversing back out re-hides it.
+            const revealSet = new Set();
+            const _selKey = String(state.selectedRoom);
+            if (!state.showDetached && floor.rooms[_selKey] && floor.rooms[_selKey].detached) {
+                const _CARD = new Set(['n','s','e','w','ne','nw','se','sw']);
+                const _stack = [_selKey];
+                revealSet.add(_selKey);
+                while (_stack.length) {
+                    const r = floor.rooms[_stack.pop()];
+                    if (!r) continue;
+                    for (const [dir, ex] of Object.entries(r.exits || {})) {
+                        if (!_CARD.has(dir) || ex.is_portal) continue;
+                        const t = String(ex.to_vnum);
+                        const tr = floor.rooms[t];
+                        if (tr && tr.detached && !revealSet.has(t)) { revealSet.add(t); _stack.push(t); }
+                    }
+                }
+            }
+            const rooms = state.showDetached
+                ? floor.rooms
+                : Object.fromEntries(
+                    Object.entries(floor.rooms).filter(
+                        ([k, r]) => !r.detached || revealSet.has(k)));
+
+            const b = floor.metadata;
+            const originX = PADDING - b.min_x * GRID_STEP_X;
+            const originY = PADDING - b.min_y * GRID_STEP_Y;
+            const width   = (b.max_x - b.min_x + 2) * GRID_STEP_X + 2 * PADDING;
+            const height  = (b.max_y - b.min_y + 2) * GRID_STEP_Y + 2 * PADDING;
+
+            // Size SVG to the VIEWPORT (container), not the map content.
+            // If we size it to the map content, rooms can be panned outside the SVG
+            // element boundary and get clipped by the container's overflow:hidden.
+            const container = svg.parentElement;
+            svg.setAttribute('width',  container.clientWidth  || width);
+            svg.setAttribute('height', container.clientHeight || height);
+            svg.innerHTML = '';
+
+            // ── zoom/pan group ────────────────────────────────────────────
+            const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+            g.setAttribute('id', 'zoomPanGroup');
+            g.setAttribute('transform',
+                `translate(${state.panX}, ${state.panY}) scale(${state.zoom})`);
+
+            const floorEdges = (zone.edges || []).filter(e => e.floor === state.currentFloor);
+            const chains = floor.chains || {};
+
+            const roomNpcNums = {};
+            buildUniqueNpcIndex(zone).forEach(e => {
+                if (!roomNpcNums[e.roomVnum]) roomNpcNums[e.roomVnum] = [];
+                roomNpcNums[e.roomVnum].push(e.idx);
+            });
+
+            // DEV: store origin for drag coordinate conversion (remove before live)
+            DEV_originX = originX; DEV_originY = originY;
+
+            // ── Pixel-centre lookup (accounts for sub_x / sub_y offsets) ──
+            const roomPixel = {};
+            Object.entries(rooms).forEach(([vnumStr, room]) => {
+                const ov = state.posEditMode && state.posOverrides[vnumStr];
+                const gx = ov ? ov.gx : room.grid_x;
+                const gy = ov ? ov.gy : room.grid_y;
+                const px = originX + gx * GRID_STEP_X + (room.sub_x || 0) * SUB_PX;
+                const py = originY + gy * GRID_STEP_Y + (room.sub_y || 0) * SUB_PX;
+                roomPixel[vnumStr] = { px, py, cx: px + ROOM_WIDTH / 2, cy: py + ROOM_HEIGHT / 2 };
+            });
+
+            // ── Cross-zone ghost nodes ────────────────────────────────────
+            const DDELTA_R = {n:[0,-1],s:[0,1],e:[1,0],w:[-1,0],ne:[1,-1],nw:[-1,-1],se:[1,1],sw:[-1,1],
+                fore:[0,-1],aft:[0,1],port:[-1,0],starboard:[1,0],fo:[0,-1],af:[0,1],po:[-1,0],sb:[1,0]};
+            const realPositions = new Set(Object.values(rooms).map(r => `${r.grid_x},${r.grid_y}`));
+            const ghostNodes = {};
+            Object.values(rooms).forEach(room => {
+                Object.values(room.exits || {}).forEach(ex => {
+                    if (!ex.is_cross_zone || ex.is_portal) return;
+                    const delta = DDELTA_R[ex.direction.toLowerCase()];
+                    if (!delta) return;
+                    const gx = room.grid_x + delta[0];
+                    const gy = room.grid_y + delta[1];
+                    const key = `${gx},${gy}`;
+                    if (realPositions.has(key) || ghostNodes[key]) return;
+                    ghostNodes[key] = { gx, gy, vnum: ex.to_vnum, zone: ex.to_zone,
+                        name: ex.to_room_name || ex.to_zone, srcGx: room.grid_x, srcGy: room.grid_y };
+                });
+            });
+
+            // ── Draw edges ────────────────────────────────────────────────
+            // Override-aware cell lookup so we can detect an edge running along a
+            // shared row/column THROUGH intervening rooms (those get bowed out so
+            // the line doesn't pass over the rooms it skips).
+            const _cellOf = {}; const _cellSet = new Set();
+            Object.entries(rooms).forEach(([vs, room]) => {
+                const ov = state.posEditMode && state.posOverrides[vs];
+                const gx = ov ? ov.gx : room.grid_x;
+                const gy = ov ? ov.gy : room.grid_y;
+                _cellOf[vs] = { gx, gy };
+                _cellSet.add(`${gx},${gy}`);
+            });
+
+            floorEdges.forEach(edge => {
+                const fromP = roomPixel[String(edge.from)];
+                const toP   = roomPixel[String(edge.to)];
+                if (!fromP || !toP) return;
+                const fromRoom = rooms[String(edge.from)];
+                const toRoom   = rooms[String(edge.to)];
+                const fromChain = fromRoom ? fromRoom.chain_id : null;
+                const toChain   = toRoom   ? toRoom.chain_id   : null;
+                // Use chain color when both endpoints share a colliding chain
+                const chainColor = (fromChain != null && fromChain === toChain && chains[fromChain])
+                    ? chains[fromChain]
+                    : edgeColor(edge.direction);
+
+                const x1 = fromP.cx, y1 = fromP.cy, x2 = toP.cx, y2 = toP.cy;
+
+                // Skip detection: same row/column with a room sitting between.
+                let skips = false;
+                const a = _cellOf[String(edge.from)], b = _cellOf[String(edge.to)];
+                if (a && b) {
+                    if (a.gy === b.gy && Math.abs(a.gx - b.gx) > 1) {
+                        const lo = Math.min(a.gx, b.gx), hi = Math.max(a.gx, b.gx);
+                        for (let gx = lo + 1; gx < hi; gx++)
+                            if (_cellSet.has(`${gx},${a.gy}`)) { skips = true; break; }
+                    } else if (a.gx === b.gx && Math.abs(a.gy - b.gy) > 1) {
+                        const lo = Math.min(a.gy, b.gy), hi = Math.max(a.gy, b.gy);
+                        for (let gy = lo + 1; gy < hi; gy++)
+                            if (_cellSet.has(`${a.gx},${gy}`)) { skips = true; break; }
+                    }
+                }
+
+                // One-way detection (orientation-independent): which side owns the exit?
+                const aToB = fromRoom && Object.values(fromRoom.exits || {})
+                    .some(ex => String(ex.to_vnum) === String(edge.to));
+                const bToA = toRoom && Object.values(toRoom.exits || {})
+                    .some(ex => String(ex.to_vnum) === String(edge.from));
+                let arrowDir = 0;                 // +1 toward edge.to, -1 toward edge.from
+                if (aToB && !bToA) arrowDir = 1;
+                else if (bToA && !aToB) arrowDir = -1;
+
+                // Perpendicular bow control point for the curved detour.
+                const dx = x2 - x1, dy = y2 - y1, len = Math.hypot(dx, dy) || 1;
+                const span = (a && b) ? Math.max(Math.abs(a.gx - b.gx), Math.abs(a.gy - b.gy)) : 1;
+                const bow  = skips ? Math.min(26 + span * 6, 70) : 0;
+                const nx = -dy / len, ny = dx / len;                 // unit perpendicular
+                const cxp = (x1 + x2) / 2 + nx * bow;
+                const cyp = (y1 + y2) / 2 + ny * bow;
+
+                if (skips) {
+                    const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    path.setAttribute('d', `M${x1},${y1} Q${cxp},${cyp} ${x2},${y2}`);
+                    path.setAttribute('fill', 'none');
+                    path.setAttribute('stroke', chainColor);
+                    path.setAttribute('stroke-width', '2');
+                    path.setAttribute('stroke-opacity', '0.85');
+                    g.appendChild(path);
+                } else {
+                    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    line.setAttribute('x1', x1); line.setAttribute('y1', y1);
+                    line.setAttribute('x2', x2); line.setAttribute('y2', y2);
+                    line.setAttribute('stroke', chainColor);
+                    line.setAttribute('stroke-width', '2');
+                    line.setAttribute('stroke-opacity', '0.85');
+                    g.appendChild(line);
+                }
+
+                // One-way arrow at ~62% along the edge, pointing in the travel direction.
+                if (arrowDir !== 0) {
+                    const t = 0.62;
+                    let ax, ay, ang;
+                    if (skips) {
+                        const mt = 1 - t;
+                        ax = mt*mt*x1 + 2*mt*t*cxp + t*t*x2;
+                        ay = mt*mt*y1 + 2*mt*t*cyp + t*t*y2;
+                        ang = Math.atan2(2*mt*(cyp - y1) + 2*t*(y2 - cyp),
+                                         2*mt*(cxp - x1) + 2*t*(x2 - cxp));
+                    } else {
+                        ax = x1 + (x2 - x1) * t;
+                        ay = y1 + (y2 - y1) * t;
+                        ang = Math.atan2(y2 - y1, x2 - x1);
+                    }
+                    if (arrowDir === -1) ang += Math.PI;   // points toward edge.from
+                    drawArrowHead(g, ax, ay, ang, chainColor);
+                }
+            });
+
+            // ── Triage overlay: highlight diagonal/one-way cardinal exits ──
+            if (state.triageMode) {
+                const _ti = TRIAGE_computeIssues(floor);
+                // Glow rings behind problem rooms (drawn before rooms so rooms sit on top)
+                const _badRooms = new Set([
+                    ..._ti.diagonals.flatMap(i => [i.from, i.to]),
+                    ..._ti.oneways.map(i => i.from),
+                ]);
+                _badRooms.forEach(vnum => {
+                    const p = roomPixel[String(vnum)];
+                    if (!p) return;
+                    const glow = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                    glow.setAttribute('x', p.px - 4); glow.setAttribute('y', p.py - 4);
+                    glow.setAttribute('width', ROOM_WIDTH + 8); glow.setAttribute('height', ROOM_HEIGHT + 8);
+                    glow.setAttribute('rx', '8');
+                    glow.setAttribute('fill', 'none');
+                    glow.setAttribute('stroke', '#e040fb');
+                    glow.setAttribute('stroke-width', '2.5');
+                    glow.setAttribute('stroke-opacity', '0.55');
+                    glow.setAttribute('pointer-events', 'none');
+                    g.appendChild(glow);
+                });
+                // Diagonal exit highlight lines (drawn on top of normal edges)
+                _ti.diagonals.forEach(({from, dir, to}) => {
+                    const fromP = roomPixel[String(from)];
+                    const toP   = roomPixel[String(to)];
+                    if (!fromP || !toP) return;
+                    const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    ln.setAttribute('x1', fromP.cx); ln.setAttribute('y1', fromP.cy);
+                    ln.setAttribute('x2', toP.cx);   ln.setAttribute('y2', toP.cy);
+                    ln.setAttribute('stroke', '#e040fb');
+                    ln.setAttribute('stroke-width', '3.5');
+                    ln.setAttribute('stroke-opacity', '0.9');
+                    ln.setAttribute('stroke-dasharray', '9 4');
+                    ln.setAttribute('pointer-events', 'none');
+                    g.appendChild(ln);
+                });
+                // One-way exit highlight lines
+                _ti.oneways.forEach(({from, dir, to}) => {
+                    const fromP = roomPixel[String(from)];
+                    const toP   = roomPixel[String(to)];
+                    if (!fromP || !toP) return;
+                    const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                    ln.setAttribute('x1', fromP.cx); ln.setAttribute('y1', fromP.cy);
+                    ln.setAttribute('x2', toP.cx);   ln.setAttribute('y2', toP.cy);
+                    ln.setAttribute('stroke', '#ff9800');
+                    ln.setAttribute('stroke-width', '2.5');
+                    ln.setAttribute('stroke-opacity', '0.8');
+                    ln.setAttribute('stroke-dasharray', '5 3');
+                    ln.setAttribute('pointer-events', 'none');
+                    g.appendChild(ln);
+                });
+                // One-way U/D badge on rooms with missing floor link
+                _ti.ud_oneways.forEach(({from, dir}) => {
+                    const p = roomPixel[String(from)];
+                    if (!p) return;
+                    const badge = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    badge.setAttribute('cx', dir === 'u' ? p.px + ROOM_WIDTH - 4 : p.px + 4);
+                    badge.setAttribute('cy', dir === 'u' ? p.py : p.py + ROOM_HEIGHT);
+                    badge.setAttribute('r', '5');
+                    badge.setAttribute('fill', '#1a3020');
+                    badge.setAttribute('stroke', '#ff9800');
+                    badge.setAttribute('stroke-width', '1.5');
+                    badge.setAttribute('pointer-events', 'none');
+                    g.appendChild(badge);
+                });
+            }
+
+            // ── Ghost edges + nodes for cross-zone exits ──────────────────
+            Object.values(ghostNodes).forEach(ghost => {
+                const x1 = originX + ghost.srcGx * GRID_STEP_X + ROOM_WIDTH / 2;
+                const y1 = originY + ghost.srcGy * GRID_STEP_Y + ROOM_HEIGHT / 2;
+                const x2 = originX + ghost.gx   * GRID_STEP_X + ROOM_WIDTH / 2;
+                const y2 = originY + ghost.gy   * GRID_STEP_Y + ROOM_HEIGHT / 2;
+                const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+                ln.setAttribute('x1', x1); ln.setAttribute('y1', y1);
+                ln.setAttribute('x2', x2); ln.setAttribute('y2', y2);
+                ln.setAttribute('stroke', 'var(--gold)'); ln.setAttribute('stroke-width', '1.5');
+                ln.setAttribute('stroke-opacity', '0.5'); ln.setAttribute('stroke-dasharray', '6 3');
+                g.appendChild(ln);
+
+                const gpx = originX + ghost.gx * GRID_STEP_X;
+                const gpy = originY + ghost.gy * GRID_STEP_Y;
+                const gcx = gpx + ROOM_WIDTH / 2;
+                const grpG = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                grpG.style.cursor = 'pointer';
+                grpG.onclick = () => navigateCrossZone(ghost.vnum, ghost.zone);
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', gpx); rect.setAttribute('y', gpy);
+                rect.setAttribute('width', ROOM_WIDTH); rect.setAttribute('height', ROOM_HEIGHT);
+                rect.setAttribute('rx', '6'); rect.setAttribute('fill', 'var(--gold-dim)');
+                rect.setAttribute('stroke', 'var(--gold)'); rect.setAttribute('stroke-width', '1');
+                rect.setAttribute('stroke-dasharray', '4 3'); rect.setAttribute('opacity', '0.75');
+                grpG.appendChild(rect);
+                const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                t.setAttribute('x', gcx); t.setAttribute('y', gpy + ROOM_HEIGHT / 2 + 4);
+                t.setAttribute('class', 'room-text'); t.setAttribute('pointer-events', 'none');
+                t.setAttribute('fill', 'var(--gold)'); t.setAttribute('opacity', '0.85');
+                t.textContent = ghost.zone.length <= 16 ? ghost.zone : ghost.zone.substring(0, 15) + '…';
+                grpG.appendChild(t);
+                const tip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                tip.textContent = `${ghost.name} — ${ghost.zone}`;
+                grpG.appendChild(tip);
+                g.appendChild(grpG);
+            });
+
+            // ── Draw rooms ────────────────────────────────────────────────
+            Object.entries(rooms).forEach(([vnumStr, room]) => {
+                const vnum = parseInt(vnumStr);
+                const { px, py, cx, cy } = roomPixel[vnumStr];
+
+                const isEntry    = vnum === floor.entry_vnum;
+                const isSelected = vnum === state.selectedRoom;
+
+                const grp = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                grp.style.cursor = state.posEditMode ? 'grab' : 'pointer';
+                if (!state.posEditMode) {
+                    grp.onclick = () => {
+                        // DEV: trace tool — append vnum to chain (remove before live)
+                        if (state.traceMode) {
+                            state.traceChain.push(vnum);
+                            DEV_traceUpdate();
+                        }
+                        state.selectedRoom = vnum; centerOnRoom(vnum); render();
+                    };
+                } else {
+                    // Edit Positions mode: a click selects the node, a drag moves it.
+                    grp.addEventListener('mousedown', e => {
+                        e.stopPropagation();
+                        const ov = state.posOverrides[String(vnum)];
+                        const curGX = ov ? ov.gx : room.grid_x;
+                        const curGY = ov ? ov.gy : room.grid_y;
+                        const svg = document.getElementById('mapSvg');
+                        const r = svg.getBoundingClientRect();
+                        const sx = (e.clientX - r.left - state.panX) / state.zoom;
+                        const sy = (e.clientY - r.top  - state.panY) / state.zoom;
+                        state._roomDrag = {
+                            vnum: String(vnum), curGX, curGY,
+                            startX: e.clientX, startY: e.clientY, moved: false,
+                            // grab offset within the node, so it tracks the cursor
+                            // instead of snapping its origin to the pointer
+                            grabDX: sx - (DEV_originX + curGX * GRID_STEP_X),
+                            grabDY: sy - (DEV_originY + curGY * GRID_STEP_Y),
+                        };
+                        grp.style.cursor = 'grabbing';
+                        e.preventDefault();
+                    });
+                }
+
+                // Room box
+                const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                rect.setAttribute('x', px); rect.setAttribute('y', py);
+                rect.setAttribute('width', ROOM_WIDTH); rect.setAttribute('height', ROOM_HEIGHT);
+                rect.setAttribute('rx', '4');
+                let roomClass = 'room-box';
+                if (isEntry)    roomClass += ' entry-room';
+                if (isSelected) roomClass += ' selected';
+                if (room.detached) roomClass += ' detached';
+                rect.setAttribute('class', roomClass);
+                const chainColor = chains[room.chain_id];
+                if (chainColor && !isSelected && !isEntry && !room.detached) {
+                    rect.setAttribute('stroke', chainColor);
+                    rect.setAttribute('stroke-width', '1.5');
+                }
+                grp.appendChild(rect);
+
+                // Exit-type borders: green = has door/portal exit, yellow = has
+                // up/down exit, both = green outer + yellow inner. Drawn as separate
+                // outlines so they don't fight the box's own stroke.
+                const _hasDoor = !!room.portal;
+                const _hasUD = Object.keys(room.exits || {}).some(k => {
+                    const kl = k.toLowerCase();
+                    return kl === 'u' || kl === 'd' || kl === 'up' || kl === 'down';
+                });
+                function _outline(inset, color, w) {
+                    const o = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                    o.setAttribute('x', px - inset); o.setAttribute('y', py - inset);
+                    o.setAttribute('width', ROOM_WIDTH + inset * 2);
+                    o.setAttribute('height', ROOM_HEIGHT + inset * 2);
+                    o.setAttribute('rx', '5'); o.setAttribute('fill', 'none');
+                    o.setAttribute('stroke', color); o.setAttribute('stroke-width', String(w));
+                    o.setAttribute('pointer-events', 'none');
+                    grp.appendChild(o);
+                }
+                if (_hasDoor) _outline(3, '#33cc55', 1.6);
+                if (_hasUD)   _outline(1, '#e8c83a', 1.6);
+                if (room.death_trap) {
+                    _outline(4.5, '#ff2b2b', 2);
+                    const sk = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    sk.setAttribute('x', px + ROOM_WIDTH / 2);
+                    sk.setAttribute('y', py + ROOM_HEIGHT / 2 + 4);
+                    sk.setAttribute('text-anchor', 'middle');
+                    sk.setAttribute('font-size', '14');
+                    sk.setAttribute('pointer-events', 'none');
+                    sk.textContent = '💀';
+                    const _sktip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    _sktip.textContent = 'Death trap';
+                    sk.appendChild(_sktip);
+                    grp.appendChild(sk);
+                }
+
+                // Vnum label
+                const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                t.setAttribute('x', cx); t.setAttribute('y', cy + 4);
+                t.setAttribute('text-anchor', 'middle');
+                t.setAttribute('dominant-baseline', 'middle');
+                t.setAttribute('font-size', '8');
+                t.setAttribute('font-family', 'monospace');
+                t.setAttribute('fill', isSelected ? '#e8f4ff' : isEntry ? '#a8dfc0' : 'var(--text-primary)');
+                t.setAttribute('pointer-events', 'none');
+                t.textContent = String(vnum);
+                grp.appendChild(t);
+
+                // Spinner-room icon: a swirl in the top-left corner marking rooms
+                // that randomise walked-out directions ("dizzy and confused").
+                if (room.spinner) {
+                    const sp = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+                    const sx0 = px + 4.5, sy0 = py + 4.5;
+                    sp.setAttribute('d',
+                        `M ${sx0+3} ${sy0+1.2} a 3 3 0 1 1 -3 3 a 2 2 0 1 1 2 -2 a 1 1 0 1 1 -1 1`);
+                    sp.setAttribute('fill', 'none');
+                    sp.setAttribute('stroke', '#d98bff');
+                    sp.setAttribute('stroke-width', '1.1');
+                    sp.setAttribute('stroke-linecap', 'round');
+                    sp.setAttribute('pointer-events', 'none');
+                    const _sptip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    _sptip.textContent = 'Spinner room — randomises the direction you walk out';
+                    sp.appendChild(_sptip);
+                    grp.appendChild(sp);
+                }
+
+                // Portal icon: the door emoji (matching the sidebar) in the
+                // top-right corner, ONLY for rooms with a go/enter portal exit
+                // (e.g. "go bushes"). Vertical u/d exits use the up/down badges
+                // below instead — room.portal already excludes them (exporter).
+                if (room.portal) {
+                    const dr = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    dr.setAttribute('x', px + ROOM_WIDTH - 6);
+                    dr.setAttribute('y', py + 8.5);
+                    dr.setAttribute('text-anchor', 'middle');
+                    dr.setAttribute('font-size', '9');
+                    dr.setAttribute('pointer-events', 'none');
+                    dr.textContent = '🚪';
+                    const _drtip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    _drtip.textContent = 'Portal — this room has a go/enter exit (e.g. go bushes)';
+                    dr.appendChild(_drtip);
+                    grp.appendChild(dr);
+                }
+
+                // Gathering-node icons (bottom-left): ⛏ ore / 🌿 herb / 🐾 hide etc.
+                // A room can hold MULTIPLE node types (e.g. an ore AND a herb), so
+                // draw one icon per distinct category, left to right along the bottom.
+                if (room.nodes && room.nodes.length) {
+                    const _cats = [...new Set(room.nodes.map(n => n.category))];
+                    _cats.forEach((_cat, _i) => {
+                        const nd = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                        nd.setAttribute('x', px + 5.5 + _i * 9);
+                        nd.setAttribute('y', py + ROOM_HEIGHT - 3);
+                        nd.setAttribute('text-anchor', 'middle');
+                        nd.setAttribute('font-size', '9');
+                        nd.setAttribute('pointer-events', 'none');
+                        nd.textContent = nodeIcon(_cat);
+                        const _ndtip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                        _ndtip.textContent = 'Node: ' + room.nodes.map(n => n.name).join(', ');
+                        nd.appendChild(_ndtip);
+                        grp.appendChild(nd);
+                    });
+                }
+
+                // Up/down badges (small dots on top/bottom edge)
+                // Clicking a badge navigates to the destination room on the other floor.
+                // Besides literal u/d exits, a "go"/portal exit that lands on another
+                // floor of this zone counts as vertical (e.g. "go bar" down to the
+                // Wine Cellar on floor -1) so the node still shows a down icon.
+                let upExit = null, downExit = null;
+                const _zfloors = (state.allZones[state.currentZone] || {}).floors || {};
+                const _floorOf = (v) => {
+                    for (const f of Object.keys(_zfloors)) {
+                        if (_zfloors[f].rooms[String(v)]) return parseInt(f);
+                    }
+                    return null;
+                };
+                for (const [k, ex] of Object.entries(room.exits || {})) {
+                    const kl = k.toLowerCase();
+                    if (kl === 'u' || kl === 'up') { upExit = upExit || [k, ex]; }
+                    else if (kl === 'd' || kl === 'down') { downExit = downExit || [k, ex]; }
+                    else if (!ex.is_cross_zone && (ex.is_portal || kl.startsWith('go'))) {
+                        const df = _floorOf(ex.to_vnum);
+                        if (df === null) continue;
+                        if (df > state.currentFloor && !upExit) upExit = [k, ex];
+                        else if (df < state.currentFloor && !downExit) downExit = [k, ex];
+                    }
+                }
+                if (upExit) {
+                    const upBg = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    upBg.setAttribute('cx', cx); upBg.setAttribute('cy', py);
+                    upBg.setAttribute('r', '5'); upBg.setAttribute('fill', 'var(--edge-stair)');
+                    upBg.setAttribute('stroke', 'var(--bg-deep)'); upBg.setAttribute('stroke-width', '1');
+                    upBg.setAttribute('cursor', 'pointer');
+                    upBg.setAttribute('title', `Up → ${upExit[1].to_room_name || upExit[1].to_vnum}`);
+                    upBg.addEventListener('click', e => {
+                        e.stopPropagation();
+                        navigateToRoom(upExit[1].to_vnum, upExit[1].to_zone);
+                    });
+                    const upTri = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                    upTri.setAttribute('points', `${cx},${py-2.5} ${cx-2},${py+2} ${cx+2},${py+2}`);
+                    upTri.setAttribute('fill', '#fff'); upTri.setAttribute('pointer-events', 'none');
+                    grp.appendChild(upBg); grp.appendChild(upTri);
+                }
+                if (downExit) {
+                    const by = py + ROOM_HEIGHT;
+                    const dnBg = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+                    dnBg.setAttribute('cx', cx); dnBg.setAttribute('cy', by);
+                    dnBg.setAttribute('r', '5'); dnBg.setAttribute('fill', 'var(--edge-stair)');
+                    dnBg.setAttribute('stroke', 'var(--bg-deep)'); dnBg.setAttribute('stroke-width', '1');
+                    dnBg.setAttribute('cursor', 'pointer');
+                    dnBg.setAttribute('title', `Down → ${downExit[1].to_room_name || downExit[1].to_vnum}`);
+                    dnBg.addEventListener('click', e => {
+                        e.stopPropagation();
+                        navigateToRoom(downExit[1].to_vnum, downExit[1].to_zone);
+                    });
+                    const dnTri = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+                    dnTri.setAttribute('points', `${cx},${by+2.5} ${cx-2},${by-2} ${cx+2},${by-2}`);
+                    dnTri.setAttribute('fill', '#fff'); dnTri.setAttribute('pointer-events', 'none');
+                    grp.appendChild(dnBg); grp.appendChild(dnTri);
+                }
+
+                // Cross-floor phantom nodes (see working viewer): a cardinal exit
+                // whose destination is on a different floor of this zone draws a
+                // small clickable ghost node one cell over with a ↑/↓ arrow.
+                const _PHDIR = { n:[0,-1], s:[0,1], e:[1,0], w:[-1,0],
+                                 ne:[1,-1], nw:[-1,-1], se:[1,1], sw:[-1,1] };
+                for (const [k, ex] of Object.entries(room.exits || {})) {
+                    if (!ex.is_cross_floor) continue;
+                    const off = _PHDIR[k.toLowerCase()];
+                    if (!off) continue;
+                    const phx = px + off[0] * GRID_STEP_X * 0.6;
+                    const phy = py + off[1] * GRID_STEP_Y * 0.6;
+                    const down = (ex.to_floor !== null && ex.to_floor < state.currentFloor);
+                    const pg = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+                    pg.setAttribute('cursor', 'pointer');
+                    const pr = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+                    pr.setAttribute('x', phx + ROOM_WIDTH/2 - 9); pr.setAttribute('y', phy + ROOM_HEIGHT/2 - 7);
+                    pr.setAttribute('width', '18'); pr.setAttribute('height', '14'); pr.setAttribute('rx', '3');
+                    pr.setAttribute('fill', '#1b2433');
+                    pr.setAttribute('stroke', 'var(--edge-stair, #44cc88)');
+                    pr.setAttribute('stroke-width', '1.2'); pr.setAttribute('stroke-dasharray', '3 2');
+                    const pt = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+                    pt.setAttribute('x', phx + ROOM_WIDTH/2); pt.setAttribute('y', phy + ROOM_HEIGHT/2 + 3);
+                    pt.setAttribute('text-anchor', 'middle'); pt.setAttribute('font-size', '9');
+                    pt.setAttribute('fill', 'var(--edge-stair, #44cc88)'); pt.setAttribute('pointer-events', 'none');
+                    pt.textContent = (down ? '▾ ' : '▴ ') + k.toUpperCase();
+                    const ptip = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+                    ptip.textContent = `${k.toUpperCase()} → ${ex.to_room_name || ex.to_vnum} (floor ${ex.to_floor}) — click to jump`;
+                    pg.appendChild(pr); pg.appendChild(pt); pg.appendChild(ptip);
+                    pg.addEventListener('click', e => { e.stopPropagation(); navigateToRoom(ex.to_vnum, ex.to_zone); });
+                    grp.appendChild(pg);
+                }
+
+                g.appendChild(grp);
+            });
+
+            svg.appendChild(g);
+
+            document.getElementById('mapTitle').textContent = `${state.currentZone} — Floor ${state.currentFloor}`;
+            document.getElementById('roomCount').textContent = `${Object.keys(rooms).length} rooms`;
+            document.getElementById('noRooms').style.display = Object.keys(rooms).length === 0 ? 'block' : 'none';
+        }
+
+        // ============================================================================
+        // Zoom & Pan
+        // ============================================================================
+
+        function resetView(forceEntryRoom = false) {
+            state.zoom = 1.0;
+            state.panX = 0;
+            state.panY = 0;
+            updateZoomLevel();
+            // Center on a room after resetting zoom.
+            // forceEntryRoom=true: use the floor's entry_vnum (zone/floor switches).
+            // forceEntryRoom=false (default): keep state.selectedRoom so navigation
+            //   to a specific room doesn't get overwritten with the floor entry room.
+            const zone = state.allZones[state.currentZone];
+            if (zone) {
+                const floorData = zone.floors[String(state.currentFloor)];
+                let targetVnum;
+                if (forceEntryRoom) {
+                    targetVnum = (floorData && floorData.entry_vnum)
+                        ? floorData.entry_vnum
+                        : state.selectedRoom;
+                    if (targetVnum) state.selectedRoom = targetVnum;
+                } else {
+                    targetVnum = state.selectedRoom
+                        || (floorData && floorData.entry_vnum);
+                }
+                if (targetVnum) centerOnRoom(targetVnum);
+            }
+        }
+
+        function centerOnRoom(vnum) {
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return;
+            const floor = zone.floors[String(state.currentFloor)];
+            if (!floor || !floor.rooms[String(vnum)]) return;
+            const room = floor.rooms[String(vnum)];
+            const b = floor.metadata;
+            const originX = PADDING - b.min_x * GRID_STEP_X;
+            const originY = PADDING - b.min_y * GRID_STEP_Y;
+
+            let roomCenterX, roomCenterY;
+
+            if (room.pocket_id !== undefined) {
+                // Pocket room: position within the pocket panel
+                const pocket = (floor.warped_pockets || []).find(p => p.id === room.pocket_id);
+                if (!pocket) return;
+                const _PAD = 16;
+                const _pb = pocket.bounds;
+                const _pH = (_pb.max_y - _pb.min_y) * GRID_STEP_Y + ROOM_HEIGHT + _PAD * 2 + 24;
+                const _allPortals = [...pocket.portals_in, ...pocket.portals_out];
+                const _mainVnums = [...new Set(_allPortals.map(p => p.main_vnum))];
+                let _cgx = 0, _cgy = 0, _cnt = 0;
+                _mainVnums.forEach(v => {
+                    const r = floor.rooms[String(v)]; if (r && r.pocket_id === undefined) { _cgx += r.grid_x; _cgy += r.grid_y; _cnt++; }
+                });
+                if (_cnt > 0) { _cgx /= _cnt; _cgy /= _cnt; }
+                const _pOx = originX + (_cgx + 1.5) * GRID_STEP_X;
+                const _pOy = originY + _cgy * GRID_STEP_Y - _pH / 2;
+                const _pRoomOx = _pOx + _PAD - _pb.min_x * GRID_STEP_X;
+                const _pRoomOy = _pOy + _PAD + 24 - _pb.min_y * GRID_STEP_Y;
+                const pp = pocket.pocket_positions[String(vnum)];
+                if (!pp) return;
+                roomCenterX = _pRoomOx + pp[0] * GRID_STEP_X + ROOM_WIDTH / 2;
+                roomCenterY = _pRoomOy + pp[1] * GRID_STEP_Y + ROOM_HEIGHT / 2;
+            } else {
+                roomCenterX = originX + room.grid_x * GRID_STEP_X + ROOM_WIDTH / 2;
+                roomCenterY = originY + room.grid_y * GRID_STEP_Y + ROOM_HEIGHT / 2;
+            }
+
+            const svg = document.getElementById('mapSvg');
+            const containerWidth = svg.parentElement.clientWidth;
+            const containerHeight = svg.parentElement.clientHeight;
+            state.panX = (containerWidth / 2) - (roomCenterX * state.zoom);
+            state.panY = (containerHeight / 2) - (roomCenterY * state.zoom);
+        }
+
+        async function jumpToRoom() {
+            const input = document.getElementById('roomSearchInput');
+            const vnum = parseInt(input.value.trim(), 10);
+            if (isNaN(vnum) || vnum <= 0) {
+                input.classList.add('not-found');
+                setTimeout(() => input.classList.remove('not-found'), 1200);
+                return;
+            }
+
+            // Search loaded zones first (fast path)
+            for (const [zoneName, data] of Object.entries(state.allZones)) {
+                for (const floorId of Object.keys(data.floors)) {
+                    if (data.floors[floorId].rooms[String(vnum)]) {
+                        if (state.currentZone !== zoneName) {
+                            state.currentZone = zoneName;
+                            document.getElementById('zoneDropdown').value = zoneName;
+                            state.goPortalView = null;
+                            state.portalHistory = [];
+                        }
+                        state.currentFloor = parseInt(floorId);
+                        await navigateToRoom(vnum, zoneName);
+                        updateSidebar();
+                        return;
+                    }
+                }
+            }
+
+            // Not in loaded zones — load remaining zones and search
+            for (const zoneName of state.zoneNames) {
+                if (state.allZones[zoneName]) continue;
+                const data = await loadZoneData(zoneName);
+                if (!data) continue;
+                for (const floorId of Object.keys(data.floors)) {
+                    if (data.floors[floorId].rooms[String(vnum)]) {
+                        state.currentZone = zoneName;
+                        document.getElementById('zoneDropdown').value = zoneName;
+                        state.goPortalView = null;
+                        state.portalHistory = [];
+                        state.currentFloor = parseInt(floorId);
+                        await navigateToRoom(vnum, zoneName);
+                        updateSidebar();
+                        return;
+                    }
+                }
+            }
+
+            // Not found in any zone
+            input.classList.add('not-found');
+            setTimeout(() => input.classList.remove('not-found'), 1200);
+        }
+
+        function updateZoomLevel() {
+            document.getElementById('zoomLevel').textContent = Math.round(state.zoom * 100) + '%';
+        }
+
+        document.getElementById('zoomInBtn').onclick = () => {
+            state.zoom = Math.min(MAX_ZOOM, Math.round((state.zoom + ZOOM_STEP) * 10) / 10);
+            updateZoomLevel();
+            if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+            render();
+        };
+
+        document.getElementById('zoomOutBtn').onclick = () => {
+            state.zoom = Math.max(MIN_ZOOM, Math.round((state.zoom - ZOOM_STEP) * 10) / 10);
+            updateZoomLevel();
+            if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+            render();
+        };
+
+        document.getElementById('resetBtn').onclick = () => {
+            resetView();
+            render();
+        };
+
+        document.getElementById('roomSearchBtn').onclick = () => jumpToRoom();
+        document.getElementById('roomSearchInput').addEventListener('keydown', e => {
+            if (e.key === 'Enter') { e.preventDefault(); jumpToRoom(); }
+        });
+
+
+        // ── Keyboard shortcuts ────────────────────────────────────────────
+        document.addEventListener('keydown', (e) => {
+            // Don't capture when typing in inputs
+            if (e.target.tagName === 'SELECT' || e.target.tagName === 'INPUT') return;
+            switch (e.key) {
+                case '+': case '=':
+                    state.zoom = Math.min(MAX_ZOOM, Math.round((state.zoom + ZOOM_STEP) * 10) / 10);
+                    updateZoomLevel();
+                    if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+                    render();
+                    break;
+                case '-':
+                    state.zoom = Math.max(MIN_ZOOM, Math.round((state.zoom - ZOOM_STEP) * 10) / 10);
+                    updateZoomLevel();
+                    if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+                    render();
+                    break;
+                case 'r': case 'R':
+                    resetView(); render();
+                    break;
+                case 'Escape':
+                    if (document.getElementById('npcModal').style.display !== 'none') { hideNpcModal(); }
+                    else if (state.warpPocketView) { exitWarpPocket(); }
+                    else if (state.goPortalView) { exitGoPortalView(); }
+                    else if (state.portalHistory.length > 0) { returnFromPortal(); }
+                    break;
+            }
+        });
+
+        function updateBreadcrumb() {
+            const breadcrumbEl = document.getElementById('breadcrumb');
+            if (breadcrumbEl) breadcrumbEl.textContent = '';
+        }
+
+        // Zoom with mouse wheel — incremental steps clamped to [MIN_ZOOM, MAX_ZOOM]
+        document.getElementById('mapContainer').addEventListener('wheel', (e) => {
+            e.preventDefault();
+            const delta = e.deltaY < 0 ? ZOOM_STEP : -ZOOM_STEP;
+            state.zoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM,
+                Math.round((state.zoom + delta) * 10) / 10));
+            updateZoomLevel();
+            if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+            render();
+        });
+
+        // Pan with drag
+        const mapContainer = document.getElementById('mapContainer');
+        mapContainer.addEventListener('mousedown', (e) => {
+            state.isDragging = true;
+            state.dragStart = { x: e.clientX, y: e.clientY };
+            mapContainer.classList.add('dragging');
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            // DEV: room drag takes priority over canvas pan (remove before live)
+            if (state._roomDrag) {
+                const d = state._roomDrag;
+                // Below a small pixel threshold this is still a click, not a drag —
+                // don't move the node yet, so a plain click selects it on mouseup.
+                if (!d.moved &&
+                    Math.abs(e.clientX - d.startX) < 4 &&
+                    Math.abs(e.clientY - d.startY) < 4) return;
+                d.moved = true;
+                const svg = document.getElementById('mapSvg');
+                const r = svg.getBoundingClientRect();
+                const sx = (e.clientX - r.left - state.panX) / state.zoom;
+                const sy = (e.clientY - r.top  - state.panY) / state.zoom;
+                const gx = Math.round((sx - d.grabDX - DEV_originX) / GRID_STEP_X);
+                const gy = Math.round((sy - d.grabDY - DEV_originY) / GRID_STEP_Y);
+                if (gx !== d.curGX || gy !== d.curGY) {
+                    d.curGX = gx;
+                    d.curGY = gy;
+                    state.posOverrides[d.vnum] = { gx, gy };
+                    render();
+                }
+                return;
+            }
+            if (state.isDragging && state.dragStart) {
+                const dx = e.clientX - state.dragStart.x;
+                const dy = e.clientY - state.dragStart.y;
+                state.panX += dx;
+                state.panY += dy;
+                state.dragStart = { x: e.clientX, y: e.clientY };
+                render();
+            }
+        });
+
+        document.addEventListener('mouseup', () => {
+            // DEV: finalize room drag and update override panel (remove before live)
+            if (state._roomDrag) {
+                const d = state._roomDrag;
+                state._roomDrag = null;
+                if (d.moved) {
+                    DEV_updateOverrides();          // a drag — record the new position
+                } else {
+                    state.selectedRoom = parseInt(d.vnum);  // a click — select the node
+                    render();
+                }
+            }
+            state.isDragging = false;
+            mapContainer.classList.remove('dragging');
+        });
+
+        // ============================================================================
+        // Initialization
+        // ============================================================================
+
+        function escapeHtml(text) {
+            const map = {
+                '&': '&amp;',
+                '<': '&lt;',
+                '>': '&gt;',
+                '"': '&quot;',
+                "'": '&#039;'
+            };
+            return text.replace(/[&<>"']/g, m => map[m]);
+        }
+
+        // ============================================================================
+        // DEV: Position Editor — remove this entire block before going live
+        // ============================================================================
+        function DEV_updateOverrides() {
+            const lines = ['Zone,VnumID,GridX,GridY'];
+            for (const [vnum, {gx, gy}] of Object.entries(state.posOverrides)) {
+                lines.push(`${state.currentZone},${vnum},${gx},${gy}`);
+            }
+            const ta = document.getElementById('DEV_overrideText');
+            if (ta) ta.value = lines.join('\n');
+        }
+
+        // ============================================================================
+        // Navigation History (Back button)
+        // ============================================================================
+
+        function NAV_pushHistory() {
+            // Snapshot current position before any navigation
+            if (!state.currentZone || !state.selectedRoom) return;
+            const last = state.navHistory[state.navHistory.length - 1];
+            if (last && last.zone === state.currentZone && last.floor === state.currentFloor && last.vnum === state.selectedRoom) return;
+            state.navHistory.push({ zone: state.currentZone, floor: state.currentFloor, vnum: state.selectedRoom });
+            if (state.navHistory.length > 30) state.navHistory.shift();
+            NAV_updateBackBtn();
+        }
+
+        function NAV_updateBackBtn() {
+            const btn = document.getElementById('navBackBtn');
+            if (!btn) return;
+            const canBack = state.navHistory.length > 0;
+            btn.disabled = !canBack;
+            btn.style.color  = canBack ? 'var(--accent)' : 'var(--text-dim)';
+            btn.style.cursor = canBack ? 'pointer'       : 'default';
+            btn.style.borderColor = canBack ? 'var(--accent)' : 'var(--border)';
+            if (canBack) {
+                const prev = state.navHistory[state.navHistory.length - 1];
+                btn.title = `Back to ${prev.zone} #${prev.vnum}`;
+            } else {
+                btn.title = 'No navigation history';
+            }
+        }
+
+        async function NAV_back() {
+            if (!state.navHistory.length) return;
+            const prev = state.navHistory.pop();
+            NAV_updateBackBtn();
+            const data = await loadZoneData(prev.zone);
+            if (!data) return;
+            const dropdown = document.getElementById('zoneDropdown');
+            if (dropdown) dropdown.value = prev.zone;
+            state.currentZone  = prev.zone;
+            state.currentFloor = prev.floor;
+            state.selectedRoom = prev.vnum;
+            state.isInPortal   = false;
+            state.portalHistory = [];
+            state.zoom = 1.0; state.panX = 0; state.panY = 0;
+            updateZoomLevel();
+            centerOnRoom(prev.vnum);
+            render();
+        }
+
+        // ============================================================================
+        // Triage Mode
+        // ============================================================================
+
+        function TRIAGE_toggle() {
+            state.triageMode = !state.triageMode;
+            const btn = document.getElementById('triageBtn');
+            btn.style.background   = state.triageMode ? '#e8a020' : 'var(--bg-card)';
+            btn.style.color        = state.triageMode ? '#000'    : '#e8a020';
+            btn.style.fontWeight   = state.triageMode ? '700'     : '600';
+            render();
+        }
+
+        function TRIAGE_computeIssues(floor) {
+            const rooms = floor.rooms;
+            const OPPOSITE = {n:'s',s:'n',e:'w',w:'e',ne:'sw',sw:'ne',nw:'se',se:'nw',
+                fore:'aft',aft:'fore',port:'starboard',starboard:'port',
+                fo:'af',af:'fo',po:'sb',sb:'po',u:'d',d:'u'};
+            const NS_DIRS  = new Set(['n','s','fore','aft','fo','af']);
+            const EW_DIRS  = new Set(['e','w','port','starboard','po','sb']);
+            const UD_DIRS  = new Set(['u','d']);
+
+            const diagonals  = [];
+            const oneways    = [];
+            const ud_oneways = [];
+            const seenDiag   = new Set();
+
+            Object.entries(rooms).forEach(([vnumStr, room]) => {
+                const fromVnum = parseInt(vnumStr);
+                Object.entries(room.exits || {}).forEach(([dir, ex]) => {
+                    if (ex.is_cross_zone || ex.is_portal) return;
+                    const toVnum = ex.to_vnum;
+                    const toRoom = rooms[String(toVnum)];
+                    if (!toRoom) return;
+
+                    const isNS = NS_DIRS.has(dir);
+                    const isEW = EW_DIRS.has(dir);
+                    const isUD = UD_DIRS.has(dir);
+                    const opp  = OPPOSITE[dir];
+                    const hasReturn = (opp && toRoom.exits && toRoom.exits[opp]
+                                       && toRoom.exits[opp].to_vnum === fromVnum)
+                                   || Object.values(toRoom.exits || {}).some(
+                                       ex => ex.to_vnum === fromVnum && !ex.is_cross_zone && !ex.is_portal);
+
+                    if (isNS || isEW) {
+                        // Diagonal: N/S pair with different grid_x, or E/W pair with different grid_y
+                        const isDiag = (isNS && room.grid_x !== toRoom.grid_x) ||
+                                       (isEW && room.grid_y !== toRoom.grid_y);
+                        if (isDiag) {
+                            // Deduplicate by unordered pair + direction axis
+                            const dk = [Math.min(fromVnum, toVnum), Math.max(fromVnum, toVnum), isNS ? 'ns' : 'ew'].join(':');
+                            if (!seenDiag.has(dk)) {
+                                seenDiag.add(dk);
+                                diagonals.push({from: fromVnum, dir, to: toVnum, fromName: room.name, toName: toRoom.name});
+                            }
+                        }
+                        if (!hasReturn) {
+                            oneways.push({from: fromVnum, dir, to: toVnum, fromName: room.name, toName: toRoom.name});
+                        }
+                    } else if (isUD && !hasReturn) {
+                        ud_oneways.push({from: fromVnum, dir, to: toVnum, fromName: room.name, toName: toRoom.name});
+                    }
+                });
+            });
+
+            return { diagonals, oneways, ud_oneways };
+        }
+
+        function TRIAGE_buildSidebar(issues, zoneName, floorId) {
+            const panel = document.getElementById('triagePanel');
+            panel.style.display = 'block';
+            panel._issues  = issues;
+            panel._zone    = zoneName;
+            panel._floor   = floorId;
+
+            const total = issues.diagonals.length + issues.oneways.length + issues.ud_oneways.length;
+            const clean = total === 0;
+            const hdr   = clean ? '#4caf82' : '#e8a020';
+
+            let h = `<div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;">
+                <span style="font-family:'Cinzel',serif;font-size:10px;letter-spacing:1.5px;color:${hdr};text-transform:uppercase;">⚑ Triage</span>
+                <span style="font-size:11px;color:${hdr};">${clean ? '✓ Clean' : total + ' issue' + (total > 1 ? 's' : '')}</span>
+            </div>`;
+
+            if (clean) {
+                h += `<div style="color:var(--text-dim);font-size:12px;text-align:center;padding:6px 0;">No issues on this floor</div>`;
+                panel.innerHTML = h;
+                return;
+            }
+
+            h += `<button onclick="TRIAGE_copyAll()" style="width:100%;margin-bottom:10px;padding:5px 8px;background:#1a1200;border:1px solid #e8a020;color:#e8a020;border-radius:4px;cursor:pointer;font-size:11px;font-family:'Cinzel',serif;letter-spacing:0.5px;" id="triageCopyBtn">COPY ALL ISSUES</button>`;
+
+            const section = (color, icon, label, items) => {
+                if (!items.length) return '';
+                let s = `<div style="color:${color};font-size:10px;font-family:'Cinzel',serif;letter-spacing:0.5px;margin-bottom:3px;text-transform:uppercase;">${icon} ${label} (${items.length})</div><div style="margin-bottom:9px;">`;
+                items.forEach(({from, dir, to, fromName, toName}) => {
+                    s += `<div onclick="navigateToRoom(${from})" style="font-family:monospace;font-size:11px;color:var(--text-primary);padding:2px 5px;border-left:2px solid ${color};margin-bottom:2px;cursor:pointer;user-select:text;" title="${fromName} → ${toName}">${from} &gt; ${dir} &gt; ${to}</div>`;
+                });
+                return s + '</div>';
+            };
+
+            h += section('#e040fb', '▣', 'Diagonal Exits',  issues.diagonals);
+            h += section('#ff9800', '↩', 'One-Way Exits',   issues.oneways);
+            h += section('#4caf82', '⬍', 'One-Way U/D',     issues.ud_oneways);
+
+            panel.innerHTML = h;
+        }
+
+        function TRIAGE_copyAll() {
+            const panel = document.getElementById('triagePanel');
+            const issues = panel._issues;
+            if (!issues) return;
+            const lines = [`TRIAGE: ${panel._zone} — Floor ${panel._floor}`];
+            if (issues.diagonals.length) {
+                lines.push('', `DIAGONAL CARDINAL EXITS (${issues.diagonals.length}):`);
+                issues.diagonals.forEach(({from, dir, to}) => lines.push(`${from} > ${dir} > ${to}`));
+            }
+            if (issues.oneways.length) {
+                lines.push('', `ONE-WAY CARDINAL EXITS (${issues.oneways.length}):`);
+                issues.oneways.forEach(({from, dir, to}) => lines.push(`${from} > ${dir} > ${to}`));
+            }
+            if (issues.ud_oneways.length) {
+                lines.push('', `ONE-WAY U/D EXITS (${issues.ud_oneways.length}):`);
+                issues.ud_oneways.forEach(({from, dir, to}) => lines.push(`${from} > ${dir} > ${to}`));
+            }
+            navigator.clipboard.writeText(lines.join('\n')).then(() => {
+                const btn = document.getElementById('triageCopyBtn');
+                if (btn) { btn.textContent = '✓ COPIED!'; setTimeout(() => { btn.textContent = 'COPY ALL ISSUES'; }, 2000); }
+            });
+        }
+
+        function DEV_togglePosEdit() {
+            state.posEditMode = !state.posEditMode;
+            const btn = document.getElementById('DEV_posEditBtn');
+            btn.textContent = state.posEditMode ? 'Edit ON' : 'Edit Positions';
+            btn.style.background = state.posEditMode ? 'var(--accent)' : '';
+            document.getElementById('DEV_panel').style.display = state.posEditMode ? 'block' : 'none';
+            render();
+        }
+
+        function DEV_clearOverrides() {
+            state.posOverrides = {};
+            DEV_updateOverrides();
+            render();
+        }
+
+        function DEV_downloadOverrides() {
+            const content = document.getElementById('DEV_overrideText').value;
+            const blob = new Blob([content], { type: 'text/csv' });
+            const a = document.createElement('a');
+            a.href = URL.createObjectURL(blob);
+            a.download = 'zone_grid_overrides_new.csv';
+            a.click();
+            URL.revokeObjectURL(a.href);
+        }
+        // ============================================================================
+        // DEV: Trace Tool — remove this entire block before going live
+        // ============================================================================
+        function DEV_traceGetDir(fromVnum, toVnum) {
+            const zone = state.allZones[state.currentZone];
+            if (!zone) return null;
+            const INVERSE = {n:'s',s:'n',e:'w',w:'e',u:'d',d:'u',ne:'sw',sw:'ne',nw:'se',se:'nw'};
+            // Direct: fromVnum has an exit leading to toVnum
+            for (const floor of Object.values(zone.floors)) {
+                const room = floor.rooms[String(fromVnum)];
+                if (!room) continue;
+                for (const exit of Object.values(room.exits || {})) {
+                    if (String(exit.to_vnum) === String(toVnum)) return exit.direction;
+                }
+            }
+            // Inverse: toVnum has an exit leading back to fromVnum — infer the forward direction
+            for (const floor of Object.values(zone.floors)) {
+                const room = floor.rooms[String(toVnum)];
+                if (!room) continue;
+                for (const exit of Object.values(room.exits || {})) {
+                    if (String(exit.to_vnum) === String(fromVnum)) {
+                        const inv = INVERSE[exit.direction];
+                        return inv ? `${inv}?` : `?${exit.direction}`;
+                    }
+                }
+            }
+            return null;
+        }
+
+        function DEV_traceUpdate() {
+            const ta = document.getElementById('DEV_traceText');
+            if (!ta) return;
+            if (state.traceChain.length === 0) { ta.value = ''; return; }
+            const parts = [String(state.traceChain[0])];
+            for (let i = 1; i < state.traceChain.length; i++) {
+                const dir = DEV_traceGetDir(state.traceChain[i - 1], state.traceChain[i]);
+                if (dir) parts.push(dir);
+                parts.push(String(state.traceChain[i]));
+            }
+            ta.value = parts.join(' > ');
+        }
+
+        function DEV_toggleTrace() {
+            state.traceMode = !state.traceMode;
+            const btn = document.getElementById('DEV_traceBtn');
+            btn.textContent = state.traceMode ? 'Trace ON' : 'Trace Path';
+            btn.style.background = state.traceMode ? '#e8a020' : '';
+            btn.style.color = state.traceMode ? '#000' : '';
+            document.getElementById('DEV_tracePanel').style.display = state.traceMode ? 'block' : 'none';
+            if (!state.traceMode) DEV_traceClear();
+        }
+
+        function DEV_traceUndo() {
+            state.traceChain.pop();
+            DEV_traceUpdate();
+        }
+
+        function DEV_traceClear() {
+            state.traceChain = [];
+            DEV_traceUpdate();
+        }
+        // ============================================================================
+        // END DEV block
+        // ============================================================================
+
+        async function init() {
+            const zoneDropdown = document.getElementById('zoneDropdown');
+
+            // Load zones, NPC stats, and item stats in parallel
+            try {
+                const _cb = '?t=' + Date.now();
+                // Public release index: zones_public.json is the whitelist of
+                // production-ready zones. If it's missing (dev / not yet built),
+                // fall back to the full zones.json so the viewer still works.
+                let zoneResp = await fetch('maps/zones_public.json' + _cb, { cache: 'no-store' }).catch(() => null);
+                if (!zoneResp || !zoneResp.ok) {
+                    zoneResp = await fetch('maps/zones.json' + _cb, { cache: 'no-store' });
+                }
+                const [npcResp, itemResp] = await Promise.all([
+                    fetch('maps/npcs.json' + _cb, { cache: 'no-store' }).catch(() => null),
+                    fetch('maps/items.json' + _cb, { cache: 'no-store' }).catch(() => null),
+                ]);
+                if (zoneResp.ok) state.zoneNames = await zoneResp.json();
+                if (npcResp?.ok)  state.npcData  = await npcResp.json();
+                if (itemResp?.ok) state.itemData = await itemResp.json();
+            } catch (_) {}
+
+            if (state.zoneNames.length === 0) {
+                zoneDropdown.innerHTML =
+                    '<option value="">No zones.json found — run export script first</option>';
+                document.getElementById('mapTitle').textContent =
+                    'Run generate_json_proper.bat to generate zone data';
+                return;
+            }
+
+            // Populate dropdown
+            zoneDropdown.innerHTML = '';
+            state.zoneNames.forEach(name => {
+                const opt = document.createElement('option');
+                opt.value = name;
+                opt.textContent = name;
+                zoneDropdown.appendChild(opt);
+            });
+
+            // Change handler
+            zoneDropdown.addEventListener('change', async (e) => {
+                const newZone = e.target.value;
+                if (newZone && newZone !== state.currentZone) {
+                    NAV_pushHistory();
+                    state.currentZone   = newZone;
+                    state.goPortalView  = null;
+                    state.portalHistory = [];
+                    document.getElementById('mapTitle').textContent = 'Loading…';
+                    const data = await loadZoneData(newZone);
+                    if (data) {
+                        // Pick the highest floor id (surface = 0, underground = negative)
+                        const floorIds = Object.keys(data.floors).map(k => parseInt(k)).sort((a, b) => b - a);
+                        // Use zone-level entry_vnum (cross-zone arrival) if present;
+                        // fall back to highest floor's entry_vnum.
+                        const zoneEntry = data.entry_vnum;
+                        if (zoneEntry) {
+                            for (const [fid, fl] of Object.entries(data.floors)) {
+                                if (fl.rooms[String(zoneEntry)]) {
+                                    state.currentFloor = parseInt(fid);
+                                    break;
+                                }
+                            }
+                        } else {
+                            state.currentFloor = floorIds[0] ?? 0;
+                        }
+                        const entryFloor = data.floors[String(state.currentFloor)];
+                        const targetRoom = zoneEntry ?? entryFloor?.entry_vnum ?? null;
+                        state.selectedRoom = targetRoom;
+                        state.zoom = 1.0;
+                        state.panX = 0;
+                        state.panY = 0;
+                        updateZoomLevel();
+                        if (targetRoom) centerOnRoom(targetRoom);
+                        render();
+                    }
+                }
+            });
+
+            // Always open on City of Mareldja, room 40000 when available;
+            // otherwise fall back to the first zone in the list.
+            const DEFAULT_ZONE = 'City of Mareldja';
+            const DEFAULT_ROOM = '40000';
+            const first = state.zoneNames.includes(DEFAULT_ZONE)
+                ? DEFAULT_ZONE : state.zoneNames[0];
+            state.currentZone = first;
+            zoneDropdown.value = first;
+            document.getElementById('mapTitle').textContent = 'Loading…';
+            const data = await loadZoneData(first);
+            if (data) {
+                const floorIds = Object.keys(data.floors).map(k => parseInt(k)).sort((a, b) => b - a);
+                // Focus the default room (40000) if it exists in this zone, else
+                // the highest floor's entry room.
+                let focusFloor = null;
+                if (first === DEFAULT_ZONE) {
+                    for (const [fid, fl] of Object.entries(data.floors)) {
+                        if (fl.rooms[String(DEFAULT_ROOM)]) { focusFloor = parseInt(fid); break; }
+                    }
+                }
+                if (focusFloor !== null) {
+                    state.currentFloor = focusFloor;
+                    state.selectedRoom = DEFAULT_ROOM;
+                    resetView(false);   // keeps selectedRoom (40000) and centers on it
+                } else {
+                    state.currentFloor = floorIds[0] ?? 0;
+                    const entryFloor = data.floors[String(state.currentFloor)];
+                    state.selectedRoom = entryFloor?.entry_vnum ?? null;
+                    resetView(true);
+                }
+                render();
+            } else {
+                document.getElementById('mapTitle').textContent = 'Error loading zone';
+            }
+        }
+
+        // ── Touch support ─────────────────────────────────────────────────
+        let lastTouchDist = null;
+        let lastTouchCenter = null;
+
+        mapContainer.addEventListener('touchstart', (e) => {
+            if (e.touches.length === 1) {
+                state.isDragging = true;
+                state.dragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+            } else if (e.touches.length === 2) {
+                state.isDragging = false;
+                const dx = e.touches[0].clientX - e.touches[1].clientX;
+                const dy = e.touches[0].clientY - e.touches[1].clientY;
+                lastTouchDist = Math.sqrt(dx * dx + dy * dy);
+                lastTouchCenter = {
+                    x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+                    y: (e.touches[0].clientY + e.touches[1].clientY) / 2
+                };
+            }
+        }, { passive: true });
+
+        mapContainer.addEventListener('touchmove', (e) => {
+            e.preventDefault();
+            if (e.touches.length === 1 && state.isDragging && state.dragStart) {
+                const dx = e.touches[0].clientX - state.dragStart.x;
+                const dy = e.touches[0].clientY - state.dragStart.y;
+                state.panX += dx;
+                state.panY += dy;
+                state.dragStart = { x: e.touches[0].clientX, y: e.touches[0].clientY };
+                render();
+            } else if (e.touches.length === 2 && lastTouchDist !== null) {
+                const dx = e.touches[0].clientX - e.touches[1].clientX;
+                const dy = e.touches[0].clientY - e.touches[1].clientY;
+                const dist = Math.sqrt(dx * dx + dy * dy);
+                const scale = dist / lastTouchDist;
+                const newZoom = Math.min(MAX_ZOOM, Math.max(MIN_ZOOM,
+                    Math.round(state.zoom * scale * 10) / 10));
+                if (newZoom !== state.zoom) {
+                    state.zoom = newZoom;
+                    updateZoomLevel();
+                    if (state.selectedRoom) centerOnRoom(state.selectedRoom);
+                    render();
+                }
+                lastTouchDist = dist;
+            }
+        }, { passive: false });
+
+        mapContainer.addEventListener('touchend', () => {
+            state.isDragging = false;
+            lastTouchDist = null;
+        }, { passive: true });
+
+        // ── Mobile sidebar toggle ─────────────────────────────────────────
+        const sidebarEl = document.getElementById('sidebar');
+        const overlayEl = document.getElementById('sidebarOverlay');
+        const toggleBtn = document.getElementById('sidebarToggle');
+
+        function openSidebar() {
+            sidebarEl.classList.add('open');
+            overlayEl.classList.add('open');
+            toggleBtn.setAttribute('aria-expanded', 'true');
+            toggleBtn.textContent = '✕';
+        }
+
+        function closeSidebar() {
+            sidebarEl.classList.remove('open');
+            overlayEl.classList.remove('open');
+            toggleBtn.setAttribute('aria-expanded', 'false');
+            toggleBtn.textContent = '☰';
+        }
+
+        toggleBtn.onclick = () => {
+            if (sidebarEl.classList.contains('open')) { closeSidebar(); }
+            else { openSidebar(); }
+        };
+
+        overlayEl.addEventListener('click', () => { closeSidebar(); });
+
+        // Close sidebar after selecting an exit on mobile
+        document.getElementById('exitsSection').addEventListener('click', () => {
+            if (window.innerWidth <= 768) closeSidebar();
+        });
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) { closeSidebar(); }
+        });
+
+        // ── Floating joystick compass collapse ────────────────────────────
+        const mapCompassEl = document.getElementById('mapCompass');
+        const mcToggleBtn   = document.getElementById('mcToggle');
+        function setCompassCollapsed(collapsed) {
+            mapCompassEl.classList.toggle('collapsed', collapsed);
+            mcToggleBtn.textContent = collapsed ? '🧭' : '–';
+            mcToggleBtn.setAttribute('aria-label', collapsed ? 'Expand compass' : 'Collapse compass');
+            mcToggleBtn.title = collapsed ? 'Expand compass' : 'Collapse compass';
+        }
+        // Start expanded on phones/tablets (the primary use case), collapsed to a
+        // round button on desktop where the sidebar compass is already visible.
+        setCompassCollapsed(window.innerWidth > 768);
+        mcToggleBtn.addEventListener('click', () => {
+            setCompassCollapsed(!mapCompassEl.classList.contains('collapsed'));
+        });
+
+        // ── NPC toggle & search ───────────────────────────────────────────
+        document.getElementById('hoverCard').addEventListener('mouseenter', cancelHideHoverCard);
+        document.getElementById('hoverCard').addEventListener('mouseleave', scheduleHideHoverCard);
+        document.getElementById('npcModalClose').onclick = hideNpcModal;
+        document.getElementById('npcModal').addEventListener('click', e => {
+            if (e.target === document.getElementById('npcModal')) hideNpcModal();
+        });
+
+
+        init();
+    </script>
+</body>
+</html>

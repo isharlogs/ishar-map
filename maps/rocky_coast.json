@@ -1,0 +1,1324 @@
+{
+  "zone_name": "Rocky Coast",
+  "entry_vnum": 24001,
+  "floor_count": 6,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 3,
+    "min_y": -3,
+    "max_y": 1
+  },
+  "floors": {
+    "-3": {
+      "floor_id": -3,
+      "entry_vnum": 44089,
+      "rooms": {
+        "44089": {
+          "vnum": 44089,
+          "name": "Sandy Pit",
+          "description": "Salt-encrusted stone rises from three sides of a broad sandy pit to form an enclosure within an underground cavern. Steps lead up and out of the pit toward tunnel leading westward. The bottom of the pit is covered with a thick layer of soft sand, which appears to move slightly from time to time.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 44088,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 44085,
+      "rooms": {
+        "44083": {
+          "vnum": 44083,
+          "name": "Underground Crevasse",
+          "description": "A long, narrow crevasse splits the bottom of a broad cavern underneath the shores of Mareldja. Sand filters in through an opening here with steps leading upward. The crevasse is filled with seawater which ebbs and flows with the tidal currents. A series of wooden planks form a rickety bridge spanning the crevasse, to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 44084,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rickety Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 44082,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44084": {
+          "vnum": 44084,
+          "name": "Rickety Bridge",
+          "description": "A series of thin, rotting wooden planks form a rickety bridge across the crevasse. A dim bluish glow emanates from the water below, reflecting upon the crevasse walls.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 44098,
+              "to_zone": "Cantarel",
+              "to_room_name": "Within a Crevasse",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 44085,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Crevasse Ledge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 44083,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Underground Crevasse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 44098,
+              "to_zone": "Cantarel",
+              "to_room_name": "Within a Crevasse",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44085": {
+          "vnum": 44085,
+          "name": "Crevasse Ledge",
+          "description": "You are upon a thin ledge next to a tunnel entrance several meters below the surface. A rickety wooden bridge spans a water-filled crevasse to the south, its waters casting a chilly, dull blow glow. Deposits of loose sand and encrusted salt cover the surfaces. The tunnel leads northeast.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 44098,
+              "to_zone": "Cantarel",
+              "to_room_name": "Within a Crevasse",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 44086,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 44084,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rickety Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44086": {
+          "vnum": 44086,
+          "name": "Tunnel",
+          "description": "A winding passage twists through the underworld, roughly cut and filled with decaying debris. A slight breeze and the sound of water can be felt and heard to the southwest. Further passages lead northward and intersect with one another... the tunnel appears to be quite natural in origin.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 44087,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 44085,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Crevasse Ledge",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44087": {
+          "vnum": 44087,
+          "name": "Tunnel",
+          "description": "Sand and dirt mingle upon the floor of a natural tunnel beneath Mareldja. Passages twist and turn every which way, but the only ones big enough to traverse lead to the south and to the east.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 44088,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 44086,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44088": {
+          "vnum": 44088,
+          "name": "Tunnel",
+          "description": "Many natural passages terminate here in a moderately sized underground cavern. The floor is covered with a mixture of dirt sand, but is mostly sand. Off to one side a set of steps lead down into a wide sandy pit, and the largest of the passages here leads west.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 44087,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 44089,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Sandy Pit",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 1,
+        "room_count": 6
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 44082,
+      "rooms": {
+        "44082": {
+          "vnum": 44082,
+          "name": "Staircase",
+          "description": "Rickety wooden steps lead up and down a damp and twisting passage underground. Sand collects in the corners, and salt has become encrusted upon the rocks lining the walls of the passage. A single sconce holds a lamp, illuminating the way.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 44083,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Underground Crevasse",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 44081,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24000,
+      "rooms": {
+        "44080": {
+          "vnum": 44080,
+          "name": "Crawlspace",
+          "description": "Grubs and roots compete for your irritation along a cramped crawlspace within the cliffside near Mareldja. To the west the passage reveals the remains of a smashed hull. Further eastward the uneven glow of flickering torchlight illuminates an opening.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 44081,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40027,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Smashed Hull",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "44081": {
+          "vnum": 44081,
+          "name": "Tunnel Entrance",
+          "description": "Torches mounted on spears stand crossed on both sides of a broad, low tunnel entrance here. Steps lead downward into darkness. Pebbles skitter at your feet, fallen from the crumbling surfaces of this underground cavern. A cramped passage leads westward.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 44080,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Crawlspace",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 44082,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24000": {
+          "vnum": 24000,
+          "name": "Rocky Beach",
+          "description": "The waves crash upon the rocks here with a roar as you cautiously pick your way around jagged outcroppings of rock. Loose chunks of stone litter the ground forcing you to move cautiously. The beach becomes sandy to the south but to the north the rocky terrain continues.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24001,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rocky Beach",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40028,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Shipwreck",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24001": {
+          "vnum": 24001,
+          "name": "Rocky Beach",
+          "description": "A violently churning, water-filled notch throws salt spray high into the air. The coastline extends off to the south and you can see the skeletal remains of an old ship in the distance. There is a small cleft in the cliff face to the east. A well-trodden path heads towards the northwest, winding around the edge of the cliff.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24002,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Base of the Slope",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 24200,
+              "to_zone": "Seabreeze Village - City of Mareldja",
+              "to_room_name": "Narrow Path",
+              "direction": "nw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24000,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rocky Beach",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Air.  The coastline extends off to the south and you can see the skeletal",
+                "Around the edge of the cliff.",
+                "Face to the east.  A well-trodden path heads towards the northwest",
+                "Remains of an old ship in the distance.  There is a small cleft in the cliff",
+                "Rocky Beach",
+                "Violently churning",
+                "water-filled notch throws salt spray high into the",
+                "winding"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24002": {
+          "vnum": 24002,
+          "name": "Base of the Slope",
+          "description": "You stand in a small cleft at the foot of a rocky slope that rises to the north. Looking west you can see a narrow slice of rocky coastline.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24001,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rocky Beach",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24003,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Basalt Slope",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Base of the Slope",
+                "North.  Looking west you can see a narrow slice of rocky coastline.",
+                "You stand in a small cleft at the foot of a rocky slope that rises to the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40027": {
+          "vnum": 40027,
+          "name": "Smashed Hull",
+          "description": "The inside of the ship has been gutted a long time ago. Names of previous visitors are carved into the wooden beams. Chipped painting upon a broken sign identifies this ship as the Golden Vanity. A cramped tunnel leads into the earth to the east.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 44080,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Crawlspace",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40028,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Shipwreck",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40028": {
+          "vnum": 40028,
+          "name": "Shipwreck",
+          "description": "The skeleton of a ship lies here above the high tide mark, rotting slowly with each passing year. Its hull appears to have been smashed upon the rocks stretches out to the north and south along the cliff.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40027,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Smashed Hull",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24000,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Rocky Beach",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40029,
+              "to_zone": "Western Mareldja Coast - City of Mareldja",
+              "to_room_name": "By the Seaside",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24042": {
+          "vnum": 24042,
+          "name": "Sea`s Edge",
+          "description": "You stand on a natural rock shelf at the edge of the sea. The swells are very small here, as this area is partially shielded from the sea by a westward shift in the coastline to the north. There is a small trail leading up to a road above, and an archway opens in the face of the rock to the east. The sea is to the west.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80001,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Cavern by the Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24043,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25006,
+              "to_zone": "The Ocean",
+              "to_room_name": "Gentle Swells",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 3,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 8
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 24003,
+      "rooms": {
+        "24003": {
+          "vnum": 24003,
+          "name": "Basalt Slope",
+          "description": "You are at the midpoint of a slope which climbs up from a small niche below. To your west and far below, you can see the foam crowned breakers as they roll in from the sea. The sound of the surf comes faintly to your ears.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24002,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Base of the Slope",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24004,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Top of the Slope",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Basalt Slope",
+                "In from the sea.  The sound of the surf comes faintly to your ears.",
+                "To your west and far below",
+                "You are at the midpoint of a slope which climbs up from a small niche below.",
+                "you can see the foam crowned breakers as they roll"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 24004,
+      "rooms": {
+        "24004": {
+          "vnum": 24004,
+          "name": "Top of the Slope",
+          "description": "You have come to the summit of a steep slope which drops down to the south. The briny smell of the sea rises from the west where you can see the vast curve of the horizon in the distance. The outskirts of a forest can be seen to the northeast. The roar of a crowd can be heard from the canvas tents set to your east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18099,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "At the Carnival Entrance",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24005,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Seawood Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24003,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Basalt Slope",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Briny smell of the sea rises from the west where you can see the vast curve",
+                "East.",
+                "Northeast.  The roar of a crowd can be heard from the canvas tents set to your",
+                "Of the horizon in the distance.  The outskirts of a forest can be seen to the",
+                "Top of the Slope",
+                "You have come to the summit of a steep slope which drops down to the south."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24005": {
+          "vnum": 24005,
+          "name": "Seawood Trail",
+          "description": "This north and south running trail picks its way between a forest to your east and a cliff to the west. Fortunately the trail is wide and comfortable because the ocean, which you can see to the west, appears to be a long way down.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24006,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Seawood Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24004,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Top of the Slope",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Because the ocean",
+                "Down.",
+                "East and a cliff to the west.  Fortunately the trail is wide and comfortable",
+                "Seawood Trail",
+                "This north and south running trail picks its way between a forest to your",
+                "appears to be a long way",
+                "which you can see to the west"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24006": {
+          "vnum": 24006,
+          "name": "Seawood Trail",
+          "description": "High-pitched chittering and distant screeches come to your ears from the forest to the east. Looking west, you notice that the land seems to drop off sharply in what is evidently a cliff. The cliff approaches the trail more closely to the south. The treeline you are following comes to an end as you look north.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25095,
+              "to_zone": "Northwestern Coastline",
+              "to_room_name": "The Rolling Hills",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24005,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Seawood Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 3
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24000,
+      "to": 24001,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24000,
+      "to": 40028,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24001,
+      "to": 24002,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24004,
+      "to": 24005,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24005,
+      "to": 24006,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40027,
+      "to": 44080,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40027,
+      "to": 40028,
+      "direction": "w",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44080,
+      "to": 44081,
+      "direction": "e",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44083,
+      "to": 44084,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44084,
+      "to": 44085,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44085,
+      "to": 44086,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44086,
+      "to": 44087,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 44087,
+      "to": 44088,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

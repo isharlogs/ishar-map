@@ -1,0 +1,1455 @@
+{
+  "zone_name": "Spunroot Tunnels - Napenthe Basin Forest",
+  "entry_vnum": 47162,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 1,
+    "min_y": -2,
+    "max_y": 7
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47162,
+      "rooms": {
+        "47162": {
+          "vnum": 47162,
+          "name": "Storage Chamber",
+          "description": "Scraps of broken weapons, decayed armor and carved bone lay strewn about this cluttered storage chamber. A vile reek wafts up from several of the haphazard piles, as if someone or something had mistaken this room for a place to die, or excrete waste.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47161,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Narrow Passage",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47167": {
+          "vnum": 47167,
+          "name": "Small Stone House",
+          "description": "A deteriorated and worn old stone dwelling surrounds you. The floor is crumbling earth, riddled with holes and protruding, tangled roots. The air is still, the scent nauseating. Small piles of bones, broken wood, and tattered cloth lay scattered about.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47119,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Small Copse",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47179,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Deadend Tunnel",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47170": {
+          "vnum": 47170,
+          "name": "Spunroot Tunnels",
+          "description": "Below a hollow stump, roots poke through the walls of crumbling earth which form tunnels travelling off in several directions. The air here is moist, water trickling down the earthen walls to collect upon the soft, mushy ground beneath your feet.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47171,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47122,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Alumbir Trail",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47177,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47171": {
+          "vnum": 47171,
+          "name": "Spunroot Tunnels",
+          "description": "A rounded tunnel winds its way through the earth beneath Napenthe, inhabited by a variety of webspinning insects and small, pixieish creatures. The twisted roots of a large treestump fill an otherwise open space just south of here, and the passage continues northward.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47172,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47170,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47172": {
+          "vnum": 47172,
+          "name": "Spunroot Tunnels",
+          "description": "The tunnel splits here in three directions, none looking all too different than the others. An occasional bone erupts from the walls otherwise covered by a miasma of roots, web and fungi. The passages here lead west, north, and south.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47174,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47171,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47173,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47173": {
+          "vnum": 47173,
+          "name": "Spunroot Tunnels",
+          "description": "A twisting collection of steps wind their way downward through the earth here, where several of the mould and root-filled passages meet. From below a draft of warn air rises, tinged with brimstone. Through the passage west lay a large stone statue half-buried in the floor.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47172,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47174,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47175,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47182,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Bottom of a Spiral Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47174": {
+          "vnum": 47174,
+          "name": "Spunroot Tunnels",
+          "description": "A plethora of rotting bones stick out of the walls, floors, and ceiling at this point within the spunroot tunnels. Apparently you are beneath, or perhaps within, a gravesite. An odd sensation creeps over you, clouding your mind. Passages appear to exit to the west and to the south. A hint of light creeps into the tunnels from an opening to the east.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47154,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Slope Path",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47173,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47178,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47175": {
+          "vnum": 47175,
+          "name": "Spunroot Tunnels",
+          "description": "Three passages converge here, where half-buried in the floor of the dank tunnels stands an old, chipped and chisled upon statue of stone. Several small, extinguished candles lay at its base. The top of a spiraling staircase can be seen just east.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47173,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 47178,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47176,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47176": {
+          "vnum": 47176,
+          "name": "Spunroot Tunnels",
+          "description": "You wander through the spunroot tunnels, and quickly find yourself venturing in circles. Many of the passages appear identicle; webs, roots, bones, rocks, and more webs, bones, roots, and rocks. Perhaps one of those nice troll-type- critters will lead you to safety. NOT! Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47177,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47175,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "47177": {
+          "vnum": 47177,
+          "name": "Spunroot Tunnels",
+          "description": "You crouch to make your way through a narrow, east-west passage below the earth. Mould grows healthily here in the subterranean gloom, slickening the surfaces. A faint draft of fresh air flows from the east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47170,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47176,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47178": {
+          "vnum": 47178,
+          "name": "Spunroot Tunnels",
+          "description": "You stumble into a small chamber within the spunroot tunnels, bearing many exits; some partially covered by the tangled mass of creeping root and rhizome which grows upon the walls. Here and there a bit of rotted bone can be seen to break through the surfaces about. Several tangled roots hang loosely upon one wall, obscuring a passage.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47174,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47159,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "se": {
+              "to_vnum": 47175,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47179,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Deadend Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47179": {
+          "vnum": 47179,
+          "name": "Deadend Tunnel",
+          "description": "One step too far into this dead-end passage and you realize what a mistake your curiousity has led you into. An odd, arcane glow fills this chamber, and the multitude of roots lining the walls here reach out toward you, hungrily, mindlessly, endlessly....",
+          "grid_x": -3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47178,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47167,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Small Stone House",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47180": {
+          "vnum": 47180,
+          "name": "Spiral Staircase",
+          "description": "Narrow, mould-covered steps wind around and around, slowing working their way upward. From below a thin mist rises, tinged with the pungent scent of brimstone.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47181,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spiral Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47173,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              47182
+            ],
+            "active": false,
+            "stack_default_vnum": 47182
+          },
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47181": {
+          "vnum": 47181,
+          "name": "Spiral Staircase",
+          "description": "You tread upon a twisting collection of cracked and perilous steps through the earth, above a mist-filled chamber glowing faintly. High above the steps appear to terminate in another set of tunnels, and a narrow passage extends eastward.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47161,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Narrow Passage",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47182,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Bottom of a Spiral Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47180,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spiral Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47182": {
+          "vnum": 47182,
+          "name": "Bottom of a Spiral Staircase",
+          "description": "A series of roughly chisled steps spiral upward here, at the dead end of a narrow tunnel through the earth. Upon the debris-ridden floor here a light mist drifts slowly through a rusted steel grate. Roots hang down to veil the tunnel passage to the south.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "d": {
+              "to_vnum": 47600,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "A Spiral Descent",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47183,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47181,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spiral Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              47180
+            ],
+            "active": true,
+            "stack_default_vnum": 47182
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47183": {
+          "vnum": 47183,
+          "name": "Spunroot Tunnels",
+          "description": "The roots giving these tunnels their name thicken here, wrapping 'round each other in great tangles, stretching downward from above to seek the floor of the tunnel, which is occupied by a shifting, noxious mist.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 47182,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Bottom of a Spiral Staircase",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47184,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47184": {
+          "vnum": 47184,
+          "name": "Spunroot Tunnels",
+          "description": "Around a collection of loosely piled rocks curves the spunroot tunnel, the ground here squishing below your feet. A slight mist drifts slowly by from the east.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 47183,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47185,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47185": {
+          "vnum": 47185,
+          "name": "Spunroot Tunnels",
+          "description": "The passage here curves slightly as it travels north and south, around a collection of large stones breaking through the lichen-covered walls to your east. Water spills forth from the topmost of the rocks, cascading downward to be absorbed by the earthn ground beneath your feet.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 47184,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47186,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47186": {
+          "vnum": 47186,
+          "name": "Spunroot Cavern",
+          "description": "Cocoons dangle from above, on threads of woven silk attatched to the roots bursting through the earthen ceiling. The soft-floored tunnel of web, fungi and root creeps north and east away from this small rounded cavern beneath the forest basin. Dark iron streaks run thick through the rock.",
+          "grid_x": 0,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 47187,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47185,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47006,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Path-stones",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47187": {
+          "vnum": 47187,
+          "name": "Spunroot Tunnels",
+          "description": "Crumbling earth mixed with a tangle of large but soft roots threatens to close off the underground passage here, which turns around a large boulder, heading to the south and west. Steady trickles of water run down the surface of the rock, softening the ground beneath your feet and feeding a collection of oddly shaped toadstools.",
+          "grid_x": 1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "s": {
+              "to_vnum": 47188,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47186,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47188": {
+          "vnum": 47188,
+          "name": "Spunroot Tunnels",
+          "description": "Beneath the earth, a rough-hewn tunnel has been dug, here venturing north and south. Roots from the burgeoning forest above erupt from the earthen surroundings in great masses, spun and woven together to form nests by the many small creatures living here just below topsoil.",
+          "grid_x": 1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 47187,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47189,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47189": {
+          "vnum": 47189,
+          "name": "Spunroot Tunnels",
+          "description": "Beneath a fallen treetrunk of enourmous size begins a tunnel, filled and cluttered by masses of tangled roots which spring forth from all about. The tunnel offers passage here to the north, and to the east. A hole overhead leads up into the treetrunk.",
+          "grid_x": 1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 47227,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47188,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47048,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Inside a Fallen Tree",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {
+        "1": "#e05555"
+      },
+      "metadata": {
+        "min_x": -3,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 7,
+        "room_count": 22
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47170,
+      "to": 47171,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47170,
+      "to": 47177,
+      "direction": "w",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47171,
+      "to": 47172,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47172,
+      "to": 47174,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47172,
+      "to": 47173,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47173,
+      "to": 47174,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47173,
+      "to": 47175,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47174,
+      "to": 47178,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47175,
+      "to": 47178,
+      "direction": "nw",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47175,
+      "to": 47176,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47176,
+      "to": 47177,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47178,
+      "to": 47179,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47182,
+      "to": 47183,
+      "direction": "s",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47183,
+      "to": 47184,
+      "direction": "w",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47184,
+      "to": 47185,
+      "direction": "s",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47185,
+      "to": 47186,
+      "direction": "s",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47186,
+      "to": 47187,
+      "direction": "e",
+      "from_grid": [
+        0,
+        5
+      ],
+      "to_grid": [
+        1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47187,
+      "to": 47188,
+      "direction": "s",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47188,
+      "to": 47189,
+      "direction": "s",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

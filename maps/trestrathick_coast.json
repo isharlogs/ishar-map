@@ -1,0 +1,322 @@
+{
+  "zone_name": "Trestrathick Coast",
+  "entry_vnum": 79152,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 79152,
+      "rooms": {
+        "79151": {
+          "vnum": 79151,
+          "name": "The Peninsula",
+          "description": "Looking northward from the clifftops here, you see the roots of deciduous trees burst from the soft earth and hang over the edge as a small area of woodland lines the coast. Below, the Chardaleth Sea smashes violently against the rocky cliff base. Beneath your feet, soft grasses spill over the precipice. A leafy plant with thick stems grows here, its roots bulging from the soil.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 79152,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79111,
+            79154
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79152": {
+          "vnum": 79152,
+          "name": "The Peninsula",
+          "description": "The land inclines towards Baranath Bay here, meeting it in a burst of greenery a short distance to the east. The grass is thick and healthy, nurtured by the rich soil and the coastal sunlight.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79110,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Meadow by the Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79151,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79153,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79153": {
+          "vnum": 79153,
+          "name": "The Peninsula",
+          "description": "Looking southeast from atop this long stretch of isolated, elevated land, the whole of Baranath Bay is visible, appearing like a wide bitemark on the Sub- Mareldjan coast. In reality, the Brown River was the biter here, its flow wearing away soft rock over many centuries and carving the beautiful bay into its present form.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79152,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79156,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79154
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79155": {
+          "vnum": 79155,
+          "name": "The Peninsula",
+          "description": "The westernmost point of the peninsula is denoted by a sharp drop towards the Chardaleth Sea immediately to the west. The foliage here is tougher - rugged bracken begins to take the place of soft grass, less well equipped to deal with the windy battery which comes from all directions.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 79156,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79154
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "79156": {
+          "vnum": 79156,
+          "name": "The Peninsula",
+          "description": "As you stare out over the glittering water, you get a true sense of just how small you really are. Only with a view so comprehensive, complete and overwhelming can the immense scale of the world be entirely grasped, and as the waves roar beneath you spraying foam and water, and the clouds roll above you in volcanic, vapourous mountains, a feeling of utter insignificance and awe permeates your conciousness. A graceful willow tree stands here, its trailing branches swaying gently.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79153,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 79155,
+              "to_zone": "Trestrathick Coast",
+              "to_room_name": "The Peninsula",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 79151,
+      "to": 79152,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79152,
+      "to": 79153,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79153,
+      "to": 79156,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 79155,
+      "to": 79156,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

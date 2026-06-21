@@ -1,0 +1,1279 @@
+{
+  "zone_name": "Temple of Esralen",
+  "entry_vnum": 61064,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 2,
+    "min_y": -4,
+    "max_y": 1
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 61044,
+      "rooms": {
+        "61074": {
+          "vnum": 61074,
+          "name": "Scorched Caves",
+          "description": "The cave walls here are nearly black with soot, what few stones lay embedded into the rock charred and melted. Chisled steps lead up. Directly ahead lay an open cavern, a trail of slime covering the floor leading into it. Affixed to the wall here are a set of bones.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61075,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "The Lair of Esralen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61073,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Scorched Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61075": {
+          "vnum": 61075,
+          "name": "The Lair of Esralen",
+          "description": "Charred bits of bone and rubble are sealed within a thick layer of slime covering the rough stone floor of this rounded, open chamber. Along the walls are embedded skulls of multiple origin, none of them human. Several small exits can be seen, that which lay to the north being blocked by a set of thick iron bars.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61078,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "A Narrow, Scorched Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61074,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Scorched Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61077,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Inside a Scorched, Reeking Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61076
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61077": {
+          "vnum": 61077,
+          "name": "Inside a Scorched, Reeking Cave",
+          "description": "A jumbled pile of dragon dung and bones fill this tiny cave. A swarm of chittering black insects move through the debris, making it their home. Along the surface of the scorched walls are a series of odd carvings.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61075,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "The Lair of Esralen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61078": {
+          "vnum": 61078,
+          "name": "A Narrow, Scorched Tunnel",
+          "description": "This small tunnel travels several meters away from the cavern to the west, terminating at a large, steaming hole flanked by a pair of skeletons mounted upon standing poles. Charred streaks of ebon marr the surfaces of the walls, marking this as the territory of dragons.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 61075,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "The Lair of Esralen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61037": {
+          "vnum": 61037,
+          "name": "Storage Chamber",
+          "description": "A small trapdoor hangs above you in this cramped storage chamber below the living quarters. Piles of sawdust and rodent droppings litter the floor beneath your feet. There is barely enough for one to move here in this dark, damp little room.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 61036,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Living Quarters",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61042": {
+          "vnum": 61042,
+          "name": "Burning Pit",
+          "description": "Barely large enough for a body, the pit within the meditation chamber is filled with slowly, softly burning coals beneath a thick layer of chalky ash. Your flesh begins to sear in the heat. The walls are cracked stone, steam pouring out of the breaks.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 61069,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Meditation Chamber",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61043": {
+          "vnum": 61043,
+          "name": "Scribe`s Quarters",
+          "description": "The Scribe's quarters are modest, a dusty square of stone filled by a small cot, an old ink-spotted wooden tabletop, and several rows of scroll-filled glass shelves. A copper pot of ink rests upon the table with a quill, along with a row of small candles, each having a distinct colour and mark. Behind the table sits a plain round stool.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61044,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Library",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61044": {
+          "vnum": 61044,
+          "name": "Temple Library",
+          "description": "The temple library consists of little more than two long, low cases of books against the polar walls, facing one another. Perusing the titles as you pass toward the scribe's quarters to the west, you realize they are all in an ancient language, the time of its use long passed. An iron stair at the eastern end of the hall shakes briefly as the library hall hums softly with the energy of the collected knowledge present within the volumes.",
+          "grid_x": 5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 61043,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Scribe`s Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61068,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 8
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 27008,
+      "rooms": {
+        "27008": {
+          "vnum": 27008,
+          "name": "Port of Barcas",
+          "description": "The harbor is divided into three sections. The southernmost end is the free port, open to most ships. Near the centre, just to the north and east, are the floating shipyards, complete with slips and functional, covered dry docks. Tucked away past the shipyards is her near legendary naval harbor.",
+          "grid_x": 5,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 27009,
+              "to_zone": "Port City of Barcas",
+              "to_room_name": "Receiving",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            27007
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61063": {
+          "vnum": 61063,
+          "name": "Before the Temple of Esralen",
+          "description": "Two solid columns of curved stone rise from the floor here at the end of a wide tunnel travelling north and south. Hinged upon the columns is a sturdy iron gate. Masses of twisting, spindly roots creep out of the earthen ceiling to drape down over the temple entrance, nearly obscuring the carved wooden dragonshead which rests above the gate.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61062,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Narrow Steps into the Earth",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 61064,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Belial",
+              "description": "Belial, once a great and free spirited warrior, stands here guarding the temple gates with a vacant stare.  Stories long ago told of his exploits with Devalid the Cutter spring to mind at the sight of the living legend, now a shell.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61064": {
+          "vnum": 61064,
+          "name": "Within the Temple of Esralen",
+          "description": "A short hallway past the gates terminates in this hollow chamber. Small reddish globes rest upon silvered dragonsclaws affixed to the walls bathing the cold stone walls in a disturbing shade. A low, arched opening holds a door to the east, and a short flight of steps climb up to the west. A hint of brimstone drifts by through a curtain of stone beads veiling a narrow hallway travelling north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61068,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 61035,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61067,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "go out": {
+              "to_vnum": 61063,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Before the Temple of Esralen",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61065": {
+          "vnum": 61065,
+          "name": "Ritual Chamber",
+          "description": "Greater counterparts to the glowing fixtures found in the temple entrance line the smooth, curving walls of the ritual chamber, bathing the area in a violent red hue. The chamber is large, rounded, and its walls extend far upward. At the centre stand a trio of square stone pillars, from which a sextet of shackles hangs loosely. The floor is composed of oddly patterned marble. At the northern end of the chamber, a warm draft tinged with ash drifts from a wide, gated cave opening which turns east.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61070,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 61035,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 27008,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Port of Barcas",
+              "direction": "go portal",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61066": {
+          "vnum": 61066,
+          "name": "Within the Temple of Esralen",
+          "description": "The wide oak doorway opens up to an oddly shaped room, the eastern wall curving inward, bearing evenly spaced windows of stained glass. A low glass table lay in the centre of the otherwise rectangular chamber, several stuffed canvas seats surrounding it. The room is strangely quiet.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61067,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go window": {
+              "to_vnum": 61065,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Ritual Chamber",
+              "direction": "go window",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "61067": {
+          "vnum": 61067,
+          "name": "Within the Temple of Esralen",
+          "description": "A short flight of steps end here before a wide door of solid stained oak to the north. Mounted upon the door are a pair of iron dragon's wings, stained glass filling the segments. The steps lead down to the east into the temple entrance.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61064,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61066,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61068": {
+          "vnum": 61068,
+          "name": "Within the Temple of Esralen",
+          "description": "You step along a short curving hallway within the temple. At the corner of the hall an iron staircase winds downward through the stone floor. The hall curves to the north, toward the source of a steady, gutteral chant which rolls through the temple. A sturdy wooden doorway stands west.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61069,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Meditation Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61064,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61044,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Library",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61069": {
+          "vnum": 61069,
+          "name": "Meditation Chamber",
+          "description": "You stand within a broad, low chamber. A muted red seeps through thin black cloaks which cover glowing globes; a quintet of them evenly spaced along the walls. Within a charred diamond-shaped pit in the centre of the chamber burns a heady, pungent sacrament. The ceiling is plain earth, having been left open to allow the roots of the forest above to dangle, dry, and die in the arid room.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61068,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61042,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Burning Pit",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61070": {
+          "vnum": 61070,
+          "name": "Temple Cave",
+          "description": "The marble of the ritual chamber floor ends here beyond the cave-gate, where a scorched, arid tunnel begins and turns eastward. Noxious tendrils of twisting smoke drift by, the stench no doubt seeping into your clothing and hair. Stray rats gather to feast upon charred bits of fleshy bone left laying along the tunnel walls.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61071,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61065,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Ritual Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61071": {
+          "vnum": 61071,
+          "name": "Temple Cave",
+          "description": "The cave narrows slightly here as it straightens, travelling east to west beneath the earth. Streaks of black ash mark the otherwise smooth stone walls of the passage. West a slight reddish glow can be detected, while at the eastern termination of this length the cave appears to merge with two others.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61072,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61070,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61072": {
+          "vnum": 61072,
+          "name": "Twisting Caves",
+          "description": "Several caves meet here, turning in several directions. Most appear too small to pass through, however openings to the north, west, and east would seem large enough for most. Streaks of black mar the surface of the rock.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61073,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Scorched Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61088,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61071,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61073": {
+          "vnum": 61073,
+          "name": "Scorched Caves",
+          "description": "The passage here dead-ends at a set of blackened steps leading further downward. Chunks of rock lay strewn about, charred and steaming. Upon the walls are a series of silhouettes resembling bodies.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61072,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61074,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Scorched Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61035": {
+          "vnum": 61035,
+          "name": "Temple Hall",
+          "description": "Sooty walls of bricked stone form a narrow hall. Ahead, a spacious circular chamber is filled with drifting smoke which glows a dull, angry red. From elsewhere in the temple a monotonous, gutteral chant rolls through the stonework. Long-ago faded paintings line the curved walls here, broken by a rounded wooden door to the west.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61065,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Ritual Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61064,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Within the Temple of Esralen",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61036,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Living Quarters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61036": {
+          "vnum": 61036,
+          "name": "Living Quarters",
+          "description": "A series of linen and wood cots line the walls along the length of the living quarters. A narrow table cuts down the middle of the room, and at the end rests a large stone basin. Stationed between the cots along, upon the walls are small brass oil lamps. Squares of oddly decorated carpet cover portions of the floor.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61035,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Temple Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61037,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Storage Chamber",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": -4,
+        "max_y": 1,
+        "room_count": 14
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 61035,
+      "to": 61065,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61035,
+      "to": 61064,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61035,
+      "to": 61036,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61043,
+      "to": 61044,
+      "direction": "e",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61064,
+      "to": 61068,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61064,
+      "to": 61067,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61065,
+      "to": 61070,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 61066,
+      "to": 61067,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61068,
+      "to": 61069,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61070,
+      "to": 61071,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61071,
+      "to": 61072,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61072,
+      "to": 61073,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61074,
+      "to": 61075,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61075,
+      "to": 61078,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61075,
+      "to": 61077,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

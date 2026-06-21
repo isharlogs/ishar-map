@@ -1,0 +1,120 @@
+{
+  "zone_name": "Chardaleth Sea - South",
+  "entry_vnum": 79157,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 79157,
+      "rooms": {
+        "79157": {
+          "vnum": 79157,
+          "name": "The Open Sea",
+          "description": "You can only assume you're on the open ocean, but with the fog around you as thick as it is, you can't possibly ascertain for sure just how far you are from land. Messy spray from the surface as well as a total lack of sunlight combine to thoroughly chill your raw flesh as you hopelessly struggle atop the waves.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 79158,
+              "to_zone": "Chardaleth Sea - South",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79027,
+            79134,
+            79136
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "79158": {
+          "vnum": 79158,
+          "name": "The Open Sea",
+          "description": "You can only assume you're on the open ocean, but with the fog around you as thick as it is, you can't possibly ascertain for sure just how far you are from land. Messy spray from the surface as well as a total lack of sunlight combine to thoroughly chill your raw flesh as you hopelessly struggle atop the waves.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 79157,
+              "to_zone": "Chardaleth Sea - South",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            79025
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 79157,
+      "to": 79158,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

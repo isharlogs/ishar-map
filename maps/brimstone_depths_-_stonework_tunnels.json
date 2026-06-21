@@ -1,0 +1,397 @@
+{
+  "zone_name": "Brimstone Depths - Stonework Tunnels",
+  "entry_vnum": 47374,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 47376,
+      "rooms": {
+        "47376": {
+          "vnum": 47376,
+          "name": "Brimstone Altar Chamber",
+          "description": "A twisting passage from above deposits itself here within a rounded chamber, filled with a dull red glow. Upon the ceiling is etched an over-sized representation of some form of glyph, and the word 'SIIX'. At the end of the chamber rests a tremendous altar. Brimstone erupts from cracks infesting the chamber and swirls at your feet among piles of loose bones and tattered armor.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47378,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47374,
+      "rooms": {
+        "47374": {
+          "vnum": 47374,
+          "name": "Upon a Ledge",
+          "description": "A narrow ledge protrudes here, affording just enough space for one to land or stand upon. Significantly below wait multiple stone spires within an acrid pit for those unfortunate -- or unwise -- enough to take a step in the wrong direction. A small tunnel leads east.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47375,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47388,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Pit of Spikes",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47388,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Pit of Spikes",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47373,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Winding Ledge",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47388,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Pit of Spikes",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47375": {
+          "vnum": 47375,
+          "name": "Brimstone Tunnels",
+          "description": "Heat emanates from a network of cracks covering every surface of this narrow tunnel. A dull reddish glow reflects upon your skin. Further passage is available to the north. Soft echoes of fluttering creatures can be discerened to the west.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47377,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47374,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Upon a Ledge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47377": {
+          "vnum": 47377,
+          "name": "Brimstone Tunnels",
+          "description": "Pebbles skitter at your footfall, at an intersection of passages far below the surface world. Your eyes, ears, and nose burn uncomfortably as the acrid air works its way into your every pore. To the east the passage narrows. The way north is clear.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47379,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnel Dead End",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47378,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47375,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47378": {
+          "vnum": 47378,
+          "name": "Brimstone Tunnels",
+          "description": "Plumes of brimstone and fire erupt from increasingly wider cracks in the tunnels here. This passage offers exit to the south, while another adjacent passage twists downward. Sound is trapped here, save for a persistent thrum.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47377,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47376,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Altar Chamber",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47379": {
+          "vnum": 47379,
+          "name": "Brimstone Tunnel Dead End",
+          "description": "Further travel is impeded by the crumbling stone, eroded by millenia of exposure to the heat and elements here. A few larger stones have been gathered in a small circle, and the remains of small creatures litter the area. A passage leads west. Someone has scrawled something on the wall here.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47377,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Brimstone Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47374,
+      "to": 47375,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47375,
+      "to": 47377,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47377,
+      "to": 47379,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47377,
+      "to": 47378,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

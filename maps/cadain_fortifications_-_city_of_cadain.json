@@ -1,0 +1,907 @@
+{
+  "zone_name": "Cadain Fortifications - City of Cadain",
+  "entry_vnum": 32019,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -4,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 32019,
+      "rooms": {
+        "32032": {
+          "vnum": 32032,
+          "name": "King`s Pavilion",
+          "description": "Advisers cluster around teetering stone tables covered with tattered scrolls and broken quills, vainly searching for some way to bring the war with the xymara to an end.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32016,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Royal Smithery",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32031,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Outside the Pavilion",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32016": {
+          "vnum": 32016,
+          "name": "Royal Smithery",
+          "description": "The hot fires in the forges along the walls of the room lick at the stifling air. Shadows twist and dance across the stone walls. Large, heavy anvils sit near each iron oven, awaiting white hot steel. The mithril-melting heat is something a master metalsmith adjusts to throughout the course of his apprenticeship, but for you, a common adventurer, it is nearly unbearable. Tools are arranged neatly throughout the large room, though their sheer number makes them appear haphazardly strewn about.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 32032,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "King`s Pavilion",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32019": {
+          "vnum": 32019,
+          "name": "Spacious Cavern",
+          "description": "The river Xymar rushes past to the west and south, cooling the air and sending sprays of moisture to caress your face as it races around the bend. Light from a hidden source far above plays off the water, tracing shimmering lines on the cavern walls.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32020,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32023,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32018,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32024,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32020": {
+          "vnum": 32020,
+          "name": "Spacious Cavern",
+          "description": "The ceiling is lost in shadow overhead, sending an occasional drop of water plummeting to the floor. The air feels damp and clammy; you shiver and cast a yearning glance at the cozy passage to the east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32021,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Meandering Path Through Rock",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32022,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32019,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32021": {
+          "vnum": 32021,
+          "name": "Meandering Path Through Rock",
+          "description": "Lanterns swing from pegs driven into the rock, playing shadows across the faces of the dwarves bustling past. The dwarven tide flows toward Cadain, but here and there a stubborn dwarf can be seeing resolutely trudging westward. here and there a stubborn dwarf can be seeing resolutely trudging westward.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 98000,
+              "to_zone": "City of Cadain",
+              "to_room_name": "West Gate",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32020,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32022": {
+          "vnum": 32022,
+          "name": "Spacious Cavern",
+          "description": "The immensity of the caverns arouses feelings of insignificance and a loss of purpose as you meander about. You managed to glimpse a wall to the north, where a single dwarf watches you without interest from his position behind it, where a single dwarf watches you without interest from his position behind it, his eyes mechanically following your movements.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32030,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32020,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32023,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32023": {
+          "vnum": 32023,
+          "name": "Spacious Cavern",
+          "description": "A breastwork of assorted rocks makes an uneven line to the north, manned by a handful of dejected dwarves who sit slumped over their weapons. Looks like the xymara have been at it again.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32022,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32028,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32019,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32025,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32027": {
+          "vnum": 32027,
+          "name": "River Xymar",
+          "description": "The still forms of fallen xymara float past, accompanied by a scattering of slaughtered dwarves. Broken weapons litter the bank to the east, left to rust in the damp cavern air.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32029,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32026,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32028": {
+          "vnum": 32028,
+          "name": "The Dwarven Perimeter",
+          "description": "Dwarves are collapsed all about you, exhausted from repulsing the last xymara attack. A few drink greedily from waterskins as they recuperate, while others can do little more than lie in a weary daze.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32030,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 32029,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32023,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32026,
+              "to_zone": "River Xymar",
+              "to_room_name": "River Xymar",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32029": {
+          "vnum": 32029,
+          "name": "The Dwarven Perimeter",
+          "description": "The breastworks have been all but demolished here by fierce battles with the xymara. Dwarves are clustered around the few surviving healers, hoping for treatment before the next attack.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 32031,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Outside the Pavilion",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32028,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32027,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "River Xymar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32030": {
+          "vnum": 32030,
+          "name": "The Dwarven Perimeter",
+          "description": "The fortifications have held up well at this part of the perimeter, a likely sign that the xymara have been attacking from the river instead of heading across the caverns to engage the dwarves.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32031,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Outside the Pavilion",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32022,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "Spacious Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32028,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "32031": {
+          "vnum": 32031,
+          "name": "Outside the Pavilion",
+          "description": "A battered pavilion rises to the north, its few pennons hanging motionless in the still cavern air. The dwarven perimeter surrounds you to the west and south, meeting up with the wall to the east.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 32032,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "King`s Pavilion",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 32030,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 32029,
+              "to_zone": "Cadain Fortifications - City of Cadain",
+              "to_room_name": "The Dwarven Perimeter",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 0,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 32016,
+      "to": 32032,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32019,
+      "to": 32020,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32019,
+      "to": 32023,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32020,
+      "to": 32021,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32020,
+      "to": 32022,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32022,
+      "to": 32030,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32022,
+      "to": 32023,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32023,
+      "to": 32028,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32027,
+      "to": 32029,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32028,
+      "to": 32030,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32028,
+      "to": 32029,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32029,
+      "to": 32031,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32030,
+      "to": 32031,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 32031,
+      "to": 32032,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

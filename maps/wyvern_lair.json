@@ -1,0 +1,317 @@
+{
+  "zone_name": "Wyvern Lair",
+  "entry_vnum": 61095,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 61095,
+      "rooms": {
+        "61095": {
+          "vnum": 61095,
+          "name": "Southern End of the Cavern",
+          "description": "You creep along the southern edge of a large cavern. Echoing throughout the area is the thundering rush of falling water. Carcasses and bones lay in haphazard piles along the floor. A small opening passes to the west, into a narrow cave.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61096,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Centre of the Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61091,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Forked Cave",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61096": {
+          "vnum": 61096,
+          "name": "Centre of the Cavern",
+          "description": "You stand within the centre of a large darkened cavern. In the gloom you sense several hulking forms lurking, watching. Gnawed bones and the torn remains of bodies rot upon the floor of the cavern. Bats obsessively fly in and out of a large opening to the east from which the sound of rushing water can be heard.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61099,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Eastern Edge of the Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61098,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Northern End of the Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61095,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Southern End of the Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61097,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Western Edge of the Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61097": {
+          "vnum": 61097,
+          "name": "Western Edge of the Cavern",
+          "description": "A shallow pool of stagnant water collects here in a depression along the western edge of the cavern. Small bands of insects skitter across the surface of the fouled liquid, breeding in the filth. Chunks of broken bone and loose stone lay about.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61096,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Centre of the Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61098": {
+          "vnum": 61098,
+          "name": "Northern End of the Cavern",
+          "description": "A collection of branches, foliage and strips of bloodied cloth are piled here to form a dank, reeking nest in an alcove at the northern side of the cavern. Large claw-marks marr the rough stone floor, upon which a trail of blood leads away from a sordid mess of recent kills. The sound of rushing water echoes softly here.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61096,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Centre of the Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61099": {
+          "vnum": 61099,
+          "name": "Eastern Edge of the Cavern",
+          "description": "The rushing of nearby falls careens through an opening to a cluttered cave here, offering an exit out of the cavern. Boulders lay half-submerged within the rocky floor of the cavern among piles of broken stalagmite fallen from the ceiling above. Small bands of swarming, buzzing insects flow over the decaying carcasses left strewn about.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 61096,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Centre of the Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 24066,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Mouth of a Cavern",
+              "direction": "go out",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 61095,
+      "to": 61096,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61096,
+      "to": 61099,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61096,
+      "to": 61098,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61096,
+      "to": 61097,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

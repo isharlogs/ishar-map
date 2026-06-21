@@ -1,0 +1,1010 @@
+{
+  "zone_name": "Caves of Esralen",
+  "entry_vnum": 61080,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 3,
+    "min_y": -4,
+    "max_y": 2
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 61094,
+      "rooms": {
+        "61094": {
+          "vnum": 61094,
+          "name": "Bottom of a Mist-Filled Well",
+          "description": "Crumbled bits of rock and stone rest upon the floor at the bottom of a circular well within the caves. A thick, billowing mist rolls out of a small opening in the stone to the north. From time to time a shadow can be seen passing through the shroud of vapours. An odd sensation runs the length of your spine here. To the west is a small cave opening.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47079,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Misty Cave",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61038,
+              "to_zone": "Within the Mists",
+              "to_room_name": "Small Misty Cave",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 61093,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Edge of a Mist-Filled Well",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 61080,
+      "rooms": {
+        "61088": {
+          "vnum": 61088,
+          "name": "Twisting Caves",
+          "description": "You've stepped through a passage into a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to be slightly charred. From somewhere a noxious odor drifts through the passages, several of which appear large enough to pass through.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61072,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61087
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61090": {
+          "vnum": 61090,
+          "name": "Narrow Cave",
+          "description": "Damp, slickened walls of solid rock close inward, making for cramped passage through the mineral. Streaks of metal mark the surfaces, and bits of loose stone skitter down from the rough ceiling overhead. Openings to the south and northeast offer exit.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 61091,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Forked Cave",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61086,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61091": {
+          "vnum": 61091,
+          "name": "Forked Cave",
+          "description": "Three stalagmite-ridden passages meet here in an open chamber. The narrowest ventures southwest, while the largest ambles off to the east into a large cavern. A thin mist rolls along the gravel floor of this chamber from a low tunnel to the west.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61095,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Southern End of the Cavern",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 61090,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Narrow Cave",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61092,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Narrow Cave",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61092": {
+          "vnum": 61092,
+          "name": "Narrow Cave",
+          "description": "You step between rows of abrasive stalagmites hanging from the ceiling of this narrow cave. Small openings lead in a multitude of directions, yet those large enough for passage lay to the east and to the north, from which an oddly shimmering mist appears to originate.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61091,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Forked Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61093,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Edge of a Mist-Filled Well",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61093": {
+          "vnum": 61093,
+          "name": "Edge of a Mist-Filled Well",
+          "description": "Further passage through the caves here is rendered impossible by the preponderance of loosely piled rocks and solidly hanging stalagmite. Tiny creatures skitter along the passages, heard but not seen. At your feet here is a rough, round opening from which pours a thick white mist.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61092,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Narrow Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 61094,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Bottom of a Mist-Filled Well",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61080": {
+          "vnum": 61080,
+          "name": "Twisting Caves",
+          "description": "You've stepped through a passage into a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to be slightly charred. From somewhere a noxious odor drifts through the passages, several of which appear large enough to pass through.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61084,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61083,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61081,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61072,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61081": {
+          "vnum": 61081,
+          "name": "Twisting Caves",
+          "description": "You wander through a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to be slightly charred. From somewhere a noxious odor drifts through the passages, a few of which appear large enough to pass through.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61082,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61087,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61082": {
+          "vnum": 61082,
+          "name": "Twisting Caves",
+          "description": "You wander through a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to contain streaks of precious metals. From somewhere a noxious odor drifts through the passages, a few of which appear large enough to pass through.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61081,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61085
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61083": {
+          "vnum": 61083,
+          "name": "Twisting Caves",
+          "description": "You travel through a variety of twisting tunnels, most of which seem quite similar. Collected in the corners are bits of rock, some bearing streaks of metal. A noxious odor wafts through the passages. Although small, some look large enough to pass through.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61085,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61084
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61084": {
+          "vnum": 61084,
+          "name": "Twisting Caves",
+          "description": "You amble along a series of twisting tunnels, all of which appear quite similar. Small bits of rock and stone collect in corners, most of which appear worthless although a few contain streaks of metal. From somewhere a noxious odor drifts through the passages, some of which look large enough to pass through.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61085,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61085": {
+          "vnum": 61085,
+          "name": "Twisting Caves",
+          "description": "You wander through a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to be slightly charred. From somewhere a noxious odor drifts through the passages, most of which appear large enough to allow travel.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61086,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61084,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61083,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61086": {
+          "vnum": 61086,
+          "name": "Twisting Caves",
+          "description": "You've stepped through a passage into a series of twisting tunnels, all of which appear quite similar. Bits of rock and stone collect in corners, some of which look to contain bits of metal or glass. From somewhere a noxious odor drifts through the passages, most of which would seem to be passable. The sound of running water echoes through a cave to the east.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24064,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Painted Cave",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61090,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Narrow Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 61085,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61087": {
+          "vnum": 61087,
+          "name": "Twisting Caves",
+          "description": "You amble along a series of twisting tunnels, all of which appear quite similar. Small bits of rock and stone collect in corners, most of which appear worthless although a few contain streaks of metal. From somewhere a noxious odor drifts through the passages, some of which look large enough to pass through.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 61081,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61080,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            61088
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 3,
+        "min_y": -4,
+        "max_y": 2,
+        "room_count": 13
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 61080,
+      "to": 61084,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61080,
+      "to": 61083,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61080,
+      "to": 61081,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61081,
+      "to": 61082,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61081,
+      "to": 61087,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61082,
+      "to": 61080,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61083,
+      "to": 61085,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61084,
+      "to": 61085,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61085,
+      "to": 61086,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61086,
+      "to": 61090,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61087,
+      "to": 61080,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61088,
+      "to": 61080,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 61090,
+      "to": 61091,
+      "direction": "ne",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61091,
+      "to": 61092,
+      "direction": "w",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 61092,
+      "to": 61093,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

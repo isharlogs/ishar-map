@@ -1,0 +1,884 @@
+{
+  "zone_name": "Darkling Underworld",
+  "entry_vnum": 38000,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 3,
+    "min_y": -3,
+    "max_y": 0
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 38081,
+      "rooms": {
+        "38081": {
+          "vnum": 38081,
+          "name": "Bottom of the Steps",
+          "description": "You straighten up and take a look around. Upward are the stairs that didn't bode well with you. To the east, there is a narrow tunnel with a faint light shining from within.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38082,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 38080,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Slippery Stairwell",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38082": {
+          "vnum": 38082,
+          "name": "Narrow Tunnel",
+          "description": "Through the green algae that coats the walls, you make out the detailed scroll- work depicting various images. You see a faint light shining in from the east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38083,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38081,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Bottom of the Steps",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38083": {
+          "vnum": 38083,
+          "name": "Narrow Tunnel",
+          "description": "The tunnel stretches onward in two directions, to the east and to the west. Through the algae growing upon the tunnel floor you've managed to keep your footing. A strange light to the east casts a pale, eerie glow upon the bat- ridden underground passage.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38084,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Entrance to the Lair",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38082,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38084": {
+          "vnum": 38084,
+          "name": "Entrance to the Lair",
+          "description": "You've entered a brightly lit, small clearing. Emerging from one wall is a large statue of an angry dragon breathing fire. Imprinted on the other wall is intricate scroll-work of a sleeping dragon. The domain of Dartris lies to the east, which may be DEADLY if you do not tread carefully.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38085,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Lair of Dartris",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 38083,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38085": {
+          "vnum": 38085,
+          "name": "Lair of Dartris",
+          "description": "This room is completely bare with the exception of a small cot lying on the floor, in the corner. There is a stone slab snug tightly to the floor.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 38084,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Entrance to the Lair",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            38086
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 3,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 5
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 38080,
+      "rooms": {
+        "38080": {
+          "vnum": 38080,
+          "name": "Slippery Stairwell",
+          "description": "An overabundance of slimy algae accumulates in this dank, dark stairwell. The walls do not provide any traction with which to maintain your balance.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 38081,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Bottom of the Steps",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 38004,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Threshold",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 38000,
+      "rooms": {
+        "38000": {
+          "vnum": 38000,
+          "name": "Dark River",
+          "description": "The cavern is considerably more narrow here, and your hands occasionally make contact with the rough, damp walls that stand on either side. With moderate effort, you could fight the inky black current flowing swiftly westward beneath you and wander into further and more complete darkness.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38001,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39028,
+              "to_zone": "Hedros City",
+              "to_room_name": "East of the City",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38001": {
+          "vnum": 38001,
+          "name": "Dark River",
+          "description": "You are enveloped in darkness. The walls of the cavern are now brushing against your shoulders, enabling you to propel yourself by pushing against their moist surfaces. The air here is laden with moisture, and carries with it the pungent odor of brimstone.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38002,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark Shore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38000,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38002": {
+          "vnum": 38002,
+          "name": "Dark Shore",
+          "description": "You experience a sharp jolt as you are thrust upon a sandy shore. The river bends to the south, where it disappears beneath a low rocky overhang. A faint cry sounds in the distance to the northeast, where a narrow passageway opens. As you move cautiously toward it, a brittle crunch sounds briefly beneath your feet.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 38003,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Passageway",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38001,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38003": {
+          "vnum": 38003,
+          "name": "Narrow Passageway",
+          "description": "Standing in a narrow cavern, you notice that the rock walls on either side begin to resonate slightly. Through the darkness to the north you see a dim red glow, accompanied by piercing cries which echo shrilly throughout the cavern.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 38004,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Threshold",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 38002,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark Shore",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38004": {
+          "vnum": 38004,
+          "name": "Threshold",
+          "description": "You stand on a wide stone threshold at the end of a narrow passageway. To the north you observe a small glowing orb above which several shadows poise. In the murky light, you notice streaks of blood on the stone floor.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 38005,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Small Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 38003,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Narrow Passageway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go stairwell": {
+              "to_vnum": 38080,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Slippery Stairwell",
+              "direction": "go stairwell",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "38005": {
+          "vnum": 38005,
+          "name": "Small Room",
+          "description": "You stand in a small round room carved out of the surrounding rock, and notice that the ceiling here is quite a bit lower than that in the cavern you passed through. The floor is littered with fragments of brittle bone, stained brown with dried blood. Several large stones have been placed around a glowing orb in the center of the room. The remains of an animal carcass lay strewn about on the floor, and appear to have been partially eaten.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 38004,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Threshold",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 38006,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark Chamber",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38010": {
+          "vnum": 38010,
+          "name": "Rotten Hollow",
+          "description": "You find yourself immersed in putrid, stagnant water. Slime clings to your body like a second skin. As you swim through the unbearably rotten water, you manage to ascertain that this hollow is completely contained, and the only apparent way out is through a pipe in the southern wall.",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go pipe": {
+              "to_vnum": 39023,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath the Burning Bridge",
+              "direction": "go pipe",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 0,
+        "room_count": 7
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 38006,
+      "rooms": {
+        "38006": {
+          "vnum": 38006,
+          "name": "Dark Chamber",
+          "description": "This small chamber is dark for the most part, save for the few stray rays of reddish light that reach up from the room below. The floor is cold to the touch, and the walls flanking it on three sides tower upward into the darkness. To the east stands an enormous stone door that bears various sinister carvings.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38007,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Long Stone Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 38005,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Small Room",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38007": {
+          "vnum": 38007,
+          "name": "Long Stone Chamber",
+          "description": "You stand at the end of a long stone table, upon which lay several tattered parchments. An unpleasant scent assaults your nostrils, and you notice the source, a platter of half eaten raw meat. The walls are decorated with carvings similar to those on the door to the west, and you notice a set of runes on the far wall. The room is bathed in a red glow produced by a swirling orb that is set in the center of the table. Dark, twisting roots emerge from cracked stone, pulsing with unsettling energy.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 38006,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            38008
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VOIDROOT",
+              "rank": 72,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 38000,
+      "to": 38001,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38001,
+      "to": 38002,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38002,
+      "to": 38003,
+      "direction": "ne",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38003,
+      "to": 38004,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38004,
+      "to": 38005,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38006,
+      "to": 38007,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 38081,
+      "to": 38082,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38082,
+      "to": 38083,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38083,
+      "to": 38084,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38084,
+      "to": 38085,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

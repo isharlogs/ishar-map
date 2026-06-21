@@ -1,0 +1,5812 @@
+{
+  "zone_name": "Erinesian Homelands",
+  "entry_vnum": 91026,
+  "floor_count": 4,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 4,
+    "min_y": -6,
+    "max_y": 18
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 91082,
+      "rooms": {
+        "91082": {
+          "vnum": 91082,
+          "name": "In a Tugging Current",
+          "description": "Danger! The current is tugging at you, pushing you over the falls. You'll have to be a good swimmer to get out of this one!",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91083,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Atop a Waterfall",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            91081
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91083": {
+          "vnum": 91083,
+          "name": "In the Erinesian River",
+          "description": "The chilling river flows westward under a stone bridge, preventing you from surfacing for air. The river bed is made up of small granite boulders, and there is little sand or sediment to be seen. The occasional fish flits through the current.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91084,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91082,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Tugging Current",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91084": {
+          "vnum": 91084,
+          "name": "In the Erinesian River",
+          "description": "The boulders at the bottom of the river are worn smooth from countless centuries of immersion in flowing water. The chilling water ceases its southern course and heads westward.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91085,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91083,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91017,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Turn in the River",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91085": {
+          "vnum": 91085,
+          "name": "In the Erinesian River",
+          "description": "Clear, sparkling water flows in from the east and heads southward, carrying you with it. Small fish inhabit the many holes between the rocks at the rivers bottom.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91086,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Stagnant Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91084,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91016,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "River Through the Forest",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91086": {
+          "vnum": 91086,
+          "name": "In a Stagnant Pool",
+          "description": "A ring of large granite boulders surround a large flat area in the bottom of this pool, the sleeping place of a great beast. The pool is otherwise devoid of life, even algae is oddly absent Water flows into the pool through an inlet to the north, and exits to the west.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91087,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91085,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91023,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Stagnant Pool",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Krakva the river daemon",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91087": {
+          "vnum": 91087,
+          "name": "In the Erinesian River",
+          "description": "The river undercuts the west bank slightly here, creating an alcove as the water ceases its western course and turns to the south. Small shapes flit to and fro, their silvery scales glittering brightly in the sparkles of light that break through from the surface.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91088,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91086,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Stagnant Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91022,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Along the River",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91088": {
+          "vnum": 91088,
+          "name": "In the Erinesian River",
+          "description": "The chilling waters of the river turn halt their southern flow and bend ninety degrees to the west. Tiny fish flitter about between larger cousins, but the river is otherwise lifeless.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91089,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Swiftly Flowing Current",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91087,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91029,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Bend in the River",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91089": {
+          "vnum": 91089,
+          "name": "In a Swiftly Flowing Current",
+          "description": "Flecks of white foam whisk past, created by a churning eddy upstream of you. An accompanying roar indicates that the base of a waterfall is located there. The tugging current pulls you southward.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91090,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Churning Water",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91088,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91028,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "On a Swiftly Flowing River",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91090": {
+          "vnum": 91090,
+          "name": "Churning Water",
+          "description": "Roaring white water churns all about you, threatening to pin you to the bottom of the river. Mustering your strength, you swim your way to the less turbulent waters beneath the bank and contemplate your direction of travel. You could float southward on the swift current, of swim up to the surface.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91089,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Swiftly Flowing Current",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91027,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Base of a Waterfall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91091": {
+          "vnum": 91091,
+          "name": "Granite Stairway",
+          "description": "Carved stone blocks of granite make up the floor, walls, and ceiling of the tunnel in which you stand. The tunnel heads southeast toward a large iron portcullis, and a twisting staircase winds up to the forest above.",
+          "grid_x": -2,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 91092,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Before an Iron Portcullis",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91034,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91092": {
+          "vnum": 91092,
+          "name": "Before an Iron Portcullis",
+          "description": "The granite tunnel bends forty-five degrees here, continuing to the east and the northwest. A heavy iron portcullis has been set into the tunnel just northwest of where you stand, with bars strong enough to ward off all but the strongest of invaders.",
+          "grid_x": -1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91097,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Crystal Clear Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 91091,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Granite Stairway",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91093": {
+          "vnum": 91093,
+          "name": "Soulhound Kennel",
+          "description": "A number of large cages line the walls of this chamber, and the floor is covered with straw. The bowls and water dishes scattered throughout the cages indicate this rooms obvious purpose as a kennel. You feel slightly uneasy, as if several pairs of eyes were boring into you.",
+          "grid_x": -1,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91095,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Underground Passage",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91094": {
+          "vnum": 91094,
+          "name": "Royal Crypt",
+          "description": "Decorated coffins line the walls of of this dusty, warm crypt. In the center of the room, upon a marble pedestal, stands an elaborately carved coffin, the final resting place of some powerful ruler of old. The chamber can be exited to the north.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91097,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Crystal Clear Pool",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91095": {
+          "vnum": 91095,
+          "name": "Underground Passage",
+          "description": "The dry, still air of this tunnel weighs oppressively on your lungs. An elaborate sigil has been drawn on the northern wall of the tunnel, and runes spread out in all directions from it. The tunnel continues to the west and south.",
+          "grid_x": 0,
+          "grid_y": 15,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91096,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Armory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91093,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Soulhound Kennel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91096": {
+          "vnum": 91096,
+          "name": "Armory",
+          "description": "Steam billows from a massive forge against the western wall, its heat warming the room. Weapons and armor of pure elven steel are fastened to the walls, their green tinge evident even in the red glow of the hearth. Tunnels lead into uncertain darkness to the north, east, and south.",
+          "grid_x": 0,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91098,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Elite Guard Post",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91095,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Underground Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91097,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Crystal Clear Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91097": {
+          "vnum": 91097,
+          "name": "A Crystal Clear Pool",
+          "description": "Pure, sparkling water laps against the sides of a shallow pool in this large, warm chamber. The floor and walls are spotless, kept clean by the denizen of the pool. Passages lead away from the chamber to the north, south, and west.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91096,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Armory",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91094,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Royal Crypt",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91092,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Before an Iron Portcullis",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91098": {
+          "vnum": 91098,
+          "name": "Elite Guard Post",
+          "description": "A large table stands against the northern wall of the tunnel, piled high with papers, mugs, dirty plates, and other items of little use. A number of broken blades lie in a pile at the foot of the table, apparently being gathered for repair. Conspicuously absent are items of entertainment; the guards must lead very grim lives.",
+          "grid_x": 1,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91099,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Base of a Granite Staircase",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91096,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Armory",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91099": {
+          "vnum": 91099,
+          "name": "Base of a Granite Staircase",
+          "description": "The base of a granite stairway meets with the smooth earthen floor in this small chamber. The clank of metal upon metal echoes through the tunnel, mingled with sounds of laughter and conversation from the west.",
+          "grid_x": 2,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 91098,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Elite Guard Post",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91055,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 3,
+        "min_y": -4,
+        "max_y": 18,
+        "room_count": 18
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 91026,
+      "rooms": {
+        "91013": {
+          "vnum": 91013,
+          "name": "Forest of Erinesia",
+          "description": "The grand forest grows at the base of a towering cliff of rock and ice to the north, met by the wooden wall on the west. A small pile of fir needles provide a bed for a resting bear and her cub, relaxing in the comfort of the forest.",
+          "grid_x": -2,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91020,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Dense Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91014,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91014": {
+          "vnum": 91014,
+          "name": "Forest of Erinesia",
+          "description": "Lush undergrowth carpets the forest floor, mingled with fallen fir needles and the occasional towering fir. Dwarved by the trees, yet large nonetheless, a wooden wall blocks passage to the west, and continues through the forest to the north and south. A small clearing beneath a guardhouse can be seen between the trees some distance to the east.",
+          "grid_x": -2,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91021,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Beneath an Elven Guard House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91013,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91015,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91015": {
+          "vnum": 91015,
+          "name": "Forest of Erinesia",
+          "description": "A formidable wall of wood stands to your west, protecting the contents of the beautiful forest in which you stand. The wall continues through the forest as far as you can see to the north and south, and the pleasant sound of running water can be heard from the east and south.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91022,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Along the River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91014,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91016,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "River Through the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91016": {
+          "vnum": 91016,
+          "name": "River Through the Forest",
+          "description": "Edies along the banks of the river gurgle softly, echoing pleasantly against the towering firs. The cool, dark water flows rapidly in from the east and turns southward.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91023,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Stagnant Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91015,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91017,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Turn in the River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91085,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91017": {
+          "vnum": 91017,
+          "name": "A Turn in the River",
+          "description": "The dark water of the river laps against the shore in its passing, creating a soothing ambiance. As the river turns from westward from its southern course, it cuts deeply into the eastern bank, preventing disembarkment. Further downstream, the river flows beneath a wooden wall. You'll have to hold",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91016,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "River Through the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91018,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91084,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91018": {
+          "vnum": 91018,
+          "name": "Forest of Erinesia",
+          "description": "Fir needles litter the ground, padding your footsteps as you walk. The fresh air of the deep forest refreshingly fills your lungs, purifying your very soul. The trees of the forest stretch endlessly in all directions, and only a wooden wall to your west impedes travel.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91025,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91017,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Turn in the River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91019,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91019": {
+          "vnum": 91019,
+          "name": "Within the Forest",
+          "description": "This corner of the forest, protected to the south and the west by the wooden wall Erinesia, is a haven for the flora and fauna indigenous to the region. Birds whistle trill songs high above in the trees, small rodents shuffle along the ground, and beautiful flowers carpet the area with their beauty. To the north, more of the forest can be seen, and to the east, an elven outpost high in the trees does little to upset the scene of natural wonder.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91026,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Outpost Within the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91018,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91020": {
+          "vnum": 91020,
+          "name": "Dense Forest",
+          "description": "The trees and bushes have grown very close together here, preventing you from standing up straight, or even from relaxing properly. The soft roar of a waterfall echoes between the trees from the east. A branch pokes into your eye, and you decide that it really isn't very pleasant here.",
+          "grid_x": -1,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91027,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Base of a Waterfall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91013,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91021": {
+          "vnum": 91021,
+          "name": "Beneath an Elven Guard House",
+          "description": "A guardhouse high in the trees bristles with arrow slits, casting more than a little doubt upon your chances of surviving long here. Bushes prevent escape in any direction except west, so perhaps you had better make your way through the trees quickly in that direction.",
+          "grid_x": -1,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 91014,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91062,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Northwest Guard House",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91022": {
+          "vnum": 91022,
+          "name": "Along the River",
+          "description": "The smooth flow of the river rocks your boat gently, soothing your aching muscles as it turns southward. Upstream, the river appears to come from the north, and just downstream the water slows and enters a pool. The bank is low enough on the west to allow you to disembark.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91029,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Bend in the River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91023,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Stagnant Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91015,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91087,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91023": {
+          "vnum": 91023,
+          "name": "Stagnant Pool",
+          "description": "A narrowing in the river to the west has caused a slow-moving pool to form here. The water is topped with a layer of grime, accumulated from the constant fall of needles from the firs towering far overhead along the banks of the river.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91022,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Along the River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91016,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "River Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91086,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Stagnant Pool",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91086,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Stagnant Pool",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Muck beast",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91024": {
+          "vnum": 91024,
+          "name": "At the Foot of a Guard House",
+          "description": "Perched high in the branches above is a elven guardhouse, replete with arrow slits. A few feathered arrow shafts are can be seen poking from the mud of the forest floor. Dense bushes at the base of the firs lie to the north, south, and west, leaving east as the only obvious direction of travel.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91031,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91065,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southwest Guard House",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91025": {
+          "vnum": 91025,
+          "name": "Battlescarred Woods",
+          "description": "Singed bark and hacked tree trunks stand among blood-stained armor and weapons, remnants of battles recent and battles past. Tangles of thorned brambles to the north and south hem the scene of devestation. The destruction peaks in a meadow to the east, and a scene of serenity beckons from the west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91032,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Blood Meadow",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91018,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91026": {
+          "vnum": 91026,
+          "name": "An Outpost Within the Forest",
+          "description": "An outpost high in the trees serves to guard the entrance to the forest by showering unwanted trespassers with volleys of well-aimed arrows. In fact, you are in quite a vulnerable position. Tightly-knit thorned bushes prevent you from fleeing northward, but you could scurry into the forest to the east or west, or exit the Erinesian forest to the south. You climb up.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91033,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92003,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91019,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91066,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Elven Outpost",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91027": {
+          "vnum": 91027,
+          "name": "Base of a Waterfall",
+          "description": "A loud roar assaults your ears as torrents of water cascade from hundreds of feet above and crash into the river. The water surges southward, making its way through the forest. The towering cliff of rock from which the water falls continues to the west, and is met by a large wooden wall to the east. A pale metallic shimmer catches the light.",
+          "grid_x": 0,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91028,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "On a Swiftly Flowing River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91020,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Dense Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91090,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Churning Water",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91028": {
+          "vnum": 91028,
+          "name": "On a Swiftly Flowing River",
+          "description": "Fueled by the waterfall just upstream, the current here is swift and powerful, sweeping you to the south. The banks are steep, and rise high above the height of the river. A wooden wall is perched atop the eastern bank, and continues to the north and south.",
+          "grid_x": 0,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91027,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Base of a Waterfall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91029,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Bend in the River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91089,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In a Swiftly Flowing Current",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91029": {
+          "vnum": 91029,
+          "name": "Bend in the River",
+          "description": "The river ceases its southern course alongside a tall wooden wall on its east, and bends to the west here. The branches of the tall firs along the banks spread out over the river, blocking much of the light. The water of the river chills you as it splashes you along.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91028,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "On a Swiftly Flowing River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91030,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91022,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Along the River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91088,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "In the Erinesian River",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91030": {
+          "vnum": 91030,
+          "name": "Forest of Erinesia",
+          "description": "Wildlife scurries underfoot, birds swing low overhead. Fallen fir needles crunch pleasantly under your footfalls, their echoes muffled by the closeness of the trees. The corner of a wooden wall, topped with ramparts, can be seen through the forest to the northeast.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91037,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91029,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Bend in the River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91031": {
+          "vnum": 91031,
+          "name": "Battlescarred Woods",
+          "description": "The towering firs here grow strong despite that innumerable battles that have been fought at their feet. Scattered remnants of recent skirmishes carpet the forest floor, alongside the untouched bones of the dead. The thick forest prevents travel in any direction but south or west.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91032,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Blood Meadow",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91024,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At the Foot of a Guard House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91032": {
+          "vnum": 91032,
+          "name": "Blood Meadow",
+          "description": "Battle upon battle has been fought upon the marshy ground of the meadow. The very grass is soaked with blood, a testament to the great loss of life that has occurred here. Escape from the bleak scene can be sought in the forest surrounding the red meadow of death.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91039,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91031,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91033,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91025,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91033": {
+          "vnum": 91033,
+          "name": "Within the Forest",
+          "description": "This part of the forest lacks some of the serenity and natural appeal of other areas within Erinesia. The ground level is devoid of life, as if the passing of many feet has trampled out any chances for survival for budding plants. The woods to the east are equally devastated. A meadow seen between the trees to the north looks to have been destroyed by countless battles fought upon its marshy ground. The forest to the west is far more attractive, but an outpost high above could make seeking refuge below an impossibility.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91040,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91032,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Blood Meadow",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91026,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Outpost Within the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91034": {
+          "vnum": 91034,
+          "name": "Ancient Forest of Erinesia",
+          "description": "Ancient, towering firs stretch upward out of sight. These woods are beautiful beyond comprehension, completely untouched by the hand of man, with the exception of a wooden wall to the west, which nonetheless seems to fit perfectly with the nature of the ancient forest.",
+          "grid_x": -2,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91041,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91035,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91091,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Granite Stairway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91035": {
+          "vnum": 91035,
+          "name": "Ancient Forest of Erinesia",
+          "description": "The deep foliage of the forest makes travel difficult here; it is obvious that few have taken this path. Perhaps the true dwellers of this forest stick to the branches above. A wooden wall protects this part of the forest to the west, but you can make your way north, east, or south.",
+          "grid_x": -2,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91042,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Below an Archer`s Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91034,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91036,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deepest Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91036": {
+          "vnum": 91036,
+          "name": "Deepest Forest",
+          "description": "The deep bushes are dense here, making travel very strenuous. Massive firs tower above you in all directions, and hundreds of feet above, an intricate network of wooden catwalks runs between them. Occasionally, you detect the movement of an elf walking stealthily along one of these precarious bridges.",
+          "grid_x": -2,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91043,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deepest Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91035,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91037": {
+          "vnum": 91037,
+          "name": "Forest of Erinesia",
+          "description": "A wooden wall, topped with spiked ramparts, runs through the forest north of here. You can follow the wall to the east or west, or plunge into the forest to the south.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91044,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91038,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deep in the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91030,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91038": {
+          "vnum": 91038,
+          "name": "Deep in the Forest",
+          "description": "The firs are close together here, blocking out all of the suns precious rays. A carpet of needles covers the floor, marked only by a number of small trails winding through them created by the small wildlife of the forest. A woodpecker's tapping resounds from high in a nearby tree, and the scuffling of nearby rodents can be heard from all around.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91037,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91039,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91039": {
+          "vnum": 91039,
+          "name": "Battlescarred Woods",
+          "description": "Burnt and hacked trees abound in this scene of destruction and travesty. Scorched earth and shredded plants glaringly depict the intensity of the fighting that has occurred here. The only remains of the combatants to be seen are partially melted suits of armor and bloody, broken blades.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91038,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deep in the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91040,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91032,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Blood Meadow",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91040": {
+          "vnum": 91040,
+          "name": "Within the Forest",
+          "description": "Deep footprints pocket the mud beneath the tall firs here, as if entire armies have swept through the forest on the way to battle. The footprints spread out in all directions but south, where a tall wooden wall impedes travel. To the north, the trees of the forest bear the scars of many a skirmish, and high in the trees to the east an outpost serves to prevent access to Erinesia.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91047,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At an Outpost in the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91039,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Battlescarred Woods",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91033,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91041": {
+          "vnum": 91041,
+          "name": "Ancient Forest of Erinesia",
+          "description": "Blissful solitude cloaks you beneath the sprawling branches of the ancient forest. Awestruck by the unmarred beauty evident at the very heart of the Erinesian forest, you now fully understand why the elves fight so valiantly in its defense.",
+          "grid_x": -1,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91048,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91042,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Below an Archer`s Tower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91034,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91042": {
+          "vnum": 91042,
+          "name": "Below an Archer`s Tower",
+          "description": "The forest floor is devoid of undergrowth here, trampled by the passing of many feet. An archer's tower looms overhead, posing a great threat to you in your vulnerable position. A vine hangs from a hole in it's base, providing a means of entry, and a catwalk of wood and rope runs southward from the tower into a fairly large dwelling in the branches. Dense bushes make travel through the forest by foot difficult, but not impossible.",
+          "grid_x": -1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91049,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91041,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91043,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deepest Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91035,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91075,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Archer`s Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91043": {
+          "vnum": 91043,
+          "name": "Deepest Forest",
+          "description": "Fresh foliage grows abundantly here at the base of the beautiful, ancient firs. A large wooden wall to the south protects the sanctity of the forest, warding it from the constant attacks of the aggressive Talinesians. Endless forest spreads in all directions.",
+          "grid_x": -1,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91050,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Sacred Copse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91042,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Below an Archer`s Tower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91036,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deepest Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91044": {
+          "vnum": 91044,
+          "name": "Forest of Erinesia",
+          "description": "Following the wooden wall to the north, you tread onwards through the forest. The branches overhead form an impenetrable canopy, blocking out all sunlight.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91037,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91051,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91045": {
+          "vnum": 91045,
+          "name": "Beneath an Erinesian Guard House",
+          "description": "The ground is riddled with arrows from the guard house above. Judging by east lies out of range, as does the encampment to the south.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91052,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Glade in the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91046,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Encampment in the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91078,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southeast Guard House",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91046": {
+          "vnum": 91046,
+          "name": "An Encampment in the Forest",
+          "description": "A few tattered tents have been hastily pitched beneath the towering firs here. A small fire crackles within a ring of stones, defiantly licking the cold air of the forest.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91053,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deep in the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91045,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Beneath an Erinesian Guard House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91047": {
+          "vnum": 91047,
+          "name": "At an Outpost in the Forest",
+          "description": "Many a traveler appears to have stomped through the forest here on their way in and out of Erinesia. The muddy ground is littered with arrowheads and broken arrow shafts, most likely a result of an elven outpost high above in the trees. Boulders to the north prevent travel, but you could walk westward or eastward and skirt them. A break in the wooden wall of Erinesia to the south allows passage to the trail beyond.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91054,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 92006,
+              "to_zone": "Elven Homelands",
+              "to_room_name": "Shadowed Trail",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91040,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91079,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Elven Outpost",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91048": {
+          "vnum": 91048,
+          "name": "Ancient Forest of Erinesia",
+          "description": "The spiked wooden wall surrounding the heart of the forest forms a corner here. The trees on the inside are remarkably larger and more lush than those beyond, as if the trees themselves gained comfort from the sanctity of the wall. A tower is visible high in the branches to the southwest.",
+          "grid_x": 0,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91049,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91041,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91049": {
+          "vnum": 91049,
+          "name": "Ancient Forest of Erinesia",
+          "description": "The dense foliage does not relent, except for to the south, where a small copse of trees stands alone. The wooden wall runs through the forest to the east, and beyond it lie the trees of the common forest, scrawny alongside the massive firs under which you stand.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91048,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91050,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Sacred Copse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91042,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Below an Archer`s Tower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91050": {
+          "vnum": 91050,
+          "name": "A Sacred Copse",
+          "description": "Obviously separated from the rest of the forest, these trees grow on consecrated land. A modest chapel has been constructed in the center of the copse, and smoke puffs pleasantly from the tiny chimney. The beautiful notes of a sacred hymn float from within.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91049,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Ancient Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91043,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deepest Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 91071,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Chapel of Isvaelin",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "91051": {
+          "vnum": 91051,
+          "name": "Forest of Erinesia",
+          "description": "A wooden wall to your north repels invasion of the lush forest beyond. The thick gloom of the forest continues to the east and west, but relents to the south, where a pleasant glade offers respite.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91058,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91052,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Glade in the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91044,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91052": {
+          "vnum": 91052,
+          "name": "A Glade in the Forest",
+          "description": "This beautiful glade is carpeted in lush wild-flowers. Pollen fills the air, its pleasant scent flowing into your nostrils. You feel yourself relax as the pain of recent wounds fades away, your worries flow from your body like water, your consciousness melds with the flow of time. A delicate golden flower opens toward the sky, its petals catching the light.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91059,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91051,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91045,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Beneath an Erinesian Guard House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "DAWN'S BREATH",
+              "rank": 36,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "91053": {
+          "vnum": 91053,
+          "name": "Deep in the Forest",
+          "description": "Chills shake your body as you grimly slog through the marshy ground, icy- cold from the previous night`s melted frost. A few tents can be seen through the forest to the west, perhaps a respite from the thorny bushes that grasp tormentingly and unendingly at your flesh.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91060,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91054,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91046,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Encampment in the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91054": {
+          "vnum": 91054,
+          "name": "Within the Forest",
+          "description": "Vines of ivy, growing unchecked along the ground, crawl up the wooden wall to spreads continuously to the north and east, but not to the west, where the passing of countless feet has long since destroyed any chance for growth.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91061,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91053,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deep in the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91047,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At an Outpost in the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91055": {
+          "vnum": 91055,
+          "name": "Forest Between the Walls",
+          "description": "Ooo! Nothing like the serenity of a peaceful, unmarred corner of a beautiful forest. An ancient, moss covered archway between the trees marks the top of a stairway, descending into the earth. A steep cliff of rock and ice lies to the north, and joins a stone wall to the east and a wooden wall to the west.",
+          "grid_x": 4,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91056,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91099,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Base of a Granite Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91056": {
+          "vnum": 91056,
+          "name": "Forest Between the Walls",
+          "description": "Beyond the wooden wall to the west, a flurry of activity can be seen high in the trees, almost as if a bustling cummunity was perched amongst the branches of the firs. The stone wall to the east is far too high to even imagine what lies beyond.",
+          "grid_x": 4,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91055,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91057,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91057": {
+          "vnum": 91057,
+          "name": "Forest Between the Walls",
+          "description": "The tranquility is almost tangible among the firs in this part of the forest. The chirping of birds and other small animals echoes between the great stone wall to the east and a wooden wall to the west. The forest continues to the north and opens up to the south.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91056,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91058,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91058": {
+          "vnum": 91058,
+          "name": "Forest Along the Great Wall",
+          "description": "Trickles of sunlight pierce the canopy of fir branches far above your head. Wildlife scurries to and fro, aware of your presence, yet oddly unafraid. A massive stone wall blocks passage to the east, but you could make your way south, or into the denser forest to the north or west.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91057,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Between the Walls",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91059,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91051,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91059": {
+          "vnum": 91059,
+          "name": "Forest Along the Great Wall",
+          "description": "Green moss carpets the base of a massive stone wall towering above the firs, well into the sky to the east. Birds sing their songs as they swoop from tree to tree, going about their business. You could follow the base of the wall to the north or south, or make you way into a pleasant glade to the west.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91058,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91060,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91052,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Glade in the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91060": {
+          "vnum": 91060,
+          "name": "Forest Along the Great Wall",
+          "description": "The vast stone wall to the east couples with a blanketing canopy of fir trees to create a bleak gloom. Nonetheless, the pleasant chirping of birds and the rustle of small wildlife among the brush reassure you of the serenity of the forest. The ground becomes muddy to the west, and the wall continues to the north and south.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91059,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91061,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91053,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Deep in the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91061": {
+          "vnum": 91061,
+          "name": "Within the Forest",
+          "description": "As you tread through the pleasant forest, casually admiring its beauty, you are awestruck by a wall of monumental size towering over the forest to the east. So vast is the wall of stone that even the tallest of the fir trees are dwarfed by its immensity. A much smaller wooden wall to the south, perhaps thirty feet high, meets with the stone wall to form a corner in the forest. A tall stand of valerian sways gently, its pink flowers releasing a pungent odor.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91060,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Forest Along the Great Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91054,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Within the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VALERIAN",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91071": {
+          "vnum": 91071,
+          "name": "Chapel of Isvaelin",
+          "description": "Warmth and comfort abound in this humble chapel to the Elven god Isvaelin. A number of pews allow elves a place to sit, kneel, and show their reverence to their great diety. An opening in the northern wall ushers in the beauty of the sacred copse beyond.",
+          "grid_x": 7,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 91050,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "A Sacred Copse",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 4,
+        "min_y": -6,
+        "max_y": 18,
+        "room_count": 50
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 91062,
+      "rooms": {
+        "91062": {
+          "vnum": 91062,
+          "name": "Northwest Guard House",
+          "description": "Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling. There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91067,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Sorceress's Workshop",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91063,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91021,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Beneath an Elven Guard House",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91063": {
+          "vnum": 91063,
+          "name": "Treetop Erinesia",
+          "description": "Elves scurry to and fro along the wooden catwalks of the canopy, attending to errands. Mesmerizing flickers of flame shine from the glassless windows of the treetop dwellings, displaying the warmth of the cozy elven hearths for all to see. Guard houses at the four corners of the beautiful city protect the sanctity of the place, and guard it from the ravages of the eternal war.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91062,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Northwest Guard House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91064,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91064": {
+          "vnum": 91064,
+          "name": "Treetop Erinesia",
+          "description": "You would have loved this city in your youth. Catwalks run to and fro, connecting the various treetop dwellings, creating a wonderful maze of bridges for the children to play upon. The elves seem in high spirits for a people at war.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91063,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91065,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southwest Guard House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91065": {
+          "vnum": 91065,
+          "name": "Southwest Guard House",
+          "description": "This sturdy guard house protects the beautiful treetops of Erinesia. Beds hang from the ceiling, providing a resting place for the numerous guards and archers. Doorways lead into the treetops to the east and north, and a hole in the floor allows for a long drop to the forest floor below.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91070,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91064,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91024,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At the Foot of a Guard House",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91066": {
+          "vnum": 91066,
+          "name": "Elven Outpost",
+          "description": "Chairs and beds are situated about the guardhouse, and the inhabitants are well settled in. Small trinkets of decorations adorn the walls in a meager attempt to drain the atmosphere of sorrow from the guardhouse, which has never seen anything but war. Arrow slits have been cut intermittently in the wooden walls encompassing the the outpost.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 91026,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "An Outpost Within the Forest",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91067": {
+          "vnum": 91067,
+          "name": "Sorceress's Workshop",
+          "description": "The racks upon the walls of this workshop are adorned with an assortment of oddities, ranging from vials full of unidentifiable liquids to wire mesh cages containing small rodents. In the middle of the room sits a large golden box, and it seems to be the center of attention.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 91062,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Northwest Guard House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91068": {
+          "vnum": 91068,
+          "name": "Treetop Prison Cell",
+          "description": "The walls of this prison cell are of Ingeen Oak - strong as steel. The cell appears fairly comfortable, used more as a holding cell for prisoners of war than for criminals. The only way out is through the heavy door.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91069,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Erinesian Sword House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "General Brethus",
+              "description": "Well aimed!  Launching yourself like a coiled spring, you land a fatal blow on a muck beast! (77) A muck beast issues a bloodcurdling cry of pain! You get 126 obsidian coins from a corpse here. The smooth flow of the river rocks your boat gently, soothing your aching muscles as it turns southward.  Upstream, the river appears to come from the north, and just downstream the water slows and enters a pool.  The bank is low enough on the west to allow you to disembark. The river ceases its southern course alongside a tall wooden wall on its east, and bends to the west here.  The branches of the tall firs along the banks spread out over the river, blocking much of the light.  The water of the river chills you as it splashes you along. Fueled by the waterfall just upstream, the current here is swift and powerful, sweeping you to the south.  The banks are steep, and rise high above the height of the river.  A wooden wall is perched atop the eastern bank, and continues to the north and south. A loud roar assaults your ears as torrents of water cascade from hundreds of feet above and crash into the river.  The water surges southward, making its way through the forest.  The towering cliff of rock from which the water falls continues to the west, and is met by a large wooden wall to the east. A pale metallic shimmer catches the light. The power of the ocean gradually subsides. The trees and bushes have grown very close together here, preventing you from standing up straight, or even from relaxing properly.  The soft roar of a waterfall echoes between the trees from the east.  A branch pokes into your eye, and you decide that it really isn't very pleasant here. A soft, furry rabbit bounces about. The grand forest grows at the base of a towering cliff of rock and ice to the north, met by the wooden wall on the west.  A small pile of fir needles provide a bed for a resting bear and her cub, relaxing in the comfort of the forest. A large brown bear watches after her young. A young bear cub rolls about. Lush undergrowth carpets the forest floor, mingled with fallen fir needles and the occasional towering fir.  Dwarved by the trees, yet large nonetheless, a wooden wall blocks passage to the west, and continues through the forest to the north and south.  A small clearing beneath a guardhouse can be seen between the trees some distance to the east. A guardhouse high in the trees bristles with arrow slits, casting more than a little doubt upon your chances of surviving long here.  Bushes prevent escape in any direction except west, so perhaps you had better make your way through the trees quickly in that direction. You climb up. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. The racks upon the walls of this workshop are adorned with an assortment of oddities, ranging from vials full of unidentifiable liquids to wire mesh cages containing small rodents.  In the middle of the room sits a large golden box, and it seems to be the center of attention. The illustrious Syria practices her craft. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. The racks upon the walls of this workshop are adorned with an assortment of oddities, ranging from vials full of unidentifiable liquids to wire mesh cages containing small rodents.  In the middle of the room sits a large golden box, and it seems to be the center of attention. The illustrious Syria practices her craft. The Golden Box will not open for you. Empty weapon and armor racks line the walls of this guardhouse, and a series of unmade beds hang from the ceiling.  There are openings in the eastern and southern walls, and looking beyond you see wooden catwalks spanning the void between the branches, leading to other dwellings in adjacent trees. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Elves scurry to and fro along the wooden catwalks of the canopy, attending to errands.  Mesmerizing flickers of flame shine from the glassless windows of the treetop dwellings, displaying the warmth of the cozy elven hearths for all to see.  Guard houses at the four corners of the beautiful city protect the sanctity of the place, and guard it from the ravages of the eternal war. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia quickly grabs her belongings. You would have loved this city in your youth.  Catwalks run to and fro, connecting the various treetop dwellings, creating a wonderful maze of bridges for the children to play upon.  The elves seem in high spirits for a people at war. A citizen of Erinesia draws away from you. This sturdy guard house protects the beautiful treetops of Erinesia.  Beds hang from the ceiling, providing a resting place for the numerous guards and archers.  Doorways lead into the treetops to the east and north, and a hole in the floor allows for a long drop to the forest floor below. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Birds soar gracefully overhead, occasionally swooping beneath the canopy for a meal.  The lower catwalks run beneath the branches, into the gloom below. Elves wander about, attending to chores and socializing with one another, content that they are safe within the walls. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. The treetops sway slightly in the breeze, rocking the catwalks upon which you stand.  A few small dwellings sit in the nearby trees, casting flickers of light across the gloom of the forest canopy.  A solid guard house protects the city to the east, and a sizable tavern hangs beneath a large tree to the north. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. The sweet smell of freshly cut fir floats past your nose, the result of repairs in the wall of the guard house.  Various articles of furniture litter the room, providing a resting place for the weary guards and archers during breaks in the Talinesian invasion.  Doorways lead into the catwalks of the Erinesian treetops to the north and west. A guard stands with her back to you. A tower guard sleeps quietly in the corner. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. An elven archer peers around, searching for foes. Somber tranquility echoes beneath the boughs of the great firs, cloaking the catwalks in serene bliss.  Soft laughter from a nearby dwelling floats past, hanging in the still forest air.  Few places compare to the arboreal beauty of Erinesia. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia draws away from you. Elves engage in jovial swordplay in a large ring within this sword house. The northern wall is lined with fine blades of green Elven steel, and beneath them rests a well-stocked bar.  The sweet aroma of venison tickles your nose, calling to mind your last tasty meal. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. Damion the Blademaster challenges you to a friendly duel. A young elf swings his sword about in mock battle. A young elf dances about, engaged in a light skirmish. The barkeep grins and offers you a drink. . . . the barkeep glows with a strange light! The treetops sway slightly in the breeze, rocking the catwalks upon which you stand.  A few small dwellings sit in the nearby trees, casting flickers of light across the gloom of the forest canopy.  A solid guard house protects the city to the east, and a sizable tavern hangs beneath a large tree to the north. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. A citizen of Erinesia bustles west. Elves engage in jovial swordplay in a large ring within this sword house. The northern wall is lined with fine blades of green Elven steel, and beneath them rests a well-stocked bar.  The sweet aroma of venison tickles your nose, calling to mind your last tasty meal. A citizen of Erinesia draws away from you. A citizen of Erinesia quickly grabs her belongings. Damion the Blademaster challenges you to a friendly duel. A young elf swings his sword about in mock battle. A young elf dances about, engaged in a light skirmish. The barkeep grins and offers you a drink. . . . the barkeep glows with a strange light! You feel the mechanism release. The lock yields to your skills. Ok. The walls of this prison cell are of Ingeen Oak - strong as steel.  The cell appears fairly comfortable, used more as a holding cell for prisoners of war than for criminals.  The only way out is through the heavy door. General Brethus of Talinesia glares at you, livid with rage. This muscular elf's face is twisted in uncontrolled anger, undoubtedly at his captivity.  Clenching his fists, he springs towards you!",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91069": {
+          "vnum": 91069,
+          "name": "Erinesian Sword House",
+          "description": "Elves engage in jovial swordplay in a large ring within this sword house. The northern wall is lined with fine blades of green Elven steel, and beneath them rests a well-stocked bar. The sweet aroma of venison tickles your nose, calling to mind your last tasty meal.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91077,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 91074,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91068,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Prison Cell",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91070": {
+          "vnum": 91070,
+          "name": "Treetop Erinesia",
+          "description": "Birds soar gracefully overhead, occasionally swooping beneath the canopy for a meal. The lower catwalks run beneath the branches, into the gloom below. Elves wander about, attending to chores and socializing with one another, content that they are safe within the walls.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91074,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91065,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southwest Guard House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91072": {
+          "vnum": 91072,
+          "name": "Throne of Erinesia",
+          "description": "The throne room is fairly undecorated; a few unremarkable tapestries hang from the walls, and the once lavish carpet is worn. Far more tangible is the acidic atmosphere of tension, causing the hair on the back of your neck to go rigid. The occupants appear unsure of their next move, and it would only take a pin drop to cause all hell to break loose.",
+          "grid_x": -2,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91076,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Antechamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 91080,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Linia`s Private Chambers",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91074": {
+          "vnum": 91074,
+          "name": "Treetop Erinesia",
+          "description": "The treetops sway slightly in the breeze, rocking the catwalks upon which you stand. A few small dwellings sit in the nearby trees, casting flickers of light across the gloom of the forest canopy. A solid guard house protects the city to the east, and a sizable tavern hangs beneath a large tree to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 91078,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southeast Guard House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 91069,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Erinesian Sword House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91070,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91075": {
+          "vnum": 91075,
+          "name": "Archer`s Tower",
+          "description": "The archer's tower fits snugly into the branches of an ancient Erinesian fir, blending splendidly with the natural surroundings. The interior wooden walls have been varnished, as have the articles of furniture. Arrow slits line the walls, allowing the elite archers to pepper unwary foes. A doorway to the south lets in the cool forest air.",
+          "grid_x": -1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91076,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Antechamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91042,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Below an Archer`s Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91076": {
+          "vnum": 91076,
+          "name": "Treetop Antechamber",
+          "description": "The air is static in this antechamber, and nerves are at an edge. The inhabitants of the room twitch in discomfort upon the wooden bench, anxiously awaiting the audience of Lady Linia. A variety of paintings hang on the walls, depicting various landscapes from all over Ishar.",
+          "grid_x": -1,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91075,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Archer`s Tower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91072,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Throne of Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91077": {
+          "vnum": 91077,
+          "name": "Treetop Erinesia",
+          "description": "Somber tranquility echoes beneath the boughs of the great firs, cloaking the catwalks in serene bliss. Soft laughter from a nearby dwelling floats past, hanging in the still forest air. Few places compare to the arboreal beauty of Erinesia.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 91078,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Southeast Guard House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91069,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Erinesian Sword House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91078": {
+          "vnum": 91078,
+          "name": "Southeast Guard House",
+          "description": "The sweet smell of freshly cut fir floats past your nose, the result of repairs in the wall of the guard house. Various articles of furniture litter the room, providing a resting place for the weary guards and archers during breaks in the Talinesian invasion. Doorways lead into the catwalks of the Erinesian treetops to the north and west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 91077,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 91074,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Treetop Erinesia",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 91045,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Beneath an Erinesian Guard House",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "91079": {
+          "vnum": 91079,
+          "name": "Elven Outpost",
+          "description": "A few items of furniture have been placed about the room, allowing relaxation for the guards and archers during the brief breaks from combat. The wooden walls of the outpost are punctuated by arrow slits to allow the archers to rain down steely death upon any foolish enough to come within range. A hole in the floor appears to be the only way out.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 91047,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "At an Outpost in the Forest",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -3,
+        "max_y": 18,
+        "room_count": 16
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 91080,
+      "rooms": {
+        "91080": {
+          "vnum": 91080,
+          "name": "Linia`s Private Chambers",
+          "description": "Everything in this room, from the magnificent four-poster bed, to the soft velvet curtains, has been decorated in a motif of soft forest green, beauty truly worthy of a queen's chambers. A table of imported Gnomish pine rests against the northern wall, and beneath it, a chest of oak.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 91072,
+              "to_zone": "Erinesian Homelands",
+              "to_room_name": "Throne of Erinesia",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 91013,
+      "to": 91020,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -6
+      ],
+      "to_grid": [
+        -1,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91013,
+      "to": 91014,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -6
+      ],
+      "to_grid": [
+        -2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91014,
+      "to": 91021,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -5
+      ],
+      "to_grid": [
+        -1,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91014,
+      "to": 91015,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -5
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91015,
+      "to": 91022,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91015,
+      "to": 91016,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91016,
+      "to": 91023,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91016,
+      "to": 91017,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91017,
+      "to": 91018,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91018,
+      "to": 91025,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91018,
+      "to": 91019,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91019,
+      "to": 91026,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91020,
+      "to": 91027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -6
+      ],
+      "to_grid": [
+        0,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91022,
+      "to": 91029,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91022,
+      "to": 91023,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91024,
+      "to": 91031,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91025,
+      "to": 91032,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91026,
+      "to": 91033,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91027,
+      "to": 91028,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -6
+      ],
+      "to_grid": [
+        0,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91028,
+      "to": 91029,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -5
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91029,
+      "to": 91030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91030,
+      "to": 91037,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91031,
+      "to": 91032,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91032,
+      "to": 91039,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91032,
+      "to": 91033,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91033,
+      "to": 91040,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91034,
+      "to": 91041,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        16
+      ],
+      "to_grid": [
+        -1,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91034,
+      "to": 91035,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        16
+      ],
+      "to_grid": [
+        -2,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91035,
+      "to": 91042,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        17
+      ],
+      "to_grid": [
+        -1,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91035,
+      "to": 91036,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        17
+      ],
+      "to_grid": [
+        -2,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91036,
+      "to": 91043,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        18
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91037,
+      "to": 91044,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 91037,
+      "to": 91038,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91038,
+      "to": 91039,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91039,
+      "to": 91040,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91040,
+      "to": 91047,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91041,
+      "to": 91048,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        16
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91041,
+      "to": 91042,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        16
+      ],
+      "to_grid": [
+        -1,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91042,
+      "to": 91049,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        17
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91042,
+      "to": 91043,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        17
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91043,
+      "to": 91050,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        18
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91044,
+      "to": 91051,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 91045,
+      "to": 91052,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91045,
+      "to": 91046,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91046,
+      "to": 91053,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91047,
+      "to": 91054,
+      "direction": "e",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91048,
+      "to": 91049,
+      "direction": "s",
+      "from_grid": [
+        0,
+        16
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91049,
+      "to": 91050,
+      "direction": "s",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91051,
+      "to": 91058,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91051,
+      "to": 91052,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91052,
+      "to": 91059,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91053,
+      "to": 91060,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91053,
+      "to": 91054,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91054,
+      "to": 91061,
+      "direction": "e",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91055,
+      "to": 91056,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -6
+      ],
+      "to_grid": [
+        4,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91056,
+      "to": 91057,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -5
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91057,
+      "to": 91058,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91058,
+      "to": 91059,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91059,
+      "to": 91060,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91060,
+      "to": 91061,
+      "direction": "s",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91062,
+      "to": 91067,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91062,
+      "to": 91063,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91063,
+      "to": 91064,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91064,
+      "to": 91065,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91065,
+      "to": 91070,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91068,
+      "to": 91069,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91069,
+      "to": 91077,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91069,
+      "to": 91074,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91070,
+      "to": 91074,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91072,
+      "to": 91076,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        18
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91074,
+      "to": 91078,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91075,
+      "to": 91076,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        17
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91077,
+      "to": 91078,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91082,
+      "to": 91083,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91083,
+      "to": 91084,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91084,
+      "to": 91085,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91085,
+      "to": 91086,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91086,
+      "to": 91087,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91087,
+      "to": 91088,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91088,
+      "to": 91089,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91089,
+      "to": 91090,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91091,
+      "to": 91092,
+      "direction": "se",
+      "from_grid": [
+        -2,
+        16
+      ],
+      "to_grid": [
+        -1,
+        17
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91092,
+      "to": 91097,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        17
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91093,
+      "to": 91095,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        15
+      ],
+      "to_grid": [
+        0,
+        15
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91094,
+      "to": 91097,
+      "direction": "n",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91095,
+      "to": 91096,
+      "direction": "s",
+      "from_grid": [
+        0,
+        15
+      ],
+      "to_grid": [
+        0,
+        16
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91096,
+      "to": 91098,
+      "direction": "e",
+      "from_grid": [
+        0,
+        16
+      ],
+      "to_grid": [
+        1,
+        16
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91096,
+      "to": 91097,
+      "direction": "s",
+      "from_grid": [
+        0,
+        16
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 91098,
+      "to": 91099,
+      "direction": "e",
+      "from_grid": [
+        1,
+        16
+      ],
+      "to_grid": [
+        2,
+        16
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

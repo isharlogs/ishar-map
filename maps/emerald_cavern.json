@@ -1,0 +1,1733 @@
+{
+  "zone_name": "Emerald Cavern",
+  "entry_vnum": 80010,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 2,
+    "min_y": -3,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 80010,
+      "rooms": {
+        "80010": {
+          "vnum": 80010,
+          "name": "Forked Passageway",
+          "description": "The wide, sandy passage forks here. One branch leads northeast, dropping deeper into the earth. A second rises to the southeast, climbing rapidly toward a faint yellow light. The third branch stops short at an underground river to the northwest. The steep, slick banks offer no purchase, and the rapid waters promise a swift death to those foolish enough to brave them.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 80011,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Portal",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 80009,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "River Crossing",
+              "direction": "nw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 80028,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Entrance to a Rock-Strewn Cavern",
+              "direction": "se",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80011": {
+          "vnum": 80011,
+          "name": "Sandy Portal",
+          "description": "You stand in a wide, sandy passage, which turns here from the southwest to the east as it descends into the earth. Several dark scratches are visible in one section of the wall. A short distance to the east, the passage opens out into a cavern filled with a warm green light. To the southwest, the passage ends on meeting a second passage.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80012,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 80010,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Forked Passageway",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80012": {
+          "vnum": 80012,
+          "name": "Narrow Strip of Sand",
+          "description": "A narrow strip of sand beneath your feet cuts through an underground pool and into a vast cavern. A miniature universe of stars and galaxies, in varying shades of green, dot the roof of the cavern high above. In this subterranean realm, their light suffices to guide your steps across the sand. Dark shapes dart about beneath the still surface of the water to the north and south, and others dance across the sand beyond the pool to the north. The sand continues into the cavern to the east and returns to darkness just west of here.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80017,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80014,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80018,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80011,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Portal",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80013": {
+          "vnum": 80013,
+          "name": "Shallow Pool",
+          "description": "Still, cold water rises to your waist in this underground pool. Despite the clarity of the water and the placidity of the surface, your eyes refuse to focus on the long, thin shapes shifting and waving about the dark, rocky bottom of the pool. The pool continues to the east, and a sandy beach rises to the north. To the south and west rise sheer stone walls that join the glowing roof of the cavern high above.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80014,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80021,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Clarity of the water and the placidity of the surface",
+                "Focus on the long",
+                "North.  To the south and west rise sheer stone walls that join the glowing roof",
+                "Of the cavern high above.",
+                "Of the pool.  The pool continues to the east",
+                "Shallow Pool",
+                "Still",
+                "and a sandy beach rises to the",
+                "cold water rises to your waist in this underground pool.  Despite the",
+                "rocky bottom",
+                "thin shapes shifting and waving about the dark",
+                "your eyes refuse to"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80014": {
+          "vnum": 80014,
+          "name": "Shallow Pool",
+          "description": "You stand knee-deep in cold water beneath a spotted green sky. The dark rocks on the pool floor scratch at your feet and legs, and from time to time a drop of water splashes onto you from above. The pool deepens to the west. Pebbled beaches rise to the north and east, and a narrow bar of sand separates your pool from another, similar one in the south end of the cavern.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80015,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80022,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80012,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80013,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Drop of water splashes onto you from above.  The pool deepens to the west.",
+                "Pebbled beaches rise to the north and east",
+                "Rocks on the pool floor scratch at your feet and legs",
+                "Shallow Pool",
+                "You stand knee-deep in cold water beneath a spotted green sky.  The dark",
+                "Your pool from another",
+                "and a narrow bar of sand separates",
+                "and from time to time a",
+                "similar one in the south end of the cavern."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80015": {
+          "vnum": 80015,
+          "name": "Sandy Cavern",
+          "description": "The pebbly sand crunches beneath your feet as you travel through this twilit cavern far below the city. You view everything through a soft green lens, from stones to crabs to insects. Even your skin has taken on a greenish cast, although perhaps it's merely nausea. A narrow strip of sand leads away to the south, threading its way between two pools of still water toward the edge of or walk across the cavern floor to the north or east.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80016,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80023,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80017,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80014,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Although perhaps it's merely nausea.  A narrow strip of sand leads away to the",
+                "Cavern far below the city.  You view everything through a soft green lens",
+                "Cavern.  You can enter the more northern of those pools just to your west",
+                "Giant",
+                "Grey lizard crawls south.",
+                "Huge",
+                "Or walk across the cavern floor to the north or east.",
+                "Pebbly sand crunches beneath your feet as you travel through this twilit",
+                "Sandy Cavern",
+                "South",
+                "Stones to crabs to insects.  Even your skin has taken on a greenish cast",
+                "black fly buzzes past your ear.",
+                "from",
+                "grey lizard wanders about in search of food.",
+                "threading its way between two pools of still water toward the edge of"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80016": {
+          "vnum": 80016,
+          "name": "Sandy Cavern",
+          "description": "You stand in the corner of a great cavern, which stretches away to the west and north. A pebbly sand supports your weight, and a rocky ceiling strewn with glowing green lights enfolds you from above. Reflected light some distance to the west brings you attention to the pools that fill the southern portion of the cavern. From where you stand, you can travel only north or west.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80024,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80015,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "And north.  A pebbly sand supports your weight",
+                "Cavern.  From where you stand",
+                "Glowing green lights enfolds you from above.  Reflected light some distance to",
+                "Huge",
+                "Sandy Cavern",
+                "West brings you attention to the pools that fill the southern portion of",
+                "You stand in the corner of a great cavern",
+                "and a rocky ceiling strewn with",
+                "grey lizard wanders about in search of food.",
+                "which stretches away to the west",
+                "you can travel only north or west."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80017": {
+          "vnum": 80017,
+          "name": "Narrow Strip of Sand",
+          "description": "A sheer wall of light brown stone juts upward to your east, arcing above your head as the roof of the huge cavern in which you stand. An array of phosphorescent green lights mounted on the stone high above illuminates the coarse sand beneath your feet and highlights the larger stones scattered about the sands to the north. A placid pool borders the sand on the south, and another begins just west of here, reducing the pebbly sand to a narrow strip.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 80015,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80019,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80012,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Another begins just west of here",
+                "Coarse sand beneath your feet and highlights the larger stones scattered about",
+                "Giant gnat flits around in circles.",
+                "Huge",
+                "Phosphorescent green lights mounted on the stone high above illuminates the",
+                "Sands to the north.  A placid pool borders the sand on the south",
+                "Sheer wall of light brown stone juts upward to your east",
+                "Your head as the roof of the huge cavern in which you stand.  An array of",
+                "and",
+                "arcing above",
+                "grey lizard wanders about in search of food.",
+                "reducing the pebbly sand to a narrow strip."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80018": {
+          "vnum": 80018,
+          "name": "Shallow Pool",
+          "description": "Cold water engulfs your lower body as you tread carefully among the rocks at the bottom of this underground pool. The water deepens to the east, while the pool floor climbs up to a sandy beach to the north. To the south and west rise the walls of the cavern.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80019,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80012,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Bottom of this underground pool.  The water deepens to the east",
+                "Cold water engulfs your lower body as you tread carefully among the rocks at",
+                "Ocean's energy begins to flow through you",
+                "Pool floor climbs up to a sandy beach to the north.  To the south and west rise",
+                "Shallow Pool",
+                "Walls of the cavern.",
+                "Water snake strikes clumsily at you.",
+                "You spin about and slam your dagger into a water snake! (34)",
+                "granting you the speed of a gentle current.",
+                "while the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80019": {
+          "vnum": 80019,
+          "name": "Shallow Pool",
+          "description": "The water in this portion of the pool rises nearly to your neck, and you struggle to avoid slipping on the rocks and plunging fully below the surface. The pool becomes more shallow to the west, where the water meets the western wall of the cavern near the entry passage. A narrow strip of sand separates this pool from another to the north. Looking carefully into the water, you think you spot the entrance to a tunnel.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 80034,
+              "to_zone": "Strider's Nest",
+              "to_room_name": "Beneath the Surface of a Pool",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80017,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Narrow Strip of Sand",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80018,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Pool becomes more shallow to the west",
+                "Shallow Pool",
+                "Struggle to avoid slipping on the rocks and plunging fully below the surface.",
+                "Think you spot the entrance to a tunnel.",
+                "This pool from another to the north.  Looking carefully into the water",
+                "Wall of the cavern near the entry passage.  A narrow strip of sand separates",
+                "Water in this portion of the pool rises nearly to your neck",
+                "and you",
+                "where the water meets the western",
+                "you"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80020": {
+          "vnum": 80020,
+          "name": "Sandy Cavern",
+          "description": "You stand at the edge of a great cavern beneath the city of Mareldja. A few meters to the west, a rough jumble of broken stone climbs upward to the base of the cavern's arched ceiling. Patches of phosphorescent lichen speckle the stone high above you, filling the space around you with a gentle green glow. The floor of the cavern is covered with sand, leading you to suspect that the cavern once opened onto the sea beyond the rubble to the west. The cavern opens to the east.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80021,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 80025,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Cavern once opened onto the sea beyond the rubble to the west.  The cavern",
+                "Cavern's arched ceiling.  Patches of phosphorescent lichen speckle the",
+                "Chest is fashioned from a light wood and covered with a thick",
+                "Coat of red lacquer.  A bronze latch keeps the lid closed.",
+                "Floor of the cavern is covered with sand",
+                "Giant gnat crawls in from the northeast.",
+                "It is closed.",
+                "It is worth a maximum of 10 obsidian.",
+                "L chest",
+                "Look in chest",
+                "Meters to the west",
+                "Ok.",
+                "Opens to the east.",
+                "Sandy Cavern",
+                "Small",
+                "Stone high above you",
+                "You nearly stumble on a small",
+                "You stand at the edge of a great cavern beneath the city of Mareldja.  A few",
+                "a rough jumble of broken stone climbs upward to the base of",
+                "filling the space around you with a gentle green glow.",
+                "grey-green crab.",
+                "leading you to suspect that the",
+                "light and fairly small.",
+                "red chest is a select item",
+                "red chest rests on the ground."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80021": {
+          "vnum": 80021,
+          "name": "Sandy Cavern",
+          "description": "High above you, green shapes pulse slowly in a dark sky, illuminating the area with their phosphorescent glow. Crabs and insects move rapidly about the area, and from time to time you realize that you have mistaken another large grey lizard for a stone. Sand leads toward the edges of the cavern to the north, east, and west, and the sand descends quickly into a quiet pool to the south.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80022,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80025,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80013,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80020,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Area",
+                "Area with their phosphorescent glow.  Crabs and insects move rapidly about the",
+                "Bright green crab snaps its pincers menacingly.",
+                "Giant gnat flits around in circles.",
+                "Grey lizard for a stone.  Sand leads toward the edges of the cavern to the",
+                "High above you",
+                "Huge",
+                "North",
+                "Sandy Cavern",
+                "South.",
+                "You nearly stumble on a small",
+                "and from time to time you realize that you have mistaken another large",
+                "and the sand descends quickly into a quiet pool to the",
+                "and west",
+                "east",
+                "green shapes pulse slowly in a dark sky",
+                "grey lizard wanders about in search of food.",
+                "grey-green crab.",
+                "illuminating the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80022": {
+          "vnum": 80022,
+          "name": "Sandy Cavern",
+          "description": "You stand in the center of the cavern, where the ceiling is highest and the light most dim. The sand slopes down to the south, falling below the surface of a small subterranean pool. It continues in all other directions--north, east, and west--toward the cavern walls.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80023,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80026,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80014,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Shallow Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80021,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "East",
+                "Giant",
+                "Giant gnat flits around in circles.",
+                "Light most dim.  The sand slopes down to the south",
+                "Of a small subterranean pool.  It continues in all other directions--north",
+                "Sandy Cavern",
+                "You nearly stumble on a small",
+                "You stand in the center of the cavern",
+                "and west--toward the cavern walls.",
+                "black fly buzzes past your ear.",
+                "falling below the surface",
+                "grey-green crab.",
+                "where the ceiling is highest and the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80023": {
+          "vnum": 80023,
+          "name": "Sandy Cavern",
+          "description": "Green nebulae floating high above light your way through a realm of sand stretching away on all sides. The soft sound of running water beckons you to the southwest, and periodically you spot a crab or lizard scurrying about in the sand.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80024,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 80027,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80015,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80022,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Bright green crab snaps its pincers menacingly.",
+                "Giant",
+                "Giant fly crawls in from the north.",
+                "Giant gnat flits around in circles.",
+                "Green nebulae floating high above light your way through a realm of sand",
+                "It's already open.",
+                "Sand.",
+                "Sandy Cavern",
+                "Small",
+                "Southwest",
+                "Stretching away on all sides.  The soft sound of running water beckons you to",
+                "You nearly stumble on a small",
+                "and periodically you spot a crab or lizard scurrying about in",
+                "black fly buzzes past your ear.",
+                "grey-green crab.",
+                "red chest rests on the ground."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80024": {
+          "vnum": 80024,
+          "name": "Sandy Cavern",
+          "description": "The walls of the cavern rise to the north and east, but the cavern opens out to the west and south. From this vantage point, you can see that the green ceiling lights are merely patches of phosphorescent lichen. Huge insects dart around the patches, feeding on each other and on smaller varieties beyond the power of your vision.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 80027,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80016,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80023,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "Around the patches",
+                "Bright green crab snaps its pincers menacingly.",
+                "Ceiling lights are merely patches of phosphorescent lichen.  Huge insects dart",
+                "Giant",
+                "Giant gnat flits around in circles.",
+                "Power of your vision.",
+                "Sandy Cavern",
+                "To the west and south.  From this vantage point",
+                "Walls of the cavern rise to the north and east",
+                "You nearly stumble on a small",
+                "black fly buzzes past your ear.",
+                "but the cavern opens out",
+                "feeding on each other and on smaller varieties beyond the",
+                "grey-green crab.",
+                "you can see that the green"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80025": {
+          "vnum": 80025,
+          "name": "Sandy Cavern",
+          "description": "From this vantage point, you view the entire cavern spreading out to the south, dusted with sand below and bejewelled with emeralds above. The crabs seem to dance rhythmically, snapping their pincers and twirling about on their long legs. The beige stone from which the cavern was formed rises up behind you, bending from the southwest to the east, while the caverns invites you to south.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80026,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80021,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 80020,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Small, red chest",
+              "contents": [
+                "From this vantage point",
+                "Giant gnat flits around in circles.",
+                "Grey lizard crawls in from the east.",
+                "Long legs.  The beige stone from which the cavern was formed rises up behind",
+                "Sandy Cavern",
+                "Seem to dance rhythmically",
+                "South",
+                "South.",
+                "You",
+                "bending from the southwest to the east",
+                "dusted with sand below and bejewelled with emeralds above.  The crabs",
+                "snapping their pincers and twirling about on their",
+                "while the caverns invites you to",
+                "you view the entire cavern spreading out to the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80026": {
+          "vnum": 80026,
+          "name": "Sandy Cavern",
+          "description": "Here at the northern edge of the great cavern, a small, flat shelf of stone juts from the wall. The formation appears to be natural, but serves well as both table and bench. The sand near the wall becomes more akin to gravel, with large chunks of stone mixed in among the smaller pebbles. The wall continues east and west, blocking movement to the north, and the cavern opens to the south.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 80027,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 80022,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80025,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "80027": {
+          "vnum": 80027,
+          "name": "Sandy Cavern",
+          "description": "The northern wall of the cavern curves from west to southeast here, forming a border of stone at what is perhaps the highest point in the cavern floor. Insects buzz past you incessantly, yet through strange acoustic mysteries, you hear the bubbling of a stream from across the cavern to the south.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 80023,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 80024,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 80026,
+              "to_zone": "Emerald Cavern",
+              "to_room_name": "Sandy Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 1,
+        "room_count": 18
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 80010,
+      "to": 80011,
+      "direction": "ne",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80011,
+      "to": 80012,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80012,
+      "to": 80017,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80012,
+      "to": 80014,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80012,
+      "to": 80018,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80013,
+      "to": 80014,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80013,
+      "to": 80021,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80014,
+      "to": 80015,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80014,
+      "to": 80022,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80015,
+      "to": 80016,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80015,
+      "to": 80023,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80015,
+      "to": 80017,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80016,
+      "to": 80024,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80017,
+      "to": 80019,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80018,
+      "to": 80019,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80020,
+      "to": 80021,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80020,
+      "to": 80025,
+      "direction": "ne",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80021,
+      "to": 80022,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80021,
+      "to": 80025,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80022,
+      "to": 80023,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80022,
+      "to": 80026,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80023,
+      "to": 80024,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80023,
+      "to": 80027,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80024,
+      "to": 80027,
+      "direction": "nw",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80025,
+      "to": 80026,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 80026,
+      "to": 80027,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

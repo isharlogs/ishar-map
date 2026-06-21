@@ -1,0 +1,1494 @@
+{
+  "zone_name": "The Rooftops - City of Mareldja",
+  "entry_vnum": 40117,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 5,
+    "min_y": -3,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40117,
+      "rooms": {
+        "388": {
+          "vnum": 388,
+          "name": "Over Borash's General Supply",
+          "description": "This rooftop stands alone against the western wall of the city. A familiar smell of freshly-baked bread emanates from the north before the salty ocean breeze quickly sweeps it away. Countless pigeons and seagulls strut along the edge of the rooftop eagerly waiting for even the smallest crumb to hit the ground. Fancy footwork may land you safely onto the street below, or a skillful climb through a nearby window leads into a watchtower.",
+          "grid_x": 6,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 40022,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Street of Sorrows",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 40427,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Coastal Watchtower Staircase Landing",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "40117": {
+          "vnum": 40117,
+          "name": "Tower Top",
+          "description": "You look out over the surrounding city from atop the Tower of Rascilivir. Far away to the west, the ocean curves around the horizon. The city below seems but a patchwork of color, the din and bustle far away. You notice a trapdoor off to the side of the tower floor.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go falling": {
+              "to_vnum": 40122,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Palace Garden",
+              "direction": "go falling",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go trapdoor": {
+              "to_vnum": 40102,
+              "to_zone": "Royal Palace of Mareldja - City of Mareldja",
+              "to_room_name": "Treasure Chamber",
+              "direction": "go trapdoor",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            40118
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "40119": {
+          "vnum": 40119,
+          "name": "The Tower Wall",
+          "description": "You cling to the walls of a tower, about one third of the way from the ground. Below you can see the garden.",
+          "grid_x": 6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [
+            40118,
+            40122
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40122": {
+          "vnum": 40122,
+          "name": "Palace Garden",
+          "description": "The scent of hundreds of flowers greets your nostrils. Bees hum lazily from blossom to blossom, and a limestone path wanders through the beds and over a small man-made stream. An iron fence encloses the garden, and a stone tower adjoining the palace rises up to greet the sky.",
+          "grid_x": 6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go fence": {
+              "to_vnum": 40123,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "go fence",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go tower": {
+              "to_vnum": 40119,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "The Tower Wall",
+              "direction": "go tower",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              40125
+            ],
+            "active": false,
+            "stack_default_vnum": 40125
+          },
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "40123": {
+          "vnum": 40123,
+          "name": "On the Rooftops",
+          "description": "Looking down, you see that with very little effort, you could climb down into the palace garden and wander around. From this height, you can see that the flowers are arranged in a complex geometric pattern. Nearby buildings to the south allow you to go in that direction as well.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "s": {
+              "to_vnum": 40124,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40122,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Palace Garden",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40124": {
+          "vnum": 40124,
+          "name": "On the Rooftops",
+          "description": "Leaping from roof to roof, you discover that a whole new world exists up here. Freedom of movement is both extended and restricted. There are no crowds to deal with, but your choice of directions is limited to those buildings immediately next to you. From here you can travel north and south.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 40123,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40125,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40125": {
+          "vnum": 40125,
+          "name": "On the Rooftops",
+          "description": "People pass by on the streets, oblivious to your presence above. You are amazed at how few of them ever look up. Most pay attention only to what is near the ground. Rooftops to the east, south, and north are close enough that you may reach them.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 40144,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over a Deserted House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40124,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40126,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over Farath`s Armory",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              40122
+            ],
+            "active": true,
+            "stack_default_vnum": 40125
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40126": {
+          "vnum": 40126,
+          "name": "Over Farath`s Armory",
+          "description": "Smoke rises from a sooty chimney, and you can hear clanking coming from the inside. If you were to peek in a window, you could probably see Farath at work. Roofs to the east and north allow you to continue your aerial journey.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 40127,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40125,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 40075,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Farath`s Armory",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "40127": {
+          "vnum": 40127,
+          "name": "On the Rooftops",
+          "description": "You gain a whole other perspective of the city as you look out over the streets. It is easy to see them as streams and gullies, and the buildings as islands and stepping stones. To the west with a leap and a bound is Farath's Armory. The city wall rises to your south.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "w": {
+              "to_vnum": 40126,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over Farath`s Armory",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40128,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40128": {
+          "vnum": 40128,
+          "name": "City Wall",
+          "description": "Several buildings nestle up against the wall. Like most of the dwellings in Mareldja, they have flat, solid stone roofs. Some look as if a climb down would not be too strenuous. To the east, the wall passes over the Gate of Air.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40129,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Gate of Air",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40127,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40129": {
+          "vnum": 40129,
+          "name": "Over the Gate of Air",
+          "description": "The Gate of Air allows passage into and out of the southern part of the city below you. From this height, you have a clear view of the harbor at the bottom of the cliff, filled with several sails. The wall continues east and west.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40131,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40128,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40130": {
+          "vnum": 40130,
+          "name": "Above the Avenue of Dreams",
+          "description": "The roof of this building is covered with plants in glazed urns, with a few wooden chairs sitting in the center. From here you can see the Avenue of Dreams as it travels east and west. Climbing down would not be that hard. The city wall rises to the south, offering a more difficult route.",
+          "grid_x": 6,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 40079,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Avenue of Dreams",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40131,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40131": {
+          "vnum": 40131,
+          "name": "City Wall",
+          "description": "The city wall is wide and straight, running from east to west along the southern part of the city. You would guess that the drop to the street is roughly eighty feet or so. A building against the wall lowers that distance though, and you could probably climb down if you were careful.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40133,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40129,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Gate of Air",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40130,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Above the Avenue of Dreams",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40132": {
+          "vnum": 40132,
+          "name": "Above the Alley",
+          "description": "The narrow alley below ends in a cul-de-sac piled high with junk, affording an easy descent. Another building to the east is level with yours, and you can see a squat little chimney poking from its roof. The city wall rises to the south, and you could probably climb onto it if you were nimble enough.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 40002,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Dump Area",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 40134,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40133,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40133": {
+          "vnum": 40133,
+          "name": "City Wall",
+          "description": "You travel the southern portion of the city wall, which separates the city proper from the mansions and buildings leading down to the harbor. The wall continues east and west, and a high rooftop allows you to climb down.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40136,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40131,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40132,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Above the Alley",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40134": {
+          "vnum": 40134,
+          "name": "On the Rooftops",
+          "description": "A brick chimney sticks out of the roof, home to some pigeons which fly away at your approach. Down on the street you can see the passersby going about their business. To the north you see a lot of boxes on the roof next door.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40135,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Above Jansens",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40132,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Above the Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40135": {
+          "vnum": 40135,
+          "name": "Above Jansens",
+          "description": "Empty and filthy boxes lie scattered over this rooftop. Looking down you can see that you are over Jansen's Bargains. You see his sign as it sticks out from the doorway. Next to the door is a window, if you would care to visit.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 40074,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Jansen`s Bargains",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40134,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40136": {
+          "vnum": 40136,
+          "name": "City Wall",
+          "description": "The southeast corner of the city overlooks the Forest of Jharet as it falls away from the cliff. The walls part from this point and go north and west.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40137,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40133,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40137": {
+          "vnum": 40137,
+          "name": "City Wall",
+          "description": "The wall of Mareldja is wide enough for three men to walk abreast. It is also rather high on the sides facing the forest and harbor. This, coupled with Mareldja's natural elevation, provides formidable protection for the city.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40138,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Gate of Earth",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40136,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40138": {
+          "vnum": 40138,
+          "name": "Over the Gate of Earth",
+          "description": "The Concourse of Earth passes beneath you, a cobbled road worn somewhat smooth by the passage of many feet. A steady breeze greets you, and the sky is a deep blue. The wall runs to the north and south.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40139,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40137,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40139": {
+          "vnum": 40139,
+          "name": "City Wall",
+          "description": "The wall is crenelated and swept free of dirt and debris. Gazing out over it, you can see the Forest of Jharet spread over the land like a cloak, its majestic folds covering the bones of the cliff. Just to the south you can walk over the Gate of Earth. A building built against the wall also allows you to climb down.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40138,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Gate of Earth",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40140,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40140": {
+          "vnum": 40140,
+          "name": "On the Rooftops",
+          "description": "You gaze at the streets below from a distance of three stories. The building rests against the city wall, and you could probably climb up to the top if you tried. To the north over a narrow alley is another building and to the south is the roof of the Inn of the Golden Vanity.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40142,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40141,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Golden Vanity",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40139,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "City Wall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40141": {
+          "vnum": 40141,
+          "name": "Over the Golden Vanity",
+          "description": "The Golden Vanity does not look like much from up here. A wooden sign dangles from the doorway with a picture of a ship and the name of the establishment. A window on the second floor peers out over the street. Pigeons nest up here for free, never having to pay a penny.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40140,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go through": {
+              "to_vnum": 40047,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Reception",
+              "direction": "go through",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "40142": {
+          "vnum": 40142,
+          "name": "On the Rooftops",
+          "description": "You frighten pigeons from their perches as you invade the rooftops. Some places are white with their stool. From a window below you hear singing, and from another the sounds of clinking glassware. Rooftops to the west and south allow you to continue your aerial passage.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40140,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40143,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Over the Mages Guild",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40143": {
+          "vnum": 40143,
+          "name": "Over the Mages Guild",
+          "description": "You stand upon the roof of the Purple Flame. Below, you can see where the Avenue of Eternity joins with the Painters' Boulevard. People pass you below, oblivious to your presence. To the east over an alley is the flat roof of a merchant's house.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 40018,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "At Eternity and Painters",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 40142,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40144": {
+          "vnum": 40144,
+          "name": "Over a Deserted House",
+          "description": "There is something wrong here, but you can't put your finger on it. It's not exactly a sense of evil, but certainly not of good. A waiting, perhaps? Nothing lives up here, and you've seen so many pigeons that their absence is conspicuous. Curtains flutter in an open window on the southern wall, and a nearby rooftop to the west allows you to jump over the street.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "d": {
+              "to_vnum": 40064,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Bedroom",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40125,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "On the Rooftops",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {
+        "1": "#e05555"
+      },
+      "metadata": {
+        "min_x": -2,
+        "max_x": 5,
+        "min_y": -3,
+        "max_y": 2,
+        "room_count": 26
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 40123,
+      "to": 40124,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40124,
+      "to": 40125,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40125,
+      "to": 40144,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40125,
+      "to": 40126,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40126,
+      "to": 40127,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40128,
+      "to": 40129,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40129,
+      "to": 40131,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40131,
+      "to": 40133,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40132,
+      "to": 40134,
+      "direction": "e",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40133,
+      "to": 40136,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40134,
+      "to": 40135,
+      "direction": "n",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40136,
+      "to": 40137,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40137,
+      "to": 40138,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40138,
+      "to": 40139,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40140,
+      "to": 40142,
+      "direction": "n",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40140,
+      "to": 40141,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40142,
+      "to": 40143,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,5734 @@
+{
+  "zone_name": "Valley of Teralea",
+  "entry_vnum": 42001,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -5,
+    "max_x": 4,
+    "min_y": -13,
+    "max_y": 4
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 42001,
+      "rooms": {
+        "42001": {
+          "vnum": 42001,
+          "name": "Dark Cave",
+          "description": "You stand in a tight rock corridor, starved of air and the nurturing rays of the sun. The icy winds howl menacingly from the mouth of the cavern, flurries of snow whirling into the darkness.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42002,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42115,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42002": {
+          "vnum": 42002,
+          "name": "Narrow Tunnel",
+          "description": "The air is stale and rank, and the only sound you can make out is the panting of your own breath. White sparks flash before your eyes as you begin to suffocate...",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42003,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Before the Golden Door",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42001,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Dark Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42003": {
+          "vnum": 42003,
+          "name": "Before the Golden Door",
+          "description": "You bathe in the rich glow of an enormous arched door that reflects the light pouring through a shaft in the rock. Shaped of beaten gold, the reliefs upon it picture a fertile valley nestled in the icy reaches of the Northern Wastes.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42005,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Head of the Valley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 42002,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Narrow Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VALERIAN",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42004": {
+          "vnum": 42004,
+          "name": "Barn",
+          "description": "Inside the barn the darkness is broken only by the occasional shaft of sunlight that streams down from holes in the tiled roof. Abandoned for some time, the air is filled with a musty, neglected smell.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42010,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42005": {
+          "vnum": 42005,
+          "name": "Head of the Valley",
+          "description": "You stand at the very head of a hidden valley, bounded on all sides by the steep rocky slopes of the mountains. The icy winds that would chill the bone at this latitude have been beaten back, and the air is warm and unruffled. The view from this lofty height is breathtaking, letting you survey the whole valley in all its majesty.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42006,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42011,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Down the Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42003,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Before the Golden Door",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42006": {
+          "vnum": 42006,
+          "name": "Rocky Road",
+          "description": "Down from the head of the valley leads a narrow rocky road, which is perched delicately on the valley walls. You stumble and barely maintain your balance on the uneven surface.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42007,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "End of the Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42005,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Head of the Valley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "": {
+              "to_vnum": 42012,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "42007": {
+          "vnum": 42007,
+          "name": "End of the Road",
+          "description": "The road should continue along the valley wall, but a recent landslide has buried it completely. The pile of slumped rock and earth shivers as you step cautiously along it.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42013,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Ledge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42006,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42008": {
+          "vnum": 42008,
+          "name": "The Waterfall",
+          "description": "The Bluehorn tumbles recklessly over a steep cliff with an awe-inspiring roar, billowing spray that dampens your hair.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42009,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "By the Plunge Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42016,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42009": {
+          "vnum": 42009,
+          "name": "By the Plunge Pool",
+          "description": "The white hail pouring down from the cascade falls into a plunge pool, churning and frothing noisily. Scoured out by swirling rocks, it is impossible to tell how deep it actually is due to the dense white foam.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42010,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42017,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42008,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Waterfall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42010": {
+          "vnum": 42010,
+          "name": "Green Fields",
+          "description": "A wide expanse of grass, softer and greener than anything you have seen before, stretches along the valley floor, divided by low drystone walls that are covered in moss.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42011,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Down the Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42004,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Barn",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42009,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "By the Plunge Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42011": {
+          "vnum": 42011,
+          "name": "Down the Path",
+          "description": "A well-maintained path of wide flagstones leads down from the head of the valley. Carts bursting with produce clatter past you, their drivers raising their caps in greeting.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42012,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42018,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42005,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Head of the Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42010,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42012": {
+          "vnum": 42012,
+          "name": "Green Fields",
+          "description": "The grass in these fields is lush and thick, showered with miniscule droplets of water. The occasional patch of jeralah flowers is a splash of vivid purple in the otherwise green plain.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42013,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Ledge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42006,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42019,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42011,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Down the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42013": {
+          "vnum": 42013,
+          "name": "Rocky Ledge",
+          "description": "A great ridge of rock prevents water escaping from a shallow lake to the east. Several cows peer at you, very bemused, before returning to their grazing.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42014,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42020,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42007,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "End of the Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42012,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42014": {
+          "vnum": 42014,
+          "name": "Paddy Field",
+          "description": "Partially covered by landslide debris, the brown waters lap gently at small green shoots that poke tentatively skywards. The rippling water sparkles and reflects your face as you wade by.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42021,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42013,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Ledge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42015": {
+          "vnum": 42015,
+          "name": "Into the Caves",
+          "description": "The Bluehorn tumbles down from a wide crack in the roof of this cave, the meltwater from glaciers far above you. Suddenly drenched by the bitterly cold water, you gasp in shock.",
+          "grid_x": -5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42016,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42023,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Black Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42016": {
+          "vnum": 42016,
+          "name": "River Bluehorn",
+          "description": "The Bluehorn flows out of a large cave mouth, tripping over a series of boulders that line its course down the steep slope. The swirling eddies rock your boat violently, but you maintain your balance.",
+          "grid_x": -4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42008,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Waterfall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42015,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Into the Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42017": {
+          "vnum": 42017,
+          "name": "River Bluehorn",
+          "description": "As the river flows into the forest, trees cluster closely by, their roots supporting the banks. Willows drape their long branches into the clear water, obscuring the path ahead with thick greenery.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 42025,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Fording the Bluehorn",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42009,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "By the Plunge Pool",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42018": {
+          "vnum": 42018,
+          "name": "Along the Path",
+          "description": "Running along the bottom of the valley floor is a wide road of stone, lined with low jeralah bushes. All around you people in simple tunics chatter and laugh, moving only to avoid speeding wagons.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42019,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42026,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42011,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Down the Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42019": {
+          "vnum": 42019,
+          "name": "Corn Fields",
+          "description": "You stand in the middle of an enormous field of corn, a bracing wind ruffling the stalks in long rippling waves. The fat golden ears are almost ripe, the farm hands checking them for quality.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42020,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42012,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Green Fields",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42018,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42020": {
+          "vnum": 42020,
+          "name": "Corn Fields",
+          "description": "You stand in the middle of an enormous field of corn, a bracing wind ruffling the stalks in long rippling waves. The occasional poppy waves in the breeze, but otherwise there are no weeds here.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42021,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42028,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddock",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42013,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Ledge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42019,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42021": {
+          "vnum": 42021,
+          "name": "Paddy Field",
+          "description": "The farmer's children tend the green shoots in this field, the brown waters only knee-deep. The heat is merciless, but they seem happy enough in their silk tunics and wide straw hats.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42022,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42029,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Herb Garden",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42014,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42020,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42022": {
+          "vnum": 42022,
+          "name": "Paddy Field",
+          "description": "The paddy field comes to an end in a series of stone steps that lead out of the cool water. Sloshing out of the farelith-filled pool, you come across a small plateau with a brick farmhouse atop it.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42030,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Inside a Farmhouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 42021,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42023": {
+          "vnum": 42023,
+          "name": "Black Cave",
+          "description": "The darkness is thick and impenetrable, at odds with everything else in this valley. Sulphurous fumes rise from bubbling hot water on the cave walls, making you wrinkle your nose in disgust.",
+          "grid_x": -5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42015,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Into the Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Silver dragon",
+              "description": "As it shifts, the dragon's scales glint silver in the dim light - this creature must be the last remnant of what populated the valley before the coming of the humans.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42024": {
+          "vnum": 42024,
+          "name": "Edge of the Forest",
+          "description": "The western slopes of the valley are thickly forested with oak and pine, separated from the eastern farmland by the fast-flowing Bluehorn. The woods are lush here, ferns and ivy surrounding you.",
+          "grid_x": -3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42025,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Fording the Bluehorn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42032,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Clearing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42025": {
+          "vnum": 42025,
+          "name": "Fording the Bluehorn",
+          "description": "The river abruptly becomes very shallow, the pebbles and gravel of its bed covered by ankle-deep water. Its west bank marks the edge of a forest, vines that dangle overhead brushing lightly at you.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42026,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42033,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 42017,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42024,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Edge of the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42026": {
+          "vnum": 42026,
+          "name": "Along the Path",
+          "description": "The road is joined by several smaller paths that lead in all directions, the happy confusion only increased by the mounted travellers and carts moving in all directions.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42027,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Storehouse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 42034,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Stone Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42018,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42025,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Fording the Bluehorn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42027": {
+          "vnum": 42027,
+          "name": "Storehouse",
+          "description": "Inside this stone tower mountains of grain are resting on wooden pallets. There are several more floors above you, each bowing under the weight of yet more grain.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 42026,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42028": {
+          "vnum": 42028,
+          "name": "Paddock",
+          "description": "A wide green meadow lies enclosed in low wooden fences. Several bay horses graze quietly, watched over by a farm hand. They harrumph as you draw near but otherwise tolerate your presence.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42020,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Corn Fields",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42029": {
+          "vnum": 42029,
+          "name": "Herb Garden",
+          "description": "A large, well-cared for herb garden catches your attention. The various plants and shrubs have many medicinal uses and a sweet aroma rises from the largest, a spiny brown affair with red berries.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42030,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Inside a Farmhouse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42036,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Orchard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42021,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WATERCRESS",
+              "rank": 28,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42030": {
+          "vnum": 42030,
+          "name": "Inside a Farmhouse",
+          "description": "The farmhouse is a single room with an enormous hearth at one end. A large oaken table is covered with pewter platters and barrels of honey mead have been piled up. Simple tapestries adorn the walls.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42037,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Neat Lawns",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 42022,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Paddy Field",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42029,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Herb Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42031": {
+          "vnum": 42031,
+          "name": "Unicorn Paddock",
+          "description": "The cool depths of the forest, bathed in the mist that flows down from the north, are home to the unicorns of Teralea. A low stone wall surrounds the clearing, which is home to a single family.",
+          "grid_x": -4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42032,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Clearing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42038,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Unicorn Barn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42032": {
+          "vnum": 42032,
+          "name": "Clearing",
+          "description": "A small gap in the canopy of trees allows light to flood down onto you from above. Half-rotten wood and tree roots jut out of the ground, all carpeted undergrowth.",
+          "grid_x": -3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42039,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Deep Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42024,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Edge of the Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42031,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Unicorn Paddock",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42033": {
+          "vnum": 42033,
+          "name": "River Bluehorn",
+          "description": "The river flows down towards the valley floor, moving out of the forest into open countryside. Your boat bobs up and down on the silvery water, whirling around small islands in the river's course that are planted with birch trees.",
+          "grid_x": -2,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42035,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42025,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Fording the Bluehorn",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42034": {
+          "vnum": 42034,
+          "name": "Stone Bridge",
+          "description": "A wide bridge crosses the Bluehorn in a single graceful arch, the smooth stone blocks carved with detailed reliefs of ancient kings. The roadway is inlaid with a map of the valley, rendered in bronze.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42040,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42026,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Along the Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42035": {
+          "vnum": 42035,
+          "name": "River Bluehorn",
+          "description": "The river water is darker and slower now, heavy with silt it has swept up from the plains on the valley floor. Meandering gently around steep banks thickly sown with crops, the river is becoming noticeable wider.",
+          "grid_x": -1,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42041,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42033,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42036": {
+          "vnum": 42036,
+          "name": "Orchard",
+          "description": "Irrigation channels run in between regimented lines of fruit trees, their branches bending under the weight of so much produce. A few of the fruits are familiar to you, but several which shimmer with strange colours seem juicier than any you have encountered.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42037,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Neat Lawns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42029,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Herb Garden",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42037": {
+          "vnum": 42037,
+          "name": "Neat Lawns",
+          "description": "Atop the same plateau the farmhouse is built upon is a wide green lawn, the grass kept neat and short by a goat which has been tethered to a post in the centre of the lawn. The garden is surrounded by a low border of ferns.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42044,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Outhouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42030,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Inside a Farmhouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42036,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Orchard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42038": {
+          "vnum": 42038,
+          "name": "Unicorn Barn",
+          "description": "This small building is warm and well-kept. Each stall has its own water trough and manger, and the floor is covered with deep piles of dried farelith stalks. Several unicorns are sleeping here, their horns protected with thick linen bandages.",
+          "grid_x": -4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42031,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Unicorn Paddock",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42039": {
+          "vnum": 42039,
+          "name": "Deep Forest",
+          "description": "Tall trees surround you, their barks dull silver in the half-light. A fallen log litters the forest floor, covered in deep green moss and scarlet fungi. To the north a wooden cabin raised on stilts is just visible through the trees.",
+          "grid_x": -3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 42045,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Deep Forest",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42032,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 42046,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Hunting Lodge",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "42040": {
+          "vnum": 42040,
+          "name": "Amber Road",
+          "description": "The road is now passing through the very centre of the valley, becoming wider and busier with every step you take. Tall iron posts support a smooth amber spheres which glow a soft, suffuse light.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42047,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42034,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Stone Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42041": {
+          "vnum": 42041,
+          "name": "River Bluehorn",
+          "description": "The river is gentler and less choppy than further up its course, flowing slowly by a tall stone wall to the north. The vines that trail from small gaps almost completely cover the stonework, binding it more strongly than mortar.",
+          "grid_x": 1,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42042,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Swirling Confluence",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42035,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42042": {
+          "vnum": 42042,
+          "name": "Swirling Confluence",
+          "description": "A wide aqueduct has been built through the city above, running down the embankment to the river. Where the rivers meet, the water boils and churns, great clouds of steam rising upwards and obscuring your vision.",
+          "grid_x": 2,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42043,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Gully",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42041,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "River Bluehorn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 42048,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42043": {
+          "vnum": 42043,
+          "name": "River Gully",
+          "description": "The river abruptly turns towards the embankment, disappearing into a rocky chasm at its base. Your boat bucks and rocks violently as the water surges over boulders in its course, making it too difficult to continue.",
+          "grid_x": 3,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 42042,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Swirling Confluence",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42044": {
+          "vnum": 42044,
+          "name": "Outhouse",
+          "description": "This small wooden cabin houses the various tools a farmer might need. Some of these look fairly benign, but there are others which look like they're for removing particularly stubborn calves from birthing heifers.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42037,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Neat Lawns",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42045": {
+          "vnum": 42045,
+          "name": "Deep Forest",
+          "description": "The oak and sycamore trees press tightly around you and the only sound is the faint chirruping of a bird somewhere close at hand.",
+          "grid_x": -4,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42049,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Scramble",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 42039,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Deep Forest",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42046": {
+          "vnum": 42046,
+          "name": "Hunting Lodge",
+          "description": "The walls of this wooden building have been decorated with the kills the huntsman has accomplished. A wild boar roasts over a roaring fire and someone has cracked open a barrel of honey mead.",
+          "grid_x": 7,
+          "grid_y": -13,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 42039,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Deep Forest",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "42047": {
+          "vnum": 42047,
+          "name": "Amber Road",
+          "description": "The valley floor begins to rise again to the north, climbing towards a high plateau to the northwest. Over the tree-tops you can make out a bustling city protected by tall embankments on every side. The amber spheres flare gently as you pass.",
+          "grid_x": 0,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42052,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42040,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42048": {
+          "vnum": 42048,
+          "name": "Warm Brook",
+          "description": "The stream of warm water flows in an artificial channel of stone, raised to the level of the surrounding roofs by tall arches. Several people shout angrily at you, obviously for travelling along their source of hot water.",
+          "grid_x": 2,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 42053,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 42042,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Swirling Confluence",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42049": {
+          "vnum": 42049,
+          "name": "Rocky Scramble",
+          "description": "The valley floor rises suddenly, climbing up and out of the dense forest below. The hillside is littered with fallen boulders covered in growths of moss and lichen.",
+          "grid_x": -4,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42050,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "In the Ferns",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42056,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rock Lip",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42045,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Deep Forest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42050": {
+          "vnum": 42050,
+          "name": "In the Ferns",
+          "description": "As the terrain rises from the flat valley floor, the forest recedes into ferns and isolated pines. Walls of mist roll down the slope, shrouding what lies beyond from your eyes.",
+          "grid_x": -2,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42051,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Worn Pathway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42049,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Scramble",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42051": {
+          "vnum": 42051,
+          "name": "Worn Pathway",
+          "description": "Generations of Teraleans passing up the hillside towards the hot spring have worn a path amongst the ferns, formed of nothing more than hardened earth.",
+          "grid_x": -1,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42052,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42058,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Hot Water Cascade",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42050,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "In the Ferns",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42052": {
+          "vnum": 42052,
+          "name": "Amber Road",
+          "description": "The Amber Road becomes a wide crossroads here, paths leading in every direction. A rough worn road travels up a rocky incline to the west, mists rolling down it. To the east you can see the road climb up a tall stone embankment towards a city in the distance.",
+          "grid_x": 0,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 42060,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42047,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42051,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Worn Pathway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42053": {
+          "vnum": 42053,
+          "name": "Warm Brook",
+          "description": "The natural flow of hot water away from the springs has been diverted into an aqueduct that runs into the city. Peering down, you can see the people's astonished faces as you shoot past. Several children laugh and point.",
+          "grid_x": 1,
+          "grid_y": -7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 42059,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 42048,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 42060,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42054": {
+          "vnum": 42054,
+          "name": "Meditation Chamber",
+          "description": "This small chamber off the main hall of the temple is delightfully cool, the windows to the south thrown open to the wind. Delicate scents rise from an array of coloured candles and incense bowls.",
+          "grid_x": 3,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42062,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Ivory Temple",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42055": {
+          "vnum": 42055,
+          "name": "Gravel Pathway",
+          "description": "This roadway has been covered in a thick layer of gravel, the various colors separated out into swirls and criss-crossing patterns. The effect is so pleasing it almost seems a shame to walk along the path. Best keep to the grass verge.",
+          "grid_x": -5,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42056,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rock Lip",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42056": {
+          "vnum": 42056,
+          "name": "Rock Lip",
+          "description": "A high ledge of rock overlooks the hot spring area. From atop this slippery rock face you can see all the pools of hot water and crowds of people blurring in and out of the clouds of steam.",
+          "grid_x": -4,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42064,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Above the Hot Spring",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42049,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rocky Scramble",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42055,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Gravel Pathway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42057": {
+          "vnum": 42057,
+          "name": "A Steaming Pool",
+          "description": "You have to shield your bare skin from the scalding steam that boils off this pool. The thick mud bubbles and swells with pockets of foul-smelling gas, oozing all over your feet.",
+          "grid_x": -2,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42058,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Hot Water Cascade",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Tharisian the Mudman",
+              "description": "Have you any idea how good hot spring mud is for your skin?  The fruits of Tharisian's labours are used by nobles throughout Teralea.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42058": {
+          "vnum": 42058,
+          "name": "Hot Water Cascade",
+          "description": "The warm water that comes to the surface in the springs flows down over a ridge of rock, throwing great sheets of spray into the air. Ferns grow thickly along the gentle slope that leads up to the springs, clustering around the cascade.",
+          "grid_x": -1,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42059,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42066,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Hot Springs",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42051,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Worn Pathway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42057,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "A Steaming Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42059": {
+          "vnum": 42059,
+          "name": "Warm Brook",
+          "description": "The fast-flowing brook burbles pleasantly, tumbling down a rocky course that leads down the slope towards the valley floor. The water is still warm, lapping at your boat as you row along it.",
+          "grid_x": 0,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 42053,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42058,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Hot Water Cascade",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42060": {
+          "vnum": 42060,
+          "name": "Amber Road",
+          "description": "The Amber Road enters a bustling city, the mercantile heart of Teralea. The tall, narrow buildings cluster around the road, their roofs swamped with gables and towers. Running above the road is an aqueduct of hot water.",
+          "grid_x": 1,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42061,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Teralea Square",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 42052,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 42053,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Warm Brook",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42061": {
+          "vnum": 42061,
+          "name": "Teralea Square",
+          "description": "This is the heart of urban Teralea, a wide space of smooth stone surrounded by a colonnade of veined granite. The impressive facades of noblemen's houses around the square's perimeter are covered in growths of copper ivy. Over the rooftops to the east you can see the glittering dome of a vast temple, and a road to the north climbs further up the valley walls to a palace, perched on a ledge above.",
+          "grid_x": 2,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42062,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Ivory Temple",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42068,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Palace Roadway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42060,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Amber Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              42068
+            ],
+            "active": true,
+            "stack_default_vnum": 42061
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42062": {
+          "vnum": 42062,
+          "name": "The Ivory Temple",
+          "description": "It is hard to believe that this pillared hall is actually indoors. Thick pillars of ivory support an enormous arched roof of glass and crystal, so clear and well-cleaned that it is only just visible. Small braziers of glowing coals line the aisle towards the altar.",
+          "grid_x": 3,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42063,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The High Altar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42054,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Meditation Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42061,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Teralea Square",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42063": {
+          "vnum": 42063,
+          "name": "The High Altar",
+          "description": "The dais you walk upon is dominated by a simple altar of black marble, the colour in contrast to everything else in this temple. The panels on each side are decorated with inscriptions in a language you cannot read, and atop the altar is a tiny chalice of ivory.",
+          "grid_x": 4,
+          "grid_y": -8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "n": {
+              "to_vnum": 42069,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Sacristy",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42062,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Ivory Temple",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              42069
+            ],
+            "active": true,
+            "stack_default_vnum": 42063
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42064": {
+          "vnum": 42064,
+          "name": "Above the Hot Spring",
+          "description": "A rough path runs above the hot springs, keeping close to the valley wall. A small garden has been sown here, and a few benches have been placed around the lawn. A few people are resting here, enjoying the view of the valley.",
+          "grid_x": -4,
+          "grid_y": -9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42075,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Sheer Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42056,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Rock Lip",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42065": {
+          "vnum": 42065,
+          "name": "In the Hot Spring",
+          "description": "This is the largest of the pools, the water a dull blue and saturated with healing minerals. You can feel all your cares being leeched away by the relaxing warmth.",
+          "grid_x": 7,
+          "grid_y": -11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 42066,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Hot Springs",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "42066": {
+          "vnum": 42066,
+          "name": "The Hot Springs",
+          "description": "All round you swirl clouds of water vapour which rise from pools of bubbling water. The ferns have receded, creating a plateau strewn with rocks. Rivulets and streams of hot water froth and churn ceaselessly, showering you with droplets.",
+          "grid_x": -1,
+          "grid_y": -9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42067,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Geyser",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42071,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Wooden Platform",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42058,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Hot Water Cascade",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 42065,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "In the Hot Spring",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "42067": {
+          "vnum": 42067,
+          "name": "The Geyser",
+          "description": "The mists are even thicker here, swirling around the rocky landscape. At the very centre of these boulders is a wide crack in the earth. About twice as wide as it is long, it plunges deep into the bedrock where the underground heat turns water that trickles down through the earth into steam...",
+          "grid_x": 0,
+          "grid_y": -9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 42066,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Hot Springs",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42068": {
+          "vnum": 42068,
+          "name": "Palace Roadway",
+          "description": "A steep roadway zigzags haphazardly through the city, climbing up a steep incline towards the palace. Tall columns mark the entrance to a magnificent courtyard, inscribed with the arms of the king of Teralea.",
+          "grid_x": 2,
+          "grid_y": -8,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 42073,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Palace Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42061,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Teralea Square",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              42061
+            ],
+            "active": false,
+            "stack_default_vnum": 42061
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42069": {
+          "vnum": 42069,
+          "name": "Sacristy",
+          "description": "This small chamber off the main altar is where the clergy store their special robes and vestments. The many wooden shelves hold golden treasures from the first years of settlement in the valley. Some bear the same writing you saw on the altar.",
+          "grid_x": 4,
+          "grid_y": -8,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "s": {
+              "to_vnum": 42063,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The High Altar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              42063
+            ],
+            "active": false,
+            "stack_default_vnum": 42063
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42070": {
+          "vnum": 42070,
+          "name": "Private Spring",
+          "description": "This pool of steaming water is slightly separated from the rest, screened on all sides by tall boulders. Now the private leisure area of a Teralean noble, coloured glass tiles cover the edges of the pool.",
+          "grid_x": -3,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42076,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The House of Herrin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42071": {
+          "vnum": 42071,
+          "name": "Wooden Platform",
+          "description": "Some craftsmen have laid wooden slats across posts driven into the hot pools below, creating a wide wooden deck. Amid the curls of steam that rise from between the boards, you can see Teraleans dangling their feet into the waters below.",
+          "grid_x": -1,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42072,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Wooden Steps",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42066,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The Hot Springs",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42072": {
+          "vnum": 42072,
+          "name": "Wooden Steps",
+          "description": "Wooden boards make up a rough staircase that climbs up the slope of the valley to the north. Mounted on stilts above the rough terrain below, the stairway makes climbing the slope relatively easy.",
+          "grid_x": 0,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42078,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Forested Slope",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42071,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Wooden Platform",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42073": {
+          "vnum": 42073,
+          "name": "Palace Courtyard",
+          "description": "The courtyard is surrounded by a colonnade on two sides, the tall gabled roofs of the palace above them. Over the western wall a cliff drops towards the city below, spires of smoke rising heavenwards. A small fountain burbles happily.",
+          "grid_x": 2,
+          "grid_y": -9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 42074,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Banqueting Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42080,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Alabaster Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42068,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Palace Roadway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42074": {
+          "vnum": 42074,
+          "name": "Banqueting Hall",
+          "description": "One enormous room, this hall with its ornate trestle tables could seat practically every Teralean in one go. The dais at the south end of the room is furnished with gilt chairs, wall-paintings depicting the history of Teralea.",
+          "grid_x": 3,
+          "grid_y": -9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "n": {
+              "to_vnum": 42081,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Throne Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42073,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Palace Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42075": {
+          "vnum": 42075,
+          "name": "Sheer Wall",
+          "description": "This is the north-eastern end of the valley, the cliffs suddenly rising up out of the ground. Further up the rocks you can see ice formations and frost, obviously where the warmth of this valley reaches an end.",
+          "grid_x": -4,
+          "grid_y": -11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42076,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The House of Herrin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42064,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Above the Hot Spring",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42076": {
+          "vnum": 42076,
+          "name": "The House of Herrin",
+          "description": "This spacious house has high ceilings and wide, open-plan rooms, separated by light gossamer drapes. The white marble columns and tiles are cool and refreshing in the hot sun. Brightly coloured shawls decorate the walls.",
+          "grid_x": -3,
+          "grid_y": -11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42077,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Coppice",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42070,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Private Spring",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42075,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Sheer Wall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42077": {
+          "vnum": 42077,
+          "name": "Coppice",
+          "description": "The northern forests have been separated from the pine expanse to the southwest since the hot springs erupted from the ground. This small cluster of trees is the perfect place to rest awhile.",
+          "grid_x": -2,
+          "grid_y": -11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42078,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Forested Slope",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42083,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Silent Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42076,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "The House of Herrin",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42078": {
+          "vnum": 42078,
+          "name": "Forested Slope",
+          "description": "Tufts of green ferns and reeds poke up from the banks of small watercourses that flow down between the oak trees.",
+          "grid_x": 0,
+          "grid_y": -11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42084,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "End of the Valley",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42072,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Wooden Steps",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42077,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Coppice",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42079": {
+          "vnum": 42079,
+          "name": "Oaken Balcony",
+          "description": "This wide balcony overlooks the whole of the valley, the view unobstructed by the towers of the palace to the east. Below you the domes of the city give way to the forests of the northern slopes, clouds of mist rising from the rocky plateau of the hot springs.",
+          "grid_x": 1,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 42080,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Alabaster Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42080": {
+          "vnum": 42080,
+          "name": "Alabaster Hall",
+          "description": "The long hall is lined with ornamental jeralah trees, pruned into delicate spirals. The long avenue down towards the throne chamber is marked with a red carpet, and enormous candle-bearing chandeliers hang down from the ceiling.",
+          "grid_x": 2,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 42081,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Throne Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42073,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Palace Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42079,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Oaken Balcony",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Prince Naeras",
+              "description": "The Crown Prince is said to be an arrogant, self-serving fool.  He looks it, all right.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42081": {
+          "vnum": 42081,
+          "name": "Throne Chamber",
+          "description": "This circular room is adorned with velvet drapes of deep crimson bearing the symbol of Perrinas in gold thread. Wide steps lead up to a throne of ebony and stone, which looks as ancient as the chalice in the temple.",
+          "grid_x": 3,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "e": {
+              "to_vnum": 42082,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Solar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42074,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Banqueting Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42080,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Alabaster Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42082": {
+          "vnum": 42082,
+          "name": "Solar",
+          "description": "The small chamber is heated by a roaring fireplace, a wide four-poster bed covered in sheets of silk and wool. A stone bath is being filled with hot water that pours from a small aqueduct that leads around the room and out a gap in the wall.",
+          "grid_x": 4,
+          "grid_y": -10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "w": {
+              "to_vnum": 42081,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Throne Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 42085,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Council Chamber",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42083": {
+          "vnum": 42083,
+          "name": "Silent Forest",
+          "description": "You have entered a part of the forest no-one has set foot in for centuries. Not a sound reaches your ears, the trees and saplings completely motionless. There does not seem to be anything stirring apart from yourself.",
+          "grid_x": -2,
+          "grid_y": -12,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 42086,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Forgotten Clearing",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42077,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Coppice",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42084": {
+          "vnum": 42084,
+          "name": "End of the Valley",
+          "description": "You have reached the very end of Teralea, the forested slopes closing in on this point and meeting in a narrow gully. Above you there are mountains taller than any you have seen before, ice and snow covering their peaks. The warm wind is trapped and swirls around you.",
+          "grid_x": 0,
+          "grid_y": -12,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42078,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Forested Slope",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42086": {
+          "vnum": 42086,
+          "name": "Forgotten Clearing",
+          "description": "Deep within this utterly silent forest, you come across a circular clearing. A strange ring of stones is at the centre, hewn boulders scattered all around. Ivy and vines have almost completely engulfed the area, tall birch trees surrounding you on every side. Not a sound can be heard. Dull gray tin flecks are scattered through the stone.",
+          "grid_x": -3,
+          "grid_y": -13,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 42083,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Silent Forest",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {
+        "1": "#e05555",
+        "3": "#e05555"
+      },
+      "metadata": {
+        "min_x": -5,
+        "max_x": 4,
+        "min_y": -13,
+        "max_y": 4,
+        "room_count": 85
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 42085,
+      "rooms": {
+        "42085": {
+          "vnum": 42085,
+          "name": "Council Chamber",
+          "description": "In this secluded tower is the meeting place of the Teralean Ruling Council, the nobles and wise men that help govern this valley. A round oaken table is surrounded by tall ornate chairs and is scattered with paperwork. A guttering candle is the only light.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 42082,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Solar",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 42001,
+      "to": 42002,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42002,
+      "to": 42003,
+      "direction": "n",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42003,
+      "to": 42005,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 42004,
+      "to": 42010,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42005,
+      "to": 42006,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42005,
+      "to": 42011,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42006,
+      "to": 42007,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42007,
+      "to": 42013,
+      "direction": "n",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42008,
+      "to": 42009,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42008,
+      "to": 42016,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42009,
+      "to": 42010,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42009,
+      "to": 42017,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42010,
+      "to": 42011,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42011,
+      "to": 42012,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42011,
+      "to": 42018,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42012,
+      "to": 42013,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42012,
+      "to": 42006,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42012,
+      "to": 42019,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42013,
+      "to": 42014,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42013,
+      "to": 42020,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42014,
+      "to": 42021,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42015,
+      "to": 42016,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42015,
+      "to": 42023,
+      "direction": "n",
+      "from_grid": [
+        -5,
+        -1
+      ],
+      "to_grid": [
+        -5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42017,
+      "to": 42025,
+      "direction": "ne",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42018,
+      "to": 42019,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42018,
+      "to": 42026,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42019,
+      "to": 42020,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42020,
+      "to": 42021,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42020,
+      "to": 42028,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42021,
+      "to": 42022,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42021,
+      "to": 42029,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42022,
+      "to": 42030,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 42024,
+      "to": 42025,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42024,
+      "to": 42032,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        -2
+      ],
+      "to_grid": [
+        -3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42025,
+      "to": 42026,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42025,
+      "to": 42033,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42026,
+      "to": 42027,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 42026,
+      "to": 42034,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42029,
+      "to": 42030,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42029,
+      "to": 42036,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42030,
+      "to": 42037,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 42031,
+      "to": 42032,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -3
+      ],
+      "to_grid": [
+        -3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42031,
+      "to": 42038,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -3
+      ],
+      "to_grid": [
+        -4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 42032,
+      "to": 42039,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        -3
+      ],
+      "to_grid": [
+        -3,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42033,
+      "to": 42035,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -5
+      ],
+      "to_grid": [
+        -1,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42034,
+      "to": 42040,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42035,
+      "to": 42041,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -5
+      ],
+      "to_grid": [
+        1,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42036,
+      "to": 42037,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42037,
+      "to": 42044,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42039,
+      "to": 42045,
+      "direction": "nw",
+      "from_grid": [
+        -3,
+        -4
+      ],
+      "to_grid": [
+        -4,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42040,
+      "to": 42047,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42041,
+      "to": 42042,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -5
+      ],
+      "to_grid": [
+        2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42042,
+      "to": 42043,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -5
+      ],
+      "to_grid": [
+        3,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42045,
+      "to": 42049,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -6
+      ],
+      "to_grid": [
+        -4,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42047,
+      "to": 42052,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -6
+      ],
+      "to_grid": [
+        0,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42048,
+      "to": 42053,
+      "direction": "nw",
+      "from_grid": [
+        2,
+        -6
+      ],
+      "to_grid": [
+        1,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42049,
+      "to": 42050,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -7
+      ],
+      "to_grid": [
+        -2,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42049,
+      "to": 42056,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -7
+      ],
+      "to_grid": [
+        -4,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42050,
+      "to": 42051,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -7
+      ],
+      "to_grid": [
+        -1,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42051,
+      "to": 42052,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -7
+      ],
+      "to_grid": [
+        0,
+        -7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42051,
+      "to": 42058,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -7
+      ],
+      "to_grid": [
+        -1,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42052,
+      "to": 42060,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        -7
+      ],
+      "to_grid": [
+        1,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42053,
+      "to": 42059,
+      "direction": "nw",
+      "from_grid": [
+        1,
+        -7
+      ],
+      "to_grid": [
+        0,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42054,
+      "to": 42062,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -6
+      ],
+      "to_grid": [
+        3,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42055,
+      "to": 42056,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        -8
+      ],
+      "to_grid": [
+        -4,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42056,
+      "to": 42064,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -8
+      ],
+      "to_grid": [
+        -4,
+        -9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42057,
+      "to": 42058,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -8
+      ],
+      "to_grid": [
+        -1,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42058,
+      "to": 42059,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -8
+      ],
+      "to_grid": [
+        0,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42058,
+      "to": 42066,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -8
+      ],
+      "to_grid": [
+        -1,
+        -9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42060,
+      "to": 42061,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -8
+      ],
+      "to_grid": [
+        2,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42061,
+      "to": 42062,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -8
+      ],
+      "to_grid": [
+        3,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42061,
+      "to": 42068,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -8
+      ],
+      "to_grid": [
+        2,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42062,
+      "to": 42063,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -8
+      ],
+      "to_grid": [
+        4,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42063,
+      "to": 42069,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -8
+      ],
+      "to_grid": [
+        4,
+        -8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42064,
+      "to": 42075,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        -9
+      ],
+      "to_grid": [
+        -4,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42066,
+      "to": 42067,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -9
+      ],
+      "to_grid": [
+        0,
+        -9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42066,
+      "to": 42071,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -9
+      ],
+      "to_grid": [
+        -1,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42068,
+      "to": 42073,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -8
+      ],
+      "to_grid": [
+        2,
+        -9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42070,
+      "to": 42076,
+      "direction": "n",
+      "from_grid": [
+        -3,
+        -10
+      ],
+      "to_grid": [
+        -3,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42071,
+      "to": 42072,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -10
+      ],
+      "to_grid": [
+        0,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42072,
+      "to": 42078,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -10
+      ],
+      "to_grid": [
+        0,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42073,
+      "to": 42074,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -9
+      ],
+      "to_grid": [
+        3,
+        -9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42073,
+      "to": 42080,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -9
+      ],
+      "to_grid": [
+        2,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42074,
+      "to": 42081,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -9
+      ],
+      "to_grid": [
+        3,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42075,
+      "to": 42076,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -11
+      ],
+      "to_grid": [
+        -3,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42076,
+      "to": 42077,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -11
+      ],
+      "to_grid": [
+        -2,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42077,
+      "to": 42078,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -11
+      ],
+      "to_grid": [
+        0,
+        -11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42077,
+      "to": 42083,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -11
+      ],
+      "to_grid": [
+        -2,
+        -12
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42078,
+      "to": 42084,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -11
+      ],
+      "to_grid": [
+        0,
+        -12
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42079,
+      "to": 42080,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -10
+      ],
+      "to_grid": [
+        2,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42080,
+      "to": 42081,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -10
+      ],
+      "to_grid": [
+        3,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42081,
+      "to": 42082,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -10
+      ],
+      "to_grid": [
+        4,
+        -10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42083,
+      "to": 42086,
+      "direction": "nw",
+      "from_grid": [
+        -2,
+        -12
+      ],
+      "to_grid": [
+        -3,
+        -13
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

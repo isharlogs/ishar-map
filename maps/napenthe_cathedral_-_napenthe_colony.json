@@ -1,0 +1,1405 @@
+{
+  "zone_name": "Napenthe Cathedral - Napenthe Colony",
+  "entry_vnum": 47036,
+  "floor_count": 5,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 2,
+    "min_y": -3,
+    "max_y": 4
+  },
+  "floors": {
+    "-3": {
+      "floor_id": -3,
+      "entry_vnum": 47083,
+      "rooms": {
+        "47083": {
+          "vnum": 47083,
+          "name": "Stand",
+          "description": "A trail from the west halts here beneath a lush stand of trees on the mountainside. Two cracked, battered ivory pillars joined by a sign-stone above flank a path north which ends abruptly, leading nowhere. The ground is well worn here, and slight disturbances in the air are felt.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47070,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "On the Mount",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47085,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Third Tier",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 47085,
+      "rooms": {
+        "47085": {
+          "vnum": 47085,
+          "name": "Third Tier",
+          "description": "The terrain flattens briefly here, before a minuscule staircase twisting up the mountain. From this vantage point you can view the colony structures and forested basin below, wrapped in mist. You can go down, but it appears to be a bit of a drop.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go into": {
+              "to_vnum": 47083,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stand",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47083,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stand",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47087,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 47087,
+      "rooms": {
+        "47087": {
+          "vnum": 47087,
+          "name": "Staircase",
+          "description": "Halfway up these steps you begin to make out a low, wide archway at the top. Rain pours down from the sky, washing the steps and urging you onward. From the open archway spills an amber tint and a hint of warmer, dryer air.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47085,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Third Tier",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47088,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Archway",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47036,
+      "rooms": {
+        "47034": {
+          "vnum": 47034,
+          "name": "Cathedral Hallway",
+          "description": "This lengthy, narrow hallway links the Cathedral center with its eastern wing. Detailed murals cover the walls from floor to ceiling, the colors faded and paint cracked by the passage of time.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47036,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral East",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47095,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Center",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47035": {
+          "vnum": 47035,
+          "name": "Cathedral Hallway",
+          "description": "A long, slender hallway connects the Cathedral center to its western wing. Upon the walls are painted sweeping landscapes of the surrounding area.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47095,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Center",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47037,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral West",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47036": {
+          "vnum": 47036,
+          "name": "Cathedral East",
+          "description": "A small staircase twists upward upon the eastern wall of this hexagonal room. An open aperture leads north into the chantry, the muffled voices of the devout and the desperate echoing through the halls.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47026,
+              "to_zone": "Midor House - Napenthe Basin Forest",
+              "to_room_name": "Chantry",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47057,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Library",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47034,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47037": {
+          "vnum": 47037,
+          "name": "Cathedral West",
+          "description": "The western hallway terminates at this hexagon-shaped room, containing a curving staircase leading upward. An exit leads north into the cathedral baptistry.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47035,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47029,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Baptistry",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47056,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Gallery",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47081": {
+          "vnum": 47081,
+          "name": "Garden Stand",
+          "description": "Within a small circle of trees under the cathedral dome you feel strangely and perhaps mistakenly at ease, standing upon a slab of solid granite. Here rests a solid silver and turquoise altar, the sacrament of agarbathies burning upon it.",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47015,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Hidden Sanctum",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 47038,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Dome",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47082": {
+          "vnum": 47082,
+          "name": "Crematorium Furnace",
+          "description": "Within the furnace charred bones mingle happily with glowing coals, the living fire leaping up from the gloriously morbid pile at will.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 47097,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Crematorium",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "FIREBLOOM",
+              "rank": 44,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47086": {
+          "vnum": 47086,
+          "name": "Baptismal Pool",
+          "description": "Maybe this pool isn't so shallow, after all. You and your gear quickly begin to sink downward upon entering. A mosaic covers the interior walls of the pool, the images surreally distorted by the undulating water.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47029,
+              "to_zone": "Napenthe Basin Forest",
+              "to_room_name": "Baptistry",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47088": {
+          "vnum": 47088,
+          "name": "Archway",
+          "description": "You stand beneath a low archway at the top of the staircase. Through the arch, the mountain opens up into a mammoth cavern lit by a rotating amber disc high above. A narrow stone bridge joins with the final step here to offer passage toward a darkened cathedral, levitating at the center of the mountain cavern.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47089,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stone Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47087,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47089": {
+          "vnum": 47089,
+          "name": "Stone Bridge",
+          "description": "You cautiously tread upon this thin beam of stone serving as a bridge to the Cathedral, your footsteps echoing in the vastness of the tremendous cavern flanking your sides.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47090,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stone Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47088,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Archway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47155
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47090": {
+          "vnum": 47090,
+          "name": "Stone Bridge",
+          "description": "The darkened cathedral looms before you as you approach the structure, occasional flashes of light bursting from within. You tread carefully upon the narrow stone bridge, peering downward into the mist-filled cavern.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47091,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Gate",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47089,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stone Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47155
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47091": {
+          "vnum": 47091,
+          "name": "Cathedral Gate",
+          "description": "You stand before the abandoned cathedral of Napenthe. Above and beyond, the glowing amber disc is mirrored upon the domed cathedral roof. At this close proximity you find it difficult to maintain your footing, as you begin to feel slightly weightless...",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47092,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 47090,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Stone Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47092": {
+          "vnum": 47092,
+          "name": "Cathedral Entrance",
+          "description": "A grand, three-tiered chandelier hangs high above you in the expanse of the cathedral entrance. A checkered tile floor spills out of the room toward exits at your north, east, and west dominated by sharply pointed archways. The dead, dried petals of flowers springing up from the corners drift on currents caused by the mysterious, periodic disturbances in the air here.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47093,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Guards Quarters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47095,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Center",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47091,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Gate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47094,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Receiving Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47093": {
+          "vnum": 47093,
+          "name": "Guards Quarters",
+          "description": "The eastern arch leads into these small quarters, providing lodging for the cathedral guards. Bunk beds are paired with footlockers in neat rows. Upon one wall is mounted a large, looming portrait covered in dust.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47092,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Entrance",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47094": {
+          "vnum": 47094,
+          "name": "Receiving Room",
+          "description": "A thick layer of dust here provides a tributary to the absence of visitors at the cathedral. The small, modest desk and set of moderately stuffed chairs sit empty; unused for perhaps years. A large stone panel is set into the wall behind the desk, bearing no markings or apparent purpose.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47092,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47095": {
+          "vnum": 47095,
+          "name": "Cathedral Center",
+          "description": "Four wide, mirrored, square pillars stand at the compass points of this round room joined by parchment-thin sheets of glass to form a diamond, creating a large enclosed area. Members of the priesthood rush by, cautiously avoiding the structure. Small, low openings venture in the four directions.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47034,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47096,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47092,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47035,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47096": {
+          "vnum": 47096,
+          "name": "Cathedral Hall",
+          "description": "This northern chamber is of a hexagonal design. Solid blocks of deep amber are embedded into the walls containing the bodies of those unfortunate members of the priesthood to fail in their quest for immortality. A thin, steep staircase curves upward, while two passages split off to the northwest and northeast.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 47098,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Priests Chambers",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 47097,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Crematorium",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47095,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Center",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47099,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47097": {
+          "vnum": 47097,
+          "name": "Crematorium",
+          "description": "A large, sooty room reeking of decay, bodies stacked upon one another in haphazard piles along the walls. Dominating the room is a huge, burning furnace mounted upon the floor. A few discarded urns roll about amongst the ashes here. A brilliant orange flower thrives here, its petals flickering like flame.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 47096,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hall",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 47082,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Crematorium Furnace",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "FIREBLOOM",
+              "rank": 44,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47098": {
+          "vnum": 47098,
+          "name": "Priests Chambers",
+          "description": "Rows of sturdy wooden cots line the east and western walls here in the priestly chamber. Hung along the northern wall is an old, faded tapestry. In the center of the room sits a large silver altar, images molded into each of its four sides.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 47096,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hall",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 4,
+        "room_count": 18
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47099,
+      "rooms": {
+        "47038": {
+          "vnum": 47038,
+          "name": "Cathedral Dome",
+          "description": "Path-stones lead from the staircase to the south into a garden here underneath the cathedral dome. A plethora of unfamiliar wildflowers and herbs flourish here, complimenting a stand of small trees in the center which have been carefully tended to form a circle. Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47099,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Staircase",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 47081,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Garden Stand",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47099": {
+          "vnum": 47099,
+          "name": "Cathedral Staircase",
+          "description": "The staircase deposits you upon a small stone landing. At the sides of the final step rest two ivory statues. A set of stones form a path leading into a garden beneath the cathedral dome to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47038,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Dome",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47096,
+              "to_zone": "Napenthe Cathedral - Napenthe Colony",
+              "to_room_name": "Cathedral Hall",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47034,
+      "to": 47036,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47034,
+      "to": 47095,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47035,
+      "to": 47095,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47035,
+      "to": 47037,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47038,
+      "to": 47099,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47088,
+      "to": 47089,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47089,
+      "to": 47090,
+      "direction": "n",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47090,
+      "to": 47091,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47091,
+      "to": 47092,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 47092,
+      "to": 47093,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47092,
+      "to": 47095,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47092,
+      "to": 47094,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47095,
+      "to": 47096,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47096,
+      "to": 47098,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47096,
+      "to": 47097,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

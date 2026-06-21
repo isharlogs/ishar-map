@@ -1,0 +1,1866 @@
+{
+  "zone_name": "Eastern Road",
+  "entry_vnum": 24046,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -8,
+    "max_x": 6,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 59000,
+      "rooms": {
+        "59000": {
+          "vnum": 59000,
+          "name": "Sleep Tag Headquarters",
+          "description": "Object of the game: To eliminate all other players by putting them to sleep with magical staves. Logistics: You may buy as many staves as you like, each for a cost of between 1 and 3 hundred coins (depends on level). Each staff has one charge, and you will lose all staves once you are slept or the game has otherwise ended. All money used to purchase staves goes into the pot. You may buy more staves at any time during the game. Winning: If you win (by being the last person left awake), you receive the pot of coins from all staff purchases. Commands: BUY -- buy one staff SCORE -- shows how much is in the pot (in addition to regular info) GO -- leave this room and begin playing the game QUIT tag rooms",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 59025,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Hall of Tiles",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 59025,
+      "rooms": {
+        "59025": {
+          "vnum": 59025,
+          "name": "The Hall of Tiles",
+          "description": "You stand in a vast hall, extending as far as you can see in any direction. The floor is tiled with large, patterned squares that swirl and change as you watch. Each tile is the same, depicting a chaotic war dominated by periodic flashes from white staves and vanishing corpses. The action entrances you, and you feel as if you could step into the tile and take part in the war yourself. You wander about the hall for a while, but find nothing more. The tiles continue to beckon to you. Overhead, a trapdoor offers an alternative.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 59000,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Sleep Tag Headquarters",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 59030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Circle of Stones",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24034,
+      "rooms": {
+        "24080": {
+          "vnum": 24080,
+          "name": "Among the Trees",
+          "description": "Well-maintained walnut and pecan trees grow in ordered and spacious rows along either side of the road. The forest, of beech, elm, and yew, borders the grove to the east, and a crossroads near a manor house lies to the west. Country Road",
+          "grid_x": -8,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24081,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24036,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24081": {
+          "vnum": 24081,
+          "name": "Road Through the Forest",
+          "description": "The trees are widely spaced here, and there is little underbrush. The detritus from a thousand autumns blankets the wide ways between the trees. The road continues to the east and west.",
+          "grid_x": -7,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24044,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24080,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Among the Trees",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24082": {
+          "vnum": 24082,
+          "name": "The Cut",
+          "description": "You find yourself on a narrow road skirting the edge of a deep cut in the earth. The road travels away from this gorge to the west into a wooded area and it skirts the gorge to the south. A footpath leads down into the canyon.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24083,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Gorge Bottom",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57000,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24047,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "59030": {
+          "vnum": 59030,
+          "name": "The Circle of Stones",
+          "description": "The large blocks of red sandstone close in on you from all sides, making you a bit claustrophobic. In the center of the circle, you notice a patch of ground on which all the grass has pulled away. The only exit lies to the south, back to the Eastern Road.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 57002,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 59025,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Hall of Tiles",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24095": {
+          "vnum": 24095,
+          "name": "Muddy Path",
+          "description": "A road dips into a marshy field here. A nearby river feeds the marsh. Attempts have been made to place rocks in the road to help the traveler, but they are all half-sunken in the mud. The road becomes more dry to the south, and it continues through the tall grass of the field toward the north.",
+          "grid_x": 6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61030,
+              "to_zone": "Gnomish Oaks",
+              "to_room_name": "Edge of the Marsh",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24032,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "Grassy Outskirts",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24096,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Dusty Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24096": {
+          "vnum": 24096,
+          "name": "Dusty Road",
+          "description": "A matted yellow mohawk of grass limply divides the two wide and barren swaths of dirt which make up this road. The road abruptly curves into a pasture and turns into a wide and muddy footpath to the north, and thirstily crawls toward a river to the west.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24095,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Muddy Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24097,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Dusty Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24097": {
+          "vnum": 24097,
+          "name": "Dusty Road",
+          "description": "Tiny vortices of wind-spun dust dance at the edges of this rutted road, sending grains of earth settling into the empty ditches that line it. To the west is the chatter of a wide, shallow river, while to the east the dust-devils spin their preoccupied minuets.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24096,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Dusty Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57006,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Bruenor's Crossing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57000": {
+          "vnum": 57000,
+          "name": "The Eastern Road",
+          "description": "The road bends from the north to the east here, rising steeply along a ridge in the latter direction. A gentle slope to the south leads down to the edge of a wide brown river where it emerges from the woods to the southeast. You can travel north, east, or south.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57001,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24082,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Cut",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57016,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57001": {
+          "vnum": 57001,
+          "name": "The Eastern Road",
+          "description": "You travel along a well-kept road running from east to west. The road rises steeply eastward here as it mounts a hill. To the south, the way leads down to the thick forest that shrouds the river basin. You can walk east or west along the road, or head down the grassy slope to the south.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57002,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57032,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57000,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57002": {
+          "vnum": 57002,
+          "name": "The Eastern Road",
+          "description": "As you trudge along the road, you notice that you have reached the crest of the hill. From this vantage point, you can see past the opposing hill which bounds the river to the south and into the open grasslands beyond. The road slopes gradually downward to the east, and more sharply so to the west. The grasses to the south lead into the heavily wooded river valley between the hills. Just off the road to the north, you spot a small circle of standing stones.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57003,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 59030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Circle of Stones",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57031,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57001,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57003": {
+          "vnum": 57003,
+          "name": "The Eastern Road",
+          "description": "Although you stand just below the crest of the hill, the view nevertheless entrances you. Far along the road to the east, you make out the River of Bruenor's Woe as it threads its way out of the mountains and down into the valley to the south. You can head east or west along the road, or south toward the river.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57004,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57002,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57004": {
+          "vnum": 57004,
+          "name": "The Eastern Road",
+          "description": "The road winds its way down from west to east, heading for the River of Bruenor's Woe. Although the road shows signs of long use, you note that the cart ruts cut only an inch into the ground--the road has been kept in good repair. The slopes to the south lead toward the river valley.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57005,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Riverbank",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57029,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57003,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57005": {
+          "vnum": 57005,
+          "name": "Riverbank",
+          "description": "The River of Bruenor's Woe flows just east of here, meandering southward down the grassy slopes before dropping sharply into the wooded river valley. A road leads in from the west to a point in the river where stones have been placed to allow easy crossing. Beyond the stones, you spot the beginnings of another road. A dirt path leads north along the riverside, and the grassy slopes follow it to the south.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57006,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Bruenor's Crossing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24034,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Boat Yard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57028,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57004,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57006": {
+          "vnum": 57006,
+          "name": "Bruenor's Crossing",
+          "description": "You stand on stones placed carefully into the waters of the river. Though worn smooth by ages of water, they yet provide adequate footing to avoid the chill waters and powerful current. In the middle of the river, a large stone rises above the others, and has been marked with a placard of bronze. The river runs north and south, and roads run to the banks on either side.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24097,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Dusty Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24068,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the River",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57007,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The River of Bruenor's Woe",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57005,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Riverbank",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57029": {
+          "vnum": 57029,
+          "name": "Northern Slopes of the River Valley",
+          "description": "The steep hillside leads down toward the river to the south, but the thick forest there blocks all attempts at entry. You can walk through the grass to the west or climb back north to the road.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57004,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57030": {
+          "vnum": 57030,
+          "name": "Northern Slopes of the River Valley",
+          "description": "Just south of here, the knee-high grasses amongst which you stand give way to the tangled branches and thick underbrush of the forest covering the river basin. The slope continues east and west, and rises sharply to the north toward the crest of the hill.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57029,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57003,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57021,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57031,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57031": {
+          "vnum": 57031,
+          "name": "Northern Slopes of the River Valley",
+          "description": "As you move along the slope north of the river basin, you hear a strangled cry from the dark forest rising in the valley to the south. You listen carefully, but hear only silence and the distant cries of birds of prey. The tangled branches block the way west, forcing you to either climb the steep hill to the north, move further east along the slopes, or lay yourself at the mercy of the forest to the south.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57030,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57002,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57036,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "57032": {
+          "vnum": 57032,
+          "name": "Northern Slopes of the River Valley",
+          "description": "The grass-covered slope drops rapidly away to the south, where it enters the thick forest that hides the river. The forest also rises east of here, forcing one to move uphill to the north to avoid it. Downhill to the west, the path to the river becomes more gentle.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 57036,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 57001,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Eastern Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57022,
+              "to_zone": "The Dark Forest - Brown River Valley",
+              "to_room_name": "The Dark Forest",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 57016,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Northern Slopes of the River Valley",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72015": {
+          "vnum": 72015,
+          "name": "Wooded Path",
+          "description": "The thin trees of the forest outskirts grow about you in serene bliss. Small rodents rustle in the undergrowth; hawks and sparrows flit past on the breeze overhead. The worn path upon which you stand winds northward into the tranquil depths of the forest, and southward toward the ruined foundations of a crumbling building.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24046,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72017,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Mine Entrance",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72016": {
+          "vnum": 72016,
+          "name": "Grassy Trail",
+          "description": "A light breeze rustles the grassy field with its chilling touch. The thin path upon which you stand leads westward to a larger road, and eastward to the foundation of a ruined building. The crumbling walls of Oldgate mar the countryside some distance to the south. Mine Entrance",
+          "grid_x": 9,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72017,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Mine Entrance",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22094,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24034": {
+          "vnum": 24034,
+          "name": "Boat Yard",
+          "description": "",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24033,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Stout Cabin",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57005,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Riverbank",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24044": {
+          "vnum": 24044,
+          "name": "Road Through the Forest",
+          "description": "Birch trees predominate in this section of forest. The underbrush is crossed with game trails on either side. To the west the trees open up and assume the semblance of a park, but the east leads to a densely packed section of old and brooding trees.",
+          "grid_x": -6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24045,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24081,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24045": {
+          "vnum": 24045,
+          "name": "Road Through the Forest",
+          "description": "The brooding trees gather thickly here. They crowd into the road and lean over pensively. Their hunkering limbs push any and all light from above. The dim road traverses the gloom to the east and west.",
+          "grid_x": -5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24046,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24044,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24046": {
+          "vnum": 24046,
+          "name": "Road Through the Forest",
+          "description": "This is the kind of forest that has existed since the beginning of time. Thick moss drips with moisture on every branch, and strange insects and fungi Thick moss drips with moisture on every branch, and strange insects and fungi cover the ground and trunks of the place. The dimness gives the place a watchful air, as if the whole living thing were waiting for some great rupture in the fabric of the world.",
+          "grid_x": -4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24047,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61050,
+              "to_zone": "Daemonwood",
+              "to_room_name": "Path through the Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72015,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Wooded Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24045,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24047": {
+          "vnum": 24047,
+          "name": "Road Through the Forest",
+          "description": "The forest floor is jagged and broken here. The thick roots of the fat The forest floor is jagged and broken here. The thick roots of the fat tree- trunks encircle mossy boulders and twist into rock-filled hillocks. You can travel east or west.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24082,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Cut",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24046,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Road Through the Forest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -8,
+        "max_x": 6,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 25
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24034,
+      "to": 57005,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24044,
+      "to": 24045,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        -1
+      ],
+      "to_grid": [
+        -5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24044,
+      "to": 24081,
+      "direction": "w",
+      "from_grid": [
+        -6,
+        -1
+      ],
+      "to_grid": [
+        -7,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24045,
+      "to": 24046,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24046,
+      "to": 24047,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24046,
+      "to": 72015,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24047,
+      "to": 24082,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24080,
+      "to": 24081,
+      "direction": "e",
+      "from_grid": [
+        -8,
+        -1
+      ],
+      "to_grid": [
+        -7,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24082,
+      "to": 57000,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24095,
+      "to": 24096,
+      "direction": "s",
+      "from_grid": [
+        6,
+        -1
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24096,
+      "to": 24097,
+      "direction": "w",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24097,
+      "to": 57006,
+      "direction": "w",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57000,
+      "to": 57001,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57001,
+      "to": 57002,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57001,
+      "to": 57032,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57002,
+      "to": 57003,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57002,
+      "to": 59030,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57002,
+      "to": 57031,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57003,
+      "to": 57004,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57003,
+      "to": 57030,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57004,
+      "to": 57005,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57004,
+      "to": 57029,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57005,
+      "to": 57006,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57029,
+      "to": 57030,
+      "direction": "w",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 57030,
+      "to": 57031,
+      "direction": "w",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

@@ -1,0 +1,6745 @@
+{
+  "zone_name": "City of Oldgate",
+  "entry_vnum": 22009,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -7,
+    "max_x": 18,
+    "min_y": -6,
+    "max_y": 12
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 22034,
+      "rooms": {
+        "22034": {
+          "vnum": 22034,
+          "name": "Stone Quay",
+          "description": "This is a popular jumping-off point.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 23025,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 22023,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Quay Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 22011,
+      "rooms": {
+        "22016": {
+          "vnum": 22016,
+          "name": "Water Circle",
+          "description": "Someone was clever enough to build this street on a low hill. At least that way the muck runs back into the river. You can go north or east.",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22017,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Circle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22004,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22017": {
+          "vnum": 22017,
+          "name": "Water Circle",
+          "description": "The street dead-ends here, but you see a small storefront tucked among the boarded-up flop houses. The sign says \"Sirac's Used Arms,\" and there is a doorway under it (to the east).",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22038,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Siracs Used Arms",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22016,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Circle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22018": {
+          "vnum": 22018,
+          "name": "Water Buffalo Way",
+          "description": "Red light is cast from the upstairs windows of the building to the east, but there seems to be no way in from this street. You can continue north or south.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22005,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22029,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22019": {
+          "vnum": 22019,
+          "name": "Fen Way",
+          "description": "This narrow street looks like a good place to have a bad time. The only exit is north.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22006,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22020": {
+          "vnum": 22020,
+          "name": "Niche Circle",
+          "description": "This street runs behind Manfred's Fruits. To the south is a very large, unmarked building in good repair, but there seems to be no way in. You think that you see movement in one of the upstairs windows. You get the uncomfortable feeling that you are being watched.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22021,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22007,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22021": {
+          "vnum": 22021,
+          "name": "Guard Street",
+          "description": "There is a noticeable lack of foot traffic on this street.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22008,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22032,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22020,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Niche Circle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22022": {
+          "vnum": 22022,
+          "name": "Main Avenue",
+          "description": "The cobblestones of Main Street extend to the north and south. Bailey Street lies to the east, and to the west you can see a pole painted in a red and white spiral which advertises that the doorway next to it belongs to a barber.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22033,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22009,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22051,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22074,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Newbills Barbery",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22023": {
+          "vnum": 22023,
+          "name": "Quay Stairs",
+          "description": "These stairs are gently bowed by four hundred years of foot traffic.",
+          "grid_x": -6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 22004,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 22034,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Stone Quay",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22025": {
+          "vnum": 22025,
+          "name": "Lindas Curve",
+          "description": "Small flowerbeds line this gently curving street. It is one of the few places in this quarter that you might like to spend some time in.",
+          "grid_x": 8,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22012,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22036,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22024,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "The Arcade",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22026": {
+          "vnum": 22026,
+          "name": "Cypress Gardens Way",
+          "description": "If it weren't for all of the colorful penmanship that illuminates the city wall here, this would be a pretty boring place.",
+          "grid_x": 12,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22014,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22045,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22037,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22024": {
+          "vnum": 22024,
+          "name": "The Arcade",
+          "description": "Wares are laid out on small blankets in this covered street. Mr Ghanji keeps a sharp eye on them because he works on commission.",
+          "grid_x": 7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22025,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Lindas Curve",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22028": {
+          "vnum": 22028,
+          "name": "Well Court",
+          "description": "This area is a center of activity in this section of town because it is the only public place with potable water.",
+          "grid_x": -6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22027,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22029": {
+          "vnum": 22029,
+          "name": "Water Buffalo Way",
+          "description": "A narrow, dim alley to the east leads to no good. Your mother warned you about these places.",
+          "grid_x": -3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22030,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Sticky Alley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22018,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22040,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22030": {
+          "vnum": 22030,
+          "name": "Sticky Alley",
+          "description": "A narrow, inset door with a greasy handle leads north, while the alley works its way east and west.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22031,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Sticky Alley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 23062,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Green Hotel",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 22029,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22031": {
+          "vnum": 22031,
+          "name": "Sticky Alley",
+          "description": "It ends in a trash-cluttered space with a small set of steps leading down to an unmarked door.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23072,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Office",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 22030,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Sticky Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22032": {
+          "vnum": 22032,
+          "name": "Guard Street",
+          "description": "The street makes a sharp right turn. It is forbiddingly quiet here.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22021,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22042,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22033": {
+          "vnum": 22033,
+          "name": "Bailey Street",
+          "description": "The public restrooms are north of here. It's a good thing that you don't have to use them, because you'd have to push your way through a thick swarm of flies.",
+          "grid_x": 6,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22036,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22083,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Public Restrooms",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22022,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22036": {
+          "vnum": 22036,
+          "name": "Bailey Street",
+          "description": "This is getting to be a bad part of town again. People hurry by without meeting your eyes. It might be a good time to check your purse. Lindas Curve offers some hope to the north, or you can take your chances to the east or west.",
+          "grid_x": 8,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22037,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22025,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Lindas Curve",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22033,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22037": {
+          "vnum": 22037,
+          "name": "Bailey Street",
+          "description": "A low, arched entryway nearly hides an exit to the south. You wonder what mysterious secrets might be hiding there.",
+          "grid_x": 9,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22026,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22043,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Jenny Alley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22036,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22038": {
+          "vnum": 22038,
+          "name": "Siracs Used Arms",
+          "description": "This dingy place smells of dust, knife oil, sweat, and some sort of Gelshian cured meatstuffs. In the dimness you can see blankets laid over hay bales, and on these blankets lie various nasty-looking weapons. You feel as if unseen eyes are watching you.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22017,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Circle",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22039": {
+          "vnum": 22039,
+          "name": "Wellway Way",
+          "description": "A sign to the east reads \"Guild's Gym: Member's Only. \" In small letters underneath you see the legend \"No questions asked. \" This looks like a tough place.",
+          "grid_x": -7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23037,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Gym Entrance",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22027,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22046,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22040": {
+          "vnum": 22040,
+          "name": "Water Buffalo Way",
+          "description": "You can go north or south.",
+          "grid_x": -3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22029,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22047,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22041": {
+          "vnum": 22041,
+          "name": "South Fen Way",
+          "description": "A small, dingy courthouse lies to the west. You'd better go south.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 22048,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22082,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Poortown Courts of Justice",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22042": {
+          "vnum": 22042,
+          "name": "Guard Street",
+          "description": "The street makes a hard right turn. You have the option of heading east or south.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22032,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22049,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22043": {
+          "vnum": 22043,
+          "name": "Jenny Alley",
+          "description": "This is a perfect alley: narrow and tight. A large carving on the east wall draws your eye. You can go north or west.",
+          "grid_x": 9,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22075,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Thieves Guild Entrance Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22037,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22044,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Jenny Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22044": {
+          "vnum": 22044,
+          "name": "Jenny Alley",
+          "description": "A heavy iron grate in the ground is secured by a heavy padlock.",
+          "grid_x": 8,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22043,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Jenny Alley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22045": {
+          "vnum": 22045,
+          "name": "Cypress Gardens Way",
+          "description": "The city wall casts a shadow on this street through most of the day.",
+          "grid_x": 12,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22026,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22054,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 22079,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guild Rooftop",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22046": {
+          "vnum": 22046,
+          "name": "West Ironbar Street",
+          "description": "The wind pushes its tired way through the un-paned windows of dull brick buildings here. Black streamers of soot climb up the arches over each opening. It looks safer to the north and east, but you'd better sharpen up your weapons and your wits if you intend to go south.",
+          "grid_x": -7,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22047,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22039,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22055,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22047": {
+          "vnum": 22047,
+          "name": "West Ironbar Street",
+          "description": "Looking north, you can see all the way to the Brown River. To the east the neighborhood looks better, but if you go west you'd better oil your scabbards.",
+          "grid_x": -3,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22048,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22040,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22046,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22048": {
+          "vnum": 22048,
+          "name": "West Ironbar Street",
+          "description": "A foul smell from the south warns you of a small magic shop. Another street leads to the north, or you can continue either east or west.",
+          "grid_x": -1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22049,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22041,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "South Fen Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22084,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "The Witchery",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22047,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22049": {
+          "vnum": 22049,
+          "name": "West Ironbar Street",
+          "description": "Guard Street twists its way north of here, while a small alley opens directly to the south. West Ironbar continues east and west from here.",
+          "grid_x": 1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22050,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22042,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22062,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cat Alley",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22048,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22050": {
+          "vnum": 22050,
+          "name": "West Ironbar Street",
+          "description": "The local commissariat is to the north, and across the street to the south is a pet shop painted in a dull green.",
+          "grid_x": 3,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22051,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22086,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Report Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22080,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Xantias Exotics",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22049,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22051": {
+          "vnum": 22051,
+          "name": "Main Avenue",
+          "description": "Pigeons and vandals have effaced the statue of a forgotten defender of the city, but he still looks vigilantly to the defense of Auldgate, far to the north. Ironbar Street intersects with Main Avenue here.",
+          "grid_x": 5,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22052,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22022,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22063,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22050,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22052": {
+          "vnum": 22052,
+          "name": "East Ironbar Street",
+          "description": "The main entrance to the old district jail is northward. Ragged children move in small swarms around the large marble steps leading there. The bars that gave the street its name sprout from the rough, heavy, stone walls.",
+          "grid_x": 7,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22053,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 23000,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Entrance Room",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22051,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22053": {
+          "vnum": 22053,
+          "name": "East Ironbar Street",
+          "description": "A windowless brick building lines the street to the north, while, to the south, temple street gracefully leads away. Ironbar Street continues to the east and west.",
+          "grid_x": 9,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22054,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22064,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22052,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22054": {
+          "vnum": 22054,
+          "name": "East Ironbar Street",
+          "description": "The wall of this mysterious building presses against the sidewalk to the north until it is stopped by Cypress Gardens Way. To the south is a large construction area.",
+          "grid_x": 12,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22045,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22053,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22055": {
+          "vnum": 22055,
+          "name": "Crook Street",
+          "description": "This street is not laid out evenly like the rest of the city. It is narrow and tortured and cluttered with broken brick. Some extortionist has added an ominous message to the wall and part of a door in a stylized script. The message reads: Giants crush all enemies. All others pay or die.",
+          "grid_x": -7,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22046,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 22056,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22056": {
+          "vnum": 22056,
+          "name": "Crook Street",
+          "description": "Knowing the streets would be a definite advantage in this part of town. You are almost certain that you are being kept track of. A drainpipe shimmies up the wall.",
+          "grid_x": -6,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 22057,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 22055,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23040,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "On the Drainpipe",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            23041
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22057": {
+          "vnum": 22057,
+          "name": "Crook Street",
+          "description": "A twisted drainpipe dribbles tatted feathers and oily water from the rooftops far above.",
+          "grid_x": -5,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 22058,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 22056,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23043,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "On the Drainpipe",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            23044
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22058": {
+          "vnum": 22058,
+          "name": "Crook Street",
+          "description": "It seems like this wet canyon of a street never dries. A thick drainpipe adds to a substantial pool that fills part of the street here.",
+          "grid_x": -4,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 22057,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 22059,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Turn in Crook Street",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23045,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "On the Drainpipe",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            23046
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22059": {
+          "vnum": 22059,
+          "name": "Turn in Crook Street",
+          "description": "There is barely enough room to pull an ox-cart on this decaying, dripping street. A wide drainpipe is precariously attached to the wall here.",
+          "grid_x": -3,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 22058,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Crook Street",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 22060,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Dead End in Crook Street",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23045,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "On the Drainpipe",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            23046
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22060": {
+          "vnum": 22060,
+          "name": "Dead End in Crook Street",
+          "description": "The street suddenly widens into an open area littered with sticks and pieces of broken glass. A small door is set in the northeast wall, but it has no handles, hinges, or locks on this side. A worried drainpipe leans against the wall near the door. This looks like a dead end.",
+          "grid_x": -2,
+          "grid_y": 11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 22059,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Turn in Crook Street",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23047,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "On the Ledge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22061": {
+          "vnum": 22061,
+          "name": "Narrow Alley",
+          "description": "The hollow bones of small birds lie, cracked and dried, in small piles of wind- swept feathers here. The stomach-turning reek of feral cats marks this entire alley. A small door is to the southwest.",
+          "grid_x": -1,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 22062,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cat Alley",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "sw": {
+              "to_vnum": 22060,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Dead End in Crook Street",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22062": {
+          "vnum": 22062,
+          "name": "Cat Alley",
+          "description": "Small, feline footprints mark the mud in this narrow way. Another alley goes southwest, and an iron door is set in the wall to the northeast. The alley continues.",
+          "grid_x": 1,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 22081,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Xantias Stockroom",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "nw": {
+              "to_vnum": 22049,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 22063,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 22061,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Narrow Alley",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 23058,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Walking a Thin Plank",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22063": {
+          "vnum": 22063,
+          "name": "Main Avenue",
+          "description": "Main Avenue bisects Poortown. To the east is Temple Street, and to the west is the opening of an alley.",
+          "grid_x": 5,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22066,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22051,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22065,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22062,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cat Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22064": {
+          "vnum": 22064,
+          "name": "Temple Street",
+          "description": "To the north, the street lets out on Ironbar Street. To the south it continues around the side of a small temple. The clink and clack of coins can be heard from the brick buildings to the east and west.",
+          "grid_x": 9,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23074,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Oldgate Exchequer",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22053,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Ironbar Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22068,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22065": {
+          "vnum": 22065,
+          "name": "Main Avenue",
+          "description": "The way widens, and you can travel north, south, or west in this dilapidated section of town. Surtower is directly to the south. A dump can be found to the west.",
+          "grid_x": 5,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22063,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22072,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Surtower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 23075,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Dump of Oldgate",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22066": {
+          "vnum": 22066,
+          "name": "Temple Street",
+          "description": "A cul-de-sac opens up to the south, and the way leads both east and west.",
+          "grid_x": 6,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22067,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22069,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cul-de-Sac",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22063,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22067": {
+          "vnum": 22067,
+          "name": "Temple Street",
+          "description": "North is a store that sells religious books and other magical bric-a-brac. To the south you can see another narrow artery. The road leads east and west.",
+          "grid_x": 8,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22068,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22090,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "The Blessed Polarity",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22070,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Short Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22066,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22068": {
+          "vnum": 22068,
+          "name": "Temple Street",
+          "description": "The road winds both north and west, but the most interesting feature of this section of street is the small, domed temple. Two interlocking circles are carved in the lintel, and they are surrounded by a repeating pattern of pluses and minuses. To the east is the temple stair.",
+          "grid_x": 9,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23027,
+              "to_zone": "Oldtown Temple District - City of Oldgate",
+              "to_room_name": "The Quartz Stairs",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22064,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22067,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22069": {
+          "vnum": 22069,
+          "name": "Cul-de-Sac",
+          "description": "Graffiti lines the boarded-up buildings of this confined space. You can make out a small opening between two buildings to the east.",
+          "grid_x": 6,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23076,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Nook",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22066,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22070": {
+          "vnum": 22070,
+          "name": "Short Street",
+          "description": "This is an appropriate name. You can go north or south.",
+          "grid_x": 8,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22067,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22071,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cul-de-Sac",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22071": {
+          "vnum": 22071,
+          "name": "Cul-de-Sac",
+          "description": "Graffiti lines the boarded-up buildings of this confined space.",
+          "grid_x": 8,
+          "grid_y": 11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22070,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Short Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22072": {
+          "vnum": 22072,
+          "name": "Surtower",
+          "description": "This tower is a companion to the one several blocks to the north. It is, however, in a miserable state of repair. It looks like the only way to close the portcullis would be to break the chain that is wrapped around the rusting iron chain-wheel. Stairs lead upward, and the gates lead north and south.",
+          "grid_x": 5,
+          "grid_y": 11,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22065,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22073,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside of Surtower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22073": {
+          "vnum": 22073,
+          "name": "Outside of Surtower",
+          "description": "The dilapidated southern entrance to Oldgate lies before you, clothed in rust and mortar. Amber grass covers the land to the south and east, while to the west rise numerous small bushes which quickly give way to trees. You can travel eastward along the wall or enter Oldgate to the north.",
+          "grid_x": 5,
+          "grid_y": 12,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71050,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22072,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Surtower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 76074,
+              "to_zone": "Talrynian Forest",
+              "to_room_name": "Sparse Trees",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22074": {
+          "vnum": 22074,
+          "name": "Newbills Barbery",
+          "description": "This is a typical barber shop. A comfortable chair, razors, soap, hot towels, pliers for pulling teeth, lances for boils, leaches in a small aquarium, bloody sawdust swept into a corner, and dirty jokes.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22022,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22075": {
+          "vnum": 22075,
+          "name": "Thieves Guild Entrance Hall",
+          "description": "A small table and bench are carved out of one block of stone that is cemented into the floor. A mural of St. Nicholas spruces up the place a bit. Opposite the mural is a staircase leading upward, and to the east, opposite the main entrance, is a doorway.",
+          "grid_x": 10,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22076,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Practice Auditorium",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22043,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Jenny Alley",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 22078,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Penthouse Lounge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22076": {
+          "vnum": 22076,
+          "name": "Practice Auditorium",
+          "description": "A small raised stage allows the master to observe his students from every angle. A trap-door leads into murky darkness under the stage.",
+          "grid_x": 11,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22075,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Thieves Guild Entrance Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22080": {
+          "vnum": 22080,
+          "name": "Xantias Exotics",
+          "description": "These walls surround an assortment of wicker, steel, and wooden cages, and glass aquariums. You enjoy the rich smells of animal fodder and waste. A large steel door is set into the southwestern wall.",
+          "grid_x": 3,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22050,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 22081,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Xantias Stockroom",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22081": {
+          "vnum": 22081,
+          "name": "Xantias Stockroom",
+          "description": "This place is STUFFED with kitten chow.",
+          "grid_x": 2,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 22080,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Xantias Exotics",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "sw": {
+              "to_vnum": 22062,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cat Alley",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22082": {
+          "vnum": 22082,
+          "name": "Poortown Courts of Justice",
+          "description": "This is where justice, such as it is, is dispensed in Poortown. The room smells like sour beer and cheap perfume. A throne-like chair awaits a judge to sit and adjudicate. This room is normally filled with the detritus of even this ugly city.",
+          "grid_x": -2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22041,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "South Fen Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Judge Hornblower",
+              "description": "He's a big guy.  He used to be a wrestler.  His stage name was The Mighty Hornblower. Not too clever, but it worked.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22083": {
+          "vnum": 22083,
+          "name": "Public Restrooms",
+          "description": "The once-white walls are covered in thick graffiti and the stone toilets are worn smooth from their years of service.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 23019,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Sewage Viaduct",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22033,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Bailey Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22084": {
+          "vnum": 22084,
+          "name": "The Witchery",
+          "description": "This establishment is decorated with lacy taste. The curtains, like most of the fabric in the room, are made of printed cotton with a blue and white checkered pattern. There are also lots of stylized depictions of geese and ducks wearing bonnets and carrying wicker baskets. The decor give you the overall impression of a padded cell.",
+          "grid_x": -1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22085,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Triangle Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22048,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Minion of the Four",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22085": {
+          "vnum": 22085,
+          "name": "Triangle Room",
+          "description": "This triangular room has a small bed in one corner, and a table holding the paraphernalia of magic.",
+          "grid_x": 0,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22084,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "The Witchery",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22086": {
+          "vnum": 22086,
+          "name": "Report Room",
+          "description": "A large, raised desk dominates this room. The pale green walls are matted with wanted posters, and you think that you see your portrait peeking from behind another warrant. Two doorways exit this room. One is to the north and one is to the south.",
+          "grid_x": 3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22087,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Commissariat Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22050,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Ironbar Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22087": {
+          "vnum": 22087,
+          "name": "Commissariat Hallway",
+          "description": "This short hallway has exits to the east, and to the north, and to the south.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22088,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Interrogation Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22089,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Captains Office",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 22086,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Report Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22088": {
+          "vnum": 22088,
+          "name": "Interrogation Room",
+          "description": "This drab little room has a large wooden table with hooks set around the edges. It's highly polished floor has a small drain set in it. It doesn't look like most people come here on their own volition.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22087,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Commissariat Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22089": {
+          "vnum": 22089,
+          "name": "Captains Office",
+          "description": "This small room is neatly arranged. It has a small desk, a filing cabinet, and a wooden swivel chair.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 22087,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Commissariat Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22090": {
+          "vnum": 22090,
+          "name": "The Blessed Polarity",
+          "description": "You see lots of glow-in-the-dark keychains and little plaques with trite sayings on them. The whole place smells like patchouli which normally wouldn't bother you so much, except that there's enough of it in the air that it makes you feel as if you are going to sneeze.",
+          "grid_x": 8,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 22067,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Temple Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22091": {
+          "vnum": 22091,
+          "name": "Gypsy Camp",
+          "description": "You have come upon a secluded campsite, screened from observation from without by natural and artificial walls of brush. It is a rather small and pitiful little camp with a single tent to the east.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22092,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Ratty Tent",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 22097,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22092": {
+          "vnum": 22092,
+          "name": "Ratty Tent",
+          "description": "An unpleasant odor of unwashed bodies and general decay hangs over the tent like an evil fog. A cot, some bits of old food and miscellaneous bric-a-brac are all that there is to see. The tent flap opens to the west and leads to the clean atmosphere of the outdoors.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22091,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Gypsy Camp",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22093": {
+          "vnum": 22093,
+          "name": "Oldgate Road",
+          "description": "You move along a short stretch of road just north of Oldgate. The road continues a little ways to the north then turns west and continues out of sight.",
+          "grid_x": 5,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22094,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22000,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside Oldgate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22094": {
+          "vnum": 22094,
+          "name": "Oldgate Road",
+          "description": "A large, formidable gate can be seen in the distance to the south, regulating passage into what looks to be a rather seedy city. A wide trail leads north toward an ancient drawbridge. A thin trail leads through a grassy field to the east, and Oldgate Road continues into the distance to the west. Grassy Trail",
+          "grid_x": 5,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72016,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Grassy Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22093,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22095,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22095": {
+          "vnum": 22095,
+          "name": "Oldgate Road",
+          "description": "The road here is almost devoid of cobble-stones, scavenged for other uses in past years. The way continues only a short way to the east before turning south but proceeds quite a distance to the west. Oldgate Road",
+          "grid_x": 4,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22094,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22096,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22096": {
+          "vnum": 22096,
+          "name": "Oldgate Road",
+          "description": "The gnarled trees which line the road have a twisted, malignant look to them and seem to look accusingly at you as you pass by. Even the birds and insects have grown silent as if waiting for you to begone before they continue their business.",
+          "grid_x": 3,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22095,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22097,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22097": {
+          "vnum": 22097,
+          "name": "Oldgate Road",
+          "description": "The encroaching forest has nearly reclaimed this section of road as its own and the smell of grass and loam fills your nostrils. Perhaps a hint of wood- smoke is mingled in there also, but it is hard to be sure. The road continues to the north and east, and is blocked by thick bushes to the south and west. Ok. Gypsy Camp",
+          "grid_x": 2,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22096,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22098,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22091,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Gypsy Camp",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22098": {
+          "vnum": 22098,
+          "name": "Oldgate Road",
+          "description": "You move along what was once a cobbled road but the ravages of time and lack of repairs have reduced it to a weed-grown cart path. To the north you can see where the road intersects another, better maintained road. To the south, Oldgate Road continues. Oldgate Road",
+          "grid_x": 2,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24036,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22097,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22027": {
+          "vnum": 22027,
+          "name": "Wellway Way",
+          "description": "This spot is far enough away from the Brown River that weeds can grow here and there. The road continues to the north and south, and a wide opening between the arms of a building leads east.",
+          "grid_x": -7,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22028,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Well Court",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22015,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22039,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22000": {
+          "vnum": 22000,
+          "name": "Outside Oldgate",
+          "description": "This gate used to protect the city from foreign invaders. Now it protects the countryside from criminals. The gate passes through a crenelated tower where guards keep an eye on the traffic. A narrow, exposed stairway climbs up the structure. Oldgate Road",
+          "grid_x": 5,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22093,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22001,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 22035,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "On Oldgate Tower",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22001": {
+          "vnum": 22001,
+          "name": "Oldgate",
+          "description": "The bottom of the portcullis is bolted to a six-foot thick log, and the mechanism is kept in good repair. With so many other public works crumbling, it seems odd that the government would take such good care of this one.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22000,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside Oldgate",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22002,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Auldbridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22002": {
+          "vnum": 22002,
+          "name": "Auldbridge",
+          "description": "The Brown River flows beneath this bridge. As you look down you see how it got its name. A dip would be good for your skin, but bad for your immune system. The multicolored iridescence of the surface oil is beautiful to watch. To the north you see the Oldgate, which someone has been audacious enough to adorn with graffiti, and to the south lies Main Street.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22001,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22009,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22003": {
+          "vnum": 22003,
+          "name": "Wellway Way",
+          "description": "This is as far as you can go to the west unless you intend to climb over or dig under the city wall. You can go south, east, or, if you're feeling suicidal, you can jump in the brown river. But if you really want to kill yourself, it would probably be more pleasant to die by falling on your sword.",
+          "grid_x": -7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22004,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22015,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22004": {
+          "vnum": 22004,
+          "name": "West Goldfish Lane",
+          "description": "It doesn't seem as though there is a lot of gold here. There certainly aren't a lot of fish. The top of a flight of crumbling, stone stairs beckons to you from the north.",
+          "grid_x": -6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22005,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22023,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Quay Stairs",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22016,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Circle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22003,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22005": {
+          "vnum": 22005,
+          "name": "West Goldfish Lane",
+          "description": "When it rains hard it floods here, but the hip-boot industry keeps lobbying against fixing the levee.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22006,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22018,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Water Buffalo Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22004,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22006": {
+          "vnum": 22006,
+          "name": "West Goldfish Lane",
+          "description": "In the summertime this place is practically unlivable. First there's the smell, and then there are all of the friendly mosquitoes.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22007,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22019,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Fen Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22005,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22007": {
+          "vnum": 22007,
+          "name": "West Goldfish Lane",
+          "description": "A triangular building defines how the streets intersect here. It is home to Manfred's Fruits, a nice place to go to prevent scurvy.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22008,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22020,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Niche Circle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22006,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 22011,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Manfreds Fruits",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "22008": {
+          "vnum": 22008,
+          "name": "West Goldfish Lane",
+          "description": "Someone actually spotted a goldfish here a few years ago. At least that's the rumor. Judging by the smell, though, the goldfish was already dead.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22009,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22021,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guard Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22007,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22009": {
+          "vnum": 22009,
+          "name": "Main Avenue",
+          "description": "Wayfarers wend their way through the potholes on this cobblestoned street which leads north and south, or they can try their luck and their patience on Goldfish Avenue.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22010,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22002,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Auldbridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22022,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22008,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22010": {
+          "vnum": 22010,
+          "name": "East Goldfish Lane",
+          "description": "The public restroom to the south smells better than the Brown River to the north. Not only does the Brown River smell bad, but it looks as though if it weren't so slippery it would support a lot of weight.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22012,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22009,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Main Avenue",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22011": {
+          "vnum": 22011,
+          "name": "Manfreds Fruits",
+          "description": "You can buy seasonal fruits and vegetables in this small, triangular room. A trapdoor leads to the cellar where Manfred keeps his overstock.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 23068,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Fruit Cellar",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 22007,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "West Goldfish Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22012": {
+          "vnum": 22012,
+          "name": "East Goldfish Lane",
+          "description": "The breeze tries heroically to ruffle the water of the Brown River, but the water is just too slick.",
+          "grid_x": 8,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22013,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22025,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Lindas Curve",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22010,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22013": {
+          "vnum": 22013,
+          "name": "East Goldfish Lane",
+          "description": "One positive side-effect of spending so much time here is that you won't have to oil your leather goods for a long time.",
+          "grid_x": 10,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22014,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22012,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22014": {
+          "vnum": 22014,
+          "name": "Cypress Gardens Way",
+          "description": "Apparently the historians claim that there were trees in this area a long time ago. The historians drink too much.",
+          "grid_x": 12,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 22026,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22013,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "East Goldfish Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22015": {
+          "vnum": 22015,
+          "name": "Wellway Way",
+          "description": "It's good to be away from the stench of the river. On the other hand, this means that you are closer to the stench of the city. You can go north, toward the river, or south, toward danger.",
+          "grid_x": -7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 22003,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22027,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Wellway Way",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -7,
+        "max_x": 12,
+        "min_y": -6,
+        "max_y": 12,
+        "room_count": 94
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 22077,
+      "rooms": {
+        "23047": {
+          "vnum": 23047,
+          "name": "On the Ledge",
+          "description": "",
+          "grid_x": 21,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go overhang": {
+              "to_vnum": 23057,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Clutching the Overhang",
+              "direction": "go overhang",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 22060,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Dead End in Crook Street",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "22035": {
+          "vnum": 22035,
+          "name": "On Oldgate Tower",
+          "description": "You now stand on the roof of Oldgate Tower. You can see the road leading into the wilderness to the north and Poortown is laid out before you like the crumbling, forgotten toy of a child prince.",
+          "grid_x": 21,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 22000,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside Oldgate",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22077": {
+          "vnum": 22077,
+          "name": "Roof of the Jail",
+          "description": "It was very convenient of the Burghers of the city to build the jail right next to the thieves' guild. A skylight protrudes from the tarred roof, and a nice penthouse sits on the roof to the east.",
+          "grid_x": -1,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 23005,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "Closet",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "e": {
+              "to_vnum": 22078,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Penthouse Lounge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22078": {
+          "vnum": 22078,
+          "name": "Penthouse Lounge",
+          "description": "A small bar is at one end of this lounge. The place would be a lot more comfortable if someone wouldn't keep stealing the cushions. Doors lead east and west, and a staircase made for small, nimble feet leads downward.",
+          "grid_x": 17,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 22079,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Guild Rooftop",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22077,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Roof of the Jail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 22075,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Thieves Guild Entrance Hall",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "22079": {
+          "vnum": 22079,
+          "name": "Guild Rooftop",
+          "description": "The roof is littered with the discarded ashes of pipeweed smokers. Little bits of lint and string also cover the surface of the building. Nearby is a small penthouse with the guild logo carved in the door.",
+          "grid_x": 18,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 22078,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Penthouse Lounge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go over": {
+              "to_vnum": 22045,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "go over",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 22045,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Cypress Gardens Way",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 18,
+        "min_y": 5,
+        "max_y": 8,
+        "room_count": 5
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 22000,
+      "to": 22093,
+      "direction": "n",
+      "from_grid": [
+        5,
+        -3
+      ],
+      "to_grid": [
+        5,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22000,
+      "to": 22001,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -3
+      ],
+      "to_grid": [
+        5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22001,
+      "to": 22002,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -2
+      ],
+      "to_grid": [
+        5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22002,
+      "to": 22009,
+      "direction": "s",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22003,
+      "to": 22004,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        0
+      ],
+      "to_grid": [
+        -6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22003,
+      "to": 22015,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        0
+      ],
+      "to_grid": [
+        -7,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22004,
+      "to": 22005,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22004,
+      "to": 22023,
+      "direction": "n",
+      "from_grid": [
+        -6,
+        0
+      ],
+      "to_grid": [
+        -6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22004,
+      "to": 22016,
+      "direction": "s",
+      "from_grid": [
+        -6,
+        0
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22005,
+      "to": 22006,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22005,
+      "to": 22018,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22006,
+      "to": 22007,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22006,
+      "to": 22019,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22007,
+      "to": 22008,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22007,
+      "to": 22020,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22008,
+      "to": 22009,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22008,
+      "to": 22021,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22009,
+      "to": 22010,
+      "direction": "e",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22009,
+      "to": 22022,
+      "direction": "s",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22010,
+      "to": 22012,
+      "direction": "e",
+      "from_grid": [
+        6,
+        0
+      ],
+      "to_grid": [
+        8,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22011,
+      "to": 22007,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 22012,
+      "to": 22013,
+      "direction": "e",
+      "from_grid": [
+        8,
+        0
+      ],
+      "to_grid": [
+        10,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22012,
+      "to": 22025,
+      "direction": "s",
+      "from_grid": [
+        8,
+        0
+      ],
+      "to_grid": [
+        8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22013,
+      "to": 22014,
+      "direction": "e",
+      "from_grid": [
+        10,
+        0
+      ],
+      "to_grid": [
+        12,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22014,
+      "to": 22026,
+      "direction": "s",
+      "from_grid": [
+        12,
+        0
+      ],
+      "to_grid": [
+        12,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22015,
+      "to": 22027,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        2
+      ],
+      "to_grid": [
+        -7,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22016,
+      "to": 22017,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        1
+      ],
+      "to_grid": [
+        -5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22017,
+      "to": 22038,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22018,
+      "to": 22029,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22020,
+      "to": 22021,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22021,
+      "to": 22032,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22022,
+      "to": 22033,
+      "direction": "e",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        6,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22022,
+      "to": 22051,
+      "direction": "s",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        5,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22022,
+      "to": 22074,
+      "direction": "w",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22024,
+      "to": 22025,
+      "direction": "e",
+      "from_grid": [
+        7,
+        1
+      ],
+      "to_grid": [
+        8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22025,
+      "to": 22036,
+      "direction": "s",
+      "from_grid": [
+        8,
+        1
+      ],
+      "to_grid": [
+        8,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22026,
+      "to": 22045,
+      "direction": "s",
+      "from_grid": [
+        12,
+        3
+      ],
+      "to_grid": [
+        12,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22026,
+      "to": 22037,
+      "direction": "w",
+      "from_grid": [
+        12,
+        3
+      ],
+      "to_grid": [
+        9,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22027,
+      "to": 22028,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        3
+      ],
+      "to_grid": [
+        -6,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22027,
+      "to": 22039,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        3
+      ],
+      "to_grid": [
+        -7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22029,
+      "to": 22030,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22029,
+      "to": 22040,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -3,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22030,
+      "to": 22031,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22032,
+      "to": 22042,
+      "direction": "w",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22033,
+      "to": 22036,
+      "direction": "e",
+      "from_grid": [
+        6,
+        3
+      ],
+      "to_grid": [
+        8,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22033,
+      "to": 22083,
+      "direction": "n",
+      "from_grid": [
+        6,
+        3
+      ],
+      "to_grid": [
+        6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22036,
+      "to": 22037,
+      "direction": "e",
+      "from_grid": [
+        8,
+        3
+      ],
+      "to_grid": [
+        9,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22037,
+      "to": 22043,
+      "direction": "s",
+      "from_grid": [
+        9,
+        3
+      ],
+      "to_grid": [
+        9,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22039,
+      "to": 22046,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        4
+      ],
+      "to_grid": [
+        -7,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22040,
+      "to": 22047,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        4
+      ],
+      "to_grid": [
+        -3,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22041,
+      "to": 22048,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        -1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22041,
+      "to": 22082,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        -2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22042,
+      "to": 22049,
+      "direction": "s",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22043,
+      "to": 22075,
+      "direction": "e",
+      "from_grid": [
+        9,
+        4
+      ],
+      "to_grid": [
+        10,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22043,
+      "to": 22044,
+      "direction": "w",
+      "from_grid": [
+        9,
+        4
+      ],
+      "to_grid": [
+        8,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22045,
+      "to": 22054,
+      "direction": "s",
+      "from_grid": [
+        12,
+        5
+      ],
+      "to_grid": [
+        12,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22046,
+      "to": 22047,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        6
+      ],
+      "to_grid": [
+        -3,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22046,
+      "to": 22055,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        6
+      ],
+      "to_grid": [
+        -7,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22047,
+      "to": 22048,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        6
+      ],
+      "to_grid": [
+        -1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22048,
+      "to": 22049,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        6
+      ],
+      "to_grid": [
+        1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22048,
+      "to": 22084,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        6
+      ],
+      "to_grid": [
+        -1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22049,
+      "to": 22050,
+      "direction": "e",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        3,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22049,
+      "to": 22062,
+      "direction": "s",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        1,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 22050,
+      "to": 22051,
+      "direction": "e",
+      "from_grid": [
+        3,
+        6
+      ],
+      "to_grid": [
+        5,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22050,
+      "to": 22086,
+      "direction": "n",
+      "from_grid": [
+        3,
+        6
+      ],
+      "to_grid": [
+        3,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22050,
+      "to": 22080,
+      "direction": "s",
+      "from_grid": [
+        3,
+        6
+      ],
+      "to_grid": [
+        3,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22051,
+      "to": 22052,
+      "direction": "e",
+      "from_grid": [
+        5,
+        6
+      ],
+      "to_grid": [
+        7,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22051,
+      "to": 22063,
+      "direction": "s",
+      "from_grid": [
+        5,
+        6
+      ],
+      "to_grid": [
+        5,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22052,
+      "to": 22053,
+      "direction": "e",
+      "from_grid": [
+        7,
+        6
+      ],
+      "to_grid": [
+        9,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22053,
+      "to": 22054,
+      "direction": "e",
+      "from_grid": [
+        9,
+        6
+      ],
+      "to_grid": [
+        12,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22053,
+      "to": 22064,
+      "direction": "s",
+      "from_grid": [
+        9,
+        6
+      ],
+      "to_grid": [
+        9,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22055,
+      "to": 22056,
+      "direction": "se",
+      "from_grid": [
+        -7,
+        8
+      ],
+      "to_grid": [
+        -6,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22056,
+      "to": 22057,
+      "direction": "ne",
+      "from_grid": [
+        -6,
+        9
+      ],
+      "to_grid": [
+        -5,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22057,
+      "to": 22058,
+      "direction": "se",
+      "from_grid": [
+        -5,
+        8
+      ],
+      "to_grid": [
+        -4,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22058,
+      "to": 22059,
+      "direction": "se",
+      "from_grid": [
+        -4,
+        9
+      ],
+      "to_grid": [
+        -3,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22059,
+      "to": 22060,
+      "direction": "se",
+      "from_grid": [
+        -3,
+        10
+      ],
+      "to_grid": [
+        -2,
+        11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22061,
+      "to": 22062,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        10
+      ],
+      "to_grid": [
+        1,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 22061,
+      "to": 22060,
+      "direction": "sw",
+      "from_grid": [
+        -1,
+        10
+      ],
+      "to_grid": [
+        -2,
+        11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 22062,
+      "to": 22081,
+      "direction": "ne",
+      "from_grid": [
+        1,
+        9
+      ],
+      "to_grid": [
+        2,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 22062,
+      "to": 22063,
+      "direction": "se",
+      "from_grid": [
+        1,
+        9
+      ],
+      "to_grid": [
+        5,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 22063,
+      "to": 22066,
+      "direction": "e",
+      "from_grid": [
+        5,
+        9
+      ],
+      "to_grid": [
+        6,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22063,
+      "to": 22065,
+      "direction": "s",
+      "from_grid": [
+        5,
+        9
+      ],
+      "to_grid": [
+        5,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22064,
+      "to": 22068,
+      "direction": "s",
+      "from_grid": [
+        9,
+        8
+      ],
+      "to_grid": [
+        9,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22065,
+      "to": 22072,
+      "direction": "s",
+      "from_grid": [
+        5,
+        10
+      ],
+      "to_grid": [
+        5,
+        11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22066,
+      "to": 22067,
+      "direction": "e",
+      "from_grid": [
+        6,
+        9
+      ],
+      "to_grid": [
+        8,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22066,
+      "to": 22069,
+      "direction": "s",
+      "from_grid": [
+        6,
+        9
+      ],
+      "to_grid": [
+        6,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22067,
+      "to": 22068,
+      "direction": "e",
+      "from_grid": [
+        8,
+        9
+      ],
+      "to_grid": [
+        9,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22067,
+      "to": 22090,
+      "direction": "n",
+      "from_grid": [
+        8,
+        9
+      ],
+      "to_grid": [
+        8,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22067,
+      "to": 22070,
+      "direction": "s",
+      "from_grid": [
+        8,
+        9
+      ],
+      "to_grid": [
+        8,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22070,
+      "to": 22071,
+      "direction": "s",
+      "from_grid": [
+        8,
+        10
+      ],
+      "to_grid": [
+        8,
+        11
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22072,
+      "to": 22073,
+      "direction": "s",
+      "from_grid": [
+        5,
+        11
+      ],
+      "to_grid": [
+        5,
+        12
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22075,
+      "to": 22076,
+      "direction": "e",
+      "from_grid": [
+        10,
+        4
+      ],
+      "to_grid": [
+        11,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22077,
+      "to": 22078,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        8
+      ],
+      "to_grid": [
+        17,
+        8
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22078,
+      "to": 22079,
+      "direction": "e",
+      "from_grid": [
+        17,
+        8
+      ],
+      "to_grid": [
+        18,
+        5
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22080,
+      "to": 22081,
+      "direction": "sw",
+      "from_grid": [
+        3,
+        7
+      ],
+      "to_grid": [
+        2,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 22084,
+      "to": 22085,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        7
+      ],
+      "to_grid": [
+        0,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22086,
+      "to": 22087,
+      "direction": "n",
+      "from_grid": [
+        3,
+        5
+      ],
+      "to_grid": [
+        3,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22087,
+      "to": 22088,
+      "direction": "e",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22087,
+      "to": 22089,
+      "direction": "n",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 22091,
+      "to": 22092,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 22091,
+      "to": 22097,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22093,
+      "to": 22094,
+      "direction": "n",
+      "from_grid": [
+        5,
+        -4
+      ],
+      "to_grid": [
+        5,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22094,
+      "to": 22095,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -5
+      ],
+      "to_grid": [
+        4,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22095,
+      "to": 22096,
+      "direction": "w",
+      "from_grid": [
+        4,
+        -5
+      ],
+      "to_grid": [
+        3,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22096,
+      "to": 22097,
+      "direction": "w",
+      "from_grid": [
+        3,
+        -5
+      ],
+      "to_grid": [
+        2,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 22097,
+      "to": 22098,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -5
+      ],
+      "to_grid": [
+        2,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

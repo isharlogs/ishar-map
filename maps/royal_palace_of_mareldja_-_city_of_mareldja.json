@@ -1,0 +1,224 @@
+{
+  "zone_name": "Royal Palace of Mareldja - City of Mareldja",
+  "entry_vnum": 40102,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40102,
+      "rooms": {
+        "40112": {
+          "vnum": 40112,
+          "name": "Palace Entrance",
+          "description": "The palace entrance is filled with polished blocks of white and grey marble and illuminated by several small globes on top of silver rods. An archway sits to the south, supported by fluted columns of the same grey stone. The effect is one of airy immensity and tasteful reserve. A small door rests open to the east, and another to the north leads outside.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40065,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Palace Gates",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40111,
+              "to_zone": "Royal Palace of Mareldja - City of Mareldja",
+              "to_room_name": "Hall of Frescoes",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            40108,
+            40113
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40101": {
+          "vnum": 40101,
+          "name": "Audience Hall",
+          "description": "The audience hall is a vast and airy place. A map of the world is inlaid upon the the floor in malachite, jasper, lapis, and other semi-precious stones representing forests, fields, water, and mountains. A huge set of doors sits to the north, carved with floral patterns and gleaming with jewels. A wooden throne rests atop a dias beneath a banner depicting a sword within a crown, its blade pointing downward.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40111,
+              "to_zone": "Royal Palace of Mareldja - City of Mareldja",
+              "to_room_name": "Hall of Frescoes",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40102": {
+          "vnum": 40102,
+          "name": "Treasure Chamber",
+          "description": "Chests piled high with gold coins and gleaming jewels fill the room. Beautifully wrought necklaces and bracelets shimmer in the light. Bars of bullion lie stacked against the wall. The idea of such immense wealth gathered in such a small place dazzles you.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 40117,
+              "to_zone": "The Rooftops - City of Mareldja",
+              "to_room_name": "Tower Top",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            40103
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40111": {
+          "vnum": 40111,
+          "name": "Hall of Frescoes",
+          "description": "Two frescoes follow you as you wander down the hall, both by the famous artist Vardil. To the south is a set of doors, carved with elaborate floral patterns framing the symbol of a sword through a crown, the blade pointing downward. To the north you can see the palace entrance.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40112,
+              "to_zone": "Royal Palace of Mareldja - City of Mareldja",
+              "to_room_name": "Palace Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40101,
+              "to_zone": "Royal Palace of Mareldja - City of Mareldja",
+              "to_room_name": "Audience Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 40101,
+      "to": 40111,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40111,
+      "to": 40112,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

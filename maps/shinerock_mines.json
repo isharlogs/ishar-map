@@ -1,0 +1,2840 @@
+{
+  "zone_name": "Shinerock Mines",
+  "entry_vnum": 72017,
+  "floor_count": 6,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 5,
+    "min_y": -3,
+    "max_y": 2
+  },
+  "floors": {
+    "-5": {
+      "floor_id": -5,
+      "entry_vnum": 72043,
+      "rooms": {
+        "72043": {
+          "vnum": 72043,
+          "name": "Guard Room",
+          "description": "This small chamber would be insignificant were it not so absurd. Just who do these little bugs think they are? A guard house! You'll just have to teach them a lesson in the merits of humanity. A swirling mass of the beasts can be seen through a hole in the floor, crawling about near the core of the hive.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 72067,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "Cross-Cut Intersection",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72046,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72066,
+              "to_zone": "Shinerock Depths - Shinerock Mines",
+              "to_room_name": "West Tunnel",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72044": {
+          "vnum": 72044,
+          "name": "Cluttered Tunnel",
+          "description": "Rust and rock are the words of choice in this cluttered tunnel. Anything that you might imagine would find its way into a mine has been dragged here by the clickers to clear the rest of the caverns. There's a large mining cart, three pairs of moldy socks, a board with the phrase \"Ghanji's Things\" painted on it, and a complete collector's set of red and white striped pseudo- Napenthian deadly dragon-style wrestling dolls, among other things. The messy tunnel continues to the east, and opens up into a large chamber to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72045,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Cluttered Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72047,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72045": {
+          "vnum": 72045,
+          "name": "Cluttered Tunnel",
+          "description": "All sorts of things have been strewn across the floor of the tunnel here. Apparently, this is where the insectoid inhabitants bring things that they have scavenged from elsewhere in the mine. Rusted iron mining implements lie decaying in droves upon the tunnel floor. The mess continues to the west. A seam of copper ore glitters with embedded crystalline fragments.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72048,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "T-Junction",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72044,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Cluttered Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72046": {
+          "vnum": 72046,
+          "name": "Clicker Cavern",
+          "description": "A gust of cold air swirls past, traveling northwards like a soft gust of wind between trees. A small tunnel adjoins the massive cavern here to the north, allowing escape from the fiendish beasts that frequent the sprawling chamber. Clicker Cavern",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72047,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72043,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Guard Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72047": {
+          "vnum": 72047,
+          "name": "Clicker Cavern",
+          "description": "A golden shower of light cascades from the glittering shinerock ore in the ceiling far overhead. If this cavern was burrowed by the clickers, it must have taken an awful lot of work, because it's simply massive. The sparkling grandeur of the vast chamber continues to the west and south, and a tunnel filled with junk exits to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72044,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Cluttered Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72054,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72046,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72048": {
+          "vnum": 72048,
+          "name": "T-Junction",
+          "description": "Rough-cut tunnels form a T here, continuing to the north, east, and south through the soft shinerock. The constant clicking of both mandible against mandible and chitinous foot against stone echoes through the tunnels, driving you slightly mad. Rough Cut Tunnel",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72049,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Rough Cut Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72045,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Cluttered Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72055,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Runed Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72049": {
+          "vnum": 72049,
+          "name": "Rough Cut Tunnel",
+          "description": "The circular tunnel through which you walk reminds you somewhat of the inside of an esophagus. Rippled, glowing rock travels onwards to the east and west, deep below the surface of the earth.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72050,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Rough Cut Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72048,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "T-Junction",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72050": {
+          "vnum": 72050,
+          "name": "Rough Cut Tunnel",
+          "description": "Uneven walls, cut by the pincers of the clicking beasts, run onwards to the west for another fifty feet, and break into the mined cavern to the east. The floor is noticeably bare, devoid of the rubble and dust that you might expect to find about a burrowed tunnel. Base of the Mine Shaft",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72051,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Base of the Mine Shaft",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72049,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Rough Cut Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72051": {
+          "vnum": 72051,
+          "name": "Base of the Mine Shaft",
+          "description": "The deep mine shaft ceases its plunge into the earth here, ending at the northwest corner of the fifth and final mined tier. Sharp mandibles have carved a rough tunnel through the west wall, which continues for about a hundred feet before it forks to the north and south. Rough Cut Tunnel",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72052,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72056,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72050,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Rough Cut Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72052": {
+          "vnum": 72052,
+          "name": "Fifth Tier",
+          "description": "The shinerock shines somewhat less intensely, as the veins become farther separated and less pure. Scuttling creatures click all about, much to your irritation.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72057,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72051,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Base of the Mine Shaft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72053": {
+          "vnum": 72053,
+          "name": "Clicker Cavern",
+          "description": "You stand in the southwest corner of a vast chamber of shinerock, created by the endless labor of the chitinous beasts that run so rampant within this mine. The glowing veins of rock continue through the roof and floor to the east and north, and cold air emanates from a small chamber to the south. Clicker Cavern",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72054,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72046,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72058,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Molting Nest",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72054": {
+          "vnum": 72054,
+          "name": "Clicker Cavern",
+          "description": "The clickers have been awfully busy, for this burrowed cavern is huge to say the least. And what happened to all the rock that was once here? Gazing carefully at one of the nearby insectoid beasts, the thought crosses your mind that the little critters might actually eat the stuff. The sprawling cavern continues to the north and west, and a runed tunnel leads through the rock to the east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72055,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Runed Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72047,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72053,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72055": {
+          "vnum": 72055,
+          "name": "Runed Tunnel",
+          "description": "Flashing runes ring the striated tunnel here, pulsating with raw power. The glittering red clickers you've seen walking about most likely draw their power from here, using it as a source of mana. The runes cease to the north and west as the tunnel continues in each direction.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72048,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "T-Junction",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72054,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72056": {
+          "vnum": 72056,
+          "name": "Fifth Tier",
+          "description": "Incessant clicking harries your ears with unceasing continuance in this deep cavern of mined shinerock. Dull veins of the glowing mineral run northward and eastward along the walls of the fifth tier. Base of the Mine Shaft",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72057,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72051,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Base of the Mine Shaft",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72057": {
+          "vnum": 72057,
+          "name": "Fifth Tier",
+          "description": "A small pile of dung stinks happily in the southeast corner of the cavern. Pausing momentarily to wonder just how in the hell that got here, you almost forget the constant clicking that so harasses your ears. The cavern continues to the north and west. Fifth Tier",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72052,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72056,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fifth Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72058": {
+          "vnum": 72058,
+          "name": "Molting Nest",
+          "description": "A frosty coat of rime glistens across the walls and other surfaces of this chilling chamber. Broken pieces of molted chitin lie strewn across the floor, covered in a revolting layer of sticky slime. The slime cracks as you tread across it, frozen solid by the freezing air of the room. The chill subsides in a large cavern to the north.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72053,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Clicker Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -5,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 5,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 16
+      }
+    },
+    "-4": {
+      "floor_id": -4,
+      "entry_vnum": 72032,
+      "rooms": {
+        "72032": {
+          "vnum": 72032,
+          "name": "Shinerock Mine Shaft",
+          "description": "Banking steeply, the mine shaft cuts a vertical swath through the soft rock. A large mined cavern has been cut into the eastern and southern walls, and some distance to the east, the cavern wall has been burrowed through to form a tunnel.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72033,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72034,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 72051,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Base of the Mine Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 72028,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72033": {
+          "vnum": 72033,
+          "name": "Fourth Tier",
+          "description": "The glowing shinerock mine illuminates your way as you wander through the cavern. Powerful mandibles have cut through the rock further to the east, creating a tunnel that bends out of sight. The cavern continues to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72041,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72035,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72032,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72034": {
+          "vnum": 72034,
+          "name": "Fourth Tier",
+          "description": "The dazzlingly bright walls play tricks with your mind, flashing illusions of paradise across your vision. But it's far too cold to be paradise, and there are far too many grotesque insects scuttling about to be anywhere near it. The cavern continues to the east, and the mine shaft lies to the north. Shinerock Mine Shaft",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72035,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72032,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72035": {
+          "vnum": 72035,
+          "name": "Fourth Tier",
+          "description": "Two shinerock walls meet to form the southeast corner of the fourth tier. The soft roar of a thousand clicking mandibles tickles your ears with annoying intensity. To the north and west, the cavern continues.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72033,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72034,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72036": {
+          "vnum": 72036,
+          "name": "Glowing Chamber",
+          "description": "A soothing halo of warmth envelops you within this glowing chamber. An unusual organic substance coats the walls, providing a welcome atmosphere of relaxation and restfulness. You feel the overwhelming urge to stay and rest awhile.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72038,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72037": {
+          "vnum": 72037,
+          "name": "Nesting Chamber",
+          "description": "Pulsating eggs writhe against the walls of this cool chamber. Your stomach threatens to return your last meal as the vile stench of the sticky eggs invades your nostrils. A burrowed tunnel to the south provides a route of escape from the foul nest.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72039,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72038": {
+          "vnum": 72038,
+          "name": "Burrowed Tunnel",
+          "description": "The tunnel t-junctions here, heading through the shinerock to the north, east, and south. Pleasant warmth tempts you from the north, while a cool draft flows southward from the east, creating tickling eddies of hot and cold air.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72039,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72036,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Glowing Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72040,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72039": {
+          "vnum": 72039,
+          "name": "Burrowed Tunnel",
+          "description": "You stand in a bend in the nondescript burrowed tunnel that continues north and west. A foul stench flows in on cool air from the north, hinting at something grotesque from the chamber there. The cold air flows westward down the tunnel of cut rock. Nesting Chamber",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72037,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Nesting Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72038,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72040": {
+          "vnum": 72040,
+          "name": "Burrowed Tunnel",
+          "description": "Moderately intense light shines persistently from the shinerock veins in the tunnel walls. The circular tunnel is striated, its edges cut by the mandibles of the insectoid inhabitants of the mine. Cool air flows in from the north and continues southward. Burrowed Tunnel",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72038,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72042,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72041": {
+          "vnum": 72041,
+          "name": "Burrowed Tunnel",
+          "description": "Carved from the rock not by the precise mining implements, but rather by the sharp mandibles of the clickers, this tunnel delves eastward into the shinerock, and meets the mined cavern to the west. The uneven floor of the tunnel makes keeping balance difficult, but has been picked clean of debris of any kind.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72042,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72033,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Fourth Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72042": {
+          "vnum": 72042,
+          "name": "Burrowed Tunnel",
+          "description": "Bending sharply, the uneven shinerock tunnel heads north and west from where you stand. The acrid scent of some foul substance flows in from the north, mingled almost imperceptibly with the tinge of some sweet organic substance.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72040,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72041,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Burrowed Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -4,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 3,
+        "min_y": -3,
+        "max_y": 1,
+        "room_count": 11
+      }
+    },
+    "-3": {
+      "floor_id": -3,
+      "entry_vnum": 72028,
+      "rooms": {
+        "72028": {
+          "vnum": 72028,
+          "name": "Shinerock Mine Shaft",
+          "description": "Scuttling creatures scrape the stone floors and walls as they clatter by on chitinous legs. The steep walls of the mine shaft continue endlessly upward and downward, and the mined layer of the third tier cuts into the rock to the east and south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72029,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72030,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 72032,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 72024,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72029": {
+          "vnum": 72029,
+          "name": "Third Tier",
+          "description": "Glowing walls light your way as you tread across the stone floor of this mined cavern. The floor is devoid of debris, for the clickers have long since robbed the mine of all things of value. Veins of shinerock lead along the walls to the south and east. A seam of copper ore glitters with embedded crystalline fragments. Shinerock Mine Shaft",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72031,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72028,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72030": {
+          "vnum": 72030,
+          "name": "Third Tier",
+          "description": "Crazy echoes dance through the cavern, bouncing from the glowing walls of shinerock. Endless clicks assault your ears, driving your poor mind to the edge. If only you could stop the clicking!",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72031,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72028,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72031": {
+          "vnum": 72031,
+          "name": "Third Tier",
+          "description": "Bright walls dazzle your eyes and contract your pupils. Dark shapes move about, easily seen against the light of the glowing rock. The combination of the cold, damp air, and an irritating clicking noise make this place less than relaxing. A cluster of mushrooms glows with an eerie red light, pulsing faintly. Third Tier",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72029,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72030,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Third Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GLOWING RED FUNGUS",
+              "rank": 8,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 72024,
+      "rooms": {
+        "72024": {
+          "vnum": 72024,
+          "name": "Shinerock Mine Shaft",
+          "description": "The shaft thins slightly here, making movement uncomfortably cramped. However, the vast cavern of the second tier sprawls out into the shinerock to the east and south, allowing more than enough room to move. The steep slope of the mine continues through the rock overhead and below.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72025,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72026,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 72028,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72025": {
+          "vnum": 72025,
+          "name": "Second Tier",
+          "description": "A small pile of rubble litters the floor of the otherwise bare cavern here. Large pieces of shinerock illuminate your way, negating the need for torches or lanterns. In fact, the cavern would be comfortable if it wasn't so chilly. Shinerock Mine Shaft",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72027,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72024,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72026": {
+          "vnum": 72026,
+          "name": "Second Tier",
+          "description": "Chills begin to sap your strength in this damp corner of the second tier. The bare stone walls do little to encourage your waning morale, hemming the mined cavern to the north and east, creating your only available directions of travel. A black clicker crawls in from the north. Second Tier",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72027,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72024,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72027": {
+          "vnum": 72027,
+          "name": "Second Tier",
+          "description": "Glaringly bright walls blind you from all directions, making the most menial of tasks an unbearable trial of willpower. Escape from the torturous light lies a short distance to the north or west, but surely you will collapse into a pathetic wailing pile before you can conquer such a journey.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72025,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72026,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Second Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 72023,
+      "rooms": {
+        "72020": {
+          "vnum": 72020,
+          "name": "First Tier",
+          "description": "Bright, sheer walls line the cavern, mined with methodical precision. Nonetheless, much of the shinerock remains and lights the cavern with its bright radiance. The large cavern of the first tier continues to the east and south, the walls lighting your way as well as any sun. First Tier",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72021,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "First Tier",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72022,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "First Tier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72021": {
+          "vnum": 72021,
+          "name": "First Tier",
+          "description": "The floor of the cavern has been scraped clean by the roving inhabitants of the mine. Ancient mining implements of old have cut sheer walls, and the occasional pock mark punctures the shinerock, where the miners checked for further veins of ore. The vast cavern continues to the west, and the shaft of the mine lies to the south. A seam of copper ore glitters with embedded crystalline fragments.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72020,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "First Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COPPER",
+              "rank": 4,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72022": {
+          "vnum": 72022,
+          "name": "First Tier",
+          "description": "Phosphorescent light emanates from the walls of this large cavern, mined into the shinerock. The floor, walls, and ceiling of the first tier are completely bare, scraped clean by the insectoid dwellers of the mine. The shaft of the mine delves deeper into the shinerock to the east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72020,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "First Tier",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72023": {
+          "vnum": 72023,
+          "name": "Shinerock Mine Shaft",
+          "description": "Sloping steeply, the mine shaft cuts deep into the soft shinerock, and the first tier has been mined to the north and west of where you stand. The walls of the mine glow intensely, indicating that the mining operation was discontinued not because of a lack of ore, but rather because of the onslaught of the insectoid invaders. Shinerock Mine Shaft",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40025,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Library Steps",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72022,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "First Tier",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 40039,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "The Gate of Water",
+              "direction": "go out",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go tree": {
+              "to_vnum": 47109,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "In the Tree",
+              "direction": "go tree",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 72024,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 72017,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Mine Entrance",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 72017,
+      "rooms": {
+        "72017": {
+          "vnum": 72017,
+          "name": "Mine Entrance",
+          "description": "Crumbling walls stand at knee height all around, long ago flattened by the rigors of time and weather. A few rusted mine carts lie in the bushes, left to rot for all time. The bright glow of shinerock gleams from within a mine shaft, its entrance only partly obscured by rubble. Thin paths lead away from the structure in all directions.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 72018,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Rivertop Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 72015,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Wooded Path",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 72019,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Sloping Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 72016,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Grassy Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "72019": {
+          "vnum": 72019,
+          "name": "Sloping Trail",
+          "description": "Mud cakes the soles of your boots as you clamber along the steep trail that ascends the riverbank here. Peering upward, you detect little of note above the riverbank, and the dark Brown River lies just to the south.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 72017,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Mine Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 23022,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 72017,
+      "to": 72019,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72020,
+      "to": 72021,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72020,
+      "to": 72022,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72021,
+      "to": 72023,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 72022,
+      "to": 72023,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72024,
+      "to": 72025,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72024,
+      "to": 72026,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72025,
+      "to": 72027,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72026,
+      "to": 72027,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72028,
+      "to": 72029,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72028,
+      "to": 72030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72029,
+      "to": 72031,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72030,
+      "to": 72031,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72032,
+      "to": 72033,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72032,
+      "to": 72034,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72033,
+      "to": 72041,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72033,
+      "to": 72035,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72034,
+      "to": 72035,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72036,
+      "to": 72038,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72037,
+      "to": 72039,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72038,
+      "to": 72039,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72038,
+      "to": 72040,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72040,
+      "to": 72042,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72041,
+      "to": 72042,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -4,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72043,
+      "to": 72046,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72044,
+      "to": 72045,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72044,
+      "to": 72047,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72045,
+      "to": 72048,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72046,
+      "to": 72047,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72047,
+      "to": 72054,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72048,
+      "to": 72049,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72048,
+      "to": 72055,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72049,
+      "to": 72050,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72050,
+      "to": 72051,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72051,
+      "to": 72052,
+      "direction": "e",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72051,
+      "to": 72056,
+      "direction": "s",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72052,
+      "to": 72057,
+      "direction": "s",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72053,
+      "to": 72054,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72053,
+      "to": 72046,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 72053,
+      "to": 72058,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72054,
+      "to": 72055,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 72056,
+      "to": 72057,
+      "direction": "e",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": -5,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

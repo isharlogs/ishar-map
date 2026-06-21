@@ -1,0 +1,1933 @@
+{
+  "zone_name": "Wolfnacht Carnival",
+  "entry_vnum": 18099,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 2,
+    "min_y": -1,
+    "max_y": 19
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 18200,
+      "rooms": {
+        "18200": {
+          "vnum": 18200,
+          "name": "A Dusty Antechamber",
+          "description": "The simple staircase above leads down into a wood-floored square room, unadorned but for a few chairs that look less \"set out\" than \"left here\", and a creepy looking full length mirror, tucked away into one corner. Dark smears stain the floor, leading the eye toward a loosely curtained doorway to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 18201,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Sinister Meeting Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 18091,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Far End of the Carnival",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Bunch of scrawled writings run across one of the chairs.  (0 unread)",
+                "Creepy looking full length mirror",
+                "Dusty Antechamber",
+                "Simple staircase above leads down into a wood-floored square room",
+                "South.",
+                "Stain the floor",
+                "Unadorned but for a few chairs that look less \"set out\" than \"left here\"",
+                "and a",
+                "leading the eye toward a loosely curtained doorway to the",
+                "tucked away into one corner.  Dark smears"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18201": {
+          "vnum": 18201,
+          "name": "A Sinister Meeting Hall",
+          "description": "This large but low-ceilinged round chamber is decorated lavishly, if heavy- handedly. Deep maroon velvet curtains cover the entire wall, broken only by the doorways to the north and south and by baroque golden sconces placed regularly about the circumference. A large ring of ebony desk surface opens on one side to allow entry to the circular floor space it defines -- scuffed and stained. Chairs outside the ring face inward.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18200,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Dusty Antechamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18202,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Initiation Chamber of Arioch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Doorways to the north and south and by baroque golden sconces placed",
+                "Handedly.  Deep maroon velvet curtains cover the entire wall",
+                "One side to allow entry to the circular floor space it defines -- scuffed and",
+                "Regularly about the circumference.  A large ring of ebony desk surface opens on",
+                "Sinister Meeting Hall",
+                "Stained.  Chairs outside the ring face inward.",
+                "This large but low-ceilinged round chamber is decorated lavishly",
+                "broken only by",
+                "if heavy-"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18202": {
+          "vnum": 18202,
+          "name": "Initiation Chamber of Arioch",
+          "description": "This chamber is decorated similarly to the meeting hall outside, but is lit only by a single oil-fueled flame utop a short golden pillar on a large round raised slate platform. To each side of the pillar is a high-backed chair, decoratively carven but unpadded. A golden railing rings the platform and you have no choice but to step up and through.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18201,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Sinister Meeting Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 18303,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Junction in the Hallways",
+              "direction": "go portal",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "And this seems like a bad place to stay for any amount of time.",
+                "Decoratively carven but unpadded.  A golden railing rings the platform and you",
+                "From every direction",
+                "Go portal",
+                "Have no choice but to step up and through.",
+                "Initiation Chamber of Arioch",
+                "Junction in the Hallways",
+                "Only by a single oil-fueled flame utop a short golden pillar on a large round",
+                "Oval challenge portal glistens with great magical energy.",
+                "Purple.  The strange grey stone of which this dungeon is made is unlike most",
+                "Raised slate platform.  To each side of the pillar is a high-backed chair",
+                "Shimmering portal lies in the center of the junction",
+                "This chamber is decorated similarly to the meeting hall outside",
+                "You step carefully through the red portal.",
+                "You've come across",
+                "and feels oddly brittle.  Strange echoes assail your ears",
+                "as do foul odors.  The stagnant air has your hair on end",
+                "but is lit",
+                "faintly glowing"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 3
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 18099,
+      "rooms": {
+        "18304": {
+          "vnum": 18304,
+          "name": "In the Lair of Yglrogmou",
+          "description": "Unbearable heat seems to radiate from nowhere and everywhere, though the stone walls are cool to the touch. Combined with the stench, the strange and unidentifiable noises, and the claustrophobically small corridors, this place is about as close to hell as one could imagine.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18306,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18303,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Junction in the Hallways",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                ". . . the great Yglrogmou glows with a strange light!",
+                "Hideous beast replete with taloned-limbs and motile spines looms above.",
+                "In the Lair of Yglrogmou",
+                "Is about as close to hell as one could imagine.",
+                "Stone walls are cool to the touch.  Combined with the stench",
+                "Unbearable heat seems to radiate from nowhere and everywhere",
+                "Unidentifiable noises",
+                "and the claustrophobically small corridors",
+                "the strange and",
+                "this place",
+                "though the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18305": {
+          "vnum": 18305,
+          "name": "In the Lair of Yglrogmou",
+          "description": "In many places the brittle stone walls are scarred and scratched. A dull thud responds to any tentative taps, and small flecks of stone dust off from the impact. Surely this can't be too far underground, or the weight of the soil on top would crush the soft stone. However you can hear no bustling above you. The silence, broken only occasionally by strange crumblings or drippings, seems invasive.",
+          "grid_x": 1,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18306,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18303,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Junction in the Hallways",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                ". . . the great Yglrogmou glows with a strange light!",
+                "Hideous beast replete with taloned-limbs and motile spines looms above.",
+                "Impact.  Surely this can't be too far underground",
+                "In many places the brittle stone walls are scarred and scratched.  A dull",
+                "In the Lair of Yglrogmou",
+                "Seems invasive.",
+                "Soil on top would crush the soft stone.  However you can hear no bustling above",
+                "Thud responds to any tentative taps",
+                "You.  The silence",
+                "and small flecks of stone dust off from",
+                "broken only occasionally by strange crumblings or drippings",
+                "or the weight of the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18306": {
+          "vnum": 18306,
+          "name": "In the Lair of Yglrogmou",
+          "description": "Broken chains are set deep into a wall here. They were clearly meant to hold something once, but they are now quite rusty and likely couldn't contain a small dog. Some more lengths of chain lie upon the floor, torn completely from the wall and resting with the shattered bits of rock which once held them in place.",
+          "grid_x": 1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 18305,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18304,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Broken chains are set deep into a wall here.  They were clearly meant to",
+                "Hold something once",
+                "In the Lair of Yglrogmou",
+                "Place.",
+                "Small dog.  Some more lengths of chain lie upon the floor",
+                "Wall and resting with the shattered bits of rock which once held them in",
+                "but they are now quite rusty and likely couldn't contain a",
+                "torn completely from"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18307": {
+          "vnum": 18307,
+          "name": "The Ampitheatre of Valor",
+          "description": "",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18095,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Ampitheatre of Valor"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18090": {
+          "vnum": 18090,
+          "name": "Entrance to Castle Damnation",
+          "description": "You step through a dingy tent flap and ... an impossible vista spreads before your eyes like a fever dream. An unending plain of dead smoldering hillside is marked by a single landmark: the standing remains of a fantastic stronghold. As if sliced by the blade of satan, a river of fire bisects the plain and the castle itself -- the stonework crumbles and entire interior chambers lie exposed on either side of a gaping chasm. This is where you shall compete.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 18093,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18091": {
+          "vnum": 18091,
+          "name": "Far End of the Carnival",
+          "description": "The raucous of the carnival is eeriely absent once under this dark tent. The area is clean and vacant except for a trapdoor in the dirt floor and a wooden sign posted at its head. West will take you quickly back to the familiar noise of the Wolfnacht.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 18092,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 18200,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Dusty Antechamber",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Area is clean and vacant except for a trapdoor in the dirt floor and a",
+                "Familiar noise of the Wolfnacht.",
+                "Far End of the Carnival",
+                "Raucous of the carnival is eeriely absent once under this dark tent.",
+                "Wooden sign posted at its head.  West will take you quickly back to the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18092": {
+          "vnum": 18092,
+          "name": "Wolfnacht Carnival",
+          "description": "Your footsteps are barely heard about the din of the arenas. You keep a hand on your purse at all times as you push your way through a throng of seedy looking individuals. Though you can't imagine a whole lot of theft would go on in a crowd where everyone's armed to the teeth and pumped to fight. The carnival extends back west and southwest.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18091,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Far End of the Carnival",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 18100,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "The Pedestal of the Duel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 18094,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18093,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Carnival extends back west and southwest.",
+                "Hand on your purse at all times as you push your way through a throng of seedy",
+                "In a crowd where everyone's armed to the teeth and pumped to fight.  The",
+                "Looking individuals.  Though you can't imagine a whole lot of theft would go on",
+                "Wolfnacht Carnival",
+                "Your footsteps are barely heard about the din of the arenas.  You keep a"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18093": {
+          "vnum": 18093,
+          "name": "Wolfnacht Carnival",
+          "description": "The Wolfnacht carnival growls and roars ceaselessly into the night like a crumbling pinnacle of stone. Peddlers shove pointless baubles in your face, glance at your purse and compliment your waistline. Chewed cud sticks to your sole and you look up: this mad carnival stretches around you in every direction.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18092,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 18090,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Entrance to Castle Damnation",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18094,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18096,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Crumbling pinnacle of stone.  Peddlers shove pointless baubles in your face",
+                "Direction.",
+                "Glance at your purse and compliment your waistline.  Chewed cud sticks to your",
+                "Sole and you look up:  this mad carnival stretches around you in every",
+                "Wolfnacht Carnival",
+                "Wolfnacht carnival growls and roars ceaselessly into the night like a"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18094": {
+          "vnum": 18094,
+          "name": "Carnival Bazaar",
+          "description": "Vermin scurry about the area, scavenging what didn't quite make it to the burning pile as ways to the west. Crude lean-tos and ratty tents pepper the area and serve as both vendors' homes and places of business. The big tops of the mighty arenas loom overhead to the north.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18093,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 18092,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18095,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Area and serve as both vendors' homes and places of business.  The big tops of",
+                "Burning pile as ways to the west.  Crude lean-tos and ratty tents pepper the",
+                "Carnival Bazaar",
+                "Groomed half-goblin swivels her enormous eyes around the crowd.",
+                "Grubby half-goblin implores you to purchase his souvenir.",
+                "Mighty arenas loom overhead to the north.",
+                "Vermin scurry about the area",
+                "scavenging what didn't quite make it to the"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18095": {
+          "vnum": 18095,
+          "name": "Carnival Bazaar",
+          "description": "Attracted to the huge crowds of adventurers, vendors have taken up residence near the trash pile. Though initially unwelcomed and ousted by the management, policing the multitude of crafty peddlers became more trouble than it was worth. Where there is gold, there's a place to spend it.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18094,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 18096,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18307,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "The Ampitheatre of Valor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 18097,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Base of the Giant Bonfire",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "\"The champion: Gilrin",
+                "\"Their valor enriches the tapestry of destiny.\"",
+                "Attracted to the huge crowds of adventurers",
+                "Carnival Bazaar",
+                "Grubby half-goblin arrives in from the northwest.",
+                "Grubby half-goblin goes east.",
+                "Grubby half-goblin implores you to purchase his souvenir.",
+                "Near the trash pile.  Though initially unwelcomed and ousted by the management",
+                "Policing the multitude of crafty peddlers became more trouble than it was",
+                "Powerful voice echos from across a seemingly infinite distance.",
+                "Worth.  Where there is gold",
+                "has faced down the ghost of a cat and emerged victorious.\"",
+                "there's a place to spend it.",
+                "vendors have taken up residence"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18096": {
+          "vnum": 18096,
+          "name": "Wolfnacht Carnival",
+          "description": "An enormous canvas tent opens up to your north. Fresh warriors of all sizes check and double-check their fittings and weapon releases as the wounded lie stewn about the entrance. The bonfire of garbage burns ever-brightly to the south, and this mad carnival continues on to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18093,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 18001,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Arena Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 18095,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18098,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Check and double-check their fittings and weapon releases as the wounded lie",
+                "Enormous canvas tent opens up to your north.  Fresh warriors of all sizes",
+                "South",
+                "Stewn about the entrance.  The bonfire of garbage burns ever-brightly to the",
+                "Wolfnacht Carnival",
+                "and this mad carnival continues on to the east."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18097": {
+          "vnum": 18097,
+          "name": "Base of the Giant Bonfire",
+          "description": "Bent weapons, broken vials, used food containers, clumps of torn hair, battered armor and backpacks burn alike under the intense heat of the fire. The sheer amount of black smoke spewing forth is almost enough to block the light of the blaze. Northeast or northwest gets you way away from this filth.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 18095,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Carnival Bazaar",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 18099,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "At the Carnival Entrance",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Base of the Giant Bonfire",
+                "Battered armor and backpacks burn alike under the intense heat of the fire.",
+                "Bent weapons",
+                "Light of the blaze.  Northeast or northwest gets you way away from this filth.",
+                "Sheer amount of black smoke spewing forth is almost enough to block the",
+                "broken vials",
+                "clumps of torn hair",
+                "used food containers"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18098": {
+          "vnum": 18098,
+          "name": "Wolfnacht Carnival",
+          "description": "The carnival opens up allowing for much foot traffic north of the entrance. Tremendous sheets of canvas enclosing an arena to your northeast are held aloft by stout poles. A cacophany of carnie noises and smells await you to the east.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18096,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 18001,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Arena Entrance",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18099,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "At the Carnival Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "By stout poles.  A cacophany of carnie noises and smells await you to the east.",
+                "Carnival opens up allowing for much foot traffic north of the entrance.",
+                "Tremendous sheets of canvas enclosing an arena to your northeast are held aloft",
+                "Wolfnacht Carnival"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18099": {
+          "vnum": 18099,
+          "name": "At the Carnival Entrance",
+          "description": "A haze of black smoke stings your eyes and assails your nostrils with an indescribable stench. An enormous pile of burning trash just to your east blazes day and night, illuminating the carnival and its inhabitants. Clods of dead earth crunch beneath your feet as you step further in.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18098,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 18097,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Base of the Giant Bonfire",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24004,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Top of the Slope",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                ". . . an elderly man looks like he might have something to say.",
+                "At the Carnival Entrance",
+                "Blazes day and night",
+                "Dead earth crunch beneath your feet as you step further in.",
+                "Elderly man leans against the pole and chews his chaw.",
+                "Haze of black smoke stings your eyes and assails your nostrils with an",
+                "Indescribable stench.  An enormous pile of burning trash just to your east",
+                "Keeping close to his master",
+                "Leather bag enclosed by cage is affixed to the top of an iron post.",
+                "a hefty brown mastiff barks throatily.",
+                "illuminating the carnival and its inhabitants.  Clods of"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18100": {
+          "vnum": 18100,
+          "name": "The Pedestal of the Duel",
+          "description": "You stand precipitously at the edge of a deep chasm, hundreds of yards across. A narrow column of stone rises from its depths, truncated to form a tall pedestal at the center of the pit. There is just enough room for two mighty duellers to settle their differences with finality. There is no safety in fleeing from battle here and to lose means permanent death.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 18092,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18001": {
+          "vnum": 18001,
+          "name": "Arena Entrance",
+          "description": "The loud boasting of nervous warriors fills your ears as you stand before the arena, considering the battle ahead. The clang of armorers repairing dented equipment and the groans of the injured resound from within the gates, and you cannot help but wonder if you will soon be joining their unhappy ranks. Above all else is the almost palpable tension that precedes a battle; you finger your weapon anxiously and await the next match.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 18096,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 18098,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Wolfnacht Carnival",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Above all else is the almost palpable tension that precedes a battle; you",
+                "And you cannot help but wonder if you will soon be joining their unhappy ranks.",
+                "Arena",
+                "Arena Entrance",
+                "Dented equipment and the groans of the injured resound from within the gates",
+                "Finger your weapon anxiously and await the next match.",
+                "Loud boasting of nervous warriors fills your ears as you stand before",
+                "Slab of etched stone holds information for you.",
+                "considering the battle ahead.  The clang of armorers repairing"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18300": {
+          "vnum": 18300,
+          "name": "In the Lair of Yglrogmou",
+          "description": "Loose stones crumble under your feet, causing you to slide a bit with each step and making quite the ruckus. The stone walls are pitted in many places, as if this place hasn't seen maintenance since the day it was completed. You can hear dripping off in the distance, though it sounds too thick to be water.",
+          "grid_x": -1,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18302,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 18301,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "As if this place hasn't seen maintenance since the day it was completed.  You",
+                "Can hear dripping off in the distance",
+                "In the Lair of Yglrogmou",
+                "Loose stones crumble under your feet",
+                "Step and making quite the ruckus.  The stone walls are pitted in many places",
+                "causing you to slide a bit with each",
+                "though it sounds too thick to be water."
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18301": {
+          "vnum": 18301,
+          "name": "In the Lair of Yglrogmou",
+          "description": "Congealed slime coats the walls and floors here, and drips from the ceiling onto your clothing. It is unimaginably foul. As you walk through the room, your boots somehow slip around and stick to the ground at the same time. You silently pray you don't lose your footing and crash to the ground to end up coated in this disgusting goo.",
+          "grid_x": -1,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18303,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Junction in the Hallways",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18300,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Coated in this disgusting goo.",
+                "Congealed slime coats the walls and floors here",
+                "In the Lair of Yglrogmou",
+                "Onto your clothing.  It is unimaginably foul.  As you walk through the room",
+                "Silently pray you don't lose your footing and crash to the ground to end up",
+                "Your boots somehow slip around and stick to the ground at the same time.  You",
+                "and drips from the ceiling"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18302": {
+          "vnum": 18302,
+          "name": "In the Lair of Yglrogmou",
+          "description": "This must be some sort of feeding chamber. Bones, many of them broken, almost completely cover the stone floor. In some places they are piled up, but that is likely due to happenstance than tidiness. Worse still, a thin red film coats many of the surfaces in the room, the dried blood that the foul beast wasn't thirsty enough to drink.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 18303,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "A Junction in the Hallways",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18300,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Almost completely cover the stone floor.  In some places they are piled up",
+                "Coats many of the surfaces in the room",
+                "In the Lair of Yglrogmou",
+                "That is likely due to happenstance than tidiness.  Worse still",
+                "This must be some sort of feeding chamber.  Bones",
+                "Wasn't thirsty enough to drink.",
+                "a thin red film",
+                "but",
+                "many of them broken",
+                "the dried blood that the foul beast"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "18303": {
+          "vnum": 18303,
+          "name": "A Junction in the Hallways",
+          "description": "A shimmering portal lies in the center of the junction, faintly glowing purple. The strange grey stone of which this dungeon is made is unlike most you've come across, and feels oddly brittle. Strange echoes assail your ears from every direction, as do foul odors. The stagnant air has your hair on end, and this seems like a bad place to stay for any amount of time.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 18305,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 18304,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 18302,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 18301,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "In the Lair of Yglrogmou",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 18202,
+              "to_zone": "Wolfnacht Carnival",
+              "to_room_name": "Initiation Chamber of Arioch",
+              "direction": "go portal",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "*a component pouch*",
+                "And this seems like a bad place to stay for any amount of time.",
+                "Animated pot of gold",
+                "Enchanted",
+                "From every direction",
+                "Go portal",
+                "I",
+                "Junction in the Hallways",
+                "Purple.  The strange grey stone of which this dungeon is made is unlike most",
+                "Shield of black dragonscales",
+                "Shimmering portal lies in the center of the junction",
+                "Splinter of wood",
+                "Thin iron key",
+                "White helmet",
+                "Wintry blue wand",
+                "Yarbelek's fiery smith hammer",
+                "You are carrying:",
+                "You've come across",
+                "and feels oddly brittle.  Strange echoes assail your ears",
+                "as do foul odors.  The stagnant air has your hair on end",
+                "faintly glowing",
+                "leather drinking flask"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 2,
+        "min_y": -1,
+        "max_y": 19,
+        "room_count": 20
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 18001,
+      "to": 18096,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18001,
+      "to": 18098,
+      "direction": "sw",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18090,
+      "to": 18093,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18091,
+      "to": 18092,
+      "direction": "w",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18092,
+      "to": 18100,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18092,
+      "to": 18094,
+      "direction": "sw",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18092,
+      "to": 18093,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18093,
+      "to": 18094,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18093,
+      "to": 18096,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18094,
+      "to": 18095,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18095,
+      "to": 18096,
+      "direction": "nw",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18095,
+      "to": 18307,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18095,
+      "to": 18097,
+      "direction": "sw",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18096,
+      "to": 18098,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18097,
+      "to": 18099,
+      "direction": "nw",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18098,
+      "to": 18099,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18200,
+      "to": 18201,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18201,
+      "to": 18202,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18300,
+      "to": 18302,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        19
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18300,
+      "to": 18301,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        19
+      ],
+      "to_grid": [
+        -1,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18301,
+      "to": 18303,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        18
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18302,
+      "to": 18303,
+      "direction": "n",
+      "from_grid": [
+        0,
+        19
+      ],
+      "to_grid": [
+        0,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18303,
+      "to": 18305,
+      "direction": "e",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        1,
+        18
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18303,
+      "to": 18304,
+      "direction": "n",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18304,
+      "to": 18306,
+      "direction": "e",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        1,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 18305,
+      "to": 18306,
+      "direction": "n",
+      "from_grid": [
+        1,
+        18
+      ],
+      "to_grid": [
+        1,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

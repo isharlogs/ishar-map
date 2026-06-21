@@ -1,0 +1,185 @@
+{
+  "zone_name": "Island of Kulani",
+  "entry_vnum": 36420,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 1
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 36420,
+      "rooms": {
+        "36420": {
+          "vnum": 36420,
+          "name": "Beneath the Pier",
+          "description": "Waves crash against several large wooden pillars that extend down below the surface of the water supporting a platform above. A wooden ladder is built into the side from a platform where smaller vessels may be docked. Seagulls squawk overhead and strut along the sides of the pier above you expectantly.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 36421,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 36399,
+              "to_zone": "Island of Kulani",
+              "to_room_name": "The Ornamented Pier",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 36399,
+      "rooms": {
+        "36398": {
+          "vnum": 36398,
+          "name": "The Boardwalk",
+          "description": "Twinkling sands glisten in the sunlight beneath the boardwalk on either side of you. Benches line the sides offering quick refuge behind the rails to travelers as they would either wait for their ferry or gather their bearings before entering the city. The pier extends to the south where ships may be docked. To the north the boardwalk leads to the sandy shores of Kulani.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 36399,
+              "to_zone": "Island of Kulani",
+              "to_room_name": "The Ornamented Pier",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            36397
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "36399": {
+          "vnum": 36399,
+          "name": "The Ornamented Pier",
+          "description": "Kulani spared no expense right out of the gate, or pier in this case. The boards beneath your feet are made from mahogany and polished to withstand the punishment of heavy traffic. Upon inspection, the railings on the perimeter of the landing on either side of you are made entirely of platinum poles engraved with precious gemstones. North leads to more mahogany boards lined with gaudy railings leading to the shore.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 36398,
+              "to_zone": "Island of Kulani",
+              "to_room_name": "The Boardwalk",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 36420,
+              "to_zone": "Island of Kulani",
+              "to_room_name": "Beneath the Pier",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            36457
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 2
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 36398,
+      "to": 36399,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

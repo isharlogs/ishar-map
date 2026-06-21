@@ -1,0 +1,2298 @@
+{
+  "zone_name": "Stonework Tunnels",
+  "entry_vnum": 47154,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -6,
+    "max_x": 5,
+    "min_y": -2,
+    "max_y": 20
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47154,
+      "rooms": {
+        "47370": {
+          "vnum": 47370,
+          "name": "Stonework Tunnels",
+          "description": "A narrow passage through the stoneworks ventures west and north here, and from the north drifts a faint hint of rushing water. The floor here is well worn, and the remnants of a gate's bolting can be detected upon the walls.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47371,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47371": {
+          "vnum": 47371,
+          "name": "Stonework Tunnels",
+          "description": "The tunnel ends abruptly here in a wide, convex ledge overlooking an endless darkness far below. A faint echo of rushing water drifts up from below. A narrow crawlspace lay adjacent to the west, and a slight blue aura surrounds the edges of the tunnel's end where open space begins. A nauseating odor wafts by.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47373,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Winding Ledge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47370,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47372,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Crawlspace",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47372": {
+          "vnum": 47372,
+          "name": "Stonework Crawlspace",
+          "description": "The tunnel ends here in a miniscule crawlspace populated by the husks of small, formerly living things, and the dung of ogres and batwights. A tiny fissue in the ground forms a niche that appears as if it could contain a few small trinkets.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47371,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47373": {
+          "vnum": 47373,
+          "name": "Winding Ledge",
+          "description": "You tread lightly along a narrow, winding ledge in the darkness. Small winged creatures flit back and forth, occasionally diving at your intrusive form. Below, a pit of jagged spires can just barely be discerned. Passage is possible to the west and to the east.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47374,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Upon a Ledge",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 47334,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Chamber",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47388,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Pit of Spikes",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47371,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47380": {
+          "vnum": 47380,
+          "name": "Stonework Tunnels",
+          "description": "A narrow passage through the stonework tunnels goes east and west here, adjacent a large misty cavern. Thin tendrils of ebon mist creep along the walls, and here you feel slightly drained.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47381,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47381": {
+          "vnum": 47381,
+          "name": "Stonework Tunnels",
+          "description": "Odd markings in even patterns cover the stonework surfaces of the walls here. To the north, a series of bars, also, stone, serve to form a gate through which can be seen a small, dingy cell. Exits through the tunnel lay to the east and to the west.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47380,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47382,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47398
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47382": {
+          "vnum": 47382,
+          "name": "Stonework Tunnels",
+          "description": "Tunnels. Twists. Turns. Stone and more stone. It could go on forever, but you're sure it won't. Then again it may not matter; the creator of this particular place seems determined to see you die within it. Passages lead east and south.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47381,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47383,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47383": {
+          "vnum": 47383,
+          "name": "Stonework Tunnels",
+          "description": "Tunnels. Twists. Turns. Stone and more stone. It could go on forever, but you're sure it won't. Then again it may not matter; the creator of this particular place seems determined to see you die within it. A sulferous pit rests to the south, and passages offer further misery to the north and west.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47382,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47387,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Pit within the Stoneworks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47384,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47384": {
+          "vnum": 47384,
+          "name": "Stonework Tunnels",
+          "description": "A narrow tunnel provides passage west and east here within the stoneworks. Here and there along the walls are the remnants of age-old etchings, but what they depict remains a mystery.",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47383,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47385,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47385": {
+          "vnum": 47385,
+          "name": "Stonework Tunnels",
+          "description": "On an on the stonework tunnelwork twists and turns, finally coming to an abrupt end here before a large, rusty iron gate. A pale violet glow casts shadows from beyond the gate, and there's yet more of that damned translucent mist bothering itself with about your feet. Warm gold veins gleam faintly beneath the surface.",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47384,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47390
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47387": {
+          "vnum": 47387,
+          "name": "Pit within the Stoneworks",
+          "description": "Crumbling blocks of sulpher are exposed here within an unnatural depression within the stonework tunnels. This musta been some blast.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47383,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47388": {
+          "vnum": 47388,
+          "name": "A Pit of Spikes",
+          "description": "Jagged conical spires rise from the floor of an acrid pit, full of decaying remains. Heat rises from the ground and soft gasps of steam erupt from cracks at irregular intervals. Something seems to be... flowing... just below the surface.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47374,
+              "to_zone": "Brimstone Depths - Stonework Tunnels",
+              "to_room_name": "Upon a Ledge",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47389": {
+          "vnum": 47389,
+          "name": "Murky Pit",
+          "description": "The foul stench of murky green gas pervades this small pit. Nestled unobtrusively between a copse of small trees, you might easily have missed this place were it not for the nauseating aroma. You could clamber out of the pit and join the path to the south, or stay and play with its occupant.",
+          "grid_x": 8,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47108,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Masindaar Path",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47392": {
+          "vnum": 47392,
+          "name": "Stone Pit",
+          "description": "You've tumbled into a cramped stone pit within the tunnels. A scattering of typically gory muck and assorted bits of formerly living detrius cover the ground. The pit is deep, but perhaps not too deep to climb out of with some skill.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47396": {
+          "vnum": 47396,
+          "name": "Crumbled Passage",
+          "description": "A pile of rocks blocks further passage here. From the looks of them, its the result of a recent cave-in. Here and there a stray leg, head, or arm can be seen poking out from the pile, slowly being devoured by the multitude of insects inhabiting this dank little corner of the underworld. An eagle-emblazoned totem pulses with a serene, mystical energy.",
+          "grid_x": 0,
+          "grid_y": 18,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "s": {
+              "to_vnum": 47397,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Narrow Cavern",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47395
+          ],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Sturdy iron chest",
+              "contents": [
+                "Silvery wand"
+              ]
+            }
+          ],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              47329
+            ],
+            "active": true,
+            "stack_default_vnum": 47396
+          },
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47397": {
+          "vnum": 47397,
+          "name": "A Narrow Cavern",
+          "description": "The waters of the underworld flow swiftly through a narrow cavern, having forked away from the primary course. To the south a jumbled pile of jagged rocks rise up from the churning river, and to the north this shallow tributary continues.",
+          "grid_x": 0,
+          "grid_y": 19,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "n": {
+              "to_vnum": 47396,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Crumbled Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47298,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "In the Underground River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47154": {
+          "vnum": 47154,
+          "name": "Slope Path",
+          "description": "A path upon the slope narrows near an earthen wound in the hillside to the west. Below, passage appears a matter of risk at best, and a matter flight at worst. Above, the ground levels near the edge of a worn road.",
+          "grid_x": 8,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 47174,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47160,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Overgrown Path",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47155": {
+          "vnum": 47155,
+          "name": "Stonework Cavern",
+          "description": "You stand within a large, mist-filled cavern within the earth. The mist swirls all about, obscuring your vision. High above, the edges of some kind of structure can be discerned. A narrow tunnel entrance presents itself southward, and the cavern extends in all directions.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47370,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47392,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stone Pit",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47156,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47380,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnels",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47089,
+            47090
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47156": {
+          "vnum": 47156,
+          "name": "Stonework Tunnel",
+          "description": "You tread through a straight and cluttered tunnel travelling east and west, far beneath the earth. Ahead a narrow opening exits into a misty cavern of inteterminable size. Water drips freely from above, the echo of the falling drops the only sound present.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47157,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47157": {
+          "vnum": 47157,
+          "name": "Stonework Tunnel",
+          "description": "A darkened and damp tunnel is blocked here by a solid old gate of iron set into the roughstone walls. The tunnel continues eastward, thin pools collecting upon the floor as water drips steadily from above. Further down the tunnel, the stonework begins to smooth into obviously crafted patterns.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47156,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47158
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47158": {
+          "vnum": 47158,
+          "name": "Roughstone Tunnel",
+          "description": "Stone meets earth here where a passage downward ends, before a large iron gate blocking a tunnel venturing westward beneath the ground. Roots hang down from overhead, tendrils draped along the walls like curtains.",
+          "grid_x": 8,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47159,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47157
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47159": {
+          "vnum": 47159,
+          "name": "Spunroot Tunnels",
+          "description": "The tunnel of earth and tuberous growth ends here, rocks and stone beginning to jut out from the otherwise fungus and root-covered walls. A small circle of purposely placed stone marks a narrow passage downward.",
+          "grid_x": 8,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47178,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spunroot Tunnels",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47158,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Roughstone Tunnel",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47161": {
+          "vnum": 47161,
+          "name": "Narrow Passage",
+          "description": "Layers of slime cover the rough stone walls of this narrow passage, which extends eastward away from a set of spiraling stairs. It ends before a poorly constructed door of rotting wood.",
+          "grid_x": 8,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47162,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Storage Chamber",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 47181,
+              "to_zone": "Spunroot Tunnels - Napenthe Basin Forest",
+              "to_room_name": "Spiral Staircase",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47298": {
+          "vnum": 47298,
+          "name": "In the Underground River",
+          "description": "Foul, murky water rushes by, pummeling you. Luck has smiled upon you this day, as you seem to have landed within a circle of jagged rocks which prevent the water from carrying you and your belongings off into oblivion. Mashed into crevices between the rocks here, are the remains of a skeleton. Over a series of loose stepping stones, it appears possible to reach a narrow staircase leading up into a tunnel of crafted stonework.",
+          "grid_x": 0,
+          "grid_y": 20,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 3,
+          "exits": {
+            "n": {
+              "to_vnum": 47397,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "A Narrow Cavern",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 61049,
+              "to_zone": "Within the Mists",
+              "to_room_name": "Hollowing Mists",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25215,
+              "to_zone": "Gnoll Encampment",
+              "to_room_name": "Inside the Makeshift Tent",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47329,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47299
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47325": {
+          "vnum": 47325,
+          "name": "Filthy Tunnel",
+          "description": "A maze of narrow openings lead in several directions within this filthy tunnel beneath the stoneworks of old Napenthe. Most appear too narrow for travel. Dark iron streaks run thick through the rock.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47326,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47331,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47326": {
+          "vnum": 47326,
+          "name": "Stonework Tunnel",
+          "description": "A maze of narrow openings lead in several directions within this filthy tunnel beneath the stoneworks of old Napenthe. Most appear too narrow for travel. Through a smooth opening in the stone here, the sound of rushing water echoes, coupled with the clear and present scent of decay.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47327,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Oddly Glowing Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47325,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47332,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47328,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47327": {
+          "vnum": 47327,
+          "name": "Oddly Glowing Chamber",
+          "description": "Two passages within the stoneworks intersect here at a small chamber, its walls worn smooth. Along the northern wall are a series of evenly spaced banded markings, seven in total. Tiny pebbles are scattered at the base of the wall, and an odd chill seeps up from the ground here.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47332,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47326,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47386
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47328": {
+          "vnum": 47328,
+          "name": "Stonework Staircase",
+          "description": "Smoothly polished stones twist and curl downward, away from the tunnels beneath Napenthe. Trickles of fetid water stream across the steps, threatening to send you tumbling down into the vast darkness below. Dark iron streaks run thick through the rock.",
+          "grid_x": 8,
+          "grid_y": 12,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 47329,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Staircase",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47326,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47329": {
+          "vnum": 47329,
+          "name": "Stonework Staircase",
+          "description": "Cracks appear in the steps to swallow the narrow rivulets of water streaming from above. The sound of rushing water echoes through the stepped passage, which terminates abruptly here. Beneath you can barely make out a jumble of rocks and the roil of water flowing past. It looks like you could jump safely down.",
+          "grid_x": 8,
+          "grid_y": 14,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 2,
+          "exits": {
+            "d": {
+              "to_vnum": 47298,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "In the Underground River",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47328,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              47396
+            ],
+            "active": false,
+            "stack_default_vnum": 47396
+          },
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47330": {
+          "vnum": 47330,
+          "name": "Before the Broken Gate",
+          "description": "Hanging crookedly from broken hinges are the remnants of a crude iron gate near the tunnel entrance. The odor of decay merges with the quiet tone of rushing water from afar, and through the gateway the tunnel splits.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47331,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47321,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go gate": {
+              "to_vnum": 47331,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "go gate",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "47331": {
+          "vnum": 47331,
+          "name": "Filthy Tunnel",
+          "description": "The rancid corpsi of small, mangled animals decay in piles along the walls of this filthy tunnel. Two passages lay open ahead, splitting east and west.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47325,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47330,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Before the Broken Gate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47332,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 2
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47332": {
+          "vnum": 47332,
+          "name": "Stonework Tunnel",
+          "description": "A maze of narrow openings lead in several directions within this filthy stonework tunnel. Ogre droppings and crushed bone litter the floor.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47331,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Filthy Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47333,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47327,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Oddly Glowing Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47333": {
+          "vnum": 47333,
+          "name": "Stonework Tunnel",
+          "description": "Tunnels through the stonework beneath old Napenthe cross here, narrowing and widening at odd angles. The faint sound of rushing water echoes through the passages, and a distinct odor of decay wafts past.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47326,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47334,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47332,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47334": {
+          "vnum": 47334,
+          "name": "Stonework Chamber",
+          "description": "Here the tunnel widens and rises, opening into a large, bell-shaped chamber within the stoneworks. Strewn all about are the debris of ages long past; axe- handles, wooden carts, the bones of un-named vermin and the ragged remnants of many an ogre's dressings. Towards the northern end of the chamber are arrayed a set of stone pedestals, chipped and worn. A passage winds westward.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 47333,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47373,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Winding Ledge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "105": {
+          "vnum": 105,
+          "name": "Stone Pit",
+          "description": "You've tumbled into a cramped stone pit within the tunnels. A scattering of typically gory muck and assorted bits of formerly living detrius cover the ground. The pit is deep, but perhaps not too deep to climb out of with some skill.",
+          "grid_x": 8,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              111
+            ],
+            "active": true,
+            "stack_default_vnum": 105
+          },
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "110": {
+          "vnum": 110,
+          "name": "A Pit of Spikes",
+          "description": "Jagged conical spires rise from the floor of an acrid pit, full of decaying remains. Heat rises from the ground and soft gasps of steam erupt from cracks at irregular intervals. Something seems to be... flowing... just below the surface.",
+          "grid_x": 8,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "111": {
+          "vnum": 111,
+          "name": "Stone Pit",
+          "description": "You've tumbled into a cramped stone pit within the tunnels. A scattering of typically gory muck and assorted bits of formerly living detrius cover the ground. The pit is deep, but perhaps not too deep to climb out of with some skill.",
+          "grid_x": 8,
+          "grid_y": 2,
+          "sub_x": 1,
+          "sub_y": 0,
+          "chain_id": 1,
+          "exits": {
+            "u": {
+              "to_vnum": 47155,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Stonework Cavern",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": {
+            "cell_mates": [
+              105
+            ],
+            "active": false,
+            "stack_default_vnum": 105
+          },
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {
+        "1": "#e05555",
+        "2": "#e05555"
+      },
+      "metadata": {
+        "min_x": -6,
+        "max_x": 5,
+        "min_y": -2,
+        "max_y": 20,
+        "room_count": 37
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 47160,
+      "rooms": {
+        "47160": {
+          "vnum": 47160,
+          "name": "Overgrown Path",
+          "description": "You stumble through an overgrown area upon a gentle sloping mountainside near Napenthe. A thin trail leads down the slope, rocks and branches strewn about making for a treacherous path.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47145,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "HalfMoon Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47154,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Slope Path",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47155,
+      "to": 47370,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47155,
+      "to": 47392,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47155,
+      "to": 47156,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47155,
+      "to": 47380,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47156,
+      "to": 47157,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47298,
+      "to": 47397,
+      "direction": "n",
+      "from_grid": [
+        0,
+        20
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47325,
+      "to": 47326,
+      "direction": "n",
+      "from_grid": [
+        5,
+        1
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47325,
+      "to": 47331,
+      "direction": "w",
+      "from_grid": [
+        5,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47326,
+      "to": 47327,
+      "direction": "n",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47326,
+      "to": 47332,
+      "direction": "w",
+      "from_grid": [
+        5,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47327,
+      "to": 47332,
+      "direction": "e",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47330,
+      "to": 47331,
+      "direction": "n",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47331,
+      "to": 47332,
+      "direction": "w",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47332,
+      "to": 47333,
+      "direction": "n",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47333,
+      "to": 47326,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47333,
+      "to": 47334,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47334,
+      "to": 47373,
+      "direction": "w",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47370,
+      "to": 47371,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47371,
+      "to": 47373,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47371,
+      "to": 47372,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47373,
+      "to": 47388,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 47380,
+      "to": 47381,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47381,
+      "to": 47382,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47382,
+      "to": 47383,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47383,
+      "to": 47387,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47383,
+      "to": 47384,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47384,
+      "to": 47385,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47396,
+      "to": 47397,
+      "direction": "s",
+      "from_grid": [
+        0,
+        18
+      ],
+      "to_grid": [
+        0,
+        19
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

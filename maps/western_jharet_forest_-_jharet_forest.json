@@ -1,0 +1,104 @@
+{
+  "zone_name": "Western Jharet Forest - Jharet Forest",
+  "entry_vnum": 40174,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40174,
+      "rooms": {
+        "40174": {
+          "vnum": 40174,
+          "name": "The Edge of the Forest",
+          "description": "The forest to the east bristles with hoary trees, and little birds flutter south. The road you travel disappears into the forest and runs westward toward a city visible in the distance. A leafy plant with thick stems grows here, its roots bulging from the soil.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 45000,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "In The Forest",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40175,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Forest Road",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40173,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Worn Trail",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [
+            {
+              "name": "Iron and wooden chest",
+              "contents": [
+                "Amongst the leaves of the aged boughs.  A well-defined trail leads off to the",
+                "City visible in the distance.",
+                "Edge of the Forest",
+                "Forest to the east bristles with hoary trees",
+                "South.  The road you travel disappears into the forest and runs westward toward",
+                "and little birds flutter"
+              ]
+            }
+          ],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

@@ -1,0 +1,1817 @@
+{
+  "zone_name": "Mount Skarag",
+  "entry_vnum": 47320,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -5,
+    "max_y": 26
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 47321,
+      "rooms": {
+        "47321": {
+          "vnum": 47321,
+          "name": "Tunnel Entrance",
+          "description": "Stairs leading upward crumble to an end upon a short ledge of cracked stone in the darkness. Open air surrounds you, with a slight, dank odor drifting past from the south, through an open passage. From far below rises the sound of a running torrent of liquid. To the north, you can see a crooked gate hangling loosely from its broken hinges.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47330,
+              "to_zone": "Stonework Tunnels",
+              "to_room_name": "Before the Broken Gate",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 47320,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Narrow Steps",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47322
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47320,
+      "rooms": {
+        "69271": {
+          "vnum": 69271,
+          "name": "Streamside Trail",
+          "description": "A narrow path runs along the edge of a rushing stream. The sound of the water is ever-present, echoing off the steep rocky banks. The trail appears to be well-travelled and used frequently.",
+          "grid_x": 0,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69272,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Rocky Outcropping",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69270,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "The Forest Path",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69272": {
+          "vnum": 69272,
+          "name": "Rocky Outcropping",
+          "description": "Large, moss-covered rocks tower above, casting deep shadows across the trail. The air is cool and crisp, heavy with the scent of pine. Dark iron streaks run thick through the rock.",
+          "grid_x": 0,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69273,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Forest Clearing",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69271,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Streamside Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69273": {
+          "vnum": 69273,
+          "name": "Forest Clearing",
+          "description": "A small, grassy clearing surrounded by tall trees greets you. Sunlight filters through the branches, dappling the ground with light and shadow.",
+          "grid_x": 1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69274,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Steep Hillside",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69272,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Rocky Outcropping",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69274": {
+          "vnum": 69274,
+          "name": "Steep Hillside",
+          "description": "The trail begins to climb steeply up the side of a hill. Loose gravel and stones litter the path, making footing treacherous. You have to scramble to keep your balance as you traverse the incline.",
+          "grid_x": 1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24109,
+              "to_zone": "Ancient Woods",
+              "to_room_name": "A Dense Thicket",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69275,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Mountain Vista",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69273,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Forest Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69275": {
+          "vnum": 69275,
+          "name": "Mountain Vista",
+          "description": "You reach the top of the hill and pause to catch your breath. Ahead of you, the land drops away dramatically to reveal a stunning vista of rolling hills and distant mountains. The air is thin and crisp, and the sun is warm on your skin, although a chill wind begins to gust in from the snow-capped mountains.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69276,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Trail Through the Pines",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69274,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Steep Hillside",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STONECROP",
+              "rank": 52,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69276": {
+          "vnum": 69276,
+          "name": "A Trail Through the Pines",
+          "description": "You find yourself walking along a well-trodden path through tall pine trees. The air is noticeably cooler, with a fresh scent of pine resin and a hint of snow in the air. The path winds its way ahead, surrounded by towering pine trees, with the occasional glimpse of snow-capped peaks visible in the distance.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69277,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Cold Stream Crossing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69275,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Mountain Vista",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69277": {
+          "vnum": 69277,
+          "name": "A Cold Stream Crossing",
+          "description": "A chilly stream winds its way through the forest, its banks lined with snow. The sound of rushing water fills the air. A small wooden bridge spans the water, leading to the other side.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69278,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Windy Path",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69276,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Trail Through the Pines",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69278": {
+          "vnum": 69278,
+          "name": "Windy Path",
+          "description": "The trail winds its way through the forest, with a chill wind blowing down from the nearby mountains. The trees on either side of the path are heavily laden with snow.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69281,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Snowy Ridge",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69277,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Cold Stream Crossing",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69281": {
+          "vnum": 69281,
+          "name": "Snowy Ridge",
+          "description": "A rocky ridge rises up the the north, its peaks dusted with snow. The path twists and turns its way up the ridge, the trees on either side giving way to more barren rock.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69282,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Snowy Clearing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69278,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Windy Path",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "herbs",
+              "name": "STONECROP",
+              "rank": 52,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69282": {
+          "vnum": 69282,
+          "name": "Snowy Clearing",
+          "description": "A small clearing opens up before you, surrounded by trees heavy with white powder. A blanket of snow covers the ground, with only the occasional bush or tree breaking up the white expanse.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69283,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "The Foot of the Peaks",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69281,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Snowy Ridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69283": {
+          "vnum": 69283,
+          "name": "The Foot of the Peaks",
+          "description": "You find yourself at the base of a towering mountain range, with peaks so high they disappear into the clouds. The ground is rocky and covered in a thick layer of snow, and a chill wind blows through the mountains. You can see the trail continuing up the mountainside, winding its way towards the peaks. In the distance, you can see the large, sprawling shape of a settlement built into the side of mountain.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 69284,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Steep Ascent",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69282,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Snowy Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69284": {
+          "vnum": 69284,
+          "name": "A Steep Ascent",
+          "description": "The trail is slippery with snow and ice, but sturdy handholds and footholds have been cut into the rock in to make the journey easier. The wind is stronger here, whipping snow into your face and making it difficult to see.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69285,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "The Wind-Blasted Plateau",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69283,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "The Foot of the Peaks",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69285": {
+          "vnum": 69285,
+          "name": "The Wind-Blasted Plateau",
+          "description": "A grand plateau juts out from the mountain, offering a panoramic view of the surrounding peaks The wind here is ferocious, and you have to lean into it just to keep your footing. Snowdrifts have accumulated in sheltered areas, creating drifts of white powder that gleam in the light. In the distance, you can see wood smoke twisting lazily into the air.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69286,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Before the Alpine Gates",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69284,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Steep Ascent",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69286": {
+          "vnum": 69286,
+          "name": "Before the Alpine Gates",
+          "description": "A towering structure made of granite and alpine wood rises before you. Two massive stone columns support a large wooden gate, carved with intricate designs and adorned with wolf pelts. Beyond the gate, you can see the settlement stretching out before you, with sturdy wooden buildings and paths winding their way up the mountain. The air is crisp and fresh, with the sound of eagle calls echoing in the distance.",
+          "grid_x": 0,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69287,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Inside the Gates",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69285,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "The Wind-Blasted Plateau",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47310": {
+          "vnum": 47310,
+          "name": "A Narrow Path",
+          "description": "A narrow goat's path meets the gentler slopes near the base of the mountain here. The terrain transitions between rocky outcroppings and softer, grassy inclines as it connects the basin below to the challenging mountainside. A dark lake is visible in a basin far below. This location marks a significant change in the landscape, where the path's guidance becomes less necessary for travelers.",
+          "grid_x": 0,
+          "grid_y": 23,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 47323,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Rocky Outcropping",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47311,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Nearing the Basin",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47311": {
+          "vnum": 47311,
+          "name": "Nearing the Basin",
+          "description": "The goat path widens slightly, as the steep inclines of the mountain give way to the more level terrain of the basin. The landscape around you is a mixture of large boulders, clusters of wild grass, and occasional patches of small shrubs. The dark lake in the basin beckons from a short distance, its waters casting a foreboding atmosphere.",
+          "grid_x": -1,
+          "grid_y": 23,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47310,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Narrow Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47604,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Grassy Clearing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69330": {
+          "vnum": 69330,
+          "name": "Skyrazor's Ascent",
+          "description": "You find yourself on a narrow, winding path etched into the mountainside. The cold wind whistles through the craggy rocks, and the thin air makes each step a challenge. The path seems to have been used only by the most daring and faithful, hinting at the sacred destination that lies above.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69331,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Mountain Peak",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69902
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STORMWORT",
+              "rank": 68,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69331": {
+          "vnum": 69331,
+          "name": "Mountain Peak",
+          "description": "The vast expanse of the land stretches out below, with forests, valleys, and rivers appearing like a grand tapestry. The sky above seems to embrace you, a reminder of the boundless power and majesty of the environment that surrounds you. Above, a massive nest claims the very peak.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69332,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "The Skyrazor's Eyrie",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69330,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Skyrazor's Ascent",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Alumbir daemon",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STORMWORT",
+              "rank": 68,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69332": {
+          "vnum": 69332,
+          "name": "The Skyrazor's Eyrie",
+          "description": "Standing at the very peak of the mountain, you are surrounded by a colossal nest, expertly crafted from sturdy alpine branches, serrated feathers, and strips of weather-resistant hide. The air is thin and the wind howls with a fierce intensity, a testament to the harsh and lofty realm in which the nest resides. The panoramic view of the landscape below is breathtaking and the sheer scale and presence of this nest is no less so. Warm gold veins gleam faintly beneath the surface.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69331,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Mountain Peak",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "GOLD",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69333": {
+          "vnum": 69333,
+          "name": "Eagle's Eyrie",
+          "description": "As the ledge narrows and extends southwest, the mountain's craggy face creates a secluded sanctuary. The space is filled with the sounds of wind rustling through the feathers of the numerous nests and the scent of fresh pine carried on the gusts. From this vantage point, you can observe the breathtaking landscape below, with its snow-capped peaks, evergreens, and distant mountain ranges.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69334,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Perched Eagle's Ledge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69302,
+            69897
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69334": {
+          "vnum": 69334,
+          "name": "Perched Eagle's Ledge",
+          "description": "This rocky outcropping extends south from the top of the stone staircase. The wind whistles even more loudly here, carrying the scent of pine and frost. The ledge is narrow and precarious, but it offers a unique vantage point over the mountainous terrain. Several large eagle nests made from branches, twigs, and other debris can be found here, tucked securely against the mountainside.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69311,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Animal Pen",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69897,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "The Top of a Stone Staircase",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69333,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Eagle's Eyrie",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69891
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69335": {
+          "vnum": 69335,
+          "name": "Treacherous Goat Path",
+          "description": "The ground here is a mix of gravel and packed dirt, marking the beginning of a narrow and treacherous goat path. The low granite wall of the animal pen lies to the west, while the path continues eastward, winding its way through rocky terrain. Mountain slopes rise steeply on both sides, casting shadows over the path and making each step a careful maneuver.",
+          "grid_x": -2,
+          "grid_y": 26,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69337,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Winding Mountain Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69312,
+              "to_zone": "Skarag Clan Settlement - Mount Skarag",
+              "to_room_name": "Animal Pen: East",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47320": {
+          "vnum": 47320,
+          "name": "Narrow Steps",
+          "description": "Here upon narrow steps curving through the earth, the faint sound of a rushing river echoes softly. The tendril roots of ancient trees above reach through the stone surrounding like the bony fingers of the undead searching for a last supper. You can go up or down.",
+          "grid_x": 4,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 47028,
+              "to_zone": "Napenthe Colony",
+              "to_room_name": "Abandoned Shop",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 47321,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Tunnel Entrance",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69338": {
+          "vnum": 69338,
+          "name": "Treacherous Slope",
+          "description": "The goat path hugs the steep mountain slope, weaving its way through a maze of jagged rocks and sparse vegetation. The breathtaking view of the surrounding peaks and valleys can be observed from this vantage point, while the path continues to wind around the mountain. Careful footing is essential as loose gravel and small stones threaten to send the unwary traveler tumbling down the mountainside.",
+          "grid_x": 0,
+          "grid_y": 26,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "ne": {
+              "to_vnum": 69339,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Narrow Goat Path",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69337,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Winding Mountain Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47323": {
+          "vnum": 47323,
+          "name": "Rocky Outcropping",
+          "description": "The goat path takes a sharp turn as it navigates through a rocky outcropping. Boulders of various sizes litter the landscape, creating a challenging obstacle course for those traversing the trail. A shimmering lake is visible from this vantage point, its waters glistening in the distance. The path continues to wind its way through the mountainside, offering little indication of the direction one might be traveling. Blackened coal seams stain the surrounding rock.",
+          "grid_x": 1,
+          "grid_y": 24,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 47310,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "A Narrow Path",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69339,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Narrow Goat Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            },
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69339": {
+          "vnum": 69339,
+          "name": "Narrow Goat Path",
+          "description": "The narrow goat path zigzags along the mountainside, surrounded by rocky terrain and hardy shrubs that cling to the slopes. Patches of snow and ice make footing treacherous, while the scent of the crisp mountain air fills your nostrils.",
+          "grid_x": 1,
+          "grid_y": 25,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 47323,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Rocky Outcropping",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69338,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Treacherous Slope",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69337": {
+          "vnum": 69337,
+          "name": "Winding Mountain Path",
+          "description": "The goat path narrows and winds its way through the rugged mountain landscape, with craggy rocks and scattered shrubs clinging to the slopes. The terrain requires careful footing as the path continues to the east and west.",
+          "grid_x": -1,
+          "grid_y": 26,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69338,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Treacherous Slope",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69335,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Treacherous Goat Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "STONECROP",
+              "rank": 52,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "47604": {
+          "vnum": 47604,
+          "name": "Grassy Clearing",
+          "description": "The path winds through a verdant clearing where the rocky terrain transitions into an area of lush vegetation. The air is warm and comforting, carrying the invigorating scents of damp earth and thriving plant life. Several wooden totems mark the trail on either side.",
+          "grid_x": -2,
+          "grid_y": 23,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 47311,
+              "to_zone": "Mount Skarag",
+              "to_room_name": "Nearing the Basin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 47609,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Verdant Glade",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 47608,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Moss-Covered Boulders",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47605,
+              "to_zone": "Lake Brecilande - Napenthe Basin Forest",
+              "to_room_name": "Lush Foliage",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -5,
+        "max_y": 26,
+        "room_count": 28
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 47310,
+      "to": 47323,
+      "direction": "se",
+      "from_grid": [
+        0,
+        23
+      ],
+      "to_grid": [
+        1,
+        24
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47310,
+      "to": 47311,
+      "direction": "w",
+      "from_grid": [
+        0,
+        23
+      ],
+      "to_grid": [
+        -1,
+        23
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47311,
+      "to": 47604,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        23
+      ],
+      "to_grid": [
+        -2,
+        23
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 47323,
+      "to": 69339,
+      "direction": "s",
+      "from_grid": [
+        1,
+        24
+      ],
+      "to_grid": [
+        1,
+        25
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69271,
+      "to": 69272,
+      "direction": "n",
+      "from_grid": [
+        0,
+        8
+      ],
+      "to_grid": [
+        0,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69272,
+      "to": 69273,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        7
+      ],
+      "to_grid": [
+        1,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69273,
+      "to": 69274,
+      "direction": "n",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69274,
+      "to": 69275,
+      "direction": "nw",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69275,
+      "to": 69276,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69276,
+      "to": 69277,
+      "direction": "n",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69277,
+      "to": 69278,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69278,
+      "to": 69281,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69281,
+      "to": 69282,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69282,
+      "to": 69283,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69283,
+      "to": 69284,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69284,
+      "to": 69285,
+      "direction": "ne",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69285,
+      "to": 69286,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69331,
+      "to": 69332,
+      "direction": "n",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69333,
+      "to": 69334,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69335,
+      "to": 69337,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        26
+      ],
+      "to_grid": [
+        -1,
+        26
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69337,
+      "to": 69338,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        26
+      ],
+      "to_grid": [
+        0,
+        26
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69338,
+      "to": 69339,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        26
+      ],
+      "to_grid": [
+        1,
+        25
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

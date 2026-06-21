@@ -1,0 +1,1476 @@
+{
+  "zone_name": "The Hills North of Mareldja",
+  "entry_vnum": 20017,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 4,
+    "min_y": -4,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 20017,
+      "rooms": {
+        "20001": {
+          "vnum": 20001,
+          "name": "The North Boundary of Mareldja",
+          "description": "You have reached the edge of civilization. The vast and wild hills sprawl lazily in the sunlight, indifferent to your presence. Clumps of trees dot the hills, and a warm breeze blows southward laden with the soft scent of grass and wildflowers.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20005,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "South of the Hills",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20002,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Flowering Hillsides",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20044,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "North of the Cemetery",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20002": {
+          "vnum": 20002,
+          "name": "The Flowering Hillsides",
+          "description": "The hills here seem almost majestic in their purple floral attire. The sweet scent of the flowers relaxes you, and you feel safe and comfortable. Occasionally you glimpse the form of a wild mountain goat frolicking about on a nearby hill, but nothing approaches you.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20003,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The High Grasses",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20001,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The North Boundary of Mareldja",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20006
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20003": {
+          "vnum": 20003,
+          "name": "The High Grasses",
+          "description": "Tall grass surrounds you and press in on you. You would never find your way back if you strayed from the trail you follow. You arrive at an intersection in the trail, with paths leading north, east, and south.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20004,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Edge of the River Telemacus",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20002,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Flowering Hillsides",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20007
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20004": {
+          "vnum": 20004,
+          "name": "The Edge of the River Telemacus",
+          "description": "A narrow but fast river flows here, and you recall from your childhood the legend of Telemacus and his fate at the hands of the mountain dwarves. For a second, you imagine that the river runs red with his blood--it must have been your imagination, but you nevertheless feel uneasy. The river is strangely silent as it works its way eastward toward Lake Arlyn.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20003,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The High Grasses",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20019,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "A Mysterious Blessing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20008
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20005": {
+          "vnum": 20005,
+          "name": "South of the Hills",
+          "description": "You walk along a narrow swath of prairie just south of the hills. The land here is fairly dry, and the paths are easy. Northeast the grasses grow greener and taller, and flowers speckle the landscape. The hills smile down at you, beckoning you northward. To the west lies the city of Mareldja.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20009,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Western Meadow",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20001,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The North Boundary of Mareldja",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20006
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20009": {
+          "vnum": 20009,
+          "name": "The Western Meadow",
+          "description": "You stand at one end of a long meadow split by a wide river. To the north you see the source of the river as the water crashes down aglow with the light of the sun. The scents of green grass and flowers fill your nostrils as you stroll through the meadow. The meadow continues eastward.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20012,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Meadow Middle",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20005,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "South of the Hills",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20010
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20012": {
+          "vnum": 20012,
+          "name": "Meadow Middle",
+          "description": "Ah! There's nothing as scenic and heart warming as the middle of a meadow. You feel almost blessed as you wander about, savoring the delicate sweetness dancing with your every sense. The glimmer of a waterfall catches your eye and you watch the water falling in its eternal path for quite some time. The meadow continues east and west, and hills lie to the north.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20013,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The River Through the Hills",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 20016,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Meadow by the River",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20009,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Western Meadow",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20013": {
+          "vnum": 20013,
+          "name": "The River Through the Hills",
+          "description": "The nameless river that drains Lake Arlyn flows lazily downward through the hills here. Although the river is fairly deep, it is also slow and would be no problem to cross. Strangely, despite the abundance of water, the hills retain their blackened shade, and you recognize the curse of the mountain dwarves at work.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20014,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "At the Waterfall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20012,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Meadow Middle",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20010,
+            20016
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20014": {
+          "vnum": 20014,
+          "name": "At the Waterfall",
+          "description": "The water smashes down from the heights, alive and heady with power. One step could end your life, but you are not afraid as you stare at the mighty current. A sense of raw power fills your head and you envision the very elements themselves at your fingertips, whimsically tearing lightning from the heavens and sending it crashing to the earth below. But then, it will take a long time before you can even light a candle with your magic...",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20017,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20015,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Eastern Shore of Lake Arlyn",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20013,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The River Through the Hills",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20015": {
+          "vnum": 20015,
+          "name": "The Eastern Shore of Lake Arlyn",
+          "description": "The shore here is quite narrow, and the contrast is great. Westward is Lake Arlyn, where fish gather in large groups and play merrily beneath the waves. East and north are hills charred by the curse of the mountain dwarves. The hills directly north are unclimbable, but a path leads around to the north shore.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 20023,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Northern Shore of Lake Arlyn",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20014,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "At the Waterfall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20016": {
+          "vnum": 20016,
+          "name": "The Meadow by the River",
+          "description": "The river separates the meadow from the more wooded lands in the northern valley. The woods seem almost enchanted, and above the forest you see a shimmering green haze. Looking northwest, tracing the river as it winds through the hills, you spot a waterfall, and a full circle rainbow.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20017,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 20012,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Meadow Middle",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            20013
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20017": {
+          "vnum": 20017,
+          "name": "The Forest of Evermore",
+          "description": "While the enchantment of the forest seems to light your way, it is most certainly not an open welcome. Certain paths are easy to follow, while others are practically impossible to even spot. The most unwelcome direction, it seems, is north.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20050,
+              "to_zone": "Forest of Evermore",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20018,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Temple of Isvaelin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20016,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Meadow by the River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20014,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "At the Waterfall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20018": {
+          "vnum": 20018,
+          "name": "The Temple of Isvaelin",
+          "description": "Hidden within this silent section of the forest, a low dome of grey stone rises from beneath a carpet of needles. Brilliant light from within the dome illuminates a flight of marble steps that descend into the southern section, and a melodious chant in an odd tongue resonates amongst the trees. The smooth polish of the stone and the lack of the otherwise ever-present needles upon its surface attest to the reverence of the temple's worshipers.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 75000,
+              "to_zone": "Temple of Isvaelin",
+              "to_room_name": "The Hall of Isvaelin",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20017,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Forest of Evermore",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20019": {
+          "vnum": 20019,
+          "name": "A Mysterious Blessing",
+          "description": "How strange! You have chanced upon an old bridge spanning the River Telemacus. Although the wood is clearly ages old, it still seems firm and stable.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20004,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Edge of the River Telemacus",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20020,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "A Landing on the North Side of the River Telemacus",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20020": {
+          "vnum": 20020,
+          "name": "A Landing on the North Side of the River Telemacus",
+          "description": "You stand on a wide stone ledge from which you can see far to the east across the dead hills. To the west, a narrow and treacherous path leads toward a waterfall high in the mountains. A bridge leads south across the river.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20021,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The River Telemacus",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20019,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "A Mysterious Blessing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 21000,
+              "to_zone": "Goblin Lair",
+              "to_room_name": "A Narrow and Steep Path",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20021": {
+          "vnum": 20021,
+          "name": "The River Telemacus",
+          "description": "You stand on the north bank of the rapid Telemacus. The water speeds by you in silence. Groves of large trees surround the river and obscure the black hills beyond, but everyone knows that they are there...",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20022,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Mouth of the River Telemacus",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20024,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20020,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "A Landing on the North Side of the River Telemacus",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20022": {
+          "vnum": 20022,
+          "name": "The Mouth of the River Telemacus",
+          "description": "The swift river widens and empties into Lake Arlyn in silent fury. The lands across the river are beautiful compared with the tall, dark trees and dead hills to the north. The lake, at least, brims with life.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20023,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Northern Shore of Lake Arlyn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 20026,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20021,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The River Telemacus",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20023": {
+          "vnum": 20023,
+          "name": "The Northern Shore of Lake Arlyn",
+          "description": "Looking out across the shining surface of Lake Arlyn, it is almost easy to forget about the death and destruction that lies behind you, in the hills. Perhaps you should rest here a while before making your way to the lair of the dwarves.",
+          "grid_x": 2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 20026,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Cursed Hills",
+              "direction": "nw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 20015,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Eastern Shore of Lake Arlyn",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20022,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The Mouth of the River Telemacus",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20030": {
+          "vnum": 20030,
+          "name": "The Tomb of Narcin",
+          "description": "A white gravestone marks the burial place of this unknown warrior. You manage to make out from the archaic text that Narcin died fighting the mountain dwarves, and that before he died, he gave three words of advice to those that would complete his task. The words are engraved on the stone.",
+          "grid_x": 7,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 20029,
+              "to_zone": "The Cursed Hills",
+              "to_room_name": "The Sylph's Garden",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20042": {
+          "vnum": 20042,
+          "name": "Trail North of Mareldja",
+          "description": "The trail you travel runs north through the grasslands, paralleling the low stone wall of the cemetery to the east. Beyond the wall, you can see a tower rising among some trees. South of here, the trail joins the Road of Tears, while to the north it bends east around the end of the cemetery wall.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20043,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Around the Cemetery Wall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40163,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Road of Tears",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20043": {
+          "vnum": 20043,
+          "name": "Around the Cemetery Wall",
+          "description": "Here the trail through the grasses bends from east to south as it wraps itself around the low stone wall of the cemetery. Trees inside the grounds block any view you might have of the tombs and monuments. To the north, the prairies sweep away to the hills and mountains, while to the east the trail continues for a brief stretch to the back of the cemetery.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 20044,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "North of the Cemetery",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 20042,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Trail North of Mareldja",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "20044": {
+          "vnum": 20044,
+          "name": "North of the Cemetery",
+          "description": "The trail comes to an end here beside the north wall of the cemetery of Mareldja. To your north, the grassy plains lead your eye onward to the hills and mountains beyond. The trail returns west to where it bends south and climbs the hill into the city.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 20001,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "The North Boundary of Mareldja",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 20043,
+              "to_zone": "The Hills North of Mareldja",
+              "to_room_name": "Around the Cemetery Wall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 4,
+        "min_y": -4,
+        "max_y": 2,
+        "room_count": 22
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 20001,
+      "to": 20005,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20001,
+      "to": 20002,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20001,
+      "to": 20044,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20002,
+      "to": 20003,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20003,
+      "to": 20004,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20004,
+      "to": 20019,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20005,
+      "to": 20009,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20009,
+      "to": 20012,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20012,
+      "to": 20013,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20012,
+      "to": 20016,
+      "direction": "ne",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20013,
+      "to": 20014,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20014,
+      "to": 20017,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20014,
+      "to": 20015,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20015,
+      "to": 20023,
+      "direction": "nw",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20016,
+      "to": 20017,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20017,
+      "to": 20018,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20019,
+      "to": 20020,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20020,
+      "to": 20021,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20021,
+      "to": 20022,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20022,
+      "to": 20023,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -4
+      ],
+      "to_grid": [
+        2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20042,
+      "to": 20043,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 20043,
+      "to": 20044,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

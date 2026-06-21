@@ -1,0 +1,1776 @@
+{
+  "zone_name": "House Braxis - Hedros City",
+  "entry_vnum": 39049,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 2,
+    "min_y": -3,
+    "max_y": 4
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 39077,
+      "rooms": {
+        "39077": {
+          "vnum": 39077,
+          "name": "Dank Chamber",
+          "description": "You stand at the foot of a set of narrow stone steps. The air is clammy and still. A narrow hallway leads to the south but you cannot make out anything in the distance because of the gloom.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39079,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Short Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39076,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Top of the Stairs",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39078": {
+          "vnum": 39078,
+          "name": "Guardian Chamber",
+          "description": "The room is small and unadorned. The rock walls bear many cuts and scratches, unlike the walls in the rest of the place which have generally been smooth and flat. There is a faint, musky smell. Dark mushrooms cluster in the shadows, their caps dusted with pale spores.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39079,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Short Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39081,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Treasure Vault",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "NIGHTSPORE MUSHROOM",
+              "rank": 32,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39079": {
+          "vnum": 39079,
+          "name": "Short Hall",
+          "description": "You stand in a narrow hallway with travel possible in the cardinal directions. The room to the south is brightly lighted and you can smell a slightly dusty smell coming from that direction.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39080,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Store Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39077,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Dank Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39082,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Library",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39078,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Guardian Chamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39080": {
+          "vnum": 39080,
+          "name": "Store Room",
+          "description": "A thick layer of dust covers everything in this small, cluttered place. The room is mainly filled with large, heavy pieces of furniture, far too heavy to move. A small doorway leads back west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39079,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Short Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39081": {
+          "vnum": 39081,
+          "name": "Treasure Vault",
+          "description": "A small room and definitely built for strength. The walls are not composed of mortared stone blocks but rather seem to be one continuous piece, as if the whole room was carved from one large chunk of native rock.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39078,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Guardian Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39082": {
+          "vnum": 39082,
+          "name": "Library",
+          "description": "You find yourself in a small, but well stocked library. The titles all seem to center on a narrow range of subjects. Magic mostly. There is a door to the north and to the east.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39083,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Conjuring Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39079,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Short Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39083": {
+          "vnum": 39083,
+          "name": "Conjuring Room",
+          "description": "The air stinks with the odor of brimstone and sulfur. Counters full of strange looking devices are along the east wall and a rack of flasks and other glassware is to the north. A door leads west.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39082,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Library",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 7
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 39049,
+      "rooms": {
+        "39049": {
+          "vnum": 39049,
+          "name": "Braxis Lane",
+          "description": "Named after the most powerful house in Hedros, Braxis Lane stretches away to the south and away from the city proper. The surface of the road is smooth and slick, rather like glass. It has no certain color and looks to be different colors depending on the viewing angle. sn",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39038,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39050,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39050": {
+          "vnum": 39050,
+          "name": "Braxis Lane",
+          "description": "You have come to a bend in the Lane, which continues to the north and west. The roadway itself provides the only illumination, its strange surface undergoing strange chromatic shifts that dazzle the eyes. The landscape to the side of the road is quickly lost in the gloom, though you get the impression that the terrain is rough and impassable.",
+          "grid_x": 2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39049,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39051,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39051": {
+          "vnum": 39051,
+          "name": "Braxis Lane",
+          "description": "From here you can see that Braxis Lane terminates nearby to the west and bends northward to the east. The air is still here, as if it were afraid to move lest it attract attention.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39050,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39052,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39052": {
+          "vnum": 39052,
+          "name": "Braxis Lane",
+          "description": "You stand at the very end of Braxis Lane which stretches off to the east. A large iron gate prevents passage to the north where you see a dark and forbidding castle in the distance.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39051,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39053,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis` Court",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39053": {
+          "vnum": 39053,
+          "name": "Braxis` Court",
+          "description": "You stand in the center of a large courtyard bounded by a large castle on the north and a set of heavy black gates to the south. Grotesque, black sculptures are scattered haphazardly and though they cannot be clearly identified they are nonetheless disturbing, seeming to evoke images of pain and torment.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39066,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Veranda",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39052,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39066": {
+          "vnum": 39066,
+          "name": "Veranda",
+          "description": "To the north, you are confronted by a large door, beyond which is Braxis' House. A large courtyard is to the south, a set of heavy, black gates visible in the distance.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39067,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Foyer",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 39053,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis` Court",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39067": {
+          "vnum": 39067,
+          "name": "Foyer",
+          "description": "A small, square room. Tastefully decorated if you go in for the somber, depressing look. The murals on the walls feature spindly, cat-like creatures being whipped or torn asunder by scaled, demonic creatures. They don't look too happy about it.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39068,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Antechamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39066,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Veranda",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39068": {
+          "vnum": 39068,
+          "name": "Antechamber",
+          "description": "The floor of this room is black and polished to a mirror-like sheen. A heavy bronze door is immediately to the north. Doorways lead off to the south and east.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39072,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Waiting Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39069,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Throne Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 39067,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Foyer",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39069": {
+          "vnum": 39069,
+          "name": "Throne Room",
+          "description": "In contrast to the rest of this dreary place, this room is brightly and richly decorated. The floor is of pink veined marble and the walls are hung with bright tapestries. A large, imposing throne sits at one end of the room. There is a large bronze door to the south, other doorways lead off to the east and west.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39073,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39068,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Antechamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39070,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Dining Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39070": {
+          "vnum": 39070,
+          "name": "Dining Room",
+          "description": "This long, rectangular room's only real appointment is a long table which runs the length of the room. There are no chairs in evidence so maybe it is their custom to eat standing up. There are doorways leading north and east.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39069,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Throne Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39071,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Kitchen",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39071": {
+          "vnum": 39071,
+          "name": "Kitchen",
+          "description": "Yuck, the smell! Whatever the dietary habits of those whose food is prepared here, you know that you probably wouldn't enjoy a meal with them. A long, butcher's table is along the west wall while a large cupboard is to the east. A doorway leads south.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39070,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Dining Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39072": {
+          "vnum": 39072,
+          "name": "Waiting Room",
+          "description": "Portis must have some rather strange visitors, given the diversity of sitting arrangements in this room. Some are rather conventional: low divans, upholstered chairs and the like. The large iron ring which hangs from the ceiling and the heavy, claw-marked perch which juts from the wall gives you pause to consider the nature of the creatures which must frequent this place.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39068,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Antechamber",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39073": {
+          "vnum": 39073,
+          "name": "Hallway",
+          "description": "You stand at a bend in a hallway which continues to the north and leads to the throne room to the west. The floor is of hard, dark stone as are the walls. Head-sized spheres of some luminescent stone are set into the walls at regular intervals and cast a white, pearly glow.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39074,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39069,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Throne Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39074": {
+          "vnum": 39074,
+          "name": "Hallway",
+          "description": "A set of stairs climbs up to a hall on the second floor, while to the west, a doorway beckons. The hallway continues south.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39073,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39075,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Office",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39084,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39075": {
+          "vnum": 39075,
+          "name": "Office",
+          "description": "The floor is covered by a large area rug, around the edges of which you can see the same grey stone that floors the hall outside. The walls are covered with subdued wall hangings with the exception of the north wall which is decorated with some sort of geometric pattern of interlocking silver and black panels. There is a large desk in the center of the room and a doorway leads east.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39074,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39076,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Top of the Stairs",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39076": {
+          "vnum": 39076,
+          "name": "Top of the Stairs",
+          "description": "You find yourself at the top of a flight of narrow stone steps which lead down into darkness. Their surfaces are strangely worn, as if strange feet have been tramping up and down them for eons.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39075,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Office",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 39077,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Dank Chamber",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 2,
+        "min_y": -3,
+        "max_y": 4,
+        "room_count": 16
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 39084,
+      "rooms": {
+        "39084": {
+          "vnum": 39084,
+          "name": "Carpeted Hall",
+          "description": "You stand at the east end of a carpeted hall. A flight of stairs leads down to the lower levels of the palace. The carpeted hall continues west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39085,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 39074,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Hallway",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39085": {
+          "vnum": 39085,
+          "name": "Carpeted Hall",
+          "description": "You are in the center of an east/west running hallway. Immediately to the north is a wooden door carved with the likeness of a large snake coiled around a tree.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39084,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39088,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Master Bedroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 39087,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39086": {
+          "vnum": 39086,
+          "name": "Guest Bedroom",
+          "description": "A largish, but rather austere room. There is a large, comfortable looking bed against the east wall with a small table beside it. A dresser against the west wall and a stool in the corner are the only furnishings.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39087,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Sevar",
+              "description": "",
+              "unique": true,
+              "npc_type": "unique"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39087": {
+          "vnum": 39087,
+          "name": "Carpeted Hall",
+          "description": "You stand at the west end of a long, carpeted hallway. A door confronts you immediately to the south and the hallway continues east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39085,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39086,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Guest Bedroom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39088": {
+          "vnum": 39088,
+          "name": "Master Bedroom",
+          "description": "A large fireplace dominates the north wall, its wide brick hearth jutting out into the room. Soft rushes and pillows are piled in strategic places about the room. There is a door in the east wall, probably leading to a closet, and another door to the south which leads to the hall.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39089,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Closet",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "s": {
+              "to_vnum": 39085,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Carpeted Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39089": {
+          "vnum": 39089,
+          "name": "Closet",
+          "description": "Portis is evidently not too sartorially inclined given the lack of clothing in here. Just some hooks on which clothing could be hung. There is a door to the west.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39088,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Master Bedroom",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 6
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 39049,
+      "to": 39050,
+      "direction": "s",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        2,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39050,
+      "to": 39051,
+      "direction": "w",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39051,
+      "to": 39052,
+      "direction": "w",
+      "from_grid": [
+        1,
+        4
+      ],
+      "to_grid": [
+        0,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39052,
+      "to": 39053,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39053,
+      "to": 39066,
+      "direction": "n",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39066,
+      "to": 39067,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39067,
+      "to": 39068,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39068,
+      "to": 39072,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39068,
+      "to": 39069,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39069,
+      "to": 39073,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39069,
+      "to": 39070,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39070,
+      "to": 39071,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39073,
+      "to": 39074,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39074,
+      "to": 39075,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39075,
+      "to": 39076,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39077,
+      "to": 39079,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39078,
+      "to": 39079,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39078,
+      "to": 39081,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39079,
+      "to": 39080,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39079,
+      "to": 39082,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39082,
+      "to": 39083,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39084,
+      "to": 39085,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39085,
+      "to": 39088,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39085,
+      "to": 39087,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39086,
+      "to": 39087,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39088,
+      "to": 39089,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

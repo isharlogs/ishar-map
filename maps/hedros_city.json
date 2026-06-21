@@ -1,0 +1,4137 @@
+{
+  "zone_name": "Hedros City",
+  "entry_vnum": 39008,
+  "floor_count": 5,
+  "bounds": {
+    "min_x": -8,
+    "max_x": 5,
+    "min_y": -4,
+    "max_y": 5
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 39058,
+      "rooms": {
+        "39058": {
+          "vnum": 39058,
+          "name": "The Fetid Pool",
+          "description": "The water surrounding you is thick and sluggish. You can see no great distance through the syrupy muck, just enough to make out rock walls rising up into the gloom.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 39057,
+              "to_zone": "Hedros City",
+              "to_room_name": "Narrow Ledge",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": -1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 39008,
+      "rooms": {
+        "39040": {
+          "vnum": 39040,
+          "name": "Night Street",
+          "description": "The sluggish, black waters of the Hedros River move slowly from east to west, blocking travel to the north. Cries of pain and misery come to you from the east where a grim town-square beckons. The doors of a small shop are open immediately to the south.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39041,
+              "to_zone": "Hedros City",
+              "to_room_name": "Misery Square",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39045,
+              "to_zone": "Hedros City",
+              "to_room_name": "Gertina`s Fine Housewares",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39039,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39041": {
+          "vnum": 39041,
+          "name": "Misery Square",
+          "description": "Soft cries and whimpers fill the air with a soft song of misery. The wretches who have been crucified, hung from stakes, or broken over racks in this hellish square must have been deemed too physically infirm to make good slaves to the Hedros demons, before or after death.",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39042,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39030,
+              "to_zone": "Hedros City",
+              "to_room_name": "Burning Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39040,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39042": {
+          "vnum": 39042,
+          "name": "Street of Sin",
+          "description": "Soft cries and moans of anguish come from the west like a soft song of misery. Boisterous talk and an occasional bark of laughter come through a small door to the south. There is a sign above the door featuring an arm, its hand severed and hanging by a scrap of flesh. The name \"Lefty's\" has been stenciled across the front of the building in bold, red letters.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39043,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39047,
+              "to_zone": "Hedros City",
+              "to_room_name": "Lefty`s Bar",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39041,
+              "to_zone": "Hedros City",
+              "to_room_name": "Misery Square",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39043": {
+          "vnum": 39043,
+          "name": "Street of Sin",
+          "description": "The street dead-ends into a grotesque rock formation to the east. A small path leads north onto a narrow ledge which sticks out over a pool of sluggish, black water. A vagrant breeze from the south bears the smell of animal waste and misery. The Street of Sin continues to the west.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39057,
+              "to_zone": "Hedros City",
+              "to_room_name": "Narrow Ledge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39048,
+              "to_zone": "Hedros City",
+              "to_room_name": "Slave Market",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39042,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39044": {
+          "vnum": 39044,
+          "name": "Herbix`s Emporium",
+          "description": "You see a lot of things that could be called essential miscellanea. Bags, torches, lanterns and a hoard of other such items line the shelves or sit in small floor displays. Everything is clean and organized as Herbix is a fastidious businessman.",
+          "grid_x": -5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39039,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39045": {
+          "vnum": 39045,
+          "name": "Gertina`s Fine Housewares",
+          "description": "This is a truly beautiful room. The furniture tastefully arranged, the room's appointments placed with loving care and an eye for color and balance. The room seems to say, \"Lay down, rest here, enjoy me. \" However, you notice small \"keep off\" signs on all the furniture and \"don't touch\" signs on all the decorations.",
+          "grid_x": -4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39040,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39046": {
+          "vnum": 39046,
+          "name": "Flechzzt`s Flesh Mart",
+          "description": "A brothel. No question about it. Everything done up in tacky red velvet and gold brocade. Truly icky. A hallway leads off to the south, the door to Lefty's is to the east.",
+          "grid_x": -3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39047,
+              "to_zone": "Hedros City",
+              "to_room_name": "Lefty`s Bar",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39060,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39047": {
+          "vnum": 39047,
+          "name": "Lefty`s Bar",
+          "description": "The interior of the pub is a friendly place with all the cute bar-like things you would expect in a drinking establishment. Severed heads of various races are hung from the ceiling with tapers protruding from their mouths, casting a soft, friendly glow. The well perforated corpse of a Samundrian cleric dangles by one foot, making a fine dagger target for the throwing contests. All-in-all a nice neighborhood saloon. A door leads west to an adjoining business, the street entrance is to the north.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39042,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39046,
+              "to_zone": "Hedros City",
+              "to_room_name": "Flechzzt`s Flesh Mart",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39048": {
+          "vnum": 39048,
+          "name": "Slave Market",
+          "description": "Misery is thick in the atmosphere of this dingy place. A large auction block and a small table are the only appointments. A heavy iron door is to the south, the Street of Sin is to the north.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39043,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            39099
+          ],
+          "npcs": [
+            {
+              "name": "Troxel",
+              "description": "His skin is covered by a slimey ooze as befits one in his business. He stinks of sweat and misery.",
+              "unique": true,
+              "npc_type": "unique"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39054": {
+          "vnum": 39054,
+          "name": "Square of the Crimson Coin",
+          "description": "The large, blocky structure to the north bears a sign which proclaims the building to be the First Bank of Hedros. Since you haven't seen any other banks in evidence, you conclude that demons just naturally like to put on airs.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39055,
+              "to_zone": "Hedros City",
+              "to_room_name": "First Bank of Hedros",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39015,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39055": {
+          "vnum": 39055,
+          "name": "First Bank of Hedros",
+          "description": "Definitely a good strong bank. Thick walls, iron bars and locked doors abound. A constant stream of customers come and go while you watch; a lot of money moves through this bank. It would take a smart banker to keep track of it all.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39054,
+              "to_zone": "Hedros City",
+              "to_room_name": "Square of the Crimson Coin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39056": {
+          "vnum": 39056,
+          "name": "Footbridge",
+          "description": "This bridge looks almost as if it was built as an afterthought to the rest of the city. Because it is so narrow only one person can cross it at a time. It sways sickenly as you cross, threatening to pitch you off into the dark water below.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39016,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39034,
+              "to_zone": "Hedros City",
+              "to_room_name": "Basalt Road",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39057": {
+          "vnum": 39057,
+          "name": "Narrow Ledge",
+          "description": "You have walked out upon a narrow ledge which juts out over a fetid pool of viscous sludge. Small bits of debris dot the surface of the pool, slowly bobbing on the gently rippling surface. A dark lane is to the south, which is the only way you can go without falling into the pool.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39043,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Sin",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 39058,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Fetid Pool",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39060": {
+          "vnum": 39060,
+          "name": "Plush Hallway",
+          "description": "Hmmm, there is a certain odor...not unpleasant...it smells a little of sweat. As if someone had been exercising recently. Doors lead off to the east and west. The hall continues to the south, the entry to Flechzzt's is to the north.",
+          "grid_x": -3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39062,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Green Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39046,
+              "to_zone": "Hedros City",
+              "to_room_name": "Flechzzt`s Flesh Mart",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39061,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39063,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Blue Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39061": {
+          "vnum": 39061,
+          "name": "Plush Hallway",
+          "description": "You stand at the southern end of the hall. There are doors to the east and west.",
+          "grid_x": -3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39064,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Red Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39060,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39065,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Yellow Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39062": {
+          "vnum": 39062,
+          "name": "The Green Room",
+          "description": "A mighty small room, just room enough to rest, sleep or whatever. Everything is decorated entirely in green.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39060,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39063": {
+          "vnum": 39063,
+          "name": "The Blue Room",
+          "description": "A mighty small room. Just enough room to rest, sleep or whatever. Everything is decorated entirely in blue.",
+          "grid_x": -4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39060,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39064": {
+          "vnum": 39064,
+          "name": "The Red Room",
+          "description": "A mighty small room. Just room enough to rest, sleep or whatever. Everything is decorated entirely in red.",
+          "grid_x": -4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39061,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39065": {
+          "vnum": 39065,
+          "name": "The Yellow Room",
+          "description": "A mighty small room. Just enough room to rest, sleep or whatever. The room is decorated entirely in yellow.",
+          "grid_x": -2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39061,
+              "to_zone": "Hedros City",
+              "to_room_name": "Plush Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "807": {
+          "vnum": 807,
+          "name": "Beneath the Burning Bridge",
+          "description": "A large pipe extends from the north bank and dribbles a steady flow of some glowing, opalescent liquid into the river. Bright bands of color spread from the point of contact and are borne downstream with the sluggish current. Large bubbles rise to the river's surface and burst, releasing a murky cloud of vapor which rises slowly into the air. Occasionally one of these clouds is ignited yielding a intense burst of flame.",
+          "grid_x": 8,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go pipe": {
+              "to_vnum": 38010,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Rotten Hollow",
+              "direction": "go pipe",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "39095": {
+          "vnum": 39095,
+          "name": "Tower Entrance",
+          "description": "Kinda cramped in here. Since the tower looks much larger from the outside, you can only assume that there are other rooms behind the stone wall to the east. A massive, stone slab with a large handle on it stands to the west. A set of stairs climbs up into the tower.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "u": {
+              "to_vnum": 39094,
+              "to_zone": "Hedros City",
+              "to_room_name": "Stairway Switchback",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39001": {
+          "vnum": 39001,
+          "name": "The Dark Temple",
+          "description": "A mass of inky black liquid stands before you, holding itself in the shape of a perfect rectangle. Stairs of the same substance lead up on top of the platform. A door to the south offers an exit to the outside.",
+          "grid_x": -3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39002,
+              "to_zone": "Hedros City",
+              "to_room_name": "Temple Plaza",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39000,
+              "to_zone": "Hedros City",
+              "to_room_name": "Altar of the Dark One",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "up the steps": {
+              "to_vnum": 39000,
+              "to_zone": "Hedros City",
+              "to_room_name": "Altar of the Dark One",
+              "direction": "up the steps",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "39002": {
+          "vnum": 39002,
+          "name": "Temple Plaza",
+          "description": "You stand in a small plaza before the Dark Temple. The buildings nearby are all tastefully decorated in glossy black and blood red. A larger square is to the south, a sign reading 'Krakkzub's Inn' hangs over a door to the east.",
+          "grid_x": -3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39003,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tasty Snacks Eatery",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39001,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Dark Temple",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39013,
+              "to_zone": "Hedros City",
+              "to_room_name": "Commerce Square",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39003": {
+          "vnum": 39003,
+          "name": "Tasty Snacks Eatery",
+          "description": "You find yourself in a charming tavern which boasts small wooden tables covered with red and white checkered table-cloths. The delightful aroma of broiled meat fills the air and the clatter of crockery makes you think of home.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39002,
+              "to_zone": "Hedros City",
+              "to_room_name": "Temple Plaza",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39004,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Comfy Cot",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39005": {
+          "vnum": 39005,
+          "name": "The Hammered Shield",
+          "description": "The sweet smell of oiled steel quickens your pulse as you examine the array of displayed armors. Most are for sale, but some like the ancient suit of Bandwar mail, are obvious showpieces.",
+          "grid_x": -6,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39006,
+              "to_zone": "Hedros City",
+              "to_room_name": "Practice Yard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39010,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39006": {
+          "vnum": 39006,
+          "name": "Practice Yard",
+          "description": "Practice dummies stand rigidly at attention, their wooden forms hacked and splintered by sword and axe cuts. The black gravel yard is fenced in, offering doorways only to the east and west.",
+          "grid_x": -5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39007,
+              "to_zone": "Hedros City",
+              "to_room_name": "A House of Arms",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39005,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Hammered Shield",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39007": {
+          "vnum": 39007,
+          "name": "A House of Arms",
+          "description": "A long counter runs the length of the room, swords, axes and hammers carefully arranged along its length. Various other weapons hang from racks on the walls or lean against the wall.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 39012,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39006,
+              "to_zone": "Hedros City",
+              "to_room_name": "Practice Yard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39008": {
+          "vnum": 39008,
+          "name": "Outside the Iron Gate",
+          "description": "You stand outside the gates of a dark, forbidding city. Strange cries and shrieks can be heard from beyond the gate; occasionally a burst of maniacal laughter. Clouds of thick vapor hover far overhead within the massive underground cavern, drifting above the city.",
+          "grid_x": -8,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39009,
+              "to_zone": "Hedros City",
+              "to_room_name": "Inside Hedros City",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 38099,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Before a Tremendous Cavern",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39009": {
+          "vnum": 39009,
+          "name": "Inside Hedros City",
+          "description": "Strange forms move along the streets and every patch of greater darkness seems to conceal furtive movement. Many of the creatures you see have baleful red eyes, though some are milky white, others a burnished silver. A large iron gate looms to the west; the city proper is to the east.",
+          "grid_x": -7,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39010,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39008,
+              "to_zone": "Hedros City",
+              "to_room_name": "Outside the Iron Gate",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39010": {
+          "vnum": 39010,
+          "name": "Iron Street",
+          "description": "You have come before a small shop displaying a black banner with a hammer and shield in silver. The iron gates of the city are still visible to the west and Iron Street continues east. Another road leads off to the south.",
+          "grid_x": -6,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39011,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39005,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Hammered Shield",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39029,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39009,
+              "to_zone": "Hedros City",
+              "to_room_name": "Inside Hedros City",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39011": {
+          "vnum": 39011,
+          "name": "Iron Street",
+          "description": "As you look south you see the sluggish flow of the Hedros River. Right next to you, on the north, is a high wall from beyond which you can hear the sound of combat and occasionally an incongruous bark of laughter. Iron street continues to the east and west.",
+          "grid_x": -5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39012,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39010,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39012": {
+          "vnum": 39012,
+          "name": "Iron Street",
+          "description": "A door beckons to the north. Glancing in, you see the silver gleam of steel; a weapon shop. Iron Street goes west from here, there is a bustling square to the east.",
+          "grid_x": -4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39013,
+              "to_zone": "Hedros City",
+              "to_room_name": "Commerce Square",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39007,
+              "to_zone": "Hedros City",
+              "to_room_name": "A House of Arms",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39011,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39013": {
+          "vnum": 39013,
+          "name": "Commerce Square",
+          "description": "The square is filled with the bustle of people about their business. They look like people - more or less. They do have a definite demonic cast to their features and a pronounced atmosphere of pure malice about them.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39014,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39002,
+              "to_zone": "Hedros City",
+              "to_room_name": "Temple Plaza",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39030,
+              "to_zone": "Hedros City",
+              "to_room_name": "Burning Bridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39012,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39014": {
+          "vnum": 39014,
+          "name": "Street of Gold",
+          "description": "It may be called the Street of gold but you don't see any richness in evidence. The pavement of the street throws back little glints but they are more of a ruddy crimson color. A bustling square is plainly visible to the west and the street continues east.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39015,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39031,
+              "to_zone": "Hedros City",
+              "to_room_name": "Alley at Levee",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39013,
+              "to_zone": "Hedros City",
+              "to_room_name": "Commerce Square",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39015": {
+          "vnum": 39015,
+          "name": "Street of Gold",
+          "description": "In the distance to the north you can see a squat building of sturdy construction which fronts on a small square which is directly to your north. The sluggish waters of River Hedros are to your south, the Street of Gold continues to the east and west.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39016,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39054,
+              "to_zone": "Hedros City",
+              "to_room_name": "Square of the Crimson Coin",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39014,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39016": {
+          "vnum": 39016,
+          "name": "Street of Gold",
+          "description": "Large bronze gates, green with ages of tarnish, bulk in the distance to the east. To the south a narrow, rickety bridge spans River Hedros, creaking and groaning dangerously as people move across it. The Street of Gold continues to the west.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39017,
+              "to_zone": "Hedros City",
+              "to_room_name": "Inside the Bronze Gates",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39056,
+              "to_zone": "Hedros City",
+              "to_room_name": "Footbridge",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39015,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39017": {
+          "vnum": 39017,
+          "name": "Inside the Bronze Gates",
+          "description": "You stand inside a set of large, bronze gates. The gates are not the mellow color of new bronze but green with age. A large street heads off to the west.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39016,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39018": {
+          "vnum": 39018,
+          "name": "The Badlands",
+          "description": "You sway slowly with the current of these oozing black waters. Looking east, you see the outlines of a dark city against the greater darkness of the cavern.",
+          "grid_x": -5,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39019,
+              "to_zone": "Hedros City",
+              "to_room_name": "West of the City",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39019": {
+          "vnum": 39019,
+          "name": "West of the City",
+          "description": "The dark city bulks large to the east. Strange cries and wails come from out of the murky distance and the air is heavy and still. The rough, rocky banks of the river allow travel only to the east and west.",
+          "grid_x": -4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39020,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath the Iron Bridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39018,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Badlands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39020": {
+          "vnum": 39020,
+          "name": "Beneath the Iron Bridge",
+          "description": "You paddle carefully between large, black iron pilings that support the bridge looming over your head. The water gurgles softly as it flows around the pilings and continues its slow movement west.",
+          "grid_x": -3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39021,
+              "to_zone": "Hedros City",
+              "to_room_name": "Rainbow Waters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39019,
+              "to_zone": "Hedros City",
+              "to_room_name": "West of the City",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39021": {
+          "vnum": 39021,
+          "name": "Rainbow Waters",
+          "description": "Strange bands of color streak the surface of the river here and a sickening miasma lingers in the moist air. The bands of color are more pronounced to the east and fade away to the west, as if daunted by the river's travel.",
+          "grid_x": -2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39022,
+              "to_zone": "Hedros City",
+              "to_room_name": "Polluted Stream",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39020,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath the Iron Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39022": {
+          "vnum": 39022,
+          "name": "Polluted Stream",
+          "description": "A sulfurous yellow mist hangs low over the surface of the water and the air is filled with the smell of corruption. Looking east, you see what looks to be a burning bridge spanning the river. The water is streaked with smears of bright color which are brighter to the east and flow west with the current.",
+          "grid_x": -1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39023,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath the Burning Bridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39021,
+              "to_zone": "Hedros City",
+              "to_room_name": "Rainbow Waters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39023": {
+          "vnum": 39023,
+          "name": "Beneath the Burning Bridge",
+          "description": "A large pipe extends from the north bank and dribbles a steady flow of some glowing, opalescent liquid into the river. Bright bands of color spread from the point of contact and are borne downstream with the sluggish current. Large bubbles rise to the river's surface and burst, releasing a murky cloud of vapor which rises slowly into the air. Occasionally one of these clouds is ignited yielding a intense burst of flame.",
+          "grid_x": 0,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39024,
+              "to_zone": "Hedros City",
+              "to_room_name": "On the Dark River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39022,
+              "to_zone": "Hedros City",
+              "to_room_name": "Polluted Stream",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go pipe": {
+              "to_vnum": 38010,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Rotten Hollow",
+              "direction": "go pipe",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "39024": {
+          "vnum": 39024,
+          "name": "On the Dark River",
+          "description": "You rock slowly with the current of the river, which is fairly slow and smooth at this point. Directly north of you is the Levee where you can exit the river and get back on dry land. The river continues east and west.",
+          "grid_x": 1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39025,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Foul River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39032,
+              "to_zone": "Hedros City",
+              "to_room_name": "Levee",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39023,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath the Burning Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39025": {
+          "vnum": 39025,
+          "name": "The Foul River",
+          "description": "A rotten smell comes strongly off the river at this point seeming to get stronger to the south. Looking that direction, you see a narrow arm of rock extending out over that edge of the river. A jagged barrier of rock prevents travel in that direction, which is probably just as well given the stench that comes from there.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39026,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath a Narrow Bridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39024,
+              "to_zone": "Hedros City",
+              "to_room_name": "On the Dark River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39026": {
+          "vnum": 39026,
+          "name": "Beneath a Narrow Bridge",
+          "description": "You are crossing beneath a narrow footbridge which seems to be very shabbily constructed. It is so narrow and rickety that it sways sickeningly whenever an occasional passerby lurches across its fragile span.",
+          "grid_x": 3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39027,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Roiling Waters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39025,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Foul River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39027": {
+          "vnum": 39027,
+          "name": "The Roiling Waters",
+          "description": "As the waters pass into the city proper, they churn roughly as though protesting the path they have been given to travel. The waters seem calm enough to the east and west, but you can hardly help notice the change in the character of the water slightly to the west. The river becomes darker and more viscous in that direction.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39028,
+              "to_zone": "Hedros City",
+              "to_room_name": "East of the City",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39026,
+              "to_zone": "Hedros City",
+              "to_room_name": "Beneath a Narrow Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39028": {
+          "vnum": 39028,
+          "name": "East of the City",
+          "description": "You are just east of a dark and menacing city. Winged, reptilian shapes flap noisily through the murky heights of this dreary subterranean world. To the east, the river cuts around a rock formation and is gone from sight.",
+          "grid_x": 5,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38000,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Dark River",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39027,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Roiling Waters",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39029": {
+          "vnum": 39029,
+          "name": "Iron Bridge",
+          "description": "Made entirely of black iron, this bridge looks like it would support even the heaviest of freight wagons. You have a good view of the dark waters of the river as they extend into the distance in the east and west but the revolting stench rising from the viscous flow makes you want to move along.",
+          "grid_x": -6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39010,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Street",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39038,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39030": {
+          "vnum": 39030,
+          "name": "Burning Bridge",
+          "description": "The bridge isn't actually burning but it looks like it is. Large bubbles rise to the surface of the river where they burst, filling the air with a foul stench. Whatever sparkling material the bridge is constructed from ignites the gas as it rises causing a brief but intense burst of flame.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39013,
+              "to_zone": "Hedros City",
+              "to_room_name": "Commerce Square",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39041,
+              "to_zone": "Hedros City",
+              "to_room_name": "Misery Square",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39031": {
+          "vnum": 39031,
+          "name": "Alley at Levee",
+          "description": "You move along a narrow alley running from the edge of the river on the south, to a large street to the north.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39014,
+              "to_zone": "Hedros City",
+              "to_room_name": "Street of Gold",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39032,
+              "to_zone": "Hedros City",
+              "to_room_name": "Levee",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39032": {
+          "vnum": 39032,
+          "name": "Levee",
+          "description": "The oily, black water flows by this small spit of land, occasionally sending small wavelets up to lap about your feet. You can enter the river to the south or enter the small alley which looms to the north.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 39031,
+              "to_zone": "Hedros City",
+              "to_room_name": "Alley at Levee",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39024,
+              "to_zone": "Hedros City",
+              "to_room_name": "On the Dark River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39034": {
+          "vnum": 39034,
+          "name": "Basalt Road",
+          "description": "Flat black, the road seems to absorb all light, reflecting none. The feeling is of walking across an invisible surface which holds you suspended above a infinite void. A small bridge is to the north and the road continues east.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39056,
+              "to_zone": "Hedros City",
+              "to_room_name": "Footbridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39035": {
+          "vnum": 39035,
+          "name": "Before Porgus House",
+          "description": "You stand at the foot of the squat, black tower known as Porgus House. The tower is roughly circular and rises perhaps 50 feet over your head. The only break in the smooth, ebon surface is a large, rectangular window near the apex of the tower.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39095,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tower Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 39034,
+              "to_zone": "Hedros City",
+              "to_room_name": "Basalt Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39090,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tower Wall",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39037": {
+          "vnum": 39037,
+          "name": "The Azure Flame",
+          "description": "A number of tables spotted around the room display low cost amulets and good- luck charms but the good stuff is behind the counter where they can be easily watched. A set of marble stairs leads up to an unknown destination above.",
+          "grid_x": -7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39038,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39036,
+              "to_zone": "Hedros City",
+              "to_room_name": "Mage`s Lab",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39038": {
+          "vnum": 39038,
+          "name": "Night Street",
+          "description": "You stand on the west end of Night Street. Braxis lane heads off to the south and to your north you see a large, iron bridge. A vague, sulfurous smell wafts out from the shop to the west. Night Street continues to the east.",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39039,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 39029,
+              "to_zone": "Hedros City",
+              "to_room_name": "Iron Bridge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39049,
+              "to_zone": "House Braxis - Hedros City",
+              "to_room_name": "Braxis Lane",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39037,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Azure Flame",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39039": {
+          "vnum": 39039,
+          "name": "Night Street",
+          "description": "You stand in the center of a dark road which stretches off to the east and west. The banks of the Hedros river, steep and dangerous, block travel to the north. The smell of leather and dry goods is bourne to you by a soft breeze from the south.",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39040,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39044,
+              "to_zone": "Hedros City",
+              "to_room_name": "Herbix`s Emporium",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39038,
+              "to_zone": "Hedros City",
+              "to_room_name": "Night Street",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -8,
+        "max_x": 5,
+        "min_y": -4,
+        "max_y": 5,
+        "room_count": 57
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 39036,
+      "rooms": {
+        "39090": {
+          "vnum": 39090,
+          "name": "Tower Wall",
+          "description": "You cling to the wall of a small tower, perched atop a few small footholds jutting from its smooth surface. You can continue to climb up, or descend to the tower's base.",
+          "grid_x": 3,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39091,
+              "to_zone": "Hedros City",
+              "to_room_name": "Near the Window",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39094": {
+          "vnum": 39094,
+          "name": "Stairway Switchback",
+          "description": "You have come to a fairly large landing where the stairs reverse the angle of their descent. A large stone door regulates passage to the east and the stairs continue toward the top and bottom of the tower.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39096,
+              "to_zone": "Hedros City",
+              "to_room_name": "Study",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": true
+            },
+            "d": {
+              "to_vnum": 39095,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tower Entrance",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39093,
+              "to_zone": "Hedros City",
+              "to_room_name": "Landing",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39096": {
+          "vnum": 39096,
+          "name": "Study",
+          "description": "A somewhat conventional looking office with a desk, some pictures and a rug on the floor.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 39094,
+              "to_zone": "Hedros City",
+              "to_room_name": "Stairway Switchback",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            39097
+          ],
+          "npcs": [
+            {
+              "name": "Helrod",
+              "description": "He has a piggish face and a nasty gleam in his eyes.  He also smells bad.",
+              "unique": true,
+              "npc_type": "unique"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39000": {
+          "vnum": 39000,
+          "name": "Altar of the Dark One",
+          "description": "You stand in the center of a glistening, black pool of water. Small ripples disturb the surface with every step you take, yet your feet stay dry. The water seems to stiffen beneath your weight wherever you place a foot.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 39001,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Dark Temple",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39004": {
+          "vnum": 39004,
+          "name": "The Comfy Cot",
+          "description": "Small doorways are spaced evenly about the walls of this large room, each of them offering a safe place for you to sleep. A large desk stands in the center of the room.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 39003,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tasty Snacks Eatery",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "39036": {
+          "vnum": 39036,
+          "name": "Mage`s Lab",
+          "description": "Shelves against the north wall contain many oddments of wood and metal. Small beakers and vials, containing oddly colored liquids and fine powders are neatly racked on a counter against the south wall. A large bookcase of books is to the west. Wide marble stairs lead down to the magic shop.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 39037,
+              "to_zone": "Hedros City",
+              "to_room_name": "The Azure Flame",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 6
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 39093,
+      "rooms": {
+        "39091": {
+          "vnum": 39091,
+          "name": "Near the Window",
+          "description": "You cling to the wall alongside a large, open window. Whatever is beyond the window is shrouded in darkness.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 39090,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tower Wall",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go window": {
+              "to_vnum": 39093,
+              "to_zone": "Hedros City",
+              "to_room_name": "Landing",
+              "direction": "go window",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 39092,
+              "to_zone": "Hedros City",
+              "to_room_name": "Tower Top",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "39093": {
+          "vnum": 39093,
+          "name": "Landing",
+          "description": "You stand before a large window in a very small room. A heavy, steel grate is used to block access to a narrow set of stairs leading down. If you are nimble enough, you could climb out the window and cling to the face of the tower. The room is barren except for a pile of badly smashed bones on the floor, near the grate.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 39091,
+              "to_zone": "Hedros City",
+              "to_room_name": "Near the Window",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 39094,
+              "to_zone": "Hedros City",
+              "to_room_name": "Stairway Switchback",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            39098
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "3": {
+      "floor_id": 3,
+      "entry_vnum": null,
+      "rooms": {
+        "39092": {
+          "vnum": 39092,
+          "name": "Tower Top",
+          "description": "The roof is fairly small, only about 15 feet in diameter. It is composed of the same black stone that makes up the rest of the tower and slants steeply from its high center toward the sheer edge.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "n": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 39035,
+              "to_zone": "Hedros City",
+              "to_room_name": "Before Porgus House",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": true,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 39091,
+              "to_zone": "Hedros City",
+              "to_room_name": "Near the Window",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            39059
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 4,
+        "max_x": 4,
+        "min_y": 1,
+        "max_y": 1,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 39001,
+      "to": 39002,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        -4
+      ],
+      "to_grid": [
+        -3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39002,
+      "to": 39003,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39002,
+      "to": 39013,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        -3
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39005,
+      "to": 39006,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        -2
+      ],
+      "to_grid": [
+        -5,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39005,
+      "to": 39010,
+      "direction": "s",
+      "from_grid": [
+        -6,
+        -2
+      ],
+      "to_grid": [
+        -6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39006,
+      "to": 39007,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39007,
+      "to": 39012,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39008,
+      "to": 39009,
+      "direction": "e",
+      "from_grid": [
+        -8,
+        -1
+      ],
+      "to_grid": [
+        -7,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39009,
+      "to": 39010,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        -1
+      ],
+      "to_grid": [
+        -6,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39010,
+      "to": 39011,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        -1
+      ],
+      "to_grid": [
+        -5,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39010,
+      "to": 39029,
+      "direction": "s",
+      "from_grid": [
+        -6,
+        -1
+      ],
+      "to_grid": [
+        -6,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39011,
+      "to": 39012,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        -1
+      ],
+      "to_grid": [
+        -4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39012,
+      "to": 39013,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39013,
+      "to": 39014,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39013,
+      "to": 39030,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39014,
+      "to": 39015,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39014,
+      "to": 39031,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39015,
+      "to": 39016,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39015,
+      "to": 39054,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39016,
+      "to": 39017,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39016,
+      "to": 39056,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39018,
+      "to": 39019,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        5
+      ],
+      "to_grid": [
+        -4,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39019,
+      "to": 39020,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        5
+      ],
+      "to_grid": [
+        -3,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39020,
+      "to": 39021,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        5
+      ],
+      "to_grid": [
+        -2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39021,
+      "to": 39022,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        -1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39022,
+      "to": 39023,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        5
+      ],
+      "to_grid": [
+        0,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39023,
+      "to": 39024,
+      "direction": "e",
+      "from_grid": [
+        0,
+        5
+      ],
+      "to_grid": [
+        1,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39024,
+      "to": 39025,
+      "direction": "e",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39024,
+      "to": 39032,
+      "direction": "n",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39025,
+      "to": 39026,
+      "direction": "e",
+      "from_grid": [
+        2,
+        5
+      ],
+      "to_grid": [
+        3,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39026,
+      "to": 39027,
+      "direction": "e",
+      "from_grid": [
+        3,
+        5
+      ],
+      "to_grid": [
+        4,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39027,
+      "to": 39028,
+      "direction": "e",
+      "from_grid": [
+        4,
+        5
+      ],
+      "to_grid": [
+        5,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39029,
+      "to": 39038,
+      "direction": "s",
+      "from_grid": [
+        -6,
+        0
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39030,
+      "to": 39041,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39031,
+      "to": 39032,
+      "direction": "s",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39034,
+      "to": 39035,
+      "direction": "e",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39034,
+      "to": 39056,
+      "direction": "n",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39035,
+      "to": 39095,
+      "direction": "e",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 39037,
+      "to": 39038,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        1
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39038,
+      "to": 39039,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        1
+      ],
+      "to_grid": [
+        -5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39039,
+      "to": 39040,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39039,
+      "to": 39044,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        1
+      ],
+      "to_grid": [
+        -5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39040,
+      "to": 39041,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39040,
+      "to": 39045,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39041,
+      "to": 39042,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39042,
+      "to": 39043,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39042,
+      "to": 39047,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39043,
+      "to": 39057,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39043,
+      "to": 39048,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39046,
+      "to": 39047,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39046,
+      "to": 39060,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        2
+      ],
+      "to_grid": [
+        -3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39054,
+      "to": 39055,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39060,
+      "to": 39062,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39060,
+      "to": 39061,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -3,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39060,
+      "to": 39063,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        3
+      ],
+      "to_grid": [
+        -4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39061,
+      "to": 39064,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        4
+      ],
+      "to_grid": [
+        -4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39061,
+      "to": 39065,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        4
+      ],
+      "to_grid": [
+        -2,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 39094,
+      "to": 39096,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

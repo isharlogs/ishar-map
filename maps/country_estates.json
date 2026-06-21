@@ -1,0 +1,518 @@
+{
+  "zone_name": "Country Estates",
+  "entry_vnum": 24036,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -5,
+    "max_x": 1,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24036,
+      "rooms": {
+        "24036": {
+          "vnum": 24036,
+          "name": "Country Road",
+          "description": "You stand at a crossroad. A wide and well maintained country road heads off to the west, while a narrower road heads east. A narrow cart-path climbs up a steep embankment and the dilapidated ruin of an old cobbled road heads off to the south. Among the Trees",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24080,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Among the Trees",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 22098,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Oldgate Road",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40179,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Rocky Slope",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24037,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24037": {
+          "vnum": 24037,
+          "name": "Country Road",
+          "description": "As you look to the north you notice a large country estate, surrounded by a high wall. There is a gate in the wall directly north of you but you also notice that the gate is flanked by a stout looking gatehouse; a likely place for guards. The Grand Gateway",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24036,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 31000,
+              "to_zone": "Ridgetuck Villa - Country Estates",
+              "to_room_name": "The Grand Gateway",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 24038,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24038": {
+          "vnum": 24038,
+          "name": "Country Road",
+          "description": "You have come upon a bit of an intersection. The narrow trail to the south is rutted and uneven; suited for small carts at best. A large, walled building can be seen through the trees to the northeast. The road continues east and west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24037,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84000,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Cart Path's End",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24039,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24039": {
+          "vnum": 24039,
+          "name": "Country Road",
+          "description": "You are moving along a wide gravel road. Trees line both sides, their branches meeting high over your head. The road continues east and west.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24038,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24040,
+              "to_zone": "Country Estates",
+              "to_room_name": "Crossroads",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24040": {
+          "vnum": 24040,
+          "name": "Crossroads",
+          "description": "You stand just south of the southernmost end of the Concourse of Air. Looking north, you can see the Concourse leading toward the city of Mareldja. A country road heads east and the Coast road leads west.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24039,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40093,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Concourse of Air",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24041,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24041": {
+          "vnum": 24041,
+          "name": "Coast Road",
+          "description": "The Coast Road is a short dirt track that leads from the Crossroads, straight west to the ocean. The ruts and potholes bear mute testimony to the lack of maintenance this road receives. The Crossroads are to your east, Coast Road continues to the west. A small field of rich green rests to the south.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24040,
+              "to_zone": "Country Estates",
+              "to_room_name": "Crossroads",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 63078,
+              "to_zone": "Ancient Woods - East",
+              "to_room_name": "Edlegreen Fields",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24043,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24043": {
+          "vnum": 24043,
+          "name": "Coast Road",
+          "description": "You have come to the western end of Coast Road. A steep trail leads down to a small rocky shelf at the edge of the sea. A narrow trail through the woods is to the south and Coast Road continues east.",
+          "grid_x": -5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24042,
+              "to_zone": "Rocky Coast",
+              "to_room_name": "Sea`s Edge",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 24041,
+              "to_zone": "Country Estates",
+              "to_room_name": "Coast Road",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 79114,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "The Woods",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -5,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 7
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24036,
+      "to": 24037,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24037,
+      "to": 24038,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24038,
+      "to": 24039,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24039,
+      "to": 24040,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24040,
+      "to": 24041,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24041,
+      "to": 24043,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -5,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

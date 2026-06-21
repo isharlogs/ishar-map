@@ -1,0 +1,615 @@
+{
+  "zone_name": "Festa Manor - City of Mareldja",
+  "entry_vnum": 40155,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -2,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 40155,
+      "rooms": {
+        "40146": {
+          "vnum": 40146,
+          "name": "Foyer",
+          "description": "The foyer of the Festa mansion is plushly decorated with statues and delicate, glass-blown animals. A crystal chandelier hangs suspended from a golden chain, lit with hundreds of tiny candles. Wide, curving stairs lead up to the second floor, and through a fluted archway to the south, you can see a dining room.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40147,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Dining Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40155,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Mansion Grounds",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 40149,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Second Floor Landing",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40147": {
+          "vnum": 40147,
+          "name": "Dining Room",
+          "description": "A long, mahogany table in the room center holds place settings for five people. Polished silver glimmers against the dark wood, and exquisite crystal refracts the light from an overhanging chandelier, sending tiny rainbows onto the folded linen. Through a set of double doors to the south you can see a patio. To the north is an elegant foyer.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40146,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Foyer",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40148,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Patio",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40148": {
+          "vnum": 40148,
+          "name": "Patio",
+          "description": "Alternating rose and beige flagstones flow outward in a semi-circle around the doors to the north. Near a small bed of flowers you see a white wicker table and matching chairs. Red and white roses climb the mansion walls, and an apple tree to the west fills the air with a sweet fruity smell.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40147,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Dining Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Arella Festa",
+              "description": "Robed in bright green with little birds embroidered along the sleeves, Arella is a beautiful young woman with long auburn hair and a flawless face.",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40155": {
+          "vnum": 40155,
+          "name": "Mansion Grounds",
+          "description": "The grounds before the Festa Mansion are carefully trimmed and filled with a variety of rare and colorful roses. The mansion itself is built from the same stone as the rest of the city, but the ornately carved facade and gilded scroll- work proclaim wealth in abundance. The Concourse of Air lies outside an iron gate to the west, and the main entrance lies to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40146,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Foyer",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40092,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Outside the City",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 2,
+        "room_count": 4
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 40149,
+      "rooms": {
+        "40149": {
+          "vnum": 40149,
+          "name": "Second Floor Landing",
+          "description": "At the top of the stairs you see a hallway leading north and south. Beveled mirrors line the walls, flashing little prisms across the glass and giving the illusion of infinity to each side. Through a doorway to the north, you can see a large, very richly furnished bedroom. The hallway continues to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40154,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Master Bedroom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40150,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Hallway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 40146,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Foyer",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40150": {
+          "vnum": 40150,
+          "name": "Hallway",
+          "description": "The hallway ends here with three doorways leading off into three separate chambers: west, south, and east. To the north, you can see a landing leading down to the first floor and another doorway past a series of mirrors.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40153,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Arella`s Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40149,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Second Floor Landing",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 40152,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Serilla`s Room",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 40151,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Ilanya`s Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40151": {
+          "vnum": 40151,
+          "name": "Ilanya`s Room",
+          "description": "Ilanya, eldest daughter of Avartis Festa, has a gorgeous view of the grounds in front of the mansion. On a dresser inlaid with mother of pearl sit countless vials and jars filled with cosmetics and perfumes. Off to the side, you see an alcove containing three large, floor-length mirrors, set at an angle to each other. A doorway to the east leads out to a hallway.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 40150,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Hallway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40152": {
+          "vnum": 40152,
+          "name": "Serilla`s Room",
+          "description": "Serilla has filled her room with small and expensive knickknacks. A songbird sings sweetly in a gold wire cage above a window, and a vase sitting on the dresser contains a single glass rose, lifelike to the point of disbelief. On the eastern wall hang a collection of exotic fans, some plumed and others merely jewelled. A doorway leads north out to the hallway.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 40150,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Hallway",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40153": {
+          "vnum": 40153,
+          "name": "Arella`s Room",
+          "description": "Vases overflowing with flowers fill the room with a sweet scent. Green velvet draperies frame a window overlooking a steep hill covered with other mansions and the emerald hue of the forest beyond. Girlish tapestries of unicorns and maidens hang upon the walls, and a book of fanciful stories lies on the bed. A doorway in the western wall leads out to the hallway.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 40150,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "40154": {
+          "vnum": 40154,
+          "name": "Master Bedroom",
+          "description": "The master bedroom is filled with heavy, baroque furniture. A massive bed sits on a dais in the center of the room, draped in red velvet. Two large chairs next to a glass table appear almost like thrones. A picture of a man on the northern wall draws your attention. Probably a Festa patriarch, he stares down at you with stern expectation.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 40149,
+              "to_zone": "Festa Manor - City of Mareldja",
+              "to_room_name": "Second Floor Landing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 1,
+        "room_count": 6
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 40146,
+      "to": 40147,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40146,
+      "to": 40155,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40147,
+      "to": 40148,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 40149,
+      "to": 40154,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40149,
+      "to": 40150,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40150,
+      "to": 40153,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40150,
+      "to": 40152,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 40150,
+      "to": 40151,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

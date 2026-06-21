@@ -1,0 +1,6666 @@
+{
+  "zone_name": "Mareldjan Gardens - City of Mareldja",
+  "entry_vnum": 28000,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -14,
+    "max_x": 12,
+    "min_y": -6,
+    "max_y": 10
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 28000,
+      "rooms": {
+        "28000": {
+          "vnum": 28000,
+          "name": "Entrance to the Garden",
+          "description": "This is the entrance to what was once a beautiful, formal garden. Time has not been kind however, and the garden has become overgrown and wild. What were once tidy, cobbled paths have been reduced to narrow, gloomy tracks where animals roam and thorned branches reach to grasp you. Paths lead to the east and west.",
+          "grid_x": -3,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28002,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Path",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 40170,
+              "to_zone": "City of Mareldja",
+              "to_room_name": "Clearing",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28001,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28001": {
+          "vnum": 28001,
+          "name": "Garden Path",
+          "description": "Rank weeds have taken root in the cracks between the cobble stones; your feet make a swishing sound as you pass through. You can see a small courtyard to the south and the garden entrance to the east. A graceful willow tree stands here, its trailing branches swaying gently.",
+          "grid_x": -11,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28000,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Entrance to the Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28003,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "West Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28002": {
+          "vnum": 28002,
+          "name": "Garden Path",
+          "description": "The trail is narrow and gloomy here and the cobblestones are uneven beneath your feet. Hedgerows press in on you to the north and east. To the south you can see a small courtyard, the garden entrance is to the west.",
+          "grid_x": 4,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28007,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "East Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28000,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Entrance to the Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28003": {
+          "vnum": 28003,
+          "name": "West Courtyard",
+          "description": "At one time, lovers must have taken a rest from their strollings in this secluded court. Small stone benches are tucked discreetly behind bushes at the court's edge. The sweet smell of roses comes from the east. Garden paths lead off to the north and south.",
+          "grid_x": -11,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28004,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28001,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28008,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Creeping Death",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28004": {
+          "vnum": 28004,
+          "name": "Rose Garden",
+          "description": "The air is fragrant with the smell of roses. Though the garden has been untended for many years, the hardy descendants of the garden's once pampered flora still display their blooms in a riotous display of color. The roses form walls to the north and south, the way leads east and west.",
+          "grid_x": -6,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28005,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Plaza",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28003,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "West Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28005": {
+          "vnum": 28005,
+          "name": "Rose Plaza",
+          "description": "The center of this square is occupied by a pedestal on which rests a small statue of a single rose. Though the statue is weathered, you can still see the intricacy of its workmanship. Rose lined paths lead east and west. To the south, a dim, gloomy maze of hedges begins.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28006,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28046,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway North",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28004,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28006": {
+          "vnum": 28006,
+          "name": "Rose Garden",
+          "description": "The carefully manicured roses that once grew here have been replaced by a tougher variety sporting longer, sharper thorns. They still have great beauty though and their heady scent fills the air.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28007,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "East Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28005,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Plaza",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28007": {
+          "vnum": 28007,
+          "name": "East Courtyard",
+          "description": "This courtyard was once a cheerful, tidy place but brambles and crawling vines have covered nearly everything, enmeshing the court in a leafy embrace. Garden paths lead north and south. From the west you smell the sweet scent of roses. A graceful willow tree stands here, its trailing branches swaying gently.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28002,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28023,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28006,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28008": {
+          "vnum": 28008,
+          "name": "Creeping Death",
+          "description": "The plants here have a sickly, twisted look to them as if they were suffering from the effects of some noxious toxin. As you look down the trail to the south you can see that the condition not only persists, it worsens. To the north is a small court where the plants appear healthy.",
+          "grid_x": -11,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28003,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "West Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28009,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Desolate Path",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28009": {
+          "vnum": 28009,
+          "name": "Desolate Path",
+          "description": "The plants here are not merely sickly; they are dead or dying. Their twisted, brittle remains crumble under your weight as you step upon them. The soft crunching of your footsteps sounds like forlorn cries of despair. The foliage looks a little better to the north, worse to the east.",
+          "grid_x": -11,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28010,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28008,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Creeping Death",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28010": {
+          "vnum": 28010,
+          "name": "Dead Zone",
+          "description": "All the plants are dead here, and long dead by the looks of it. The desolation continues to the south and west.",
+          "grid_x": -10,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28011,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28009,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Desolate Path",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28011": {
+          "vnum": 28011,
+          "name": "Dead Zone",
+          "description": "The desolation here is complete. The ground is bare of any traces of old life; as if it never bore life. The stark emptiness continues to the north and south. The moist smell of growing plants comes from the east and a high wall of rock prevents travel to the west.",
+          "grid_x": -10,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28056,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway West",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28010,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28012,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28012": {
+          "vnum": 28012,
+          "name": "Dead Zone",
+          "description": "The earth is bare of life here. It is as if it has been leeched out to feed some unspeakable hunger. The trail climbs the side of a barren hill to the west, the desolation continues to the north.",
+          "grid_x": -10,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28011,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28013,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Hillside",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28013": {
+          "vnum": 28013,
+          "name": "Hillside",
+          "description": "The hill trail rises to the south and descends to the east. To the north and west the hill is covered by large jagged rocks which make passage impossible. The land has a dead, barren look to the east, but to the south you see grasses growing on the hilltop.",
+          "grid_x": -12,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28012,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28014,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Hilltop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28014": {
+          "vnum": 28014,
+          "name": "Hilltop",
+          "description": "You have climbed to the top of a hill which overlooks the garden to the east. The hill slopes down to a desolate region to the north and toward some swampy ground and a pond to the south.",
+          "grid_x": -12,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28013,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Hillside",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28015,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Bottom of a Hill",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28015": {
+          "vnum": 28015,
+          "name": "Bottom of a Hill",
+          "description": "The ground is swampy here. To the west the swampiness increases until the water forms a small pond. A track through the reeds heads off to the south and a hill rises to the north.",
+          "grid_x": -12,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28014,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Hilltop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28016,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Swampy Ground",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28017,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Shallow Pond",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28016": {
+          "vnum": 28016,
+          "name": "Swampy Ground",
+          "description": "You can hear small splashes from behind an intervening stand of willows to your west. The marshy ground persists to the north and south.",
+          "grid_x": -12,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28015,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Bottom of a Hill",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28020,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Swampy Ground",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28017": {
+          "vnum": 28017,
+          "name": "Shallow Pond",
+          "description": "You are splashing through a shallow pond that stretches away to the south. Thick reeds surround you on the north and west and to the east you can see what looks to be the foot of a low hill.",
+          "grid_x": -14,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28015,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Bottom of a Hill",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28019,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Shallow Pond",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28018": {
+          "vnum": 28018,
+          "name": "Mazeway South",
+          "description": "You stand beneath a wrought iron arch which straddles the trail here. The iron is the red-brown color of rust though there are patches that look as if they bear traces of white paint. A narrow track leads off between tall hedges to the north; to the south you see a wide garden path. Parkway Intersection",
+          "grid_x": -6,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28065,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28022,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Parkway Intersection",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28019": {
+          "vnum": 28019,
+          "name": "Shallow Pond",
+          "description": "The water rises only to your knees so you have no fear of drowning. The pond continues to the north but to the east the land is dryer but still marshy. Dense thickets of reeds and cattails enclose you on the south and west.",
+          "grid_x": -14,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28020,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Swampy Ground",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28017,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Shallow Pond",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WILLOW",
+              "rank": 1,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28020": {
+          "vnum": 28020,
+          "name": "Swampy Ground",
+          "description": "Small flies are an annoying presence as you negotiate this wet, boggy trail. You can see more swampland to the north and a small pond to the west. A wide garden path heads off to the east.",
+          "grid_x": -12,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28021,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Parkway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28016,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Swampy Ground",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28019,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Shallow Pond",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28021": {
+          "vnum": 28021,
+          "name": "Garden Parkway",
+          "description": "You stand on a wide garden trail that runs to the east and west. The ground appears to grow marshy to the west, while to the east the trail is dry and comfortable looking. Walls of foliage prevent passage to the north and south.",
+          "grid_x": -7,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28022,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Parkway Intersection",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28020,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Swampy Ground",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28022": {
+          "vnum": 28022,
+          "name": "Parkway Intersection",
+          "description": "A connecting trail heads off to the north and you can see that it passes beneath a rust colored arch in the distance. Wide garden trails also lead off to the east and west.",
+          "grid_x": -6,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28024,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Parkway",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28018,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway South",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28021,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Parkway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28023": {
+          "vnum": 28023,
+          "name": "Garden Trail",
+          "description": "You stand on a narrow garden trail which continues to the north and south. To the north you can see a small courtyard and at a distance to the south you notice that the trail makes an abrupt turn to the west.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28007,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "East Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28027,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Bend in the Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28024": {
+          "vnum": 28024,
+          "name": "Garden Parkway",
+          "description": "The grass is short here as if it has been eaten down by animals. The trail continues off toward the east and west. You see trail intersections in both directions.",
+          "grid_x": 4,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28025,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Small Clearing",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28022,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Parkway Intersection",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28025": {
+          "vnum": 28025,
+          "name": "Small Clearing",
+          "description": "You have come to a small clearing. The grass is knee-high and very thick. Wide, grassy trails lead off to the north and west. To the east, you can see flashes of white and grey peeking from behind the intervening foliage.",
+          "grid_x": 11,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28026,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Statuary Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28029,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28024,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Parkway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28026": {
+          "vnum": 28026,
+          "name": "Statuary Garden",
+          "description": "You stand at the southern end of a large clearing which is filled with statues. They seem to follow your every move with empty eyes.",
+          "grid_x": 12,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28028,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Statuary Garden",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28025,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Small Clearing",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28027": {
+          "vnum": 28027,
+          "name": "Bend in the Trail",
+          "description": "You stand at a bend in the trail. To your west you can see a wide cobbled path heading off to the south. Another garden path makes its way to the north from here.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28023,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Garden Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28035,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28028": {
+          "vnum": 28028,
+          "name": "Statuary Garden",
+          "description": "Statues, carved from white and grey stone, surround you on every side. Some of them look very old and are extremely weathered. Others seem to be newer as the detail stands out a bit more crisply on them. A path offers exit to the west and the garden continues to the south.",
+          "grid_x": 12,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28026,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Statuary Garden",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28030,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28029": {
+          "vnum": 28029,
+          "name": "Grassy Trail",
+          "description": "You stand in the center of a north and south running trail. To your south the trail terminates in a small clearing while the trail continues to the north.",
+          "grid_x": 11,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28030,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28025,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Small Clearing",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28030": {
+          "vnum": 28030,
+          "name": "Grassy Trail",
+          "description": "You have come to a small intersection. From here you see a wide trail leading north and south. To the east you see large, white and grey figures standing out sharply against the distant green of plant life.",
+          "grid_x": 11,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28028,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Statuary Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28031,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28029,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28031": {
+          "vnum": 28031,
+          "name": "Grassy Trail",
+          "description": "You stand at the northern end of a grassy trail that stretches off to the south. Directly to your north is a abandoned shack with a large rent in the side beckoning you.",
+          "grid_x": 11,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28032,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Ruined Shack",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28030,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28032": {
+          "vnum": 28032,
+          "name": "Ruined Shack",
+          "description": "This evidently used to be a gardener's supply shed. The bare walls are lined with hooks and pegs which had evidently once been used to hold gardening tools. The doorway is to the west but a large hole in the south wall offers egress in that direction.",
+          "grid_x": 11,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28031,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Grassy Trail",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28033,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28033": {
+          "vnum": 28033,
+          "name": "Promenade",
+          "description": "From here you can see the Promenade stretching away to the north. A doorway to your east offers entrance to a tumble-down shack. Dense foliage prevents passage to the south and west.",
+          "grid_x": 9,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28032,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Ruined Shack",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28034,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28034": {
+          "vnum": 28034,
+          "name": "Promenade",
+          "description": "The Promenade is intersected here by another trail that makes its way toward some tall hedges to the west. The Promenade itself continues to the north and south.",
+          "grid_x": 9,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28035,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28033,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28086,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway East",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28035": {
+          "vnum": 28035,
+          "name": "Promenade",
+          "description": "From here you can see the cobbled Promenade extending to the south. To the east you see another, smaller garden trail marching off to the north. A leafy plant with thick stems grows here, its roots bulging from the soil.",
+          "grid_x": 9,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28027,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Bend in the Trail",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28034,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28036": {
+          "vnum": 28036,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28037,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28037": {
+          "vnum": 28037,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28039,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28036,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28038": {
+          "vnum": 28038,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28044,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28039,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28049,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28039": {
+          "vnum": 28039,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28038,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28037,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28040,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28040": {
+          "vnum": 28040,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28039,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28099,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Pool in the Center of the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28041": {
+          "vnum": 28041,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28042,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28042": {
+          "vnum": 28042,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28044,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28041,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28043": {
+          "vnum": 28043,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28095,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28044,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28044": {
+          "vnum": 28044,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28043,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28045,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28042,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28038,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28045": {
+          "vnum": 28045,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28044,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28047,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28046": {
+          "vnum": 28046,
+          "name": "Mazeway North",
+          "description": "You stand on a small north and south running path. To your north is a small square filled with roses. To the south, large hedges block your view. Rose Plaza",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28005,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Rose Plaza",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28047,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28047": {
+          "vnum": 28047,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. Mazeway North",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28045,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28046,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway North",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28048,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28048": {
+          "vnum": 28048,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28047,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28049,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28049": {
+          "vnum": 28049,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28038,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28048,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28050,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28050": {
+          "vnum": 28050,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. You are very thirsty and should find something to drink. In the Maze",
+          "grid_x": -3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28049,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28051,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28051": {
+          "vnum": 28051,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28050,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28060,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28054,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28052": {
+          "vnum": 28052,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": -5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 28053,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28053": {
+          "vnum": 28053,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28052,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28054,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28054": {
+          "vnum": 28054,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": -6,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28051,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28053,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28055,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28055": {
+          "vnum": 28055,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": -7,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28054,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28059,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28056": {
+          "vnum": 28056,
+          "name": "Mazeway West",
+          "description": "The earth is bare here, but lacks the dull, desolate look of death that you can see to the west. To the east is a narrow corridor formed by living hedges. It is as if the sickness that has devastated the earth to the west can not penetrate any further to the east.",
+          "grid_x": -9,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28057,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28011,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Dead Zone",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28057": {
+          "vnum": 28057,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -8,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28058,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28056,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway West",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28058": {
+          "vnum": 28058,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -8,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28059,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28057,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28059": {
+          "vnum": 28059,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28064,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28055,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28058,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28060": {
+          "vnum": 28060,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. Pool in the Center of the Maze",
+          "grid_x": -4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28099,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Pool in the Center of the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28051,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28063,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28061": {
+          "vnum": 28061,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -3,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 28062,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28062": {
+          "vnum": 28062,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -4,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28061,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28063,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28063": {
+          "vnum": 28063,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28060,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28062,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28064,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28064": {
+          "vnum": 28064,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28063,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28067,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28059,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28065": {
+          "vnum": 28065,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. Mazeway South",
+          "grid_x": -6,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28066,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28018,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway South",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28066": {
+          "vnum": 28066,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": -6,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28067,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28065,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28067": {
+          "vnum": 28067,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -5,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28064,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28068,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28066,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28068": {
+          "vnum": 28068,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -5,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28071,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28067,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28069": {
+          "vnum": 28069,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 0,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 28070,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28070": {
+          "vnum": 28070,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -1,
+          "grid_y": 9,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28069,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28071,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28071": {
+          "vnum": 28071,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -1,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28072,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28070,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28068,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28072": {
+          "vnum": 28072,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28076,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28071,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28073": {
+          "vnum": 28073,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 28074,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28074": {
+          "vnum": 28074,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 1,
+          "grid_y": 8,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28073,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28076,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28075": {
+          "vnum": 28075,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 1,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28076,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28076": {
+          "vnum": 28076,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 1,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28077,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28075,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28074,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28072,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28077": {
+          "vnum": 28077,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 7,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28079,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28076,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28078": {
+          "vnum": 28078,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": -2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28079,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28099,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Pool in the Center of the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28079": {
+          "vnum": 28079,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28080,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28077,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28078,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28080": {
+          "vnum": 28080,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 4,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28081,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28079,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28081": {
+          "vnum": 28081,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 4,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28080,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28082,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28082": {
+          "vnum": 28082,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. A leafy plant with thick stems grows here, its roots bulging from the soil.",
+          "grid_x": 2,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28081,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28098,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28083": {
+          "vnum": 28083,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 6,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28084,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28084": {
+          "vnum": 28084,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 6,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28085,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28083,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28085": {
+          "vnum": 28085,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 7,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28090,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28084,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28086": {
+          "vnum": 28086,
+          "name": "Mazeway East",
+          "description": "You stand on a cobbled path at the eastern entrance of a large hedgerow maze. You see another, wider, cobbled way just to the east.",
+          "grid_x": 8,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28034,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Promenade",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28090,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28087": {
+          "vnum": 28087,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 5,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28089,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28088": {
+          "vnum": 28088,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 28089,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28089": {
+          "vnum": 28089,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 5,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28090,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28088,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28087,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28090": {
+          "vnum": 28090,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28086,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Mazeway East",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28092,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28085,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28089,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28091": {
+          "vnum": 28091,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 8,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 28092,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28092": {
+          "vnum": 28092,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28091,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28090,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28093,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28093": {
+          "vnum": 28093,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28092,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28094,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28094": {
+          "vnum": 28094,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28093,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28096,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28095": {
+          "vnum": 28095,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things. In the Maze",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28043,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28096,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28096": {
+          "vnum": 28096,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28094,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28095,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28097,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28097": {
+          "vnum": 28097,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28096,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28098,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28098": {
+          "vnum": 28098,
+          "name": "In the Maze",
+          "description": "You stand on a cobbled path somewhere within the garden maze. The walls of the maze are formed by tall hedges which are adorned with sharp thorns. The air is moist and rich with the smell of growing things.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 28097,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28082,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28099,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "Pool in the Center of the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "28099": {
+          "vnum": 28099,
+          "name": "Pool in the Center of the Maze",
+          "description": "You stand at the very center of the maze. There is a small, clear pond here with a few lily pads floating on its surface. You can see exits to the north, south east and west leading back into the maze. In the Maze",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 28098,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 28040,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 28078,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 28060,
+              "to_zone": "Mareldjan Gardens - City of Mareldja",
+              "to_room_name": "In the Maze",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -14,
+        "max_x": 12,
+        "min_y": -6,
+        "max_y": 10,
+        "room_count": 100
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 28000,
+      "to": 28002,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -6
+      ],
+      "to_grid": [
+        4,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28000,
+      "to": 28001,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        -6
+      ],
+      "to_grid": [
+        -11,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28001,
+      "to": 28003,
+      "direction": "s",
+      "from_grid": [
+        -11,
+        -6
+      ],
+      "to_grid": [
+        -11,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28002,
+      "to": 28007,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -6
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28003,
+      "to": 28004,
+      "direction": "e",
+      "from_grid": [
+        -11,
+        -4
+      ],
+      "to_grid": [
+        -6,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28003,
+      "to": 28008,
+      "direction": "s",
+      "from_grid": [
+        -11,
+        -4
+      ],
+      "to_grid": [
+        -11,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28004,
+      "to": 28005,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28005,
+      "to": 28006,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28005,
+      "to": 28046,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28006,
+      "to": 28007,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28007,
+      "to": 28023,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28008,
+      "to": 28009,
+      "direction": "s",
+      "from_grid": [
+        -11,
+        -1
+      ],
+      "to_grid": [
+        -11,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28009,
+      "to": 28010,
+      "direction": "e",
+      "from_grid": [
+        -11,
+        0
+      ],
+      "to_grid": [
+        -10,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28010,
+      "to": 28011,
+      "direction": "s",
+      "from_grid": [
+        -10,
+        0
+      ],
+      "to_grid": [
+        -10,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28011,
+      "to": 28056,
+      "direction": "e",
+      "from_grid": [
+        -10,
+        1
+      ],
+      "to_grid": [
+        -9,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28011,
+      "to": 28012,
+      "direction": "s",
+      "from_grid": [
+        -10,
+        1
+      ],
+      "to_grid": [
+        -10,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28012,
+      "to": 28013,
+      "direction": "w",
+      "from_grid": [
+        -10,
+        4
+      ],
+      "to_grid": [
+        -12,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28013,
+      "to": 28014,
+      "direction": "s",
+      "from_grid": [
+        -12,
+        4
+      ],
+      "to_grid": [
+        -12,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28014,
+      "to": 28015,
+      "direction": "s",
+      "from_grid": [
+        -12,
+        6
+      ],
+      "to_grid": [
+        -12,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28015,
+      "to": 28016,
+      "direction": "s",
+      "from_grid": [
+        -12,
+        7
+      ],
+      "to_grid": [
+        -12,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28015,
+      "to": 28017,
+      "direction": "w",
+      "from_grid": [
+        -12,
+        7
+      ],
+      "to_grid": [
+        -14,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28016,
+      "to": 28020,
+      "direction": "s",
+      "from_grid": [
+        -12,
+        8
+      ],
+      "to_grid": [
+        -12,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28017,
+      "to": 28019,
+      "direction": "s",
+      "from_grid": [
+        -14,
+        7
+      ],
+      "to_grid": [
+        -14,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28018,
+      "to": 28065,
+      "direction": "n",
+      "from_grid": [
+        -6,
+        9
+      ],
+      "to_grid": [
+        -6,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28018,
+      "to": 28022,
+      "direction": "s",
+      "from_grid": [
+        -6,
+        9
+      ],
+      "to_grid": [
+        -6,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28019,
+      "to": 28020,
+      "direction": "e",
+      "from_grid": [
+        -14,
+        10
+      ],
+      "to_grid": [
+        -12,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28020,
+      "to": 28021,
+      "direction": "e",
+      "from_grid": [
+        -12,
+        10
+      ],
+      "to_grid": [
+        -7,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28021,
+      "to": 28022,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        10
+      ],
+      "to_grid": [
+        -6,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28022,
+      "to": 28024,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        10
+      ],
+      "to_grid": [
+        4,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28023,
+      "to": 28027,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28024,
+      "to": 28025,
+      "direction": "e",
+      "from_grid": [
+        4,
+        10
+      ],
+      "to_grid": [
+        11,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28025,
+      "to": 28026,
+      "direction": "e",
+      "from_grid": [
+        11,
+        10
+      ],
+      "to_grid": [
+        12,
+        10
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28025,
+      "to": 28029,
+      "direction": "n",
+      "from_grid": [
+        11,
+        10
+      ],
+      "to_grid": [
+        11,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28026,
+      "to": 28028,
+      "direction": "n",
+      "from_grid": [
+        12,
+        10
+      ],
+      "to_grid": [
+        12,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28027,
+      "to": 28035,
+      "direction": "w",
+      "from_grid": [
+        4,
+        -1
+      ],
+      "to_grid": [
+        9,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28028,
+      "to": 28030,
+      "direction": "w",
+      "from_grid": [
+        12,
+        7
+      ],
+      "to_grid": [
+        11,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28029,
+      "to": 28030,
+      "direction": "n",
+      "from_grid": [
+        11,
+        8
+      ],
+      "to_grid": [
+        11,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28030,
+      "to": 28031,
+      "direction": "n",
+      "from_grid": [
+        11,
+        7
+      ],
+      "to_grid": [
+        11,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28031,
+      "to": 28032,
+      "direction": "n",
+      "from_grid": [
+        11,
+        6
+      ],
+      "to_grid": [
+        11,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28032,
+      "to": 28033,
+      "direction": "w",
+      "from_grid": [
+        11,
+        5
+      ],
+      "to_grid": [
+        9,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28033,
+      "to": 28034,
+      "direction": "n",
+      "from_grid": [
+        9,
+        5
+      ],
+      "to_grid": [
+        9,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28034,
+      "to": 28035,
+      "direction": "n",
+      "from_grid": [
+        9,
+        4
+      ],
+      "to_grid": [
+        9,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28034,
+      "to": 28086,
+      "direction": "w",
+      "from_grid": [
+        9,
+        4
+      ],
+      "to_grid": [
+        8,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28036,
+      "to": 28037,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28037,
+      "to": 28039,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28038,
+      "to": 28044,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28038,
+      "to": 28039,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28038,
+      "to": 28049,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28039,
+      "to": 28040,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28040,
+      "to": 28099,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28041,
+      "to": 28042,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28042,
+      "to": 28044,
+      "direction": "n",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28043,
+      "to": 28095,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28043,
+      "to": 28044,
+      "direction": "w",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28044,
+      "to": 28045,
+      "direction": "n",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28045,
+      "to": 28047,
+      "direction": "w",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28046,
+      "to": 28047,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28047,
+      "to": 28048,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28048,
+      "to": 28049,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        -1
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28049,
+      "to": 28050,
+      "direction": "s",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28050,
+      "to": 28051,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        1
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28051,
+      "to": 28060,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28051,
+      "to": 28054,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28052,
+      "to": 28053,
+      "direction": "w",
+      "from_grid": [
+        -5,
+        2
+      ],
+      "to_grid": [
+        -6,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28053,
+      "to": 28054,
+      "direction": "n",
+      "from_grid": [
+        -6,
+        2
+      ],
+      "to_grid": [
+        -6,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28054,
+      "to": 28055,
+      "direction": "w",
+      "from_grid": [
+        -6,
+        1
+      ],
+      "to_grid": [
+        -7,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28055,
+      "to": 28059,
+      "direction": "s",
+      "from_grid": [
+        -7,
+        1
+      ],
+      "to_grid": [
+        -7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28056,
+      "to": 28057,
+      "direction": "e",
+      "from_grid": [
+        -9,
+        1
+      ],
+      "to_grid": [
+        -8,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28057,
+      "to": 28058,
+      "direction": "s",
+      "from_grid": [
+        -8,
+        1
+      ],
+      "to_grid": [
+        -8,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28058,
+      "to": 28059,
+      "direction": "e",
+      "from_grid": [
+        -8,
+        4
+      ],
+      "to_grid": [
+        -7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28059,
+      "to": 28064,
+      "direction": "e",
+      "from_grid": [
+        -7,
+        4
+      ],
+      "to_grid": [
+        -5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28060,
+      "to": 28099,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28060,
+      "to": 28063,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        3
+      ],
+      "to_grid": [
+        -4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28061,
+      "to": 28062,
+      "direction": "w",
+      "from_grid": [
+        -3,
+        6
+      ],
+      "to_grid": [
+        -4,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28062,
+      "to": 28063,
+      "direction": "n",
+      "from_grid": [
+        -4,
+        6
+      ],
+      "to_grid": [
+        -4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28063,
+      "to": 28064,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        4
+      ],
+      "to_grid": [
+        -5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28064,
+      "to": 28067,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        4
+      ],
+      "to_grid": [
+        -5,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28065,
+      "to": 28066,
+      "direction": "n",
+      "from_grid": [
+        -6,
+        8
+      ],
+      "to_grid": [
+        -6,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28066,
+      "to": 28067,
+      "direction": "e",
+      "from_grid": [
+        -6,
+        7
+      ],
+      "to_grid": [
+        -5,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28067,
+      "to": 28068,
+      "direction": "s",
+      "from_grid": [
+        -5,
+        7
+      ],
+      "to_grid": [
+        -5,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28068,
+      "to": 28071,
+      "direction": "e",
+      "from_grid": [
+        -5,
+        8
+      ],
+      "to_grid": [
+        -1,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28069,
+      "to": 28070,
+      "direction": "w",
+      "from_grid": [
+        0,
+        9
+      ],
+      "to_grid": [
+        -1,
+        9
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28070,
+      "to": 28071,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        9
+      ],
+      "to_grid": [
+        -1,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28071,
+      "to": 28072,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        8
+      ],
+      "to_grid": [
+        -1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28072,
+      "to": 28076,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        7
+      ],
+      "to_grid": [
+        1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28073,
+      "to": 28074,
+      "direction": "w",
+      "from_grid": [
+        2,
+        8
+      ],
+      "to_grid": [
+        1,
+        8
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28074,
+      "to": 28076,
+      "direction": "n",
+      "from_grid": [
+        1,
+        8
+      ],
+      "to_grid": [
+        1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28075,
+      "to": 28076,
+      "direction": "s",
+      "from_grid": [
+        1,
+        6
+      ],
+      "to_grid": [
+        1,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28076,
+      "to": 28077,
+      "direction": "e",
+      "from_grid": [
+        1,
+        7
+      ],
+      "to_grid": [
+        2,
+        7
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28077,
+      "to": 28079,
+      "direction": "n",
+      "from_grid": [
+        2,
+        7
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28078,
+      "to": 28079,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28078,
+      "to": 28099,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        5
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28079,
+      "to": 28080,
+      "direction": "e",
+      "from_grid": [
+        2,
+        5
+      ],
+      "to_grid": [
+        4,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28080,
+      "to": 28081,
+      "direction": "n",
+      "from_grid": [
+        4,
+        5
+      ],
+      "to_grid": [
+        4,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28081,
+      "to": 28082,
+      "direction": "w",
+      "from_grid": [
+        4,
+        4
+      ],
+      "to_grid": [
+        2,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28082,
+      "to": 28098,
+      "direction": "n",
+      "from_grid": [
+        2,
+        4
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28083,
+      "to": 28084,
+      "direction": "s",
+      "from_grid": [
+        6,
+        5
+      ],
+      "to_grid": [
+        6,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28084,
+      "to": 28085,
+      "direction": "e",
+      "from_grid": [
+        6,
+        6
+      ],
+      "to_grid": [
+        7,
+        6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28085,
+      "to": 28090,
+      "direction": "n",
+      "from_grid": [
+        7,
+        6
+      ],
+      "to_grid": [
+        7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28086,
+      "to": 28090,
+      "direction": "w",
+      "from_grid": [
+        8,
+        4
+      ],
+      "to_grid": [
+        7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28087,
+      "to": 28089,
+      "direction": "n",
+      "from_grid": [
+        5,
+        5
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28088,
+      "to": 28089,
+      "direction": "s",
+      "from_grid": [
+        5,
+        3
+      ],
+      "to_grid": [
+        5,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28089,
+      "to": 28090,
+      "direction": "e",
+      "from_grid": [
+        5,
+        4
+      ],
+      "to_grid": [
+        7,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28090,
+      "to": 28092,
+      "direction": "n",
+      "from_grid": [
+        7,
+        4
+      ],
+      "to_grid": [
+        7,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28091,
+      "to": 28092,
+      "direction": "w",
+      "from_grid": [
+        8,
+        0
+      ],
+      "to_grid": [
+        7,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28092,
+      "to": 28093,
+      "direction": "w",
+      "from_grid": [
+        7,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28093,
+      "to": 28094,
+      "direction": "s",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28094,
+      "to": 28096,
+      "direction": "w",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28095,
+      "to": 28096,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28096,
+      "to": 28097,
+      "direction": "w",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28097,
+      "to": 28098,
+      "direction": "s",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 28098,
+      "to": 28099,
+      "direction": "w",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

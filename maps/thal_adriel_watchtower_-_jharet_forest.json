@@ -1,0 +1,1613 @@
+{
+  "zone_name": "Thal'adriel Watchtower - Jharet Forest",
+  "entry_vnum": 69212,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -3,
+    "max_x": 8,
+    "min_y": -3,
+    "max_y": 2
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 69208,
+      "rooms": {
+        "69208": {
+          "vnum": 69208,
+          "name": "Stairs up the Hillside",
+          "description": "",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 69209,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Top of the Staircase",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69207
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 69212,
+      "rooms": {
+        "69216": {
+          "vnum": 69216,
+          "name": "Western Side of the Tower",
+          "description": "Making your way around the old ruins of the tower, you can't but think about how grand it must have been in the height of elven power. The western wall of the tower here is not much more than rubble. However, the larger stone pieces have been moved back in place to reinforce the wall. l stone There isn't much to see. l stone There isn't much to see. l wall With a little effort, you should be able to scramble up the side of the wall here. go wall You see no such egress. There is no 'wall' here. l",
+          "grid_x": -3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 69225,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Second Floor",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go wall": {
+              "to_vnum": 787,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Western Side of the Tower",
+              "direction": "go wall",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69209": {
+          "vnum": 69209,
+          "name": "Top of the Staircase",
+          "description": "",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69210,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Approaching the Ruins",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69208,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Stairs up the Hillside",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69210": {
+          "vnum": 69210,
+          "name": "Approaching the Ruins",
+          "description": "Standing ontop of the hill, you see an old stone tower rising out of the terrain to the north. To the south, the hill begins to decline back towards the woods.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69214,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69209,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Top of the Staircase",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69212,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69211": {
+          "vnum": 69211,
+          "name": "Before the Tower",
+          "description": "You stand at the top of the long, stone staircase. Looking down, you can see where it winds its way down the hillside, looking broken up by the young trees that have grown over stones. To the north, you see what looks to be the ruins of an old stone tower, looking to be brethen with a tower that rises to the southeast.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69223,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 69217,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Eastern Side of the Tower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69216,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Western Side of the Tower",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69210,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Approaching the Ruins",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 69214,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69212,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69212": {
+          "vnum": 69212,
+          "name": "Along the Hilltop",
+          "description": "Young trees scatter the hilltop here, beginning to take root and reclaim the hill. The trees continue to the east and the north, to the northeast, you see a stone ruin rising out of the hill and to the west, you see a small clearing.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69210,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Approaching the Ruins",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69231,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69213,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69342": {
+          "vnum": 69342,
+          "name": "Quartermaster's Quarters",
+          "description": "",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69223,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69214": {
+          "vnum": 69214,
+          "name": "Along the Hilltop",
+          "description": "Young trees scatter the hilltop here, beginning to take root and reclaim the hill. To the west, the trees continue, while to the northwest, you see a stone ruin rising out of the hill. To the east, you can see the ridge. Nestled against the hillside, a small stone structure with billowing smoke suggests the presence of a blacksmith.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69215,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Ontop of the Eastern Brink",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69210,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Approaching the Ruins",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 69340,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Thal'adriel's Forge",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69215": {
+          "vnum": 69215,
+          "name": "Ontop of the Eastern Brink",
+          "description": "The hill comes to an end here, terminating in a steep, steep brink. Continuing east surely would not end well for you. The forest continues for some ways to the east and a stone tower rises out of the landscape to the southeast.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69202,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Skirting the Hill",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69214,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69217": {
+          "vnum": 69217,
+          "name": "Eastern Side of the Tower",
+          "description": "The wall here is surprsingly mostly intact, it avoided the majority of the destruction when the tower fell. A small wooden building has been built against the wall to act as a makeshift stable.",
+          "grid_x": 7,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69218,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Small Stable",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69218": {
+          "vnum": 69218,
+          "name": "A Small Stable",
+          "description": "A small stable has been built up along the eastern wall of the tower. Small stables branch off the central aisle, housing the horses for the troops.",
+          "grid_x": 7,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69222,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "The Tack Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "nw": {
+              "to_vnum": 69220,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Horse Stall",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69217,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Eastern Side of the Tower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69219,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Horse Stall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69221
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69219": {
+          "vnum": 69219,
+          "name": "A Horse Stall",
+          "description": "This small stall is no more than 12x12, big enough for a horse and not much else. Straw is littered on the floor and a small hay bale rests on the southern wall.",
+          "grid_x": 6,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69218,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Small Stable",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69220": {
+          "vnum": 69220,
+          "name": "A Horse Stall",
+          "description": "This small stall is no more than 12x12, big enough for a horse and not much else. Straw is littered on the floor and a small hay bale rested on the western wall.",
+          "grid_x": 6,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "se": {
+              "to_vnum": 69218,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Small Stable",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69341": {
+          "vnum": 69341,
+          "name": "Vanguard's Respite",
+          "description": "",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69229,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69222": {
+          "vnum": 69222,
+          "name": "The Tack Room",
+          "description": "This small room is not much more than a glorified closet, used to hold the bridles and saddles, as well as the feed for the horses.",
+          "grid_x": 8,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69218,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "A Small Stable",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69223": {
+          "vnum": 69223,
+          "name": "Inside the Watchtower",
+          "description": "",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69342,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Quartermaster's Quarters",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69229,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69211,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Before the Tower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 69230,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Guard Room",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69224": {
+          "vnum": 69224,
+          "name": "Command Room",
+          "description": "",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69229,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69229": {
+          "vnum": 69229,
+          "name": "Inside the Watchtower",
+          "description": "",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69341,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Vanguard's Respite",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69224,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Command Room",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69223,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69230": {
+          "vnum": 69230,
+          "name": "Guard Room",
+          "description": "",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69223,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Inside the Watchtower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69231": {
+          "vnum": 69231,
+          "name": "Along the Hilltop",
+          "description": "Walking through a small grove of young trees, you see the ruins of a stone tower rising to the east. To the south, the trees continue and the mountains continue to rise to the north.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 69232,
+              "to_zone": "Eastern Forest Warzone - Jharet Forest",
+              "to_room_name": "Hilltop Forest",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 69212,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 8,
+        "min_y": -3,
+        "max_y": 2,
+        "room_count": 19
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 69225,
+      "rooms": {
+        "787": {
+          "vnum": 787,
+          "name": "Western Side of the Tower",
+          "description": "Making your way around the old ruins of the tower, you can't but think about how grand it must have been in the height of elven power. The western wall of the tower here is not much more than rubble. However, the larger stone pieces have been moved back in place to reinforce the wall. l west You see nothing remarkable. l nw You see nothing remarkable. l n You see nothing remarkable. l wall With a little effort, you should be able to scramble up the side of the wall here. go side You see no such egress. l tower There isn't much to see. l",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go side": {
+              "to_vnum": 788,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Western Side of the Tower",
+              "direction": "go side",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "788": {
+          "vnum": 788,
+          "name": "Western Side of the Tower",
+          "description": "Making your way around the old ruins of the tower, you can't but think about how grand it must have been in the height of elven power. The western wall of the tower here is not much more than rubble. However, the larger stone pieces have been moved back in place to reinforce the wall. l stone There isn't much to see. l pieces There isn't much to see. There is no 'wall' here. l",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go into": {
+              "to_vnum": 69225,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Second Floor",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69340": {
+          "vnum": 69340,
+          "name": "Thal'adriel's Forge",
+          "description": "The dugout stone structure rings with the steady clinking of hammer on anvil, and the air inside is several degrees warmer than the air outside. The interior is a mixture of new and old: original stonework still in place along two walls, freshly hewn timbers framing the rest. Weapon racks and armor stands line the walls. A sturdy anvil sits at the center.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 69214,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Along the Hilltop",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "69225": {
+          "vnum": 69225,
+          "name": "Second Floor",
+          "description": "You stand on a ledge within the second floor of the tower. The staircase leading down to the main floor is entirely collasped and unusable, but it looks like a few rooms on this floor may still be accessible.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 69227,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Guard Room",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 69226,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Clerical Office",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 69216,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Western Side of the Tower",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            69228
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69226": {
+          "vnum": 69226,
+          "name": "Clerical Office",
+          "description": "This small room once served as the office for the tower secretary. Mostly emptied, there is still an old desk in the corner with a few decaying leather portfolios scattered around.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 69225,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Second Floor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "69227": {
+          "vnum": 69227,
+          "name": "Guard Room",
+          "description": "This room is on the outer wall of the tower, overlooking the main entrance. Several arrow slits look out on the path leading to the tower and small grates in the floor cover kill holes. A fallen metal weapon rack lays rusting in the corner.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 69225,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Second Floor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 6
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 69209,
+      "to": 69210,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69210,
+      "to": 69214,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69210,
+      "to": 69211,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69210,
+      "to": 69212,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69211,
+      "to": 69223,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69211,
+      "to": 69217,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        7,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69211,
+      "to": 69216,
+      "direction": "nw",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -3,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69211,
+      "to": 69214,
+      "direction": "se",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69211,
+      "to": 69212,
+      "direction": "sw",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69212,
+      "to": 69231,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69214,
+      "to": 69215,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69217,
+      "to": 69218,
+      "direction": "n",
+      "from_grid": [
+        7,
+        -1
+      ],
+      "to_grid": [
+        7,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69218,
+      "to": 69222,
+      "direction": "e",
+      "from_grid": [
+        7,
+        -2
+      ],
+      "to_grid": [
+        8,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69218,
+      "to": 69220,
+      "direction": "nw",
+      "from_grid": [
+        7,
+        -2
+      ],
+      "to_grid": [
+        6,
+        -3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69218,
+      "to": 69219,
+      "direction": "w",
+      "from_grid": [
+        7,
+        -2
+      ],
+      "to_grid": [
+        6,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69223,
+      "to": 69342,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69223,
+      "to": 69229,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69223,
+      "to": 69230,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69224,
+      "to": 69229,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69225,
+      "to": 69227,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69225,
+      "to": 69226,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 69229,
+      "to": 69341,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

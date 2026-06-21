@@ -1,0 +1,640 @@
+{
+  "zone_name": "Cleft Tunnels",
+  "entry_vnum": 38099,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 3,
+    "min_y": -1,
+    "max_y": 2
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 38099,
+      "rooms": {
+        "38098": {
+          "vnum": 38098,
+          "name": "Steep Tunnel",
+          "description": "The misshapen rocks jutting out along this steep passage make for secure hand and footholds as you work your way along. Irregular streams of water flow from above, having seeped through the ceiling. Below the passage levels, and turns eastward.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38099,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Before a Tremendous Cavern",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 38097,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38099": {
+          "vnum": 38099,
+          "name": "Before a Tremendous Cavern",
+          "description": "You stand before a huge, gaping cavern under the earth, extending far beyond the limits of sight. A noxious scent fills the air. In the distance you can see a wide, rushing river, which passes through a jumbled collection of odd buildings further eastward.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 39008,
+              "to_zone": "Hedros City",
+              "to_room_name": "Outside the Iron Gate",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38098,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Steep Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 2
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 38092,
+      "rooms": {
+        "38088": {
+          "vnum": 38088,
+          "name": "Obsidian Shrine",
+          "description": "Deep with the maw of the obsidian beast lies a cramped and resplendent shrine hewn into the rock. The altar's surface, and a patch of ground in front of it, have been polished to a lustrous, black shine. Centered on the altar, a single smokeless candle burns, its flame calmly waving in the crisp, dry air.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 38089,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38089": {
+          "vnum": 38089,
+          "name": "Low Tunnel",
+          "description": "Like inside the mouth of some great obsidian lamprey, a multitude of razor- sharp rocks jut out from every direction. You spend a considerable amount of time carefully avoiding being cut. The treacherous passage continues due east.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38088,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Obsidian Shrine",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38095,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38092": {
+          "vnum": 38092,
+          "name": "At the Bottom of the Cleft",
+          "description": "Large, sharp-edged rocks surround you at the bottom of the cleft. Looking up above, a narrow opening can be seen. The air here is foul, and a quick glance at your surroundings reveals the source: a small, low tunnel leading into the rocks, to the north.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 38093,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel into the Rock",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24100,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38093": {
+          "vnum": 38093,
+          "name": "Low Tunnel into the Rock",
+          "description": "A thin, putrid film covers the surfaces of this low, rocky tunnel venturing northward into the rocks. Southward the tunnel opens to a gathering of loose rocks, where the mountain winds swirl, pulling the fetid stench of these tunnels out and up.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 38094,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "A Split in the Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 38092,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "At the Bottom of the Cleft",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38094": {
+          "vnum": 38094,
+          "name": "A Split in the Tunnel",
+          "description": "At this point the foul tunnel splits, heading west and east. Hordes of tiny insects traverse the filmy surfaces, consuming anything they can find. A warm draft rushes through the tunnels, carrying a nauseous scent. The passage west echoes with ominous, mournful cries.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38095,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 38093,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel into the Rock",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38097,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38095": {
+          "vnum": 38095,
+          "name": "Low Tunnel",
+          "description": "Jagged rocks loom dangerously low from above, and you must crouch to pass by. A rush of white noise echoes here, as the tunnel turns to the north. The loose stones and debris along the floor shake slightly with tremors that seem to be originating from far below. A formation of stalactites and stalagmites line a wide crevice leading east, deeper into the rock.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38089,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 38096,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Dead End Tunnel",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 38094,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "A Split in the Tunnel",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38096": {
+          "vnum": 38096,
+          "name": "Dead End Tunnel",
+          "description": "You have come to a dead end in the rough, low tunnels. Rocks appear to have caved in, blocking further passage. This tunnel exits to the south, where it turns westward. The film covering the surfaces here is thicker, long left undisturbed.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 38095,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Low Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "38097": {
+          "vnum": 38097,
+          "name": "Low Tunnel",
+          "description": "The tunnel comes to a quick halt here, turning sharply downward. An ill draft flows by, heading east and out of the tunnels. The steep passage down echoes with muted cries as the rough walls around you shake with frequent tremors.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 38094,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "A Split in the Tunnel",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 38098,
+              "to_zone": "Cleft Tunnels",
+              "to_room_name": "Steep Tunnel",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 3,
+        "min_y": -1,
+        "max_y": 2,
+        "room_count": 8
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 38088,
+      "to": 38089,
+      "direction": "w",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38089,
+      "to": 38095,
+      "direction": "w",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38092,
+      "to": 38093,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38093,
+      "to": 38094,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38094,
+      "to": 38095,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38094,
+      "to": 38097,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38095,
+      "to": 38096,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 38098,
+      "to": 38099,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

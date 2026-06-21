@@ -1,0 +1,1784 @@
+{
+  "zone_name": "Bruenor's Canyon",
+  "entry_vnum": 24035,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 4,
+    "min_y": -6,
+    "max_y": 17
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 24035,
+      "rooms": {
+        "24064": {
+          "vnum": 24064,
+          "name": "Painted Cave",
+          "description": "The sound of running water from the river below echoes in this small cave along the cliff. The ceiling lowers deeper into the cave where it splits off in two directions. Upon the moistened walls here are several crude paintings.",
+          "grid_x": 7,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 61086,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Twisting Caves",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 24065,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the Cliff",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24065": {
+          "vnum": 24065,
+          "name": "On the Cliff",
+          "description": "You cling to the side of a inwardly sloping cliff above the river of Bruenor's Woe. Below the water flows idly by, through the canyon, awaiting your splashing form should you slip. Here a small cave entrance beckons, appearing a much safer exit than the precarious climb back down the cliff.",
+          "grid_x": 7,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24069,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the River",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 24064,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Painted Cave",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24066": {
+          "vnum": 24066,
+          "name": "Mouth of a Cavern",
+          "description": "Zig-zagging through a maze of conical rock formations upon the floor of the cave you reach a large opening leading into an even larger cavern. Bats line the ceiling, chittering and grooming. A foul odor wafts from the circular opening.",
+          "grid_x": 7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24067,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Cave Beside the Falls",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 61099,
+              "to_zone": "Wyvern Lair",
+              "to_room_name": "Eastern Edge of the Cavern",
+              "direction": "go into",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24067": {
+          "vnum": 24067,
+          "name": "Cave Beside the Falls",
+          "description": "Here within a wide cave opening aside the falls, a thick spray of mist drifts about, soaking the surfaces. The cave ventures into the earth to the west, where you can see the opening of a large cavern. The waters of Bruenor flow angrily southward below.",
+          "grid_x": 8,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24066,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Mouth of a Cavern",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 24079,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Base of the Falls",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "out of the cave": {
+              "to_vnum": 72023,
+              "to_zone": "Shinerock Mines",
+              "to_room_name": "Shinerock Mine Shaft",
+              "direction": "out of the cave",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24068": {
+          "vnum": 24068,
+          "name": "On the River",
+          "description": "Your passage along the river is paralleled by a high bank to your west. The bank grows to the stature of a cliff further to the north but tapers down to the same level as the water to the south.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24069,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 57006,
+              "to_zone": "Eastern Road",
+              "to_room_name": "Bruenor's Crossing",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24069": {
+          "vnum": 24069,
+          "name": "On the River",
+          "description": "As you navigate this river bend you cannot help but feel dwarfed by the sheer rock cliff to your west. It rises to a height of 80 feet above your head. This may not seem to be too high, as far as cliffs go, but the way it leans its bulk out over the river is a little daunting.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24070,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Wide River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24068,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the River",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24065,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the Cliff",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24070": {
+          "vnum": 24070,
+          "name": "Wide River",
+          "description": "The river widens here and pursues a stately course to the west, toward a southerly bend. Looking east, it seems that the river runs straight away from you until the details are lost in the distance.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24071,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Placid Pool",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24069,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24071": {
+          "vnum": 24071,
+          "name": "Placid Pool",
+          "description": "A small hollow in the face of the land has allowed the water to collect into a circular pool. It is very still and peaceful here with the soft croaking of frogs the only sound disturbing the quiet. The river continues to the east and west.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24072,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Near the Rocks",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24070,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Wide River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24072": {
+          "vnum": 24072,
+          "name": "Near the Rocks",
+          "description": "A grotesque rock formation juts out of the river here as if it was discarded there by a gargantuan child. Fortunately, there is ample room to go around it so you can easily negotiate this river bend.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24073,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Maelstrom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24071,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Placid Pool",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24073": {
+          "vnum": 24073,
+          "name": "Maelstrom",
+          "description": "The water is very turbulent in the center of the channel. It looks as if a group of whirlpools are executing a complex dance, reveling in their freedom. There is plenty of room to skirt the disturbance and continue on your way.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24074,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Small Rapids",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24072,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Near the Rocks",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24074": {
+          "vnum": 24074,
+          "name": "Small Rapids",
+          "description": "Well, rapids might be an overstatement. There are many rocks projecting above the surface of the water but the current isn't fierce enough to make them a hazard. The river continues north and south.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24075,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Bloody Waters",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24073,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Maelstrom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24075": {
+          "vnum": 24075,
+          "name": "Bloody Waters",
+          "description": "The bed of the river is made up of sand and rocks that are the rich, red color of fresh blood. At first glance, it appears that the land is bleeding copiously from a horrendous wound. It is a local phenomenon though because you can see that the color does not persist to the north or the south.",
+          "grid_x": 3,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24076,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Running River",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24074,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Small Rapids",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24076": {
+          "vnum": 24076,
+          "name": "Running River",
+          "description": "The river narrows around this bend and the speed increases. The river does widen again to the south, however, so the speed is not maintained downstream of this curve.",
+          "grid_x": 3,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24077,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "River Canyon",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24075,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Bloody Waters",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24077": {
+          "vnum": 24077,
+          "name": "River Canyon",
+          "description": "You are passing between high rock walls which narrow near the top allowing only a thin strip of sky to peek through. The canyon continues to enclose the river to the north, but the watercourse jogs west here, thereby escaping the rocky embrace.",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24078,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "River Canyon",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24076,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Running River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24078": {
+          "vnum": 24078,
+          "name": "River Canyon",
+          "description": "The river flows through a canyon here and the canyon continues to guide the river south. The high rock walls recede to the north but you cannot see what may await you there because a fine mist hangs in the air and defies your vision. You slowly become aware of a sound you have been hearing for some time: a low roar.",
+          "grid_x": 4,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24079,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Base of the Falls",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24077,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "River Canyon",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24079": {
+          "vnum": 24079,
+          "name": "Base of the Falls",
+          "description": "High above you, a huge sheet of water thunders down from the heavens into this circular basin. A fine mist hangs in the air, the delicate halo of this natural wonder. The roar is nearly deafening as millions of gallons of water seek the path of least resistance to begin their long journey to the sea. An old, swinging bridge crosses the canyon gap far overhead. To the west is the opening of a wide, low cave.",
+          "grid_x": 4,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24078,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "River Canyon",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 30120,
+              "to_zone": "Golgar's Lair",
+              "to_room_name": "Atop A Large Waterfall",
+              "direction": "sw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 24067,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Cave Beside the Falls",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "24090": {
+          "vnum": 24090,
+          "name": "Edge of the Canyon",
+          "description": "You stand at the edge of a great, yawning opening in the earth. A roiling curtain of sparkling water roars down into the canyon from the very heavens above, to feed the fabled river of Bruenor's Woe. The river runs southward at the bottom of the canyon into a dark forest far south and west. An old, swinging bridge of rope and leather spans the gap.",
+          "grid_x": 1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24030,
+              "to_zone": "Flowering Meadows",
+              "to_room_name": "Northern Trail",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24091,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Swinging Bridge",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24091": {
+          "vnum": 24091,
+          "name": "Swinging Bridge",
+          "description": "The bridge is old, and was once sturdy, but time has taken its toll on the once seaworthy rope, and the previously sturdy wooden planks. The ropes are covered in the dung of the winged creatures which pause to perch here, high above a river canyon. A fine spray of mist drifts away from a thundering sheet of water which flows down, from the very skies above! The forests of Jharet loom to the west and to the north.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24090,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Edge of the Canyon",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24092,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Edge of the Canyon",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24092": {
+          "vnum": 24092,
+          "name": "Edge of the Canyon",
+          "description": "The forests break quickly here at the edge of a tremendous canyon, into which pours a thundering sheet of water falling from the very skies above! The water roils within the canyon and fuels a swiftly moving river at its bottom. A narrow, swinging bridge that has seen better days spans the canyon.",
+          "grid_x": -1,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24091,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Swinging Bridge",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 24093,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Forest Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24093": {
+          "vnum": 24093,
+          "name": "Forest Path",
+          "description": "Through the great old trees this thin path twists, traveling further south. The sound of rumbling water becomes louder as you progress.",
+          "grid_x": -1,
+          "grid_y": 16,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 45085,
+              "to_zone": "Central Forest - Jharet Forest",
+              "to_room_name": "Forest Path",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24092,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Edge of the Canyon",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24035": {
+          "vnum": 24035,
+          "name": "Entrance to the Lair",
+          "description": "The earth seems to pulse with evil emanations. The soil is a putrid mass of dead flora intermixed with detritus of unknown origin. A roughened passage through the earth leads south toward a circular cavern.",
+          "grid_x": 7,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 30001,
+              "to_zone": "Golgar's Lair",
+              "to_room_name": "The Upper Reaches",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24049,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Cramped Passage",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 4,
+        "min_y": -6,
+        "max_y": 17,
+        "room_count": 21
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 24089,
+      "rooms": {
+        "24087": {
+          "vnum": 24087,
+          "name": "Dark Canyon",
+          "description": "Any stray natural light is shut out by the towering and tapering cliffs far above your head. You can head up the steep scree slope, or you can travel into the deeper darkness to the east.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24088,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Dark Canyon",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24086,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the Brink",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24088": {
+          "vnum": 24088,
+          "name": "Dark Canyon",
+          "description": "If it weren't for the slim crack of sky high above the canyon floor, this place would be a cave. What little light does show through from above, however, does nothing to illuminate the place.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24089,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "The T-Cross",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24087,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Dark Canyon",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24089": {
+          "vnum": 24089,
+          "name": "The T-Cross",
+          "description": "You are in an area that resounds with the roar of rushing water. To the east you can feel clammy moisture pressing outward. To the south is a narrow and uninviting fissure, while to the west, the canyon travels upward at a very slight angle.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 30100,
+              "to_zone": "Golgar's Lair",
+              "to_room_name": "River Canyon",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24048,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Fissure",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24088,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Dark Canyon",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24048": {
+          "vnum": 24048,
+          "name": "Fissure",
+          "description": "This natural channel must have been caused by a sudden and cataclysmic upheaval of the earth because you see no sign of the smoothing effects of water, and parts of it are pocked and half-melted. It is shaped like a funnel with its narrow end to the south and its wide end to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24089,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "The T-Cross",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24049,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Cramped Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24049": {
+          "vnum": 24049,
+          "name": "Cramped Passage",
+          "description": "This passage is barely wide enough to allow your shoulders freedom to turn. The crushing space widens to the north, and a heavy slab of rock blocks what looks like a natural chimney that nature has drilled into the solid rock.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24048,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Fissure",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24035,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Entrance to the Lair",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 5
+      }
+    },
+    "2": {
+      "floor_id": 2,
+      "entry_vnum": 24083,
+      "rooms": {
+        "24083": {
+          "vnum": 24083,
+          "name": "Gorge Bottom",
+          "description": "The high walls of granite that define this canyon serve to cool and dim it. A footpath leads up to a road high above, and a narrow wash leads north into an even dimmer section of the place.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24084,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Gorge Bottom",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 24082,
+              "to_zone": "Eastern Road",
+              "to_room_name": "The Cut",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24084": {
+          "vnum": 24084,
+          "name": "Gorge Bottom",
+          "description": "The walls rise to the north and narrow to the width of a man. To the south, the polished floor of rock leads to a more open area.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24085,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Narrow Crack",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24083,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Gorge Bottom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24085": {
+          "vnum": 24085,
+          "name": "Narrow Crack",
+          "description": "There is barely enough room for you to squeeze past the impinging rock walls of this crevice. The way widens to the south and east.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24086,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "On the Brink",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24084,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Gorge Bottom",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "24086": {
+          "vnum": 24086,
+          "name": "On the Brink",
+          "description": "To the west you see a narrow, smooth-sided crevice, and below your feet you can see another, deeper gorge opening into inky blackness.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 24085,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Narrow Crack",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 24087,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Dark Canyon",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 24048,
+      "to": 24089,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24048,
+      "to": 24049,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24066,
+      "to": 24067,
+      "direction": "e",
+      "from_grid": [
+        7,
+        0
+      ],
+      "to_grid": [
+        8,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24068,
+      "to": 24069,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24069,
+      "to": 24070,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24070,
+      "to": 24071,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24071,
+      "to": 24072,
+      "direction": "e",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24072,
+      "to": 24073,
+      "direction": "n",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24073,
+      "to": 24074,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24074,
+      "to": 24075,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24075,
+      "to": 24076,
+      "direction": "n",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24076,
+      "to": 24077,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24077,
+      "to": 24078,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -4
+      ],
+      "to_grid": [
+        4,
+        -5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24078,
+      "to": 24079,
+      "direction": "n",
+      "from_grid": [
+        4,
+        -5
+      ],
+      "to_grid": [
+        4,
+        -6
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24083,
+      "to": 24084,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24084,
+      "to": 24085,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24085,
+      "to": 24086,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24087,
+      "to": 24088,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24088,
+      "to": 24089,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24090,
+      "to": 24091,
+      "direction": "w",
+      "from_grid": [
+        1,
+        17
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24091,
+      "to": 24092,
+      "direction": "w",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
+        -1,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 24092,
+      "to": 24093,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        17
+      ],
+      "to_grid": [
+        -1,
+        16
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

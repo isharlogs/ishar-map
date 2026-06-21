@@ -1,0 +1,866 @@
+{
+  "zone_name": "Dreck River Homestead",
+  "entry_vnum": 84000,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -4,
+    "max_y": 2
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 84011,
+      "rooms": {
+        "84011": {
+          "vnum": 84011,
+          "name": "A Deep, Black Well",
+          "description": "A slip into this waterless well could be fatal: a mess of jagged rocks and jutting bones greets all descendents. The place stinks, too. Something fetid with a sub-rudimentary ken of what makes a well a home lives here. What air you can breathe is thick, frosty, and hurts going down, akin to eating a frozen vruhl.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 84007,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Barn",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 84000,
+      "rooms": {
+        "84000": {
+          "vnum": 84000,
+          "name": "Cart Path's End",
+          "description": "There's something sparkly in the air here. You can still smell a whiff of the Chardaleth Sea, kelpy and briny, and Cium Nustrum's cologne, musky and feral, but you can't shake the feeling you're in for something new. A cart path returns to the country road to the north, and to the south you see a riverbed.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 24038,
+              "to_zone": "Country Estates",
+              "to_room_name": "Country Road",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84001,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Dry Riverbed",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84001": {
+          "vnum": 84001,
+          "name": "Dry Riverbed",
+          "description": "Formerly one of the Chardaleth Sea's lesser tributaries, the Dreck River ceased flowing when Ilarien slew Alestar. Why a river leagues away from Torm Sarvek would expire as well ... that's a mystery only the skies can answer. A trail begins to lead back to Mareldja to the north. To the southeast, the riverbed rises, slowly becoming a field.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 84000,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Cart Path's End",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 84002,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Parched Field",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 79109,
+              "to_zone": "Baranath Bay",
+              "to_room_name": "Dry Riverbed",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 84200,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Dry Riverbed",
+              "direction": "go into",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "84002": {
+          "vnum": 84002,
+          "name": "Parched Field",
+          "description": "Sage brush and bull thistle have claimed what was once a fine grazing pasture, before the rains stopped coming. To the northwest, the field descends to a riverbed, and to the south, field becomes prairie.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 84001,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Dry Riverbed",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84003,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Lone Prairie",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84003": {
+          "vnum": 84003,
+          "name": "Lone Prairie",
+          "description": "It is easy to see how a man might covet this land -- vast, unclaimed, and fertile. Equally easy to miss that the grass and clover were a shade closer to brown than green. A man could surely taste the bountiful harvests to come. An ox-driven plow, some seed, hard work, what else would he need?",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 84002,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Parched Field",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 84005,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Parson's Bog",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84004,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "A Gentle Swell",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84004": {
+          "vnum": 84004,
+          "name": "A Gentle Swell",
+          "description": "A gentle but determined swell in the prairie grants wide compass of the area: a simple farmhouse, to the south, marks the only dwelling; fields of corn and barley are all about; and a red barn is to western side of the farmhouse. Beyond the farm, hills rise and fall with the horizon.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 84003,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Lone Prairie",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84006,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Farmhouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "se": {
+              "to_vnum": 84008,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Fields of Corn and Barley",
+              "direction": "se",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 84007,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Barn",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84005": {
+          "vnum": 84005,
+          "name": "Parson's Bog",
+          "description": "As gingerly as you trod upon the sodden ground, you still sink knee-deep into a mush of roots, fibers, and moss. Thankfully, the goo smells more earthy than moldy. And besides all of the buzzing, sucking, and rattling, you feel perfectly at home.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sw": {
+              "to_vnum": 84003,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Lone Prairie",
+              "direction": "sw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84006": {
+          "vnum": 84006,
+          "name": "Before the Farmhouse",
+          "description": "A weatherboarded farmhouse with peeling paint reeks of penury. Relentless heat buckles the wooden boards, and the front door bulges obscenely, ready to burst its frame. The front stoop, though, is graceful with a porch swing to one side and flower pots to the other -- except the peonies are desiccated.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 84008,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Fields of Corn and Barley",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 84004,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "A Gentle Swell",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 84009,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Farmhouse",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "w": {
+              "to_vnum": 84007,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Barn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84007": {
+          "vnum": 84007,
+          "name": "Before the Barn",
+          "description": "You would expect the usual olfactory assault -- spilled oats, pig slop, and rich manure -- in the barnyard. But you only choke on dust clouds. You do hear something unusual: a steady creak resonates from within the barn. A well sits not far to the south.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 84006,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Farmhouse",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "ne": {
+              "to_vnum": 84004,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "A Gentle Swell",
+              "direction": "ne",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 84010,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Barn",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": true
+            },
+            "go well": {
+              "to_vnum": 84011,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "A Deep, Black Well",
+              "direction": "go well",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "84200": {
+          "vnum": 84200,
+          "name": "Dry Riverbed",
+          "description": "Formerly one of the Chardaleth Sea's lesser tributaries, the Dreck River ceased flowing when Ilarien slew Alestar. Why a river leagues away from Torm Sarvek would expire as well ... that's a mystery only the skies can answer. A trail begins to lead back to Mareldja to the north. To the southeast, the riverbed rises, slowly becoming a field. go into",
+          "grid_x": 4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 84001,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Dry Riverbed",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "84009": {
+          "vnum": 84009,
+          "name": "Farmhouse",
+          "description": "With a grunt, you force the door open. A few flies buzz about. You see a cooking area but smell no grease or victuals. A hanging tapestry divides the rest of house into two: a connubial area with a firm bed and abundant pillows, and a child's area with a cot and lovingly hand-crafted wooden horses, pigs, and cows strewn about.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 84006,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Farmhouse",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84010": {
+          "vnum": 84010,
+          "name": "Barn",
+          "description": "The creaking draws your eyes upward to the barn rafters. A thick rope has been knotted to a support beam, the weight and movement of its burden straining that beam. The rope swings back and forth, providing a panoramic view of a hanging man, his ashen face, crooked neck, and limp form. Spittle and a touch of blood color his lower lip.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 84007,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Barn",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "84008": {
+          "vnum": 84008,
+          "name": "Fields of Corn and Barley",
+          "description": "A scarecrow bears silent witness to a man's despair: row after row of sere stalks of corn and blades of barley. It is said that Ishar's blood ran from his chest til it collected as the sea. It is whispered that He might have spared some of this blood for the skies.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "nw": {
+              "to_vnum": 84004,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "A Gentle Swell",
+              "direction": "nw",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 84006,
+              "to_zone": "Dreck River Homestead",
+              "to_room_name": "Before the Farmhouse",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -4,
+        "max_y": 2,
+        "room_count": 12
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 84000,
+      "to": 84001,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84001,
+      "to": 84002,
+      "direction": "se",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84002,
+      "to": 84003,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84003,
+      "to": 84005,
+      "direction": "ne",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84003,
+      "to": 84004,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84004,
+      "to": 84006,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84004,
+      "to": 84008,
+      "direction": "se",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84004,
+      "to": 84007,
+      "direction": "sw",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84006,
+      "to": 84008,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84006,
+      "to": 84009,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 84006,
+      "to": 84007,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 84007,
+      "to": 84010,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    }
+  ]
+}

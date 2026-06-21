@@ -1,0 +1,1154 @@
+{
+  "zone_name": "Northern Tundras",
+  "entry_vnum": 34000,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 3,
+    "min_y": 0,
+    "max_y": 6
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 34000,
+      "rooms": {
+        "42112": {
+          "vnum": 42112,
+          "name": "Abandoned Camp",
+          "description": "You stand in the middle of a forgotten campsite, the final resting-place of an expedition that set out into the far north to find Teralea. Frozen tents and barrels of supplies litter the area, as well as several grisly frozen corpses. Eddies of cold wind swirl around the piles of boxes.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42111,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42107,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42113,
+            42117
+          ],
+          "npcs": [
+            {
+              "name": "Tharisian the Mudman",
+              "description": "Have you any idea how good hot spring mud is for your skin?  The fruits of Tharisian's labours are used by nobles throughout Teralea.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42115": {
+          "vnum": 42115,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42110,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42001,
+              "to_zone": "Valley of Teralea",
+              "to_room_name": "Dark Cave",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42116,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42114
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42116": {
+          "vnum": 42116,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold. The sharp winds blast you with snow, blinding you to your direction.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42111,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42115,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42117,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42117": {
+          "vnum": 42117,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold. The sharp winds blast you with snow, blinding you to your direction.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42116,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42112,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Abandoned Camp",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42118
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42087": {
+          "vnum": 42087,
+          "name": "Climbing the Cliff",
+          "description": "The path that winds up the mountainside is so narrow you can only shuffle along sideways, clinging desperately onto whatever handholds you can find on this unforgiving rock face. Blasts of cold wind threaten to dislodge you at any time, ice whipped viciously in your face.",
+          "grid_x": 6,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 24014,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "High Mountain Pass",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 42088,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Edge of the Plateau",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42088": {
+          "vnum": 42088,
+          "name": "Edge of the Plateau",
+          "description": "You stand on the very edge of an icy plateau that seems to be the roof of the world itself. The clouds above seem closer than you have ever seen them, and the air is bitterly cold. The plateau extends north for endless miles, disappearing into the white void beyond. A tall stand of valerian sways gently, its pink flowers releasing a pungent odor.",
+          "grid_x": 2,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42091,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 42087,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Climbing the Cliff",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "VALERIAN",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42090": {
+          "vnum": 42090,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 1,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42091,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42095,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42089
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42091": {
+          "vnum": 42091,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 2,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42088,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Edge of the Plateau",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42090,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42092,
+            42096
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42094": {
+          "vnum": 42094,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 0,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42095,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 42099,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42089
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42095": {
+          "vnum": 42095,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42090,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42094,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42096,
+            42100
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34000": {
+          "vnum": 34000,
+          "name": "Tundra",
+          "description": "It is colder here and the predominant vegetation has changed to low bushes and coarse grass. There are occasional patches of snow but over all the travel is fairly easy. The way continues toward some mountains to the north.",
+          "grid_x": 6,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 24015,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Tundra Basin",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            34001
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42099": {
+          "vnum": 42099,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42104,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42094,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42100
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42104": {
+          "vnum": 42104,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42105,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42099,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42109
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42105": {
+          "vnum": 42105,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42110,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42104,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42100,
+            42106
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42107": {
+          "vnum": 42107,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold. The sharp winds blast you with snow, blinding you to your direction.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42112,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Abandoned Camp",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42102,
+            42106,
+            42108
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42109": {
+          "vnum": 42109,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold. The sharp winds blast you with snow, blinding you to your direction.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 42110,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42104,
+            42114
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42110": {
+          "vnum": 42110,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 42115,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42105,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42109,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42111
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "42111": {
+          "vnum": 42111,
+          "name": "In the Blizzards",
+          "description": "The winds are sharp and stinging, hurling painful gusts of snow and ice into your eyes. In every direction you look there is nothing but whiteness - you cannot see the sky, the horizon, or even your hand in front of your face. The blizzards howl mournfully as you stumble, blundering on into the cold. The sharp winds blast you with snow, blinding you to your direction.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 42116,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 42116,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "In the Blizzards",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 42112,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Abandoned Camp",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            42106,
+            42110
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 3,
+        "min_y": 0,
+        "max_y": 6,
+        "room_count": 18
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 42088,
+      "to": 42091,
+      "direction": "n",
+      "from_grid": [
+        2,
+        6
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42090,
+      "to": 42091,
+      "direction": "e",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        2,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42090,
+      "to": 42095,
+      "direction": "n",
+      "from_grid": [
+        1,
+        5
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42094,
+      "to": 42095,
+      "direction": "e",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        1,
+        4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42094,
+      "to": 42099,
+      "direction": "n",
+      "from_grid": [
+        0,
+        4
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42099,
+      "to": 42104,
+      "direction": "n",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42104,
+      "to": 42105,
+      "direction": "e",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42105,
+      "to": 42110,
+      "direction": "n",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42107,
+      "to": 42112,
+      "direction": "s",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42109,
+      "to": 42110,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42110,
+      "to": 42115,
+      "direction": "n",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42111,
+      "to": 42116,
+      "direction": "e",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42111,
+      "to": 42112,
+      "direction": "w",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 42115,
+      "to": 42116,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42116,
+      "to": 42117,
+      "direction": "w",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 42117,
+      "to": 42112,
+      "direction": "w",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    }
+  ]
+}

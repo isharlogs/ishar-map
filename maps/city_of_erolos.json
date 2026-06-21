@@ -1,0 +1,132 @@
+{
+  "zone_name": "City of Erolos",
+  "entry_vnum": 83200,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 83201,
+      "rooms": {
+        "83201": {
+          "vnum": 83201,
+          "name": "The Open Sea",
+          "description": "The water is clear and bright, giving you a clear view of the vibrant marine life that thrives in this area. The sound of your movements is muffled by the water, but the swaying of the currents is ever-present, gently buffeting your body and urging you along.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 83200,
+              "to_zone": "City of Erolos",
+              "to_room_name": "The Open Sea",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            83202
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 83200,
+      "rooms": {
+        "83200": {
+          "vnum": 83200,
+          "name": "The Open Sea",
+          "description": "The vast expanse of open water stretches out before you, with no visible signs of land in any direction. The gentle sway of the waves rocks you back and forth. The water rises and falls with each passing swell. The water around you is clear and deep, and you can see schools of brightly colored fish darting through the water.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25043,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25041,
+              "to_zone": "The Ocean",
+              "to_room_name": "The Open Sea",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 83201,
+              "to_zone": "City of Erolos",
+              "to_room_name": "The Open Sea",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}
