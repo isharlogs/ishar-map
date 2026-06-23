@@ -722,14 +722,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -773,14 +766,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -824,14 +810,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -886,14 +865,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -996,14 +968,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1060,14 +1025,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1111,14 +1069,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1162,14 +1113,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1224,14 +1168,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1275,14 +1212,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1327,12 +1257,6 @@
           "npcs": [],
           "chests": [],
           "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            },
             {
               "category": "herbs",
               "name": "GLOWING RED FUNGUS",
@@ -1383,14 +1307,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1448,12 +1365,6 @@
           "nodes": [
             {
               "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            },
-            {
-              "category": "herbs",
               "name": "GLOWING RED FUNGUS",
               "rank": 8,
               "count": 1
@@ -1502,14 +1413,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1553,14 +1457,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1604,14 +1501,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1657,14 +1547,7 @@
           ],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1719,14 +1602,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1770,14 +1646,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1821,14 +1690,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1872,14 +1734,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1923,14 +1778,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2018,14 +1866,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2113,14 +1954,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2208,14 +2042,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2632,14 +2459,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2693,14 +2513,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -2754,14 +2567,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3081,14 +2887,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3146,14 +2945,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3222,14 +3014,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3286,14 +3071,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3360,14 +3138,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3422,14 +3193,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "WILLOW",
-              "rank": 1,
-              "count": 9
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3588,14 +3352,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3650,14 +3407,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3713,14 +3463,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3776,14 +3519,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3836,14 +3572,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4018,14 +3747,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4079,14 +3801,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4151,14 +3866,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4215,14 +3923,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4278,12 +3979,6 @@
             }
           ],
           "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            },
             {
               "category": "herbs",
               "name": "GLOWING RED FUNGUS",
@@ -4355,14 +4050,7 @@
               ]
             }
           ],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -4406,14 +4094,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "QUICKROOT",
-              "rank": 10,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

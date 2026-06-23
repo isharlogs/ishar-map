@@ -943,14 +943,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "DAWN'S BREATH",
-              "rank": 36,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1012,14 +1005,7 @@
             }
           ],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "DAWN'S BREATH",
-              "rank": 36,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1063,14 +1049,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "DAWN'S BREATH",
-              "rank": 36,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3363,14 +3342,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3436,14 +3408,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3509,14 +3474,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3582,14 +3540,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3655,14 +3606,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3728,14 +3672,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3801,14 +3738,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3874,14 +3804,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -3947,14 +3870,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "NIGHTSPORE MUSHROOM",
-              "rank": 32,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

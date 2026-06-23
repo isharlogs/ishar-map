@@ -184,14 +184,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "SILVER",
-              "rank": 25,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -389,14 +382,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "SILVER",
-              "rank": 25,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -471,14 +457,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "SILVER",
-              "rank": 25,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

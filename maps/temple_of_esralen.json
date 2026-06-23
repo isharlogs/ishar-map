@@ -11,7 +11,7 @@
   "floors": {
     "-1": {
       "floor_id": -1,
-      "entry_vnum": 61044,
+      "entry_vnum": 61074,
       "rooms": {
         "61074": {
           "vnum": 61074,
@@ -510,15 +510,6 @@
               "to_floor": 0,
               "is_portal": false,
               "has_door": false
-            },
-            "go portal": {
-              "to_vnum": 27008,
-              "to_zone": "Temple of Esralen",
-              "to_room_name": "Port of Barcas",
-              "direction": "go portal",
-              "is_cross_zone": false,
-              "is_portal": true,
-              "has_door": false
             }
           },
           "unwalked": [],
@@ -530,7 +521,7 @@
           "detached": false,
           "spinner": false,
           "death_trap": false,
-          "portal": true
+          "portal": false
         },
         "61066": {
           "vnum": 61066,

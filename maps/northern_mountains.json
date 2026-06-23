@@ -151,7 +151,14 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -195,7 +202,14 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -332,14 +346,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "GINGER",
-              "rank": 5,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -383,14 +390,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "GINGER",
-              "rank": 5,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1370,12 +1370,6 @@
               "name": "COPPER",
               "rank": 4,
               "count": 1
-            },
-            {
-              "category": "herbs",
-              "name": "DAWN'S BREATH",
-              "rank": 36,
-              "count": 1
             }
           ],
           "staircase": null,
@@ -1421,14 +1415,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "herbs",
-              "name": "DAWN'S BREATH",
-              "rank": 36,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

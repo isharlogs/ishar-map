@@ -153,20 +153,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            },
-            {
-              "category": "ores",
-              "name": "COAL",
-              "rank": 40,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1243,20 +1230,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            },
-            {
-              "category": "ores",
-              "name": "COAL",
-              "rank": 40,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

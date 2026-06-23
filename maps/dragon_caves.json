@@ -1,0 +1,65 @@
+{
+  "zone_name": "Dragon Caves",
+  "entry_vnum": 47351,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 47351,
+      "rooms": {
+        "47351": {
+          "vnum": 47351,
+          "name": "Cramped Cave",
+          "description": "You have found your way into a tiny cave in the mountain walls of the frozen wastelands. As you shiver from the cold, you are dismayed to find that there is barely enough room for you to stand or move about between the rime-covered walls of the cave. A small hole in the floor of the cave leads down to an ancient, iron, runed grate. To the east lies the stark bleakness of the northern tundra. A snow-covered sign has been hammered into a crack in the ground.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34017,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            47352
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

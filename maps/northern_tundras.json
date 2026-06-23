@@ -1,12 +1,12 @@
 {
   "zone_name": "Northern Tundras",
   "entry_vnum": 34000,
-  "floor_count": 1,
+  "floor_count": 2,
   "bounds": {
-    "min_x": 0,
+    "min_x": -3,
     "max_x": 3,
-    "min_y": 0,
-    "max_y": 6
+    "min_y": -4,
+    "max_y": 23
   },
   "floors": {
     "0": {
@@ -225,12 +225,195 @@
           "death_trap": false,
           "portal": false
         },
+        "34000": {
+          "vnum": 34000,
+          "name": "Tundra",
+          "description": "It is colder here and the predominant vegetation has changed to low bushes and coarse grass. There are occasional patches of snow but over all the travel is fairly easy. The way continues toward some mountains to the north.",
+          "grid_x": 0,
+          "grid_y": 23,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34001,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Mountain Pass",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 24015,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Tundra Basin",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34001": {
+          "vnum": 34001,
+          "name": "Mountain Pass",
+          "description": "You have entered a narrow pass between some mountains. It is getting rather narrow here but the way seems to open to the north and south. To the north you can see other mountains bulking against the sky; to the south the land seems flatter, more open.",
+          "grid_x": 0,
+          "grid_y": 22,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34002,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "High Mountain Pass",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34000,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Tundra",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34002": {
+          "vnum": 34002,
+          "name": "High Mountain Pass",
+          "description": "You are quite high now and the air is getting thin. Your breath leaps from your mouth in frosty plumes and your feet slip on occasional patches of ice. The trail makes a sudden jog to the east here.",
+          "grid_x": 0,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34003,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Base of the Slide",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34001,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Mountain Pass",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34003": {
+          "vnum": 34003,
+          "name": "Base of the Slide",
+          "description": "You stand at the foot of a rough slide of rocks, dead trees, and various other debris. The slide is steep but passable and appears to flatten out about a hundred feet up. A narrow trail leads west.",
+          "grid_x": 1,
+          "grid_y": 21,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 34002,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "High Mountain Pass",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 34004,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Escarpment",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "up the slide": {
+              "to_vnum": 34004,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Escarpment",
+              "direction": "up the slide",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
         "42087": {
           "vnum": 42087,
           "name": "Climbing the Cliff",
           "description": "The path that winds up the mountainside is so narrow you can only shuffle along sideways, clinging desperately onto whatever handholds you can find on this unforgiving rock face. Blasts of cold wind threaten to dislodge you at any time, ice whipped viciously in your face.",
           "grid_x": 6,
-          "grid_y": 2,
+          "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -498,41 +681,6 @@
           "staircase": null,
           "stack": null,
           "detached": false,
-          "spinner": false,
-          "death_trap": false,
-          "portal": false
-        },
-        "34000": {
-          "vnum": 34000,
-          "name": "Tundra",
-          "description": "It is colder here and the predominant vegetation has changed to low bushes and coarse grass. There are occasional patches of snow but over all the travel is fairly easy. The way continues toward some mountains to the north.",
-          "grid_x": 6,
-          "grid_y": 0,
-          "sub_x": 0,
-          "sub_y": 0,
-          "chain_id": 0,
-          "exits": {
-            "s": {
-              "to_vnum": 24015,
-              "to_zone": "Northern Mountains",
-              "to_room_name": "Tundra Basin",
-              "direction": "s",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            }
-          },
-          "unwalked": [
-            34001
-          ],
-          "npcs": [],
-          "chests": [],
-          "nodes": [],
-          "staircase": null,
-          "stack": null,
-          "detached": true,
           "spinner": false,
           "death_trap": false,
           "portal": false
@@ -872,12 +1020,2036 @@
         "min_x": 0,
         "max_x": 3,
         "min_y": 0,
-        "max_y": 6,
-        "room_count": 18
+        "max_y": 23,
+        "room_count": 21
+      }
+    },
+    "1": {
+      "floor_id": 1,
+      "entry_vnum": 34017,
+      "rooms": {
+        "34023": {
+          "vnum": 34023,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34024,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34031,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34015,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34022,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34025": {
+          "vnum": 34025,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. To the south a small canyon beckons.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 34039,
+              "to_zone": "Tynum Bar",
+              "to_room_name": "Narrow Canyon",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34024,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34004": {
+          "vnum": 34004,
+          "name": "Escarpment",
+          "description": "You stand on an escarpment looking down on a frozen wasteland of rocks and snow. There are mountains in the far distance to the north and a steep slide leads down and south from here.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34008,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 34003,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Base of the Slide",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34005": {
+          "vnum": 34005,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the south and west.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34008,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34013,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34008": {
+          "vnum": 34008,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. There is a small escarpment to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34009,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34014,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34004,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "Escarpment",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34005,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34009": {
+          "vnum": 34009,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the south and east.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34015,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34008,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34010": {
+          "vnum": 34010,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the south and west. Dark iron streaks run thick through the rock.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34013,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34020,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34013": {
+          "vnum": 34013,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the south.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34014,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34021,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34005,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34010,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34014": {
+          "vnum": 34014,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34015,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34022,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34008,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34013,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34015": {
+          "vnum": 34015,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the south and east.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34016,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34023,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34009,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34014,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34016": {
+          "vnum": 34016,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the south and east.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34024,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34015,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34017": {
+          "vnum": 34017,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places.",
+          "grid_x": -3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34020,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 47351,
+              "to_zone": "Dragon Caves",
+              "to_room_name": "Cramped Cave",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34020": {
+          "vnum": 34020,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34021,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34026,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34010,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34017,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34021": {
+          "vnum": 34021,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34022,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34029,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34013,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34020,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34022": {
+          "vnum": 34022,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34023,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34030,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34014,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34021,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34024": {
+          "vnum": 34024,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the north, south and east.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34025,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34032,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34016,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34023,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34026": {
+          "vnum": 34026,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the west but there is a small clearing to the north.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34029,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34038,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Before a Small Encampment",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34020,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34029": {
+          "vnum": 34029,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the north.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34030,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34033,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34021,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34026,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34030": {
+          "vnum": 34030,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the north.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34031,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34036,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34022,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34029,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34033": {
+          "vnum": 34033,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the north and west.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34036,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 86099,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Frozen Tunnel",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34029,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34031": {
+          "vnum": 34031,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. You see mountains in the distance to the north and east.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34032,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34037,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34023,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34030,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34036": {
+          "vnum": 34036,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the north.",
+          "grid_x": 0,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34037,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34030,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34033,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34037": {
+          "vnum": 34037,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to the north and east.",
+          "grid_x": 1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 34031,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34036,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34032": {
+          "vnum": 34032,
+          "name": "The Frozen Waste",
+          "description": "The frigid temperature turns your breath into frosty plumes with every exhalation. The ground is littered with head-sized chunks of ice and rock which make the footing treacherous. A light dusting of snow blankets everything and the wind has sculpted it into small drifts in many places. Impassable mountains prevent travel to east.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 49000,
+              "to_zone": "White Forest",
+              "to_room_name": "A Shattered Gate",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34024,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34031,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -3,
+        "max_x": 3,
+        "min_y": -4,
+        "max_y": 1,
+        "room_count": 24
       }
     }
   },
   "edges": [
+    {
+      "from": 34000,
+      "to": 34001,
+      "direction": "n",
+      "from_grid": [
+        0,
+        23
+      ],
+      "to_grid": [
+        0,
+        22
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34001,
+      "to": 34002,
+      "direction": "n",
+      "from_grid": [
+        0,
+        22
+      ],
+      "to_grid": [
+        0,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34002,
+      "to": 34003,
+      "direction": "e",
+      "from_grid": [
+        0,
+        21
+      ],
+      "to_grid": [
+        1,
+        21
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34004,
+      "to": 34008,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34005,
+      "to": 34008,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34005,
+      "to": 34013,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34008,
+      "to": 34009,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34008,
+      "to": 34014,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34009,
+      "to": 34015,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34010,
+      "to": 34013,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34010,
+      "to": 34020,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34013,
+      "to": 34014,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34013,
+      "to": 34021,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34014,
+      "to": 34015,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34014,
+      "to": 34022,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34015,
+      "to": 34016,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34015,
+      "to": 34023,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34016,
+      "to": 34024,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34017,
+      "to": 34020,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34020,
+      "to": 34021,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34020,
+      "to": 34026,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34021,
+      "to": 34022,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34021,
+      "to": 34029,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34022,
+      "to": 34023,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34022,
+      "to": 34030,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34023,
+      "to": 34024,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34023,
+      "to": 34031,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34024,
+      "to": 34025,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34024,
+      "to": 34032,
+      "direction": "n",
+      "from_grid": [
+        2,
+        -2
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34026,
+      "to": 34029,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34029,
+      "to": 34030,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34029,
+      "to": 34033,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34030,
+      "to": 34031,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34030,
+      "to": 34036,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34031,
+      "to": 34032,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        2,
+        -3
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34031,
+      "to": 34037,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34033,
+      "to": 34036,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        0,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34036,
+      "to": 34037,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -4
+      ],
+      "to_grid": [
+        1,
+        -4
+      ],
+      "floor": 1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
     {
       "from": 42088,
       "to": 42091,

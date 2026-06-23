@@ -11,7 +11,7 @@
   "floors": {
     "-8": {
       "floor_id": -8,
-      "entry_vnum": 67097,
+      "entry_vnum": 67082,
       "rooms": {
         "67082": {
           "vnum": 67082,
@@ -244,7 +244,7 @@
     },
     "-7": {
       "floor_id": -7,
-      "entry_vnum": 67095,
+      "entry_vnum": 67086,
       "rooms": {
         "67081": {
           "vnum": 67081,
@@ -278,14 +278,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "TIN",
-              "rank": 6,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": true,
@@ -640,14 +633,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "TIN",
-              "rank": 6,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -919,14 +905,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "TIN",
-              "rank": 6,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -998,12 +977,6 @@
               "category": "ores",
               "name": "COPPER",
               "rank": 4,
-              "count": 1
-            },
-            {
-              "category": "ores",
-              "name": "TIN",
-              "rank": 6,
               "count": 1
             }
           ],
@@ -4577,7 +4550,7 @@
     },
     "2": {
       "floor_id": 2,
-      "entry_vnum": 67060,
+      "entry_vnum": 67036,
       "rooms": {
         "67036": {
           "vnum": 67036,
@@ -4797,7 +4770,7 @@
     },
     "3": {
       "floor_id": 3,
-      "entry_vnum": 67059,
+      "entry_vnum": 67035,
       "rooms": {
         "67035": {
           "vnum": 67035,
@@ -4933,7 +4906,7 @@
     },
     "4": {
       "floor_id": 4,
-      "entry_vnum": 67058,
+      "entry_vnum": 67034,
       "rooms": {
         "67034": {
           "vnum": 67034,
@@ -5069,7 +5042,7 @@
     },
     "5": {
       "floor_id": 5,
-      "entry_vnum": 67057,
+      "entry_vnum": 67033,
       "rooms": {
         "67033": {
           "vnum": 67033,

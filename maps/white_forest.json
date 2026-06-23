@@ -1,0 +1,65 @@
+{
+  "zone_name": "White Forest",
+  "entry_vnum": 49000,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": 0,
+    "max_y": 0
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 49000,
+      "rooms": {
+        "49000": {
+          "vnum": 49000,
+          "name": "A Shattered Gate",
+          "description": "A twisted and broken black gate hangs on one hinge. Although it is a mere shell of what it used to be, it was clearly never meant to be very ornate. It appears to have been in this condition for some time, though oddly there is not a single spot of rust. The slightly overgrown path leading up to the gate continues beyond it, though you can see nothing else through the dense forest of evergreens.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 34032,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            49001
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
+        "room_count": 1
+      }
+    }
+  },
+  "edges": []
+}

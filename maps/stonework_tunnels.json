@@ -855,14 +855,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -897,14 +890,7 @@
           ],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1133,14 +1119,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1204,14 +1183,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1297,14 +1269,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": true,
@@ -1344,14 +1309,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": {
             "cell_mates": [
@@ -1465,14 +1423,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 2
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1527,14 +1478,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1589,14 +1533,7 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [
-            {
-              "category": "ores",
-              "name": "IRON",
-              "rank": 20,
-              "count": 1
-            }
-          ],
+          "nodes": [],
           "staircase": null,
           "stack": null,
           "detached": false,

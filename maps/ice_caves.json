@@ -1,0 +1,1677 @@
+{
+  "zone_name": "Ice Caves",
+  "entry_vnum": 86099,
+  "floor_count": 3,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "-2": {
+      "floor_id": -2,
+      "entry_vnum": 86087,
+      "rooms": {
+        "86082": {
+          "vnum": 86082,
+          "name": "Snowy Pit",
+          "description": "Descending the slope, you lose your footing and fall into a large snowy pit. Here, the long-dead remains of those foolish enough to travel into these caves lie all about you, frozen white like the snow itself. A large pile of snow sits in the center of the pit, where the shamans have apparently made some sort of shrine. The pit can be escaped back up the slope above. Crystalline fronds of frostfern spread across the frozen ground, glittering.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 86091,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "FROSTFERN",
+              "rank": 48,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86083": {
+          "vnum": 86083,
+          "name": "Deep Within the Ice Caves",
+          "description": "A diligent explorer might search for signs of some hidden passage here, but short of such a discovery, the cave apparently dead-ends. A small pile of bones sit in the corner, likely the remnants of someone who spent too long searching for such a passage. The walls of the cave open up to the south; that appears to be your only way out.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86085,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86084": {
+          "vnum": 86084,
+          "name": "Deep Within the Ice Caves",
+          "description": "Alas, the caves dead end here, allowing no further progress. A massive wall of rock and ice stands to the east, and curves northward and southward. The snow on the ground is flat and featureless here, save the occasional footprint of some massive beast. Your only apparent exit is to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 86085,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86085": {
+          "vnum": 86085,
+          "name": "Within the Ice Caves",
+          "description": "The caves form a junction of sorts here, opening up to the north, east, and west. One could wander for months in this vast underground expanse and never come across an exit. Above you, a shaft leads up into the darkness, where the swirling roar of a raging blizzard can be heard.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86084,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 86083,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 86086,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86086": {
+          "vnum": 86086,
+          "name": "Deep Within the Ice Caves",
+          "description": "No rock can be seen here, for the air is so freezing that the snow never melts. All about you, packed snow and ice form impenetrable walls, save east, where the caves continue on. The demented howl of a vicious beast occasionally floats in on the air.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86085,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86087": {
+          "vnum": 86087,
+          "name": "Icy Pit",
+          "description": "Water long ago swept into this cave when the climate was warmer and solidified in this pit into a sheet of solid ice. Perhaps it was once a small pool of some sort. However, the ice now appears completely impenetrable, and your only way out is back up the shaft where the loathsome cries of a pair of bloodthirsty hydras call out to you.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 86096,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Icy Tunnel",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "IRON",
+              "rank": 20,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 0,
+        "room_count": 6
+      }
+    },
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 86099,
+      "rooms": {
+        "86080": {
+          "vnum": 86080,
+          "name": "Deep Within the Ice Caves",
+          "description": "Your clothing and armor have begun to lose their flexibility, such is the absolute frigidness of the air here. Trudging along as if you were armored in full platemail, you search wearily for an exit to these eternal caves. The wind blows in from a shaft above; perhaps daylight can be found there.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 86081,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86088,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Cave Opening",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86081": {
+          "vnum": 86081,
+          "name": "Deep Within the Ice Caves",
+          "description": "The air here is absolutely freezing and little flecks of frost have begun to form on your weapons and armor. Great plumes of mist pour from your lungs with each exhale, floating upward on the wind. The caves continue to the east, and a shaft leads up into the darkness above.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86080,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86089,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86089": {
+          "vnum": 86089,
+          "name": "Within the Ice Caves",
+          "description": "Far above, stalactites gleam wickedly, their sharp tips pointed threateningly in your direction. You cannot easily estimate their size, for they must be more than a quarter of a mile above you; the caves are absolutely huge. The caves continue on to the west, and slope downward below you.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 86090,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86081,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86090": {
+          "vnum": 86090,
+          "name": "Within the Ice Caves",
+          "description": "As you explore the endless caves, your mind wanders and begins to dream of warmer climes. Perhaps next time a journey to the beautiful island of Palekana would be more to your taste. But you're here now, and you're covered in snow and absolutely frozen. The caves continue to the east, and an angled shaft heads up into the darkness above.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86089,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86072,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86091": {
+          "vnum": 86091,
+          "name": "Within the Ice Caves",
+          "description": "The caves dead end here, ending against a featureless rocky wall to the east. A number of large footprints can be seen in the snow at your feet, but they don't seem to be pointing in any particular direction. Occasionally, the roar of one of the beasts of the caves carries in from the west. The caves continue to the west, and an angled shaft slopes down into the darkness below.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 86092,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86082,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Snowy Pit",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86092": {
+          "vnum": 86092,
+          "name": "Within the Ice Caves",
+          "description": "The caves take a sharp turn here, angling off to the east and the south. Swirling winds roar angrily to the south, eerily harmonizing with the keens of the hydra that thunder through the caves all about you. A number of footprints can be seen in the snow as the cave heads east. Above you, a large shaft heads upward into the darkness.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86091,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86073,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Atop a Sloping Shaft",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86093": {
+          "vnum": 86093,
+          "name": "Frozen Alcove",
+          "description": "A small alcove hides here, offering a retreat from the icy winds of the massive caves to the south. Alas, the alcove is not deep enough to provide escape from the ever-hungry hydras. Every so often, the roar of one of the huge beasts carries in from the south.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86095,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COAL",
+              "rank": 40,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86094": {
+          "vnum": 86094,
+          "name": "Within the Ice Caves",
+          "description": "Trudging wearily through the massive caves, you begin to wonder if you'll find any thing other than death at the hands of the hydras. A featureless wall to the west blocks progress, and the only apparent exits are the expansive caves to the east, and an angled shaft above. Although the shaft is steep, ample holds look to allow easy travel.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86095,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86078,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86095": {
+          "vnum": 86095,
+          "name": "Within the Ice Caves",
+          "description": "Though not as strong as the blinding winds of the cave to the east, the air here still flows swiftly by, pulled in that direction. The caves split here, allowing travel to the west, north and east. An angled shaft heads further up into the mountain's interior above.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 86093,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Frozen Alcove",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 86094,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86077,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86096": {
+          "vnum": 86096,
+          "name": "Icy Tunnel",
+          "description": "A tunnel stretches north and south through the rocky interior of the mountain. Although not as vast as the caves to the north, the tunnel is large: perhaps seventy feet in diameter. Ice covers the floor, making your footing tenuous at best. A swirling blizzard buffets the cave to the north, but here the air is quite calm.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86087,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Icy Pit",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "FROSTFERN",
+              "rank": 48,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86097": {
+          "vnum": 86097,
+          "name": "Swirling Blizzard",
+          "description": "The icy wind swirls in a vicious blizzard here, knocking you to your feet. You search around for something to hold on to, anything to help you maintain your balance, but find no features. Visibility is at a minimum; perhaps you should move on before the roaring beasts of the cave catch your scent.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86098,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 86092,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 86096,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Icy Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 86095,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86085,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 86076,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": true,
+          "death_trap": false,
+          "portal": false
+        },
+        "86098": {
+          "vnum": 86098,
+          "name": "Within the Ice Caves",
+          "description": "You stand within a vast system of caves, immense in every dimension. Far above, icy stalactites droop from the ceiling like giant icicles, threatening to fall and slice you in half. A fierce wind blows in from the west, sweeping in a flurry of snow, turns south and flows out of the cave into a small tunnel. Crystalline fronds of frostfern spread across the frozen ground, glittering.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86099,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Frozen Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86099": {
+          "vnum": 86099,
+          "name": "Frozen Tunnel",
+          "description": "This tunnel provides no respite from the biting winds of the frozen wastelands. An icy gale howls in from the north and flows out through a crack into the wasteland to the south. The roof and walls of the tunnel are covered in wind- swept frost, and the floor with rippled drifts of snow. Occasionally, a baleful deep roar carries in from the north on the wind.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86098,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34033,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "FROSTFERN",
+              "rank": 48,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 13
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 86088,
+      "rooms": {
+        "86071": {
+          "vnum": 86071,
+          "name": "Barren Ledge",
+          "description": "You find yourself standing on a small ledge in the middle of a massive cliff. Gale force winds and slippery ice threaten to remove you from your precarious perch. Below you, a massive chasm stretches down into eternity, filled with swirling snow. Across the chasm, a tiny path winds its way up the face of a huge mountain, disappearing into the snow storms above. Resting on a stone slab, you ponder the thought of returning into the hellish ice caves to the south. r You lie down and relax. Kick is no longer on cooldown! The power of the ocean gradually subsides. Remembrance of the Zephyr is no longer on cooldown! l",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86088,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Cave Opening",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            86070
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86072": {
+          "vnum": 86072,
+          "name": "Within the Ice Caves",
+          "description": "Blue ice and white snow surround you on all sides, only to be occasionally interrupted by patches of solid rock. Snow and sleet blow up on a fierce wind from a large shaft at your feet that cuts downward into the mountain interior below. The wind carries any loose snow southward, further into the immense system of caves in that direction. Crystalline fronds of frostfern spread across the frozen ground, glittering.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86074,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86090,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86073": {
+          "vnum": 86073,
+          "name": "Atop a Sloping Shaft",
+          "description": "The shaft tops out in a large open chamber, replete with icy stalagmites. Peering up into the darkness above, you can glimpse the complementary stalactites dangling from the roof like giant, lethal icicles. Alas, the chamber is huge, and provides no respite from the endless attacks of the hydra hordes below. Deep blue mineral veins pulse faintly with color.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 86092,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "COBALT",
+              "rank": 60,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86074": {
+          "vnum": 86074,
+          "name": "Within the Ice Caves",
+          "description": "A biting wind blows in from the north and threatens to flay your flesh from the bones with its icy tendrils. Shielding your eyes from the onslaught, you peer northward, but can make out little in the darkness. You'll have to forge bravely ahead, or retreat southward with the wind.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86072,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 86077,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86075": {
+          "vnum": 86075,
+          "name": "Small Retreat",
+          "description": "The passage opens up into a small chamber filled with snow and ice. In the northern end of the chamber, beneath a layer of ice, a the glint of metal can be seen, perhaps the remnants of some prior exploration party. After a rest, your only apparent exit is back through the passage to the south to face the horrible hydras once more.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86078,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86076": {
+          "vnum": 86076,
+          "name": "Within the Ice Caves",
+          "description": "Below you, the fierce roar of an indoor blizzard drowns at all sound, save the occasional bellow of some massive beast. A series of massive footprints lead south, heading off into the darkness. Were you so inclined, you could follow them to see where they lead, or slide back down the shaft into the furious blizzard below.",
+          "grid_x": 3,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 86079,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Dead End",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86097,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Swirling Blizzard",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86077": {
+          "vnum": 86077,
+          "name": "Within the Ice Caves",
+          "description": "A fierce wind flows in from the north and sweeps a flurry of snow down a shaft at your feet. Glancing up at the vast caves all about you, you can't help but feel rather tiny in comparison. You could wander northward into the wind, further explore the vast cave system to the west, or slide down the shaft into the darkness below. Blackened coal seams stain the surrounding rock.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86074,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 86078,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86095,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86078": {
+          "vnum": 86078,
+          "name": "Within the Ice Caves",
+          "description": "Peering about, you find yourself at the western end of a large section of caves. Further to the west, the caves end in a towering natural wall of rock and ice. Nearby, a large shaft descends into the snowy darkness below, and to the north, a small passage looks to provide an ideal retreat from the ever- present hydras.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 86077,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 86075,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Small Retreat",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86094,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86079": {
+          "vnum": 86079,
+          "name": "Dead End",
+          "description": "Alas, your search of the massive complex of caves has led you to a dead end. You can't help but note with some cynicism that this is a somewhat appropriate scenario, as many previous explorers seem to have met their death at this very spot. Ancient corpses lie strewn about, their bones ravaged by the vicious hydras. Escape lies to the north.",
+          "grid_x": 3,
+          "grid_y": 5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86076,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Within the Ice Caves",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "86088": {
+          "vnum": 86088,
+          "name": "Cave Opening",
+          "description": "A blizzard of snow sweeps in on the wind from a large opening to the north, allowing cool, fresh air to enter the vast cave. After your arduous journey through the caves, such a sight is somewhat welcome. An icy slope allows travel downward, and the snow blown in from the north is swept in that direction.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 86071,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Barren Ledge",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 86080,
+              "to_zone": "Ice Caves",
+              "to_room_name": "Deep Within the Ice Caves",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 10
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 86071,
+      "to": 86088,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86072,
+      "to": 86074,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86074,
+      "to": 86077,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86075,
+      "to": 86078,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86076,
+      "to": 86079,
+      "direction": "s",
+      "from_grid": [
+        3,
+        4
+      ],
+      "to_grid": [
+        3,
+        5
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86077,
+      "to": 86078,
+      "direction": "w",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86080,
+      "to": 86081,
+      "direction": "w",
+      "from_grid": [
+        5,
+        -1
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86083,
+      "to": 86085,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86084,
+      "to": 86085,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86085,
+      "to": 86086,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86089,
+      "to": 86090,
+      "direction": "w",
+      "from_grid": [
+        5,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86091,
+      "to": 86092,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86092,
+      "to": 86097,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86093,
+      "to": 86095,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86094,
+      "to": 86095,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86095,
+      "to": 86097,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86096,
+      "to": 86097,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86097,
+      "to": 86098,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 86098,
+      "to": 86099,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

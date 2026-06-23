@@ -578,22 +578,22 @@
               "is_portal": false,
               "has_door": false
             },
-            "s": {
-              "to_vnum": 42006,
+            "n": {
+              "to_vnum": 42019,
               "to_zone": "Valley of Teralea",
-              "to_room_name": "Rocky Road",
-              "direction": "s",
+              "to_room_name": "Corn Fields",
+              "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
               "to_floor": 0,
               "is_portal": false,
               "has_door": false
             },
-            "n": {
-              "to_vnum": 42019,
+            "s": {
+              "to_vnum": 42006,
               "to_zone": "Valley of Teralea",
-              "to_room_name": "Corn Fields",
-              "direction": "n",
+              "to_room_name": "Rocky Road",
+              "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
               "to_floor": 0,
@@ -4423,23 +4423,6 @@
     },
     {
       "from": 42012,
-      "to": 42006,
-      "direction": "s",
-      "from_grid": [
-        1,
-        0
-      ],
-      "to_grid": [
-        1,
-        1
-      ],
-      "floor": 0,
-      "is_stair": false,
-      "has_door": false,
-      "is_one_way": true
-    },
-    {
-      "from": 42012,
       "to": 42019,
       "direction": "n",
       "from_grid": [
@@ -4454,6 +4437,23 @@
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
+    },
+    {
+      "from": 42012,
+      "to": 42006,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
     },
     {
       "from": 42013,

@@ -1,0 +1,674 @@
+{
+  "zone_name": "Barbarian Camp",
+  "entry_vnum": 34038,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -2,
+    "max_x": 1,
+    "min_y": -2,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 34038,
+      "rooms": {
+        "34018": {
+          "vnum": 34018,
+          "name": "Shaman`s Den",
+          "description": "The light seems weak in here, as if it were being consumed by the very atmosphere itself. You feel as if the darkness were seeping into your body through thousands of tiny splits in your skin. There is a smell of ozone and something less identifiable and MUCH less pleasant.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34035,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34019": {
+          "vnum": 34019,
+          "name": "King`s Tent",
+          "description": "The Barbarian King must truly be a warrior of great might. Many tokens of his prowess are hung about his tent to daunt and dismay those that come before him. The corpse of a horrible ice worm is strung across the roof and the claws of a fearsome white hydra are fastened to a tent pole.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34011,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Harem Tent",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34034,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "A Barbarian Camp",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34027": {
+          "vnum": 34027,
+          "name": "Armorer`s Tent",
+          "description": "The strong, earthy smell of leather and oil fill give this place a homey feel. Awls, needles and other tools sit on a square of leather which has been laid on the floor. Various pieces of armor which need repairing are scattered about.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 34035,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34028": {
+          "vnum": 34028,
+          "name": "Weaponsmith Tent",
+          "description": "This tent serves Hegol, the weaponsmith, as both sleeping quarters and work area. A pile of sleeping furs is laid right next to his forge so that its heat will keep him warm through the long, cold night. It's a portable forge so that it can be carried with the group when they move camp.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34035,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34034": {
+          "vnum": 34034,
+          "name": "A Barbarian Camp",
+          "description": "Scattered cook fires make the air hazy with their fragrant smoke. There are little clusters of tents to the east and to the west and a particularly large tent directly before you to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34006,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34019,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "King`s Tent",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34038,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Before a Small Encampment",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34035,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34035": {
+          "vnum": 34035,
+          "name": "Between the Tents",
+          "description": "The cook fire here has burned to ash. Tent mouths gape to the north, south and west. The camp center is visible to the east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 34034,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "A Barbarian Camp",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 34027,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Armorer`s Tent",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34028,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Weaponsmith Tent",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34018,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Shaman`s Den",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34006": {
+          "vnum": 34006,
+          "name": "Between the Tents",
+          "description": "An iron pot simmers in the coals of a cook fire. The camp butts into a mountain on this side so you can go no further east. There is a tent to the north and another to the south. The center of camp is back to the west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34012,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Warrior`s Tent",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34007,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Women`s Tent",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 34034,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "A Barbarian Camp",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34038": {
+          "vnum": 34038,
+          "name": "Before a Small Encampment",
+          "description": "The ground is level here though the ever-present ice requires that you move with caution. The vast panorama of the waste opens to your south and to the north is a cluster of tents.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34034,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "A Barbarian Camp",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 34026,
+              "to_zone": "Northern Tundras",
+              "to_room_name": "The Frozen Waste",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34007": {
+          "vnum": 34007,
+          "name": "Women`s Tent",
+          "description": "The women of this tent do not enjoy the finery offered to the harem of the King. There seems to be only one common pile of bedding for all the tent's dwellers. A single, broken toothed comb is hung carefully on a peg stuck in one of the tent posts.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 34006,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34011": {
+          "vnum": 34011,
+          "name": "Harem Tent",
+          "description": "Thick furs, sheer silks and the musky scent of women fill this tent. The tent walls are hung with bright silks of red and pink and a basin of warm and scented water is provided for the pleasure of the ladies who live here.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 34019,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "King`s Tent",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "34012": {
+          "vnum": 34012,
+          "name": "Warrior`s Tent",
+          "description": "This is the men's tent; no doubt about it. Malodorous furs and scraps of food are scattered about and there is a nauseating odor to the place. There is only a single exit to the south and you can't wait to get through it.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 34006,
+              "to_zone": "Barbarian Camp",
+              "to_room_name": "Between the Tents",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -2,
+        "max_x": 1,
+        "min_y": -2,
+        "max_y": 1,
+        "room_count": 11
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 34006,
+      "to": 34012,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34006,
+      "to": 34007,
+      "direction": "s",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34006,
+      "to": 34034,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34011,
+      "to": 34019,
+      "direction": "w",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34018,
+      "to": 34035,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34019,
+      "to": 34034,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34027,
+      "to": 34035,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34028,
+      "to": 34035,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34034,
+      "to": 34038,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 34034,
+      "to": 34035,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}
