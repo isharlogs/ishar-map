@@ -1,24 +1,159 @@
 {
   "zone_name": "Pirate Flagship",
   "entry_vnum": 81727,
-  "floor_count": 3,
+  "floor_count": 4,
   "bounds": {
-    "min_x": -2,
-    "max_x": 1,
-    "min_y": 0,
-    "max_y": 1
+    "min_x": -3,
+    "max_x": 3,
+    "min_y": -2,
+    "max_y": 17
   },
   "floors": {
+    "-3": {
+      "floor_id": -3,
+      "entry_vnum": 81606,
+      "rooms": {
+        "81606": {
+          "vnum": 81606,
+          "name": "The Cargo Hold",
+          "description": "Hundreds of barrels containing food, water, rum and other looted necessities for the long periods between ports are all packed together in a large, dark, damp room.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81613,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Holding Cells",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81613": {
+          "vnum": 81613,
+          "name": "The Holding Cells",
+          "description": "You stand in a dimly lit room just aft of the cargo hold. Fish bones and other less savory things litter the ground. To starboard is some kind of holding cell.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "fo": {
+              "to_vnum": 81606,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Cargo Hold",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81614,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Small Cell",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": true
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81614": {
+          "vnum": 81614,
+          "name": "A Small Cell",
+          "description": "You now stand in the very bowels of the ship, where they hold captured foes until there's nothing left of them but broken shells. Looking around, you see what drives them to insanity. As the ocean pushes in from the outside, small drops of salt water manage to leak through the wood, hitting the floor with an uneven; drip, drip. Because of this, the floor nearest the hull has begun to rot away, adding it's own purveying stench to the already uncomfortable room.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81613,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Holding Cells",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -3,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 1,
+        "max_x": 2,
+        "min_y": 0,
+        "max_y": 1,
+        "room_count": 3
+      }
+    },
     "-2": {
       "floor_id": -2,
-      "entry_vnum": null,
+      "entry_vnum": 81727,
       "rooms": {
         "81724": {
           "vnum": 81724,
           "name": "Before the Pirate Ship",
           "description": "You made it to the edge of the pirate ship alive. Looking back you can see the bare outline of a coast. Turning your attention back to the ship, you notice a rope ladder lowered down the barnacle encrusted side.",
-          "grid_x": 0,
-          "grid_y": 0,
+          "grid_x": -3,
+          "grid_y": 16,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -29,8 +164,8 @@
               "to_room_name": "The Open Sea",
               "direction": "e",
               "is_cross_zone": false,
-              "is_cross_floor": true,
-              "to_floor": -1,
+              "is_cross_floor": false,
+              "to_floor": -2,
               "is_portal": false,
               "has_door": false
             },
@@ -54,76 +189,13 @@
           "spinner": false,
           "death_trap": false,
           "portal": false
-        }
-      },
-      "warped_pockets": [],
-      "hidden_sections": [],
-      "chains": {},
-      "metadata": {
-        "min_x": 0,
-        "max_x": 0,
-        "min_y": 0,
-        "max_y": 0,
-        "room_count": 1
-      }
-    },
-    "-1": {
-      "floor_id": -1,
-      "entry_vnum": 81727,
-      "rooms": {
-        "81728": {
-          "vnum": 81728,
-          "name": "The Open Sea",
-          "description": "The distant ship does not appear to be coming any closer. Waves crash around you and the ocean surrounds you on all sides.",
-          "grid_x": 0,
-          "grid_y": 1,
-          "sub_x": 0,
-          "sub_y": 0,
-          "chain_id": 0,
-          "exits": {
-            "e": {
-              "to_vnum": 81727,
-              "to_zone": "Pirate Flagship",
-              "to_room_name": "The Open Sea",
-              "direction": "e",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": -1,
-              "is_portal": false,
-              "has_door": false
-            },
-            "w": {
-              "to_vnum": 81726,
-              "to_zone": "Pirate Flagship",
-              "to_room_name": "The Open Sea",
-              "direction": "w",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": -1,
-              "is_portal": false,
-              "has_door": false
-            }
-          },
-          "unwalked": [
-            25026,
-            25032
-          ],
-          "npcs": [],
-          "chests": [],
-          "nodes": [],
-          "staircase": null,
-          "stack": null,
-          "detached": false,
-          "spinner": false,
-          "death_trap": false,
-          "portal": false
         },
         "81725": {
           "vnum": 81725,
           "name": "The Open Sea",
           "description": "You are now close enough to the distant ship to be able to make out more detail. Your eyes are instantly drawn to the raised flag above the mast - the Jolly Roger. It's not too late to turn back now.",
           "grid_x": -2,
-          "grid_y": 0,
+          "grid_y": 16,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -135,7 +207,7 @@
               "direction": "se",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": -1,
+              "to_floor": -2,
               "is_portal": false,
               "has_door": false
             },
@@ -145,7 +217,7 @@
               "to_room_name": "Before the Pirate Ship",
               "direction": "w",
               "is_cross_zone": false,
-              "is_cross_floor": true,
+              "is_cross_floor": false,
               "to_floor": -2,
               "is_portal": false,
               "has_door": false
@@ -167,7 +239,7 @@
           "name": "The Open Sea",
           "description": "The distant ship is still little more than a brown blob on the horizon, but it is a welcome change in the scenery. Waves crash around you and the ocean surrounds you on every other side.",
           "grid_x": -1,
-          "grid_y": 1,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -179,7 +251,7 @@
               "direction": "e",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": -1,
+              "to_floor": -2,
               "is_portal": false,
               "has_door": false
             },
@@ -190,7 +262,7 @@
               "direction": "nw",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": -1,
+              "to_floor": -2,
               "is_portal": false,
               "has_door": false
             },
@@ -222,7 +294,7 @@
           "name": "The Open Sea",
           "description": "You are far from the sight of land. The endless expanse of water and the constant tossing of the waves make it impossible to move in a straight line. As you scan the surrounding waters, you see a small shape in the distant west.",
           "grid_x": 1,
-          "grid_y": 1,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -267,7 +339,448 @@
               "direction": "w",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": -1,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81728": {
+          "vnum": 81728,
+          "name": "The Open Sea",
+          "description": "The distant ship does not appear to be coming any closer. Waves crash around you and the ocean surrounds you on all sides.",
+          "grid_x": 0,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 81727,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 81726,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            25026,
+            25032
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81605": {
+          "vnum": 81605,
+          "name": "Below Deck",
+          "description": "Rows upon rows of bunks hang from the ceiling here, creaking gently as the winds drifts through the room. Above it all is a stench that comes from a few score men being at sea for months at a time.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81611,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Dim Hallway",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81609,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Galley",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "po": {
+              "to_vnum": 81618,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Dark Hallway",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81620,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Dark Hallway",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 81606,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Cargo Hold",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81604,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Beneath the Jolly Roger",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81609": {
+          "vnum": 81609,
+          "name": "The Galley",
+          "description": "There isn't a clean dish in sight or anything that looks even distinctly edible. This is clearly not where the officers eat. A few tables and empty barrels, for sitting, line the walls.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81616,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Kitchen",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81617,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Officer's Mess",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81611": {
+          "vnum": 81611,
+          "name": "A Dim Hallway",
+          "description": "The lanterns in this room are out and only vague light flickers in from the connected rooms causing uneasy shadows to dance along the walls.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "fo": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            81610
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81616": {
+          "vnum": 81616,
+          "name": "The Kitchen",
+          "description": "Everything here looks simply...delicious. Week old fish are hanging up to dry, the remains of something vaguely resembling a squid lays on the counter and a pot of gruel sits boiling over a fire.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81609,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Galley",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81617": {
+          "vnum": 81617,
+          "name": "Officer's Mess",
+          "description": "A clear step up from the sorry state of the regular galley, this room is for when the officers come to eat. Chairs and tables are set up around the room and there's a direct window to the kitchen complete with a calling bell.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81609,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Galley",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81618": {
+          "vnum": 81618,
+          "name": "A Dark Hallway",
+          "description": "Proceeding down this hallway, you notice that the only source of light comes from a single waning torch bracketed to the wall. Each step sends a shiver down your spine as the aged planks creak and groan.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81619,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Port Slave Galley",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81619": {
+          "vnum": 81619,
+          "name": "Port Slave Galley",
+          "description": "Bolted to the port wall of the ship are dozens of chains and an equal number of oars. The room is abustle with the rustle of iron, the straining of wood and the crack of a whip.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "sb": {
+              "to_vnum": 81618,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Dark Hallway",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81620": {
+          "vnum": 81620,
+          "name": "A Dark Hallway",
+          "description": "Proceeding down this hallway, you notice that the only source of light comes from a single waning torch bracketed to the wall. Each step sends a shiver down your spine as the aged planks creak and groan.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81621,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Starboard Slave Galley",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81621": {
+          "vnum": 81621,
+          "name": "Starboard Slave Galley",
+          "description": "Bolted to the starboard wall of the ship are dozens of chains and an equal number of oars. The room is abustle with the rustle of iron, the straining of wood and the crack of a whip.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81620,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "A Dark Hallway",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -2,
               "is_portal": false,
               "has_door": false
             }
@@ -288,27 +801,362 @@
       "hidden_sections": [],
       "chains": {},
       "metadata": {
-        "min_x": -2,
-        "max_x": 1,
-        "min_y": 0,
-        "max_y": 1,
-        "room_count": 4
+        "min_x": -3,
+        "max_x": 3,
+        "min_y": -2,
+        "max_y": 17,
+        "room_count": 14
       }
     },
-    "0": {
-      "floor_id": 0,
-      "entry_vnum": 81626,
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 81604,
       "rooms": {
-        "81626": {
-          "vnum": 81626,
-          "name": "Aft Starboard Side",
-          "description": "The hull curves port side as it approaches the stern. Looking over the railing, there is ocean for as far as the eye can see.",
+        "81603": {
+          "vnum": 81603,
+          "name": "Port Side",
+          "description": "Looking around you, you take in the whole pirate ship. Directly starboard is the mast, forward along the ship you see the helm on a slight rise and over the port side railing, the ocean stretches as far as you can see.",
           "grid_x": 0,
           "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
+            "af": {
+              "to_vnum": 81628,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Aft Port Side",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81622,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Forward Port Side",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81604,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Beneath the Jolly Roger",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81604": {
+          "vnum": 81604,
+          "name": "Beneath the Jolly Roger",
+          "description": "You are standing before a great oaken mast, bringing the mind the towering trees of the gnomish homeland. High above flies the Jolly Roger, waving ominously.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81603,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Port Side",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81625,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Starboard Side",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 81605,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Below Deck",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81630,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Climbing the Mast",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81622": {
+          "vnum": 81622,
+          "name": "Forward Port Side",
+          "description": "The hull as a slight curve to it as it approaches the bow. Looking over the railing, there is ocean for as far as the eye can see.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81603,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Port Side",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81623,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Bow",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81623": {
+          "vnum": 81623,
+          "name": "The Bow",
+          "description": "You now stand at the bow of the ship. Looking forward you are momentarily distracted by the beauty created by the light-dappled water. Returning to your surroundings, you notice the ships figurehead just below you and some stairs leading to a slightly raised platform behind you.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81622,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Forward Port Side",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81624,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Forward Starboard Side",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81629,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Helm",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81624": {
+          "vnum": 81624,
+          "name": "Forward Starboard Side",
+          "description": "The hull has a slight curve to it as it approaches the bow. Looking over the railing, there is ocean for as far as the eye can see.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81625,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Starboard Side",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81623,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Bow",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81625": {
+          "vnum": 81625,
+          "name": "Starboard Side",
+          "description": "To your left a great oaken mast raises from the deck of the ship like a massive tree. Looking over the railing, there is ocean for as far as the eye can see.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81626,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Aft Starboard Side",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81624,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Forward Starboard Side",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "po": {
+              "to_vnum": 81604,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Beneath the Jolly Roger",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81626": {
+          "vnum": 81626,
+          "name": "Aft Starboard Side",
+          "description": "The hull curves port side as it approaches the stern. Looking over the railing, there is ocean for as far as the eye can see.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81627,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Stern",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81625,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Starboard Side",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
             "go over": {
               "to_vnum": 81724,
               "to_zone": "Pirate Flagship",
@@ -319,10 +1167,7 @@
               "has_door": false
             }
           },
-          "unwalked": [
-            81625,
-            81627
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -332,6 +1177,134 @@
           "spinner": false,
           "death_trap": false,
           "portal": true
+        },
+        "81627": {
+          "vnum": 81627,
+          "name": "The Stern",
+          "description": "Taking a long look at the stern, you notice the masterful craftsmanship that went into the ship. Sweeping rails come in from the port and starboard sides, tapering off into a grand balcony overlooking the ocean. Who could of thought such beauty and majesty could take place on a pirate ship.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "po": {
+              "to_vnum": 81628,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Aft Port Side",
+              "direction": "po",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sb": {
+              "to_vnum": 81626,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Aft Starboard Side",
+              "direction": "sb",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81628": {
+          "vnum": 81628,
+          "name": "Aft Port Side",
+          "description": "The hull curves starboard side as it approaches the stern. Looking over the railing, you see the ocean far below.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "af": {
+              "to_vnum": 81627,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Stern",
+              "direction": "af",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "fo": {
+              "to_vnum": 81603,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Port Side",
+              "direction": "fo",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81631": {
+          "vnum": 81631,
+          "name": "Crow's Nest",
+          "description": "You stand near the top of the oaken mast, towering high above the ship. Looking to the west, you see the J'rel boat, other than that all around you are calm waters, if not for the chaos far below, it might actually be a relaxing sight. A little ways above you flies the Jolly Roger.",
+          "grid_x": 5,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 81630,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Climbing the Mast",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81632,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Before the Jolly Roger",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
         }
       },
       "warped_pockets": [],
@@ -339,27 +1312,502 @@
       "chains": {},
       "metadata": {
         "min_x": 0,
-        "max_x": 0,
-        "min_y": 0,
-        "max_y": 0,
-        "room_count": 1
+        "max_x": 2,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 10
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 81629,
+      "rooms": {
+        "81629": {
+          "vnum": 81629,
+          "name": "The Helm",
+          "description": "You stand on a slightly raised platform near the front of the ship. Situated in the center is the steering wheel.",
+          "grid_x": 2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 81623,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "The Bow",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81630": {
+          "vnum": 81630,
+          "name": "Climbing the Mast",
+          "description": "Looking down, you've noticed that you have climbed to dizzying heights. A fall from here would not be good. A little ways above you sits the crow's nest and salvation.",
+          "grid_x": 5,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 81604,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Beneath the Jolly Roger",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 81631,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Crow's Nest",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "81632": {
+          "vnum": 81632,
+          "name": "Before the Jolly Roger",
+          "description": "Before you, flapping in the wind, is the very emblem of pirates everywhere. It is attached to the mast through a series of ropes which look to have begun fraying.",
+          "grid_x": 5,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 81631,
+              "to_zone": "Pirate Flagship",
+              "to_room_name": "Crow's Nest",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 2,
+        "max_x": 2,
+        "min_y": -2,
+        "max_y": -2,
+        "room_count": 3
       }
     }
   },
   "edges": [
+    {
+      "from": 81603,
+      "to": 81628,
+      "direction": "af",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81603,
+      "to": 81622,
+      "direction": "fo",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81603,
+      "to": 81604,
+      "direction": "sb",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81604,
+      "to": 81625,
+      "direction": "sb",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81605,
+      "to": 81611,
+      "direction": "af",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81605,
+      "to": 81609,
+      "direction": "fo",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81605,
+      "to": 81618,
+      "direction": "po",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81605,
+      "to": 81620,
+      "direction": "sb",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81606,
+      "to": 81613,
+      "direction": "af",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81609,
+      "to": 81616,
+      "direction": "fo",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81609,
+      "to": 81617,
+      "direction": "sb",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81613,
+      "to": 81614,
+      "direction": "sb",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": -3,
+      "is_stair": false,
+      "has_door": true,
+      "is_one_way": false
+    },
+    {
+      "from": 81618,
+      "to": 81619,
+      "direction": "po",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81620,
+      "to": 81621,
+      "direction": "sb",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81622,
+      "to": 81623,
+      "direction": "fo",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 81623,
+      "to": 81624,
+      "direction": "sb",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 81624,
+      "to": 81625,
+      "direction": "af",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81625,
+      "to": 81626,
+      "direction": "af",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 81626,
+      "to": 81627,
+      "direction": "af",
+      "from_grid": [
+        2,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 81627,
+      "to": 81628,
+      "direction": "po",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 81724,
+      "to": 81725,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        16
+      ],
+      "to_grid": [
+        -2,
+        16
+      ],
+      "floor": -2,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
     {
       "from": 81725,
       "to": 81726,
       "direction": "se",
       "from_grid": [
         -2,
-        0
+        16
       ],
       "to_grid": [
         -1,
-        1
+        17
       ],
-      "floor": -1,
+      "floor": -2,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -370,13 +1818,13 @@
       "direction": "e",
       "from_grid": [
         -1,
-        1
+        17
       ],
       "to_grid": [
         0,
-        1
+        17
       ],
-      "floor": -1,
+      "floor": -2,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -387,13 +1835,13 @@
       "direction": "w",
       "from_grid": [
         1,
-        1
+        17
       ],
       "to_grid": [
         0,
-        1
+        17
       ],
-      "floor": -1,
+      "floor": -2,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
