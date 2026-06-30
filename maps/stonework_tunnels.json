@@ -1038,28 +1038,6 @@
               "is_portal": false,
               "has_door": false
             },
-            "s": {
-              "to_vnum": 61049,
-              "to_zone": "Within the Mists",
-              "to_room_name": "Hollowing Mists",
-              "direction": "s",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
-            "w": {
-              "to_vnum": 25215,
-              "to_zone": "Gnoll Encampment",
-              "to_room_name": "Inside the Makeshift Tent",
-              "direction": "w",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
             "u": {
               "to_vnum": 47329,
               "to_zone": "Stonework Tunnels",

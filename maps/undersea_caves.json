@@ -1,24 +1,24 @@
 {
   "zone_name": "Undersea Caves",
   "entry_vnum": 25046,
-  "floor_count": 1,
+  "floor_count": 2,
   "bounds": {
-    "min_x": 0,
-    "max_x": 0,
-    "min_y": -2,
+    "min_x": -2,
+    "max_x": 5,
+    "min_y": -8,
     "max_y": 4
   },
   "floors": {
-    "0": {
-      "floor_id": 0,
+    "-1": {
+      "floor_id": -1,
       "entry_vnum": 25046,
       "rooms": {
         "25046": {
           "vnum": 25046,
           "name": "Western Channel",
           "description": "This wide channel allows ships to pass between the cliff to the south and the low-lying reef you can see to the north. In the distance to the east you can discern the mouth of a small bay. A dark opening gapes at you from the cliff face.",
-          "grid_x": 0,
-          "grid_y": 0,
+          "grid_x": 3,
+          "grid_y": -6,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -41,7 +41,7 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -52,7 +52,7 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -83,8 +83,8 @@
           "vnum": 25047,
           "name": "The Reef",
           "description": "Some parts of the reef project above the surface of the water, but for the most part, the face of it lays just under the surface. It would definitely tear the bottom out of any ship unwary enough to run aground here. Fortunately, you don't sit too low in the water and can float right over.",
-          "grid_x": 0,
-          "grid_y": -1,
+          "grid_x": 3,
+          "grid_y": -7,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -107,7 +107,7 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -118,7 +118,7 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -149,8 +149,8 @@
           "vnum": 25048,
           "name": "The Reef",
           "description": "A brilliant menagerie of sea life makes its home here in the reef. Starfish cling to its surface like ornaments pasted there by a happy child. Most of the reef lays slightly beneath the surface and you pass over it without difficulty. A large, ocean-going vessel would certainly meet its doom here though; its underside smashed and torn by the sharp rock.",
-          "grid_x": 0,
-          "grid_y": -2,
+          "grid_x": 3,
+          "grid_y": -8,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -184,7 +184,7 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -215,8 +215,8 @@
           "vnum": 25049,
           "name": "The Cavern",
           "description": "Swells lap at the rocky ground as it slopes up out of the ocean and climbs to the south. The cavern seems alive with rustles and whispers as the ever- present sound of water in motion is echoed back from a thousand sources.",
-          "grid_x": 0,
-          "grid_y": 1,
+          "grid_x": 3,
+          "grid_y": -5,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -228,7 +228,7 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -239,7 +239,7 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             }
@@ -259,8 +259,8 @@
           "vnum": 25050,
           "name": "Wide Tunnel",
           "description": "The clammy air seems heavy in your lungs as you move along this wide rock tunnel. Wafts of fresh sea air swirl in from the north where a large cavern beckons. The tunnel narrows as it climbs further to the south.",
-          "grid_x": 0,
-          "grid_y": 2,
+          "grid_x": 3,
+          "grid_y": -4,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -272,7 +272,7 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -283,7 +283,7 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             }
@@ -303,12 +303,23 @@
           "vnum": 25051,
           "name": "The Passage",
           "description": "The soft shuffling of your feet is the only sound in this silent, rocky passage. The passage extends out of sight to the north but seems to terminate nearby to the south. A dark opening to the east silently watches your progress and invites you to enter.",
-          "grid_x": 0,
-          "grid_y": 3,
+          "grid_x": 3,
+          "grid_y": -3,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
+            "e": {
+              "to_vnum": 25053,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
             "n": {
               "to_vnum": 25050,
               "to_zone": "Undersea Caves",
@@ -316,7 +327,7 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             },
@@ -327,14 +338,12 @@
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             }
           },
-          "unwalked": [
-            25053
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -349,8 +358,8 @@
           "vnum": 25052,
           "name": "Base of the Shaft",
           "description": "You stand at the foot of a vertical shaft which climbs straight up into darkness. What are unmistakably hand and footholds have been carved into the side of the shaft as an aid to climbers.",
-          "grid_x": 0,
-          "grid_y": 4,
+          "grid_x": 3,
+          "grid_y": -2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -362,17 +371,1249 @@
               "direction": "n",
               "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 25060,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Top of the Shaft",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25053": {
+          "vnum": 25053,
+          "name": "The Cave",
+          "description": "You stand at the north end of a cave that extends into darkness to the south. The cave is large enough for comfortable travel but the floor is uneven and littered with chunks of stone. A narrow opening gapes on darkness to the west.",
+          "grid_x": 4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25054,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25051,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Passage",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
               "is_portal": false,
               "has_door": false
             }
           },
-          "unwalked": [
-            25060
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25054": {
+          "vnum": 25054,
+          "name": "The Cave",
+          "description": "Irregularly located shards of jagged stone reach for you from the walls, forcing you to watch your step and stick to the center of the cave. The quiet lapping of water can be heard from the south.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25053,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25055,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25055": {
+          "vnum": 25055,
+          "name": "The Cave",
+          "description": "You stand at the edge of a large pool which occupies the cave's southern end. The quiescence of the pool's surface is occasionally broken by slow, undulating ripples. The cave continues to the north.",
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25054,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 25056,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Submerged Passage",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25056": {
+          "vnum": 25056,
+          "name": "Submerged Passage",
+          "description": "The water is cool though not unpleasantly so, and it is clear enough that you can see your surroundings quite clearly. Pools of darkness to the south and above your head indicate openings in those directions.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25057,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Submerged Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 25055,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Cave",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25057": {
+          "vnum": 25057,
+          "name": "Submerged Passage",
+          "description": "Schools of tiny fish dart away at your approach. The water becomes slightly murky as your alien passage disturbs sediment accumulated over ages. The passage continues into inky blackness to the north and south.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25056,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Submerged Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25058,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Crab`s Lair",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25058": {
+          "vnum": 25058,
+          "name": "Crab`s Lair",
+          "description": "The water is suddenly aswirl with bric-a-brac as your passage sets it in motion. Looking closer, you recognize fragments of large shells, fish skeletons and the claw of a lobster. Something is a very messy eater...",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25059,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Watery Vault",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25057,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Submerged Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25063,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Barnacle Patch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25059": {
+          "vnum": 25059,
+          "name": "Watery Vault",
+          "description": "Though all the surrounding tunnels are natural formations, this vault was obviously built by someone for a purpose. The identity of the builders may remain a mystery, but their intentions are clear. The heavy construction and disguised entrance imply that security was the goal.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 25058,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Crab`s Lair",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25063": {
+          "vnum": 25063,
+          "name": "Barnacle Patch",
+          "description": "You have come to a tunnel whose walls, ceiling and floor are encrusted with barnacles. The bodies of the disgusting little creatures pulsate with the rhythmic tempo of their breathing. The tunnel continues to the east and west.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25058,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Crab`s Lair",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25064,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Barnacle Patch",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25064": {
+          "vnum": 25064,
+          "name": "Barnacle Patch",
+          "description": "You have come to a tunnel whose walls, ceiling and floor are encrusted with barnacles. The bodies of the disgusting little creatures pulsate with the rhythmic tempo of their breathing. The tunnel continues to the east and west. Another chamber is to the north.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25063,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Barnacle Patch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25066,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Bone Soup",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25065,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Mired in Seaweed",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25065": {
+          "vnum": 25065,
+          "name": "Mired in Seaweed",
+          "description": "The walls here glow with a pale green light. The light is evidently sufficient to nurture plant life for this area is practically choked by thick, ropy strands of seaweed. It is only with considerable effort that you force your way through.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25064,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Barnacle Patch",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25067,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Eel`s Nest",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25066": {
+          "vnum": 25066,
+          "name": "Bone Soup",
+          "description": "This rock chamber is roughly bowl shaped and its bottom is littered with thousands of bones. Large ones, small ones, all shapes and sizes. The one thing they have in common is they all look a little chewed...",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25064,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Barnacle Patch",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25067,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Eel`s Nest",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25067": {
+          "vnum": 25067,
+          "name": "Eel`s Nest",
+          "description": "The floor of the tunnel is flat and sandy. The water feels somehow charged with excitement and your skin tingles slightly.",
+          "grid_x": 1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25066,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Bone Soup",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25065,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Mired in Seaweed",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25068,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Sandy Passage",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25068": {
+          "vnum": 25068,
+          "name": "Sandy Passage",
+          "description": "The sandy floor of this broad tunnel heads away from you to the north and south, losing itself in the gloom. There is an opening in the rock wall to your east.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25067,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Eel`s Nest",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25069,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Sandy Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25077,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Murky Bend",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25069": {
+          "vnum": 25069,
+          "name": "Sandy Passage",
+          "description": "The sandy floor of this broad tunnel heads away from you to the north and south, losing itself in the gloom.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25071,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto Entrance",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25068,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Sandy Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25070": {
+          "vnum": 25070,
+          "name": "Grotto",
+          "description": "You are in the southeast corner of a vast, underwater grotto. Delicate coral arches and spires reach from the floor into the gloom above. Broad arches allow passage to the north and west.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25075,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25071,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto Entrance",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "WATERCRESS",
+              "rank": 28,
+              "count": 1
+            }
+          ],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25071": {
+          "vnum": 25071,
+          "name": "Grotto Entrance",
+          "description": "You stand at the entrance to a vast chamber. Visibility is good and still you cannot see the chamber walls in any direction. Delicate, coral arches and spires reach from the floor into the gloom above.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25070,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25074,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25069,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Sandy Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25072,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25072": {
+          "vnum": 25072,
+          "name": "Grotto",
+          "description": "You are in the southwest corner of a vast, underwater grotto. Delicate coral arches and spires reach from the floor into the gloom above. Broad arches allow passage to the north and east.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25071,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto Entrance",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25073,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25073": {
+          "vnum": 25073,
+          "name": "Grotto",
+          "description": "You are in the northwest corner of a vast, underwater grotto. Delicate coral arches and spires reach from the floor into the gloom above. Broad arches allow passage to the south and east.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25074,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25072,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25074": {
+          "vnum": 25074,
+          "name": "Grotto",
+          "description": "You are at the north end of a vast, underwater grotto. Delicate coral arches and spires reach from the floor into the gloom above. Broad arches allow passage to the south, east and west. The entrance to another chamber is to the north.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25075,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25076,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Nursery",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25071,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto Entrance",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25073,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25075": {
+          "vnum": 25075,
+          "name": "Grotto",
+          "description": "You are in the northeast corner of a vast, underwater grotto. Delicate coral arches and spires reach from the floor into the gloom above. Broad arches allow passage to the south and west.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25070,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25074,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25076": {
+          "vnum": 25076,
+          "name": "Nursery",
+          "description": "Bright gold starfish and colorful pieces of coral are stuck to the walls of this small chamber. The water is somewhat murky from the sediment stirred by the quick passage of small bodies.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25074,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Grotto",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25077": {
+          "vnum": 25077,
+          "name": "Murky Bend",
+          "description": "The floor is thick with fine silt which turns the water opaque as you pass through. There seems to be a faint glow, a lesser darkness, to the west. A dark space yawns to the north.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25068,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Sandy Passage",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25078,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Coral Garden",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25078": {
+          "vnum": 25078,
+          "name": "Coral Garden",
+          "description": "A diffuse, pearly radiance filters from above to bathe the area in soft green light. Delicate looking growths of coral bask in the light and seem to add their own essence to it. This is a local phenomenon though and you can see dark spaces yawning to the south, east and west.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25077,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Murky Bend",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25081,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Dancing Waters",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25079,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Pink Sands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25079": {
+          "vnum": 25079,
+          "name": "Pink Sands",
+          "description": "The sand doesn't look pink until you get very close, but once you get close enough, it gleams with colors ranging from deep red to a pink so pale it is almost white.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25078,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Coral Garden",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25080,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Watery Boudoir",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25080": {
+          "vnum": 25080,
+          "name": "Watery Boudoir",
+          "description": "A flat stone against the east wall serves as a low table. Currently it is occupied by a silver comb and brush, both of which are badly tarnished. A jagged piece of broken mirror has been affixed to the wall and a brass belt buckle has been hung beside it as if for lack of a better place.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25079,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Pink Sands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Beautiful mermaid",
+              "description": "Golden hair frames a finely chiseled face of elfin beauty.  She has a very charming way about her, even though she looks a little like a fish.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25081": {
+          "vnum": 25081,
+          "name": "Dancing Waters",
+          "description": "The water here is a pure, crystal blue; the essence of water. On every side, small whirlpools twist and caper with joyous abandon, orbiting you as if to draw you into their merry revelry. The area is suffused with an undertone of fearsome, but benevolent, power. A pale metallic shimmer catches the light.",
+          "grid_x": -1,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25078,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Coral Garden",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 25082,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "The Pool",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [
+            {
+              "category": "ores",
+              "name": "SILVER",
+              "rank": 25,
+              "count": 1
+            }
+          ],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -385,11 +1626,221 @@
       "hidden_sections": [],
       "chains": {},
       "metadata": {
+        "min_x": -2,
+        "max_x": 5,
+        "min_y": -8,
+        "max_y": 4,
+        "room_count": 33
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25082,
+      "rooms": {
+        "25060": {
+          "vnum": 25060,
+          "name": "Top of the Shaft",
+          "description": "You are standing on a ledge on the brink of a rough, circular shaft that drops into darkness. Hand and foot holds have been cut from the rock to make the climb easier. A mouldering, wooden panel is affixed to the north wall by rusted iron hinges.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25061,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Tomb",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 25052,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Base of the Shaft",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25061": {
+          "vnum": 25061,
+          "name": "Tomb",
+          "description": "This small, blank and rough walled chamber smells of old death. Two skeletons lay sprawled on the floor and a third is stretched out on a rough wooden cot. Various personal effects are scattered about, the door you came through is to the south.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25062,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Treasure Chamber",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25060,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Top of the Shaft",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25062": {
+          "vnum": 25062,
+          "name": "Treasure Chamber",
+          "description": "From the tool marks on the walls, it is apparent that this tiny chamber was painstakingly carved from the living rock. There is just enough room for one person to squeeze in.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25061,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Tomb",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25082": {
+          "vnum": 25082,
+          "name": "The Pool",
+          "description": "You stand in a circular room with a clear, blue pool in its center. The surface of the pool is alive with small whirlpools spinning merrily. There are doorways in each of the cardinal directions, a particularly large one to the north.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 25085,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Alchemy Lab",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 25086,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Chamber of Tears",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25084,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Scryery",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 25083,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Cookery",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 25081,
+              "to_zone": "Undersea Caves",
+              "to_room_name": "Dancing Waters",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
         "min_x": 0,
         "max_x": 0,
-        "min_y": -2,
-        "max_y": 4,
-        "room_count": 7
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
       }
     }
   },
@@ -399,14 +1850,14 @@
       "to": 25047,
       "direction": "n",
       "from_grid": [
-        0,
-        0
+        3,
+        -6
       ],
       "to_grid": [
-        0,
-        -1
+        3,
+        -7
       ],
-      "floor": 0,
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -416,14 +1867,14 @@
       "to": 25049,
       "direction": "s",
       "from_grid": [
-        0,
-        0
+        3,
+        -6
       ],
       "to_grid": [
-        0,
-        1
+        3,
+        -5
       ],
-      "floor": 0,
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -433,14 +1884,14 @@
       "to": 25048,
       "direction": "n",
       "from_grid": [
-        0,
-        -1
+        3,
+        -7
       ],
       "to_grid": [
-        0,
-        -2
+        3,
+        -8
       ],
-      "floor": 0,
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -450,14 +1901,14 @@
       "to": 25050,
       "direction": "s",
       "from_grid": [
-        0,
-        1
+        3,
+        -5
       ],
       "to_grid": [
-        0,
-        2
+        3,
+        -4
       ],
-      "floor": 0,
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -467,14 +1918,31 @@
       "to": 25051,
       "direction": "s",
       "from_grid": [
-        0,
-        2
+        3,
+        -4
       ],
       "to_grid": [
-        0,
-        3
+        3,
+        -3
       ],
-      "floor": 0,
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25051,
+      "to": 25053,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -3
+      ],
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false
@@ -484,14 +1952,507 @@
       "to": 25052,
       "direction": "s",
       "from_grid": [
+        3,
+        -3
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25053,
+      "to": 25054,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -3
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25054,
+      "to": 25055,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25056,
+      "to": 25057,
+      "direction": "s",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25057,
+      "to": 25058,
+      "direction": "s",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25058,
+      "to": 25059,
+      "direction": "e",
+      "from_grid": [
+        4,
+        3
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25058,
+      "to": 25063,
+      "direction": "w",
+      "from_grid": [
+        4,
+        3
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25060,
+      "to": 25061,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25061,
+      "to": 25062,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25063,
+      "to": 25064,
+      "direction": "w",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25064,
+      "to": 25066,
+      "direction": "n",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25064,
+      "to": 25065,
+      "direction": "w",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25065,
+      "to": 25067,
+      "direction": "n",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25066,
+      "to": 25067,
+      "direction": "w",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        1,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25067,
+      "to": 25068,
+      "direction": "w",
+      "from_grid": [
+        1,
+        2
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25068,
+      "to": 25069,
+      "direction": "n",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25068,
+      "to": 25077,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25069,
+      "to": 25071,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25070,
+      "to": 25075,
+      "direction": "n",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25070,
+      "to": 25071,
+      "direction": "w",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25071,
+      "to": 25074,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25071,
+      "to": 25072,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25072,
+      "to": 25073,
+      "direction": "n",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25073,
+      "to": 25074,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25074,
+      "to": 25075,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25074,
+      "to": 25076,
+      "direction": "n",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25077,
+      "to": 25078,
+      "direction": "w",
+      "from_grid": [
         0,
         3
       ],
       "to_grid": [
-        0,
+        -1,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25078,
+      "to": 25081,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        -1,
         4
       ],
-      "floor": 0,
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25078,
+      "to": 25079,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        -2,
+        3
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25079,
+      "to": 25080,
+      "direction": "n",
+      "from_grid": [
+        -2,
+        3
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": -1,
       "is_stair": false,
       "has_door": false,
       "is_one_way": false

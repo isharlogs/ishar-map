@@ -56,11 +56,11 @@
               "is_portal": false,
               "has_door": false
             },
-            "go into": {
+            "go fountain": {
               "to_vnum": 55064,
               "to_zone": "Mareldjan Park - City of Mareldja",
               "to_room_name": "Fountain",
-              "direction": "go into",
+              "direction": "go fountain",
               "is_cross_zone": false,
               "is_portal": true,
               "has_door": false

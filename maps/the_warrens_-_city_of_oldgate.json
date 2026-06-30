@@ -569,7 +569,7 @@
           "name": "On the Drainpipe",
           "description": "You have a close-up view of a cast iron pipe.",
           "grid_x": 7,
-          "grid_y": 3,
+          "grid_y": 1,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -708,7 +708,7 @@
           "name": "On the Drainpipe",
           "description": "Your clothes are just going to get COVERED in rust stains.",
           "grid_x": 7,
-          "grid_y": 5,
+          "grid_y": 3,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -822,7 +822,7 @@
           "name": "On the Drainpipe",
           "description": "The handholds make traversing this section of pipe fairly easy.",
           "grid_x": 7,
-          "grid_y": 7,
+          "grid_y": 5,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1337,22 +1337,11 @@
           "name": "Clutching the Overhang",
           "description": "You hang by your fingertips as you try to work your way around a projecting cornice.",
           "grid_x": 7,
-          "grid_y": 9,
+          "grid_y": 7,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "d": {
-              "to_vnum": 22060,
-              "to_zone": "City of Oldgate",
-              "to_room_name": "Dead End in Crook Street",
-              "direction": "d",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
             "crashing to earth": {
               "to_vnum": 22060,
               "to_zone": "City of Oldgate",
@@ -1496,7 +1485,7 @@
           "name": "The Gang Hideout",
           "description": "You are in the bottom of a large wooden tower that once held rainwater. It now contains cushions and a low table, and the air is heavy with the grey- white swirling of pipeweed smoke. A ladder leads upward.",
           "grid_x": 7,
-          "grid_y": 11,
+          "grid_y": 9,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1536,7 +1525,7 @@
           "name": "The Crib",
           "description": "This room holds several mats. It smells of sweat and bile, alcohol and candle wax. Huge dust-balls, half-made of shed human hair, lurk in the corners.",
           "grid_x": 7,
-          "grid_y": 13,
+          "grid_y": 11,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1574,7 +1563,7 @@
           "name": "The Green Hotel",
           "description": "This dive gives you more for your money. Fleas. There is a small sign posted on the front counter.",
           "grid_x": 7,
-          "grid_y": 15,
+          "grid_y": 13,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1609,7 +1598,7 @@
           "name": "Low Tunnel",
           "description": "This tunnel bends from west to south. There is a narrow wooden door to the east. The tunnel is very humid, and the thick supporting beams are covered in a thin mildew.",
           "grid_x": 0,
-          "grid_y": 33,
+          "grid_y": 48,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1653,7 +1642,7 @@
           "name": "The Cleared Alcove",
           "description": "This space is cleared away, unlike the rest of the cellar. The walls are paneled to keep out the dirt.",
           "grid_x": 1,
-          "grid_y": 33,
+          "grid_y": 48,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1697,7 +1686,7 @@
           "name": "The Fruit Cellar",
           "description": "This place is stuffed with crates of fruits and vegetables. A low alcove is relatively clear of space to the west.",
           "grid_x": 2,
-          "grid_y": 33,
+          "grid_y": 48,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1741,7 +1730,7 @@
           "name": "Narrow Tunnel",
           "description": "This tunnel narrows sharply and a wooden stair leads up to the south.",
           "grid_x": 0,
-          "grid_y": 34,
+          "grid_y": 49,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1783,7 +1772,7 @@
           "name": "A Wooden Stair",
           "description": "The stair groans under your feet. It's old rotting planks have been replaced here and there.",
           "grid_x": 0,
-          "grid_y": 32,
+          "grid_y": 47,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1825,7 +1814,7 @@
           "name": "The Warehouse",
           "description": "This is a huge, dimly lit room. It is packed with crates, barrels, and boxes. Light filters in through dancing dust, and you get the feeling that there is always some sort of unsavory activity taking place here. You can see windows looking out into the street.",
           "grid_x": -1,
-          "grid_y": 32,
+          "grid_y": 47,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1869,7 +1858,7 @@
           "name": "The Office",
           "description": "This dingy room serves as an office for an import-export company. A door leads west, and a tattered curtain covers a doorway to the north.",
           "grid_x": -1,
-          "grid_y": 33,
+          "grid_y": 48,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1913,7 +1902,7 @@
           "name": "Oldgate Exchequer",
           "description": "The smell of coins washes over you as you step off of Temple Street into this unpretentious brick building. The room is rather small and uncluttered; the only noteworthy feature is a wooden desk in the middle of the room, scattered with obsidian coins.",
           "grid_x": 7,
-          "grid_y": 17,
+          "grid_y": 15,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1946,7 +1935,7 @@
           "name": "Dump of Oldgate",
           "description": "Piles upon piles of unidentifiable junk cover the entire the surface of this room. Everywhere you attempt to step, you are face to face with what seems a mountain of burnt garbage. The only direction you can move in this place appears to be to the east.",
           "grid_x": 7,
-          "grid_y": 19,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -1979,7 +1968,7 @@
           "name": "The Nook",
           "description": "This small hovel barely provides enough room to move about. A smattering of old texts lies strewn about the floor, most of them bound in the darkest of ancient leathers. If you tried hard enough, you could find just enough room to sit and study some new incantation.",
           "grid_x": 7,
-          "grid_y": 21,
+          "grid_y": 19,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2045,7 +2034,7 @@
           "name": "Entrance Room",
           "description": "This dingy little room has exits to the north, south, east, and west. It seems to serve mainly as a repository for filth.",
           "grid_x": 0,
-          "grid_y": 18,
+          "grid_y": 33,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2111,7 +2100,7 @@
           "name": "Kennels",
           "description": "This room is well-maintained. It has lots of rushes cast about on the floor, and there are clear bowls of water lying about for the dogs to drink from.",
           "grid_x": -1,
-          "grid_y": 18,
+          "grid_y": 33,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2144,7 +2133,7 @@
           "name": "Cafeteria",
           "description": "Okay, so they serve doughnuts. Don't make a big deal about it. They have lots of other stuff, too. Like coffee. Just shut up and order something, or get out.",
           "grid_x": 1,
-          "grid_y": 18,
+          "grid_y": 33,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2177,7 +2166,7 @@
           "name": "Booking Room",
           "description": "This is where the mage identifies you for trial, and they take all of your stuff and pretend like they are going to give it back to you.",
           "grid_x": 0,
-          "grid_y": 17,
+          "grid_y": 32,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2239,7 +2228,7 @@
           "name": "Drunk Tank",
           "description": "Such a SMELL! Oy vay! This place reeks of every bodily excretion that your mind can conceive. This looks like a regular stopping place for every drunk, two-bit thief, and prostitute in the entire city. Actually, it reminds you a lot of your last New Year's Eve party.",
           "grid_x": 1,
-          "grid_y": 17,
+          "grid_y": 32,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2271,8 +2260,8 @@
           "vnum": 23021,
           "name": "The Brown River",
           "description": "Watersnakes slither past as you travel down a polluted section of the river. Casting a glance southward the source of the contamination becomes clear; several sewage ditches from the city of Oldgate empty out into this river.",
-          "grid_x": 1,
-          "grid_y": 49,
+          "grid_x": 3,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2315,8 +2304,8 @@
           "vnum": 23022,
           "name": "The Brown River",
           "description": "The river current flows slowly westward near the city of Oldgate. Ahead the auldbridge crosses the river and allows passage into the city. Further east the river rises slightly at the edge of a dark forest.",
-          "grid_x": 0,
-          "grid_y": 49,
+          "grid_x": 2,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2370,8 +2359,8 @@
           "vnum": 23023,
           "name": "Beneath Auldbridge",
           "description": "You pass under a low bridge at the entrance of Oldgate. A plethora of disgusting little creatures have determined this as their place of permanent residence, and scowl at your intrusion. The river travels west and east.",
-          "grid_x": -1,
-          "grid_y": 49,
+          "grid_x": 1,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2414,8 +2403,8 @@
           "vnum": 23024,
           "name": "The Brown River",
           "description": "Bits of sewage and ... what may or may not be pieces of bodies, float by at this narrow passage along the brown river. Westward a small quay can be seen, and to the east rises Auldbridge.",
-          "grid_x": -2,
-          "grid_y": 49,
+          "grid_x": 0,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -2430,11 +2419,20 @@
               "to_floor": 0,
               "is_portal": false,
               "has_door": false
+            },
+            "w": {
+              "to_vnum": 23025,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
             }
           },
-          "unwalked": [
-            23025
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -2449,12 +2447,23 @@
           "vnum": 23025,
           "name": "The Brown River",
           "description": "To the south you see a quay made of granite. It rises to meet the busy streets of Poortown. The heavily polluted waterway crawls westward. To the east it passes under a wide bridge.",
-          "grid_x": 7,
-          "grid_y": 1,
+          "grid_x": -1,
+          "grid_y": 17,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
+            "e": {
+              "to_vnum": 23024,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
             "s": {
               "to_vnum": 22034,
               "to_zone": "City of Oldgate",
@@ -2465,18 +2474,70 @@
               "to_floor": null,
               "is_portal": false,
               "has_door": false
+            },
+            "w": {
+              "to_vnum": 23026,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
             }
           },
-          "unwalked": [
-            23024,
-            23026
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
           "staircase": null,
           "stack": null,
-          "detached": true,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "23026": {
+          "vnum": 23026,
+          "name": "The Brown River",
+          "description": "The river slowly flows away from the town of Oldgate. As it distances itself, the water begins to clear a bit, yet remains quite murky.",
+          "grid_x": -2,
+          "grid_y": 17,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 23025,
+              "to_zone": "The Warrens - City of Oldgate",
+              "to_room_name": "The Brown River",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 24063,
+              "to_zone": "River Bruenor",
+              "to_room_name": "River Bend",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
           "spinner": false,
           "death_trap": false,
           "portal": false
@@ -2613,7 +2674,7 @@
         "max_x": 4,
         "min_y": -1,
         "max_y": 65,
-        "room_count": 45
+        "room_count": 46
       }
     },
     "1": {
@@ -2814,11 +2875,11 @@
       "direction": "e",
       "from_grid": [
         0,
-        18
+        33
       ],
       "to_grid": [
         1,
-        18
+        33
       ],
       "floor": 0,
       "is_stair": false,
@@ -2831,11 +2892,11 @@
       "direction": "n",
       "from_grid": [
         0,
-        18
+        33
       ],
       "to_grid": [
         0,
-        17
+        32
       ],
       "floor": 0,
       "is_stair": false,
@@ -2848,11 +2909,11 @@
       "direction": "w",
       "from_grid": [
         0,
-        18
+        33
       ],
       "to_grid": [
         -1,
-        18
+        33
       ],
       "floor": 0,
       "is_stair": false,
@@ -2865,11 +2926,11 @@
       "direction": "e",
       "from_grid": [
         0,
-        17
+        32
       ],
       "to_grid": [
         1,
-        17
+        32
       ],
       "floor": 0,
       "is_stair": false,
@@ -3102,12 +3163,12 @@
       "to": 23022,
       "direction": "w",
       "from_grid": [
-        1,
-        49
+        3,
+        17
       ],
       "to_grid": [
-        0,
-        49
+        2,
+        17
       ],
       "floor": 0,
       "is_stair": false,
@@ -3119,12 +3180,12 @@
       "to": 23023,
       "direction": "w",
       "from_grid": [
-        0,
-        49
+        2,
+        17
       ],
       "to_grid": [
-        -1,
-        49
+        1,
+        17
       ],
       "floor": 0,
       "is_stair": false,
@@ -3136,12 +3197,46 @@
       "to": 23024,
       "direction": "w",
       "from_grid": [
+        1,
+        17
+      ],
+      "to_grid": [
+        0,
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23024,
+      "to": 23025,
+      "direction": "w",
+      "from_grid": [
+        0,
+        17
+      ],
+      "to_grid": [
         -1,
-        49
+        17
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 23025,
+      "to": 23026,
+      "direction": "w",
+      "from_grid": [
+        -1,
+        17
       ],
       "to_grid": [
         -2,
-        49
+        17
       ],
       "floor": 0,
       "is_stair": false,
@@ -3426,11 +3521,11 @@
       "direction": "e",
       "from_grid": [
         0,
-        33
+        48
       ],
       "to_grid": [
         1,
-        33
+        48
       ],
       "floor": 0,
       "is_stair": false,
@@ -3443,11 +3538,11 @@
       "direction": "s",
       "from_grid": [
         0,
-        33
+        48
       ],
       "to_grid": [
         0,
-        34
+        49
       ],
       "floor": 0,
       "is_stair": false,
@@ -3460,11 +3555,11 @@
       "direction": "e",
       "from_grid": [
         1,
-        33
+        48
       ],
       "to_grid": [
         2,
-        33
+        48
       ],
       "floor": 0,
       "is_stair": false,
@@ -3477,11 +3572,11 @@
       "direction": "w",
       "from_grid": [
         0,
-        32
+        47
       ],
       "to_grid": [
         -1,
-        32
+        47
       ],
       "floor": 0,
       "is_stair": false,
@@ -3494,11 +3589,11 @@
       "direction": "s",
       "from_grid": [
         -1,
-        32
+        47
       ],
       "to_grid": [
         -1,
-        33
+        48
       ],
       "floor": 0,
       "is_stair": false,

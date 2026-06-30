@@ -892,37 +892,6 @@
           "death_trap": false,
           "portal": false
         },
-        "807": {
-          "vnum": 807,
-          "name": "Beneath the Burning Bridge",
-          "description": "A large pipe extends from the north bank and dribbles a steady flow of some glowing, opalescent liquid into the river. Bright bands of color spread from the point of contact and are borne downstream with the sluggish current. Large bubbles rise to the river's surface and burst, releasing a murky cloud of vapor which rises slowly into the air. Occasionally one of these clouds is ignited yielding a intense burst of flame.",
-          "grid_x": 8,
-          "grid_y": -4,
-          "sub_x": 0,
-          "sub_y": 0,
-          "chain_id": 0,
-          "exits": {
-            "go pipe": {
-              "to_vnum": 38010,
-              "to_zone": "Darkling Underworld",
-              "to_room_name": "Rotten Hollow",
-              "direction": "go pipe",
-              "is_cross_zone": true,
-              "is_portal": true,
-              "has_door": false
-            }
-          },
-          "unwalked": [],
-          "npcs": [],
-          "chests": [],
-          "nodes": [],
-          "staircase": null,
-          "stack": null,
-          "detached": true,
-          "spinner": false,
-          "death_trap": false,
-          "portal": true
-        },
         "39095": {
           "vnum": 39095,
           "name": "Tower Entrance",
@@ -964,6 +933,37 @@
           "spinner": false,
           "death_trap": false,
           "portal": false
+        },
+        "1106": {
+          "vnum": 1106,
+          "name": "Beneath the Burning Bridge",
+          "description": "A large pipe extends from the north bank and dribbles a steady flow of some glowing, opalescent liquid into the river. Bright bands of color spread from the point of contact and are borne downstream with the sluggish current. Large bubbles rise to the river's surface and burst, releasing a murky cloud of vapor which rises slowly into the air. Occasionally one of these clouds is ignited yielding a intense burst of flame.",
+          "grid_x": 8,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go pipe": {
+              "to_vnum": 38010,
+              "to_zone": "Darkling Underworld",
+              "to_room_name": "Rotten Hollow",
+              "direction": "go pipe",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
         },
         "39001": {
           "vnum": 39001,
@@ -2705,7 +2705,7 @@
     },
     "1": {
       "floor_id": 1,
-      "entry_vnum": 39036,
+      "entry_vnum": 39090,
       "rooms": {
         "39090": {
           "vnum": 39090,
@@ -2947,7 +2947,7 @@
     },
     "2": {
       "floor_id": 2,
-      "entry_vnum": 39093,
+      "entry_vnum": 39091,
       "rooms": {
         "39091": {
           "vnum": 39091,
@@ -3054,62 +3054,18 @@
     },
     "3": {
       "floor_id": 3,
-      "entry_vnum": null,
+      "entry_vnum": 39092,
       "rooms": {
         "39092": {
           "vnum": 39092,
           "name": "Tower Top",
           "description": "The roof is fairly small, only about 15 feet in diameter. It is composed of the same black stone that makes up the rest of the tower and slants steeply from its high center toward the sheer edge.",
-          "grid_x": 4,
-          "grid_y": 1,
+          "grid_x": 0,
+          "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "e": {
-              "to_vnum": 39035,
-              "to_zone": "Hedros City",
-              "to_room_name": "Before Porgus House",
-              "direction": "e",
-              "is_cross_zone": false,
-              "is_cross_floor": true,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": true
-            },
-            "n": {
-              "to_vnum": 39035,
-              "to_zone": "Hedros City",
-              "to_room_name": "Before Porgus House",
-              "direction": "n",
-              "is_cross_zone": false,
-              "is_cross_floor": true,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": false
-            },
-            "s": {
-              "to_vnum": 39035,
-              "to_zone": "Hedros City",
-              "to_room_name": "Before Porgus House",
-              "direction": "s",
-              "is_cross_zone": false,
-              "is_cross_floor": true,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": false
-            },
-            "w": {
-              "to_vnum": 39035,
-              "to_zone": "Hedros City",
-              "to_room_name": "Before Porgus House",
-              "direction": "w",
-              "is_cross_zone": false,
-              "is_cross_floor": true,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": false
-            },
             "d": {
               "to_vnum": 39091,
               "to_zone": "Hedros City",
@@ -3138,10 +3094,10 @@
       "hidden_sections": [],
       "chains": {},
       "metadata": {
-        "min_x": 4,
-        "max_x": 4,
-        "min_y": 1,
-        "max_y": 1,
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": 0,
+        "max_y": 0,
         "room_count": 1
       }
     }

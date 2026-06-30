@@ -1073,6 +1073,12 @@
           "nodes": [
             {
               "category": "herbs",
+              "name": "GINGER",
+              "rank": 5,
+              "count": 1
+            },
+            {
+              "category": "herbs",
               "name": "MUGWORT",
               "rank": 20,
               "count": 1

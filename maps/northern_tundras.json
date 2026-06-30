@@ -1038,17 +1038,6 @@
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "e": {
-              "to_vnum": 34024,
-              "to_zone": "Northern Tundras",
-              "to_room_name": "The Frozen Waste",
-              "direction": "e",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": 1,
-              "is_portal": false,
-              "has_door": false
-            },
             "n": {
               "to_vnum": 34031,
               "to_zone": "Northern Tundras",
@@ -1083,7 +1072,9 @@
               "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            34024
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -1904,20 +1895,11 @@
               "to_floor": 1,
               "is_portal": false,
               "has_door": false
-            },
-            "w": {
-              "to_vnum": 34023,
-              "to_zone": "Northern Tundras",
-              "to_room_name": "The Frozen Waste",
-              "direction": "w",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": 1,
-              "is_portal": false,
-              "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            34023
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -2823,23 +2805,6 @@
       "to_grid": [
         0,
         -3
-      ],
-      "floor": 1,
-      "is_stair": false,
-      "has_door": false,
-      "is_one_way": false
-    },
-    {
-      "from": 34023,
-      "to": 34024,
-      "direction": "e",
-      "from_grid": [
-        1,
-        -2
-      ],
-      "to_grid": [
-        2,
-        -2
       ],
       "floor": 1,
       "is_stair": false,

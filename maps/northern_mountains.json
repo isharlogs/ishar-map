@@ -434,7 +434,14 @@
           "unwalked": [],
           "npcs": [],
           "chests": [],
-          "nodes": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -620,7 +627,14 @@
               ]
             }
           ],
-          "nodes": [],
+          "nodes": [
+            {
+              "category": "herbs",
+              "name": "MUGWORT",
+              "rank": 20,
+              "count": 1
+            }
+          ],
           "staircase": null,
           "stack": null,
           "detached": false,
@@ -1089,7 +1103,7 @@
               "has_door": false
             },
             "go through": {
-              "to_vnum": 38092,
+              "to_vnum": 38091,
               "to_zone": "Cleft Tunnels",
               "to_room_name": "At the Bottom of the Cleft",
               "direction": "go through",
@@ -1098,9 +1112,7 @@
               "has_door": false
             }
           },
-          "unwalked": [
-            38091
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -1452,17 +1464,6 @@
               "is_cross_zone": false,
               "is_cross_floor": false,
               "to_floor": 2,
-              "is_portal": false,
-              "has_door": false
-            },
-            "w": {
-              "to_vnum": 24112,
-              "to_zone": "Ancient Woods",
-              "to_room_name": "Ancient Woods",
-              "direction": "w",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
               "is_portal": false,
               "has_door": false
             }

@@ -22,35 +22,13 @@
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
-          "exits": {
-            "n": {
-              "to_vnum": 55043,
-              "to_zone": "The Twin Trees - City of Mareldja",
-              "to_room_name": "Along a Huge Branch",
-              "direction": "n",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
-            "u": {
-              "to_vnum": 61094,
-              "to_zone": "Caves of Esralen",
-              "to_room_name": "Bottom of a Mist-Filled Well",
-              "direction": "u",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            }
-          },
+          "exits": {},
           "unwalked": [
             61045,
             61046,
             61047,
-            61048
+            61048,
+            61094
           ],
           "npcs": [
             {

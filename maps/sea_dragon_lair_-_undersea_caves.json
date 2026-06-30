@@ -1,0 +1,219 @@
+{
+  "zone_name": "Sea Dragon Lair - Undersea Caves",
+  "entry_vnum": 25089,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": 0,
+    "max_x": 0,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 25089,
+      "rooms": {
+        "25089": {
+          "vnum": 25089,
+          "name": "Aqua Eerie",
+          "description": "The level of the floor is somewhat lower than that of the doorway. The room is filled with water which reaches to your knees. More water pours in through holes about halfway up the walls, but the water level in the room doesn't seem to be rising.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25088,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Funnel`s Mouth",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25090": {
+          "vnum": 25090,
+          "name": "Smooth Passage",
+          "description": "You are moving along a smooth passage that leads north and south into darkness.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25091,
+              "to_zone": "Sea Dragon Lair - Undersea Caves",
+              "to_room_name": "Dragon`s Lair",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25087,
+              "to_zone": "Sea Hag Coven - Undersea Caves",
+              "to_room_name": "Smooth Passage",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25091": {
+          "vnum": 25091,
+          "name": "Dragon`s Lair",
+          "description": "A rank, reptilian stench permeates this large, square chamber. Large bones, both old and fresh, are scattered about. A passage leads off to the south and you can see another chamber to the north.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 25092,
+              "to_zone": "Sea Dragon Lair - Undersea Caves",
+              "to_room_name": "The Hoard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 25090,
+              "to_zone": "Sea Dragon Lair - Undersea Caves",
+              "to_room_name": "Smooth Passage",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "25092": {
+          "vnum": 25092,
+          "name": "The Hoard",
+          "description": "This room is quite a bit smaller than the one you just came from. It is also a lot neater, with no bones or debris laying about. It seems that even dragons have the proper respect for treasure.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 25091,
+              "to_zone": "Sea Dragon Lair - Undersea Caves",
+              "to_room_name": "Dragon`s Lair",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": 0,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 25090,
+      "to": 25091,
+      "direction": "n",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 25091,
+      "to": 25092,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

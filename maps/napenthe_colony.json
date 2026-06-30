@@ -4089,9 +4089,9 @@
               "has_door": false
             },
             "go portal": {
-              "to_vnum": 72023,
-              "to_zone": "Shinerock Mines",
-              "to_room_name": "Shinerock Mine Shaft",
+              "to_vnum": 879,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Misty Cave",
               "direction": "go portal",
               "is_cross_zone": true,
               "is_portal": true,

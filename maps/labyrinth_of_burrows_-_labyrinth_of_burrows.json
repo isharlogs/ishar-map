@@ -1,0 +1,2635 @@
+{
+  "zone_name": "Labyrinth of Burrows - Labyrinth of Burrows",
+  "entry_vnum": 71072,
+  "floor_count": 2,
+  "bounds": {
+    "min_x": -4,
+    "max_x": 4,
+    "min_y": -4,
+    "max_y": 3
+  },
+  "floors": {
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 71067,
+      "rooms": {
+        "71054": {
+          "vnum": 71054,
+          "name": "Labyrinth of Burrows",
+          "description": "Against the south wall of this dead-end cave rises a set of wooden shelves. Alchemical equipment--carefully marked beakers, half-filled flasks, thick wax candles, and fine glass tubes--fills each shelf, every piece placed with exacting care. The center of the room is filled with a broad oak table, on which someone has sketched a series of drawings. The only exit lies to the east.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71055,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71055": {
+          "vnum": 71055,
+          "name": "Labyrinth of Burrows",
+          "description": "The tunnel here bends from south to west, leading into a cave. You notice the spoor of a large carnivore, but fail to recognize its origin. Giant green beetles move around the passage, clicking their huge pincers. A narrow passage, perhaps a meter wide, leads upward.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71061,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71054,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "u": {
+              "to_vnum": 71051,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71061": {
+          "vnum": 71061,
+          "name": "Labyrinth of Burrows",
+          "description": "You stand in the middle of a long, spacious tunnel running north and south. The walls appear to be cut with a shovel or other man-made implement, and are certainly not the work of the many beetles which scramble about the area.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71055,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71067,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71067": {
+          "vnum": 71067,
+          "name": "Labyrinth of Burrows",
+          "description": "Huge green beetles click their pincers all along this tunnel, which runs from the north and ends where you stand. The moist air is laden with strong odors of unknown origin, beneath which lies a faint smell of decaying plants.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71061,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 0,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 4
+      }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 71072,
+      "rooms": {
+        "1029": {
+          "vnum": 1029,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall. pick trapdoor It resists all attempts at picking the lock. l w In the center of the metal trapdoor is a hole, approximately two centimeters in diameter. Above the hole, someone has sketched a small nehva tree. l hole You see no 'hole' here. l tree You see no 'tree' here. l stones There isn't much to see. Barren Courtyard",
+          "grid_x": 7,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "1031": {
+          "vnum": 1031,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall. l Bottom of a Well",
+          "grid_x": 7,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "1032": {
+          "vnum": 1032,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall. say kartenial You say, \"kartenial\" The power of the ocean gradually subsides. Remembrance of the Zephyr is no longer on cooldown! l metal There isn't much to see. knock door There is no 'door' here. knock wall There is no 'wall' here. l w In the center of the metal trapdoor is a hole, approximately two centimeters in diameter. Above the hole, someone has sketched a small nehva tree. l hole You see no 'hole' here. l",
+          "grid_x": 7,
+          "grid_y": 4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71051": {
+          "vnum": 71051,
+          "name": "Labyrinth of Burrows",
+          "description": "The tunnel curves from south to east, leading you through the maze of burrows. Beetles are everywhere, and several times you are forced to stand aside while they pass. The air is very humid, and the earthen walls have hardened to the consistency of clay.",
+          "grid_x": -4,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71052,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71056,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71052": {
+          "vnum": 71052,
+          "name": "Labyrinth of Burrows",
+          "description": "A light mist hangs in this section of the tunnel, which runs from east to west through the earth. The moist air clings to your skin and makes breathing slightly difficult. The overpowering odor of the huge green beetles, which grow particularly large here, exacerbates your difficulties.",
+          "grid_x": -2,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71053,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71051,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71053": {
+          "vnum": 71053,
+          "name": "Labyrinth of Burrows",
+          "description": "As the passage bends from west to south, the air becomes less humid. The beetles are still plentiful, but do not grow as large as those to the west. A trickle of water runs down the passage, transforming the smooth, packed earth of the floor into slippery mud.",
+          "grid_x": -1,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71058,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71052,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71056": {
+          "vnum": 71056,
+          "name": "Labyrinth of Burrows",
+          "description": "Entering this cave, you are pleased to find it spacious and open. The ceiling hides in the darkness above you, and the walls retreat nearly two meters in every direction. Succumbing to a feeling of safety and security, you calm your nerves and consider a rest. The only exit lies to the south, and you would surely see anything approaching.",
+          "grid_x": -4,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71062,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71057": {
+          "vnum": 71057,
+          "name": "Labyrinth of Burrows",
+          "description": "The cramped tunnel in which you stand bends from east to south. The humid air smells strongly of decaying plants, making you fairly nauseous as you crawl along. From the south, you hear an occasional chittering sound.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71058,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71063,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71058": {
+          "vnum": 71058,
+          "name": "Labyrinth of Burrows",
+          "description": "The warm, damp air of this low-ceilinged caved reeks of rotting plant matter. The earthen floor is strewn with bits of grass and large piles of decaying vegetation. The only exit lies to the west.",
+          "grid_x": -1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 71057,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71059": {
+          "vnum": 71059,
+          "name": "Labyrinth of Burrows",
+          "description": "The passage bends from south to east here, with a second tunnel leading to the west. From this offshoot come strange clicking sounds, as the sound of bone struck upon bone. The weasels run the main corridor, but seem to avoid the western tunnel.",
+          "grid_x": 0,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71060,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71065,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71058,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71060": {
+          "vnum": 71060,
+          "name": "Labyrinth of Burrows",
+          "description": "Crouched under the low ceiling of this small cave, you are nearly overwhelmed by the odor of the weasels. Their spoor covers the floor, and they constantly pass by you as they run down the nearby tunnels. The only exit lies to the west.",
+          "grid_x": 1,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 71059,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71062": {
+          "vnum": 71062,
+          "name": "Labyrinth of Burrows",
+          "description": "As you approach the end of this tunnel, you find relief in your discovery that it is not in fact a dead-end. A narrow passage drops down into the earth, allowing you to continue your journey. Giant green beetles click their pincers at you as you make your way toward the passage. A tunnel also leads north.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71056,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 71067,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71063": {
+          "vnum": 71063,
+          "name": "Labyrinth of Burrows",
+          "description": "You crouch beneath the low dirt ceiling, choosing between the tunnels that lead away from this intersection. A low, wide passageway makes it way from the south to the east, carrying the spoor of huge weasels. A narrow passage to the west calls you to with faint clicking sounds as it descends deeper into the earth.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71064,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71068,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71062,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71064": {
+          "vnum": 71064,
+          "name": "Labyrinth of Burrows",
+          "description": "The low, wide tunnel you travel runs from east to west. The air is damp, and bits of dirt drop onto your head with alarming frequency. Weasel spoor line the floor, and you see them traveling the tunnels on either side.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71065,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71063,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71065": {
+          "vnum": 71065,
+          "name": "Labyrinth of Burrows",
+          "description": "The weasels surround you, constantly passing within meters of you as they move through the tunnels. From this intersection, you can travel north, east, or south, but you see more weasels in every direction.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71066,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71059,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71070,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71066": {
+          "vnum": 71066,
+          "name": "Labyrinth of Burrows",
+          "description": "Three tunnels meet where you stand. A wide passage runs from the south and curves westward, branching off a narrow passage to the north. Although dominated by the rich brown earth, a section of the eastern wall is made up of whitish clay.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71060,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71071,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71065,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71068": {
+          "vnum": 71068,
+          "name": "Labyrinth of Burrows",
+          "description": "This intersection allows travel to the east or south through high, relatively spacious tunnels, or passage to the north through a more cramped burrow. A soft, warm breeze from the north brings with it the unpleasant aroma of decay.",
+          "grid_x": -2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71069,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71063,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71074,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71069": {
+          "vnum": 71069,
+          "name": "Labyrinth of Burrows",
+          "description": "A spacious burrow turns from the south to the east, moving into a warmer, wetter region of the underground. The earth ceiling looks precarious, particularly to the east, where the extra weight of the water makes it appear ready to collapse.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71070,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71075,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71070": {
+          "vnum": 71070,
+          "name": "Labyrinth of Burrows",
+          "description": "You reach another dead-end. The start of a tunnel to the west ends in a pile of broken earth, suggesting the collapse of an old tunnel. Fresh weasel spoor hints that the collapse was recent, and that the weasels are still nearby.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71065,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71071": {
+          "vnum": 71071,
+          "name": "Labyrinth of Burrows",
+          "description": "The tunnel curves from east to north, leading you from one section of the burrows into another. The air here smell strongly of weasel spoor, and you frequently hear them racing through the nearby tunnels, or spot a glimpse of their light brown fur ahead of you.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71072,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71066,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71072": {
+          "vnum": 71072,
+          "name": "Labyrinth of Burrows",
+          "description": "Several cramped, twisting passages offer to lead you to other cramped, twisting passages nearby. You quickly lose your sense of direction, and orient yourself only by the relationships between the various tunnels. The tunnels range between a meter and two meters in diameter, and here lead east, south, and west. A small tunnel leads up out of the burrows.",
+          "grid_x": 2,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71073,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71078,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71071,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go out": {
+              "to_vnum": 71006,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "go out",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "71073": {
+          "vnum": 71073,
+          "name": "Labyrinth of Burrows",
+          "description": "Crawling through this narrow tunnel of earth, you reach a wide curve from west to south. To the south, the passage begins to descend, while narrowing still further. To the west is an intersection of ways.",
+          "grid_x": 3,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71079,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71072,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71074": {
+          "vnum": 71074,
+          "name": "Labyrinth of Burrows",
+          "description": "The passage here curves from north to east as it avoids a wall of thick roots to the west. The roots weave together, forming a tight mesh to prevent passage. Pulling away the weakest, you find only more roots underneath, and you sense that the wall of roots is quite thick. You can travel north or east, following the tunnel.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71075,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71068,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71075": {
+          "vnum": 71075,
+          "name": "Labyrinth of Burrows",
+          "description": "With plenty of space to walk comfortably through this tunnel curving from north to west, you find yourself reluctant to explore the cramped passageway branching to the east. The air here is cool and dry, but grows more humid to the north. The spoor of the weasels are everywhere.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71076,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71069,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71074,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71076": {
+          "vnum": 71076,
+          "name": "Labyrinth of Burrows",
+          "description": "The light brown dirt of this narrow tunnel provides excellent camouflage for the huge weasels that stalk the area. Their spoor coats your garments as you crawl along, pausing now and then to rest on the warm, dry earth. From the intersection in which you sit, tunnels lead north, east, and west.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71077,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71070,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71082,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Chamber of the Eye",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71075,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71077": {
+          "vnum": 71077,
+          "name": "Labyrinth of Burrows",
+          "description": "Under the low ceiling of this dead-end tunnel, you are forced to crawl. The earth above you seems always on the brink of collapse, and you note with some trepidation that the weasels come here rarely, as evidenced by the lack of fresh spoor. The only exit lies to the east.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71078,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71078": {
+          "vnum": 71078,
+          "name": "Labyrinth of Burrows",
+          "description": "Three directions lie open to you, here in the lair of the weasels. To the north, a cramped passageway runs to an intersection from which comes frequent gusts of wind laden with the smell of grass. To the south, a wider tunnel leads into darkness. A tunnel to the west soon reaches a dead end.",
+          "grid_x": 2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71072,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71084,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71077,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71079": {
+          "vnum": 71079,
+          "name": "Labyrinth of Burrows",
+          "description": "You crouch in a low tunnel running from east to west. The bare earth walls are warm and dry to the touch, but seem to be packed fairly tightly, so you have no worries of collapse. Sporadic gusts of wind blow from the west, bringing the strong scent of weasel spoor to your nostrils.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71080,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71078,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71080": {
+          "vnum": 71080,
+          "name": "Labyrinth of Burrows",
+          "description": "After entering this small cave, you stretch you back and rub your neck, sore from frequent ducking, crawling, and craning to see around bends in tunnels. In addition to the incredibly fascinating dirt, which you now find slightly dull, the remains of an elf sit upright against the eastern wall. The only exit lies back through the tunnel to the west.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 71079,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71081": {
+          "vnum": 71081,
+          "name": "Hall of Armor",
+          "description": "Here at the northern end of this wide hall, the damage becomes even greater than that to the south. Broken shards of stone litter the ground, and even the upper walls are scarred with patches of grey. The paintings here are badly damaged, and only parts of the images are recognizable. A doorway leads to the east, and the hall continues south.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71082,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Chamber of the Eye",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71086,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71082": {
+          "vnum": 71082,
+          "name": "Chamber of the Eye",
+          "description": "You step into a strange chamber. Ceiling, walls, and floor are covered with sea-blue tiles, and the air smells faintly of rancid meat. A hole opens in the center of the eastern wall, near the floor. Roughly thirty centimeters in diameter, the hole is cut into the grey stone of the wall behind the tile. The only exit lies to the west, back into the hallway.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71076,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71081,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71083": {
+          "vnum": 71083,
+          "name": "Labyrinth of Burrows",
+          "description": "You stand in a cave fashioned from brown dirt. Claw marks are everywhere, lining the walls and ceiling and even the floor beneath a layer of loose earth. Standing motionless, you hear a high-pitched wail in the distance. The scream is cut short by a snapping sound, and followed by silence. The only exit lies through a tunnel to the east.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71084,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71084": {
+          "vnum": 71084,
+          "name": "Labyrinth of Burrows",
+          "description": "A wide tunnel allows you to pass unright as it curves from north to west. All is silent, and the air is still, but once you hear scraping and scratching, the sounds of claws on wood or stone.",
+          "grid_x": 2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71078,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71083,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71085": {
+          "vnum": 71085,
+          "name": "Shrine of Reflection",
+          "description": "Your own image looks back on you from every direction, supported by the hundreds of mirrors lining the walls. The air feels cold, and an eerie silence pervades the room. You feel as though the mirrors reflect not only light but thoughts, sound, emotions, and indeed your very being. Fortunately, the doorway leading back into the hall is quite plainly visible.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71086,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71086": {
+          "vnum": 71086,
+          "name": "Hall of Armor",
+          "description": "You reach the middle of the hall, which continues to the north and south. Something has damaged the white stones of the floor, leaving several cracked and buckled, showing grey stone and earth beneath. The lower half of each wall has suffered similar damage, but the paintings remain unharmed. You can travel north or south along the hall or enter a doorway to the west.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71081,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71094,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71085,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Shrine of Reflection",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71088": {
+          "vnum": 71088,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall.",
+          "grid_x": 7,
+          "grid_y": 6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 71024,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71093": {
+          "vnum": 71093,
+          "name": "Room of Red Tile",
+          "description": "Blood red tiles surround you, covering the walls on all sides with their hive- like hexagonal faces. A wide doorway opens in the eastern wall, leading to a broad hall in which you see scattered bits of armor. A faint odor reminds you of damp wood, but the area is devoid of any plant matter or water.",
+          "grid_x": -2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71094,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71097
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71094": {
+          "vnum": 71094,
+          "name": "Hall of Armor",
+          "description": "You stand in a wide hallway running north and south. Every few meters, columns rise on either side of the hall, curving to meet at the apex of the arched ceiling, high above you. The white walls boast designs of inlaid silver and gold surrounding detailed paintings. The color of these works has faded and dulled with age, but you can still make out a few of the scenes. A doorway leads west, and the hall continues to the north.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71086,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Hall of Armor",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71093,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Room of Red Tile",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "861": {
+          "vnum": 861,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall. say kartenial You say, \"kartenial\" The power of the ocean gradually subsides. Remembrance of the Zephyr is no longer on cooldown! l metal There isn't much to see. knock door There is no 'door' here. knock wall There is no 'wall' here. l w In the center of the metal trapdoor is a hole, approximately two centimeters in diameter. Above the hole, someone has sketched a small nehva tree. l hole You see no 'hole' here. l",
+          "grid_x": 7,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 71024,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "862": {
+          "vnum": 862,
+          "name": "Bottom of a Well",
+          "description": "You stand knee-deep in thick mud at the bottom of a shallow well. The light brown stones of the walls rising above you have long been dry, and you have no worries about climbing back out. A tightly sealed metal trapdoor blends into the western section of the well wall. You are very thirsty and should find something to drink. unl door There is no 'door' here. unl trapdoor You grimace as your key snaps off in the lock! i You are carrying:",
+          "grid_x": 7,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -4,
+        "max_x": 4,
+        "min_y": -4,
+        "max_y": 3,
+        "room_count": 40
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 71051,
+      "to": 71052,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        -4
+      ],
+      "to_grid": [
+        -2,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71051,
+      "to": 71056,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -4
+      ],
+      "to_grid": [
+        -4,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71052,
+      "to": 71053,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -4
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71053,
+      "to": 71058,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -4
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71054,
+      "to": 71055,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71055,
+      "to": 71061,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71056,
+      "to": 71062,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -3
+      ],
+      "to_grid": [
+        -4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71057,
+      "to": 71058,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71057,
+      "to": 71063,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71059,
+      "to": 71060,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71059,
+      "to": 71065,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71059,
+      "to": 71058,
+      "direction": "w",
+      "from_grid": [
+        0,
+        -3
+      ],
+      "to_grid": [
+        -1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71061,
+      "to": 71067,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71063,
+      "to": 71064,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71063,
+      "to": 71068,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71063,
+      "to": 71062,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71064,
+      "to": 71065,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71065,
+      "to": 71066,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71065,
+      "to": 71070,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71066,
+      "to": 71060,
+      "direction": "n",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71066,
+      "to": 71071,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71068,
+      "to": 71069,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71068,
+      "to": 71074,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -1
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71069,
+      "to": 71070,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71069,
+      "to": 71075,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71071,
+      "to": 71072,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        2,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71072,
+      "to": 71073,
+      "direction": "e",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        3,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71072,
+      "to": 71078,
+      "direction": "s",
+      "from_grid": [
+        2,
+        -1
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71073,
+      "to": 71079,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -1
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71074,
+      "to": 71075,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71075,
+      "to": 71076,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71076,
+      "to": 71077,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71076,
+      "to": 71070,
+      "direction": "n",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71076,
+      "to": 71082,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71077,
+      "to": 71078,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71078,
+      "to": 71084,
+      "direction": "s",
+      "from_grid": [
+        2,
+        0
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71079,
+      "to": 71080,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71079,
+      "to": 71078,
+      "direction": "w",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": true
+    },
+    {
+      "from": 71081,
+      "to": 71082,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71081,
+      "to": 71086,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71083,
+      "to": 71084,
+      "direction": "e",
+      "from_grid": [
+        1,
+        1
+      ],
+      "to_grid": [
+        2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71085,
+      "to": 71086,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71086,
+      "to": 71094,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71093,
+      "to": 71094,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        3
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

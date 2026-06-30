@@ -325,17 +325,6 @@
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "d": {
-              "to_vnum": 80050,
-              "to_zone": "Coastal Ruins - City of Mareldja",
-              "to_room_name": "A Small, Square Room",
-              "direction": "d",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
             "e": {
               "to_vnum": 80032,
               "to_zone": "Strider's Nest",
@@ -357,6 +346,15 @@
               "to_floor": 0,
               "is_portal": false,
               "has_door": false
+            },
+            "go hole": {
+              "to_vnum": 80050,
+              "to_zone": "Coastal Ruins - City of Mareldja",
+              "to_room_name": "A Small, Square Room",
+              "direction": "go hole",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
             }
           },
           "unwalked": [],
@@ -368,7 +366,7 @@
           "detached": false,
           "spinner": false,
           "death_trap": false,
-          "portal": false
+          "portal": true
         },
         "80032": {
           "vnum": 80032,

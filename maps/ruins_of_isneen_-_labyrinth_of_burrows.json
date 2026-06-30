@@ -1,0 +1,602 @@
+{
+  "zone_name": "Ruins of Isneen - Labyrinth of Burrows",
+  "entry_vnum": 71024,
+  "floor_count": 1,
+  "bounds": {
+    "min_x": -1,
+    "max_x": 1,
+    "min_y": -1,
+    "max_y": 1
+  },
+  "floors": {
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 71024,
+      "rooms": {
+        "71023": {
+          "vnum": 71023,
+          "name": "Broken Stair",
+          "description": "Winding your way past the fallen rubble, you reach the northern end of the hallway, an unremarkable little chamber covered with the same greenish dust as the rest of the hallway. A thick pole of red stone juts upward in the center of the room to meet a ceiling that vanished long ago. The only exit lies back to the south.",
+          "grid_x": -1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71026,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Western Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71024": {
+          "vnum": 71024,
+          "name": "Barren Courtyard",
+          "description": "An uneven ring of light brown stones dominates this section of the courtyard, encircling a shallow well. Small blocks of the brown stone, broken in ages past from the top of the well, intermingle with pieces of red stone and shards of tile on the hard earth. A doorway opens into a low building to the east, and the courtyard continues to the south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "d": {
+              "to_vnum": 71088,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Bottom of a Well",
+              "direction": "d",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "e": {
+              "to_vnum": 71025,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Ashen Remains",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71027,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71025": {
+          "vnum": 71025,
+          "name": "Ashen Remains",
+          "description": "Grey ash coats everything in this room: the shattered floor tiles, the broken desks and chairs, the mangled sconces hanging from the walls. Black streaks show through the ash in some places, forming arcane symbols and obscene caricatures. A hallway opens to the south, and a doorway to the west permits access to the courtyard.",
+          "grid_x": 1,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71028,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Eastern Hall",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71024,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71026": {
+          "vnum": 71026,
+          "name": "Western Hall",
+          "description": "Blocks of shattered stone lie strewn about this wide hallway, obscuring the green and yellow checkerboard tiles decorating the floor. Most of the stones were once part of the ceiling, but a few possess the delicately carved lines of sculpture. A fine green dust coats everything in sight. The hallways continues north, and a door opens to the south.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71027,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71023,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Broken Stair",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71029,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Silent Chamber",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71027": {
+          "vnum": 71027,
+          "name": "Barren Courtyard",
+          "description": "Shards of brightly colored tile scattered in the dusty soil suggest that this courtyard was once a place of great beauty. Smashed stone and streaks of charcoal black ash have replaced the earlier decor, offering few pleasantries for the eye. The buildings to the east remains standing, as does the wall of the building to the west, though the remaining stones may soon fall victim to the scythe of Time. The courtyard continues to the north, and to the south you spot an exit from the ruins.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71028,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Eastern Hall",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71024,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71030,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Tumbled Archway",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71026,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Western Hall",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71028": {
+          "vnum": 71028,
+          "name": "Eastern Hall",
+          "description": "Pitted and cracked, the bare stones of this hallway reflect the ancient hatreds that led to their destruction. Except for a score of small piles of crushed feathers and bones, the hall is devoid of life and furnishings. The scent of death is strong here, rising from the piles and hanging in the still air. To the north, the hallway continues, and to the west lies a barren courtyard.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71025,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Ashen Remains",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71027,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71029": {
+          "vnum": 71029,
+          "name": "Silent Chamber",
+          "description": "The floors, walls, and ceiling of this small room are tiled with sections of bright yellow stone. In the center of the room, atop a raised platform, rises a statue of a miniature nehva tree. Carved perhaps from the same stone as the tiles, the statue is painted to appear fairly realistic. As you enter, you notice that the tiles, though not pliant, completely absorb the sound of your footsteps.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71026,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Western Hall",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71030": {
+          "vnum": 71030,
+          "name": "Tumbled Archway",
+          "description": "A breach in the wall permits your entry into the ruins. In passing through, you notice a large, trapezoidal stone lying just inside the entry. The stone was perhaps once the keystone of an arch. A courtyard opens to the north, stripped of any ornamentation it might once have boasted. The doorway of a fallen tower opens to the east, and to the south are the infinite grasslands.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71031,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Fallen Tower",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71027,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Barren Courtyard",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71038,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71031": {
+          "vnum": 71031,
+          "name": "Fallen Tower",
+          "description": "The shattered remains of the tower cover the floor of this small room, forcing you to pick your way between the smaller stones and to climb over the larger ones. Precariously balanced between one wall and a tall pile of broken stone, a broad slab blocks out the sky. The space is very cramped, and the only exit lies back to the west.",
+          "grid_x": 1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 71030,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Tumbled Archway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -1,
+        "max_x": 1,
+        "min_y": -1,
+        "max_y": 1,
+        "room_count": 9
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": 71023,
+      "to": 71026,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -1
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71024,
+      "to": 71025,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        1,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71024,
+      "to": 71027,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71025,
+      "to": 71028,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -1
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71026,
+      "to": 71027,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71026,
+      "to": 71029,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71027,
+      "to": 71028,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71027,
+      "to": 71030,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71030,
+      "to": 71031,
+      "direction": "e",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
+}

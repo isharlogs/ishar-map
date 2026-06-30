@@ -3228,7 +3228,14 @@
             }
           },
           "unwalked": [],
-          "npcs": [],
+          "npcs": [
+            {
+              "name": "Cute pink pig",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
           "chests": [],
           "nodes": [],
           "staircase": null,

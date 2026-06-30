@@ -11,7 +11,7 @@
   "floors": {
     "-1": {
       "floor_id": -1,
-      "entry_vnum": 61044,
+      "entry_vnum": 61042,
       "rooms": {
         "61074": {
           "vnum": 61074,
@@ -336,7 +336,7 @@
           "name": "Port of Barcas",
           "description": "The harbor is divided into three sections. The southernmost end is the free port, open to most ships. Near the centre, just to the north and east, are the floating shipyards, complete with slips and functional, covered dry docks. Tucked away past the shipyards is her near legendary naval harbor.",
           "grid_x": 5,
-          "grid_y": -4,
+          "grid_y": -2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -371,7 +371,7 @@
           "name": "Before the Temple of Esralen",
           "description": "Two solid columns of curved stone rise from the floor here at the end of a wide tunnel travelling north and south. Hinged upon the columns is a sturdy iron gate. Masses of twisting, spindly roots creep out of the earthen ceiling to drape down over the temple entrance, nearly obscuring the carved wooden dragonshead which rests above the gate.",
           "grid_x": 5,
-          "grid_y": -2,
+          "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -510,6 +510,15 @@
               "to_floor": 0,
               "is_portal": false,
               "has_door": false
+            },
+            "go portal": {
+              "to_vnum": 27008,
+              "to_zone": "Temple of Esralen",
+              "to_room_name": "Port of Barcas",
+              "direction": "go portal",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
             }
           },
           "unwalked": [],
@@ -521,7 +530,7 @@
           "detached": false,
           "spinner": false,
           "death_trap": false,
-          "portal": false
+          "portal": true
         },
         "61066": {
           "vnum": 61066,
@@ -900,6 +909,27 @@
           "death_trap": false,
           "portal": false
         },
+        "1084": {
+          "vnum": 1084,
+          "name": "Scorched Caves",
+          "description": "The cave walls here are nearly black with soot, what few stones lay embedded into the rock charred and melted. Chisled steps lead up. Directly ahead lay an open cavern, a trail of slime covering the floor leading into it. Affixed to the wall here are a set of bones. You walk up the steps. Scorched Caves",
+          "grid_x": 5,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
         "61035": {
           "vnum": 61035,
           "name": "Temple Hall",
@@ -1006,7 +1036,7 @@
         "max_x": 2,
         "min_y": -4,
         "max_y": 1,
-        "room_count": 14
+        "room_count": 15
       }
     }
   },

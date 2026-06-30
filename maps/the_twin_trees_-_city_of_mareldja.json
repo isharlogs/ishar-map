@@ -2044,7 +2044,7 @@
     },
     "3": {
       "floor_id": 3,
-      "entry_vnum": 55043,
+      "entry_vnum": 55049,
       "rooms": {
         "55040": {
           "vnum": 55040,
@@ -2474,6 +2474,15 @@
               "to_room_name": "Termite Hollow",
               "direction": "go fungus",
               "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            },
+            "go into": {
+              "to_vnum": 69225,
+              "to_zone": "Thal'adriel Watchtower - Jharet Forest",
+              "to_room_name": "Second Floor",
+              "direction": "go into",
+              "is_cross_zone": true,
               "is_portal": true,
               "has_door": false
             },

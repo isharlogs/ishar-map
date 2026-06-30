@@ -213,25 +213,14 @@
           "vnum": 91086,
           "name": "In a Stagnant Pool",
           "description": "A ring of large granite boulders surround a large flat area in the bottom of this pool, the sleeping place of a great beast. The pool is otherwise devoid of life, even algae is oddly absent Water flows into the pool through an inlet to the north, and exits to the west.",
-          "grid_x": 2,
+          "grid_x": 4,
           "grid_y": -1,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "n": {
-              "to_vnum": 91087,
-              "to_zone": "Erinesian Homelands",
-              "to_room_name": "In the Erinesian River",
-              "direction": "n",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": -1,
-              "is_portal": false,
-              "has_door": false
-            },
             "w": {
-              "to_vnum": 91085,
+              "to_vnum": 91087,
               "to_zone": "Erinesian Homelands",
               "to_room_name": "In the Erinesian River",
               "direction": "w",
@@ -251,7 +240,9 @@
               "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            91085
+          ],
           "npcs": [
             {
               "name": "Krakva the river daemon",
@@ -263,7 +254,13 @@
           "chests": [],
           "nodes": [],
           "staircase": null,
-          "stack": null,
+          "stack": {
+            "cell_mates": [
+              91087
+            ],
+            "active": false,
+            "stack_default_vnum": 91087
+          },
           "detached": false,
           "spinner": false,
           "death_trap": false,
@@ -273,11 +270,11 @@
           "vnum": 91087,
           "name": "In the Erinesian River",
           "description": "The river undercuts the west bank slightly here, creating an alcove as the water ceases its western course and turns to the south. Small shapes flit to and fro, their silvery scales glittering brightly in the sparkles of light that break through from the surface.",
-          "grid_x": 2,
-          "grid_y": -2,
-          "sub_x": 0,
+          "grid_x": 4,
+          "grid_y": -1,
+          "sub_x": 1,
           "sub_y": 0,
-          "chain_id": 0,
+          "chain_id": 1,
           "exits": {
             "e": {
               "to_vnum": 91088,
@@ -316,7 +313,13 @@
           "chests": [],
           "nodes": [],
           "staircase": null,
-          "stack": null,
+          "stack": {
+            "cell_mates": [
+              91086
+            ],
+            "active": true,
+            "stack_default_vnum": 91087
+          },
           "detached": false,
           "spinner": false,
           "death_trap": false,
@@ -326,11 +329,11 @@
           "vnum": 91088,
           "name": "In the Erinesian River",
           "description": "The chilling waters of the river turn halt their southern flow and bend ninety degrees to the west. Tiny fish flitter about between larger cousins, but the river is otherwise lifeless.",
-          "grid_x": 3,
-          "grid_y": -2,
+          "grid_x": 2,
+          "grid_y": -1,
           "sub_x": 0,
           "sub_y": 0,
-          "chain_id": 0,
+          "chain_id": 1,
           "exits": {
             "n": {
               "to_vnum": 91089,
@@ -379,11 +382,11 @@
           "vnum": 91089,
           "name": "In a Swiftly Flowing Current",
           "description": "Flecks of white foam whisk past, created by a churning eddy upstream of you. An accompanying roar indicates that the base of a waterfall is located there. The tugging current pulls you southward.",
-          "grid_x": 3,
-          "grid_y": -3,
+          "grid_x": 2,
+          "grid_y": -2,
           "sub_x": 0,
           "sub_y": 0,
-          "chain_id": 0,
+          "chain_id": 1,
           "exits": {
             "n": {
               "to_vnum": 91090,
@@ -432,11 +435,11 @@
           "vnum": 91090,
           "name": "Churning Water",
           "description": "Roaring white water churns all about you, threatening to pin you to the bottom of the river. Mustering your strength, you swim your way to the less turbulent waters beneath the bank and contemplate your direction of travel. You could float southward on the swift current, of swim up to the surface.",
-          "grid_x": 3,
-          "grid_y": -4,
+          "grid_x": 2,
+          "grid_y": -3,
           "sub_x": 0,
           "sub_y": 0,
-          "chain_id": 0,
+          "chain_id": 1,
           "exits": {
             "s": {
               "to_vnum": 91089,
@@ -865,11 +868,13 @@
       },
       "warped_pockets": [],
       "hidden_sections": [],
-      "chains": {},
+      "chains": {
+        "1": "#e05555"
+      },
       "metadata": {
         "min_x": -2,
-        "max_x": 3,
-        "min_y": -4,
+        "max_x": 4,
+        "min_y": -3,
         "max_y": 18,
         "room_count": 18
       }
@@ -5596,42 +5601,42 @@
         -1
       ],
       "to_grid": [
-        2,
+        4,
         -1
       ],
       "floor": -1,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": false
+      "is_one_way": true
     },
     {
       "from": 91086,
       "to": 91087,
-      "direction": "n",
+      "direction": "w",
       "from_grid": [
-        2,
+        4,
         -1
       ],
       "to_grid": [
-        2,
-        -2
+        4,
+        -1
       ],
       "floor": -1,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": false
+      "is_one_way": true
     },
     {
       "from": 91087,
       "to": 91088,
       "direction": "e",
       "from_grid": [
-        2,
-        -2
+        4,
+        -1
       ],
       "to_grid": [
-        3,
-        -2
+        2,
+        -1
       ],
       "floor": -1,
       "is_stair": false,
@@ -5643,12 +5648,12 @@
       "to": 91089,
       "direction": "n",
       "from_grid": [
-        3,
-        -2
+        2,
+        -1
       ],
       "to_grid": [
-        3,
-        -3
+        2,
+        -2
       ],
       "floor": -1,
       "is_stair": false,
@@ -5660,12 +5665,12 @@
       "to": 91090,
       "direction": "n",
       "from_grid": [
-        3,
-        -3
+        2,
+        -2
       ],
       "to_grid": [
-        3,
-        -4
+        2,
+        -3
       ],
       "floor": -1,
       "is_stair": false,

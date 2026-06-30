@@ -227,7 +227,20 @@
             }
           },
           "unwalked": [],
-          "npcs": [],
+          "npcs": [
+            {
+              "name": "Red crab",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            },
+            {
+              "name": "Tiny purple crab",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
           "chests": [
             {
               "name": "Iron and wooden chest",

@@ -357,11 +357,20 @@
               "to_floor": -1,
               "is_portal": false,
               "has_door": true
+            },
+            "s": {
+              "to_vnum": 34093,
+              "to_zone": "Tynum Bar",
+              "to_room_name": "East Tunnel",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
             }
           },
-          "unwalked": [
-            34093
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -1969,7 +1978,7 @@
         "34080": {
           "vnum": 34080,
           "name": "Kolvak`s Home",
-          "description": "",
+          "description": "Kolvak, King Maldor's left-hand man, is evidently a man who appreciates the finer things in life. Not that he has any of them but you can tell from the rich looking but low quality furniture and decorations that he would like everyone to think he does.",
           "grid_x": 5,
           "grid_y": -3,
           "sub_x": 0,
@@ -3908,7 +3917,7 @@
       "floor": -1,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": true
+      "is_one_way": false
     },
     {
       "from": 34094,

@@ -526,6 +526,41 @@
           "spinner": false,
           "death_trap": false,
           "portal": false
+        },
+        "63099": {
+          "vnum": 63099,
+          "name": "Shore of the Dark River",
+          "description": "The damp, mushy ground sucks your feet in here, close to the edge of a dark river through the tropical growth. A small footpath ventures into the dense foliage to the south, along the dark riverside.",
+          "grid_x": 4,
+          "grid_y": 10,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 24061,
+              "to_zone": "River Bruenor",
+              "to_room_name": "The Dark River",
+              "direction": "e",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            63098
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
         }
       },
       "warped_pockets": [],
@@ -536,7 +571,7 @@
         "max_x": 1,
         "min_y": -1,
         "max_y": 1,
-        "room_count": 12
+        "room_count": 13
       }
     },
     "1": {

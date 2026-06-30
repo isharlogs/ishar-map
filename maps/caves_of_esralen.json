@@ -23,17 +23,6 @@
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "n": {
-              "to_vnum": 47079,
-              "to_zone": "Astorath's Maze",
-              "to_room_name": "Misty Cave",
-              "direction": "n",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
-              "has_door": false
-            },
             "w": {
               "to_vnum": 61038,
               "to_zone": "Within the Mists",
@@ -55,7 +44,9 @@
               "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            47079
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -227,35 +218,45 @@
           "death_trap": false,
           "portal": false
         },
-        "61092": {
-          "vnum": 61092,
-          "name": "Narrow Cave",
-          "description": "You step between rows of abrasive stalagmites hanging from the ceiling of this narrow cave. Small openings lead in a multitude of directions, yet those large enough for passage lay to the east and to the north, from which an oddly shimmering mist appears to originate.",
-          "grid_x": 2,
-          "grid_y": -3,
+        "1092": {
+          "vnum": 1092,
+          "name": "Bottom of a Mist-Filled Well",
+          "description": "Crumbled bits of rock and stone rest upon the floor at the bottom of a circular well within the caves. A thick, billowing mist rolls out of a small opening in the stone to the north. From time to time a shadow can be seen passing through the shroud of vapours. An odd sensation runs the length of your spine here. To the west is a small cave opening. You stride into the mists of the hollowing. Misty Cave",
+          "grid_x": 6,
+          "grid_y": -4,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {},
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "1093": {
+          "vnum": 1093,
+          "name": "Bottom of a Mist-Filled Well",
+          "description": "Crumbled bits of rock and stone rest upon the floor at the bottom of a circular well within the caves. A thick, billowing mist rolls out of a small opening in the stone to the north. From time to time a shadow can be seen passing through the shroud of vapours. An odd sensation runs the length of your spine here. To the west is a small cave opening. exits You are very thirsty and should find something to drink. You stride into the mists of the hollowing. Misty Cave",
+          "grid_x": 6,
+          "grid_y": -2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "e": {
-              "to_vnum": 61091,
-              "to_zone": "Caves of Esralen",
-              "to_room_name": "Forked Cave",
-              "direction": "e",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": false
-            },
             "n": {
-              "to_vnum": 61093,
-              "to_zone": "Caves of Esralen",
-              "to_room_name": "Edge of a Mist-Filled Well",
+              "to_vnum": 881,
+              "to_zone": "Astorath's Maze",
+              "to_room_name": "Misty Cave",
               "direction": "n",
-              "is_cross_zone": false,
+              "is_cross_zone": true,
               "is_cross_floor": false,
-              "to_floor": 0,
+              "to_floor": null,
               "is_portal": false,
               "has_door": false
             }
@@ -266,7 +267,7 @@
           "nodes": [],
           "staircase": null,
           "stack": null,
-          "detached": false,
+          "detached": true,
           "spinner": false,
           "death_trap": false,
           "portal": false
@@ -299,6 +300,50 @@
               "direction": "d",
               "is_cross_zone": false,
               "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "61092": {
+          "vnum": 61092,
+          "name": "Narrow Cave",
+          "description": "You step between rows of abrasive stalagmites hanging from the ceiling of this narrow cave. Small openings lead in a multitude of directions, yet those large enough for passage lay to the east and to the north, from which an oddly shimmering mist appears to originate.",
+          "grid_x": 2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 61091,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Forked Cave",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 61093,
+              "to_zone": "Caves of Esralen",
+              "to_room_name": "Edge of a Mist-Filled Well",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
               "has_door": false
             }
           },
@@ -746,7 +791,7 @@
         "max_x": 3,
         "min_y": -4,
         "max_y": 2,
-        "room_count": 13
+        "room_count": 15
       }
     }
   },

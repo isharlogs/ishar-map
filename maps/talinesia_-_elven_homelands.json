@@ -2309,7 +2309,7 @@
     },
     "2": {
       "floor_id": 2,
-      "entry_vnum": 92068,
+      "entry_vnum": 92060,
       "rooms": {
         "92059": {
           "vnum": 92059,
@@ -2727,11 +2727,11 @@
             "e": {
               "to_vnum": 92069,
               "to_zone": "Talinesia - Elven Homelands",
-              "to_room_name": "",
+              "to_room_name": "Arch-Chancellor's Chambers",
               "direction": "e",
-              "is_cross_zone": true,
+              "is_cross_zone": false,
               "is_cross_floor": false,
-              "to_floor": null,
+              "to_floor": 2,
               "is_portal": false,
               "has_door": true
             },
@@ -2759,6 +2759,41 @@
             }
           },
           "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "92069": {
+          "vnum": 92069,
+          "name": "Arch-Chancellor's Chambers",
+          "description": "This room is absolutely covered in junk. Trays of half-eaten chicken carcasses, plates of unfinished potatoes, heaps of unwashed clothing; all litter the floor. Amid the mess sits an unmade bed, ruffled from a previous night's restless sleep.",
+          "grid_x": 4,
+          "grid_y": -5,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "w": {
+              "to_vnum": 92068,
+              "to_zone": "Talinesia - Elven Homelands",
+              "to_room_name": "Lavish Hallway",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 2,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            92056
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -3061,7 +3096,7 @@
               "is_cross_floor": false,
               "to_floor": 2,
               "is_portal": false,
-              "has_door": false
+              "has_door": true
             },
             "s": {
               "to_vnum": 92079,
@@ -3887,7 +3922,7 @@
         "max_x": 5,
         "min_y": -8,
         "max_y": 4,
-        "room_count": 30
+        "room_count": 31
       }
     }
   },
@@ -4842,6 +4877,23 @@
       "floor": 2,
       "is_stair": false,
       "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 92068,
+      "to": 92069,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -5
+      ],
+      "to_grid": [
+        4,
+        -5
+      ],
+      "floor": 2,
+      "is_stair": false,
+      "has_door": true,
       "is_one_way": false
     },
     {

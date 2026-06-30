@@ -203,7 +203,14 @@
             }
           },
           "unwalked": [],
-          "npcs": [],
+          "npcs": [
+            {
+              "name": "Black lizard",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
           "chests": [],
           "nodes": [],
           "staircase": null,

@@ -11,8 +11,41 @@
   "floors": {
     "0": {
       "floor_id": 0,
-      "entry_vnum": 38099,
+      "entry_vnum": 38091,
       "rooms": {
+        "38091": {
+          "vnum": 38091,
+          "name": "At the Bottom of the Cleft",
+          "description": "Large, sharp-edged rocks surround you at the bottom of the cleft. Looking up above, a narrow opening can be seen. The air here is foul, and a quick glance at your surroundings reveals the source: a small, low tunnel leading into the rocks, to the north. Narrow Cleft",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 24100,
+              "to_zone": "Northern Mountains",
+              "to_room_name": "Narrow Cleft",
+              "direction": "u",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
         "38098": {
           "vnum": 38098,
           "name": "Steep Tunnel",
@@ -108,7 +141,7 @@
         "max_x": 1,
         "min_y": 0,
         "max_y": 0,
-        "room_count": 2
+        "room_count": 3
       }
     },
     "1": {

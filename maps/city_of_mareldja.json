@@ -6,7 +6,7 @@
     "min_x": -13,
     "max_x": 14,
     "min_y": -10,
-    "max_y": 31
+    "max_y": 30
   },
   "floors": {
     "-2": {
@@ -1236,7 +1236,7 @@
               "is_cross_floor": false,
               "to_floor": 0,
               "is_portal": false,
-              "has_door": false
+              "has_door": true
             },
             "w": {
               "to_vnum": 40014,
@@ -2251,7 +2251,7 @@
               "is_cross_floor": false,
               "to_floor": 0,
               "is_portal": false,
-              "has_door": false
+              "has_door": true
             },
             "n": {
               "to_vnum": 40022,
@@ -3656,7 +3656,7 @@
               "is_cross_floor": false,
               "to_floor": 0,
               "is_portal": false,
-              "has_door": false
+              "has_door": true
             },
             "n": {
               "to_vnum": 40060,
@@ -4569,21 +4569,10 @@
               "is_portal": false,
               "has_door": false
             },
-            "s": {
+            "w": {
               "to_vnum": 40097,
               "to_zone": "City of Mareldja",
               "to_room_name": "The Cup and Tippler",
-              "direction": "s",
-              "is_cross_zone": false,
-              "is_cross_floor": false,
-              "to_floor": 0,
-              "is_portal": false,
-              "has_door": false
-            },
-            "w": {
-              "to_vnum": 40095,
-              "to_zone": "City of Mareldja",
-              "to_room_name": "Harbor",
               "direction": "w",
               "is_cross_zone": false,
               "is_cross_floor": false,
@@ -4592,7 +4581,9 @@
               "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            40095
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -4713,9 +4704,9 @@
               "has_door": false
             },
             "s": {
-              "to_vnum": 40051,
+              "to_vnum": 40094,
               "to_zone": "City of Mareldja",
-              "to_room_name": "At the Bar",
+              "to_room_name": "Concourse of Air",
               "direction": "s",
               "is_cross_zone": false,
               "is_cross_floor": false,
@@ -4724,7 +4715,9 @@
               "has_door": false
             }
           },
-          "unwalked": [],
+          "unwalked": [
+            40051
+          ],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -5542,7 +5535,7 @@
           "name": "Forest Road",
           "description": "The forest bulks large and gloomy to the east. Strange cries and soft, whispering moans occasionally come faintly from the wooded depths. The passage of your feet raises small clouds of dust from the road's packed and even surface. The road continues to the north and south. Forest Road",
           "grid_x": 0,
-          "grid_y": 28,
+          "grid_y": 27,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -5586,7 +5579,7 @@
           "name": "Forest Road",
           "description": "The sounds of furtive movement seem to pace you, just out of sight behind the trees. Fortunately the road only skirts along the edge of the forest and doesn't actually go through it. Forest Road",
           "grid_x": 0,
-          "grid_y": 29,
+          "grid_y": 28,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -5630,7 +5623,7 @@
           "name": "Forest Road",
           "description": "The trail rises to the south as it climbs a small rocky hill. This way is a well trafficked road, however, so travel is easy. The road continues straight to the north. Hillock",
           "grid_x": 0,
-          "grid_y": 30,
+          "grid_y": 29,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -5674,7 +5667,7 @@
           "name": "Hillock",
           "description": "The path makes a sharp bend here, heading downslope as it moves north. To the east, the trail goes only a short distance before it turns south again.",
           "grid_x": 0,
-          "grid_y": 31,
+          "grid_y": 30,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -5718,7 +5711,7 @@
           "name": "Rocky Slope",
           "description": "A short, steep path leads down to join a pleasant country road to the south. A rock-strewn trail heads west for a short distance before it turns to the north. Country Road",
           "grid_x": 1,
-          "grid_y": 31,
+          "grid_y": 30,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -6872,7 +6865,7 @@
         "min_x": -13,
         "max_x": 14,
         "min_y": -10,
-        "max_y": 31,
+        "max_y": 30,
         "room_count": 124
       }
     },
@@ -8117,7 +8110,7 @@
       ],
       "floor": 0,
       "is_stair": false,
-      "has_door": false,
+      "has_door": true,
       "is_one_way": false
     },
     {
@@ -8373,7 +8366,7 @@
       "floor": 0,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": false
+      "is_one_way": true
     },
     {
       "from": 40052,
@@ -8729,7 +8722,7 @@
       ],
       "floor": 0,
       "is_stair": false,
-      "has_door": false,
+      "has_door": true,
       "is_one_way": false
     },
     {
@@ -9075,7 +9068,7 @@
     {
       "from": 40094,
       "to": 40097,
-      "direction": "s",
+      "direction": "w",
       "from_grid": [
         -1,
         9
@@ -9087,24 +9080,24 @@
       "floor": 0,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": false
+      "is_one_way": true
     },
     {
-      "from": 40094,
-      "to": 40095,
-      "direction": "w",
+      "from": 40095,
+      "to": 40094,
+      "direction": "e",
       "from_grid": [
-        -1,
+        -2,
         9
       ],
       "to_grid": [
-        -2,
+        -1,
         9
       ],
       "floor": 0,
       "is_stair": false,
       "has_door": false,
-      "is_one_way": false
+      "is_one_way": true
     },
     {
       "from": 40095,
@@ -9367,11 +9360,11 @@
       "direction": "s",
       "from_grid": [
         0,
-        28
+        27
       ],
       "to_grid": [
         0,
-        29
+        28
       ],
       "floor": 0,
       "is_stair": false,
@@ -9384,11 +9377,11 @@
       "direction": "s",
       "from_grid": [
         0,
-        29
+        28
       ],
       "to_grid": [
         0,
-        30
+        29
       ],
       "floor": 0,
       "is_stair": false,
@@ -9401,11 +9394,11 @@
       "direction": "s",
       "from_grid": [
         0,
-        30
+        29
       ],
       "to_grid": [
         0,
-        31
+        30
       ],
       "floor": 0,
       "is_stair": false,
@@ -9418,11 +9411,11 @@
       "direction": "e",
       "from_grid": [
         0,
-        31
+        30
       ],
       "to_grid": [
         1,
-        31
+        30
       ],
       "floor": 0,
       "is_stair": false,

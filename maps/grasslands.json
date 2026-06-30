@@ -1,44 +1,39 @@
 {
   "zone_name": "Grasslands",
-  "entry_vnum": 71050,
-  "floor_count": 1,
+  "entry_vnum": 71000,
+  "floor_count": 2,
   "bounds": {
-    "min_x": 0,
-    "max_x": 0,
-    "min_y": 0,
-    "max_y": 0
+    "min_x": -5,
+    "max_x": 5,
+    "min_y": -3,
+    "max_y": 3
   },
   "floors": {
-    "0": {
-      "floor_id": 0,
-      "entry_vnum": 71050,
+    "-1": {
+      "floor_id": -1,
+      "entry_vnum": 71045,
       "rooms": {
-        "71050": {
-          "vnum": 71050,
-          "name": "Grasslands",
-          "description": "The ancient wall of Oldgate rises to your north. Time has pried away several huge blocks of grey stone and driven them deep into the surrounding soil. Knee- high grasses cover the ground, encircling these broken remnants of civilization like vultures waiting patiently for the final throes of death. You can travel west along the wall or east or south into the open prairie.",
+        "71045": {
+          "vnum": 71045,
+          "name": "In the Nehva's Roots",
+          "description": "The roots of the nehva form a large sphere. The gnarled roots lock together tightly around the lower edges to prevent water from escaping but remain loose bottom of the chamber is filled with muddy brown water, and the roots beneath the water are extremely slippery. The only egress apparent is back the way you entered.",
           "grid_x": 0,
           "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
-            "w": {
-              "to_vnum": 22073,
-              "to_zone": "City of Oldgate",
-              "to_room_name": "Outside of Surtower",
-              "direction": "w",
-              "is_cross_zone": true,
-              "is_cross_floor": false,
-              "to_floor": null,
-              "is_portal": false,
+            "u": {
+              "to_vnum": 71044,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
               "has_door": false
             }
           },
-          "unwalked": [
-            71019,
-            76076
-          ],
+          "unwalked": [],
           "npcs": [],
           "chests": [],
           "nodes": [],
@@ -60,7 +55,3314 @@
         "max_y": 0,
         "room_count": 1
       }
+    },
+    "0": {
+      "floor_id": 0,
+      "entry_vnum": 71000,
+      "rooms": {
+        "71040": {
+          "vnum": 71040,
+          "name": "Lush Prairie",
+          "description": "A sweeping curve of tents lines the plains from east to south, raising their domed heads above the ground in imitation of the great nehva trees. Countless people wander among the tents, and a number of mounted warriors patrol the perimeter, spears in hand. At your feet, a leafy green bush pushes aside the grasses to bear small, sweet-smelling flowers. The ground slopes slightly downward toward the tents, and the grass grows greener. You can travel in any direction.",
+          "grid_x": 4,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71041,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71033,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71048,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71039,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71041": {
+          "vnum": 71041,
+          "name": "Among the Doalic Tents",
+          "description": "The feet of a hundred Doalic tribespeople have trampled the greenish-yellow grass covering this section of the plains. Tents of leather, wood, and cord rise throughout the clearing, serving as both homes and gathering places for the Doalic people. Smoke and the scent of roasted flesh rise from a large pit in the center of the clearing, and a honey-colored liquid drips from a wooden barrels stacked to one side of the pit.",
+          "grid_x": 5,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71034,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71049,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath the Bahtzen-Hide",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71040,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71042": {
+          "vnum": 71042,
+          "name": "Grasslands",
+          "description": "The grass here deepens from the golden hue visible to the north to a darker, earthier brown. The webs of giant spiders dot the area, and you note the peculiar absence of small rodents. The land to the west is dotted with small trees; other directions boast only yellow grass and an occasional nehva tree. You can head across the grasslands north, east or west and a beaten path leads south.",
+          "grid_x": -1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71043,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71036,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71300,
+              "to_zone": "Shadowguard Keep",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 76078,
+              "to_zone": "Talrynian Forest",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71043": {
+          "vnum": 71043,
+          "name": "Grasslands",
+          "description": "You come upon the remains of an old bahtzen cow. Judging from the corpse and the amount of spoor in the vicinity, you surmise that the cow fell to a pack of swift carnivores. The eternal yellow grasses around you tell nothing more of the life or death of the beast at your feet. An ancient nehva tree rises to the east, its vast green canopy of branches mottled with streaks of brown. You can head toward the tree or continue through the grass to the north or west.",
+          "grid_x": 0,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71044,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71037,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71042,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71044": {
+          "vnum": 71044,
+          "name": "Beneath a Nehva Tree",
+          "description": "You rest in the shade of an ancient nehva, its thick boughs towering far above the grasslands. Fire has deeply scarred one side of the trunk, burning away the bark and opening a hole into the hollow root system below. Deprived of water by this damage, numerous branches have died, mottling the green canopy above you with patches of brown and red. The prairie continues to the east and west.",
+          "grid_x": 1,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71046,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71043,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "d": {
+              "to_vnum": 71045,
+              "to_zone": "Grasslands",
+              "to_room_name": "In the Nehva's Roots",
+              "direction": "d",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71046": {
+          "vnum": 71046,
+          "name": "Grasslands",
+          "description": "The song of an unseen bird lightens your mood as you continue your passage through the grasslands. A light wind from the west blows gently upon you and bends down the grass in your path. Above you, the blue dome of the sky holds not a cloud. The grasslands extend north, east and west. In the last direction, you see the mottled cap of a nehva tree. A beaten path leads through the grasses to the southwest.",
+          "grid_x": 2,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71047,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71038,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "sw": {
+              "to_vnum": 78000,
+              "to_zone": "Fortress of the Sorcerer King",
+              "to_room_name": "At The Green Shore",
+              "direction": "sw",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71044,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71047": {
+          "vnum": 71047,
+          "name": "Lush Prairie",
+          "description": "As the ground drops slowly from the west, the grass changes color from that of honey to a more subdued greenish hue. The tents of the Doalic people rise to the east, and you spot several warriors mounted on bahtzen. The grasses nearby ripple in the soft but omnipresent western breeze. To the northwest, an odd line of reddish brown tints the horizon. You can make your way north or west through the grasses or move among the Doalic tents to the east.",
+          "grid_x": 3,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71048,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71039,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71046,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71048": {
+          "vnum": 71048,
+          "name": "Among the Doalic Tents",
+          "description": "The tents of the Doalic people are packed closely here, leaving only narrow paths of trampled grass between them. The frame of each tent consists of several long branches set upright in a circle and bent inward at the top to form a rounded roof. Bahtzen hides are stretched around these frames and secured with cords of woven grass to keep out the constant wind and infrequent rain. You can travel north, east, or west.",
+          "grid_x": 4,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71049,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath the Bahtzen-Hide",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71040,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71047,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71049": {
+          "vnum": 71049,
+          "name": "Beneath the Bahtzen-Hide",
+          "description": "Trophies adorn much of this large tent: the heads of grass spiders, the dingy hide of a jackal, the pelts of giant weasels. A small fire burns in the center of the tent, ventilated through a hole in the skins overhead. Doalic men and women constantly bustle in and out of the tent, often stopping to deposit some article or to retrieve another. Exits lead north and west.",
+          "grid_x": 5,
+          "grid_y": 3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71041,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71048,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Doalic guard",
+              "description": "",
+              "unique": false,
+              "npc_type": "trash"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71050": {
+          "vnum": 71050,
+          "name": "Grasslands",
+          "description": "The ancient wall of Oldgate rises to your north. Time has pried away several huge blocks of grey stone and driven them deep into the surrounding soil. Knee- high grasses cover the ground, encircling these broken remnants of civilization like vultures waiting patiently for the final throes of death. You can travel west along the wall or east or south into the open prairie.",
+          "grid_x": -5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71019,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 76076,
+              "to_zone": "Talrynian Forest",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 22073,
+              "to_zone": "City of Oldgate",
+              "to_room_name": "Outside of Surtower",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71000": {
+          "vnum": 71000,
+          "name": "Dusty Path",
+          "description": "A light western breeze ruffles the tall grasses as you pass down this well- trampled trail. The trail winds down the side of a small hill rising to the north. Huge birds circle continuously over the ridge of the hill, occasionally diving down to attack some unseen prey. The towers of Oldgate sit lightly on the western horizon, hovering above the earth through some trick of the stifling heat. The path continues north to the ridge of the hill and south onto the prairies.",
+          "grid_x": -2,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 57046,
+              "to_zone": "Brown River Valley",
+              "to_room_name": "Southern Slopes of the River Valley",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71001,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71001": {
+          "vnum": 71001,
+          "name": "Grasslands",
+          "description": "Tall yellow grass surrounds you, tickling your elbows and filling your boots with burrs. The smooth golden plain stretches away to the south, broken here and there by the broad, mushroom-shaped tops of nehva trees. A slight western breeze blows the grass into waves, reminding you of the sea. A small hill rising just north of here bounds the prairie but has succumbed to the incessant march of the grass. All directions lie open.",
+          "grid_x": -2,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71003,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71000,
+              "to_zone": "Grasslands",
+              "to_room_name": "Dusty Path",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71010,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71002,
+              "to_zone": "Grasslands",
+              "to_room_name": "Near Oldgate",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71002": {
+          "vnum": 71002,
+          "name": "Near Oldgate",
+          "description": "You plow your way through the tall, yellow grasses of the prairie. To the west, a high wall of grey stone shadows the land and marks the boundary of the ancient city of Oldgate. The abandoned northeastern watchtower has crumbled over time, leaving only a few odd stones jutting from the upper edge of the wall. A steep, grass-covered ridge to the north prevents travel in that direction, but the land lies open to the east and south.",
+          "grid_x": -4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71001,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71008,
+              "to_zone": "Grasslands",
+              "to_room_name": "Near Oldgate",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71003": {
+          "vnum": 71003,
+          "name": "Grasslands",
+          "description": "As you make your way through the high grasses, you come across a web of fine silk spread across several meters. The sticky strands of the web twine through and above the grass, threatening to catch and bind you. Soft noises of motion from the grass become frequent as you travel, but you see no trace of fauna other than the web. Travel to the north is blocked by a steep hillside, but you can move east, south, or west across the level plains.",
+          "grid_x": -1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71004,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71011,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71001,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71004": {
+          "vnum": 71004,
+          "name": "Grasslands",
+          "description": "A network of narrow paths breaks the uniformity of this section of the plains. Each path is well trampled, but too narrow to be of much use to someone of your size. You occasionally stumble onto the spoor of a large carnivore near an intersection of paths. A hill climbs swiftly to the north, and the plains continue to the east, south, and west.",
+          "grid_x": 0,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71005,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71013,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71003,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71005": {
+          "vnum": 71005,
+          "name": "Grasslands",
+          "description": "A handful of narrow paths cut through the grass here, weaving long, meandering courses across the plains. Great birds of prey circle high above a hill to the north, and you once see several dive at once to attack something on the ridge. You can travel over the grassy land to the east, south, or west.",
+          "grid_x": 1,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71006,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71015,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71004,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71006": {
+          "vnum": 71006,
+          "name": "Grasslands",
+          "description": "You stand in an area of trampled grass around a gaping hole in the earth. Roughly two meters in diameter on the outside, the hole opens into a tunnel that quickly narrows to only half that size. The spoor of some vicious beast is strewn about the area, mixed with the bloody remains of several small animals-- or one large animal shredded into small parts. The grasslands continue to the east, south, and west.",
+          "grid_x": 3,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71007,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71016,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71005,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "go hole": {
+              "to_vnum": 71072,
+              "to_zone": "Labyrinth of Burrows - Labyrinth of Burrows",
+              "to_room_name": "Labyrinth of Burrows",
+              "direction": "go hole",
+              "is_cross_zone": true,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
+        "71007": {
+          "vnum": 71007,
+          "name": "Grasslands",
+          "description": "Nestled between steep slopes to the north and east, the plains here are calm and silent. No wind blows, the grass stands motionless, and the cloudless sapphire sky weighs upon your soul. Turning about, you are met with nothing but grass and sky, two hemispheres of pure color. Rallying yourself, you march onward.",
+          "grid_x": 4,
+          "grid_y": -2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71017,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71006,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71008": {
+          "vnum": 71008,
+          "name": "Near Oldgate",
+          "description": "The grey stone wall of Oldgate rises just west of here, but only silence walks the parapet. The southeastern watchtower rises several meters above the wall to command a view of the lush prairie on which you travel, surrounded by tree-- breaks the surface to the east, remaining motionless as the grass rolls and heaves around it. The grass continues to the north, east, and south.",
+          "grid_x": -4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71009,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath the Nehva Tree",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71002,
+              "to_zone": "Grasslands",
+              "to_room_name": "Near Oldgate",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71019,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71009": {
+          "vnum": 71009,
+          "name": "Beneath the Nehva Tree",
+          "description": "The grasslands' uniformity must have confused your sense of distance and perspective. The nehva is much larger than you had imagined, its top towering some eighteen to twenty meters above the grasses. Legend has it that the roots of these giant trees form a hollow bulb, allowing the trees to retain significant amounts of water during the dry season. The grasses continue in all directions, and you can travel to the east or west.",
+          "grid_x": -3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71010,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71008,
+              "to_zone": "Grasslands",
+              "to_room_name": "Near Oldgate",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71018
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71010": {
+          "vnum": 71010,
+          "name": "Grasslands",
+          "description": "The waist-high grasses brush and poke at you as you carve a path for yourself through the yellow waves. A gap in the otherwise level grass on a hillside far to the north reveals a narrow path rising to the ridge. To the west rises the rounded, green top of a nehva tree. The plains continue unbroken to the east and south.",
+          "grid_x": -2,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71011,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71001,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71020,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71009,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath the Nehva Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71011": {
+          "vnum": 71011,
+          "name": "Grasslands",
+          "description": "You stand in the heart of the prairie. In every direction, the huge green nehva trees blossom over the golden plains. Small herds of bahtzen roam the land, always keeping their distance. Now and then you cross a path through the grass, but they are always too narrow to be of use, and they always seem to be going the wrong way.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71014,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71003,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71021,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71010,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [
+            {
+              "name": "Eyrain",
+              "description": "this typical Eyraini boasts fair features and graceful motion.  Although intending no harm, his love of collections often drives him to \"borrow\" things not his own.",
+              "unique": false,
+              "npc_type": "loads_item"
+            }
+          ],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "865": {
+          "vnum": 865,
+          "name": "In the Nehva's Roots",
+          "description": "The roots of the nehva form a large sphere. The gnarled roots lock together tightly around the lower edges to prevent water from escaping but remain loose bottom of the chamber is filled with muddy brown water, and the roots beneath the water are extremely slippery. The only egress apparent is back the way you entered.",
+          "grid_x": 8,
+          "grid_y": -3,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "u": {
+              "to_vnum": 71044,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "u",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71013": {
+          "vnum": 71013,
+          "name": "Beneath a Nehva Tree",
+          "description": "A large nehva tree towers above the plains around you. The grass in the tree's shadow has been trampled flat, and at least a dozen narrow paths cut through the grass at the edge of the clearing. One region of the grass is marked with large drops of dried blood, and you find several fresh carnivore spoor in the eastern section. You can travel north or south.",
+          "grid_x": 0,
+          "grid_y": -1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71004,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71014,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71012
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71014": {
+          "vnum": 71014,
+          "name": "Grasslands",
+          "description": "The undulating surface of the grass is here broken by a number of narrow, paths. None is wide enough for a human, nor even a dwarf, but the paths seem well- trodden. As you move along, you sometimes notice large, bovine creatures peering at you from afar over the grass, but they quickly drop their heads and resume grazing on the tough grass, or shy away when you approach. The plains continue in all directions, and to the north grows a large nehva tree.",
+          "grid_x": 0,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71015,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71013,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71022,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71011,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71015": {
+          "vnum": 71015,
+          "name": "Grasslands",
+          "description": "As you crush the grass before you, your mind wanders over your life: assets, accomplishments, ambitions. A sudden scream rips aside your curtain of isolation and refocuses you attention on the surrounding land. Just north of you, something small opens a tunnel in the grass as it runs westward, wailing to the heavens. Close behind it, head bobbing above the grass as it gives chase, is a giant weasel. Soon the two vanish, and you return to your reverie.",
+          "grid_x": 1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71016,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71005,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71014,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71016": {
+          "vnum": 71016,
+          "name": "Grasslands",
+          "description": "As you move through the tall grass, you encounter several wide tracks, none of which seems to have been used more than once. Following one of these tracks, you note smears of fresh blood and the spoor of a large carnivore. The grasslands continue in every direction, and to the south lies a giant nehva tree.",
+          "grid_x": 3,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71017,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71006,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71032,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71015,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71017": {
+          "vnum": 71017,
+          "name": "Grasslands",
+          "description": "Although the hill to the east is here low enough to allow the wind to ripple across the plains, it remains impassable. Your monotonous voyage begins to grind at your emotions, and the realization that you still see nothing but grass to every horizon brings frustration and anger. You can keep moving to the north, south, or west.",
+          "grid_x": 4,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71007,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71033,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71016,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71019": {
+          "vnum": 71019,
+          "name": "Grasslands",
+          "description": "Just to the northwest lies the ancient city of Oldgate. From where you stand amidst the dry grass of the prairie, you can see nearly all of the eastern and southern walls of the city. Quite close to you, the two walls of grey stone meet beneath a high watchtower, which remains intact despite its age and long abandonment. The eastern wall stretches away toward the crumbled northeastern tower, while the southern wall breaks at a surtower and gate. You can travel north, east, or west through the grasses.",
+          "grid_x": -4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71020,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71008,
+              "to_zone": "Grasslands",
+              "to_room_name": "Near Oldgate",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71050,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71020": {
+          "vnum": 71020,
+          "name": "Grasslands",
+          "description": "As you continue your trek through the high yellow grass, you fancy that you have died and now wander the bleak realm of Varenya. Endless seas of yellow surround you; landmarks in the distance remain indefinitely distant. The grasses continue their unending march in every direction, but dots of green far to the southwest mark the edge of a forest.",
+          "grid_x": -2,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71021,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71010,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71035,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71019,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71021": {
+          "vnum": 71021,
+          "name": "Grasslands",
+          "description": "Wave after wave of grass passes you, blown on by a soft wind from the west. After trekking through the amber grass, you stop for a moment to rid your legs and boots of the clinging grass seed. As you work, the low of a bahtzen cow breaks the silence, reminding you that these lands teem with animal life, although one almost never notices. The broad green cap of a nehva tree shadows the land to the south, and the grass continues in all directions.",
+          "grid_x": -1,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71022,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71011,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71036,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71020,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71022": {
+          "vnum": 71022,
+          "name": "Grasslands",
+          "description": "Large webs strung between the strands of grass cover the area around you, forcing you to weave a path around them to avoid entanglement. East of here, the yellow grass gives way to a jumble of reddish stone, perhaps the ruins of an ancient structure. You can travel north, south, or west through the grass.",
+          "grid_x": 0,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "n": {
+              "to_vnum": 71014,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71037,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71021,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71032": {
+          "vnum": 71032,
+          "name": "Beneath a Nehva Tree",
+          "description": "A nehva tree rises here, shooting its great trunk toward the heavens and shadowing the plains with its long, leafy branches. The cool shade offers you a brief respite from the open grasslands surrounding you. A short distance to the west, a jumble of red sandstone rises above the grasses. You can travel north, east, or south.",
+          "grid_x": 3,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71033,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71016,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71039,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71092
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71033": {
+          "vnum": 71033,
+          "name": "Grasslands",
+          "description": "Surrounded by the golden grass, tossing in the western breeze, your thoughts turn to the sea, and you imagine the taste of salt sea air tingling on your tongue. The land begins to slope downward to the southeast, where the grass loses its golden luster and becomes a more common shade of green. A nehva tree rises to the west. You can travel in any direction.",
+          "grid_x": 4,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71034,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71017,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71040,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71032,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71034": {
+          "vnum": 71034,
+          "name": "Lush Prairie",
+          "description": "The golden shade of the grass to the west here darkens to a rich greenish- yellow. A handful of small, leafy bushes grow amidst the grass, dotting the region with bursts of white flowers. A light breeze from the west, combined with a trace of moisture in the air, carries the fragrant odor of these blooms. The ground falls softly to the east, where the grass stretches to the horizon. To the south, a thin column of smoke climbs from the center of a group of tents.",
+          "grid_x": 5,
+          "grid_y": 1,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "s": {
+              "to_vnum": 71041,
+              "to_zone": "Grasslands",
+              "to_room_name": "Among the Doalic Tents",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71033,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71035": {
+          "vnum": 71035,
+          "name": "Grasslands",
+          "description": "You move through a vast sea of yellow grass, your legs lost below the surface as you trudge onward. The bright blue sky overhead is devoid of clouds, and the only sound you hear is the rustling of the wind in the grass. To the east, a huge tree bursts from the plains; far to the west, you see the beginnings of a forest. You can travel in any direction.",
+          "grid_x": -2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71036,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71020,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 76078,
+              "to_zone": "Talrynian Forest",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 76076,
+              "to_zone": "Talrynian Forest",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71036": {
+          "vnum": 71036,
+          "name": "Beneath a Nehva Tree",
+          "description": "You stop in the shadow of a nehva tree, near the great trunk. High above you, the branches shoot off over the grasses, searching for sunlight while blessing you with shade. Silken webs woven into the grass catch the light as it washes across the plains, and you imagine that their bright white forms are foam on the waves of grass. All directions lie open for travel.",
+          "grid_x": -1,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71037,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71021,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71042,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71035,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [
+            71097
+          ],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71037": {
+          "vnum": 71037,
+          "name": "Grasslands",
+          "description": "The high grass catches at you as you trample it down, forcing you to exaggerate your steps as when marching. Piles of red sandstone decorate the plains to the northeast. Your imagination makes one pile out as the remains of a tower. The grasses continue in every direction, and to the west is a large nehva tree.",
+          "grid_x": 0,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71038,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71022,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71043,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71036,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71038": {
+          "vnum": 71038,
+          "name": "Grasslands",
+          "description": "You stand just south of what at first appears to be no more than a jumbled pile of reddish sandstone. Looking more closely, you note that several of the larger stones have been carved with elaborate, if somewhat chaotic, patterns, and recognize at last the original form of the structure in its now desolate ruins. Hidden from view by debris, much of the wall remains intact, protecting the interior of the structure from intruders. The grasslands continue to the east, south, and west.",
+          "grid_x": 2,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71039,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71030,
+              "to_zone": "Ruins of Isneen - Labyrinth of Burrows",
+              "to_room_name": "Tumbled Archway",
+              "direction": "n",
+              "is_cross_zone": true,
+              "is_cross_floor": false,
+              "to_floor": null,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71046,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71037,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "71039": {
+          "vnum": 71039,
+          "name": "Grasslands",
+          "description": "Rising to your waist, the thick yellow grass clings to you as you make your way across the land. A structure of red sandstone sits to the northwest. The prairie continues in every direction, growing greener to the southeast and sprouting a huge nehva tree to the north.",
+          "grid_x": 3,
+          "grid_y": 2,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 71040,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "n": {
+              "to_vnum": 71032,
+              "to_zone": "Grasslands",
+              "to_room_name": "Beneath a Nehva Tree",
+              "direction": "n",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "s": {
+              "to_vnum": 71047,
+              "to_zone": "Grasslands",
+              "to_room_name": "Lush Prairie",
+              "direction": "s",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            },
+            "w": {
+              "to_vnum": 71038,
+              "to_zone": "Grasslands",
+              "to_room_name": "Grasslands",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": 0,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        }
+      },
+      "warped_pockets": [],
+      "hidden_sections": [],
+      "chains": {},
+      "metadata": {
+        "min_x": -5,
+        "max_x": 5,
+        "min_y": -3,
+        "max_y": 3,
+        "room_count": 40
+      }
     }
   },
-  "edges": []
+  "edges": [
+    {
+      "from": 71000,
+      "to": 71001,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -3
+      ],
+      "to_grid": [
+        -2,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71001,
+      "to": 71003,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71001,
+      "to": 71010,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71001,
+      "to": 71002,
+      "direction": "w",
+      "from_grid": [
+        -2,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71002,
+      "to": 71008,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        -2
+      ],
+      "to_grid": [
+        -4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71003,
+      "to": 71004,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71003,
+      "to": 71011,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        -2
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71004,
+      "to": 71005,
+      "direction": "e",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        1,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71004,
+      "to": 71013,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -2
+      ],
+      "to_grid": [
+        0,
+        -1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71005,
+      "to": 71006,
+      "direction": "e",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        3,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71005,
+      "to": 71015,
+      "direction": "s",
+      "from_grid": [
+        1,
+        -2
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71006,
+      "to": 71007,
+      "direction": "e",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        4,
+        -2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71006,
+      "to": 71016,
+      "direction": "s",
+      "from_grid": [
+        3,
+        -2
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71007,
+      "to": 71017,
+      "direction": "s",
+      "from_grid": [
+        4,
+        -2
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71008,
+      "to": 71009,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71008,
+      "to": 71019,
+      "direction": "s",
+      "from_grid": [
+        -4,
+        0
+      ],
+      "to_grid": [
+        -4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71009,
+      "to": 71010,
+      "direction": "e",
+      "from_grid": [
+        -3,
+        0
+      ],
+      "to_grid": [
+        -2,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71010,
+      "to": 71011,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71010,
+      "to": 71020,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        0
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71011,
+      "to": 71014,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71011,
+      "to": 71021,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        0
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71013,
+      "to": 71014,
+      "direction": "s",
+      "from_grid": [
+        0,
+        -1
+      ],
+      "to_grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71014,
+      "to": 71015,
+      "direction": "e",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71014,
+      "to": 71022,
+      "direction": "s",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71015,
+      "to": 71016,
+      "direction": "e",
+      "from_grid": [
+        1,
+        0
+      ],
+      "to_grid": [
+        3,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71016,
+      "to": 71017,
+      "direction": "e",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        4,
+        0
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71016,
+      "to": 71032,
+      "direction": "s",
+      "from_grid": [
+        3,
+        0
+      ],
+      "to_grid": [
+        3,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71017,
+      "to": 71033,
+      "direction": "s",
+      "from_grid": [
+        4,
+        0
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71019,
+      "to": 71020,
+      "direction": "e",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -2,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71019,
+      "to": 71050,
+      "direction": "w",
+      "from_grid": [
+        -4,
+        1
+      ],
+      "to_grid": [
+        -5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71020,
+      "to": 71021,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -1,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71020,
+      "to": 71035,
+      "direction": "s",
+      "from_grid": [
+        -2,
+        1
+      ],
+      "to_grid": [
+        -2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71021,
+      "to": 71022,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71021,
+      "to": 71036,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        1
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71022,
+      "to": 71037,
+      "direction": "s",
+      "from_grid": [
+        0,
+        1
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71032,
+      "to": 71033,
+      "direction": "e",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        4,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71032,
+      "to": 71039,
+      "direction": "s",
+      "from_grid": [
+        3,
+        1
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71033,
+      "to": 71034,
+      "direction": "e",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        5,
+        1
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71033,
+      "to": 71040,
+      "direction": "s",
+      "from_grid": [
+        4,
+        1
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71034,
+      "to": 71041,
+      "direction": "s",
+      "from_grid": [
+        5,
+        1
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71035,
+      "to": 71036,
+      "direction": "e",
+      "from_grid": [
+        -2,
+        2
+      ],
+      "to_grid": [
+        -1,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71036,
+      "to": 71037,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        0,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71036,
+      "to": 71042,
+      "direction": "s",
+      "from_grid": [
+        -1,
+        2
+      ],
+      "to_grid": [
+        -1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71037,
+      "to": 71038,
+      "direction": "e",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        2,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71037,
+      "to": 71043,
+      "direction": "s",
+      "from_grid": [
+        0,
+        2
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71038,
+      "to": 71039,
+      "direction": "e",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        3,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71038,
+      "to": 71046,
+      "direction": "s",
+      "from_grid": [
+        2,
+        2
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71039,
+      "to": 71040,
+      "direction": "e",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        4,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71039,
+      "to": 71047,
+      "direction": "s",
+      "from_grid": [
+        3,
+        2
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71040,
+      "to": 71041,
+      "direction": "e",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        5,
+        2
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71040,
+      "to": 71048,
+      "direction": "s",
+      "from_grid": [
+        4,
+        2
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71041,
+      "to": 71049,
+      "direction": "s",
+      "from_grid": [
+        5,
+        2
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71042,
+      "to": 71043,
+      "direction": "e",
+      "from_grid": [
+        -1,
+        3
+      ],
+      "to_grid": [
+        0,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71043,
+      "to": 71044,
+      "direction": "e",
+      "from_grid": [
+        0,
+        3
+      ],
+      "to_grid": [
+        1,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71044,
+      "to": 71046,
+      "direction": "e",
+      "from_grid": [
+        1,
+        3
+      ],
+      "to_grid": [
+        2,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71046,
+      "to": 71047,
+      "direction": "e",
+      "from_grid": [
+        2,
+        3
+      ],
+      "to_grid": [
+        3,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71047,
+      "to": 71048,
+      "direction": "e",
+      "from_grid": [
+        3,
+        3
+      ],
+      "to_grid": [
+        4,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    },
+    {
+      "from": 71048,
+      "to": 71049,
+      "direction": "e",
+      "from_grid": [
+        4,
+        3
+      ],
+      "to_grid": [
+        5,
+        3
+      ],
+      "floor": 0,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
 }

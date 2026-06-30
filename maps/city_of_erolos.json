@@ -3,7 +3,7 @@
   "entry_vnum": 83200,
   "floor_count": 2,
   "bounds": {
-    "min_x": 0,
+    "min_x": -1,
     "max_x": 0,
     "min_y": 0,
     "max_y": 0
@@ -23,6 +23,17 @@
           "sub_y": 0,
           "chain_id": 0,
           "exits": {
+            "w": {
+              "to_vnum": 83202,
+              "to_zone": "City of Erolos",
+              "to_room_name": "The Open Sea",
+              "direction": "w",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            },
             "u": {
               "to_vnum": 83200,
               "to_zone": "City of Erolos",
@@ -33,8 +44,41 @@
               "has_door": false
             }
           },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": false,
+          "spinner": false,
+          "death_trap": false,
+          "portal": false
+        },
+        "83202": {
+          "vnum": 83202,
+          "name": "The Open Sea",
+          "description": "Small schools of jellyfish drift lazily by, their long, delicate tendrils trailing behind them. Looking down, you can see that the seafloor drops off steeply, the colors of the ocean begin to fade into shades of blue and green. You can feel the rush of water passing over your skin as you swim, and you hear the sound of your own breath and the bubbles that escape from your mouth.",
+          "grid_x": -1,
+          "grid_y": 0,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "e": {
+              "to_vnum": 83201,
+              "to_zone": "City of Erolos",
+              "to_room_name": "The Open Sea",
+              "direction": "e",
+              "is_cross_zone": false,
+              "is_cross_floor": false,
+              "to_floor": -1,
+              "is_portal": false,
+              "has_door": false
+            }
+          },
           "unwalked": [
-            83202
+            83203
           ],
           "npcs": [],
           "chests": [],
@@ -51,11 +95,11 @@
       "hidden_sections": [],
       "chains": {},
       "metadata": {
-        "min_x": 0,
+        "min_x": -1,
         "max_x": 0,
         "min_y": 0,
         "max_y": 0,
-        "room_count": 1
+        "room_count": 2
       }
     },
     "0": {
@@ -128,5 +172,23 @@
       }
     }
   },
-  "edges": []
+  "edges": [
+    {
+      "from": 83201,
+      "to": 83202,
+      "direction": "w",
+      "from_grid": [
+        0,
+        0
+      ],
+      "to_grid": [
+        -1,
+        0
+      ],
+      "floor": -1,
+      "is_stair": false,
+      "has_door": false,
+      "is_one_way": false
+    }
+  ]
 }

@@ -18,7 +18,7 @@
           "name": "Painted Cave",
           "description": "The sound of running water from the river below echoes in this small cave along the cliff. The ceiling lowers deeper into the cave where it splits off in two directions. Upon the moistened walls here are several crude paintings.",
           "grid_x": 7,
-          "grid_y": -4,
+          "grid_y": -2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -60,7 +60,7 @@
           "name": "On the Cliff",
           "description": "You cling to the side of a inwardly sloping cliff above the river of Bruenor's Woe. Below the water flows idly by, through the canyon, awaiting your splashing form should you slip. Here a small cave entrance beckons, appearing a much safer exit than the precarious climb back down the cliff.",
           "grid_x": 7,
-          "grid_y": -2,
+          "grid_y": 0,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -100,7 +100,7 @@
           "name": "Mouth of a Cavern",
           "description": "Zig-zagging through a maze of conical rock formations upon the floor of the cave you reach a large opening leading into an even larger cavern. Bats line the ceiling, chittering and grooming. A foul odor wafts from the circular opening.",
           "grid_x": 7,
-          "grid_y": 0,
+          "grid_y": 2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -142,7 +142,7 @@
           "name": "Cave Beside the Falls",
           "description": "Here within a wide cave opening aside the falls, a thick spray of mist drifts about, soaking the surfaces. The cave ventures into the earth to the west, where you can see the opening of a large cavern. The waters of Bruenor flow angrily southward below.",
           "grid_x": 8,
-          "grid_y": 0,
+          "grid_y": 2,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -164,15 +164,6 @@
               "to_room_name": "Base of the Falls",
               "direction": "go out",
               "is_cross_zone": false,
-              "is_portal": true,
-              "has_door": false
-            },
-            "out of the cave": {
-              "to_vnum": 72023,
-              "to_zone": "Shinerock Mines",
-              "to_room_name": "Shinerock Mine Shaft",
-              "direction": "out of the cave",
-              "is_cross_zone": true,
               "is_portal": true,
               "has_door": false
             }
@@ -917,12 +908,43 @@
           "death_trap": false,
           "portal": false
         },
+        "1096": {
+          "vnum": 1096,
+          "name": "Cave Beside the Falls",
+          "description": "Here within a wide cave opening aside the falls, a thick spray of mist drifts about, soaking the surfaces. The cave ventures into the earth to the west, where you can see the opening of a large cavern. The waters of Bruenor flow angrily southward below. go out You climb out of the cave, and fall into the water below. You gently float downward and come to a stop.",
+          "grid_x": 7,
+          "grid_y": -6,
+          "sub_x": 0,
+          "sub_y": 0,
+          "chain_id": 0,
+          "exits": {
+            "go out": {
+              "to_vnum": 24079,
+              "to_zone": "Bruenor's Canyon",
+              "to_room_name": "Base of the Falls",
+              "direction": "go out",
+              "is_cross_zone": false,
+              "is_portal": true,
+              "has_door": false
+            }
+          },
+          "unwalked": [],
+          "npcs": [],
+          "chests": [],
+          "nodes": [],
+          "staircase": null,
+          "stack": null,
+          "detached": true,
+          "spinner": false,
+          "death_trap": false,
+          "portal": true
+        },
         "24035": {
           "vnum": 24035,
           "name": "Entrance to the Lair",
           "description": "The earth seems to pulse with evil emanations. The soil is a putrid mass of dead flora intermixed with detritus of unknown origin. A roughened passage through the earth leads south toward a circular cavern.",
           "grid_x": 7,
-          "grid_y": -6,
+          "grid_y": -4,
           "sub_x": 0,
           "sub_y": 0,
           "chain_id": 0,
@@ -968,7 +990,7 @@
         "max_x": 4,
         "min_y": -6,
         "max_y": 17,
-        "room_count": 21
+        "room_count": 22
       }
     },
     "1": {
@@ -1446,11 +1468,11 @@
       "direction": "e",
       "from_grid": [
         7,
-        0
+        2
       ],
       "to_grid": [
         8,
-        0
+        2
       ],
       "floor": 0,
       "is_stair": false,
